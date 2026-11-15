@@ -1,0 +1,1519 @@
+{
+  "id": "myokardinfarkt",
+  "name": "Myokardinfarkt",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "myokardinfarkt.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Myokardinfarkt (Herzinfarkt)?",
+              "options": [
+                "Eine Entzündung des Herzbeutels durch Viren",
+                "Eine Schwäche der Herzklappen mit Rückfluss von Blut",
+                "Das Absterben von Herzmuskelgewebe durch den Verschluss einer Koronararterie",
+                "Ein Verschluss eines Hirngefäßes mit Lähmungen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem Myokardinfarkt stirbt Herzmuskelgewebe ab, weil es durch den Verschluss einer Koronararterie nicht mehr durchblutet wird.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Beim Myokardinfarkt kommt es durch anhaltenden Sauerstoffmangel zur ___ (Absterben) von Herzmuskelgewebe.",
+              "options": ["Hypertrophie", "Nekrose", "Entzündung", "Stenose"],
+              "correct": 1
+            }
+          ],
+          "es": "El Myokardinfarkt o Herzinfarkt (infarto agudo al miocardio) significa que una parte del músculo del corazón muere. Pasa porque una Koronararterie (arteria coronaria) se tapa y el tejido se queda sin sangre ni oxígeno. La muerte del tejido se llama Nekrose (necrosis)."
+        },
+        {
+          "id": "myokardinfarkt.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Krankheitsbilder gehören zum akuten Koronarsyndrom (ACS)?",
+              "options": [
+                "Instabile Angina pectoris",
+                "NSTEMI",
+                "Lungenembolie",
+                "STEMI",
+                "Perikarditis"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet der Begriff „akutes Koronarsyndrom“ (ACS)?",
+              "options": [
+                "Sammelbegriff für instabile Angina pectoris, NSTEMI und STEMI",
+                "Eine chronische Herzschwäche mit Wassereinlagerungen",
+                "Eine angeborene Fehlbildung der Koronararterien",
+                "Eine Herzrhythmusstörung ohne Durchblutungsstörung"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El akutes Koronarsyndrom o ACS (síndrome coronario agudo) es un término que agrupa tres cuadros: la instabile Angina pectoris (angina inestable), el NSTEMI y el STEMI. Los tres son urgencias por falta de flujo de sangre en las coronarias, y al principio no siempre se pueden distinguir sin EKG (electrocardiograma) y laboratorio."
+        },
+        {
+          "id": "myokardinfarkt.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie unterscheiden sich STEMI und NSTEMI?",
+              "options": [
+                "Beim STEMI ist das Troponin normal, beim NSTEMI erhöht",
+                "Beim STEMI zeigt das EKG ST-Hebungen, beim NSTEMI nicht; bei beiden ist das Troponin erhöht",
+                "Der STEMI betrifft das rechte Herz, der NSTEMI das linke Herz",
+                "Der NSTEMI ist kein Herzinfarkt, sondern eine Angina pectoris"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein NSTEMI ist kein richtiger Herzinfarkt, weil im EKG keine ST-Hebungen zu sehen sind.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Form des akuten Koronarsyndroms der Beschreibung zu.",
+              "pairs": [
+                ["STEMI", "Infarkt mit ST-Hebungen im EKG, Troponin erhöht"],
+                ["NSTEMI", "Infarkt ohne ST-Hebungen im EKG, Troponin erhöht"],
+                ["Instabile Angina pectoris", "Brustschmerz ohne Anstieg des Troponins"]
+              ]
+            }
+          ],
+          "es": "STEMI quiere decir infarto con elevación del segmento ST en el EKG; NSTEMI es infarto sin esa elevación. Los dos son infartos de verdad, porque en ambos sube el Troponin (troponina), que indica daño del músculo cardiaco. En la angina inestable hay dolor, pero el Troponin no sube."
+        },
+        {
+          "id": "myokardinfarkt.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was unterscheidet den Herzinfarkt von einem Angina-pectoris-Anfall bei stabiler KHK?",
+              "options": [
+                "Beim Herzinfarkt hat der Patient nie Schmerzen",
+                "Beim Herzinfarkt bessert sich der Schmerz nach wenigen Minuten Ruhe",
+                "Beim Herzinfarkt hält der Schmerz länger als 20 Minuten an und bessert sich weder in Ruhe noch durch Nitrospray",
+                "Beim Herzinfarkt tritt der Schmerz nur bei körperlicher Belastung auf"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Brustschmerz beim Herzinfarkt verschwindet typischerweise nach wenigen Minuten Ruhe wieder.",
+              "correct": false
+            }
+          ],
+          "es": "En la Angina pectoris estable el dolor aparece con el esfuerzo y se quita en pocos minutos con reposo o con Nitrospray (nitroglicerina en aerosol). En el infarto el dolor dura más de 20 minutos y no mejora ni con reposo ni con nitro. Esa diferencia la preguntan mucho en el examen."
+        },
+        {
+          "id": "myokardinfarkt.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet der Merksatz „Time is muscle“ beim Herzinfarkt?",
+              "options": [
+                "Der Herzmuskel braucht nach dem Infarkt viel Training",
+                "Je schneller das verschlossene Gefäß wieder eröffnet wird, desto weniger Herzmuskelgewebe stirbt ab",
+                "Die Behandlung beginnt erst, wenn alle Laborwerte vorliegen",
+                "Der Patient soll sich in den ersten Stunden viel bewegen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Der Myokardinfarkt ist ein lebensbedrohlicher ___, bei dem sofort der Notarzt gerufen werden muss.",
+              "options": ["Routinefall", "Befund", "Notfall", "Zufallsbefund"],
+              "correct": 2
+            }
+          ],
+          "es": "«Time is muscle» significa que cada minuto cuenta: mientras la arteria siga tapada, muere más músculo cardiaco. Por eso el infarto siempre es un Notfall (urgencia) que pone en peligro la vida, y se llama de inmediato al Notarzt (médico de urgencias) o al 112."
+        },
+        {
+          "id": "myokardinfarkt.definition.6",
+          "type": "sprech",
+          "q": "Was ist ein Myokardinfarkt? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Ein Myokardinfarkt ist ein Herzinfarkt. Dabei wird eine Koronararterie plötzlich verschlossen, meistens durch einen Thrombus. Der Herzmuskel hinter dem Verschluss bekommt keinen Sauerstoff mehr und stirbt ab, das nennt man Nekrose. Man unterscheidet den STEMI mit ST-Hebungen im EKG und den NSTEMI ohne ST-Hebungen. Der Herzinfarkt ist immer ein lebensbedrohlicher Notfall.",
+          "points": [
+            "Verschluss einer Koronararterie",
+            "Sauerstoffmangel im Herzmuskel",
+            "Nekrose",
+            "STEMI und NSTEMI",
+            "Lebensbedrohlicher Notfall"
+          ],
+          "es": "Esta es la pregunta de entrada clásica. Di primero qué es (se tapa una coronaria), luego qué pasa (falta oxígeno y el músculo muere = Nekrose), menciona STEMI y NSTEMI y termina con que es un Notfall. Con esas cinco ideas ya tienes una definición completa."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "myokardinfarkt.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben die Koronararterien (Herzkranzgefäße)?",
+              "options": [
+                "Sie transportieren sauerstoffarmes Blut zur Lunge",
+                "Sie versorgen den Herzmuskel mit sauerstoffreichem Blut",
+                "Sie versorgen das Gehirn mit Blut",
+                "Sie leiten die elektrische Erregung im Herzen weiter"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Die Koronararterien entspringen direkt oberhalb der Aortenklappe aus der ___.",
+              "options": ["Lungenarterie", "oberen Hohlvene", "Aorta", "Lungenvene"],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Herzmuskel wird ausreichend durch das Blut versorgt, das durch die Herzkammern fließt, und braucht keine eigenen Gefäße.",
+              "correct": false
+            }
+          ],
+          "es": "Las Koronararterien o Herzkranzgefäße (arterias coronarias) salen de la aorta, justo arriba de la válvula aórtica, y llevan sangre oxigenada al propio músculo del corazón. El corazón no se alimenta de la sangre que pasa por sus cavidades; necesita sus propios vasos. Por eso, si una coronaria se tapa, esa zona del músculo se queda sin oxígeno."
+        },
+        {
+          "id": "myokardinfarkt.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welche zwei Hauptäste teilt sich die linke Koronararterie?",
+              "options": [
+                "Aorta ascendens und Aorta descendens",
+                "Arteria carotis und Arteria subclavia",
+                "Obere und untere Hohlvene",
+                "Ramus interventricularis anterior (RIVA) und Ramus circumflexus (RCX)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Abkürzung dem Gefäß zu.",
+              "pairs": [
+                ["RCA", "Rechte Koronararterie"],
+                ["LCA", "Linke Koronararterie"],
+                ["RIVA", "Vorderer Ast der linken Koronararterie"],
+                ["RCX", "Umschlingender Ast der linken Koronararterie"]
+              ]
+            }
+          ],
+          "es": "Hay dos coronarias: la rechte Koronararterie (coronaria derecha, RCA) y la linke Koronararterie (coronaria izquierda, LCA). La izquierda se divide en dos ramas: RIVA (descendente anterior) y RCX (circunfleja). Según cuál rama se tape, se daña una parte distinta del corazón."
+        },
+        {
+          "id": "myokardinfarkt.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Schicht der Herzwand der Beschreibung zu.",
+              "pairs": [
+                ["Endokard", "Herzinnenhaut"],
+                ["Myokard", "Herzmuskelschicht"],
+                ["Epikard", "Äußere Schicht der Herzwand"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Myokard?",
+              "options": [
+                "Der Herzmuskel, der sich zusammenzieht und das Blut pumpt",
+                "Der Herzbeutel, der das Herz umgibt",
+                "Die Innenhaut des Herzens, die auch die Klappen bildet",
+                "Die Scheidewand zwischen Lunge und Herz"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La pared del corazón tiene tres capas: Endokard (endocardio, capa interna), Myokard (miocardio, la capa muscular) y Epikard (epicardio, capa externa). El Myokard es el que se contrae y bombea la sangre; por eso se llama Myokardinfarkt cuando se daña esa capa."
+        },
+        {
+          "id": "myokardinfarkt.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert mit abgestorbenem Herzmuskelgewebe nach einem Infarkt?",
+              "options": [
+                "Es wird innerhalb weniger Tage durch neue Herzmuskelzellen ersetzt",
+                "Es wird durch Narbengewebe ersetzt, das sich nicht zusammenziehen kann",
+                "Es wird zu Knorpelgewebe umgebaut",
+                "Es erholt sich vollständig, sobald der Schmerz nachlässt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Abgestorbene Herzmuskelzellen wachsen nach einem Infarkt vollständig nach.",
+              "correct": false
+            }
+          ],
+          "es": "Las células del músculo cardiaco prácticamente no se regeneran. El tejido muerto se sustituye por Narbengewebe (tejido cicatricial), que no se contrae. Por eso después de un infarto grande el corazón bombea con menos fuerza y puede aparecer una Herzinsuffizienz (insuficiencia cardiaca)."
+        },
+        {
+          "id": "myokardinfarkt.anatomie.5",
+          "type": "sprech",
+          "q": "Erklären Sie die Blutversorgung des Herzens. Warum ist sie für den Herzinfarkt wichtig?",
+          "answer": "Der Herzmuskel wird durch die Koronararterien mit sauerstoffreichem Blut versorgt. Sie entspringen aus der Aorta direkt oberhalb der Aortenklappe. Es gibt eine rechte und eine linke Koronararterie, die linke teilt sich in zwei große Äste. Wenn eine Koronararterie verschlossen ist, bekommt der Herzmuskel dahinter keinen Sauerstoff mehr und stirbt ab. Das abgestorbene Gewebe wird zu einer Narbe und kann nicht mehr pumpen.",
+          "points": [
+            "Koronararterien versorgen Herzmuskel",
+            "Ursprung aus der Aorta",
+            "Rechte und linke Koronararterie",
+            "Verschluss führt zu Sauerstoffmangel",
+            "Narbe statt Muskel"
+          ],
+          "es": "Aquí solo necesitas la anatomía que explica la enfermedad: las coronarias nacen de la aorta, hay una derecha y una izquierda, y llevan oxígeno al músculo cardiaco. Si una se tapa, el tejido muere y queda una cicatriz que ya no bombea. Con eso conectas la anatomía con el infarto."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "myokardinfarkt.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die häufigste Ursache eines Myokardinfarkts?",
+              "options": [
+                "Eine bakterielle Entzündung der Herzklappen",
+                "Ein angeborener Herzfehler",
+                "Eine Lungenentzündung",
+                "Die koronare Herzkrankheit (KHK) durch Arteriosklerose der Koronararterien"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Herzinfarkt entsteht meistens auf dem Boden einer koronaren Herzkrankheit (KHK).",
+              "correct": true
+            }
+          ],
+          "es": "La causa más frecuente del infarto es la koronare Herzkrankheit o KHK (cardiopatía coronaria). En la KHK las coronarias están estrechas por Arteriosklerose (aterosclerosis). El infarto es la complicación aguda más grave de esa enfermedad."
+        },
+        {
+          "id": "myokardinfarkt.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie kommt es beim Herzinfarkt meistens zum plötzlichen Gefäßverschluss?",
+              "options": [
+                "Eine arteriosklerotische Plaque reißt auf und an dieser Stelle bildet sich ein Thrombus",
+                "Die Koronararterie wird von außen durch die Lunge abgedrückt",
+                "Die Aortenklappe schließt nicht mehr",
+                "Das Blut wird zu dünnflüssig und fließt zu schnell"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Wenn eine arteriosklerotische Plaque aufreißt (Plaqueruptur), bildet sich an dieser Stelle ein ___, der das Gefäß verschließt.",
+              "options": ["Aneurysma", "Ödem", "Thrombus", "Abszess"],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Erklärung zu.",
+              "pairs": [
+                ["Plaque", "Ablagerung in der Gefäßwand"],
+                ["Plaqueruptur", "Aufreißen der Ablagerung"],
+                ["Thrombus", "Blutgerinnsel, das das Gefäß verschließt"]
+              ]
+            }
+          ],
+          "es": "El mecanismo típico es este: una placa de aterosclerosis se rompe (Plaqueruptur, ruptura de placa), el cuerpo reacciona como si fuera una herida y forma un Thrombus (coágulo) encima. Ese coágulo tapa la coronaria de golpe. Por eso en el tratamiento se usan medicamentos contra la coagulación y las plaquetas."
+        },
+        {
+          "id": "myokardinfarkt.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet „Ischämie“ des Herzmuskels?",
+              "options": [
+                "Eine Entzündung des Herzmuskels",
+                "Eine Vergrößerung des Herzmuskels",
+                "Eine Minderdurchblutung mit Sauerstoffmangel im Gewebe",
+                "Eine Ansammlung von Flüssigkeit im Herzbeutel"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Herzmuskel kann einen vollständigen Gefäßverschluss viele Stunden lang ohne Schaden überstehen.",
+              "correct": false
+            }
+          ],
+          "es": "Ischämie (isquemia) es falta de irrigación sanguínea y, por lo tanto, falta de oxígeno en el tejido. El músculo cardiaco aguanta muy poco sin oxígeno: en poco tiempo las células empiezan a morir y el daño ya no se puede revertir. Por eso hay que abrir la arteria lo antes posible."
+        },
+        {
+          "id": "myokardinfarkt.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert bei der Arteriosklerose?",
+              "options": [
+                "Die Venenklappen schließen nicht mehr richtig",
+                "In der Arterienwand lagern sich Fette und Kalk ab, das Gefäß wird eng und starr",
+                "Die Arterien erweitern sich und werden dünner",
+                "Das Blut enthält zu wenige rote Blutkörperchen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Arteriosklerose werden die Arterien durch Ablagerungen weiter und elastischer.",
+              "correct": false
+            }
+          ],
+          "es": "En la Arteriosklerose (aterosclerosis) se depositan grasas y calcio en la pared de las arterias; esos depósitos se llaman Plaques. La arteria se hace más estrecha y rígida y pasa menos sangre. Es un proceso lento, de años, que el paciente al principio no nota."
+        },
+        {
+          "id": "myokardinfarkt.ursachen.5",
+          "type": "sprech",
+          "q": "Wie entsteht ein Herzinfarkt? Beschreiben Sie die Ursache und den Ablauf.",
+          "answer": "Die häufigste Ursache ist die koronare Herzkrankheit. Dabei sind die Koronararterien durch Arteriosklerose verengt, das heißt, in der Gefäßwand haben sich Plaques gebildet. Wenn eine Plaque aufreißt, bildet sich an dieser Stelle ein Thrombus. Der Thrombus verschließt die Koronararterie. Der Herzmuskel dahinter bekommt keinen Sauerstoff mehr, es kommt zur Ischämie und dann zur Nekrose.",
+          "points": [
+            "Koronare Herzkrankheit",
+            "Arteriosklerose mit Plaques",
+            "Plaqueruptur",
+            "Thrombus verschließt Gefäß",
+            "Ischämie und Nekrose"
+          ],
+          "es": "Cuenta la historia en orden, como una cadena: KHK → Arteriosklerose con Plaques → Plaqueruptur → Thrombus → la coronaria se tapa → Ischämie → Nekrose. Si dices estos pasos uno tras otro, el examinador ve que entiendes la fisiopatología."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "myokardinfarkt.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier sind wichtige Risikofaktoren für einen Herzinfarkt?",
+              "options": [
+                "Rauchen",
+                "Arterielle Hypertonie",
+                "Niedriger Blutdruck",
+                "Diabetes mellitus",
+                "Erhöhtes LDL-Cholesterin",
+                "Untergewicht"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Kombination nennt nur Hauptrisikofaktoren für KHK und Herzinfarkt?",
+              "options": [
+                "Untergewicht, niedriger Blutdruck, viel Bewegung",
+                "Asthma, Allergien, Migräne",
+                "Rauchen, Bluthochdruck, Diabetes mellitus, Fettstoffwechselstörung",
+                "Eisenmangel, Schilddrüsenunterfunktion, Osteoporose"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los grandes factores de riesgo cardiovascular son: Rauchen (fumar), arterielle Hypertonie (hipertensión arterial), Diabetes mellitus y Fettstoffwechselstörung (dislipidemia, sobre todo LDL alto). Todos dañan la pared de las arterias y favorecen la aterosclerosis. Apréndetelos de memoria, casi siempre los preguntan."
+        },
+        {
+          "id": "myokardinfarkt.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Risikofaktoren kann der Patient NICHT beeinflussen?",
+              "options": [
+                "Höheres Lebensalter",
+                "Rauchen",
+                "Männliches Geschlecht",
+                "Bewegungsmangel",
+                "Familiäre Veranlagung"
+              ],
+              "correct": [0, 2, 4]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Risikofaktor der richtigen Gruppe zu.",
+              "pairs": [
+                ["Familiäre Veranlagung", "Nicht beeinflussbar"],
+                ["Bewegungsmangel", "Beeinflussbar nur durch das eigene Verhalten"],
+                ["Arterielle Hypertonie", "Beeinflussbar durch Lebensstil und blutdrucksenkende Medikamente"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Alter, Geschlecht und familiäre Veranlagung sind Risikofaktoren, die man nicht beeinflussen kann.",
+              "correct": true
+            }
+          ],
+          "es": "Se dividen en nicht beeinflussbare (no modificables) y beeinflussbare Risikofaktoren (modificables). No modificables: edad, sexo masculino y la predisposición familiar. Los demás (fumar, sedentarismo, sobrepeso, presión, azúcar, colesterol) sí se pueden cambiar, y ahí entra tu Beratung (asesoría) como enfermera."
+        },
+        {
+          "id": "myokardinfarkt.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist Rauchen ein Risikofaktor für den Herzinfarkt?",
+              "options": [
+                "Rauchen senkt den Blutdruck zu stark",
+                "Rauchen schädigt die Gefäßwände und fördert Arteriosklerose und Thrombenbildung",
+                "Rauchen macht das Blut dünnflüssiger",
+                "Rauchen erweitert die Koronararterien dauerhaft"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Nach einem Herzinfarkt reicht es aus, weniger zu rauchen; ein vollständiger Rauchstopp bringt keinen Vorteil.",
+              "correct": false
+            }
+          ],
+          "es": "El tabaco daña la pared de los vasos, acelera la aterosclerosis y favorece que se formen coágulos. Por eso después de un infarto la recomendación es el Rauchstopp (dejar de fumar por completo), no solo fumar menos. Es una de las medidas más importantes para evitar un segundo infarto."
+        },
+        {
+          "id": "myokardinfarkt.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Begriff seiner Bedeutung zu.",
+              "pairs": [
+                ["LDL-Cholesterin erhöht", "Fördert Arteriosklerose"],
+                ["HDL-Cholesterin hoch", "Wirkt eher schützend für die Gefäße"],
+                ["Statin", "Medikament, das das LDL-Cholesterin senkt"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Blutfettwert gilt als besonders schädlich für die Gefäße, wenn er erhöht ist?",
+              "options": [
+                "HDL-Cholesterin",
+                "Hämoglobin",
+                "Kreatinin",
+                "LDL-Cholesterin"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein erhöhtes LDL-Cholesterin fördert die Entstehung von Arteriosklerose.",
+              "correct": true
+            }
+          ],
+          "es": "El LDL-Cholesterin es el colesterol «malo»: cuando está alto se deposita en la pared de las arterias y forma placas. El HDL es el «bueno», porque más bien protege. Para bajar el LDL se usan los Statine (estatinas) y una alimentación con pocas grasas animales."
+        },
+        {
+          "id": "myokardinfarkt.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Lebensstilfaktoren erhöhen das Herzinfarktrisiko?",
+              "options": [
+                "Bewegungsmangel",
+                "Regelmäßiger Ausdauersport",
+                "Übergewicht (Adipositas)",
+                "Dauerhafter Stress",
+                "Mediterrane Ernährung"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bewegungsmangel, Übergewicht und dauerhafter Stress erhöhen das Risiko für einen Herzinfarkt.",
+              "correct": true
+            }
+          ],
+          "es": "Además de los cuatro grandes, cuentan el Bewegungsmangel (sedentarismo), la Adipositas (obesidad) y el estrés crónico. Muchas veces van juntos y se refuerzan: el sobrepeso sube la presión, el azúcar y las grasas en sangre. Son justo los puntos que se trabajan en la Lebensstilberatung (asesoría de estilo de vida)."
+        },
+        {
+          "id": "myokardinfarkt.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für einen Herzinfarkt kennen Sie?",
+          "answer": "Man unterscheidet beeinflussbare und nicht beeinflussbare Risikofaktoren. Nicht beeinflussbar sind das höhere Lebensalter, das männliche Geschlecht und die familiäre Veranlagung. Beeinflussbar sind Rauchen, Bluthochdruck, Diabetes mellitus und erhöhte Blutfette, vor allem das LDL-Cholesterin. Dazu kommen Übergewicht, Bewegungsmangel und Stress. Diese Faktoren fördern die Arteriosklerose der Koronararterien.",
+          "points": [
+            "Beeinflussbar und nicht beeinflussbar",
+            "Alter, Geschlecht, Veranlagung",
+            "Rauchen",
+            "Hypertonie und Diabetes",
+            "Erhöhte Blutfette",
+            "Übergewicht, Bewegungsmangel, Stress"
+          ],
+          "es": "Ordena tu respuesta en dos grupos: primero los no modificables (edad, sexo masculino, herencia) y luego los modificables (fumar, hipertensión, diabetes, colesterol, sobrepeso, sedentarismo, estrés). Así suena estructurado y no se te olvida ninguno. Cierra diciendo que todos favorecen la Arteriosklerose."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "myokardinfarkt.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist das Leitsymptom des Myokardinfarkts?",
+              "options": [
+                "Stechender Schmerz im Unterbauch",
+                "Plötzlicher, starker Schmerz hinter dem Brustbein (Vernichtungsschmerz), der länger als 20 Minuten anhält",
+                "Kopfschmerz mit Lichtscheu",
+                "Schmerz in der Wade beim Gehen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der typische Infarktschmerz ist ein kurzer, stechender Schmerz, der nach etwa zwei Minuten von selbst aufhört.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Den sehr starken, anhaltenden Brustschmerz beim Herzinfarkt nennt man ___, oft verbunden mit Todesangst.",
+              "options": ["Vernichtungsschmerz", "Phantomschmerz", "Wachstumsschmerz", "Spannungsschmerz"],
+              "correct": 0
+            }
+          ],
+          "es": "El síntoma principal es el Vernichtungsschmerz (dolor «aniquilante»): un dolor muy fuerte, opresivo, retrosternal (detrás del esternón), que dura más de 20 minutos. Muchas veces viene con Todesangst (miedo a morir) y una sensación de opresión en el pecho. No se quita con reposo."
+        },
+        {
+          "id": "myokardinfarkt.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Wohin kann der Infarktschmerz ausstrahlen? Nenne die vier richtigen Antworten.",
+              "options": [
+                "Linker Arm und linke Schulter",
+                "Unterkiefer und Hals",
+                "Rechter Fuß",
+                "Oberbauch",
+                "Rücken zwischen den Schulterblättern",
+                "Rechtes Knie"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Schmerzausstrahlung ist typisch für den Herzinfarkt?",
+              "options": [
+                "In die Leiste und den Oberschenkel",
+                "In beide Waden",
+                "In den linken Arm, die Schulter, den Unterkiefer oder den Oberbauch",
+                "In die Stirn und die Augen"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El dolor del infarto se irradia (ausstrahlen): típicamente al brazo y hombro izquierdos, pero también al cuello, la mandíbula, la parte alta del abdomen o la espalda entre los omóplatos. Por eso un dolor de «estómago» o de mandíbula también puede ser un infarto y hay que tomarlo en serio."
+        },
+        {
+          "id": "myokardinfarkt.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei vegetativen Begleitsymptome sind typisch für den Herzinfarkt?",
+              "options": [
+                "Kalter Schweiß",
+                "Übelkeit und Erbrechen",
+                "Juckender Hautausschlag",
+                "Blasse, fahle Haut",
+                "Hohes Fieber über 40 °C"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Kalter Schweiß, Blässe, Übelkeit und Atemnot sind typische Begleitsymptome eines Herzinfarkts.",
+              "correct": true
+            }
+          ],
+          "es": "Junto con el dolor aparecen vegetative Symptome (síntomas vegetativos): Kaltschweißigkeit (sudor frío), palidez, náusea y vómito. También es frecuente la Dyspnoe (falta de aire). Como enfermera los notas al observar la piel y la respiración del paciente."
+        },
+        {
+          "id": "myokardinfarkt.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie zeigt sich ein Herzinfarkt bei Frauen häufig?",
+              "options": [
+                "Immer mit dem klassischen Schmerz im linken Arm",
+                "Nur mit Fieber und Husten",
+                "Ausschließlich mit Kopfschmerzen",
+                "Oft atypisch, zum Beispiel mit Übelkeit, Oberbauchschmerzen, Atemnot und starker Müdigkeit"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ohne starken Brustschmerz kann man einen Herzinfarkt sicher ausschließen.",
+              "correct": false
+            }
+          ],
+          "es": "En mujeres, en personas mayores y en diabéticos el infarto muchas veces es atypisch (atípico): en vez del dolor clásico hay náusea, dolor en la parte alta del abdomen, falta de aire o un cansancio muy fuerte. Por eso el infarto en mujeres se reconoce con frecuencia más tarde. Que no haya dolor fuerte en el pecho no descarta un infarto."
+        },
+        {
+          "id": "myokardinfarkt.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum kann ein Herzinfarkt bei Diabetikern ohne Schmerzen verlaufen („stummer Infarkt“)?",
+              "options": [
+                "Weil die diabetische Polyneuropathie die Schmerzwahrnehmung herabsetzt",
+                "Weil Diabetiker grundsätzlich keine Herzinfarkte bekommen",
+                "Weil Insulin als Schmerzmittel wirkt",
+                "Weil der Blutzucker die Koronararterien erweitert"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Ein Herzinfarkt ohne typische Schmerzen, wie er vor allem bei Diabetikern vorkommt, heißt ___ Infarkt.",
+              "options": ["leichter", "stummer", "falscher", "kalter"],
+              "correct": 1
+            }
+          ],
+          "es": "El stummer Infarkt (infarto silencioso) es un infarto sin el dolor típico. Pasa sobre todo en diabéticos, porque la diabetische Polyneuropathie (neuropatía diabética) daña los nervios y el paciente siente menos dolor. Por eso en diabéticos hay que pensar en infarto ante falta de aire, debilidad repentina o baja de presión."
+        },
+        {
+          "id": "myokardinfarkt.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome zeigt ein Patient mit einem akuten Herzinfarkt?",
+          "answer": "Das Leitsymptom ist ein plötzlicher, sehr starker Schmerz hinter dem Brustbein, der sogenannte Vernichtungsschmerz. Er hält länger als 20 Minuten an und strahlt oft in den linken Arm, die Schulter, den Unterkiefer oder den Oberbauch aus. Der Patient hat Todesangst und Atemnot. Dazu kommen vegetative Symptome wie kalter Schweiß, Blässe, Übelkeit und Erbrechen. Bei Frauen, älteren Menschen und Diabetikern sind die Symptome oft atypisch, bei Diabetikern gibt es auch den stummen Infarkt.",
+          "points": [
+            "Vernichtungsschmerz retrosternal",
+            "Länger als 20 Minuten",
+            "Ausstrahlung",
+            "Todesangst und Atemnot",
+            "Vegetative Symptome",
+            "Atypische Symptome, stummer Infarkt"
+          ],
+          "es": "Empieza con el Leitsymptom (síntoma principal): el Vernichtungsschmerz detrás del esternón, de más de 20 minutos, con irradiación. Luego agrega miedo a morir, disnea y los síntomas vegetativos. Termina con los cuadros atípicos en mujeres, adultos mayores y diabéticos; ese detalle da puntos extra."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "myokardinfarkt.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung wird bei Verdacht auf Herzinfarkt als Erstes durchgeführt?",
+              "options": [
+                "Lungenfunktionsprüfung",
+                "12-Kanal-EKG",
+                "Magenspiegelung",
+                "Langzeit-Blutdruckmessung über 24 Stunden"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf einen Herzinfarkt soll so schnell wie möglich, innerhalb von 10 Minuten, ein 12-Kanal-EKG geschrieben werden.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Beim STEMI zeigt das EKG typische ST-___.",
+              "options": ["Pausen", "Senkungen ohne Bedeutung", "Hebungen", "Blockaden der Vorhöfe"],
+              "correct": 2
+            }
+          ],
+          "es": "La primera prueba es el 12-Kanal-EKG (electrocardiograma de 12 derivaciones), lo más rápido posible, en los primeros 10 minutos. Si se ven ST-Hebungen (elevaciones del ST), es un STEMI y el paciente va directo a cateterismo. Tomar el EKG (EKG schreiben) muchas veces es tarea de enfermería."
+        },
+        {
+          "id": "myokardinfarkt.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Laborwert ist der wichtigste Marker für eine Schädigung des Herzmuskels?",
+              "options": [
+                "CRP",
+                "Kreatinin",
+                "HbA1c",
+                "Troponin"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein einzelner normaler Troponinwert kurz nach Schmerzbeginn schließt einen Herzinfarkt sicher aus.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Weil das Troponin erst einige Zeit nach Schmerzbeginn ansteigt, wird die Blutabnahme nach Anordnung ___.",
+              "options": ["wiederholt", "weggelassen", "erst nach einer Woche durchgeführt", "durch eine Urinprobe ersetzt"],
+              "correct": 0
+            }
+          ],
+          "es": "El Troponin (troponina) es una proteína del músculo cardiaco: si sube en sangre, hay daño del miocardio. Pero tarda en subir después de que empieza el dolor, así que un primer valor normal no descarta el infarto. Por eso se repite la toma de sangre según la indicación médica."
+        },
+        {
+          "id": "myokardinfarkt.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Koronarangiografie (Herzkatheteruntersuchung)?",
+              "options": [
+                "Eine Darstellung der Koronararterien mit Kontrastmittel über einen Katheter, der über eine Arterie zum Herzen geschoben wird",
+                "Eine Ultraschalluntersuchung des Herzens durch die Brustwand",
+                "Eine Aufzeichnung des Herzrhythmus über 24 Stunden",
+                "Eine Blutuntersuchung auf Herzenzyme"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Bei der Herzkatheteruntersuchung wird der Katheter meist über die Arteria radialis am Handgelenk oder über die Arteria ___ in der Leiste eingeführt.",
+              "options": ["carotis", "femoralis", "pulmonalis", "renalis"],
+              "correct": 1
+            }
+          ],
+          "es": "En la Koronarangiografie o Herzkatheteruntersuchung (cateterismo cardiaco) se mete un catéter por una arteria, casi siempre la radial en la muñeca o la femoral en la ingle, hasta las coronarias. Con Kontrastmittel (medio de contraste) se ve dónde está la obstrucción. La ventaja: en el mismo procedimiento se puede abrir el vaso."
+        },
+        {
+          "id": "myokardinfarkt.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung dem zu, was sie zeigt.",
+              "pairs": [
+                ["12-Kanal-EKG", "ST-Hebungen und Rhythmusstörungen"],
+                ["Troponin", "Schädigung von Herzmuskelzellen"],
+                ["Echokardiografie", "Pumpfunktion und Bewegung der Herzwände"],
+                ["Koronarangiografie", "Ort des Gefäßverschlusses"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was zeigt die Echokardiografie (Herzultraschall) nach einem Herzinfarkt?",
+              "options": [
+                "Den Cholesterinwert im Blut",
+                "Die Sauerstoffsättigung im Blut",
+                "Die Pumpfunktion des Herzens und Störungen der Wandbewegung",
+                "Die elektrische Erregung des Herzens"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Cada estudio responde una pregunta distinta: el EKG muestra cambios del ST y arritmias, el Troponin el daño celular, la Echokardiografie (ecocardiograma) qué tan bien bombea el corazón y cómo se mueven sus paredes, y la Koronarangiografie dónde está tapada la arteria. Si lo explicas así en el examen, suena muy claro."
+        },
+        {
+          "id": "myokardinfarkt.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben übernimmt die Pflegefachperson bei der Diagnostik eines Herzinfarkts?",
+              "options": [
+                "12-Kanal-EKG schreiben",
+                "Vitalzeichen und Sauerstoffsättigung kontrollieren",
+                "Die Diagnose stellen und dem Patienten mitteilen",
+                "Bei der Blutabnahme und beim Legen des venösen Zugangs assistieren",
+                "Den Patienten zu Fuß zum Röntgen schicken"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Ein Patient mit Verdacht auf Herzinfarkt darf zu Fuß und ohne Begleitung zur Untersuchung gehen.",
+              "correct": false
+            }
+          ],
+          "es": "En el diagnóstico tú colaboras: tomas el EKG, mides Vitalzeichen (signos vitales) y saturación, y asistes en la toma de sangre y en el acceso venoso. El diagnóstico lo hace el médico. El paciente no debe caminar ni quedarse solo: cualquier esfuerzo le pide más oxígeno al corazón y puede haber arritmias en cualquier momento."
+        },
+        {
+          "id": "myokardinfarkt.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird ein Herzinfarkt diagnostiziert?",
+          "answer": "Am Anfang stehen die Anamnese und die Beobachtung der Symptome. Sofort wird ein 12-Kanal-EKG geschrieben, beim STEMI sieht man ST-Hebungen. Im Blut wird das Troponin bestimmt, es zeigt die Schädigung des Herzmuskels und wird nach einigen Stunden kontrolliert. Mit der Herzkatheteruntersuchung, der Koronarangiografie, stellt man das verschlossene Gefäß dar. Die Echokardiografie zeigt die Pumpfunktion des Herzens.",
+          "points": [
+            "Anamnese und Symptome",
+            "12-Kanal-EKG",
+            "Troponin mit Kontrolle",
+            "Koronarangiografie",
+            "Echokardiografie"
+          ],
+          "es": "Sigue el orden en que se hace en la realidad: Anamnese (interrogatorio) y síntomas, EKG de inmediato, Troponin con control, Herzkatheter y al final el eco. Menciona que el Troponin se repite; eso muestra que sabes que al principio puede salir normal."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "myokardinfarkt.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Erstmaßnahmen sind bei Verdacht auf Herzinfarkt richtig?",
+              "options": [
+                "Notarzt bzw. Arzt sofort alarmieren",
+                "Oberkörper hoch lagern",
+                "Patienten zur Ablenkung im Zimmer umhergehen lassen",
+                "Patienten beruhigen und nicht allein lassen",
+                "Vitalzeichen kontrollieren und Monitoring anlegen",
+                "Etwas zu essen anbieten"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Wie wird ein Patient mit akutem Herzinfarkt gelagert, wenn er nicht im Schock ist?",
+              "options": [
+                "Flach auf dem Bauch",
+                "Mit hochgelagerten Beinen und tiefem Kopf",
+                "Mit erhöhtem Oberkörper",
+                "In Seitenlage mit angewinkelten Beinen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Sauerstoff wird beim Herzinfarkt nach ärztlicher Anordnung gegeben, vor allem bei niedriger Sauerstoffsättigung oder Atemnot.",
+              "correct": true
+            }
+          ],
+          "es": "Las Erstmaßnahmen (primeras medidas) son: avisar de inmediato al médico o al Notarzt, Oberkörperhochlagerung (elevar el tronco) para descargar el corazón, calmar al paciente y no dejarlo solo, y vigilar signos vitales con monitor. El oxígeno se da por indicación médica, sobre todo si la saturación está baja. El paciente guarda reposo absoluto."
+        },
+        {
+          "id": "myokardinfarkt.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum darf ein Patient mit Verdacht auf Herzinfarkt keine intramuskuläre (i.m.) Injektion bekommen?",
+              "options": [
+                "Weil i.m.-Injektionen das Troponin senken",
+                "Weil der Muskel das Medikament nicht aufnimmt",
+                "Weil i.m.-Injektionen den Blutzucker erhöhen",
+                "Weil unter Lyse und gerinnungshemmender Therapie Blutungsgefahr besteht und Laborwerte wie die CK verfälscht werden"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf Herzinfarkt werden Schmerzmittel am besten intramuskulär gespritzt.",
+              "correct": false
+            }
+          ],
+          "es": "Regla clásica de examen: keine i.m.-Injektion (nada de inyecciones intramusculares) si se sospecha infarto. El paciente recibe anticoagulantes y a veces Lyse (trombólisis), así que puede sangrar dentro del músculo; además la inyección eleva la CK y falsea el laboratorio. Los medicamentos se dan por vía intravenosa."
+        },
+        {
+          "id": "myokardinfarkt.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die bevorzugte Therapie beim STEMI?",
+              "options": [
+                "Die möglichst schnelle Wiedereröffnung des Gefäßes im Herzkatheterlabor (PCI), meist mit Stent",
+                "Bettruhe für sechs Wochen ohne weitere Behandlung",
+                "Eine Antibiotikatherapie über zehn Tage",
+                "Krankengymnastik ab der ersten Stunde"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Bei der PCI wird die verengte Stelle mit einem Ballon aufgedehnt und meist ein ___ eingesetzt, der das Gefäß offen hält.",
+              "options": ["Schrittmacher", "Stent", "Shunt", "Port"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ziel der Akuttherapie beim Herzinfarkt ist, das verschlossene Gefäß so schnell wie möglich wieder zu eröffnen.",
+              "correct": true
+            }
+          ],
+          "es": "La meta es la Reperfusion: abrir la arteria lo antes posible. El tratamiento de elección es la PCI (intervención coronaria percutánea) en la sala de hemodinamia: con un balón se dilata la zona estrecha y casi siempre se coloca un Stent (malla metálica) que mantiene el vaso abierto."
+        },
+        {
+          "id": "myokardinfarkt.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Lysetherapie und wann wird sie beim Herzinfarkt eingesetzt?",
+              "options": [
+                "Eine Operation am offenen Herzen, die immer zuerst gemacht wird",
+                "Eine Schmerztherapie mit Morphin",
+                "Die medikamentöse Auflösung des Thrombus, wenn ein Herzkatheter nicht rechtzeitig möglich ist",
+                "Eine Sauerstofftherapie über die Nasenbrille"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Lysetherapie muss die Pflegefachperson den Patienten besonders auf Blutungen beobachten.",
+              "correct": true
+            }
+          ],
+          "es": "La Lyse o Lysetherapie (trombólisis) disuelve el coágulo con medicamentos. Se usa en el STEMI cuando no se puede hacer un cateterismo a tiempo. El gran riesgo es el sangrado, por eso vigilas encías, orina, heces, sitios de punción y el estado de conciencia."
+        },
+        {
+          "id": "myokardinfarkt.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Medikamentengruppe ihrer Aufgabe in der Dauertherapie nach Herzinfarkt zu.",
+              "pairs": [
+                ["Thrombozytenaggregationshemmer (z. B. ASS)", "Verhindern neue Thromben"],
+                ["Betablocker", "Senken Herzfrequenz und Sauerstoffbedarf des Herzens"],
+                ["ACE-Hemmer", "Senken den Blutdruck und entlasten das Herz"],
+                ["Statine", "Senken das LDL-Cholesterin"]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche vier Medikamentengruppen gehören typischerweise zur Dauertherapie nach einem Herzinfarkt?",
+              "options": [
+                "Thrombozytenaggregationshemmer",
+                "Betablocker",
+                "Antibiotika",
+                "ACE-Hemmer",
+                "Statine",
+                "Schlafmittel"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Worauf achtet die Pflegefachperson besonders bei Patienten, die Thrombozytenaggregationshemmer einnehmen?",
+              "options": [
+                "Auf Haarausfall",
+                "Auf Blutungszeichen wie Hämatome, Nasenbluten oder Teerstuhl",
+                "Auf vermehrten Appetit",
+                "Auf erhöhte Körpertemperatur"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Después del infarto el paciente toma medicamentos de forma permanente: Thrombozytenaggregationshemmer (antiagregantes plaquetarios, como ASS = ácido acetilsalicílico), Betablocker, ACE-Hemmer (inhibidores de la ECA) y Statine. Tú observas el efecto y los efectos secundarios: sangrados con los antiagregantes, pulso y presión bajos con Betablocker y ACE-Hemmer."
+        },
+        {
+          "id": "myokardinfarkt.therapie.6",
+          "type": "sprech",
+          "q": "Sie kommen ins Zimmer und Ihr Patient klagt über starke Brustschmerzen und ist kaltschweißig. Was tun Sie?",
+          "answer": "Ich bleibe beim Patienten, beruhige ihn und alarmiere sofort den Arzt oder über die Klingel das Notfallteam. Ich lagere den Oberkörper hoch und öffne beengende Kleidung, der Patient darf sich nicht anstrengen. Ich kontrolliere Blutdruck, Puls, Atmung und Sauerstoffsättigung und schließe ein Monitoring an. Sauerstoff gebe ich nach ärztlicher Anordnung. Ich bereite das EKG, einen venösen Zugang und die Notfallmedikamente vor und gebe keine i.m.-Injektion. Alles dokumentiere ich mit Uhrzeit.",
+          "points": [
+            "Arzt alarmieren",
+            "Beim Patienten bleiben, beruhigen",
+            "Oberkörper hochlagern",
+            "Vitalzeichen und Monitoring",
+            "Sauerstoff nach Anordnung",
+            "Keine i.m.-Injektion"
+          ],
+          "es": "Esta pregunta de caso es muy probable. Lo importante es el orden: no dejas solo al paciente, pides ayuda, lo colocas con el tronco elevado, tomas signos vitales, conectas el monitor y preparas EKG y acceso venoso. Menciona siempre «Sauerstoff nach Anordnung» y «keine i.m.-Injektion»; son dos frases que los examinadores quieren oír."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "myokardinfarkt.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation ist in den ersten Stunden nach einem Herzinfarkt die häufigste Todesursache?",
+              "options": [
+                "Lungenentzündung",
+                "Thrombose der Beinvenen",
+                "Kammerflimmern",
+                "Harnwegsinfekt"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Herzrhythmusstörungen sind die häufigste Komplikation in der frühen Phase nach einem Herzinfarkt.",
+              "correct": true
+            }
+          ],
+          "es": "Las Herzrhythmusstörungen (arritmias) son la complicación más frecuente en las primeras horas. La más peligrosa es el Kammerflimmern (fibrilación ventricular), la causa principal de muerte temprana. Por eso el paciente está con monitor continuo en la unidad de cuidados intensivos o coronarios."
+        },
+        {
+          "id": "myokardinfarkt.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sprechen für einen kardiogenen Schock?",
+              "options": [
+                "Blutdruckabfall",
+                "Schneller, schwacher Puls",
+                "Rosige, warme, trockene Haut",
+                "Kalte, blasse, schweißige Haut",
+                "Unruhe oder Bewusstseinstrübung",
+                "Sehr große Urinmenge"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein kardiogener Schock?",
+              "options": [
+                "Ein Schock durch großen Blutverlust",
+                "Ein Kreislaufversagen, weil das Herz nicht mehr genug Blut pumpt",
+                "Eine allergische Reaktion auf Kontrastmittel",
+                "Ein Schock durch eine schwere Infektion"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "En el kardiogener Schock (choque cardiogénico) el corazón dañado ya no bombea suficiente sangre y falla la circulación. Lo reconoces por presión baja, pulso rápido y débil, piel fría, pálida y sudorosa, inquietud o conciencia alterada y poca orina. Es una urgencia vital: avisas al médico de inmediato."
+        },
+        {
+          "id": "myokardinfarkt.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Symptome zeigen, dass sich nach einem Herzinfarkt eine akute Linksherzinsuffizienz mit Lungenödem entwickelt?",
+              "options": [
+                "Juckreiz und Hautausschlag",
+                "Schmerzen beim Wasserlassen",
+                "Zunehmende Atemnot, rasselnde Atmung und schaumiger Auswurf",
+                "Gelbfärbung der Haut"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Wenn das linke Herz nach dem Infarkt zu schwach pumpt, staut sich das Blut in die Lunge zurück und es kann ein ___ entstehen.",
+              "options": ["Lungenödem", "Pneumothorax", "Aszites", "Ileus"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine Herzinsuffizienz kann nach einem Herzinfarkt nicht auftreten, weil die Narbe das Herz stärker macht.",
+              "correct": false
+            }
+          ],
+          "es": "Si el infarto daña mucho el ventrículo izquierdo, aparece una Linksherzinsuffizienz (insuficiencia cardiaca izquierda): la sangre se estanca hacia los pulmones y puede haber Lungenödem (edema pulmonar). Lo notas por disnea que aumenta, respiración con estertores y esputo espumoso. A largo plazo puede quedar una insuficiencia cardiaca crónica."
+        },
+        {
+          "id": "myokardinfarkt.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ihr Infarktpatient ist plötzlich bewusstlos, atmet nicht normal und der Monitor zeigt Kammerflimmern. Was ist richtig?",
+              "options": [
+                "Abwarten, ob der Rhythmus von selbst wieder normal wird",
+                "Sofort Notfallalarm auslösen, mit der Reanimation beginnen und so früh wie möglich defibrillieren",
+                "Den Patienten aufsetzen und ihm Wasser anbieten",
+                "Zuerst die Angehörigen anrufen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei Kammerflimmern wartet die Pflegefachperson zunächst ab und beginnt erst mit der Reanimation, wenn der Arzt im Zimmer ist.",
+              "correct": false
+            }
+          ],
+          "es": "El Kammerflimmern es un paro circulatorio: el corazón ya no bombea. No se espera a nadie: activas la alarma de emergencia, empiezas de inmediato la Reanimation (reanimación cardiopulmonar) y se desfibrila lo antes posible. Por eso debes saber dónde están el carro de paro y el Defibrillator en tu servicio."
+        },
+        {
+          "id": "myokardinfarkt.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Komplikation der Beschreibung zu.",
+              "pairs": [
+                ["Reinfarkt", "Erneuter Verschluss einer Koronararterie"],
+                ["Herzinsuffizienz", "Verminderte Pumpleistung des Herzens"],
+                ["Kammerflimmern", "Lebensbedrohliche Rhythmusstörung mit Kreislaufstillstand"],
+                ["Kardiogener Schock", "Kreislaufversagen durch Pumpversagen des Herzens"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Reinfarkt?",
+              "options": [
+                "Ein erneuter Herzinfarkt",
+                "Ein Herzinfarkt, der nur im EKG sichtbar ist",
+                "Eine Blutung an der Punktionsstelle",
+                "Eine Entzündung der Herzklappen"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Las cuatro complicaciones que debes poder nombrar son: Herzrhythmusstörungen, kardiogener Schock, Herzinsuffizienz y Reinfarkt (reinfarto, es decir, un nuevo infarto). El riesgo de Reinfarkt baja si el paciente toma sus medicamentos todos los días y cambia su estilo de vida."
+        },
+        {
+          "id": "myokardinfarkt.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können nach einem Herzinfarkt auftreten und woran erkennen Sie sie?",
+          "answer": "Die häufigste frühe Komplikation sind Herzrhythmusstörungen bis zum Kammerflimmern, deshalb wird der Patient am Monitor überwacht. Wenn das Herz zu wenig pumpt, kann ein kardiogener Schock entstehen, das erkenne ich an Blutdruckabfall, schnellem Puls und kalter, schweißiger Haut. Es kann auch eine Herzinsuffizienz mit Lungenödem auftreten, dann hat der Patient zunehmende Atemnot und eine rasselnde Atmung. Außerdem besteht die Gefahr eines Reinfarkts, das zeigt sich durch erneute Brustschmerzen. Bei allen Zeichen informiere ich sofort den Arzt.",
+          "points": [
+            "Herzrhythmusstörungen, Kammerflimmern",
+            "Kardiogener Schock",
+            "Herzinsuffizienz mit Lungenödem",
+            "Reinfarkt",
+            "Arzt sofort informieren"
+          ],
+          "es": "Nombra cada complicación junto con su señal de alarma: arritmias (monitor), choque cardiogénico (presión baja, piel fría y sudorosa), insuficiencia cardiaca (disnea, estertores) y reinfarto (otra vez dolor en el pecho). Así muestras que no solo conoces los nombres, sino que sabes qué observar."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten in der Akutphase nach einem Herzinfarkt?",
+          "answer": "Ich kontrolliere engmaschig die Vitalzeichen, also Blutdruck, Puls, Atmung und Sauerstoffsättigung, und beobachte den Herzrhythmus am Monitor. Ich frage regelmäßig nach Schmerzen, zum Beispiel mit einer Schmerzskala. Ich beobachte die Haut auf Blässe, Kaltschweißigkeit und Zyanose und achte auf das Bewusstsein und auf Angst oder Unruhe. Außerdem kontrolliere ich die Urinausscheidung. Veränderungen wie erneute Brustschmerzen, Atemnot oder Rhythmusstörungen melde ich sofort dem Arzt und dokumentiere sie.",
+          "points": [
+            "Vitalzeichen engmaschig",
+            "Herzrhythmus am Monitor",
+            "Schmerzen erfragen",
+            "Haut und Bewusstsein",
+            "Ausscheidung",
+            "Veränderungen sofort melden"
+          ],
+          "es": "En la fase aguda la observación es tu tarea principal: signos vitales, monitor, dolor, piel, conciencia y orina. Cada parámetro te avisa de una complicación: el ritmo de arritmias, la presión y la piel de choque, la respiración de insuficiencia cardiaca. Termina siempre con «sofort dem Arzt melden und dokumentieren»."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Ihr Patient kommt von der Herzkatheteruntersuchung zurück auf die Station. Worauf achten Sie?",
+          "answer": "Ich kontrolliere regelmäßig die Punktionsstelle und den Druckverband auf Nachblutung, Hämatom und Schwellung. An der betroffenen Extremität prüfe ich Durchblutung, Motorik und Sensibilität, also Puls, Hautfarbe, Temperatur, Beweglichkeit und Gefühl. Ich kontrolliere engmaschig Blutdruck und Puls. Der Patient hält die Bettruhe nach ärztlicher Anordnung ein, bei Punktion in der Leiste soll er das Bein gestreckt lassen. Ich achte darauf, dass er nach Anordnung ausreichend trinkt, damit das Kontrastmittel ausgeschieden wird, und informiere ihn, dass er sich bei Blutung, Schmerzen oder Taubheitsgefühl sofort meldet.",
+          "points": [
+            "Punktionsstelle und Druckverband",
+            "Nachblutung, Hämatom",
+            "Durchblutung, Motorik, Sensibilität",
+            "Vitalzeichenkontrolle",
+            "Bettruhe nach Anordnung",
+            "Patient informieren"
+          ],
+          "es": "Después del Herzkatheter el riesgo principal es la Nachblutung (sangrado posterior) en la Punktionsstelle (sitio de punción), porque se puncionó una arteria y el paciente tiene anticoagulantes. Revisas el Druckverband (vendaje compresivo) y en la extremidad la circulación, el movimiento y la sensibilidad. El tiempo de reposo en cama lo indica el médico y depende del acceso (muñeca o ingle)."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.3",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient gibt zwei Tage nach dem Herzinfarkt erneut Druck auf der Brust an. Was tun Sie zuerst?",
+              "options": [
+                "Ihn bitten, bis zur nächsten Visite zu warten",
+                "Ihn zur Ablenkung über den Flur begleiten",
+                "Ihm eine Wärmflasche auf die Brust legen",
+                "Ihn ins Bett bringen, Oberkörper hoch lagern, Vitalzeichen kontrollieren und sofort den Arzt informieren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Erneute Brustschmerzen nach einem Herzinfarkt sind ein Warnzeichen und müssen sofort dem Arzt gemeldet werden.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Beobachtungen bei einem Infarktpatienten müssen Sie sofort dem Arzt melden?",
+              "options": [
+                "Erneute Brustschmerzen",
+                "Unregelmäßiger Puls oder Rhythmusstörungen am Monitor",
+                "Der Patient möchte lieber Tee als Kaffee",
+                "Zunehmende Atemnot",
+                "Der Patient schläft nachts ruhig"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "Un nuevo dolor u opresión en el pecho puede ser un Reinfarkt; la disnea que aumenta, una insuficiencia cardiaca; el pulso irregular, una arritmia. En los tres casos el paciente deja de esforzarse, lo colocas con el tronco elevado, tomas signos vitales y avisas de inmediato al médico. Nunca se espera a la visita."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie mobilisieren Sie einen Patienten nach einem Herzinfarkt?",
+          "answer": "In der Akutphase hat der Patient Bettruhe, um das Herz zu entlasten. Danach wird er stufenweise und nach ärztlicher Anordnung mobilisiert: zuerst Sitzen an der Bettkante, dann Stehen, Gehen im Zimmer, auf dem Flur und später Treppensteigen. Vor, während und nach der Mobilisation kontrolliere ich Puls und Blutdruck und beobachte den Patienten. Bei Brustschmerzen, Atemnot, Schwindel oder Rhythmusstörungen breche ich die Mobilisation sofort ab und informiere den Arzt. Die Belastung wird nur langsam gesteigert.",
+          "points": [
+            "Zuerst Bettruhe",
+            "Stufenweise Mobilisation",
+            "Nach ärztlicher Anordnung",
+            "Puls- und Blutdruckkontrolle",
+            "Abbruch bei Beschwerden"
+          ],
+          "es": "La palabra clave es stufenweise Mobilisation (movilización por etapas): primero reposo, luego sentarse al borde de la cama, pararse, caminar en el cuarto, en el pasillo y al final escaleras. El ritmo lo indica el médico según el tamaño del infarto. Tomas pulso y presión antes, durante y después, y suspendes si hay dolor, disnea, mareo o arritmias."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.5",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Bei welchen drei Zeichen brechen Sie die Mobilisation eines Infarktpatienten sofort ab?",
+              "options": [
+                "Brustschmerzen",
+                "Atemnot",
+                "Der Patient lächelt und unterhält sich",
+                "Schwindel oder starker Pulsanstieg",
+                "Leichter Durst"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Nach einem Herzinfarkt wird die körperliche Belastung langsam und stufenweise gesteigert.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Warum wird der Patient nach einem Herzinfarkt stufenweise mobilisiert?",
+              "options": [
+                "Weil Bewegung für das Herz grundsätzlich schädlich ist",
+                "Damit das geschädigte Herz nicht überlastet wird, aber die Folgen der Immobilität vermieden werden",
+                "Damit er möglichst lange im Krankenhaus bleibt",
+                "Weil die Punktionsstelle mehrere Wochen ruhig gestellt werden muss"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La movilización por etapas busca un equilibrio: el corazón dañado no debe sobrecargarse, pero quedarse en cama mucho tiempo trae trombosis, neumonía y pérdida de fuerza. Las Abbruchkriterien (criterios para suspender) son dolor en el pecho, disnea, mareo y pulso muy acelerado o irregular."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie unterstützen Sie einen Patienten nach einem Herzinfarkt bei der Körperpflege?",
+          "answer": "In der Akutphase übernehme ich die Körperpflege im Bett weitgehend, damit der Patient sich nicht anstrengt und das Herz entlastet wird. Ich arbeite ruhig, plane Pausen ein und beobachte den Patienten auf Belastungszeichen wie Schmerzen, Atemnot oder Pulsanstieg. Weil der Patient oft stark schwitzt, achte ich auf trockene Haut und wechsle die Wäsche. Die Körperpflege nutze ich zur Hautbeobachtung. Mit der stufenweisen Mobilisation übernimmt der Patient schrittweise wieder mehr selbst, zuerst im Bett, dann am Waschbecken.",
+          "points": [
+            "Übernahme in der Akutphase",
+            "Herz entlasten, Pausen",
+            "Belastungszeichen beobachten",
+            "Hautbeobachtung, Wäschewechsel",
+            "Selbstständigkeit schrittweise fördern"
+          ],
+          "es": "En la fase aguda tú haces casi todo el aseo en cama, porque hasta lavarse es un esfuerzo para el corazón. Trabajas con calma, con pausas, y observas si aparece dolor, disnea o taquicardia. Después, junto con la movilización por etapas, el paciente va retomando su autonomía; eso también es parte del objetivo de enfermería."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Bekleidung eines Patienten mit Herzinfarkt?",
+          "answer": "Im Notfall öffne ich sofort beengende Kleidung am Hals und am Oberkörper, damit der Patient frei atmen kann. Im weiteren Verlauf trägt der Patient bequeme, weite Kleidung, die sich vorne leicht öffnen lässt, damit Elektroden, Monitorkabel und der venöse Zugang gut erreichbar sind. Ich helfe beim An- und Auskleiden, damit er sich nicht anstrengt. Wenn der Patient stark geschwitzt hat, wechsle ich die feuchte Kleidung, damit er nicht auskühlt. Später fördere ich das selbstständige Ankleiden entsprechend der Belastungsstufe.",
+          "points": [
+            "Beengende Kleidung öffnen",
+            "Bequeme, weite Kleidung",
+            "Elektroden und Zugang erreichbar",
+            "Hilfe beim An- und Auskleiden",
+            "Feuchte Kleidung wechseln"
+          ],
+          "es": "En la urgencia lo primero es aflojar la ropa apretada para que respire mejor. Después conviene ropa cómoda, amplia y que abra por delante, para llegar fácil a los electrodos y al acceso venoso. Ayudas a vestirlo para que no se esfuerce y cambias la ropa húmeda por el sudor frío, para que no se enfríe."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Was ist bei der Ernährung eines Patienten nach einem Herzinfarkt wichtig?",
+          "answer": "In der Akutphase bekommt der Patient leichte Kost in mehreren kleinen Mahlzeiten, weil große Mahlzeiten und blähende Speisen das Herz belasten. Langfristig empfehle ich eine herzgesunde, mediterrane Ernährung mit viel Gemüse, Obst, Vollkornprodukten, Fisch und pflanzlichen Ölen und wenig tierischen Fetten und wenig Salz. Bei Übergewicht ist eine Gewichtsreduktion sinnvoll. Die Kost soll ballaststoffreich sein, damit der Patient beim Stuhlgang nicht pressen muss. Die Trinkmenge richtet sich nach der ärztlichen Anordnung, zum Beispiel bei Herzinsuffizienz.",
+          "points": [
+            "Leichte Kost, kleine Mahlzeiten",
+            "Mediterrane Ernährung",
+            "Wenig tierische Fette und Salz",
+            "Gewichtsreduktion bei Übergewicht",
+            "Ballaststoffreich",
+            "Trinkmenge nach Anordnung"
+          ],
+          "es": "Al principio: leichte Kost (dieta ligera) en porciones pequeñas, porque una comida pesada le da más trabajo al corazón. A largo plazo: alimentación mediterránea, con verduras, fruta, pescado y aceites vegetales, y pocas grasas animales y poca sal, para frenar la aterosclerosis. La fibra evita el estreñimiento, y los líquidos van según la indicación médica."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Ihr Patient wird bald nach einem Herzinfarkt entlassen. Wozu beraten Sie ihn?",
+          "answer": "Ich berate ihn zu einem herzgesunden Lebensstil: nicht mehr rauchen, sich mediterran ernähren, Übergewicht reduzieren, Stress abbauen und sich regelmäßig bewegen, zum Beispiel in einer Herzsportgruppe. Ich erkläre, dass er seine Medikamente regelmäßig und dauerhaft einnehmen muss und sie nicht selbst absetzen darf. Blutdruck, Blutzucker und Blutfette sollen regelmäßig beim Hausarzt kontrolliert werden. Ich informiere über die Anschlussheilbehandlung in einer Rehabilitationsklinik. Wichtig ist auch, dass er und seine Angehörigen die Warnzeichen kennen und bei erneuten Brustschmerzen sofort den Notruf 112 wählen.",
+          "points": [
+            "Rauchstopp",
+            "Ernährung und Gewicht",
+            "Bewegung, Herzsportgruppe",
+            "Regelmäßige Medikamenteneinnahme",
+            "Rehabilitation",
+            "Warnzeichen und Notruf 112"
+          ],
+          "es": "La Beratung busca evitar un segundo infarto (Sekundärprävention). Los temas son: dejar de fumar, alimentación, peso, estrés, ejercicio en una Herzsportgruppe (grupo de ejercicio para cardiópatas con supervisión médica), tomar los medicamentos sin suspenderlos y la Anschlussheilbehandlung (rehabilitación después del hospital). Y siempre: reconocer las señales de alarma y llamar al 112."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist die Obstipationsprophylaxe nach einem Herzinfarkt besonders wichtig und wie führen Sie sie durch?",
+          "answer": "Der Patient darf beim Stuhlgang nicht pressen, weil starkes Pressen den Kreislauf und das Herz belastet und Rhythmusstörungen auslösen kann. Durch Bettruhe und Schmerzmittel wie Opioide ist das Obstipationsrisiko aber erhöht. Deshalb achte ich auf ballaststoffreiche Kost und auf ausreichende Flüssigkeit im Rahmen der erlaubten Trinkmenge. Ich beobachte und dokumentiere den Stuhlgang und fördere die Bewegung im Rahmen der Mobilisationsstufe. Nach ärztlicher Anordnung gebe ich ein mildes Abführmittel. Wenn möglich benutzt der Patient den Toilettenstuhl statt des Steckbeckens, weil das weniger anstrengend ist.",
+          "points": [
+            "Pressen vermeiden",
+            "Herzbelastung, Rhythmusstörungen",
+            "Ballaststoffe und Flüssigkeit",
+            "Stuhlgang beobachten",
+            "Laxans nach Anordnung",
+            "Toilettenstuhl statt Steckbecken"
+          ],
+          "es": "La Obstipationsprophylaxe (prevención del estreñimiento) es típica del infarto: al pujar (pressen) sube la presión en el tórax, el corazón se sobrecarga y pueden aparecer arritmias. El reposo y los opioides favorecen el estreñimiento. Por eso: fibra, líquidos dentro de lo permitido, vigilar las evacuaciones, laxante suave por indicación médica y Toilettenstuhl (silla cómodo) en lugar del Steckbecken (cómodo de cama)."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Prophylaxe dem Grund zu, warum sie nach einem Herzinfarkt wichtig ist.",
+              "pairs": [
+                ["Thromboseprophylaxe", "Bettruhe verlangsamt den venösen Blutfluss in den Beinen"],
+                ["Pneumonieprophylaxe", "Bettruhe und flache Atmung belüften die Lunge schlechter"],
+                ["Obstipationsprophylaxe", "Pressen beim Stuhlgang belastet das Herz"],
+                ["Dekubitusprophylaxe", "Bettruhe führt zu anhaltendem Druck auf die Haut"]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche vier Prophylaxen sind bei einem Patienten mit Herzinfarkt und Bettruhe besonders wichtig?",
+              "options": [
+                "Thromboseprophylaxe",
+                "Pneumonieprophylaxe",
+                "Obstipationsprophylaxe",
+                "Dekubitusprophylaxe",
+                "Aspirationsprophylaxe wegen Schluckstörung",
+                "Kontrakturenprophylaxe wegen Spastik"
+              ],
+              "correct": [0, 1, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem Infarktpatienten mit Bettruhe sind Prophylaxen nicht nötig, weil er nur wenige Tage im Bett liegt.",
+              "correct": false
+            }
+          ],
+          "es": "Las cuatro profilaxis importantes en el infarto vienen del reposo en cama: Thromboseprophylaxe (trombosis), Pneumonieprophylaxe (neumonía), Obstipationsprophylaxe (estreñimiento) y Dekubitusprophylaxe (úlceras por presión). En el examen di siempre el porqué de cada una; aunque el reposo sea corto, el riesgo existe."
+        },
+        {
+          "id": "myokardinfarkt.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie führen Sie die Thrombose- und die Pneumonieprophylaxe bei einem Patienten nach Herzinfarkt durch?",
+          "answer": "Durch die Bettruhe besteht ein erhöhtes Thromboserisiko. Zur Thromboseprophylaxe mobilisiere ich den Patienten so früh, wie es die ärztliche Anordnung erlaubt, und leite ihn zu Bewegungsübungen der Füße und Beine im Bett an. Die medikamentöse Thromboseprophylaxe gebe ich nach ärztlicher Anordnung. Zur Pneumonieprophylaxe lagere ich den Oberkörper hoch, leite den Patienten zu tiefem Durchatmen an und beobachte die Atmung. Alle Übungen passe ich an die Belastbarkeit an, der Patient darf sich dabei nicht überanstrengen.",
+          "points": [
+            "Erhöhtes Risiko durch Bettruhe",
+            "Frühmobilisation nach Anordnung",
+            "Bewegungsübungen im Bett",
+            "Medikamentöse Prophylaxe nach Anordnung",
+            "Oberkörperhochlagerung, Atemübungen",
+            "An Belastbarkeit anpassen"
+          ],
+          "es": "Contra la trombosis: movilización temprana según indicación, ejercicios de pies y piernas en la cama y el anticoagulante que indique el médico. Contra la neumonía: tronco elevado y ejercicios de respiración profunda. Lo especial en el infarto es que todo se adapta a la Belastbarkeit (tolerancia al esfuerzo): la profilaxis no debe sobrecargar al corazón."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "myokardinfarkt.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit akutem Myokardinfarkt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat starke Brustschmerzen und Todesangst aufgrund des Herzinfarkts. Ziel: Der Patient gibt innerhalb von 30 Minuten nach der Schmerzmittelgabe einen Schmerzwert von höchstens 3 auf der NRS an und äußert, dass er sich sicher fühlt. Maßnahmen: Ich erfasse die Schmerzen regelmäßig mit der NRS und gebe Schmerzmittel nach ärztlicher Anordnung. Ich lagere den Oberkörper hoch und sorge für Ruhe. Ich bleibe beim Patienten, erkläre alle Maßnahmen und stelle die Klingel in Reichweite. Ich kontrolliere die Vitalzeichen und beobachte die Wirkung der Medikamente.",
+          "points": [
+            "Problem: Brustschmerzen und Angst",
+            "Ziel: NRS höchstens 3",
+            "Schmerzerfassung, Analgetika nach Anordnung",
+            "Oberkörperhochlagerung, Ruhe",
+            "Anwesenheit und Information"
+          ],
+          "es": "Dolor y miedo van juntos en el infarto, y los dos aumentan el consumo de oxígeno del corazón; por eso es el problema de enfermería número uno. El objetivo es medible con la NRS (escala numérica del dolor) y tiene tiempo definido. Las medidas combinan analgesia por indicación médica, posición, reposo y tu presencia tranquilizadora."
+        },
+        {
+          "id": "myokardinfarkt.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein Pflegeproblem zum Thema Mobilität und Selbstversorgung bei einem Patienten nach Herzinfarkt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist aufgrund der verminderten Belastbarkeit des Herzens und der Bettruhe in der Mobilität und in der Selbstversorgung eingeschränkt. Ziel: Der Patient geht innerhalb von sieben Tagen in Begleitung auf dem Stationsflur, ohne Brustschmerzen oder Atemnot zu haben. Maßnahmen: Ich mobilisiere den Patienten stufenweise nach ärztlicher Anordnung. Ich kontrolliere Puls und Blutdruck vor, während und nach der Belastung und breche bei Beschwerden ab. Ich unterstütze ihn bei der Körperpflege und beim Ankleiden und plane Ruhepausen ein. Ich führe Thrombose-, Pneumonie- und Dekubitusprophylaxe durch.",
+          "points": [
+            "Problem: verminderte Belastbarkeit",
+            "Ziel: Flurgehen ohne Beschwerden",
+            "Stufenweise Mobilisation",
+            "Puls- und Blutdruckkontrolle",
+            "Unterstützung bei der Körperpflege",
+            "Prophylaxen"
+          ],
+          "es": "El segundo problema típico es la verminderte Belastbarkeit (menor tolerancia al esfuerzo): el paciente no puede moverse ni cuidarse solo como antes. El objetivo dice qué logra, cómo se comprueba (sin dolor ni disnea) y en qué plazo. Las medidas son la movilización por etapas con control de pulso y presión, ayuda en el aseo y las profilaxis."
+        },
+        {
+          "id": "myokardinfarkt.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein Pflegeproblem zum Thema Beratung bei einem Patienten nach Herzinfarkt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat ein Wissensdefizit über seine Erkrankung und seine Risikofaktoren, deshalb besteht die Gefahr eines Reinfarkts. Ziel: Der Patient nennt bis zur Entlassung seine persönlichen Risikofaktoren, drei Maßnahmen für einen herzgesunden Lebensstil und das richtige Verhalten bei erneuten Brustschmerzen. Maßnahmen: Ich führe Beratungsgespräche über Rauchstopp, Ernährung, Bewegung und Stressabbau und beziehe die Angehörigen ein. Ich erkläre die regelmäßige Einnahme der Medikamente. Ich informiere über Herzsportgruppen und die Rehabilitation und gebe Informationsmaterial mit. Ich erkläre die Warnzeichen und den Notruf 112.",
+          "points": [
+            "Problem: Wissensdefizit, Reinfarktgefahr",
+            "Ziel: nennt Risikofaktoren und Maßnahmen",
+            "Lebensstilberatung",
+            "Medikamenteneinnahme erklären",
+            "Herzsportgruppe und Rehabilitation",
+            "Warnzeichen und Notruf"
+          ],
+          "es": "El tercer problema es el Wissensdefizit (déficit de conocimientos) con riesgo de Reinfarkt. Un objetivo de asesoría se hace medible cuando el paciente «nennt» (nombra) algo concreto antes del alta. Las medidas son las pláticas de asesoría con la familia, explicar los medicamentos, informar sobre Herzsportgruppe y Reha y enseñar las señales de alarma."
+        },
+        {
+          "id": "myokardinfarkt.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit Herzinfarkt.",
+          "answer": "SMART bedeutet: spezifisch, messbar, akzeptiert, realistisch und terminiert. Ein Pflegeziel beschreibt also genau, was der Patient erreichen soll, es ist überprüfbar, mit dem Patienten abgesprochen, erreichbar und hat einen Zeitpunkt. Das Ziel wird positiv und aus der Sicht des Patienten formuliert. Ein Beispiel beim Herzinfarkt ist: Der Patient geht innerhalb von sieben Tagen in Begleitung auf dem Stationsflur, ohne Brustschmerzen oder Atemnot zu haben. Am festgelegten Termin evaluiere ich, ob das Ziel erreicht ist, und passe die Planung an.",
+          "points": [
+            "Spezifisch, messbar",
+            "Akzeptiert, realistisch, terminiert",
+            "Aus Sicht des Patienten",
+            "Beispiel beim Herzinfarkt",
+            "Evaluation"
+          ],
+          "es": "SMART son las cinco características de un buen Pflegeziel (objetivo de enfermería): específico, medible, aceptado por el paciente, realista y con fecha. Se formula en positivo y desde el punto de vista del paciente («Der Patient geht…»). Ten siempre listo un ejemplo del infarto y di que al final se evalúa si se cumplió."
+        }
+      ]
+    }
+  ]
+}

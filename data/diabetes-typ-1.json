@@ -1,0 +1,1770 @@
+{
+  "id": "diabetes-typ-1",
+  "name": "Diabetes mellitus Typ 1",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "diabetes-typ-1.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist Diabetes mellitus Typ 1?",
+              "options": [
+                "Eine Entzündung der Bauchspeicheldrüse durch Gallensteine",
+                "Eine chronische Stoffwechselerkrankung, bei der die Betazellen des Pankreas autoimmun zerstört werden und ein absoluter Insulinmangel entsteht",
+                "Eine Stoffwechselerkrankung, bei der die Körperzellen nur schlechter auf Insulin reagieren",
+                "Eine vorübergehende Blutzuckererhöhung nach einer Infektion"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Beim Diabetes mellitus Typ 1 werden die insulinbildenden Betazellen durch das eigene Immunsystem zerstört.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Diabetes mellitus Typ 1 ist eine ___, weil das Immunsystem körpereigene Zellen angreift.",
+              "options": [
+                "Infektionskrankheit",
+                "Erbkrankheit der Leber",
+                "Autoimmunerkrankung",
+                "Tumorerkrankung"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Diabetes mellitus Typ 1 es una enfermedad crónica del metabolismo y una Autoimmunerkrankung (enfermedad autoinmune): el propio sistema inmune destruye las Betazellen (células beta) del páncreas. Como esas células son las únicas que producen insulina, al final casi no queda nada de insulina en el cuerpo."
+        },
+        {
+          "id": "diabetes-typ-1.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne dem Diabetes-Typ die passende Beschreibung zu.",
+              "pairs": [
+                [
+                  "Diabetes mellitus Typ 1",
+                  "Absoluter Insulinmangel durch Zerstörung der Betazellen"
+                ],
+                [
+                  "Diabetes mellitus Typ 2",
+                  "Relativer Insulinmangel durch Insulinresistenz"
+                ],
+                [
+                  "Gestationsdiabetes",
+                  "Erstmals in der Schwangerschaft festgestellte Blutzuckererhöhung"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Beim Diabetes mellitus Typ 1 bildet das Pankreas genug Insulin, aber die Körperzellen reagieren nicht darauf.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet „absoluter Insulinmangel“?",
+              "options": [
+                "Das Pankreas bildet kein oder fast kein Insulin mehr",
+                "Das Insulin wirkt an den Zellen schlechter als normal",
+                "Das Insulin wird zu schnell über die Niere ausgeschieden",
+                "Der Körper bildet zu viel Insulin"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "En el Typ 1 hay un absoluter Insulinmangel (falta absoluta de insulina): el páncreas ya casi no produce insulina. En el Typ 2, en cambio, sí hay insulina, pero las células responden mal (Insulinresistenz, resistencia a la insulina), por eso se habla de falta relativa. En el examen te conviene decir esta diferencia con claridad."
+        },
+        {
+          "id": "diabetes-typ-1.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zur Behandlung beschreibt den Diabetes mellitus Typ 1 richtig?",
+              "options": [
+                "Meist reicht eine Gewichtsabnahme aus",
+                "Die Behandlung beginnt mit Tabletten und später kommt eventuell Insulin dazu",
+                "Insulin ist nur während Infektionen notwendig",
+                "Die Betroffenen müssen von Anfang an und lebenslang Insulin spritzen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Menschen mit Diabetes mellitus Typ 1 brauchen lebenslang Insulin von außen.",
+              "correct": true
+            }
+          ],
+          "es": "Como el cuerpo ya no produce insulina, la persona con Typ 1 necesita insulina desde el primer día y para toda la vida. No se puede sustituir con dieta ni con pastillas, porque no hay insulina propia que se pueda estimular. La enfermedad no se cura, pero se puede controlar bien."
+        },
+        {
+          "id": "diabetes-typ-1.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welchem Lebensalter beginnt der Diabetes mellitus Typ 1 typischerweise?",
+              "options": [
+                "Fast nur nach dem 60. Lebensjahr",
+                "Meist im Kindes-, Jugend- oder jungen Erwachsenenalter",
+                "Nur bei Neugeborenen",
+                "Nur in der Schwangerschaft"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Diabetes mellitus Typ 1 kann nur bei Kindern auftreten.",
+              "correct": false
+            }
+          ],
+          "es": "El Typ 1 suele empezar en la niñez, la adolescencia o en adultos jóvenes, por eso antes se le decía diabetes juvenil. Pero ojo: puede aparecer a cualquier edad, también en adultos mayores. Lo que define al Typ 1 no es la edad, sino la destrucción autoinmune de las células beta."
+        },
+        {
+          "id": "diabetes-typ-1.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Das gemeinsame Kennzeichen aller Diabetesformen ist die chronische ___, also ein dauerhaft erhöhter Blutzucker.",
+              "options": [
+                "Hypoglykämie",
+                "Hypertonie",
+                "Hyperglykämie",
+                "Hyperthermie"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Hyperglykämie",
+                  "Zu hoher Blutzucker"
+                ],
+                [
+                  "Hypoglykämie",
+                  "Zu niedriger Blutzucker"
+                ],
+                [
+                  "Glukosurie",
+                  "Zucker im Urin"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Hyperglykämie bedeutet, dass der Blutzucker zu niedrig ist.",
+              "correct": false
+            }
+          ],
+          "es": "Hyperglykämie (hiperglucemia) significa glucosa alta en sangre y es el signo central de toda diabetes. Hypoglykämie (hipoglucemia) es lo contrario: glucosa demasiado baja, que en el Typ 1 aparece sobre todo como efecto del tratamiento con insulina. No confundas los prefijos «hyper» (alto) e «hypo» (bajo)."
+        },
+        {
+          "id": "diabetes-typ-1.definition.6",
+          "type": "sprech",
+          "q": "Was ist ein Diabetes mellitus Typ 1? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Diabetes mellitus Typ 1 ist eine chronische Stoffwechselerkrankung und eine Autoimmunerkrankung. Das Immunsystem zerstört die Betazellen in den Langerhans-Inseln des Pankreas. Dadurch entsteht ein absoluter Insulinmangel, und der Blutzucker ist dauerhaft erhöht (Hyperglykämie). Die Erkrankung beginnt meist im Kindes- oder Jugendalter. Die Betroffenen müssen lebenslang Insulin spritzen.",
+          "points": [
+            "Chronische Stoffwechselerkrankung",
+            "Autoimmunerkrankung",
+            "Zerstörung der Betazellen",
+            "Absoluter Insulinmangel",
+            "Hyperglykämie",
+            "Lebenslange Insulintherapie"
+          ],
+          "es": "Esta es la pregunta de entrada típica del examen oral. Una buena respuesta dice qué tipo de enfermedad es (crónica, metabólica, autoinmune), qué se destruye (las Betazellen del páncreas), la consecuencia (falta absoluta de insulina e hiperglucemia) y que el tratamiento es insulina de por vida."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "diabetes-typ-1.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Zellen der Langerhans-Inseln ihrem Hormon zu.",
+              "pairs": [
+                [
+                  "Betazellen",
+                  "Insulin"
+                ],
+                [
+                  "Alphazellen",
+                  "Glukagon"
+                ],
+                [
+                  "Deltazellen",
+                  "Somatostatin"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Zellen bilden das Hormon Insulin?",
+              "options": [
+                "Die Alphazellen der Langerhans-Inseln",
+                "Die Leberzellen",
+                "Die Betazellen der Langerhans-Inseln",
+                "Die Zellen der Nebennierenrinde"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Insulin wird in den Betazellen der Langerhans-Inseln des Pankreas gebildet.",
+              "correct": true
+            }
+          ],
+          "es": "En el páncreas hay grupos de células llamados Langerhans-Inseln (islotes de Langerhans). Sus Betazellen producen insulina y sus Alphazellen producen Glukagon (glucagón). En el Typ 1 se destruyen justamente las Betazellen, por eso falta la insulina."
+        },
+        {
+          "id": "diabetes-typ-1.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wirkt Insulin auf den Blutzucker?",
+              "options": [
+                "Es erhöht den Blutzucker, weil es Glukose aus der Leber freisetzt",
+                "Es senkt den Blutzucker, weil es die Aufnahme von Glukose in die Zellen ermöglicht",
+                "Es hat keinen Einfluss auf den Blutzucker",
+                "Es scheidet Glukose direkt über die Niere aus"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Insulin ist ein Hormon, das den Blutzucker erhöht.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Insulin wirkt wie ein Schlüssel: Es schleust die ___ aus dem Blut in die Muskel- und Fettzellen.",
+              "options": [
+                "Glukose",
+                "Ketonkörper",
+                "Harnsäure",
+                "Elektrolyte"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La insulina es la única hormona que baja la glucosa en sangre. Funciona como una llave que abre la célula para que entre la Glukose (glucosa), sobre todo en músculo y tejido graso. Además favorece que se guarde energía como glucógeno y grasa. Sin insulina, la glucosa se queda en la sangre y las células «pasan hambre»."
+        },
+        {
+          "id": "diabetes-typ-1.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo liegt das Pankreas (die Bauchspeicheldrüse)?",
+              "options": [
+                "Im rechten Unterbauch neben dem Blinddarm",
+                "Im Brustkorb hinter dem Herzen",
+                "Im kleinen Becken hinter der Harnblase",
+                "Im Oberbauch hinter dem Magen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Pankreas liegt im Oberbauch hinter dem Magen.",
+              "correct": true
+            }
+          ],
+          "es": "El Pankreas o Bauchspeicheldrüse (páncreas) está en la parte alta del abdomen, detrás del estómago, y su cabeza queda pegada al duodeno. Saber dónde está te ayuda a explicar el órgano antes de hablar de sus funciones."
+        },
+        {
+          "id": "diabetes-typ-1.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Teil des Pankreas seiner Aufgabe zu.",
+              "pairs": [
+                [
+                  "Exokriner Anteil",
+                  "Bildet Verdauungsenzyme für den Dünndarm"
+                ],
+                [
+                  "Endokriner Anteil",
+                  "Gibt Hormone direkt ins Blut ab"
+                ],
+                [
+                  "Pankreasgang (Ductus pancreaticus)",
+                  "Leitet den Pankreassaft in das Duodenum"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Beim Diabetes mellitus Typ 1 ist der exokrine Anteil des Pankreas zerstört, also die Bildung der Verdauungsenzyme.",
+              "correct": false
+            }
+          ],
+          "es": "El páncreas tiene dos funciones. La parte exokrin (exocrina) produce enzimas digestivas que van al intestino; la parte endokrin (endocrina), los islotes de Langerhans, libera hormonas a la sangre. En el Typ 1 solo está dañada la parte endocrina, la digestión funciona normal."
+        },
+        {
+          "id": "diabetes-typ-1.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches Hormon ist der Gegenspieler des Insulins und erhöht den Blutzucker?",
+              "options": [
+                "Glukagon",
+                "Thyroxin",
+                "Aldosteron",
+                "Gastrin"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Glukagon erhöht den Blutzucker, indem es in der Leber Glukose aus Glykogen freisetzt.",
+              "correct": true
+            }
+          ],
+          "es": "El Glukagon (glucagón) es el Gegenspieler (antagonista) de la insulina: cuando la glucosa baja, hace que el hígado libere glucosa de sus reservas de glucógeno. Por eso el glucagón también se usa como medicamento de urgencia en una hipoglucemia grave."
+        },
+        {
+          "id": "diabetes-typ-1.anatomie.6",
+          "type": "sprech",
+          "q": "Beschreiben Sie das Pankreas und erklären Sie die Wirkung von Insulin.",
+          "answer": "Das Pankreas liegt im Oberbauch hinter dem Magen. Der exokrine Anteil bildet Verdauungsenzyme, der endokrine Anteil sind die Langerhans-Inseln. Dort bilden die Betazellen Insulin und die Alphazellen Glukagon. Insulin senkt den Blutzucker, weil es die Glukose aus dem Blut in die Zellen schleust. Glukagon ist der Gegenspieler und erhöht den Blutzucker.",
+          "points": [
+            "Lage hinter dem Magen",
+            "Exokrin und endokrin",
+            "Langerhans-Inseln",
+            "Betazellen bilden Insulin",
+            "Insulin senkt Blutzucker",
+            "Glukagon als Gegenspieler"
+          ],
+          "es": "Aquí el examinador quiere ver que entiendes la base anatómica: dónde está el páncreas, sus dos funciones y qué hace la insulina. Explica la insulina con la imagen de la llave que deja entrar la glucosa a la célula; así queda claro por qué sin insulina sube la glucosa en sangre."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "diabetes-typ-1.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Ursache des Diabetes mellitus Typ 1?",
+              "options": [
+                "Eine Insulinresistenz durch Übergewicht",
+                "Zu viel Zucker in der Ernährung",
+                "Eine Autoimmunreaktion, bei der das eigene Immunsystem die Betazellen zerstört",
+                "Eine Überfunktion der Schilddrüse"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Diabetes mellitus Typ 1 entsteht, weil die Betroffenen zu viele Süßigkeiten gegessen haben.",
+              "correct": false
+            }
+          ],
+          "es": "La causa del Typ 1 es una Autoimmunreaktion (reacción autoinmune): el sistema inmune ataca por error a las células beta. No tiene nada que ver con comer mucho azúcar ni con el estilo de vida. Es importante decirlo, porque muchos pacientes y familias se sienten culpables sin razón."
+        },
+        {
+          "id": "diabetes-typ-1.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert im Körper, wenn Insulin fehlt?",
+              "options": [
+                "Die Glukose bleibt im Blut, und der Körper baut Fett ab, wobei Ketonkörper entstehen",
+                "Die Glukose wird schneller in die Zellen aufgenommen",
+                "Der Körper speichert mehr Fett und das Gewicht steigt",
+                "Die Leber stellt die Glukosebildung ein"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei Insulinmangel baut der Körper Fett zur Energiegewinnung ab, dabei entstehen Ketonkörper.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Weil die Zellen ohne Insulin keine Glukose aufnehmen können, baut der Körper Fett ab, und es entstehen saure ___.",
+              "options": [
+                "Harnstoffe",
+                "Ketonkörper",
+                "Gallensäuren",
+                "Antikörper"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Sin insulina la glucosa no entra a las células y se acumula en la sangre. Como las células no tienen energía, el cuerpo quema grasa y de ahí salen los Ketonkörper (cuerpos cetónicos), que son ácidos. Así se explican tanto la hiperglucemia como la pérdida de peso y el riesgo de cetoacidosis."
+        },
+        {
+          "id": "diabetes-typ-1.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Faktoren wirken bei der Entstehung des Diabetes mellitus Typ 1 vermutlich zusammen?",
+              "options": [
+                "Bewegungsmangel und fettreiche Ernährung",
+                "Rauchen und Alkohol",
+                "Hohes Alter und Bluthochdruck",
+                "Eine genetische Veranlagung und äußere Auslöser wie Virusinfektionen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Als Auslöser der Autoimmunreaktion beim Diabetes mellitus Typ 1 werden unter anderem Virusinfektionen vermutet.",
+              "correct": true
+            }
+          ],
+          "es": "No se conoce del todo por qué empieza la reacción autoinmune. Se piensa que se junta una genetische Veranlagung (predisposición genética) con factores externos que la disparan, por ejemplo infecciones virales. En el examen puedes decir «vermutlich» (probablemente), porque no está comprobado por completo."
+        },
+        {
+          "id": "diabetes-typ-1.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Die ersten Symptome treten erst auf, wenn etwa ___ der Betazellen zerstört sind.",
+              "options": [
+                "10–20 %",
+                "30–40 %",
+                "80–90 %",
+                "50 %"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Schon wenn wenige Betazellen zerstört sind, treten sofort deutliche Symptome auf.",
+              "correct": false
+            }
+          ],
+          "es": "La destrucción de las células beta avanza durante meses o años sin que la persona note nada. Los síntomas aparecen hasta que ya se perdió la mayor parte, alrededor del 80–90 %. Por eso el Typ 1 parece empezar «de repente», aunque el proceso autoinmune llevaba tiempo."
+        },
+        {
+          "id": "diabetes-typ-1.ursachen.5",
+          "type": "sprech",
+          "q": "Wie entsteht ein Diabetes mellitus Typ 1? Erklären Sie die Ursache und die Folgen im Stoffwechsel.",
+          "answer": "Der Diabetes mellitus Typ 1 entsteht durch eine Autoimmunreaktion. Bei einer genetischen Veranlagung und vermutlich durch Auslöser wie Virusinfektionen zerstört das Immunsystem die Betazellen des Pankreas. Dadurch wird kein Insulin mehr gebildet. Die Glukose kann nicht mehr in die Zellen aufgenommen werden und der Blutzucker steigt. Der Körper baut stattdessen Fett ab, dabei entstehen Ketonkörper.",
+          "points": [
+            "Autoimmunreaktion",
+            "Genetische Veranlagung",
+            "Zerstörung der Betazellen",
+            "Insulinmangel",
+            "Blutzucker steigt",
+            "Fettabbau und Ketonkörper"
+          ],
+          "es": "En esta respuesta conviene ir en orden: primero la causa (reacción autoinmune con predisposición genética), luego lo que se destruye y al final la consecuencia en el metabolismo. Si mencionas la quema de grasa y los cuerpos cetónicos, ya dejas preparada la explicación de la cetoacidosis."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "diabetes-typ-1.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor ist für den Diabetes mellitus Typ 1 gesichert?",
+              "options": [
+                "Bauchbetontes Übergewicht",
+                "Familiäre Belastung, also erkrankte Eltern oder Geschwister",
+                "Bewegungsmangel",
+                "Hoher Alkoholkonsum"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Kinder von Eltern mit Diabetes mellitus Typ 1 haben ein erhöhtes Risiko, selbst zu erkranken.",
+              "correct": true
+            }
+          ],
+          "es": "El factor de riesgo más claro del Typ 1 es la familiäre Belastung (antecedentes familiares): si un papá, una mamá o un hermano lo tiene, el riesgo sube. Aun así, la mayoría de los familiares no se enferma, y muchas personas con Typ 1 no tienen ningún familiar afectado."
+        },
+        {
+          "id": "diabetes-typ-1.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Risikofaktoren dem passenden Diabetes-Typ zu.",
+              "pairs": [
+                [
+                  "Diabetes mellitus Typ 1",
+                  "Genetische Veranlagung und andere Autoimmunerkrankungen"
+                ],
+                [
+                  "Diabetes mellitus Typ 2",
+                  "Übergewicht, Bewegungsmangel und höheres Alter"
+                ],
+                [
+                  "Gestationsdiabetes",
+                  "Schwangerschaft"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Übergewicht und Bewegungsmangel sind die wichtigsten Risikofaktoren für den Diabetes mellitus Typ 1.",
+              "correct": false
+            }
+          ],
+          "es": "Übergewicht (sobrepeso) y Bewegungsmangel (sedentarismo) son factores de riesgo del Typ 2, no del Typ 1. El Typ 1 no se puede prevenir con un estilo de vida sano. Es una pregunta trampa clásica para ver si distingues bien los dos tipos."
+        },
+        {
+          "id": "diabetes-typ-1.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Situationen erhöhen bei Menschen mit Diabetes mellitus Typ 1 das Risiko für eine Hypoglykämie?",
+              "options": [
+                "Eine ausgelassene Mahlzeit nach der Insulininjektion",
+                "Ungewohnte körperliche Anstrengung",
+                "Ein fieberhafter Infekt ohne Anpassung des Insulins",
+                "Alkoholkonsum",
+                "Eine vergessene Insulininjektion"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Warum erhöht Alkohol das Risiko für eine Hypoglykämie?",
+              "options": [
+                "Alkohol enthält immer sehr viel Zucker",
+                "Alkohol zerstört das gespritzte Insulin",
+                "Alkohol steigert die Insulinausschüttung des Pankreas",
+                "Alkohol hemmt die Freisetzung von Glukose aus der Leber"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "La hipoglucemia aparece cuando hay demasiada insulina para la glucosa disponible: por saltarse una comida, por ejercicio no planeado, por una dosis muy alta o por alcohol. El alcohol frena la salida de glucosa del hígado, por eso la baja puede llegar horas después, incluso en la noche. La fiebre y olvidar la insulina más bien suben la glucosa."
+        },
+        {
+          "id": "diabetes-typ-1.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Situationen können bei Diabetes mellitus Typ 1 eine Ketoazidose auslösen?",
+              "options": [
+                "Ein fieberhafter Infekt",
+                "Eine vergessene oder weggelassene Insulingabe",
+                "Eine zusätzliche Zwischenmahlzeit",
+                "Ein Defekt oder verstopfter Katheter der Insulinpumpe",
+                "Ein Spaziergang nach dem Essen"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem fieberhaften Infekt sinkt der Insulinbedarf, deshalb sollte das Insulin ganz weggelassen werden.",
+              "correct": false
+            }
+          ],
+          "es": "La Ketoazidose (cetoacidosis) aparece cuando falta insulina: en el debut de la enfermedad, si se omite la insulina, si falla la bomba o durante una infección. Con fiebre el cuerpo necesita más insulina, no menos. Por eso la persona con Typ 1 nunca debe suspender por completo su insulina, aunque coma poco."
+        },
+        {
+          "id": "diabetes-typ-1.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Erkrankungen treten bei Menschen mit Diabetes mellitus Typ 1 gehäuft zusätzlich auf?",
+              "options": [
+                "Andere Autoimmunerkrankungen wie Hashimoto-Thyreoiditis oder Zöliakie",
+                "Erbliche Blutgerinnungsstörungen",
+                "Chronische Lungenerkrankungen wie COPD",
+                "Gicht und Nierensteine"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Menschen mit Diabetes mellitus Typ 1 haben häufiger auch andere Autoimmunerkrankungen, zum Beispiel der Schilddrüse.",
+              "correct": true
+            }
+          ],
+          "es": "Quien tiene una enfermedad autoinmune tiene más probabilidad de tener otra. Con el Typ 1 se asocian sobre todo la Hashimoto-Thyreoiditis (tiroiditis de Hashimoto) y la Zöliakie (enfermedad celíaca). Por eso a estos pacientes se les revisa de rutina la tiroides."
+        },
+        {
+          "id": "diabetes-typ-1.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren kennen Sie beim Diabetes mellitus Typ 1, und welche Situationen begünstigen eine Stoffwechselentgleisung?",
+          "answer": "Für die Entstehung des Diabetes mellitus Typ 1 sind die genetische Veranlagung und andere Autoimmunerkrankungen Risikofaktoren. Übergewicht und Bewegungsmangel spielen im Gegensatz zum Typ 2 keine Rolle. Eine Hypoglykämie wird durch zu viel Insulin, ausgelassene Mahlzeiten, körperliche Anstrengung und Alkohol begünstigt. Eine Ketoazidose droht bei Infekten und wenn Insulin vergessen oder weggelassen wird.",
+          "points": [
+            "Genetische Veranlagung",
+            "Andere Autoimmunerkrankungen",
+            "Lebensstil ohne Bedeutung",
+            "Risiken für Hypoglykämie",
+            "Risiken für Ketoazidose"
+          ],
+          "es": "Aquí puedes lucirte separando dos cosas: los factores de riesgo para enfermarse (genética, otras enfermedades autoinmunes) y las situaciones que descompensan a quien ya tiene la enfermedad. Para enfermería lo segundo es lo más práctico, porque ahí es donde tú puedes prevenir."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "diabetes-typ-1.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind die klassischen Leitsymptome bei der Erstmanifestation eines Diabetes mellitus Typ 1?",
+              "options": [
+                "Polyurie",
+                "Gewichtszunahme",
+                "Polydipsie",
+                "Gewichtsverlust",
+                "Bradykardie"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Polyurie",
+                  "Häufiges Wasserlassen mit großen Urinmengen"
+                ],
+                [
+                  "Polydipsie",
+                  "Starker Durst mit großer Trinkmenge"
+                ],
+                [
+                  "Nykturie",
+                  "Nächtliches Wasserlassen"
+                ],
+                [
+                  "Exsikkose",
+                  "Austrocknung des Körpers"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Ein 12-jähriges Kind trinkt seit zwei Wochen sehr viel, muss ständig zur Toilette und hat deutlich abgenommen. Woran denken Sie zuerst?",
+              "options": [
+                "An eine Harnwegsinfektion",
+                "An einen Diabetes mellitus Typ 1",
+                "An eine Schilddrüsenunterfunktion",
+                "An eine Herzinsuffizienz"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los tres síntomas guía del Typ 1 son Polyurie (orinar mucho), Polydipsie (mucha sed) y Gewichtsverlust (pérdida de peso). El peso baja aunque la persona coma bien, porque el cuerpo quema grasa y músculo y además pierde líquidos. Esta tríada es de las cosas que más preguntan."
+        },
+        {
+          "id": "diabetes-typ-1.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sprechen für eine Hypoglykämie?",
+              "options": [
+                "Zittern",
+                "Kaltschweißige, blasse Haut",
+                "Heißhunger",
+                "Trockene, warme Haut",
+                "Unruhe oder Verwirrtheit",
+                "Azetongeruch der Atemluft"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Eine Patientin mit Diabetes mellitus Typ 1 ist plötzlich blass, schwitzt, zittert und wirkt verwirrt. Was vermuten Sie?",
+              "options": [
+                "Eine Ketoazidose",
+                "Eine Harnwegsinfektion",
+                "Eine Hypoglykämie",
+                "Eine Exsikkose"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Typisch für eine Hypoglykämie ist eine trockene, warme Haut mit langsam zunehmender Schläfrigkeit über mehrere Tage.",
+              "correct": false
+            }
+          ],
+          "es": "La Hypoglykämie (hipoglucemia, por lo general glucosa menor de unos 70 mg/dl) aparece rápido, en minutos: temblor, sudor frío, palidez, palpitaciones, hambre intensa, y si avanza, confusión, convulsiones y pérdida de la conciencia. La piel seca y caliente y el inicio lento hablan más bien de una hiperglucemia."
+        },
+        {
+          "id": "diabetes-typ-1.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum kommt es bei einer Hyperglykämie zur Polyurie?",
+              "options": [
+                "Weil die Niere Glukose mit dem Urin ausscheidet und die Glukose Wasser mitzieht",
+                "Weil die Harnblase durch das Insulin gereizt wird",
+                "Weil die Betroffenen vor allem abends zu viel trinken",
+                "Weil das Herz mehr Blut pumpt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Ab einem Blutzucker von etwa ___ mg/dl ist die Nierenschwelle überschritten, und Glukose wird mit dem Urin ausgeschieden.",
+              "options": [
+                "100",
+                "126",
+                "140",
+                "180"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der starke Durst bei Hyperglykämie entsteht, weil der Körper über den Urin viel Flüssigkeit verliert.",
+              "correct": true
+            }
+          ],
+          "es": "Cuando la glucosa pasa de la Nierenschwelle (umbral renal, unos 180 mg/dl o 10 mmol/l), el riñón ya no puede retenerla y sale en la orina. La glucosa arrastra agua (diuresis osmótica), por eso hay mucha orina. La pérdida de líquido causa la sed y, si no se compensa, deshidratación."
+        },
+        {
+          "id": "diabetes-typ-1.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entwickeln sich die Symptome beim Diabetes mellitus Typ 1 typischerweise?",
+              "options": [
+                "Schleichend über viele Jahre, oft als Zufallsbefund",
+                "Nur nach schwerer körperlicher Arbeit",
+                "Rasch, innerhalb von Tagen bis wenigen Wochen",
+                "Immer zuerst mit Schmerzen in den Füßen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Diabetes mellitus Typ 1 beginnt meist schleichend und wird oft erst nach Jahren zufällig entdeckt.",
+              "correct": false
+            }
+          ],
+          "es": "En el Typ 1 los síntomas aparecen rápido, en días o pocas semanas, y a veces la primera manifestación ya es una cetoacidosis. En el Typ 2 es al revés: empieza poco a poco y muchas veces se descubre por casualidad. Esta diferencia en el inicio es una pregunta típica."
+        },
+        {
+          "id": "diabetes-typ-1.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei weiteren Symptome können bei einer anhaltenden Hyperglykämie auftreten?",
+              "options": [
+                "Müdigkeit und Leistungsschwäche",
+                "Sehstörungen",
+                "Heißhunger mit Zittern",
+                "Infektanfälligkeit und schlechte Wundheilung",
+                "Kaltschweißigkeit"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Müdigkeit, Leistungsschwäche und häufige Infektionen können Zeichen eines dauerhaft erhöhten Blutzuckers sein.",
+              "correct": true
+            }
+          ],
+          "es": "Además de la tríada clásica, la hiperglucemia causa síntomas generales: cansancio, bajo rendimiento, visión borrosa, comezón, piel seca, infecciones frecuentes (por ejemplo de piel o vías urinarias) y heridas que tardan en sanar. El temblor, el hambre intensa y el sudor frío son de hipoglucemia."
+        },
+        {
+          "id": "diabetes-typ-1.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome zeigt ein Mensch mit einem neu aufgetretenen Diabetes mellitus Typ 1? Erklären Sie auch, wie sie entstehen.",
+          "answer": "Die Leitsymptome sind Polyurie, Polydipsie und Gewichtsverlust. Bei hohem Blutzucker scheidet die Niere Glukose aus, und die Glukose zieht Wasser mit, deshalb müssen die Betroffenen viel Wasser lassen und haben starken Durst. Sie nehmen ab, weil der Körper Fett und Muskeleiweiß abbaut. Dazu kommen Müdigkeit, Leistungsschwäche, Sehstörungen und Infektanfälligkeit. Die Symptome entwickeln sich rasch innerhalb von Tagen bis Wochen.",
+          "points": [
+            "Polyurie",
+            "Polydipsie",
+            "Gewichtsverlust",
+            "Müdigkeit und Leistungsschwäche",
+            "Glukose zieht Wasser mit",
+            "Rascher Beginn"
+          ],
+          "es": "En el examen no basta con enumerar síntomas: explica el porqué. La glucosa en la orina arrastra agua (por eso orina mucho y tiene sed) y la falta de insulina obliga al cuerpo a quemar sus reservas (por eso baja de peso). Termina diciendo que el inicio es rápido, eso distingue al Typ 1."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "diabetes-typ-1.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Ein Diabetes mellitus liegt vor, wenn der Nüchternblutzucker im venösen Plasma mindestens ___ mg/dl beträgt.",
+              "options": [
+                "100",
+                "110",
+                "126",
+                "180"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Nüchternblutzucker gilt bei einem gesunden Menschen als normal?",
+              "options": [
+                "Unter 100 mg/dl (5,6 mmol/l)",
+                "Zwischen 126 und 150 mg/dl",
+                "Unter 40 mg/dl",
+                "Zwischen 180 und 200 mg/dl"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Nüchternblutzucker von 126 mg/dl (7,0 mmol/l) oder höher spricht für einen Diabetes mellitus.",
+              "correct": true
+            }
+          ],
+          "es": "El Nüchternblutzucker (glucosa en ayuno) se mide después de al menos 8 horas sin comer. Lo normal es menos de 100 mg/dl; a partir de 126 mg/dl (7,0 mmol/l) se diagnostica diabetes. En Alemania se usan mg/dl y mmol/l, así que conviene conocer los dos valores."
+        },
+        {
+          "id": "diabetes-typ-1.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was sagt der HbA1c-Wert aus?",
+              "options": [
+                "Den aktuellen Blutzucker im Moment der Blutabnahme",
+                "Die Menge an Insulin im Blut",
+                "Die Funktion der Niere",
+                "Die durchschnittliche Blutzuckereinstellung der letzten 8 bis 12 Wochen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der HbA1c-Wert zeigt den Blutzucker der letzten 24 Stunden.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Ein HbA1c-Wert ab ___ % spricht für einen Diabetes mellitus.",
+              "options": [
+                "4,5",
+                "6,5",
+                "5,0",
+                "3,5"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El HbA1c es la hemoglobina unida a glucosa y funciona como el «Blutzuckergedächtnis» (memoria de la glucosa): refleja el promedio de las últimas 8 a 12 semanas. Con 6,5 % o más se habla de diabetes. Sirve para el diagnóstico y sobre todo para vigilar qué tan bien está controlado el paciente."
+        },
+        {
+          "id": "diabetes-typ-1.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Laborbefund spricht dafür, dass es sich um einen Diabetes mellitus Typ 1 handelt?",
+              "options": [
+                "Ein erhöhtes Cholesterin",
+                "Der Nachweis von Autoantikörpern gegen Inselzellen, zum Beispiel GAD-Antikörper",
+                "Ein erniedrigter Hämoglobinwert",
+                "Erhöhte Leberwerte"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Beim Diabetes mellitus Typ 1 lassen sich im Blut meist Autoantikörper gegen Bestandteile der Inselzellen nachweisen.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung ihrer Aussage zu.",
+              "pairs": [
+                [
+                  "Autoantikörper",
+                  "Nachweis der Autoimmunreaktion gegen die Inselzellen"
+                ],
+                [
+                  "C-Peptid",
+                  "Zeigt, wie viel eigenes Insulin der Körper noch bildet"
+                ],
+                [
+                  "HbA1c",
+                  "Blutzuckereinstellung der letzten 8 bis 12 Wochen"
+                ]
+              ]
+            }
+          ],
+          "es": "Para saber que es Typ 1 y no Typ 2 se buscan Autoantikörper (autoanticuerpos) contra las células de los islotes, por ejemplo los GAD-Antikörper. Además el C-Peptid (péptido C) está bajo, porque el cuerpo casi no produce insulina propia. Estos estudios apoyan el diagnóstico de Typ 1, pero no lo «prueban» por sí solos: en algunos pacientes los anticuerpos salen negativos."
+        },
+        {
+          "id": "diabetes-typ-1.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Urinuntersuchung ist bei Verdacht auf eine Ketoazidose besonders wichtig?",
+              "options": [
+                "Der Nachweis von Ketonkörpern mit einem Teststreifen",
+                "Die Bestimmung der Urinfarbe",
+                "Der Nachweis von Bilirubin",
+                "Die Messung der Urintemperatur"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ketonkörper im Urin sind bei Diabetes mellitus Typ 1 harmlos und müssen nicht weitergegeben werden.",
+              "correct": false
+            }
+          ],
+          "es": "Con una tira reactiva en orina se pueden detectar Glukose y Ketonkörper (cuerpos cetónicos). Las cetonas positivas en una persona con Typ 1 y glucosa alta son señal de alarma de cetoacidosis y siempre se le avisan al médico. También se pueden medir cetonas en sangre."
+        },
+        {
+          "id": "diabetes-typ-1.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ab welchem Gelegenheitsblutzucker (zu einer beliebigen Tageszeit) liegt zusammen mit typischen Symptomen ein Diabetes mellitus vor?",
+              "options": [
+                "Ab 100 mg/dl (5,6 mmol/l)",
+                "Ab 120 mg/dl (6,7 mmol/l)",
+                "Ab 200 mg/dl (11,1 mmol/l)",
+                "Ab 140 mg/dl (7,8 mmol/l)"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Ein Gelegenheitsblutzucker von 200 mg/dl oder mehr zusammen mit Polyurie und Polydipsie spricht für einen Diabetes mellitus.",
+              "correct": true
+            }
+          ],
+          "es": "El Gelegenheitsblutzucker (glucosa casual) se mide a cualquier hora, sin importar la comida. Si es de 200 mg/dl (11,1 mmol/l) o más y además hay síntomas clásicos como mucha sed y mucha orina, el diagnóstico es claro. En el Typ 1 muchas veces se diagnostica así, porque los síntomas son evidentes."
+        },
+        {
+          "id": "diabetes-typ-1.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird ein Diabetes mellitus Typ 1 diagnostiziert?",
+          "answer": "Zuerst wird in der Anamnese nach den typischen Symptomen gefragt, also Polyurie, Polydipsie und Gewichtsverlust. Dann wird der Blutzucker bestimmt: Ein Nüchternblutzucker ab 126 mg/dl oder ein Gelegenheitsblutzucker ab 200 mg/dl mit Symptomen spricht für einen Diabetes. Der HbA1c-Wert zeigt die Blutzuckereinstellung der letzten 8 bis 12 Wochen. Für den Typ 1 spricht der Nachweis von Autoantikörpern im Blut. Im Urin wird nach Glukose und Ketonkörpern gesucht.",
+          "points": [
+            "Anamnese und Symptome",
+            "Nüchternblutzucker ab 126 mg/dl",
+            "HbA1c",
+            "Autoantikörper",
+            "Ketonkörper im Urin"
+          ],
+          "es": "Ordena tu respuesta de lo general a lo específico: primero la Anamnese (historia clínica) con los síntomas, luego la glucosa en sangre con sus valores límite, después el HbA1c y al final lo que es propio del Typ 1: los autoanticuerpos. Mencionar las cetonas en orina muestra que piensas en la cetoacidosis."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "diabetes-typ-1.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Begriffe der intensivierten Insulintherapie (ICT) zu.",
+              "pairs": [
+                [
+                  "Basalinsulin",
+                  "Lang wirksames Insulin für den Grundbedarf"
+                ],
+                [
+                  "Bolusinsulin",
+                  "Kurz wirksames Insulin zu den Mahlzeiten"
+                ],
+                [
+                  "Korrekturinsulin",
+                  "Zusätzliches kurz wirksames Insulin bei zu hohem Blutzucker"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet das Basis-Bolus-Prinzip bei der intensivierten konventionellen Insulintherapie (ICT)?",
+              "options": [
+                "Es wird einmal pro Woche ein Depotinsulin gespritzt",
+                "Ein lang wirksames Insulin deckt den Grundbedarf, und zu den Mahlzeiten wird ein kurz wirksames Insulin gespritzt",
+                "Insulin wird nur gespritzt, wenn der Blutzucker über 300 mg/dl liegt",
+                "Morgens und abends wird eine feste Menge Mischinsulin ohne Blutzuckermessung gespritzt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der ICT misst der Patient vor den Mahlzeiten den Blutzucker und passt die Bolusdosis an den Blutzucker und die geplanten Kohlenhydrate an.",
+              "correct": true
+            }
+          ],
+          "es": "La ICT (intensivierte konventionelle Insulintherapie, terapia intensificada) es el tratamiento estándar del Typ 1 y sigue el Basis-Bolus-Prinzip: una insulina de acción prolongada cubre la necesidad básica y una de acción rápida se aplica con cada comida y para corregir. Así se imita lo que haría un páncreas sano."
+        },
+        {
+          "id": "diabetes-typ-1.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Diabetes mellitus Typ 1 ist ansprechbar, zittert und schwitzt; der Blutzucker ist deutlich zu niedrig. Was tun Sie zuerst?",
+              "options": [
+                "Insulin nach Schema spritzen",
+                "Den Patienten flach lagern und abwarten",
+                "Ihm schnell wirksame Kohlenhydrate geben, zum Beispiel Traubenzucker oder Fruchtsaft",
+                "Ihm ein Stück Käse oder Wurst geben"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Einem bewusstlosen Patienten mit Hypoglykämie flößt man vorsichtig Fruchtsaft ein.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen sind bei einem bewusstlosen Patienten mit Verdacht auf Hypoglykämie richtig?",
+              "options": [
+                "Sofort den Arzt oder Notarzt rufen",
+                "Nichts oral geben wegen Aspirationsgefahr",
+                "Stabile Seitenlage und Vitalzeichenkontrolle",
+                "Traubenzucker in den Mund legen",
+                "Zuerst das Korrekturinsulin spritzen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "En la hipoglucemia con el paciente consciente se dan de inmediato schnell wirksame Kohlenhydrate (carbohidratos de acción rápida) como Traubenzucker (glucosa en tabletas) o jugo, y después algo de absorción lenta como pan. Si está inconsciente no se le da nada por la boca por el riesgo de aspiración: se llama al médico, que aplica glucosa intravenosa o glucagón."
+        },
+        {
+          "id": "diabetes-typ-1.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum sollen die Spritzstellen bei der Insulininjektion regelmäßig gewechselt werden?",
+              "options": [
+                "Damit das Insulin schneller ins Gehirn gelangt",
+                "Weil sonst Verhärtungen des Fettgewebes (Lipohypertrophien) entstehen, aus denen das Insulin unregelmäßig aufgenommen wird",
+                "Weil Insulin an derselben Stelle giftig wirkt",
+                "Damit weniger Insulin gebraucht wird"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Insulin wird subkutan gespritzt, also in das Unterhautfettgewebe.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Kurz wirksames Insulin wird bevorzugt in ___ gespritzt, weil es dort schnell aufgenommen wird.",
+              "options": [
+                "den Oberarmmuskel",
+                "das Gesäß",
+                "die Wade",
+                "den Bauch"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "La insulina se inyecta subkutan (subcutánea), en el tejido graso bajo la piel. La de acción rápida va de preferencia en el abdomen (se absorbe rápido) y la de acción prolongada en el muslo o el glúteo (se absorbe lento). Si siempre se pica en el mismo punto se forman Lipohypertrophien (lipohipertrofias), y desde ahí la insulina se absorbe de forma irregular."
+        },
+        {
+          "id": "diabetes-typ-1.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Eine Broteinheit (BE) entspricht ___ g Kohlenhydraten.",
+              "options": [
+                "5",
+                "12",
+                "20",
+                "25"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Einheit der Kohlenhydratmenge zu.",
+              "pairs": [
+                [
+                  "1 BE (Broteinheit)",
+                  "12 g Kohlenhydrate"
+                ],
+                [
+                  "1 KE (Kohlenhydrateinheit)",
+                  "10 g Kohlenhydrate"
+                ],
+                [
+                  "2 KE",
+                  "20 g Kohlenhydrate"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wozu werden Broteinheiten (BE) oder Kohlenhydrateinheiten (KE) bei Diabetes mellitus Typ 1 berechnet?",
+              "options": [
+                "Um die Kalorien für eine Diät zu zählen",
+                "Um die Trinkmenge festzulegen",
+                "Um das Basalinsulin für die Nacht zu bestimmen",
+                "Um die Insulindosis an die Kohlenhydratmenge der Mahlzeit anzupassen"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Solo los carbohidratos suben la glucosa de forma directa, por eso se cuentan. 1 BE (Broteinheit, unidad de pan) equivale a 12 g de carbohidratos y 1 KE (Kohlenhydrateinheit) a 10 g. Con ese número el paciente calcula cuánta insulina rápida necesita para esa comida."
+        },
+        {
+          "id": "diabetes-typ-1.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie funktioniert eine Insulinpumpe?",
+              "options": [
+                "Sie gibt lang wirksames Insulin einmal täglich in den Muskel ab",
+                "Sie gibt über einen Katheter kontinuierlich kurz wirksames Insulin in das Unterhautfettgewebe ab, zu den Mahlzeiten wird ein Bolus abgerufen",
+                "Sie misst nur den Blutzucker und gibt kein Insulin ab",
+                "Sie gibt Insulin über einen Venenzugang direkt ins Blut ab"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Insulinpumpe enthält lang wirksames Insulin, das einmal täglich abgegeben wird.",
+              "correct": false
+            }
+          ],
+          "es": "La Insulinpumpe (bomba de insulina) lleva solo insulina de acción rápida: la pasa de forma continua por un catéter subcutáneo (Basalrate, tasa basal) y el paciente se pone un bolo con las comidas. Como no hay depósito de insulina prolongada, si la bomba falla o el catéter se tapa, la cetoacidosis aparece en pocas horas."
+        },
+        {
+          "id": "diabetes-typ-1.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird ein Diabetes mellitus Typ 1 behandelt, und welche Aufgaben hat die Pflege bei der Insulintherapie?",
+          "answer": "Menschen mit Diabetes mellitus Typ 1 brauchen lebenslang Insulin, meist als intensivierte Insulintherapie nach dem Basis-Bolus-Prinzip oder mit einer Insulinpumpe. Ein lang wirksames Insulin deckt den Grundbedarf, und zu den Mahlzeiten wird kurz wirksames Insulin passend zu den Kohlenhydraten gespritzt. Die Pflege misst den Blutzucker, bereitet das Insulin nach ärztlicher Anordnung vor und spritzt es subkutan. Sie achtet darauf, dass der Patient nach der Injektion isst, und beobachtet ihn auf Zeichen einer Hypoglykämie. Alle Werte und Insulinmengen werden dokumentiert.",
+          "points": [
+            "Lebenslange Insulintherapie",
+            "Basis-Bolus-Prinzip",
+            "Blutzuckerkontrolle",
+            "Insulin nach ärztlicher Anordnung",
+            "Hypoglykämie beobachten",
+            "Dokumentation"
+          ],
+          "es": "La respuesta tiene dos partes: el tratamiento médico (insulina de por vida, esquema basal-bolo o bomba) y lo que haces tú como enfermera. Recalca que la insulina siempre se aplica nach ärztlicher Anordnung (según indicación médica), que vigilas que el paciente coma después y que observas signos de hipoglucemia, el efecto adverso más importante."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "diabetes-typ-1.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine diabetische Ketoazidose?",
+              "options": [
+                "Eine Unterzuckerung durch zu viel Insulin",
+                "Eine Übersäuerung des Blutes durch Ketonkörper bei Insulinmangel mit stark erhöhtem Blutzucker",
+                "Eine Entzündung der Nieren durch Bakterien",
+                "Eine allergische Reaktion auf Insulin"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die diabetische Ketoazidose ist eine lebensbedrohliche Komplikation, die typisch für den Diabetes mellitus Typ 1 ist.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Unbehandelt führt die diabetische Ketoazidose zum ___, einem lebensbedrohlichen Notfall.",
+              "options": [
+                "hypoglykämischen Schock",
+                "Asthmaanfall",
+                "ketoazidotischen Koma",
+                "Harnverhalt"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La diabetische Ketoazidose (cetoacidosis diabética) es la complicación aguda típica del Typ 1. Por la falta de insulina el cuerpo quema grasa, se forman cuerpos cetónicos ácidos y la sangre se acidifica, con glucosa muy alta y deshidratación. Sin tratamiento lleva al coma y pone en peligro la vida; se trata en terapia intensiva con líquidos, insulina y electrolitos."
+        },
+        {
+          "id": "diabetes-typ-1.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sind typisch für eine diabetische Ketoazidose?",
+              "options": [
+                "Kussmaul-Atmung",
+                "Azetongeruch der Atemluft",
+                "Heißhunger und Zittern",
+                "Übelkeit, Erbrechen und Bauchschmerzen",
+                "Exsikkose mit starkem Durst",
+                "Kaltschweißige Haut"
+              ],
+              "correct": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne dem Zeichen der Ketoazidose die Erklärung zu.",
+              "pairs": [
+                [
+                  "Kussmaul-Atmung",
+                  "Tiefe Atmung, um Säure als Kohlendioxid abzuatmen"
+                ],
+                [
+                  "Azetongeruch",
+                  "Ketonkörper werden über die Atemluft abgegeben"
+                ],
+                [
+                  "Exsikkose",
+                  "Flüssigkeitsverlust durch die starke Polyurie"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wie sieht die Kussmaul-Atmung aus?",
+              "options": [
+                "Flach und sehr langsam mit langen Pausen",
+                "Abnorm tief und regelmäßig",
+                "Unregelmäßig mit Schnappatmung",
+                "Nur beim Liegen erschwert"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "En la cetoacidosis el paciente respira muy profundo y regular: es la Kussmaul-Atmung (respiración de Kussmaul), con la que el cuerpo intenta eliminar ácido en forma de CO2. El aliento huele a acetona (como fruta o quitaesmalte), hay náusea, vómito, dolor abdominal, deshidratación y al final alteración de la conciencia."
+        },
+        {
+          "id": "diabetes-typ-1.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Folgeerkrankung dem betroffenen Organ zu.",
+              "pairs": [
+                [
+                  "Diabetische Retinopathie",
+                  "Netzhaut des Auges"
+                ],
+                [
+                  "Diabetische Nephropathie",
+                  "Niere"
+                ],
+                [
+                  "Diabetische Polyneuropathie",
+                  "Periphere Nerven"
+                ],
+                [
+                  "Makroangiopathie",
+                  "Große Arterien, zum Beispiel Herzkranzgefäße"
+                ]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Folgeerkrankungen gehören zur Mikroangiopathie?",
+              "options": [
+                "Diabetische Retinopathie",
+                "Koronare Herzkrankheit",
+                "Diabetische Nephropathie",
+                "Schlaganfall",
+                "Periphere arterielle Verschlusskrankheit"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die diabetische Retinopathie kann unbehandelt bis zur Erblindung führen.",
+              "correct": true
+            }
+          ],
+          "es": "La glucosa alta durante años daña los vasos. Mikroangiopathie (microangiopatía) es el daño de vasos pequeños: Retinopathie (retina, riesgo de ceguera) y Nephropathie (riñón, hasta insuficiencia renal). Makroangiopathie es el daño de arterias grandes: infarto, Schlaganfall (EVC) y pAVK (enfermedad arterial periférica)."
+        },
+        {
+          "id": "diabetes-typ-1.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht das diabetische Fußsyndrom?",
+              "options": [
+                "Durch eine Allergie gegen Insulin",
+                "Durch zu häufiges Waschen der Füße",
+                "Durch zu viel Bewegung",
+                "Durch Nervenschäden und Durchblutungsstörungen: Verletzungen werden nicht bemerkt und heilen schlecht"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Beim diabetischen Fußsyndrom spüren die Betroffenen kleine Verletzungen und Druckstellen besonders stark.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Das diabetische Fußsyndrom kann im schlimmsten Fall zu einer ___ führen.",
+              "options": [
+                "Amputation",
+                "Hypoglykämie",
+                "Thrombose der Armvenen",
+                "Kussmaul-Atmung"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El diabetisches Fußsyndrom (pie diabético) surge por dos daños juntos: la Neuropathie (el paciente no siente dolor ni presión) y la mala circulación (las heridas no sanan). Una ampolla o una piedrita en el zapato pasa desapercibida, se infecta y puede terminar en amputación. Por eso el cuidado de los pies es un tema central de enfermería."
+        },
+        {
+          "id": "diabetes-typ-1.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Beschwerden sind typisch für eine diabetische Polyneuropathie?",
+              "options": [
+                "Kribbeln, Brennen und Taubheitsgefühl an den Füßen mit vermindertem Schmerzempfinden",
+                "Plötzliche Halbseitenlähmung",
+                "Starker Husten mit Auswurf",
+                "Gelbfärbung der Haut"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer diabetischen Polyneuropathie ist das Schmerz- und Temperaturempfinden an den Füßen gesteigert.",
+              "correct": false
+            }
+          ],
+          "es": "La diabetische Polyneuropathie (polineuropatía diabética) daña los nervios periféricos, primero en los pies, en forma de «calcetín»: hormigueo, ardor, adormecimiento y menos sensibilidad al dolor y a la temperatura. Por eso el paciente puede quemarse con agua caliente o una bolsa térmica sin darse cuenta."
+        },
+        {
+          "id": "diabetes-typ-1.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche akuten Komplikationen und welche Folgeerkrankungen kennen Sie beim Diabetes mellitus Typ 1?",
+          "answer": "Akute Komplikationen sind die Hypoglykämie und die diabetische Ketoazidose. Die Ketoazidose erkennt man an der Kussmaul-Atmung, am Azetongeruch, an Erbrechen und Exsikkose, sie kann bis zum Koma führen. Folgeerkrankungen entstehen durch jahrelang erhöhten Blutzucker. Zur Mikroangiopathie gehören die Retinopathie und die Nephropathie, zur Makroangiopathie Herzinfarkt, Schlaganfall und pAVK. Dazu kommen die Polyneuropathie und das diabetische Fußsyndrom.",
+          "points": [
+            "Hypoglykämie",
+            "Ketoazidose",
+            "Mikroangiopathie",
+            "Makroangiopathie",
+            "Polyneuropathie",
+            "Diabetisches Fußsyndrom"
+          ],
+          "es": "Divide tu respuesta en agudas y crónicas, así se oye ordenada. Agudas: hipoglucemia (por el tratamiento) y cetoacidosis (por falta de insulina). Crónicas: daño de vasos pequeños y grandes, de nervios y el pie diabético. Un buen control de la glucosa retrasa todas las complicaciones crónicas."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit Diabetes mellitus Typ 1?",
+          "answer": "Ich kontrolliere regelmäßig den Blutzucker nach ärztlicher Anordnung und dokumentiere die Werte. Ich beobachte das Bewusstsein und achte auf Zeichen einer Hypoglykämie wie Zittern, Schwitzen und Unruhe. Zeichen einer Hyperglykämie oder Ketoazidose sind starker Durst, Polyurie, Kussmaul-Atmung und Azetongeruch. Außerdem inspiziere ich die Haut, die Spritzstellen und die Füße. Ich achte auf Trinkmenge, Ausscheidung und Gewicht.",
+          "points": [
+            "Blutzuckerkontrolle",
+            "Bewusstsein",
+            "Hypoglykämie-Zeichen",
+            "Ketoazidose-Zeichen",
+            "Haut und Spritzstellen",
+            "Füße inspizieren"
+          ],
+          "es": "La observación es la base de todo el cuidado. Piensa en tres grupos: la glucosa y la conciencia (para detectar a tiempo hipo o hiperglucemia), la respiración y el aliento (cetoacidosis) y la piel con los sitios de inyección y los pies (complicaciones tardías). Todo se documenta y lo anormal se le avisa al médico."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit Diabetes mellitus Typ 1 besonders wichtig? Begründen Sie Ihre Auswahl.",
+          "answer": "Am wichtigsten ist es, eine Hypoglykämie zu vermeiden, weil sie durch die Insulintherapie jederzeit auftreten kann. Dazu kommt die Infektionsprophylaxe, denn der erhöhte Blutzucker schwächt die Abwehr und Wunden heilen schlecht. Wegen der Neuropathie und der Durchblutungsstörungen sind die Dekubitusprophylaxe und die Vorbeugung des diabetischen Fußsyndroms wichtig. Die Intertrigoprophylaxe ist nötig, weil in feuchten Hautfalten leicht Pilzinfektionen entstehen.",
+          "points": [
+            "Hypoglykämie vermeiden",
+            "Infektionsprophylaxe",
+            "Dekubitusprophylaxe",
+            "Diabetisches Fußsyndrom vorbeugen",
+            "Intertrigoprophylaxe",
+            "Begründung nennen"
+          ],
+          "es": "En el examen siempre te piden las Prophylaxen (medidas preventivas) con su porqué. En el Typ 1: evitar la hipoglucemia (por la insulina), Infektionsprophylaxe (la glucosa alta debilita las defensas), Dekubitusprophylaxe (prevención de úlceras por presión) y del pie diabético (no sienten la presión y sanan mal) e Intertrigoprophylaxe (prevención de rozaduras e infecciones en pliegues)."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Sie leiten einen Patienten zur selbstständigen Insulininjektion mit dem Pen an. Was erklären Sie ihm?",
+          "answer": "Ich erkläre, dass er vor der Injektion den Blutzucker misst und das richtige Insulin und die Dosis kontrolliert. Vor jeder Injektion entlüftet er den Pen mit ein bis zwei Einheiten. Das Insulin wird subkutan gespritzt, kurz wirksames Insulin in den Bauch und lang wirksames in den Oberschenkel. Nach dem Spritzen bleibt die Nadel etwa zehn Sekunden in der Haut. Er wechselt die Spritzstelle bei jeder Injektion und verwendet jede Nadel nur einmal.",
+          "points": [
+            "Blutzucker messen",
+            "Insulin und Dosis prüfen",
+            "Pen entlüften",
+            "Subkutane Injektion",
+            "Nadel zehn Sekunden belassen",
+            "Spritzstellen wechseln"
+          ],
+          "es": "La técnica con el Pen (pluma de insulina) se enseña paso a paso: medir la glucosa, revisar insulina y dosis, purgar la pluma, inyectar en el tejido subcutáneo y esperar unos diez segundos antes de sacar la aguja para que entre toda la dosis. Cambiar el sitio y usar aguja nueva evita lipohipertrofias e infecciones."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Fußpflege bei einem Patienten mit Diabetes mellitus durch, und worauf achten Sie?",
+          "answer": "Ich inspiziere die Füße täglich auf Rötungen, Druckstellen, Blasen und Verletzungen, auch zwischen den Zehen und an den Fußsohlen. Die Füße werden kurz mit lauwarmem Wasser gewaschen, die Temperatur prüfe ich mit dem Thermometer. Danach trockne ich sie gründlich ab, besonders die Zehenzwischenräume. Trockene Haut creme ich ein, aber nicht zwischen den Zehen. Die Nägel werden gerade gefeilt und nicht mit der Schere geschnitten, Hornhaut und Hühneraugen behandelt der Podologe.",
+          "points": [
+            "Tägliche Fußinspektion",
+            "Lauwarmes Wasser",
+            "Zehenzwischenräume abtrocknen",
+            "Haut eincremen",
+            "Nägel feilen",
+            "Podologe"
+          ],
+          "es": "Por la neuropatía el paciente no siente heridas ni agua muy caliente, por eso tú revisas los pies todos los días y mides la temperatura del agua con termómetro. Entre los dedos se seca muy bien y no se pone crema, para evitar hongos. Las uñas se liman rectas y los callos los trata el Podologe (podólogo), nunca con tijeras ni navajas."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung eines Patienten mit Diabetes mellitus Typ 1?",
+          "answer": "Der Patient braucht keine spezielle Diät, sondern eine ausgewogene, vollwertige Ernährung. Wichtig ist, dass die Kohlenhydrate der Mahlzeit in BE oder KE berechnet werden, damit die Insulindosis dazu passt. Ich achte darauf, dass der Patient nach der Insulininjektion die berechnete Mahlzeit auch wirklich isst, sonst droht eine Hypoglykämie. Wenn er nicht essen kann oder erbricht, informiere ich den Arzt. Alkohol sollte er nur in kleinen Mengen und zusammen mit Kohlenhydraten trinken.",
+          "points": [
+            "Ausgewogene Ernährung",
+            "BE oder KE berechnen",
+            "Insulin passend zur Mahlzeit",
+            "Mahlzeit kontrollieren",
+            "Arzt informieren",
+            "Alkohol nur mit Kohlenhydraten"
+          ],
+          "es": "En el Typ 1 no hay una dieta prohibitiva: lo importante es que la insulina y los carbohidratos coincidan. Tu tarea es vigilar que el paciente de verdad coma lo que se calculó después de la inyección; si deja la charola o vomita, hay riesgo de hipoglucemia y se avisa al médico."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Welche Inhalte hat die Schulung eines Patienten mit Diabetes mellitus Typ 1 zur Selbstkontrolle?",
+          "answer": "Der Patient lernt, den Blutzucker selbst zu messen und die Werte im Diabetes-Tagebuch zu dokumentieren. Er lernt, Kohlenhydrate zu berechnen und die Insulindosis anzupassen. Er soll die Zeichen einer Hypoglykämie kennen und immer Traubenzucker bei sich tragen. Ich erkläre ihm, dass er bei Krankheit das Insulin nie ganz weglassen darf und bei hohen Werten auf Ketonkörper testet. Außerdem soll er einen Diabetikerausweis bei sich tragen und regelmäßig zu den Kontrolluntersuchungen gehen.",
+          "points": [
+            "Blutzuckerselbstkontrolle",
+            "Diabetes-Tagebuch",
+            "Kohlenhydrate berechnen",
+            "Hypoglykämie erkennen",
+            "Traubenzucker mitführen",
+            "Kontrolluntersuchungen"
+          ],
+          "es": "El objetivo de la Schulung (educación del paciente) es que la persona maneje su diabetes sola: medir, anotar, calcular y reaccionar. Dos mensajes de seguridad son clave: siempre traer Traubenzucker para una hipoglucemia y nunca suspender toda la insulina cuando está enferma. Las revisiones regulares de ojos, riñón y pies detectan a tiempo las complicaciones."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.7",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen helfen, eine Hypoglykämie zu vermeiden?",
+              "options": [
+                "Darauf achten, dass der Patient nach der Insulininjektion isst",
+                "Vor körperlicher Anstrengung den Blutzucker messen",
+                "Das Insulin vorsorglich immer etwas höher dosieren",
+                "Bei Nüchternheit vor Untersuchungen die Insulingabe mit dem Arzt absprechen",
+                "Abends grundsätzlich keine Kohlenhydrate geben"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Muss ein Patient mit Diabetes mellitus Typ 1 für eine Untersuchung nüchtern bleiben, wird das Insulin trotzdem immer wie gewohnt gespritzt.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient hat sein Bolusinsulin bekommen, das Mittagessen verspätet sich deutlich. Was ist die größte Gefahr?",
+              "options": [
+                "Eine Ketoazidose",
+                "Eine Hypoglykämie",
+                "Eine Exsikkose",
+                "Eine Thrombose"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La hipoglucemia casi siempre se puede prevenir: insulina y comida deben ir juntas. Tú vigilas que el paciente coma después del bolo, mides la glucosa antes de actividad física y, si tiene que estar nüchtern (en ayuno) para un estudio, preguntas al médico cómo ajustar la insulina. Subir la dosis «por si acaso» sería justo lo que causa la baja."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Was raten Sie einem Patienten mit Diabetes mellitus zu Schuhen, Strümpfen und Kleidung?",
+          "answer": "Der Patient soll bequeme, ausreichend weite Schuhe aus weichem Material tragen, die nicht drücken. Vor dem Anziehen tastet er die Schuhe innen mit der Hand auf Fremdkörper und Falten ab. Er trägt täglich frische Strümpfe aus Baumwolle ohne drückende Nähte und ohne einschnürende Bündchen. Er soll nicht barfuß laufen, damit er sich nicht verletzt. Die Kleidung soll atmungsaktiv sein und nicht einschnüren.",
+          "points": [
+            "Weite, weiche Schuhe",
+            "Schuhe innen abtasten",
+            "Strümpfe ohne drückende Nähte",
+            "Täglich frische Strümpfe",
+            "Nicht barfuß laufen",
+            "Atmungsaktive Kleidung"
+          ],
+          "es": "La ropa y el calzado son parte de la prevención del pie diabético. Como el paciente no siente la presión, un zapato apretado, una costura o una piedrita pueden causar una herida sin que se dé cuenta; por eso revisa el zapato por dentro con la mano. Caminar descalzo está contraindicado, también en casa."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Was beachten Sie bei Bewegung und Sport bei einem Patienten mit Diabetes mellitus Typ 1?",
+          "answer": "Bewegung ist erwünscht, sie senkt aber den Blutzucker, deshalb besteht die Gefahr einer Hypoglykämie. Der Patient misst vor und nach der körperlichen Aktivität den Blutzucker. Je nach Wert isst er zusätzliche Kohlenhydrate, oder die Insulindosis wird nach ärztlicher Anordnung reduziert. Er hat immer Traubenzucker dabei. Bei der Mobilisation achte ich auf festes, passendes Schuhwerk, damit keine Verletzungen an den Füßen entstehen.",
+          "points": [
+            "Bewegung senkt Blutzucker",
+            "Hypoglykämiegefahr",
+            "Blutzucker vorher und nachher",
+            "Zusätzliche Kohlenhydrate",
+            "Traubenzucker mitführen",
+            "Festes Schuhwerk"
+          ],
+          "es": "El ejercicio es bueno, pero el músculo que trabaja consume glucosa y aumenta el efecto de la insulina, así que puede bajar la glucosa, incluso horas después. Por eso se mide antes y después, se comen carbohidratos extra o se reduce la insulina según indicación, y siempre se trae glucosa a la mano. En la movilización, zapato cerrado y firme."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.10",
+          "type": "wissen",
+          "sub": "beraten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird der Insulinvorrat richtig gelagert?",
+              "options": [
+                "Im Gefrierfach bei minus 18 °C",
+                "Im Kühlschrank bei 2 bis 8 °C, zum Beispiel im Gemüsefach oder in der Tür",
+                "Auf der Fensterbank in der Sonne",
+                "Im Badezimmer über der Heizung"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Insulin darf im Gefrierfach gelagert werden, damit es länger haltbar ist.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der Pen, der gerade in Gebrauch ist, wird bei ___ aufbewahrt und vor Hitze und Sonne geschützt.",
+              "options": [
+                "Raumtemperatur",
+                "minus 5 °C",
+                "40 °C",
+                "Temperaturen unter 0 °C"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La insulina de reserva se guarda en el refrigerador entre 2 y 8 °C, pero nunca se congela, porque pierde su efecto. La pluma que está en uso se queda a temperatura ambiente, protegida del calor y del sol (por ejemplo, no dejarla en el coche). Insulina que se congeló o se calentó se desecha."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne der Prophylaxe die passende Begründung bei Diabetes mellitus zu.",
+              "pairs": [
+                [
+                  "Intertrigoprophylaxe",
+                  "In feuchten Hautfalten entstehen leicht Pilzinfektionen"
+                ],
+                [
+                  "Dekubitusprophylaxe",
+                  "Druck wird durch die Neuropathie nicht gespürt"
+                ],
+                [
+                  "Infektionsprophylaxe",
+                  "Der erhöhte Blutzucker schwächt die Abwehr"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme gehört zur Intertrigoprophylaxe?",
+              "options": [
+                "Hautfalten dick mit Fettsalbe einreiben",
+                "Hautfalten feucht halten",
+                "Enge Kleidung aus Kunstfaser tragen",
+                "Hautfalten sorgfältig waschen, gut abtrocknen und trocken halten"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei Menschen mit Diabetes mellitus heilen Wunden schlechter, und Infektionen der Haut treten häufiger auf.",
+              "correct": true
+            }
+          ],
+          "es": "Intertrigo es la piel irritada y macerada en pliegues (ingle, axilas, bajo los senos, entre los dedos). Con diabetes ahí crecen fácil hongos, porque la glucosa alta debilita las defensas. Por eso los pliegues se lavan, se secan muy bien y se mantienen secos, sin pomadas grasosas que encierren la humedad."
+        },
+        {
+          "id": "diabetes-typ-1.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo stechen Sie bei der kapillären Blutzuckermessung am Finger?",
+              "options": [
+                "In die Mitte der Fingerkuppe des Zeigefingers",
+                "Seitlich an der Fingerbeere, möglichst nicht an Daumen und Zeigefinger",
+                "Direkt neben dem Fingernagel",
+                "In das Fingergelenk"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Vor der Blutzuckermessung müssen die Hände des Patienten sauber und trocken sein, weil Zuckerreste an den Fingern den Wert verfälschen.",
+              "correct": true
+            }
+          ],
+          "es": "Para la medición capilar se pica en el lado de la yema del dedo: duele menos y se cuida el tacto. Se evitan el pulgar y el índice, porque son los que más se usan para agarrar. Las manos deben estar limpias y secas; restos de fruta o jugo en los dedos dan valores falsamente altos."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "diabetes-typ-1.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Diabetes mellitus Typ 1 und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat durch die Insulintherapie die Gefahr einer Hypoglykämie. Ziel: Der Patient nennt innerhalb von drei Tagen die Frühzeichen einer Hypoglykämie und die Sofortmaßnahmen, und der Blutzucker bleibt während des Aufenthalts im ärztlich festgelegten Zielbereich. Maßnahmen: Blutzuckerkontrollen nach ärztlicher Anordnung, Beobachtung auf Zeichen einer Hypoglykämie, Kontrolle der Nahrungsaufnahme nach der Insulininjektion, Traubenzucker griffbereit stellen und den Patienten über Frühzeichen und Sofortmaßnahmen informieren.",
+          "points": [
+            "Problem: Hypoglykämiegefahr",
+            "Ziel: kennt Frühzeichen",
+            "Blutzuckerkontrollen",
+            "Nahrungsaufnahme kontrollieren",
+            "Traubenzucker griffbereit"
+          ],
+          "es": "El problema número uno en el Typ 1 es el riesgo de hipoglucemia por la insulina. Fíjate en la estructura que piden: Problem, Ziel, Maßnahmen. La meta es medible (el paciente nombra los signos tempranos) y tiene plazo (tres días); las medidas responden directo al problema."
+        },
+        {
+          "id": "diabetes-typ-1.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Ein Patient hat einen neu diagnostizierten Diabetes mellitus Typ 1. Nennen Sie ein Pflegeproblem zum Thema Selbstmanagement und formulieren Sie ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient kann den Blutzucker noch nicht selbst messen und das Insulin nicht selbstständig spritzen, weil ihm Wissen und Übung fehlen. Ziel: Der Patient führt innerhalb von fünf Tagen die Blutzuckermessung und die Insulininjektion selbstständig und korrekt durch. Maßnahmen: Schrittweise Anleitung zur Blutzuckermessung und zur Injektion mit dem Pen, tägliches Üben unter Aufsicht, Informationen zu Spritzstellen und Lagerung des Insulins, Anmeldung zur Diabetesschulung und Einbeziehen der Angehörigen.",
+          "points": [
+            "Problem: Wissensdefizit",
+            "Ziel: selbstständige Injektion",
+            "Anleitung Blutzuckermessung",
+            "Üben unter Aufsicht",
+            "Diabetesschulung"
+          ],
+          "es": "En un diagnóstico nuevo el paciente todavía no sabe medirse ni inyectarse: es un Wissensdefizit (déficit de conocimientos). La meta dice qué hará, qué tan bien (solo y correcto) y en cuánto tiempo. Las medidas son enseñar paso a paso, practicar con supervisión y la Diabetesschulung (curso de educación en diabetes)."
+        },
+        {
+          "id": "diabetes-typ-1.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem an den Füßen eines Patienten mit Diabetes mellitus und formulieren Sie ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat durch die Neuropathie und die Durchblutungsstörungen die Gefahr von Hautschäden an den Füßen. Ziel: Die Haut an beiden Füßen ist während des gesamten Aufenthalts intakt, und der Patient führt innerhalb einer Woche die tägliche Fußinspektion selbstständig durch. Maßnahmen: Tägliche Inspektion der Füße, sorgfältige Fußpflege mit lauwarmem Wasser und gründlichem Abtrocknen der Zehenzwischenräume, passendes Schuhwerk, Anleitung zur Fußinspektion mit einem Spiegel und Vermittlung einer podologischen Behandlung.",
+          "points": [
+            "Problem: Gefahr von Hautschäden",
+            "Ziel: intakte Haut",
+            "Tägliche Fußinspektion",
+            "Sorgfältige Fußpflege",
+            "Passendes Schuhwerk",
+            "Anleitung des Patienten"
+          ],
+          "es": "El riesgo de lesiones en los pies es el problema típico por las complicaciones tardías. Como es un riesgo, la meta es que no pase nada: piel intacta durante toda la estancia, más una meta de aprendizaje con plazo. Las medidas son revisar, cuidar, proteger con buen calzado y enseñar al paciente a revisarse con un espejo."
+        },
+        {
+          "id": "diabetes-typ-1.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART, und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit Diabetes mellitus Typ 1.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel beschreibt einen Zustand, den der Patient erreichen soll, und wird positiv und in der Gegenwart formuliert. Ein Beispiel ist: Der Patient spritzt sich innerhalb von fünf Tagen das Insulin selbstständig und korrekt mit dem Pen. Das Ziel ist spezifisch und messbar, weil man die Injektion beobachten kann, und es hat einen Zeitrahmen. Am festgelegten Termin wird das Ziel überprüft.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert und realistisch",
+            "Terminiert",
+            "Beispiel Insulininjektion",
+            "Ziel überprüfen"
+          ],
+          "es": "SMART son las cinco características de una buena meta de enfermería: spezifisch (específica), messbar (medible), akzeptiert (aceptada por el paciente), realistisch (realista) y terminiert (con fecha). La meta se escribe en presente, como un estado ya logrado. Da siempre un ejemplo concreto y di que al llegar la fecha se evalúa."
+        }
+      ]
+    }
+  ]
+}

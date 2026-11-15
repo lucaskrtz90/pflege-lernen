@@ -1,0 +1,1404 @@
+{
+  "id": "appendizitis",
+  "name": "Appendizitis",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "appendizitis.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Appendizitis?",
+              "options": [
+                "Eine Entzündung der Gallenblase",
+                "Eine Entzündung des Wurmfortsatzes (Appendix vermiformis)",
+                "Eine Entzündung der Magenschleimhaut",
+                "Ein Verschluss des Dünndarms"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Appendizitis ist eine Entzündung des Wurmfortsatzes (Appendix vermiformis).",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Appendizitis ist eine Entzündung des ___.",
+              "options": ["Zwölffingerdarms", "Mastdarms", "Wurmfortsatzes", "Bauchfells"],
+              "correct": 2
+            }
+          ],
+          "es": "La Appendizitis (apendicitis) es la inflamación del Wurmfortsatz (apéndice vermiforme), una pequeña bolsita que cuelga del ciego. En el examen debes decir el término exacto «Entzündung des Wurmfortsatzes», porque así lo definen los libros alemanes de enfermería."
+        },
+        {
+          "id": "appendizitis.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist der umgangssprachliche Begriff „Blinddarmentzündung“ medizinisch nicht korrekt?",
+              "options": [
+                "Weil nicht der Blinddarm (Zäkum) entzündet ist, sondern nur sein Anhängsel, der Wurmfortsatz",
+                "Weil der Blinddarm beim Menschen nicht existiert",
+                "Weil die Entzündung im Dünndarm liegt",
+                "Weil es sich nicht um eine Entzündung handelt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Appendizitis ist der gesamte Blinddarm (Zäkum) entzündet.",
+              "correct": false
+            }
+          ],
+          "es": "En Alemania la gente dice «Blinddarmentzündung» (inflamación del ciego), pero eso no es exacto: el Blinddarm o Zäkum (ciego) no está inflamado, sino solo su apéndice. Si el examinador usa la palabra coloquial, puedes aclarar con calma cuál es el término correcto."
+        },
+        {
+          "id": "appendizitis.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welchem Lebensalter tritt die Appendizitis am häufigsten auf?",
+              "options": [
+                "Bei Säuglingen im ersten Lebensjahr",
+                "Bei Menschen über 80 Jahren",
+                "Bei Frauen nach den Wechseljahren",
+                "Bei Kindern, Jugendlichen und jungen Erwachsenen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Appendizitis tritt fast nur bei Menschen über 60 Jahren auf.",
+              "correct": false
+            }
+          ],
+          "es": "La apendicitis es más frecuente en niños, adolescentes y adultos jóvenes (más o menos entre los 10 y los 30 años). Puede aparecer a cualquier edad, pero en personas mayores es menos común y por eso a veces se detecta tarde."
+        },
+        {
+          "id": "appendizitis.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Zu welchem Krankheitsbild gehört die akute Appendizitis?",
+              "options": [
+                "Zu den chronischen Stoffwechselerkrankungen",
+                "Zum akuten Abdomen; sie ist eine seiner häufigsten Ursachen",
+                "Zu den Erkrankungen der Harnwege",
+                "Zu den Herz-Kreislauf-Erkrankungen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die akute Appendizitis gehört zu den häufigsten Ursachen eines akuten Abdomens.",
+              "correct": true
+            }
+          ],
+          "es": "El akutes Abdomen (abdomen agudo) es un dolor abdominal fuerte y repentino que puede ser peligroso y necesita diagnóstico rápido. La apendicitis es una de sus causas más frecuentes, por eso siempre se trata como urgencia quirúrgica."
+        },
+        {
+          "id": "appendizitis.definition.5",
+          "type": "sprech",
+          "q": "Was ist eine Appendizitis? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Die Appendizitis ist eine Entzündung des Wurmfortsatzes, der Appendix vermiformis. Der Wurmfortsatz hängt am Blinddarm im rechten Unterbauch. Umgangssprachlich sagt man Blinddarmentzündung, aber das ist nicht ganz korrekt. Die Erkrankung tritt meist akut auf, besonders bei Kindern und jungen Erwachsenen, und ist eine häufige Ursache für ein akutes Abdomen. Sie wird in der Regel operiert, weil sonst ein Durchbruch mit Bauchfellentzündung droht.",
+          "points": [
+            "Entzündung des Wurmfortsatzes",
+            "Rechter Unterbauch",
+            "Kinder und junge Erwachsene",
+            "Akutes Abdomen",
+            "Operation nötig"
+          ],
+          "es": "Con esta pregunta el examinador quiere una definición corta y ordenada: qué se inflama, dónde está, a quién le da y por qué es urgente. Menciona siempre que hay riesgo de Perforation (perforación) y Peritonitis (inflamación del peritoneo), porque eso explica por qué se opera."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "appendizitis.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo liegt der Wurmfortsatz normalerweise?",
+              "options": [
+                "Im linken Oberbauch unter dem Rippenbogen",
+                "Im linken Unterbauch am Sigma",
+                "Im rechten Unterbauch am Blinddarm (Zäkum)",
+                "Im rechten Oberbauch unter der Leber"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Der Wurmfortsatz hängt am Blinddarm und liegt normalerweise im ___ Unterbauch.",
+              "options": ["rechten", "linken", "mittleren", "oberen"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Wurmfortsatz liegt normalerweise im linken Unterbauch.",
+              "correct": false
+            }
+          ],
+          "es": "El apéndice cuelga del Zäkum (ciego) y normalmente está en el rechter Unterbauch (cuadrante inferior derecho). Por eso el dolor típico de la apendicitis termina en ese lugar y ahí se buscan los puntos dolorosos."
+        },
+        {
+          "id": "appendizitis.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist der Blinddarm (Zäkum)?",
+              "options": [
+                "Der letzte Abschnitt des Dünndarms",
+                "Der erste Abschnitt des Dickdarms, in den der Dünndarm mündet",
+                "Ein Teil des Magens",
+                "Der letzte Abschnitt des Dickdarms vor dem After"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Struktur der Beschreibung zu.",
+              "pairs": [
+                ["Ileum", "Letzter Abschnitt des Dünndarms"],
+                ["Zäkum", "Erster Abschnitt des Dickdarms, endet blind"],
+                ["Appendix vermiformis", "Dünnes, wurmförmiges Anhängsel am Zäkum"],
+                ["Colon ascendens", "Aufsteigender Teil des Dickdarms"]
+              ]
+            }
+          ],
+          "es": "El Zäkum (ciego) es la primera parte del Dickdarm (intestino grueso); ahí desemboca el Dünndarm (intestino delgado). Del ciego sale el apéndice como un tubito delgado con el fondo cerrado. Entender esta relación te ayuda a explicar por qué el contenido puede quedarse atorado."
+        },
+        {
+          "id": "appendizitis.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches Gewebe enthält die Wand des Wurmfortsatzes in großer Menge?",
+              "options": [
+                "Knorpelgewebe",
+                "Fettgewebe",
+                "Drüsengewebe für Verdauungsenzyme",
+                "Lymphatisches Gewebe (Teil der Immunabwehr)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Wurmfortsatz enthält viel lymphatisches Gewebe und gehört damit zum Abwehrsystem des Darms.",
+              "correct": true
+            }
+          ],
+          "es": "La pared del apéndice tiene mucho lymphatisches Gewebe (tejido linfático), que forma parte de las defensas del intestino. Cuando este tejido se hincha, por ejemplo durante una infección, puede tapar la luz estrecha del apéndice y favorecer la inflamación."
+        },
+        {
+          "id": "appendizitis.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum können die Beschwerden bei einer Appendizitis an untypischer Stelle auftreten?",
+              "options": [
+                "Weil die Lage des Wurmfortsatzes von Mensch zu Mensch unterschiedlich sein kann, z. B. hinter dem Zäkum oder im kleinen Becken",
+                "Weil der Wurmfortsatz bei jedem zweiten Menschen im linken Oberbauch liegt",
+                "Weil der Wurmfortsatz keine Nerven hat",
+                "Weil die Schmerzen immer vom Magen ausgehen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Wurmfortsatz liegt bei allen Menschen an genau der gleichen Stelle.",
+              "correct": false
+            }
+          ],
+          "es": "La posición del apéndice varía: puede estar detrás del ciego (retrozäkal) o bajar hacia la pelvis. Por eso no todos los pacientes tienen el dolor en el punto clásico, y un cuadro atípico no descarta la apendicitis."
+        },
+        {
+          "id": "appendizitis.anatomie.5",
+          "type": "sprech",
+          "q": "Beschreiben Sie kurz die Anatomie des Wurmfortsatzes: Wo liegt er und wie ist er aufgebaut?",
+          "answer": "Der Wurmfortsatz ist ein dünnes, wurmförmiges Anhängsel des Blinddarms. Der Blinddarm ist der erste Abschnitt des Dickdarms, in den der Dünndarm mündet. Beide liegen im rechten Unterbauch. Der Wurmfortsatz endet blind und hat ein enges Lumen, deshalb kann er leicht verlegt werden. In seiner Wand liegt viel lymphatisches Gewebe. Seine genaue Lage ist unterschiedlich, deshalb können die Schmerzen auch untypisch sein.",
+          "points": [
+            "Anhängsel des Blinddarms",
+            "Blinddarm = Anfang des Dickdarms",
+            "Rechter Unterbauch",
+            "Enges Lumen, endet blind",
+            "Lymphatisches Gewebe",
+            "Lagevarianten"
+          ],
+          "es": "Aquí solo necesitas la anatomía que explica la enfermedad: un tubito estrecho y cerrado en el cuadrante inferior derecho, con tejido linfático. Lumen (luz) es el espacio interior del tubo; como es angosto, se tapa fácil y así empieza la inflamación."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "appendizitis.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die häufigste Ursache einer Appendizitis?",
+              "options": [
+                "Eine Verletzung des Bauches von außen",
+                "Zu viel Magensäure",
+                "Eine Verlegung (Verstopfung) des Lumens des Wurmfortsatzes mit anschließender bakterieller Entzündung",
+                "Eine Durchblutungsstörung des Herzens"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Appendizitis entsteht meist dadurch, dass das Lumen des Wurmfortsatzes verlegt wird und sich dahinter Bakterien vermehren.",
+              "correct": true
+            }
+          ],
+          "es": "La causa más frecuente es la Verlegung des Lumens (obstrucción de la luz) del apéndice. Detrás del tapón se acumula secreción, las bacterias se multiplican y la pared se inflama. Es el mecanismo central que debes poder explicar."
+        },
+        {
+          "id": "appendizitis.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Dinge können das Lumen des Wurmfortsatzes verlegen?",
+              "options": [
+                "Kotsteine",
+                "Gallensteine",
+                "Schwellung des lymphatischen Gewebes, z. B. bei Infekten",
+                "Abknickung oder Narbenstränge",
+                "Nierensteine"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Appendizitis entsteht in den meisten Fällen durch verschluckte Obstkerne.",
+              "correct": false
+            }
+          ],
+          "es": "Lo que más tapa el apéndice son los Kotsteine (fecalitos, pedacitos de heces endurecidas), la hinchazón del tejido linfático y, a veces, un doblez o cicatrices. Los cuerpos extraños como semillas son una causa rara, aunque la gente lo crea mucho."
+        },
+        {
+          "id": "appendizitis.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert im Wurmfortsatz, nachdem das Lumen verlegt ist?",
+              "options": [
+                "Der Wurmfortsatz schrumpft und heilt von selbst",
+                "Sekret staut sich, Bakterien vermehren sich, der Druck steigt und die Wand wird schlechter durchblutet",
+                "Der Wurmfortsatz produziert mehr Verdauungsenzyme",
+                "Das Blut im Wurmfortsatz gerinnt sofort"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Hinter der Verlegung staut sich Sekret, der Druck im Wurmfortsatz steigt und die Wand wird schlechter ___.",
+              "options": ["verdaut", "bewegt", "gekühlt", "durchblutet"],
+              "correct": 3
+            }
+          ],
+          "es": "Después de la obstrucción hay Sekretstau (acumulación de secreción): sube la presión dentro del apéndice y la pared recibe menos sangre. Así la inflamación avanza hasta que el tejido puede morir y romperse; por eso no se debe esperar mucho."
+        },
+        {
+          "id": "appendizitis.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Woher stammen die Bakterien, die die Entzündung bei einer Appendizitis verursachen?",
+              "options": [
+                "Meist aus der eigenen Darmflora, z. B. Escherichia coli",
+                "Aus der Atemluft anderer Patienten",
+                "Aus verunreinigtem Trinkwasser im Krankenhaus",
+                "Von Insektenstichen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Appendizitis ist eine ansteckende Krankheit, die durch Tröpfcheninfektion übertragen wird.",
+              "correct": false
+            }
+          ],
+          "es": "Las bacterias vienen de la Darmflora (flora intestinal) del propio paciente, por ejemplo E. coli. La apendicitis no es contagiosa, así que el paciente no necesita aislamiento. Esto también explica por qué una perforación es tan peligrosa: el contenido intestinal con bacterias llega al abdomen."
+        },
+        {
+          "id": "appendizitis.ursachen.5",
+          "type": "sprech",
+          "q": "Wie entsteht eine Appendizitis? Erklären Sie die Ursachen und den Ablauf.",
+          "answer": "Meistens wird das Lumen des Wurmfortsatzes verlegt, zum Beispiel durch einen Kotstein, durch geschwollenes lymphatisches Gewebe oder durch eine Abknickung. Dahinter staut sich das Sekret und Darmbakterien vermehren sich. Der Druck im Wurmfortsatz steigt und die Wand wird schlechter durchblutet. So entsteht eine bakterielle Entzündung. Ohne Behandlung kann die Wand absterben und durchbrechen.",
+          "points": [
+            "Verlegung des Lumens",
+            "Kotstein, Lymphgewebe, Abknickung",
+            "Sekretstau",
+            "Darmbakterien",
+            "Durchblutung der Wand gestört",
+            "Gefahr der Perforation"
+          ],
+          "es": "Cuenta la historia en orden: primero la obstrucción, luego la acumulación de secreción y bacterias, después la mala circulación en la pared y al final el riesgo de perforación. Una explicación en cadena como esta suena segura y es fácil de recordar en el examen oral."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "appendizitis.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zum Erkrankungsalter bei Appendizitis ist richtig?",
+              "options": [
+                "Sie tritt nur bei Kindern auf",
+                "Sie tritt nur bei Erwachsenen auf",
+                "Sie tritt nur bei Männern auf",
+                "Sie kann in jedem Alter auftreten, am häufigsten zwischen etwa 10 und 30 Jahren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Eine Appendizitis kann grundsätzlich in jedem Lebensalter auftreten.",
+              "correct": true
+            }
+          ],
+          "es": "No hay un factor de riesgo clásico que se pueda evitar; el dato más importante es la edad. El pico está entre los 10 y los 30 años, pero cualquier persona con apéndice puede enfermarse, también un bebé o un adulto mayor."
+        },
+        {
+          "id": "appendizitis.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Bei welchen drei Personengruppen verläuft die Appendizitis häufig atypisch?",
+              "options": [
+                "Kleinkinder",
+                "Junge Männer",
+                "Schwangere",
+                "Alte Menschen",
+                "Sportler"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bei alten Menschen sind die Symptome einer Appendizitis meist besonders stark und eindeutig.",
+              "correct": false
+            }
+          ],
+          "es": "En Kleinkinder (niños pequeños), Schwangere (embarazadas) y adultos mayores el cuadro suele ser atípico: los síntomas son poco claros o más leves. Por eso son grupos de riesgo para un diagnóstico tardío y hay que observarlos con más cuidado."
+        },
+        {
+          "id": "appendizitis.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was erhöht das Risiko für eine Perforation des Wurmfortsatzes am stärksten?",
+              "options": [
+                "Viel Trinken",
+                "Eine späte Diagnose und verzögerte Behandlung",
+                "Frühe Mobilisation",
+                "Eine frühe Operation"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Je später eine Appendizitis erkannt und behandelt wird, desto höher ist das Risiko für eine Perforation.",
+              "correct": true
+            }
+          ],
+          "es": "Mientras más tiempo pasa sin tratamiento, más sube el riesgo de Perforation (perforación). Por eso los grupos con síntomas atípicos, sobre todo niños pequeños y adultos mayores, se perforan con más frecuencia: se les diagnostica más tarde."
+        },
+        {
+          "id": "appendizitis.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren erhöhen das Risiko für eine Wundheilungsstörung nach der Appendektomie?",
+              "options": [
+                "Diabetes mellitus",
+                "Rauchen",
+                "Frühmobilisation",
+                "Adipositas",
+                "Ausreichende Flüssigkeitszufuhr"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Ein Diabetes mellitus hat keinen Einfluss auf die Wundheilung nach einer Operation.",
+              "correct": false
+            }
+          ],
+          "es": "Diabetes mellitus, Rauchen (fumar) y Adipositas (obesidad) empeoran la circulación y las defensas, así que la herida cicatriza peor y se infecta más fácil. En estos pacientes debes vigilar la herida con especial atención después de la cirugía."
+        },
+        {
+          "id": "appendizitis.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Gibt es Risikofaktoren für eine Appendizitis? Welche Personengruppen sind besonders gefährdet?",
+          "answer": "Typische vermeidbare Risikofaktoren gibt es bei der Appendizitis nicht, sie kann jeden Menschen treffen. Am häufigsten erkranken Kinder, Jugendliche und junge Erwachsene. Besonders gefährdet für einen schweren Verlauf sind Kleinkinder, Schwangere und alte Menschen, weil die Symptome bei ihnen oft atypisch sind. Dadurch wird die Erkrankung später erkannt und das Risiko für eine Perforation steigt. Für Probleme nach der Operation sind zum Beispiel Diabetes mellitus, Adipositas und Rauchen Risikofaktoren.",
+          "points": [
+            "Keine vermeidbaren Risikofaktoren",
+            "Häufig junge Menschen",
+            "Kleinkinder, Schwangere, alte Menschen",
+            "Atypische Symptome",
+            "Späte Diagnose, Perforationsrisiko",
+            "Diabetes, Adipositas, Rauchen"
+          ],
+          "es": "Si te preguntan por factores de riesgo, es correcto decir que no hay factores evitables seguros. Luego muestra que conoces a los grupos vulnerables y por qué lo son: síntomas atípicos, diagnóstico tardío y más perforaciones."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "appendizitis.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie verläuft der Schmerz bei einer typischen akuten Appendizitis?",
+              "options": [
+                "Er beginnt im Rücken und zieht in das linke Bein",
+                "Er beginnt im rechten Unterbauch und wandert in die linke Schulter",
+                "Er beginnt in der Nabelgegend oder im Oberbauch und wandert innerhalb von Stunden in den rechten Unterbauch",
+                "Er beginnt im linken Unterbauch und bleibt dort"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Der Schmerz beginnt typischerweise um den Nabel oder im Oberbauch und wandert dann in den rechten ___.",
+              "options": ["Unterbauch", "Oberbauch", "Brustkorb", "Oberschenkel"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei der typischen Appendizitis beginnt der Schmerz im linken Unterbauch und wandert in den Oberbauch.",
+              "correct": false
+            }
+          ],
+          "es": "Lo más típico es la Schmerzwanderung (migración del dolor): empieza alrededor del ombligo o en la parte alta del abdomen y en unas horas se pasa al cuadrante inferior derecho. Es el síntoma que más preguntan en el examen."
+        },
+        {
+          "id": "appendizitis.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Begleitsymptome sind typisch für eine akute Appendizitis?",
+              "options": [
+                "Übelkeit und Erbrechen",
+                "Starker Husten mit Auswurf",
+                "Appetitlosigkeit",
+                "Leichtes Fieber",
+                "Juckreiz am ganzen Körper"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Typisch für den Beginn einer Appendizitis ist sehr hohes Fieber über 40 °C.",
+              "correct": false
+            }
+          ],
+          "es": "Además del dolor hay Übelkeit (náuseas), Erbrechen (vómito), Appetitlosigkeit (falta de apetito) y fiebre leve. Una fiebre muy alta al principio no es típica; si la temperatura sube mucho, hay que pensar en una complicación como la perforación."
+        },
+        {
+          "id": "appendizitis.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Befund bei der Temperaturmessung weist auf eine Appendizitis hin?",
+              "options": [
+                "Die axilläre Temperatur ist höher als die rektale",
+                "Axilläre und rektale Temperatur sind genau gleich",
+                "Die Temperatur ist immer unter 36 °C",
+                "Die rektale Temperatur liegt um etwa 1 °C oder mehr über der axillären"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Bei Appendizitis ist die Temperaturdifferenz zwischen axillärer und ___ Messung oft erhöht.",
+              "options": ["oraler", "rektaler", "tympanaler", "frontaler"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine axillär-rektale Temperaturdifferenz von etwa 1 °C oder mehr kann auf eine Appendizitis hinweisen.",
+              "correct": true
+            }
+          ],
+          "es": "Normalmente la temperatura rectal es unos 0.5 °C más alta que la axilar. En la apendicitis la axillär-rektale Temperaturdifferenz (diferencia entre temperatura axilar y rectal) suele ser de 1 °C o más, porque la inflamación está cerca del recto. Por eso se miden las dos."
+        },
+        {
+          "id": "appendizitis.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Körperhaltung nehmen Patienten mit Appendizitis häufig ein?",
+              "options": [
+                "Schonhaltung mit angezogenen Beinen, um die Bauchdecke zu entlasten",
+                "Sie laufen unruhig umher",
+                "Sie liegen flach auf dem Bauch",
+                "Sie strecken beide Beine fest durch"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Patienten mit Appendizitis nehmen oft eine Schonhaltung mit angezogenen Beinen ein, und Erschütterungen wie Husten oder Gehen verstärken den Schmerz.",
+              "correct": true
+            }
+          ],
+          "es": "La Schonhaltung (postura antiálgica) con las piernas flexionadas relaja la pared abdominal y baja el dolor. También es típico el dolor con sacudidas: al toser, caminar o brincar. Son datos que tú como enfermera puedes observar sin tocar al paciente."
+        },
+        {
+          "id": "appendizitis.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Personengruppe der typischen Besonderheit zu.",
+              "pairs": [
+                ["Schwangere", "Schmerz liegt oft höher, weil die Gebärmutter den Wurmfortsatz nach oben verdrängt"],
+                ["Alte Menschen", "Oft nur geringe Schmerzen und wenig Fieber"],
+                ["Kleinkinder", "Unspezifische Beschwerden und schneller Verlauf bis zur Perforation"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wo liegt der Schmerz bei einer Appendizitis in der Spätschwangerschaft häufig?",
+              "options": [
+                "Im linken Unterbauch",
+                "Im Rücken zwischen den Schulterblättern",
+                "Höher als üblich, im rechten Mittel- oder Oberbauch",
+                "Im rechten Oberschenkel"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "En el embarazo el útero empuja el apéndice hacia arriba, así que el dolor se siente más alto. Los adultos mayores tienen poco dolor y poca fiebre, y los niños pequeños muestran molestias poco específicas y se perforan rápido. Conocer estos cuadros atípicos evita que la enfermedad pase desapercibida."
+        },
+        {
+          "id": "appendizitis.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit akuter Appendizitis?",
+          "answer": "Typisch ist ein Schmerz, der um den Nabel oder im Oberbauch beginnt und nach einigen Stunden in den rechten Unterbauch wandert. Dazu kommen Übelkeit, Erbrechen und Appetitlosigkeit. Der Patient hat meist leichtes Fieber, und die rektale Temperatur ist deutlich höher als die axilläre. Er nimmt eine Schonhaltung mit angezogenen Beinen ein, und Husten oder Gehen verstärken den Schmerz. Bei Kindern, Schwangeren und alten Menschen können die Symptome atypisch sein.",
+          "points": [
+            "Schmerzwanderung in rechten Unterbauch",
+            "Übelkeit, Erbrechen, Appetitlosigkeit",
+            "Leichtes Fieber",
+            "Axillär-rektale Temperaturdifferenz",
+            "Schonhaltung",
+            "Atypische Verläufe"
+          ],
+          "es": "Empieza por el síntoma principal, el dolor que migra, y después nombra los síntomas acompañantes y lo que tú observas (postura, temperatura). Cerrar con los cuadros atípicos demuestra que no solo te sabes el caso de libro."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "appendizitis.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was sind der McBurney-Punkt und der Lanz-Punkt?",
+              "options": [
+                "Messpunkte für den Blutdruck",
+                "Punkte am Rücken zur Kontrolle der Nieren",
+                "Punkte am Brustkorb zum Abhören der Lunge",
+                "Druckpunkte im rechten Unterbauch, die bei Appendizitis schmerzhaft sind"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Lanz-Punkt liegt auf der Verbindungslinie zwischen den beiden vorderen oberen Darmbeinstacheln, am Übergang vom rechten zum mittleren Drittel.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Der McBurney-Punkt liegt auf der Linie zwischen dem Nabel und dem rechten vorderen oberen ___.",
+              "options": ["Rippenbogen", "Darmbeinstachel", "Schambein", "Schulterblatt"],
+              "correct": 1
+            }
+          ],
+          "es": "McBurney y Lanz son Druckpunkte (puntos dolorosos a la presión) en el cuadrante inferior derecho. El punto de McBurney está en la línea entre el ombligo y la espina ilíaca anterosuperior derecha (más o menos a la mitad); el de Lanz, en la línea que une las dos espinas ilíacas, entre el tercio derecho y el tercio medio. No los confundas: McBurney parte del ombligo, Lanz va de cadera a cadera. El médico los palpa; tú debes conocer los nombres."
+        },
+        {
+          "id": "appendizitis.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Untersuchungszeichen der Beschreibung zu.",
+              "pairs": [
+                ["Blumberg-Zeichen", "Schmerz im rechten Unterbauch beim plötzlichen Loslassen der im linken Unterbauch eingedrückten Bauchdecke (kontralateraler Loslassschmerz)"],
+                ["Rovsing-Zeichen", "Schmerz im rechten Unterbauch beim Ausstreichen des Dickdarms entgegen der normalen Richtung zum Blinddarm hin"],
+                ["Psoas-Zeichen", "Schmerz im rechten Unterbauch beim Anheben des gestreckten rechten Beins gegen Widerstand"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Blumberg-Zeichen?",
+              "options": [
+                "Ein Loslassschmerz: Der Schmerz im rechten Unterbauch tritt auf, wenn die eingedrückte Bauchdecke der Gegenseite plötzlich losgelassen wird",
+                "Ein Schmerz beim Beklopfen der Nierenlager",
+                "Ein Schmerz in der Wade beim Druck auf die Fußsohle",
+                "Eine Nackensteifigkeit beim Beugen des Kopfes"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Estos signos provocan el dolor irritando el peritoneo cerca del apéndice. Blumberg es el Loslassschmerz (dolor de rebote) al soltar de golpe el lado contrario; Rovsing aparece al empujar el colon hacia el ciego; el Psoas-Zeichen, al levantar la pierna derecha estirada contra resistencia."
+        },
+        {
+          "id": "appendizitis.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Laborwerte sind bei einer akuten Appendizitis typischerweise erhöht?",
+              "options": [
+                "Blutzucker und HbA1c",
+                "Hämoglobin und Erythrozyten",
+                "Leukozyten und CRP",
+                "Cholesterin und Triglyzeride"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer akuten Appendizitis sind typischerweise die Leukozyten und das CRP im Blut erhöht.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Als Zeichen der Entzündung sind im Blut die Leukozyten und das ___ erhöht.",
+              "options": ["Kalium", "Kreatinin", "Hämoglobin", "CRP"],
+              "correct": 3
+            }
+          ],
+          "es": "Leukozyten (leucocitos) y CRP (proteína C reactiva) son los Entzündungswerte (marcadores de inflamación). Suben en la apendicitis, pero no son específicos: solo apoyan el diagnóstico junto con la exploración física."
+        },
+        {
+          "id": "appendizitis.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches bildgebende Verfahren wird bei Verdacht auf Appendizitis meist zuerst eingesetzt?",
+              "options": [
+                "Röntgen des Thorax",
+                "Sonografie (Ultraschall) des Abdomens",
+                "Magenspiegelung",
+                "Knochenszintigrafie"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die wichtigste bildgebende Untersuchung bei Verdacht auf Appendizitis ist das Röntgen des Thorax.",
+              "correct": false
+            }
+          ],
+          "es": "La Sonografie (ultrasonido) del abdomen es el primer estudio de imagen: es rápido, no duele y no usa radiación, así que también sirve en niños y embarazadas. Si el cuadro sigue dudoso, el médico puede pedir una tomografía (CT)."
+        },
+        {
+          "id": "appendizitis.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum werden bei Verdacht auf Appendizitis auch ein Urinstatus und bei Frauen im gebärfähigen Alter ein Schwangerschaftstest gemacht?",
+              "options": [
+                "Um andere Ursachen der Bauchschmerzen auszuschließen, z. B. Harnwegsinfekt oder Eileiterschwangerschaft",
+                "Um den Blutzucker zu bestimmen",
+                "Um die Blutgruppe festzustellen",
+                "Weil diese Tests die Appendizitis direkt beweisen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Urinstatus und ein Schwangerschaftstest dienen bei Verdacht auf Appendizitis dazu, andere Ursachen der Bauchschmerzen auszuschließen.",
+              "correct": true
+            }
+          ],
+          "es": "Otras enfermedades dan un dolor parecido en el abdomen bajo: un Harnwegsinfekt (infección de vías urinarias) o una Eileiterschwangerschaft (embarazo ectópico), entre otras. Con el examen de orina y la prueba de embarazo se descartan estos diagnósticos diferenciales."
+        },
+        {
+          "id": "appendizitis.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird eine Appendizitis diagnostiziert?",
+          "answer": "Am wichtigsten sind die Anamnese und die körperliche Untersuchung. Der Arzt prüft die Druckpunkte nach McBurney und Lanz, den Loslassschmerz nach Blumberg, das Rovsing-Zeichen und das Psoas-Zeichen. Die Temperatur wird axillär und rektal gemessen. Im Labor sind Leukozyten und CRP erhöht. Als Bildgebung macht man zuerst eine Sonografie des Abdomens. Mit Urinstatus und Schwangerschaftstest werden andere Ursachen ausgeschlossen.",
+          "points": [
+            "Anamnese und körperliche Untersuchung",
+            "McBurney, Lanz",
+            "Blumberg, Rovsing, Psoas",
+            "Temperatur axillär und rektal",
+            "Leukozyten, CRP",
+            "Sonografie"
+          ],
+          "es": "El diagnóstico es sobre todo clínico: historia y exploración. Ordena tu respuesta así: exploración con los signos, temperatura, laboratorio e imagen. No tienes que hacer tú los signos, pero sí nombrarlos y saber qué significan."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "appendizitis.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Standardtherapie der akuten Appendizitis?",
+              "options": [
+                "Wärmeanwendung auf dem Bauch",
+                "Gabe von Abführmitteln",
+                "Die operative Entfernung des Wurmfortsatzes (Appendektomie)",
+                "Mehrwöchige Bettruhe ohne weitere Behandlung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Die operative Entfernung des Wurmfortsatzes heißt ___.",
+              "options": ["Appendektomie", "Cholezystektomie", "Gastrektomie", "Kolektomie"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Standardtherapie der akuten Appendizitis ist eine mehrwöchige Bettruhe ohne Operation.",
+              "correct": false
+            }
+          ],
+          "es": "El tratamiento estándar es la Appendektomie (apendicectomía), es decir, quitar el apéndice con cirugía lo antes posible. Así se evita que el apéndice se perfore y cause una peritonitis."
+        },
+        {
+          "id": "appendizitis.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                ["Laparoskopische Appendektomie", "Minimalinvasiv über kleine Schnitte mit Kamera"],
+                ["Offene Appendektomie", "Über einen Bauchschnitt im rechten Unterbauch"],
+                ["Drainage", "Schlauch, der Wundsekret aus dem Bauchraum ableitet"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wie wird die Appendektomie heute meistens durchgeführt?",
+              "options": [
+                "Über einen großen Längsschnitt in der Mitte des Bauches",
+                "Laparoskopisch, also minimalinvasiv über kleine Schnitte",
+                "Über den Mund mit einem Endoskop",
+                "Durch eine Punktion mit einer Nadel"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Hoy casi siempre se opera laparoskopisch (por laparoscopía): con una cámara y cortes pequeños, lo que da menos dolor y una recuperación más rápida. La offene Appendektomie (cirugía abierta) se hace con una incisión en el cuadrante inferior derecho. A veces se deja una Drainage (drenaje)."
+        },
+        {
+          "id": "appendizitis.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Regeln gelten bei Verdacht auf Appendizitis vor der Operation?",
+              "options": [
+                "Nahrungskarenz einhalten",
+                "Wärmflasche auf den Bauch legen",
+                "Keine Abführmittel und keine Einläufe geben",
+                "Keine Wärme anwenden",
+                "Reichlich essen, um Kraft für die Operation zu haben"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Warum darf bei Verdacht auf Appendizitis keine Wärme auf den Bauch gegeben werden?",
+              "options": [
+                "Weil Wärme den Blutdruck stark senkt",
+                "Weil Wärme die Haut austrocknet",
+                "Weil Wärme Übelkeit verursacht",
+                "Weil Wärme die Entzündung fördert und das Risiko einer Perforation erhöht"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf Appendizitis hilft eine Wärmflasche auf dem Bauch und ist deshalb empfohlen.",
+              "correct": false
+            }
+          ],
+          "es": "Antes de la cirugía hay tres reglas: Nahrungskarenz (ayuno), nada de calor y nada de Abführmittel (laxantes) ni enemas. El calor aumenta la circulación y la inflamación, y los laxantes aumentan el movimiento y la presión en el intestino; ambos pueden provocar la perforación."
+        },
+        {
+          "id": "appendizitis.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe hat die Pflegefachperson bei der Schmerztherapie vor und nach der Appendektomie?",
+              "options": [
+                "Schmerzmittel nach ärztlicher Anordnung geben und die Wirkung sowie Nebenwirkungen beobachten und dokumentieren",
+                "Selbst entscheiden, welches Schmerzmittel der Patient bekommt",
+                "Schmerzmittel grundsätzlich ablehnen",
+                "Schmerzen nur einmal pro Woche erfragen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Pflegefachperson gibt Schmerzmittel nach ärztlicher Anordnung und kontrolliert danach die Wirkung, zum Beispiel mit einer Schmerzskala.",
+              "correct": true
+            }
+          ],
+          "es": "El médico indica los Analgetika (analgésicos); tú los administras, valoras el dolor con una Schmerzskala (escala de dolor, por ejemplo NRS de 0 a 10) y documentas el efecto y los efectos secundarios. Esta división de tareas entre médico y enfermería se pregunta mucho en el examen."
+        },
+        {
+          "id": "appendizitis.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist bei einer perforierten Appendizitis in der Therapie zusätzlich zur Operation nötig?",
+              "options": [
+                "Nur Bettruhe",
+                "Eine Antibiotikatherapie nach ärztlicher Anordnung, oft mit Spülung des Bauchraums und Drainage",
+                "Eine Bestrahlung",
+                "Eine Diät ohne Kohlenhydrate"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer perforierten Appendizitis bekommt der Patient zusätzlich zur Operation Antibiotika nach ärztlicher Anordnung.",
+              "correct": true
+            }
+          ],
+          "es": "Si el apéndice ya se perforó, hay bacterias en la cavidad abdominal. Entonces, además de operar, se lava el abdomen, muchas veces se deja un drenaje y el paciente recibe Antibiotika (antibióticos) por indicación médica. La estancia en el hospital y el Kostaufbau (reinicio progresivo de la dieta) son más largos."
+        },
+        {
+          "id": "appendizitis.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird eine Appendizitis behandelt, und welche Aufgaben hat die Pflege vor der Operation?",
+          "answer": "Die Therapie ist die Appendektomie, also die operative Entfernung des Wurmfortsatzes, meistens laparoskopisch, seltener offen. Vor der Operation bleibt der Patient nüchtern und hält Bettruhe. Er bekommt keine Wärme auf den Bauch und keine Abführmittel oder Einläufe, weil sonst die Gefahr einer Perforation steigt. Ich kontrolliere Vitalzeichen, Temperatur und Schmerzen und melde Veränderungen sofort dem Arzt. Außerdem bereite ich den Patienten nach Standard auf die Operation vor und gebe Infusionen und Medikamente nach ärztlicher Anordnung.",
+          "points": [
+            "Appendektomie",
+            "Laparoskopisch oder offen",
+            "Nahrungskarenz",
+            "Keine Wärme, keine Abführmittel",
+            "Vitalzeichen und Schmerz beobachten",
+            "OP-Vorbereitung"
+          ],
+          "es": "Responde en dos partes: primero el tratamiento médico (la cirugía y sus dos técnicas) y luego lo que haces tú antes de la operación. Las prohibiciones (calor, laxantes, comida) con su motivo son el punto que más valoran los examinadores."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "appendizitis.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die wichtigste und gefährlichste Komplikation der Appendizitis?",
+              "options": [
+                "Eine Verstopfung",
+                "Ein Hautausschlag",
+                "Eine Blasenentzündung",
+                "Die Perforation (Durchbruch) des Wurmfortsatzes mit Peritonitis"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bricht der entzündete Wurmfortsatz durch, kann eine lebensbedrohliche Peritonitis entstehen.",
+              "correct": true
+            }
+          ],
+          "es": "La complicación más temida es la Perforation (perforación): el apéndice se rompe y el contenido con bacterias sale a la cavidad abdominal. Eso causa una Peritonitis (inflamación del peritoneo), que pone en peligro la vida y puede terminar en sepsis."
+        },
+        {
+          "id": "appendizitis.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Verdacht auf Appendizitis sagt plötzlich, der Schmerz sei fast weg. Kurz danach geht es ihm deutlich schlechter. Woran müssen Sie denken?",
+              "options": [
+                "An eine Perforation des Wurmfortsatzes",
+                "An eine spontane Heilung",
+                "An eine Unterzuckerung",
+                "An eine Allergie"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Wenn die Schmerzen bei einer Appendizitis plötzlich nachlassen, ist die Erkrankung sicher ausgeheilt.",
+              "correct": false
+            }
+          ],
+          "es": "Cuando el apéndice se perfora, la presión baja y el dolor puede disminuir por un momento. No es mejoría: poco después el dolor se extiende a todo el abdomen y el estado general empeora. Si observas esto, avisa de inmediato al médico."
+        },
+        {
+          "id": "appendizitis.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sprechen für eine Peritonitis?",
+              "options": [
+                "Brettharter Bauch (Abwehrspannung)",
+                "Hohes Fieber",
+                "Langsamer Puls und warme, rosige Haut",
+                "Tachykardie und schlechter Allgemeinzustand",
+                "Guter Appetit"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "cloze",
+              "q": "Ein brettharter Bauch ist ein Zeichen der Abwehrspannung und spricht für eine ___.",
+              "options": ["Gastritis", "Obstipation", "Peritonitis", "Zystitis"],
+              "correct": 2
+            }
+          ],
+          "es": "La Abwehrspannung (defensa muscular) con un abdomen duro como tabla es el signo clásico de peritonitis. Junto con fiebre alta, Tachykardie (taquicardia) y mal estado general indica una urgencia que puede avanzar a sepsis y choque."
+        },
+        {
+          "id": "appendizitis.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Komplikation der Erklärung zu.",
+              "pairs": [
+                ["Perforation", "Durchbruch der Wand des Wurmfortsatzes"],
+                ["Peritonitis", "Entzündung des Bauchfells"],
+                ["Abszess", "Abgekapselte Eiteransammlung"],
+                ["Ileus", "Darmverschluss oder Darmlähmung"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Abszess, der als Komplikation einer Appendizitis entstehen kann?",
+              "options": [
+                "Eine Blutung in die Bauchdecke",
+                "Eine abgekapselte Eiteransammlung, z. B. in der Umgebung des Wurmfortsatzes",
+                "Ein Bruch der Bauchwand",
+                "Eine Erweiterung der Bauchschlagader"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Un Abszess (absceso) es pus encapsulado; en la apendicitis puede formarse alrededor del apéndice (perityphlitischer Abszess) o en la parte más baja de la pelvis. El Ileus (íleo) significa que el intestino está paralizado u obstruido. Debes poder explicar cada término con una frase."
+        },
+        {
+          "id": "appendizitis.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Komplikationen können nach einer Appendektomie auftreten?",
+              "options": [
+                "Wundinfektion",
+                "Nachblutung",
+                "Gallenkolik",
+                "Ileus",
+                "Schilddrüsenüberfunktion"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Appendektomie können keine Komplikationen mehr auftreten, weil der Wurmfortsatz entfernt ist.",
+              "correct": false
+            }
+          ],
+          "es": "Después de la cirugía pueden aparecer Wundinfektion (infección de la herida), Nachblutung (sangrado posoperatorio), abscesos e íleo. Además existen los riesgos generales de toda operación, como trombosis y neumonía; por eso la vigilancia posoperatoria es tarea central de enfermería."
+        },
+        {
+          "id": "appendizitis.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen kann eine Appendizitis haben, und an welchen Zeichen erkennen Sie diese?",
+          "answer": "Die wichtigste Komplikation ist die Perforation des Wurmfortsatzes. Dabei kann der Schmerz kurz nachlassen, danach verschlechtert sich der Zustand. Es entsteht eine Peritonitis mit brettharter Bauchdecke, hohem Fieber, Tachykardie und schlechtem Allgemeinzustand, die bis zur Sepsis führen kann. Außerdem kann sich ein Abszess bilden. Nach der Operation sind Wundinfektion, Nachblutung und Ileus möglich. Bei solchen Zeichen informiere ich sofort den Arzt.",
+          "points": [
+            "Perforation",
+            "Peritonitis, Sepsis",
+            "Abwehrspannung, Fieber, Tachykardie",
+            "Abszess",
+            "Wundinfektion, Nachblutung, Ileus",
+            "Arzt sofort informieren"
+          ],
+          "es": "Separa las complicaciones de la enfermedad (perforación, peritonitis, absceso) de las posoperatorias (infección de herida, sangrado, íleo). Siempre termina con tu reacción como enfermera: reconocer los signos de alarma y avisar al médico de inmediato."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "appendizitis.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten nach einer Appendektomie?",
+          "answer": "Ich kontrolliere regelmäßig die Vitalzeichen, also Blutdruck, Puls, Atmung und Temperatur, und das Bewusstsein. Ich frage nach Schmerzen mit einer Schmerzskala und beobachte die Wirkung der Schmerzmittel. Ich kontrolliere den Wundverband auf Nachblutung und die Wunde auf Entzündungszeichen. Wenn eine Drainage liegt, beobachte ich Menge und Aussehen des Sekrets. Außerdem achte ich auf Übelkeit, die Urinausscheidung und die Darmtätigkeit, also Darmgeräusche, Windabgang und Stuhlgang. Auffälligkeiten dokumentiere ich und melde sie dem Arzt.",
+          "points": [
+            "Vitalzeichenkontrolle",
+            "Schmerzerfassung mit Skala",
+            "Wundverband und Wunde",
+            "Drainage: Menge und Aussehen",
+            "Ausscheidung und Darmtätigkeit",
+            "Dokumentieren und melden"
+          ],
+          "es": "La Beobachtung (observación) posoperatoria sigue un orden fijo: signos vitales, dolor, herida, drenaje y eliminación. Con eso detectas temprano un sangrado, una infección o un íleo. Di siempre que documentas y avisas al médico si algo cambia."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sprechen für eine Wundinfektion?",
+              "options": [
+                "Rötung",
+                "Schwellung",
+                "Blasse, kühle Wundränder ohne Schmerz",
+                "Überwärmung",
+                "Zunehmender Schmerz oder eitriges Sekret"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "tf",
+              "q": "Rötung, Schwellung, Überwärmung, Schmerz und eitriges Sekret an der Wunde sind Zeichen einer Wundinfektion.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Die Operationswunde ist am dritten Tag gerötet, geschwollen und warm, der Patient hat Fieber. Was tun Sie?",
+              "options": [
+                "Abwarten bis zur Entlassung",
+                "Die Wunde mit einer Wärmflasche behandeln",
+                "Den Befund dokumentieren und sofort den Arzt informieren",
+                "Den Verband einfach dicker anlegen"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Las Entzündungszeichen (signos de inflamación) son Rötung (enrojecimiento), Schwellung (hinchazón), Überwärmung (calor), dolor y secreción con pus. Si los ves en la herida, y más si hay fiebre, documentas y avisas al médico, porque puede ser una infección de la herida."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist nach einer Appendektomie eine Thromboseprophylaxe nötig, und welche Maßnahmen führen Sie durch?",
+          "answer": "Nach der Operation bewegt sich der Patient wegen der Schmerzen weniger, und durch die Operation ist die Blutgerinnung aktiviert. Deshalb ist das Thromboserisiko erhöht. Die wichtigste Maßnahme ist die Frühmobilisation, möglichst schon am Operationstag. Ich leite den Patienten zu Bewegungsübungen im Bett an, zum Beispiel Fußkreisen und Fußwippen. Nach ärztlicher Anordnung bekommt er Heparin subkutan und eventuell medizinische Thromboseprophylaxestrümpfe. Ich beobachte die Beine auf Schwellung, Schmerz, Rötung und Überwärmung.",
+          "points": [
+            "Immobilität und Operation als Risiko",
+            "Frühmobilisation",
+            "Bewegungsübungen der Beine",
+            "Heparin nach Anordnung",
+            "Beine auf Thrombosezeichen beobachten"
+          ],
+          "es": "La Thromboseprophylaxe (prevención de trombosis) es necesaria porque el paciente se mueve poco y la cirugía activa la coagulación. La medida más importante es la Frühmobilisation (movilización temprana); la heparina y las medias son por indicación médica."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum besteht nach einer Bauchoperation wie der Appendektomie ein Pneumonierisiko, und was tun Sie dagegen?",
+          "answer": "Wegen der Wundschmerzen atmet der Patient flach und hustet nicht richtig ab, das nennt man Schonatmung. Dadurch werden die Lungen schlecht belüftet und Sekret bleibt in den Atemwegen. Zur Pneumonieprophylaxe sorge ich für eine gute Schmerztherapie nach Anordnung und lagere den Oberkörper erhöht. Ich leite den Patienten zu tiefem Atmen und Atemübungen an. Beim Husten soll er die Hände oder ein Kissen als Gegendruck auf die Wunde legen. Außerdem mobilisiere ich ihn früh.",
+          "points": [
+            "Schonatmung durch Schmerz",
+            "Ausreichende Schmerztherapie",
+            "Oberkörper erhöht lagern",
+            "Atemübungen",
+            "Husten mit Gegendruck auf die Wunde",
+            "Frühmobilisation"
+          ],
+          "es": "Por el dolor en la herida el paciente respira superficial (Schonatmung) y no tose bien, así que el pulmón se ventila mal y puede dar neumonía. La Pneumonieprophylaxe (prevención de neumonía) combina buen control del dolor, ejercicios de respiración, posición semisentada y movilización."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.5",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie beugen Sie beim Verbandwechsel einer Wundinfektion vor?",
+              "options": [
+                "Verbandwechsel ohne Handschuhe, damit man besser fühlt",
+                "Den Verband nur wechseln, wenn der Patient es wünscht",
+                "Die Wunde mit Leitungswasser und Seife waschen",
+                "Hygienische Händedesinfektion und aseptischer Verbandwechsel mit sterilen Materialien"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Beim Verbandwechsel einer Operationswunde ist eine hygienische Händedesinfektion nicht nötig, wenn man Handschuhe trägt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Zur Infektionsprophylaxe wird der Verband der Operationswunde ___ gewechselt.",
+              "options": ["aseptisch", "stündlich", "ohne Desinfektion", "vom Patienten selbst"],
+              "correct": 0
+            }
+          ],
+          "es": "La Infektionsprophylaxe (prevención de infecciones) en la herida se basa en la hygienische Händedesinfektion (desinfección higiénica de manos) antes y después, también cuando usas guantes, y en un Verbandwechsel (curación, cambio de apósito) aséptico con material estéril."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist nach einer Appendektomie eine Obstipationsprophylaxe wichtig?",
+              "options": [
+                "Weil der Darm nach der Operation, durch wenig Bewegung und durch Schmerzmittel wie Opioide träge sein kann und starkes Pressen die Bauchdecke belastet",
+                "Weil der Patient nach der Operation immer Durchfall hat",
+                "Weil der Dickdarm bei der Operation entfernt wurde",
+                "Weil Stuhlgang nach der Operation verboten ist"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören nach der Appendektomie zur Obstipationsprophylaxe?",
+              "options": [
+                "Frühmobilisation",
+                "Ausreichend trinken, wenn es erlaubt ist",
+                "Strenge Bettruhe für eine Woche",
+                "Ballaststoffreiche Kost nach dem Kostaufbau",
+                "Stuhldrang unterdrücken"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bewegung, ausreichende Flüssigkeit und ballaststoffreiche Kost nach dem Kostaufbau helfen, einer Obstipation nach der Operation vorzubeugen.",
+              "correct": true
+            }
+          ],
+          "es": "Después de la cirugía el intestino está perezoso por la anestesia, la falta de movimiento y los opioides. La Obstipationsprophylaxe (prevención del estreñimiento) evita que el paciente tenga que pujar fuerte, lo que duele y carga la pared abdominal. Abführmittel solo se dan por indicación médica."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie mobilisieren Sie einen Patienten nach einer Appendektomie?",
+          "answer": "Ich mobilisiere den Patienten früh, nach ärztlicher Anordnung meist schon am Operationstag. Vorher kontrolliere ich Blutdruck und Puls und sorge dafür, dass er ausreichend Schmerzmittel bekommen hat. Der Patient dreht sich zuerst auf die Seite und steht dann über die Seite auf, damit die Bauchmuskeln entlastet werden. Er setzt sich zuerst an die Bettkante, und ich beobachte den Kreislauf, bevor er aufsteht. Beim ersten Aufstehen begleite ich ihn. Die Frühmobilisation beugt Thrombose und Pneumonie vor und regt den Darm an.",
+          "points": [
+            "Frühmobilisation",
+            "Vitalzeichen und Schmerzmittel vorher",
+            "Über die Seite aufstehen",
+            "Kreislauf beobachten",
+            "Erstes Aufstehen begleiten",
+            "Nutzen: Prophylaxen, Darmanregung"
+          ],
+          "es": "La movilización temprana es la medida clave después de la cirugía. Levantarse «über die Seite» (girando de lado) protege la pared abdominal y duele menos. Acompañas siempre la primera vez por el riesgo de mareo y caída, y explicas para qué sirve."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Was beachten Sie bei der Ernährung vor und nach der Appendektomie?",
+          "answer": "Vor der Operation bleibt der Patient nüchtern, also gilt Nahrungskarenz. Flüssigkeit bekommt er als Infusion nach ärztlicher Anordnung, und ich biete ihm Mundpflege an. Nach der Operation erfolgt der Kostaufbau nach ärztlicher Anordnung. Bei unkompliziertem Verlauf darf der Patient meist schon bald wieder trinken und bekommt dann leichte Kost. Nach einer Perforation oder Peritonitis dauert der Kostaufbau länger. Ich beobachte, ob er das Essen verträgt, also ob Übelkeit, Erbrechen oder ein geblähter Bauch auftreten, und ob die Darmtätigkeit wieder in Gang kommt.",
+          "points": [
+            "Präoperativ Nahrungskarenz",
+            "Infusion und Mundpflege",
+            "Kostaufbau nach Anordnung",
+            "Erst trinken, dann leichte Kost",
+            "Verträglichkeit beobachten",
+            "Darmtätigkeit beobachten"
+          ],
+          "es": "Antes de la cirugía hay ayuno; por eso ofreces Mundpflege (cuidado de la boca). Después, el Kostaufbau (reinicio progresivo de la dieta) siempre es «nach ärztlicher Anordnung» (por indicación médica): primero líquidos y luego dieta blanda. Tú vigilas si lo tolera y si el intestino vuelve a trabajar."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie unterstützen Sie den Patienten nach der Appendektomie bei der Körperpflege?",
+          "answer": "Am Operationstag und am ersten Tag danach unterstütze ich den Patienten bei der Körperpflege so viel wie nötig, zum Beispiel beim Waschen von Rücken und Beinen. Ich fördere seine Selbstständigkeit und plane die Pflege so, dass er vorher ausreichend Schmerzmittel bekommen hat. Der Wundverband muss trocken und sauber bleiben. Duschen ist erst nach ärztlicher Erlaubnis möglich, dann mit einem wasserdichten Pflaster. Ein Vollbad ist nicht erlaubt, bis die Wunde verheilt ist. Bei der Körperpflege beobachte ich die Haut und die Wundumgebung.",
+          "points": [
+            "Unterstützung nach Bedarf",
+            "Selbstständigkeit fördern",
+            "Schmerzmittel vorher",
+            "Wundverband trocken halten",
+            "Duschen erst nach Erlaubnis",
+            "Haut und Wunde beobachten"
+          ],
+          "es": "En la Körperpflege (higiene corporal) ayudas solo en lo necesario para fomentar la independencia. Lo específico aquí es la herida: el apósito debe quedar seco, la regadera solo con permiso médico y con parche impermeable, y nada de baño en tina hasta que cicatrice."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Was beachten Sie bei der Kleidung und beim An- und Auskleiden nach einer Appendektomie?",
+          "answer": "Der Patient soll bequeme, weite Kleidung tragen, die nicht auf die Wunde drückt, zum Beispiel eine Hose mit lockerem Bund. Gürtel und enge Hosen sind am Anfang ungünstig. Beim An- und Auskleiden helfe ich so viel wie nötig, weil Bücken und Drehen am Anfang schmerzhaft sind. Ich achte darauf, dass Drainage und Infusion dabei nicht unter Zug kommen. Zum Aufstehen braucht der Patient feste, rutschsichere Schuhe. Wenn Thromboseprophylaxestrümpfe angeordnet sind, helfe ich beim Anziehen.",
+          "points": [
+            "Weite, bequeme Kleidung",
+            "Kein Druck auf die Wunde",
+            "Hilfe beim An- und Auskleiden",
+            "Auf Drainage und Infusion achten",
+            "Feste Schuhe"
+          ],
+          "es": "En Bekleidung (vestido) lo importante es que la ropa sea holgada y no apriete la herida, y que al vestir no se jale el drenaje ni la venoclisis. Los zapatos firmes y antiderrapantes ayudan a prevenir caídas en las primeras veces que el paciente se levanta."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.11",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Worüber beraten Sie einen Patienten vor der Entlassung nach einer Appendektomie?",
+          "answer": "Ich erkläre dem Patienten, dass er sich in den ersten Wochen körperlich schonen soll. Er soll nicht schwer heben und erst nach ärztlicher Erlaubnis wieder Sport machen, damit die Bauchdecke heilen kann. Ich zeige ihm, wie er die Wunde beobachtet und pflegt. Bei Rötung, Schwellung, Sekret, Fieber, zunehmenden Bauchschmerzen oder Erbrechen soll er sofort zum Arzt gehen. Außerdem berate ich ihn zu leichter, ballaststoffreicher Kost, ausreichendem Trinken und regelmäßigem Stuhlgang ohne starkes Pressen. Ich erinnere ihn an die Nachkontrolle beim Arzt.",
+          "points": [
+            "Körperliche Schonung",
+            "Nicht schwer heben",
+            "Wundbeobachtung",
+            "Warnzeichen: sofort zum Arzt",
+            "Ernährung und Stuhlgang",
+            "Nachkontrolle"
+          ],
+          "es": "La Beratung (asesoría) antes del alta tiene cuatro temas: reposo relativo y no cargar cosas pesadas, cuidado de la herida, signos de alarma y evacuación sin pujar. Cuánto tiempo debe cuidarse lo decide el médico según el tipo de cirugía, así que di «nach ärztlicher Angabe»."
+        },
+        {
+          "id": "appendizitis.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Lagerung entlastet die Bauchdecke nach einer Appendektomie?",
+              "options": [
+                "Flache Bauchlage",
+                "Rückenlage mit leicht erhöhtem Oberkörper und einer Knierolle unter den Knien",
+                "Kopftieflage",
+                "Sitzen mit gestreckten Beinen und nach vorne gebeugtem Oberkörper"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Rückenlage mit leicht erhöhtem Oberkörper und angewinkelten Beinen entspannt die Bauchdecke und lindert den Wundschmerz.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Zur bauchdeckenentlastenden Lagerung wird der Oberkörper leicht erhöht und unter die Knie eine ___ gelegt.",
+              "options": ["Wärmflasche", "Bettpfanne", "Eisblase", "Knierolle"],
+              "correct": 3
+            }
+          ],
+          "es": "La bauchdeckenentlastende Lagerung (posición que relaja la pared abdominal) es boca arriba, con el tronco un poco elevado y las rodillas flexionadas sobre una Knierolle (rollo bajo las rodillas). Así los músculos del abdomen no jalan la herida y baja el dolor. El rollo se usa solo por ratos y junto con ejercicios de piernas, por el riesgo de trombosis."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "appendizitis.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten nach Appendektomie und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat akute Wundschmerzen nach der Appendektomie und bewegt sich deshalb wenig und atmet flach. Ziel: Der Patient gibt innerhalb von 24 Stunden seine Schmerzen in Ruhe mit höchstens 3 auf der numerischen Schmerzskala von 0 bis 10 an. Maßnahmen: Ich erfasse die Schmerzen regelmäßig mit der Schmerzskala, gebe Schmerzmittel nach ärztlicher Anordnung und kontrolliere die Wirkung. Ich lagere den Patienten bauchdeckenentlastend mit erhöhtem Oberkörper und Knierolle und leite ihn an, beim Husten und Aufstehen Gegendruck auf die Wunde zu geben.",
+          "points": [
+            "Problem: akute Wundschmerzen",
+            "Ziel: Schmerz höchstens 3/10",
+            "Schmerzerfassung mit Skala",
+            "Schmerzmittel nach Anordnung",
+            "Bauchdeckenentlastende Lagerung"
+          ],
+          "es": "El dolor agudo de la herida es el problema de enfermería más típico después de la cirugía. La meta es medible (máximo 3 de 10 en la NRS) y tiene plazo (24 horas), o sea, es SMART. Las medidas combinan analgésicos por indicación con medidas propias de enfermería como la posición."
+        },
+        {
+          "id": "appendizitis.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein weiteres Pflegeproblem nach einer Appendektomie, das die Operationswunde betrifft, und formulieren Sie Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat durch die Operationswunde und eventuell eine Drainage ein erhöhtes Risiko für eine Wundinfektion. Ziel: Die Wunde ist bis zur Entlassung trocken und reizlos, und der Patient hat kein Fieber. Maßnahmen: Ich führe den Verbandwechsel aseptisch durch und desinfiziere vorher und nachher die Hände. Ich beobachte die Wunde täglich auf Rötung, Schwellung, Überwärmung, Schmerz und Sekret und kontrolliere die Temperatur. Ich beobachte die Drainage und informiere den Patienten, dass er die Wunde nicht berühren soll und Veränderungen melden soll.",
+          "points": [
+            "Problem: Risiko Wundinfektion",
+            "Ziel: Wunde reizlos, kein Fieber",
+            "Aseptischer Verbandwechsel",
+            "Händedesinfektion",
+            "Tägliche Wundbeobachtung",
+            "Temperaturkontrolle"
+          ],
+          "es": "Este es un Risikoproblem (problema de riesgo): la infección todavía no existe, pero puede aparecer. «Reizlos» significa que la herida no muestra signos de irritación o inflamación. La meta se revisa al alta, y las medidas son higiene, curación aséptica y observación diaria."
+        },
+        {
+          "id": "appendizitis.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem nach Appendektomie im Bereich Bewegung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist nach der Operation wegen der Schmerzen in seiner Mobilität eingeschränkt, dadurch besteht die Gefahr von Thrombose, Pneumonie und Obstipation. Ziel: Der Patient steht am ersten Tag nach der Operation mit Begleitung auf und geht mindestens dreimal täglich über den Flur. Maßnahmen: Ich mobilisiere den Patienten früh und zeige ihm das Aufstehen über die Seite. Vorher gebe ich Schmerzmittel nach ärztlicher Anordnung und kontrolliere den Kreislauf. Ich leite ihn zu Bewegungsübungen der Beine und zu Atemübungen an und beobachte die Darmtätigkeit.",
+          "points": [
+            "Problem: eingeschränkte Mobilität",
+            "Ziel: am 1. Tag aufstehen und gehen",
+            "Frühmobilisation",
+            "Aufstehen über die Seite",
+            "Bewegungs- und Atemübungen",
+            "Darmtätigkeit beobachten"
+          ],
+          "es": "La movilidad limitada por el dolor es el origen de varios riesgos: trombosis, neumonía y estreñimiento. Por eso una sola medida, la movilización temprana, sirve como varias profilaxis a la vez. La meta dice qué hace el paciente, cuánto y cuándo."
+        },
+        {
+          "id": "appendizitis.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Formulieren Sie ein Beispiel für einen Patienten nach Appendektomie.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel beschreibt also genau einen Zustand des Patienten, den man überprüfen kann, den der Patient erreichen kann und will, und es hat einen Zeitpunkt. Ein Pflegeziel wird positiv und aus der Sicht des Patienten formuliert. Ein Beispiel nach Appendektomie ist: Der Patient gibt innerhalb von 24 Stunden seine Schmerzen in Ruhe mit höchstens 3 auf der Schmerzskala an. Am genannten Termin überprüfe ich in der Evaluation, ob das Ziel erreicht ist.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert und realistisch",
+            "Terminiert",
+            "Aus Sicht des Patienten",
+            "Beispiel mit Schmerzskala"
+          ],
+          "es": "SMART es la regla para escribir un Pflegeziel (meta de enfermería): específico, medible, aceptado, realista y con fecha. La meta describe el estado del paciente, no lo que hace la enfermera. Ten siempre listo un ejemplo concreto, como el del dolor con la escala, porque casi siempre lo piden."
+        }
+      ]
+    }
+  ]
+}

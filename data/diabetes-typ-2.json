@@ -1,0 +1,1724 @@
+{
+  "id": "diabetes-typ-2",
+  "name": "Diabetes mellitus Typ 2",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "diabetes-typ-2.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Diabetes mellitus Typ 2?",
+              "options": [
+                "Eine akute Entzündung der Bauchspeicheldrüse",
+                "Eine chronische Stoffwechselerkrankung mit erhöhtem Blutzucker durch Insulinresistenz und relativen Insulinmangel",
+                "Eine Autoimmunerkrankung, bei der die Schilddrüse zerstört wird",
+                "Eine Erkrankung mit dauerhaft zu niedrigem Blutzucker"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Der Diabetes mellitus Typ 2 ist eine chronische Stoffwechselerkrankung, bei der der ___ dauerhaft erhöht ist.",
+              "options": [
+                "Blutdruck",
+                "Harnstoff",
+                "Blutzucker",
+                "Kaliumwert"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Das gemeinsame Kennzeichen aller Formen des Diabetes mellitus ist die chronische Hyperglykämie, also ein dauerhaft erhöhter Blutzucker.",
+              "correct": true
+            }
+          ],
+          "es": "La Diabetes mellitus Typ 2 es una enfermedad crónica del metabolismo: la glucosa en sangre está elevada de forma permanente (Hyperglykämie = hiperglucemia). La causa es una Insulinresistenz (resistencia a la insulina) junto con un relativer Insulinmangel (déficit relativo de insulina). Con esta frase puedes empezar cualquier respuesta sobre el tema."
+        },
+        {
+          "id": "diabetes-typ-2.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Form des Insulinmangels ist typisch für den Diabetes mellitus Typ 2?",
+              "options": [
+                "Relativer Insulinmangel: Insulin ist vorhanden, wirkt aber nicht ausreichend",
+                "Absoluter Insulinmangel: Es wird von Anfang an gar kein Insulin gebildet",
+                "Es gibt keinen Insulinmangel, nur einen Glukagonmangel",
+                "Insulinmangel nur während einer Schwangerschaft"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Diabetestyp dem passenden Merkmal zu.",
+              "pairs": [
+                [
+                  "Typ 1",
+                  "absoluter Insulinmangel durch Zerstörung der B-Zellen"
+                ],
+                [
+                  "Typ 2",
+                  "Insulinresistenz und relativer Insulinmangel"
+                ],
+                [
+                  "Gestationsdiabetes",
+                  "tritt erstmals in der Schwangerschaft auf"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Beim Diabetes mellitus Typ 2 produziert die Bauchspeicheldrüse von Beginn an überhaupt kein Insulin.",
+              "correct": false
+            }
+          ],
+          "es": "En el Typ 2 el páncreas sí produce insulina, sobre todo al inicio, pero las células del cuerpo responden mal a ella: por eso se habla de relativer Insulinmangel (déficit relativo). En el Typ 1, en cambio, falta la insulina por completo (absoluter Insulinmangel), porque las células B fueron destruidas. Esta diferencia la preguntan casi siempre."
+        },
+        {
+          "id": "diabetes-typ-2.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie viele Menschen mit Diabetes mellitus haben ungefähr einen Typ-2-Diabetes?",
+              "options": [
+                "Etwa 10 %",
+                "Etwa 30 %",
+                "Etwa 50 %",
+                "Etwa 90 %"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Typ-2-Diabetes ist deutlich seltener als der Typ-1-Diabetes.",
+              "correct": false
+            }
+          ],
+          "es": "El Typ 2 es, por mucho, la forma más frecuente: alrededor del 90 % de todas las personas con diabetes lo tienen. El Typ 1 es mucho menos común. Por eso en el hospital y en el asilo vas a ver casi siempre pacientes con Typ 2."
+        },
+        {
+          "id": "diabetes-typ-2.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welcher Lebensphase beginnt ein Diabetes mellitus Typ 2 typischerweise?",
+              "options": [
+                "Fast nur im Säuglingsalter",
+                "Fast nur in der Pubertät",
+                "Meist im Erwachsenenalter, oft nach dem 40. Lebensjahr, zunehmend aber auch bei jüngeren Menschen mit Übergewicht",
+                "Ausschließlich nach dem 80. Lebensjahr"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Typ-2-Diabetes wurde früher Altersdiabetes genannt, heute erkranken aber auch jüngere übergewichtige Menschen.",
+              "correct": true
+            }
+          ],
+          "es": "Antes se le decía Altersdiabetes (diabetes de la edad adulta), porque empieza casi siempre en adultos, muchas veces después de los 40 años. Hoy también se enferman personas más jóvenes, e incluso adolescentes, cuando tienen Übergewicht (sobrepeso) y se mueven poco. Por eso el nombre viejo ya no es exacto."
+        },
+        {
+          "id": "diabetes-typ-2.definition.5",
+          "type": "sprech",
+          "q": "Was ist ein Diabetes mellitus Typ 2? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Der Diabetes mellitus Typ 2 ist eine chronische Stoffwechselerkrankung mit dauerhaft erhöhtem Blutzucker. Die Ursache ist eine Insulinresistenz, das heißt, die Körperzellen sprechen schlechter auf Insulin an. Dazu kommt ein relativer Insulinmangel, weil die Bauchspeicheldrüse den erhöhten Bedarf auf Dauer nicht decken kann. Die Erkrankung beginnt schleichend und betrifft vor allem Erwachsene mit Übergewicht und Bewegungsmangel. Unbehandelt schädigt der hohe Blutzucker langfristig die Gefäße und Nerven.",
+          "points": [
+            "chronische Stoffwechselerkrankung",
+            "erhöhter Blutzucker",
+            "Insulinresistenz",
+            "relativer Insulinmangel",
+            "schleichender Beginn",
+            "Schäden an Gefäßen und Nerven"
+          ],
+          "es": "Es la pregunta de entrada típica. Di primero qué es (enfermedad crónica del metabolismo con glucosa alta), después el mecanismo (Insulinresistenz y relativer Insulinmangel) y al final a quién afecta y por qué es peligrosa. Con ese orden tu respuesta suena clara y completa."
+        },
+        {
+          "id": "diabetes-typ-2.definition.6",
+          "type": "sprech",
+          "q": "Worin unterscheidet sich der Diabetes mellitus Typ 2 vom Typ 1?",
+          "answer": "Beim Typ 1 zerstört das Immunsystem die insulinbildenden B-Zellen, deshalb besteht ein absoluter Insulinmangel. Beim Typ 2 ist noch Insulin vorhanden, aber es wirkt wegen der Insulinresistenz nicht ausreichend, das ist ein relativer Insulinmangel. Der Typ 1 beginnt meist plötzlich bei Kindern und jungen Menschen, der Typ 2 beginnt schleichend bei Erwachsenen, oft mit Übergewicht. Menschen mit Typ 1 brauchen immer Insulin. Beim Typ 2 stehen zuerst Lebensstiländerung und Tabletten im Vordergrund, Insulin kommt erst später dazu.",
+          "points": [
+            "Typ 1: absoluter Insulinmangel",
+            "Typ 2: relativer Insulinmangel",
+            "Insulinresistenz",
+            "plötzlicher oder schleichender Beginn",
+            "Typ 1 immer Insulin",
+            "Typ 2 zuerst Lebensstil"
+          ],
+          "es": "Aquí conviene comparar punto por punto: causa (autoinmune contra resistencia a la insulina), inicio (brusco contra lento), edad y tratamiento. Recuerda la frase clave: Typ 1 = absoluter Insulinmangel, Typ 2 = relativer Insulinmangel. Si la dices con seguridad, ya tienes lo más importante."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "diabetes-typ-2.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo wird das Hormon Insulin gebildet?",
+              "options": [
+                "In der Leber",
+                "In den B-Zellen der Langerhans-Inseln im Pankreas",
+                "In der Nebennierenrinde",
+                "In der Schilddrüse"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Insulin wird in den B-Zellen der Langerhans-Inseln im ___ gebildet.",
+              "options": [
+                "Pankreas",
+                "Magen",
+                "Dünndarm",
+                "Hypothalamus"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La insulina se produce en las B-Zellen (células beta) de las Langerhans-Inseln (islotes de Langerhans), que están en el Pankreas (páncreas), también llamado Bauchspeicheldrüse. Es la base de todo el tema: si entiendes dónde se produce la insulina, puedes explicar qué falla en la diabetes."
+        },
+        {
+          "id": "diabetes-typ-2.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Hauptwirkung hat Insulin?",
+              "options": [
+                "Es erhöht den Blutzucker, indem es Glykogen abbaut",
+                "Es senkt den Blutdruck, indem es die Gefäße erweitert",
+                "Es senkt den Blutzucker, indem es Glukose aus dem Blut in die Zellen schleust",
+                "Es fördert die Ausscheidung von Glukose über die Niere"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Insulin ist das einzige Hormon des Körpers, das den Blutzucker senkt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Insulin wirkt wie ein Schlüssel: Es öffnet die Zellen von Muskel- und Fettgewebe für ___.",
+              "options": [
+                "Natrium",
+                "Glukose",
+                "Sauerstoff",
+                "Harnstoff"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La insulina es la única hormona que baja la glucosa en sangre. Funciona como una llave (Schlüssel): abre las células del músculo y del tejido graso para que la Glukose (glucosa) entre y se use como energía. Si la llave no funciona bien, la glucosa se queda en la sangre y sube el Blutzucker (azúcar en sangre)."
+        },
+        {
+          "id": "diabetes-typ-2.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der passenden Beschreibung zu.",
+              "pairs": [
+                [
+                  "Insulin",
+                  "senkt den Blutzucker"
+                ],
+                [
+                  "Glukagon",
+                  "erhöht den Blutzucker"
+                ],
+                [
+                  "Glykogen",
+                  "Speicherform der Glukose in Leber und Muskel"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welches Hormon ist der wichtigste Gegenspieler des Insulins?",
+              "options": [
+                "Thyroxin",
+                "Aldosteron",
+                "Erythropoetin",
+                "Glukagon"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Glukagon (glucagón) es el antagonista de la insulina: se produce en las A-Zellen (células alfa) del páncreas y sube la glucosa cuando está baja. Glykogen (glucógeno) no es una hormona, sino la forma en que el hígado y el músculo almacenan glucosa. No confundas Glukagon con Glykogen, suenan parecido."
+        },
+        {
+          "id": "diabetes-typ-2.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Rolle spielt die Leber im Zuckerstoffwechsel?",
+              "options": [
+                "Sie bildet das Insulin",
+                "Sie speichert Glukose als Glykogen und gibt bei Bedarf wieder Glukose ins Blut ab",
+                "Sie scheidet überschüssige Glukose mit dem Stuhl aus",
+                "Sie hat keinen Einfluss auf den Blutzucker"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Insulinresistenz gibt die Leber zu viel Glukose ins Blut ab, obwohl der Blutzucker schon erhöht ist.",
+              "correct": true
+            }
+          ],
+          "es": "El hígado (Leber) es el depósito de azúcar: guarda glucosa como Glykogen y la suelta a la sangre cuando hace falta, por ejemplo en la noche. Normalmente la insulina frena esa liberación. En la Insulinresistenz el hígado no obedece bien a la insulina y sigue soltando glucosa, por eso muchas personas con Typ 2 tienen la glucosa alta en ayunas."
+        },
+        {
+          "id": "diabetes-typ-2.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne dem Anteil des Pankreas seine Aufgabe zu.",
+              "pairs": [
+                [
+                  "exokriner Anteil",
+                  "bildet Verdauungsenzyme für den Dünndarm"
+                ],
+                [
+                  "endokriner Anteil",
+                  "bildet Hormone und gibt sie ins Blut ab"
+                ],
+                [
+                  "Langerhans-Inseln",
+                  "Zellgruppen mit A-Zellen und B-Zellen"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Das Pankreas bildet nur Verdauungsenzyme und keine Hormone.",
+              "correct": false
+            }
+          ],
+          "es": "El Pankreas tiene dos funciones. La parte exokrin (exocrina) produce enzimas digestivas que van al intestino delgado. La parte endokrin (endocrina) son los islotes de Langerhans, que producen las hormonas Insulin y Glukagon y las mandan directo a la sangre. Para la diabetes solo importa la parte endocrina."
+        },
+        {
+          "id": "diabetes-typ-2.anatomie.6",
+          "type": "sprech",
+          "q": "Erklären Sie, welche Aufgabe das Insulin im Körper hat und an welchen Organen es wirkt.",
+          "answer": "Insulin wird in den B-Zellen der Langerhans-Inseln im Pankreas gebildet und nach dem Essen ins Blut abgegeben. Es senkt den Blutzucker, weil es die Glukose aus dem Blut in die Muskel- und Fettzellen schleust. In der Leber fördert es die Speicherung von Glukose als Glykogen und bremst die Abgabe von Glukose ins Blut. Der Gegenspieler ist das Glukagon, das den Blutzucker erhöht. Beim Typ-2-Diabetes sprechen Muskel, Fettgewebe und Leber schlechter auf Insulin an.",
+          "points": [
+            "B-Zellen im Pankreas",
+            "senkt den Blutzucker",
+            "Glukose in die Zellen",
+            "Muskel, Fettgewebe, Leber",
+            "Glykogenspeicherung",
+            "Gegenspieler Glukagon"
+          ],
+          "es": "Para esta pregunta sigue el camino de la insulina: dónde se produce (células B del páncreas), qué hace (mete la glucosa a las células y baja el azúcar) y en qué órganos actúa (músculo, grasa e hígado). Termina uniendo con la enfermedad: en el Typ 2 justamente esos tres órganos responden mal a la insulina."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "diabetes-typ-2.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Insulinresistenz?",
+              "options": [
+                "Der Körper bildet Antikörper gegen gespritztes Insulin",
+                "Die Körperzellen sprechen vermindert auf Insulin an, sodass weniger Glukose in die Zellen gelangt",
+                "Das Pankreas ist vollständig entfernt worden",
+                "Die Niere scheidet das Insulin zu schnell aus"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Wenn Muskel-, Fett- und Leberzellen vermindert auf Insulin ansprechen, nennt man das ___.",
+              "options": [
+                "Insulinallergie",
+                "Ketoazidose",
+                "Hypoglykämie",
+                "Insulinresistenz"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Insulinresistenz ist zwar Insulin im Blut vorhanden, es wirkt an den Zellen aber nicht ausreichend.",
+              "correct": true
+            }
+          ],
+          "es": "Insulinresistenz (resistencia a la insulina) significa que las células del músculo, de la grasa y del hígado responden menos a la insulina. Hay insulina en la sangre, pero la «llave» ya no abre bien la célula y la glucosa se queda afuera. Es el mecanismo central del Typ 2."
+        },
+        {
+          "id": "diabetes-typ-2.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie reagiert das Pankreas am Anfang auf die Insulinresistenz?",
+              "options": [
+                "Es stellt die Insulinproduktion sofort ein",
+                "Es bildet statt Insulin nur noch Glukagon",
+                "Es bildet mehr Insulin, um die schlechtere Wirkung auszugleichen",
+                "Es bildet mehr Verdauungsenzyme"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Im Verlauf des Typ-2-Diabetes erschöpfen sich die B-Zellen, sodass die Insulinproduktion nach Jahren abnimmt.",
+              "correct": true
+            }
+          ],
+          "es": "Al principio el páncreas compensa: produce más insulina de lo normal para vencer la resistencia. Con los años las B-Zellen se agotan y producen cada vez menos insulina; entonces sube el azúcar y aparece la diabetes. Por eso muchos pacientes con Typ 2 necesitan insulina después de muchos años de enfermedad."
+        },
+        {
+          "id": "diabetes-typ-2.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wodurch entsteht ein Diabetes mellitus Typ 2?",
+              "options": [
+                "Durch eine Virusinfektion der Leber",
+                "Durch eine Autoimmunreaktion gegen die B-Zellen",
+                "Nur durch zu viel Zucker in der Kindheit",
+                "Durch das Zusammenwirken von erblicher Veranlagung und Lebensstil mit Übergewicht und Bewegungsmangel"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Diabetes mellitus Typ 2 ist eine Autoimmunerkrankung.",
+              "correct": false
+            }
+          ],
+          "es": "El Typ 2 nace de la combinación de dos cosas: la erbliche Veranlagung (predisposición hereditaria) y el estilo de vida, sobre todo Übergewicht (sobrepeso) y Bewegungsmangel (falta de ejercicio). No es una enfermedad autoinmune; eso corresponde al Typ 1. Tampoco es correcto decir que «viene solo por comer azúcar»."
+        },
+        {
+          "id": "diabetes-typ-2.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum fördert vor allem das Bauchfett die Entstehung eines Typ-2-Diabetes?",
+              "options": [
+                "Weil Bauchfett Insulin speichert und nicht mehr abgibt",
+                "Weil das Fettgewebe im Bauchraum Stoffe abgibt, die die Insulinresistenz verstärken",
+                "Weil Bauchfett die B-Zellen mechanisch zusammendrückt",
+                "Weil Bauchfett die Nieren verschließt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Für das Diabetesrisiko spielt es keine Rolle, ob das Fett am Bauch oder an den Hüften sitzt.",
+              "correct": false
+            }
+          ],
+          "es": "La grasa abdominal (Bauchfett, la que rodea los órganos) es metabólicamente muy activa: libera ácidos grasos y sustancias que aumentan la Insulinresistenz. Por eso la stammbetonte Adipositas (obesidad central, tipo «manzana») es más peligrosa que la grasa en caderas. Bajar de peso mejora directamente el efecto de la insulina."
+        },
+        {
+          "id": "diabetes-typ-2.ursachen.5",
+          "type": "sprech",
+          "q": "Wie entsteht ein Diabetes mellitus Typ 2? Beschreiben Sie die Pathophysiologie.",
+          "answer": "Am Anfang steht die Insulinresistenz: Muskel-, Fett- und Leberzellen sprechen schlechter auf Insulin an. Sie entsteht durch erbliche Veranlagung zusammen mit Übergewicht und Bewegungsmangel. Das Pankreas gleicht das zuerst aus und bildet mehr Insulin. Nach Jahren erschöpfen sich die B-Zellen, es kommt zum relativen Insulinmangel und der Blutzucker steigt dauerhaft an.",
+          "points": [
+            "Insulinresistenz",
+            "erbliche Veranlagung",
+            "Übergewicht und Bewegungsmangel",
+            "zuerst mehr Insulin",
+            "Erschöpfung der B-Zellen",
+            "Blutzucker steigt"
+          ],
+          "es": "Cuenta la historia en orden de tiempo: primero la Insulinresistenz (por herencia más sobrepeso y poco movimiento), luego la compensación del páncreas con más insulina y al final el agotamiento de las B-Zellen. Así se entiende por qué la enfermedad tarda años en aparecer y por qué se puede prevenir con estilo de vida."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "diabetes-typ-2.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren sind die wichtigsten Risikofaktoren für einen Diabetes mellitus Typ 2?",
+              "options": [
+                "Übergewicht, vor allem am Bauch",
+                "Untergewicht",
+                "Bewegungsmangel",
+                "Familiäre Belastung",
+                "Niedriger Blutdruck"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Übergewicht und Bewegungsmangel sind die wichtigsten beeinflussbaren Risikofaktoren für einen Typ-2-Diabetes.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor für den Typ-2-Diabetes lässt sich NICHT beeinflussen?",
+              "options": [
+                "Bewegungsmangel",
+                "Familiäre Belastung",
+                "Übergewicht",
+                "Rauchen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los tres grandes factores de riesgo son Übergewicht/Adipositas (sobrepeso/obesidad), Bewegungsmangel (sedentarismo) y familiäre Belastung (antecedentes familiares). Los dos primeros se pueden cambiar, la herencia no. Por eso la prevención y el tratamiento empiezan siempre con peso y movimiento."
+        },
+        {
+          "id": "diabetes-typ-2.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Befunde gehören zum metabolischen Syndrom?",
+              "options": [
+                "Stammbetonte Adipositas",
+                "Arterielle Hypertonie",
+                "Fettstoffwechselstörung",
+                "Gestörter Zuckerstoffwechsel mit Insulinresistenz",
+                "Schilddrüsenüberfunktion",
+                "Eisenmangelanämie"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was versteht man unter dem metabolischen Syndrom?",
+              "options": [
+                "Eine akute Stoffwechselentgleisung mit Bewusstlosigkeit",
+                "Eine angeborene Störung des Eiweißstoffwechsels",
+                "Das gemeinsame Auftreten von bauchbetonter Adipositas, Bluthochdruck, Fettstoffwechselstörung und gestörtem Zuckerstoffwechsel",
+                "Eine Nebenwirkung der Insulintherapie"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El metabolisches Syndrom (síndrome metabólico) es la combinación de obesidad abdominal, Hypertonie (hipertensión), Fettstoffwechselstörung (alteración de los lípidos) y alteración de la glucosa con Insulinresistenz. Se le llama también «cuarteto mortal» porque juntos aumentan mucho el riesgo de infarto y de EVC. Muchos pacientes con Typ 2 lo tienen."
+        },
+        {
+          "id": "diabetes-typ-2.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Risikofaktor richtig ein.",
+              "pairs": [
+                [
+                  "Übergewicht",
+                  "beeinflussbar durch Gewichtsreduktion"
+                ],
+                [
+                  "Bewegungsmangel",
+                  "beeinflussbar durch mehr körperliche Aktivität"
+                ],
+                [
+                  "Höheres Lebensalter",
+                  "nicht beeinflussbar"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Das Risiko für einen Typ-2-Diabetes nimmt mit dem Lebensalter ab.",
+              "correct": false
+            }
+          ],
+          "es": "En el examen conviene ordenar los factores en beeinflussbar (modificables: peso, alimentación, ejercicio, tabaco) y nicht beeinflussbar (no modificables: edad, herencia). El riesgo sube con la edad, no baja. Esta división te sirve después para la Beratung (asesoría), porque solo trabajas con lo que el paciente puede cambiar."
+        },
+        {
+          "id": "diabetes-typ-2.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Eine Frau hatte in der Schwangerschaft einen Gestationsdiabetes. Was bedeutet das für ihr späteres Leben?",
+              "options": [
+                "Sie kann später keinen Diabetes mehr bekommen",
+                "Sie bekommt sicher einen Typ-1-Diabetes",
+                "Es hat keine Bedeutung",
+                "Sie hat ein erhöhtes Risiko, später einen Typ-2-Diabetes zu entwickeln"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein Schwangerschaftsdiabetes erhöht das Risiko der Frau, später an einem Typ-2-Diabetes zu erkranken.",
+              "correct": true
+            }
+          ],
+          "es": "El Gestationsdiabetes (diabetes gestacional) casi siempre desaparece después del parto, pero es una señal de alarma: esa mujer tiene un riesgo claramente mayor de desarrollar Typ 2 más adelante. Por eso se le recomiendan controles regulares de glucosa y un estilo de vida saludable."
+        },
+        {
+          "id": "diabetes-typ-2.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Medikamentengruppe kann den Blutzucker erhöhen und so einen Diabetes begünstigen oder verschlechtern?",
+              "options": [
+                "Glukokortikoide (Kortison)",
+                "Eisenpräparate",
+                "Abführmittel",
+                "Schleimlöser"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine längere Behandlung mit Glukokortikoiden hat keinen Einfluss auf den Blutzucker.",
+              "correct": false
+            }
+          ],
+          "es": "Los Glukokortikoide (glucocorticoides, «Kortison») suben la glucosa en sangre. En un paciente con Typ 2 que recibe cortisona, por ejemplo por una enfermedad pulmonar, debes esperar valores más altos y medir el Blutzucker con más frecuencia según la indicación médica."
+        },
+        {
+          "id": "diabetes-typ-2.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für einen Diabetes mellitus Typ 2 kennen Sie, und welche davon kann der Patient selbst beeinflussen?",
+          "answer": "Die wichtigsten Risikofaktoren sind Übergewicht, besonders am Bauch, Bewegungsmangel und eine familiäre Belastung. Dazu kommen eine ungesunde, fett- und zuckerreiche Ernährung, Rauchen, Bluthochdruck und Fettstoffwechselstörungen im Rahmen des metabolischen Syndroms. Nicht beeinflussbar sind die erbliche Veranlagung und das höhere Lebensalter. Beeinflussen kann der Patient sein Gewicht, seine Ernährung, seine Bewegung und das Rauchen.",
+          "points": [
+            "Übergewicht am Bauch",
+            "Bewegungsmangel",
+            "familiäre Belastung",
+            "metabolisches Syndrom",
+            "nicht beeinflussbar: Alter, Veranlagung",
+            "beeinflussbar: Gewicht, Ernährung, Bewegung"
+          ],
+          "es": "Empieza con los tres principales (sobrepeso, sedentarismo, herencia) y luego agrega el metabolisches Syndrom. Lo que da puntos es separar con claridad lo modificable de lo no modificable, porque así muestras que piensas como enfermera: en lo modificable está tu trabajo de asesoría."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "diabetes-typ-2.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie beginnt ein Diabetes mellitus Typ 2 typischerweise?",
+              "options": [
+                "Plötzlich innerhalb weniger Stunden mit Bewusstlosigkeit",
+                "Schleichend über Jahre, oft lange ohne Beschwerden",
+                "Immer mit starken Bauchschmerzen",
+                "Immer mit hohem Fieber"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Typ-2-Diabetes wird häufig zufällig entdeckt, zum Beispiel bei einer Routineuntersuchung oder vor einer Operation.",
+              "correct": true
+            }
+          ],
+          "es": "El Typ 2 empieza de forma schleichend (lenta, sin avisar) y puede pasar años sin síntomas. Por eso muchas veces es un Zufallsbefund (hallazgo casual) en un análisis de rutina, o se descubre cuando ya hay una complicación, como un infarto o una herida que no sana."
+        },
+        {
+          "id": "diabetes-typ-2.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind typisch für einen stark erhöhten Blutzucker?",
+              "options": [
+                "Polyurie",
+                "Polydipsie",
+                "Müdigkeit und Leistungsschwäche",
+                "Heißhunger mit Zittern",
+                "Kaltschweißigkeit"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Polyurie",
+                  "vermehrte Urinausscheidung"
+                ],
+                [
+                  "Polydipsie",
+                  "starker Durst mit vermehrtem Trinken"
+                ],
+                [
+                  "Pruritus",
+                  "Juckreiz"
+                ],
+                [
+                  "Exsikkose",
+                  "Austrocknung des Körpers"
+                ]
+              ]
+            }
+          ],
+          "es": "Los síntomas clásicos de la Hyperglykämie son Polyurie (orinar mucho), Polydipsie (mucha sed) y Müdigkeit (cansancio). Temblor, sudor frío y hambre intensa no pertenecen aquí: son signos de Hypoglykämie (hipoglucemia). Saber separar los dos cuadros es básico para el examen y para la práctica."
+        },
+        {
+          "id": "diabetes-typ-2.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum scheidet ein Patient mit stark erhöhtem Blutzucker sehr viel Urin aus?",
+              "options": [
+                "Weil Insulin die Niere direkt anregt",
+                "Weil die Blase durch den Zucker entzündet ist",
+                "Weil oberhalb der Nierenschwelle Glukose in den Urin übertritt und Wasser mitzieht",
+                "Weil der Patient zu viel Kochsalz isst"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Ab einem Blutzucker von etwa ___ mg/dl ist die Nierenschwelle überschritten und Glukose wird mit dem Urin ausgeschieden.",
+              "options": [
+                "80",
+                "100",
+                "126",
+                "180"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Cuando la glucosa pasa de unos 180 mg/dl se supera la Nierenschwelle (umbral renal) y la glucosa pasa a la orina (Glukosurie). La glucosa arrastra agua, por eso el paciente orina mucho, pierde líquidos y tiene mucha sed. Si no toma suficiente, llega a la Exsikkose (deshidratación)."
+        },
+        {
+          "id": "diabetes-typ-2.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei unspezifischen Zeichen können auf einen noch nicht erkannten Typ-2-Diabetes hinweisen?",
+              "options": [
+                "Häufige Harnwegs- und Pilzinfektionen",
+                "Schlecht heilende Wunden",
+                "Juckreiz und trockene Haut",
+                "Starke Gewichtszunahme innerhalb weniger Tage",
+                "Gelbfärbung der Augen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Schlecht heilende Wunden und wiederkehrende Infektionen können ein Hinweis auf einen Diabetes mellitus sein.",
+              "correct": true
+            }
+          ],
+          "es": "Como el Typ 2 da pocos síntomas, hay que fijarse en señales indirectas: Infektanfälligkeit (tendencia a infecciones, sobre todo urinarias y por hongos), mala cicatrización de heridas, Juckreiz (comezón), piel seca y a veces visión borrosa. Si ves esto en un paciente, piensa en medir el Blutzucker e informar al médico."
+        },
+        {
+          "id": "diabetes-typ-2.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sprechen für eine Hypoglykämie?",
+              "options": [
+                "Kalter Schweiß",
+                "Zittern",
+                "Heißhunger",
+                "Unruhe oder Verwirrtheit",
+                "Starker Durst mit trockener, warmer Haut",
+                "Vermehrtes Wasserlassen"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient unter Insulintherapie ist plötzlich blass, schwitzt, zittert und wirkt verwirrt. Woran denken Sie zuerst?",
+              "options": [
+                "An ein hyperosmolares Koma",
+                "An eine Hypoglykämie",
+                "An eine Harnwegsinfektion",
+                "An eine Exsikkose"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Hypoglykämie entwickelt sich langsam über mehrere Tage.",
+              "correct": false
+            }
+          ],
+          "es": "La Hypoglykämie (Unterzuckerung, hipoglucemia) aparece rápido, en minutos: sudor frío, temblor, palidez, palpitaciones, hambre intensa, inquietud y luego confusión hasta la pérdida de conciencia. Ocurre sobre todo con insulina o Sulfonylharnstoffe (sulfonilureas). Si dudas, mide la glucosa y trata como hipoglucemia."
+        },
+        {
+          "id": "diabetes-typ-2.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Diabetes mellitus Typ 2, und warum wird die Erkrankung oft erst spät erkannt?",
+          "answer": "Der Typ-2-Diabetes beginnt schleichend und macht oft jahrelang keine Beschwerden, deshalb ist er häufig ein Zufallsbefund. Bei hohem Blutzucker kommt es zu Polyurie, starkem Durst, Müdigkeit und Leistungsschwäche. Unspezifische Zeichen sind Juckreiz, trockene Haut, schlecht heilende Wunden, häufige Infektionen und Sehstörungen. Manchmal wird die Erkrankung erst durch eine Folgeerkrankung entdeckt, zum Beispiel durch einen Herzinfarkt oder eine Wunde am Fuß.",
+          "points": [
+            "schleichender Beginn",
+            "Zufallsbefund",
+            "Polyurie und Durst",
+            "Müdigkeit",
+            "Infektionen und schlechte Wundheilung",
+            "Entdeckung durch Folgeerkrankung"
+          ],
+          "es": "Lo más importante es decir que el inicio es lento y casi sin síntomas, y que por eso se diagnostica tarde. Después nombra los síntomas de la glucosa alta (orinar mucho, sed, cansancio) y los signos inespecíficos (infecciones, heridas que no cierran, comezón). Cierra con que a veces la primera señal ya es una complicación."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "diabetes-typ-2.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ab welchem Nüchternblutzucker im venösen Plasma liegt ein Diabetes mellitus vor?",
+              "options": [
+                "Ab 80 mg/dl",
+                "Ab 100 mg/dl",
+                "Ab 126 mg/dl",
+                "Erst ab 300 mg/dl"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Ein Nüchternblutzucker von ___ mg/dl (7,0 mmol/l) oder höher spricht für einen Diabetes mellitus.",
+              "options": [
+                "126",
+                "90",
+                "70",
+                "110"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Nüchternblutzucker von 95 mg/dl beweist einen Diabetes mellitus.",
+              "correct": false
+            }
+          ],
+          "es": "El Nüchternblutzucker (glucosa en ayunas) normal está por debajo de 100 mg/dl. A partir de 126 mg/dl (7,0 mmol/l) en plasma venoso se habla de Diabetes mellitus; el valor se confirma con una segunda medición. Entre 100 y 125 mg/dl hay una alteración previa (Prädiabetes)."
+        },
+        {
+          "id": "diabetes-typ-2.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was sagt der HbA1c-Wert aus?",
+              "options": [
+                "Den aktuellen Blutzucker in diesem Moment",
+                "Die Menge an Insulin im Blut",
+                "Die durchschnittliche Blutzuckereinstellung der letzten 8 bis 12 Wochen",
+                "Die Nierenfunktion"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der HbA1c-Wert wird als Blutzuckergedächtnis bezeichnet, weil er die Einstellung der letzten Wochen zeigt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Ein HbA1c-Wert ab ___ % spricht für einen Diabetes mellitus.",
+              "options": [
+                "4,0",
+                "6,5",
+                "5,0",
+                "3,5"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El HbA1c es la hemoglobina unida a glucosa y se llama Blutzuckergedächtnis (memoria de la glucosa): muestra el promedio de las últimas 8 a 12 semanas. Un valor de 6,5 % o más indica diabetes. Además sirve para controlar el tratamiento, normalmente cada tres meses; para medirlo el paciente no tiene que estar en ayunas."
+        },
+        {
+          "id": "diabetes-typ-2.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie läuft ein oraler Glukosetoleranztest (oGTT) ab?",
+              "options": [
+                "Der Patient bekommt Insulin gespritzt, danach wird der Blutzucker gemessen",
+                "Der nüchterne Patient trinkt eine Lösung mit 75 g Glukose; der Blutzucker wird nüchtern und nach 2 Stunden bestimmt",
+                "Der Patient isst ein normales Frühstück, danach wird der Urin untersucht",
+                "Der Patient fastet drei Tage, danach wird der HbA1c bestimmt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Beim oGTT spricht ein 2-Stunden-Wert von 200 mg/dl oder höher für einen Diabetes mellitus.",
+              "correct": true
+            }
+          ],
+          "es": "En el oGTT (oraler Glukosetoleranztest, curva de tolerancia a la glucosa) el paciente en ayunas toma 75 g de glucosa disueltos en agua. Se mide la glucosa antes y a las 2 horas. Un valor a las 2 horas de 200 mg/dl o más indica diabetes; entre 140 y 199 mg/dl hay una gestörte Glukosetoleranz (tolerancia alterada)."
+        },
+        {
+          "id": "diabetes-typ-2.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Punkte beachten Sie als Pflegefachfrau bei einem oGTT?",
+              "options": [
+                "Der Patient ist seit mindestens 8 Stunden nüchtern",
+                "Der Patient soll während des Tests ruhig sitzen und nicht rauchen",
+                "Der Patient darf während des Tests nichts essen",
+                "Der Patient soll zwischen den Blutentnahmen Treppen steigen",
+                "Der Patient soll vorher ein süßes Frühstück essen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Während des oGTT darf der Patient zwischen den Blutentnahmen spazieren gehen und rauchen.",
+              "correct": false
+            }
+          ],
+          "es": "En el oGTT tu tarea es la preparación y la vigilancia: el paciente debe estar nüchtern (en ayunas) al menos 8 horas, la prueba se hace en la mañana, y durante las 2 horas se queda sentado tranquilo, sin comer, sin fumar y sin hacer ejercicio. El movimiento y el tabaco cambian la glucosa y falsean el resultado."
+        },
+        {
+          "id": "diabetes-typ-2.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Nüchternblutzucker der Bewertung zu.",
+              "pairs": [
+                [
+                  "unter 100 mg/dl",
+                  "normal"
+                ],
+                [
+                  "100 bis 125 mg/dl",
+                  "abnorme Nüchternglukose (Prädiabetes)"
+                ],
+                [
+                  "ab 126 mg/dl",
+                  "Diabetes mellitus"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Gelegenheitsblutzucker spricht zusammen mit typischen Symptomen für einen Diabetes mellitus?",
+              "options": [
+                "Ab 110 mg/dl",
+                "Ab 140 mg/dl",
+                "Ab 160 mg/dl",
+                "Ab 200 mg/dl"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Aprende tres números: menos de 100 mg/dl en ayunas es normal, de 100 a 125 es Prädiabetes y desde 126 es diabetes. Además, un Gelegenheitsblutzucker (glucosa al azar, a cualquier hora) de 200 mg/dl o más junto con síntomas típicos también indica diabetes."
+        },
+        {
+          "id": "diabetes-typ-2.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird ein Diabetes mellitus Typ 2 diagnostiziert?",
+          "answer": "Die Diagnose wird über Blutzuckerwerte gestellt. Ein Nüchternblutzucker ab 126 mg/dl oder ein Gelegenheitsblutzucker ab 200 mg/dl mit typischen Symptomen spricht für einen Diabetes. Der HbA1c-Wert zeigt die Blutzuckereinstellung der letzten 8 bis 12 Wochen, ab 6,5 % liegt ein Diabetes vor. Bei unklaren Werten wird ein oraler Glukosetoleranztest mit 75 g Glukose gemacht, hier ist ein 2-Stunden-Wert ab 200 mg/dl beweisend. Zusätzlich sucht der Arzt nach Folgeerkrankungen an Augen, Nieren, Nerven und Füßen.",
+          "points": [
+            "Nüchternblutzucker ab 126 mg/dl",
+            "Gelegenheitsblutzucker ab 200 mg/dl",
+            "HbA1c ab 6,5 %",
+            "oGTT mit 75 g Glukose",
+            "Suche nach Folgeerkrankungen"
+          ],
+          "es": "Nombra los tres pilares del diagnóstico: Nüchternblutzucker, HbA1c y oGTT, cada uno con su valor límite. Como el Typ 2 se descubre tarde, al momento del diagnóstico ya se buscan complicaciones en ojos, riñones, nervios y pies; mencionarlo muestra que entiendes la enfermedad completa."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "diabetes-typ-2.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Basis der Therapie beim Diabetes mellitus Typ 2?",
+              "options": [
+                "Sofortige Insulintherapie bei allen Patienten",
+                "Lebensstiländerung mit Ernährungsumstellung, Bewegung, Gewichtsreduktion und Schulung",
+                "Strenge Bettruhe",
+                "Eine Operation am Pankreas"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Lebensstiländerung bleibt auch dann wichtig, wenn der Patient schon Tabletten oder Insulin bekommt.",
+              "correct": true
+            }
+          ],
+          "es": "El tratamiento del Typ 2 sigue una Stufentherapie (tratamiento escalonado). La base, en todos los escalones, es el cambio de estilo de vida: alimentación, ejercicio, bajar de peso, dejar de fumar y Schulung (educación del paciente). Los medicamentos se agregan, no la sustituyen."
+        },
+        {
+          "id": "diabetes-typ-2.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches Medikament wird beim Typ-2-Diabetes in der Regel als erstes orales Antidiabetikum eingesetzt?",
+              "options": [
+                "Glibenclamid",
+                "Insulin glargin",
+                "Metformin",
+                "Glukagon"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Aussagen zu Metformin sind richtig?",
+              "options": [
+                "Es hemmt die Glukoseneubildung in der Leber und verbessert die Insulinwirkung",
+                "Häufige Nebenwirkungen sind Magen-Darm-Beschwerden wie Übelkeit und Durchfall",
+                "Es löst allein gegeben sehr häufig schwere Hypoglykämien aus",
+                "Es muss subkutan gespritzt werden",
+                "Es führt typischerweise zu starker Gewichtszunahme"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Metformin allein verursacht in der Regel keine Hypoglykämie.",
+              "correct": true
+            }
+          ],
+          "es": "Metformin es el primer medicamento oral en el Typ 2. Frena la producción de glucosa en el hígado y mejora el efecto de la insulina; por sí solo no causa hipoglucemia ni aumento de peso. Tú observas efectos secundarios gastrointestinales (náusea, diarrea) y recuerdas que el médico lo suspende antes de estudios con Kontrastmittel (medio de contraste) y cuando hay insuficiencia renal grave, por el riesgo raro de Laktatazidose (acidosis láctica)."
+        },
+        {
+          "id": "diabetes-typ-2.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung ist bei Sulfonylharnstoffen (z. B. Glibenclamid, Glimepirid) besonders wichtig?",
+              "options": [
+                "Hypoglykämie",
+                "Hyperkaliämie",
+                "Reizhusten",
+                "Haarausfall"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne der Medikamentengruppe das Wirkprinzip zu.",
+              "pairs": [
+                [
+                  "Metformin",
+                  "hemmt die Glukoseneubildung in der Leber"
+                ],
+                [
+                  "Sulfonylharnstoffe",
+                  "steigern die Insulinausschüttung aus den B-Zellen"
+                ],
+                [
+                  "SGLT-2-Hemmer",
+                  "steigern die Glukoseausscheidung über den Urin"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Sulfonylharnstoffe können ohne Hypoglykämiegefahr auch dann eingenommen werden, wenn der Patient nichts isst.",
+              "correct": false
+            }
+          ],
+          "es": "Los Sulfonylharnstoffe (sulfonilureas) estimulan a las B-Zellen para que liberen más insulina, sin importar cuánta glucosa hay. Por eso pueden causar Hypoglykämie, sobre todo si el paciente toma la tableta y no come, y también aumento de peso. Como enfermera vigilas que el paciente coma después de tomarla y reconoces los signos de hipoglucemia."
+        },
+        {
+          "id": "diabetes-typ-2.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Worauf achten Sie besonders bei Patienten, die einen SGLT-2-Hemmer (Gliflozin) einnehmen?",
+              "options": [
+                "Auf Zeichen einer Harnwegs- oder Genitalinfektion und auf ausreichende Flüssigkeitszufuhr",
+                "Auf eine Gelbfärbung der Haut",
+                "Auf starken Haarausfall",
+                "Auf eine verlangsamte Atmung"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "SGLT-2-Hemmer senken den Blutzucker, indem sie die Insulinausschüttung aus dem Pankreas steigern.",
+              "correct": false
+            }
+          ],
+          "es": "Los SGLT-2-Hemmer (inhibidores de SGLT-2, «Gliflozine») hacen que el riñón elimine más glucosa por la orina. La orina con azúcar favorece Harnwegsinfektionen (infecciones urinarias) e infecciones genitales por hongos, y el paciente pierde más líquido. Por eso observas la zona genital, preguntas por ardor al orinar, recomiendas buena higiene íntima y cuidas que tome suficiente líquido."
+        },
+        {
+          "id": "diabetes-typ-2.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann wird beim Typ-2-Diabetes eine Insulintherapie begonnen?",
+              "options": [
+                "Immer sofort bei Diagnosestellung",
+                "Nie, Insulin ist nur für den Typ 1",
+                "Nur bei Patienten unter 30 Jahren",
+                "Wenn Lebensstiländerung und andere Antidiabetika den Blutzucker nicht mehr ausreichend senken"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Insulin wird ___ gespritzt, zum Beispiel in das Unterhautfettgewebe von Bauch oder Oberschenkel.",
+              "options": [
+                "intramuskulär",
+                "subkutan",
+                "intrakutan",
+                "intraarteriell"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Einstichstelle für die Insulininjektion soll regelmäßig gewechselt werden, damit keine Verhärtungen im Unterhautfettgewebe entstehen.",
+              "correct": true
+            }
+          ],
+          "es": "En el Typ 2 la insulina es el último escalón: se usa cuando el estilo de vida y los otros antidiabéticos ya no alcanzan. Se inyecta subkutan (subcutánea), en el abdomen (se absorbe más rápido) o en el muslo (más lento). Hay que rotar el sitio de punción para evitar Lipohypertrophien (endurecimientos de grasa), porque ahí la insulina se absorbe de forma irregular."
+        },
+        {
+          "id": "diabetes-typ-2.therapie.6",
+          "type": "sprech",
+          "q": "Erklären Sie die Stufentherapie beim Diabetes mellitus Typ 2 und Ihre Aufgaben als Pflegefachfrau dabei.",
+          "answer": "Die Basis ist immer die Lebensstiländerung mit Ernährungsumstellung, Bewegung, Gewichtsreduktion und Schulung. Reicht das nicht aus, bekommt der Patient zuerst Metformin, danach werden weitere Antidiabetika kombiniert und zuletzt wird Insulin gegeben. Ich verabreiche die Medikamente nach ärztlicher Anordnung, kontrolliere den Blutzucker und dokumentiere die Werte. Ich beobachte die Wirkung und Nebenwirkungen, vor allem Zeichen einer Hypoglykämie bei Sulfonylharnstoffen und Insulin. Außerdem leite ich den Patienten zur Blutzuckerselbstkontrolle und zur Insulininjektion an.",
+          "points": [
+            "Lebensstiländerung als Basis",
+            "Metformin zuerst",
+            "weitere Antidiabetika",
+            "Insulin zuletzt",
+            "Blutzuckerkontrolle und Dokumentation",
+            "Hypoglykämie beobachten"
+          ],
+          "es": "Primero explica los escalones en orden: estilo de vida, Metformin, combinación con otros antidiabéticos, insulina. Luego di qué haces tú: dar los medicamentos según ärztliche Anordnung (indicación médica), medir y documentar la glucosa, observar efectos y efectos secundarios (sobre todo hipoglucemia) y enseñar al paciente. En el examen de enfermería esa segunda parte es la que más cuenta."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "diabetes-typ-2.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Hypoglykämie ist wach und kann schlucken. Was tun Sie zuerst?",
+              "options": [
+                "Insulin nach Schema spritzen",
+                "Schnell wirksame Kohlenhydrate geben, zum Beispiel Traubenzucker oder Fruchtsaft",
+                "Den Patienten nüchtern lassen und abwarten",
+                "Ein Glas Wasser geben und den Patienten spazieren schicken"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Hypoglykämie ist bewusstlos. Welche Maßnahme ist richtig?",
+              "options": [
+                "Traubenzucker in den Mund legen",
+                "Saft mit einer Schnabeltasse einflößen",
+                "Nichts oral geben, stabile Seitenlage, sofort Arzt oder Notarzt rufen; Glukose wird intravenös gegeben",
+                "Den Patienten aufsetzen und zum Essen auffordern"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Einem bewusstlosen Patienten mit Hypoglykämie flößt man zuerst zuckerhaltigen Saft ein.",
+              "correct": false
+            }
+          ],
+          "es": "En la Hypoglykämie con paciente despierto das de inmediato carbohidratos rápidos (Traubenzucker = glucosa en tabletas, o jugo), después carbohidratos lentos como pan, y vuelves a medir la glucosa. Si está inconsciente no le das nada por la boca por el riesgo de Aspiration (broncoaspiración): posición lateral de seguridad, llamar al médico, y él aplica glucosa i.v. o Glukagon."
+        },
+        {
+          "id": "diabetes-typ-2.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche akute Stoffwechselentgleisung ist typisch für den Diabetes mellitus Typ 2?",
+              "options": [
+                "Ketoazidotisches Koma",
+                "Hyperosmolares Koma",
+                "Leberkoma",
+                "Urämisches Koma"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Merkmale passen zum hyperosmolaren Koma?",
+              "options": [
+                "Extrem hoher Blutzucker, oft über 600 mg/dl",
+                "Ausgeprägte Exsikkose durch starke Polyurie",
+                "Langsame Entwicklung über Tage",
+                "Kalter Schweiß und Heißhunger",
+                "Beginn innerhalb weniger Minuten"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Stoffwechselentgleisung der typischen Situation zu.",
+              "pairs": [
+                [
+                  "Hyperosmolares Koma",
+                  "Typ-2-Diabetes mit sehr hohem Blutzucker und Exsikkose"
+                ],
+                [
+                  "Ketoazidotisches Koma",
+                  "Typ-1-Diabetes mit absolutem Insulinmangel"
+                ],
+                [
+                  "Hypoglykämie",
+                  "zu viel Insulin oder Sulfonylharnstoff bei zu wenig Nahrung"
+                ]
+              ]
+            }
+          ],
+          "es": "El hyperosmolares Koma (coma hiperosmolar) es la descompensación típica del Typ 2: la glucosa sube muchísimo, el paciente orina enormes cantidades y se deshidrata (Exsikkose) hasta perder la conciencia. Se desarrolla en días, muchas veces en personas mayores con una infección y que toman poco líquido. Como todavía hay algo de insulina, casi no se forman cuerpos cetónicos, a diferencia del coma cetoacidótico del Typ 1."
+        },
+        {
+          "id": "diabetes-typ-2.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Folgeerkrankung richtig zu.",
+              "pairs": [
+                [
+                  "Makroangiopathie",
+                  "Schädigung der großen Arterien: KHK, Schlaganfall, pAVK"
+                ],
+                [
+                  "Retinopathie",
+                  "Schädigung der kleinen Gefäße der Netzhaut"
+                ],
+                [
+                  "Nephropathie",
+                  "Schädigung der kleinen Gefäße der Niere"
+                ],
+                [
+                  "Polyneuropathie",
+                  "Schädigung der peripheren Nerven"
+                ]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Erkrankungen gehören zur diabetischen Mikroangiopathie?",
+              "options": [
+                "Retinopathie",
+                "Nephropathie",
+                "Herzinfarkt",
+                "Schlaganfall",
+                "pAVK"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die diabetische Retinopathie kann unbehandelt bis zur Erblindung führen.",
+              "correct": true
+            }
+          ],
+          "es": "La glucosa alta daña los vasos. Makroangiopathie es el daño de arterias grandes (arteriosclerosis): KHK e infarto, EVC y pAVK. Mikroangiopathie es el daño de vasos pequeños: Retinopathie (ojos, hasta la ceguera) y Nephropathie (riñón, hasta la diálisis). Por eso el paciente necesita controles regulares con el oftalmólogo y de la función renal."
+        },
+        {
+          "id": "diabetes-typ-2.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht ein diabetisches Fußsyndrom?",
+              "options": [
+                "Durch eine Allergie gegen Insulin",
+                "Durch zu häufiges Waschen der Füße",
+                "Durch Nervenschädigung und Durchblutungsstörung: Verletzungen werden nicht gespürt und heilen schlecht",
+                "Durch zu viel Bewegung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Wegen der diabetischen ___ spürt der Patient Druckstellen und kleine Verletzungen an den Füßen nicht.",
+              "options": [
+                "Retinopathie",
+                "Nephropathie",
+                "Hypertonie",
+                "Polyneuropathie"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Beim diabetischen Fußsyndrom kann aus einer kleinen, unbemerkten Verletzung ein Geschwür entstehen, das im schlimmsten Fall zur Amputation führt.",
+              "correct": true
+            }
+          ],
+          "es": "El diabetisches Fußsyndrom (pie diabético) nace de dos daños: la Polyneuropathie (el paciente no siente dolor, presión ni calor en los pies) y la mala circulación. Una ampolla o una piedrita en el zapato pasa desapercibida, la herida se infecta, sana mal y puede terminar en Gangrän (gangrena) y amputación. Por eso el cuidado de los pies es un tema central de enfermería."
+        },
+        {
+          "id": "diabetes-typ-2.komplikationen.5",
+          "type": "sprech",
+          "q": "Welche Folgeerkrankungen kann ein Diabetes mellitus Typ 2 haben?",
+          "answer": "Der dauerhaft erhöhte Blutzucker schädigt die Gefäße und die Nerven. Die Makroangiopathie betrifft die großen Arterien und führt zu KHK und Herzinfarkt, Schlaganfall und pAVK. Die Mikroangiopathie betrifft die kleinen Gefäße und führt zur Retinopathie mit Gefahr der Erblindung und zur Nephropathie bis zur Niereninsuffizienz. Die Polyneuropathie verursacht Kribbeln, Brennen und Gefühlsstörungen, vor allem an den Füßen. Aus Nervenschädigung und Durchblutungsstörung entsteht das diabetische Fußsyndrom mit schlecht heilenden Wunden.",
+          "points": [
+            "Makroangiopathie",
+            "Herzinfarkt, Schlaganfall, pAVK",
+            "Retinopathie",
+            "Nephropathie",
+            "Polyneuropathie",
+            "diabetisches Fußsyndrom"
+          ],
+          "es": "Ordena tu respuesta en tres grupos: vasos grandes (Makroangiopathie), vasos pequeños (Mikroangiopathie: ojo y riñón) y nervios (Polyneuropathie). Al final une nervios y circulación para llegar al diabetisches Fußsyndrom. Con esa estructura no se te olvida ninguna complicación."
+        },
+        {
+          "id": "diabetes-typ-2.komplikationen.6",
+          "type": "sprech",
+          "q": "Sie finden einen Patienten mit Typ-2-Diabetes, der Insulin spritzt, schwitzend, zitternd und verwirrt im Zimmer. Was tun Sie?",
+          "answer": "Ich denke sofort an eine Hypoglykämie, bleibe beim Patienten und messe den Blutzucker. Wenn er wach ist und schlucken kann, gebe ich schnell wirksame Kohlenhydrate wie Traubenzucker oder Fruchtsaft und danach langsam wirkende Kohlenhydrate wie Brot. Ist er bewusstlos, gebe ich nichts oral, bringe ihn in die stabile Seitenlage und rufe sofort den Arzt, der Glukose intravenös gibt. Danach kontrolliere ich Blutzucker und Vitalzeichen engmaschig und dokumentiere den Vorfall. Gemeinsam mit dem Arzt suche ich nach der Ursache, zum Beispiel eine ausgelassene Mahlzeit.",
+          "points": [
+            "Hypoglykämie erkennen",
+            "Blutzucker messen",
+            "schnelle Kohlenhydrate geben",
+            "bei Bewusstlosigkeit nichts oral",
+            "Arzt informieren",
+            "Kontrolle und Dokumentation"
+          ],
+          "es": "Es un caso clásico del examen oral. Sigue el orden: reconocer (Hypoglykämie), medir, actuar según el estado de conciencia, informar al médico, volver a controlar y documentar. Si no puedes medir de inmediato, se trata como hipoglucemia, porque es más peligrosa a corto plazo que la glucosa alta."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Worauf achten Sie bei der Beobachtung eines Patienten mit Diabetes mellitus Typ 2?",
+          "answer": "Ich kontrolliere den Blutzucker nach ärztlicher Anordnung und dokumentiere die Werte. Ich achte auf Zeichen einer Hypoglykämie wie Schwitzen, Zittern und Verwirrtheit und auf Zeichen einer Hyperglykämie wie starken Durst, Polyurie und Müdigkeit. Ich beobachte die Haut und besonders die Füße täglich auf Rötungen, Druckstellen und Wunden. Außerdem kontrolliere ich Vitalzeichen, Gewicht, Trinkmenge und Ausscheidung und achte auf Infektionszeichen. Auffälligkeiten gebe ich sofort an den Arzt weiter.",
+          "points": [
+            "Blutzuckerkontrolle",
+            "Zeichen der Hypoglykämie",
+            "Zeichen der Hyperglykämie",
+            "Haut und Füße",
+            "Vitalzeichen und Gewicht",
+            "Infektionszeichen"
+          ],
+          "es": "En Wahrnehmen und Beobachten (percibir y observar) piensa en cuatro cosas: la glucosa, los signos de descompensación hacia abajo y hacia arriba, la piel con los pies, y el estado general con signos vitales, peso, líquidos e infección. Di siempre que documentas y que avisas al médico; eso se espera de una Pflegefachfrau."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo stechen Sie bei der kapillären Blutzuckermessung am Finger ein?",
+              "options": [
+                "Mitten in die Fingerkuppe des Zeigefingers",
+                "Seitlich an der Fingerbeere, möglichst nicht an Daumen und Zeigefinger",
+                "Direkt neben dem Nagelbett",
+                "In die Handinnenfläche"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Vor der Blutzuckermessung soll der Patient die Hände waschen und gut abtrocknen, weil Zuckerreste an den Fingern den Wert verfälschen können.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Angaben gehören zur Dokumentation einer Blutzuckermessung?",
+              "options": [
+                "Gemessener Wert mit Datum und Uhrzeit",
+                "Bezug zur Mahlzeit, zum Beispiel nüchtern oder nach dem Essen",
+                "Die Schuhgröße des Patienten",
+                "Die Blutgruppe",
+                "Die Körpergröße"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            }
+          ],
+          "es": "Para la Blutzuckermessung (medición de glucosa) capilar se pica al lado de la yema del dedo, porque duele menos, y se evita el pulgar y el índice, que se usan para agarrar. Antes el paciente se lava las manos con agua tibia y las seca: restos de fruta o azúcar dan valores falsamente altos. Documentas valor, hora y relación con la comida."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Was empfehlen Sie einem Patienten mit Typ-2-Diabetes zur Ernährung?",
+          "answer": "Ich empfehle eine ausgewogene, ballaststoffreiche Mischkost mit viel Gemüse, Vollkornprodukten und Hülsenfrüchten. Zucker, Süßigkeiten und zuckerhaltige Getränke wie Limonade und Saft soll der Patient meiden und lieber Wasser oder ungesüßten Tee trinken. Bei Übergewicht ist eine kalorienreduzierte Kost zur Gewichtsreduktion wichtig, mit wenig tierischen Fetten. Alkohol soll er nur in kleinen Mengen und nie ohne Kohlenhydrate trinken, weil er eine Hypoglykämie auslösen kann. Patienten mit Sulfonylharnstoffen oder Insulin sollen regelmäßig essen und keine Mahlzeit auslassen.",
+          "points": [
+            "ballaststoffreiche Mischkost",
+            "wenig Zucker",
+            "keine zuckerhaltigen Getränke",
+            "Gewichtsreduktion",
+            "Alkohol nur mit Kohlenhydraten",
+            "regelmäßige Mahlzeiten"
+          ],
+          "es": "La persona con Typ 2 no necesita una «dieta para diabéticos» ni productos especiales, sino una alimentación sana y variada, rica en Ballaststoffe (fibra), que hace que la glucosa suba despacio. Lo más importante es bajar de peso y evitar bebidas azucaradas. Quien usa insulina o Sulfonylharnstoffe no debe saltarse comidas por el riesgo de hipoglucemia. La asesoría detallada la hace la Ernährungsberatung (asesoría nutricional) y tú la apoyas."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "ernaehrung",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist Alkohol für Patienten gefährlich, die Insulin oder Sulfonylharnstoffe bekommen?",
+              "options": [
+                "Alkohol erhöht den Blutzucker für mehrere Tage sehr stark",
+                "Alkohol hemmt die Glukoseneubildung in der Leber und kann eine Hypoglykämie auslösen, auch noch Stunden später",
+                "Alkohol zerstört das Insulin im Blut",
+                "Alkohol verursacht sofort eine Ketoazidose"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Alkohol erhöht den Blutzucker und schützt deshalb Patienten mit Insulintherapie vor einer Hypoglykämie.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Alkohol hemmt die Glukoseneubildung in der ___ und kann deshalb noch Stunden später eine Hypoglykämie auslösen.",
+              "options": [
+                "Leber",
+                "Niere",
+                "Muskulatur",
+                "Schilddrüse"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El alcohol bloquea la Glukoseneubildung (producción de glucosa nueva) en el hígado. Por eso, en un paciente con insulina o Sulfonylharnstoffe puede causar Hypoglykämie horas después, incluso en la noche mientras duerme. La recomendación que das: tomar poco y siempre acompañado de carbohidratos, nunca con el estómago vacío."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Warum ist Bewegung für Patienten mit Typ-2-Diabetes wichtig, und was beachten Sie dabei?",
+          "answer": "Bewegung verbessert die Insulinwirkung an den Muskelzellen, senkt den Blutzucker und hilft bei der Gewichtsreduktion. Ich motiviere den Patienten zu regelmäßiger Ausdaueraktivität wie zügigem Gehen, Radfahren oder Schwimmen und zu mehr Bewegung im Alltag. Patienten mit Insulin oder Sulfonylharnstoffen sollen vor und nach dem Sport den Blutzucker messen und immer Traubenzucker dabeihaben, weil eine Hypoglykämie droht. Wichtig sind gut passende Schuhe und eine Kontrolle der Füße nach der Bewegung. Im Krankenhaus mobilisiere ich den Patienten früh und regelmäßig.",
+          "points": [
+            "verbessert Insulinwirkung",
+            "senkt Blutzucker und Gewicht",
+            "regelmäßige Ausdaueraktivität",
+            "Hypoglykämiegefahr beachten",
+            "Traubenzucker dabeihaben",
+            "passende Schuhe, Fußkontrolle"
+          ],
+          "es": "El músculo que trabaja consume glucosa y se vuelve más sensible a la insulina; por eso el movimiento es «medicina» en el Typ 2. Pero con insulina o Sulfonylharnstoffe el ejercicio puede bajar demasiado la glucosa: medir antes y después, y llevar Traubenzucker. Y no olvides los pies: zapatos adecuados y revisarlos después, por la neuropatía."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Fußpflege bei einem Patienten mit Diabetes mellitus durch, und worauf achten Sie?",
+          "answer": "Ich inspiziere die Füße täglich, auch die Fußsohlen und die Zehenzwischenräume, auf Rötungen, Druckstellen, Blasen, Risse und Pilzbefall. Die Füße werden täglich kurz mit lauwarmem Wasser gewaschen, die Temperatur prüfe ich mit dem Thermometer, weil der Patient Hitze nicht sicher spürt. Danach trockne ich gründlich ab, besonders zwischen den Zehen, und creme die trockene Haut ein, aber nicht die Zehenzwischenräume. Die Nägel werden gerade gefeilt und nicht mit spitzen Scheren geschnitten, Hornhaut und Hühneraugen behandelt der Podologe. Jede Verletzung melde ich sofort dem Arzt.",
+          "points": [
+            "tägliche Fußinspektion",
+            "lauwarm waschen, Temperatur prüfen",
+            "Zehenzwischenräume gut abtrocknen",
+            "Haut eincremen",
+            "Nägel gerade feilen",
+            "Podologe, Verletzungen melden"
+          ],
+          "es": "La Fußpflege (cuidado de los pies) es el tema de enfermería más preguntado en diabetes. El paciente con Polyneuropathie no siente dolor ni temperatura, por eso tú revisas con los ojos lo que él no siente, y evitas todo lo que pueda lastimar: agua caliente, tijeras con punta, raspadores de callos. La humedad entre los dedos favorece Fußpilz (hongos), por eso se seca muy bien y ahí no se pone crema."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.7",
+          "type": "wissen",
+          "sub": "koerperpflege",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen sind bei der Fußpflege eines Diabetikers richtig?",
+              "options": [
+                "Füße täglich inspizieren, bei Bedarf mit einem Spiegel",
+                "Zehenzwischenräume sorgfältig abtrocknen",
+                "Nägel gerade feilen statt rund schneiden",
+                "Hornhaut mit dem Hornhauthobel oder einer Rasierklinge entfernen",
+                "Kalte Füße mit einer Wärmflasche wärmen",
+                "Lange heiße Fußbäder zur Durchblutungsförderung"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei kalten Füßen ist für Diabetiker mit Polyneuropathie eine Wärmflasche gut geeignet.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum sollen Diabetiker keine Hühneraugenpflaster und keinen Hornhauthobel benutzen?",
+              "options": [
+                "Weil sie zu teuer sind",
+                "Weil sie die Haut verletzen können und Wunden beim Diabetiker schlecht heilen und sich leicht infizieren",
+                "Weil sie den Blutzucker erhöhen",
+                "Weil sie die Wirkung von Metformin abschwächen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "En el pie diabético vale la regla: nada caliente, nada cortante, nada corrosivo. La Wärmflasche (bolsa de agua caliente) puede causar quemaduras que el paciente no siente; el Hornhauthobel (raspador de callos) y los parches para callos lastiman la piel. Las uñas se liman rectas y los callos los trata la Podologie (podología). Un espejo ayuda al paciente a ver la planta del pie."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Was beachten Sie bei Schuhen und Strümpfen eines Patienten mit Diabetes mellitus?",
+          "answer": "Der Patient braucht bequeme, weiche und ausreichend weite Schuhe ohne drückende Innennähte. Vor dem Anziehen tastet er die Schuhe innen mit der Hand auf Fremdkörper und Falten ab. Neue Schuhe kauft er am Nachmittag, weil die Füße dann etwas dicker sind, und trägt sie langsam ein. Die Strümpfe sollen aus Baumwolle oder Wolle sein, keine einschnürenden Bündchen haben und täglich gewechselt werden. Er soll nie barfuß laufen, auch nicht in der Wohnung, und bekommt bei Bedarf orthopädische Schuhe verordnet.",
+          "points": [
+            "weite, weiche Schuhe",
+            "Schuhe innen austasten",
+            "Schuhkauf am Nachmittag",
+            "Strümpfe ohne einschnürende Bündchen",
+            "täglich Strümpfe wechseln",
+            "nie barfuß laufen"
+          ],
+          "es": "En Bekleidung (vestido) el tema es el calzado. Como el paciente no siente presión, un zapato apretado o una piedrita adentro causa una Druckstelle (zona de presión) y luego una úlcera. Por eso: zapatos amplios y suaves, revisar el interior con la mano, calcetines sin elástico apretado y nunca caminar descalzo. Si ya hay deformidades, el médico indica orthopädische Schuhe (calzado ortopédico)."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Welche Inhalte vermitteln Sie einem Patienten mit Typ-2-Diabetes in der Beratung und Schulung?",
+          "answer": "Ich erkläre dem Patienten die Erkrankung und warum Ernährung, Bewegung und Gewichtsreduktion die Basis der Therapie sind. Ich leite ihn zur Blutzuckerselbstkontrolle an und zeige ihm, wie er die Werte in ein Diabetestagebuch einträgt. Er lernt die Zeichen einer Hypoglykämie und die Sofortmaßnahmen und soll immer Traubenzucker und seinen Diabetikerausweis bei sich tragen. Ich berate ihn zur regelmäßigen Medikamenteneinnahme oder Insulininjektion und zur täglichen Fußinspektion. Außerdem weise ich auf die regelmäßigen Kontrollen beim Hausarzt und Augenarzt hin und beziehe die Angehörigen ein.",
+          "points": [
+            "Krankheit und Lebensstil erklären",
+            "Blutzuckerselbstkontrolle",
+            "Hypoglykämie erkennen und handeln",
+            "Medikamente oder Insulininjektion",
+            "tägliche Fußinspektion",
+            "Kontrolltermine, Angehörige einbeziehen"
+          ],
+          "es": "La meta de la Schulung (educación) es que el paciente maneje su enfermedad por sí mismo: Selbstmanagement. Piensa en lo que necesita en su casa: medir la glucosa, reconocer y tratar una hipoglucemia, tomar bien sus medicamentos, cuidar sus pies e ir a sus controles (HbA1c, ojos, riñón, pies). Involucrar a la familia es importante, porque ellos cocinan y deben saber actuar en una hipoglucemia."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit Diabetes mellitus Typ 2 besonders wichtig? Begründen Sie Ihre Auswahl.",
+          "answer": "Besonders wichtig ist die Prophylaxe des diabetischen Fußsyndroms, weil der Patient wegen der Polyneuropathie Verletzungen nicht spürt und Wunden schlecht heilen. Die Infektionsprophylaxe ist wichtig, weil der hohe Blutzucker die Abwehr schwächt und Harnwegs-, Haut- und Pilzinfektionen begünstigt. Bei übergewichtigen Patienten führe ich eine Intertrigoprophylaxe in den Hautfalten durch. Wegen der Durchblutungs- und Sensibilitätsstörungen besteht ein erhöhtes Dekubitusrisiko, vor allem an den Fersen. Bei Neuropathie, Sehstörungen und Hypoglykämien ist außerdem die Sturzprophylaxe wichtig.",
+          "points": [
+            "Prophylaxe diabetisches Fußsyndrom",
+            "Infektionsprophylaxe",
+            "Intertrigoprophylaxe",
+            "Dekubitusprophylaxe",
+            "Sturzprophylaxe",
+            "Begründung nennen"
+          ],
+          "es": "En el examen no basta con nombrar las Prophylaxen (medidas preventivas); tienes que decir el porqué de cada una en esta enfermedad. Pie diabético: no siente y sana mal. Infección: defensas bajas por la glucosa alta. Intertrigo: pliegues húmedos por la obesidad. Dekubitus (úlcera por presión): mala circulación y poca sensibilidad. Sturz (caída): neuropatía, mala vista e hipoglucemia."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben übergewichtige Patienten mit Diabetes ein erhöhtes Risiko für eine Intertrigo?",
+              "options": [
+                "Weil sie zu wenig schwitzen",
+                "Weil in den Hautfalten Haut auf Haut liegt, sich Feuchtigkeit staut und die Infektanfälligkeit erhöht ist",
+                "Weil Metformin die Haut austrocknet",
+                "Weil sie sich zu oft waschen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Intertrigoprophylaxe?",
+              "options": [
+                "Hautfalten täglich inspizieren",
+                "Hautfalten nach dem Waschen sorgfältig trocknen",
+                "Baumwollstreifen oder Kompressen in die Hautfalten einlegen",
+                "Hautfalten dick mit Puder und Fettsalbe zugleich abdecken",
+                "Enge Kleidung aus Kunstfaser anziehen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Typische Stellen für eine Intertrigo sind die Haut unter der Brust, die Bauchfalte und die Leisten.",
+              "correct": true
+            }
+          ],
+          "es": "Intertrigo (Wundsein in Hautfalten) es la piel roja, húmeda y lastimada en los pliegues: debajo de los senos, pliegue abdominal, ingles, entre los dedos. En el Typ 2 coinciden obesidad, sudor y tendencia a infecciones, y en el pliegue húmedo crecen fácilmente hongos. La prevención: revisar, lavar con cuidado, secar muy bien dando toquecitos, colocar tiras de algodón o compresas y ropa transpirable."
+        },
+        {
+          "id": "diabetes-typ-2.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist ein Patient mit diabetischer Polyneuropathie besonders dekubitus- und sturzgefährdet, und was tun Sie?",
+          "answer": "Durch die Polyneuropathie spürt der Patient Druck und Schmerz schlechter, und die Durchblutung der Haut ist vermindert, deshalb entsteht leichter ein Dekubitus, besonders an den Fersen. Ich schätze das Risiko ein, inspiziere täglich die Haut, fördere die Bewegung, führe regelmäßige Positionswechsel durch und lagere die Fersen frei. Sturzgefährdet ist er, weil er den Boden unter den Füßen schlecht spürt, oft schlecht sieht und bei einer Hypoglykämie schwindelig oder verwirrt wird. Zur Sturzprophylaxe sorge ich für feste, geschlossene Schuhe, gute Beleuchtung, freie Wege und eine erreichbare Klingel. Außerdem achte ich auf eine stabile Blutzuckereinstellung.",
+          "points": [
+            "vermindertes Druck- und Schmerzempfinden",
+            "Positionswechsel, Fersen freilagern",
+            "tägliche Hautinspektion",
+            "gestörte Sensibilität der Füße",
+            "feste Schuhe, gute Beleuchtung",
+            "Hypoglykämie vermeiden"
+          ],
+          "es": "Aquí une la complicación con la prevención. La Polyneuropathie quita la señal de alarma del dolor: el paciente no cambia de posición por sí solo y se forma un Dekubitus, sobre todo en los talones (Fersen freilagern = dejar los talones libres). La misma falta de sensibilidad en los pies, más la mala vista y las hipoglucemias, explican el riesgo de Sturz (caída)."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "diabetes-typ-2.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Diabetes mellitus Typ 2 im Bereich der Haut und Füße und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund von Polyneuropathie und Durchblutungsstörungen ein erhöhtes Risiko für Verletzungen und Wunden an den Füßen. Ziel: Die Haut an beiden Füßen ist während des gesamten Aufenthalts intakt, und der Patient führt innerhalb von 7 Tagen die tägliche Fußinspektion selbstständig durch. Maßnahmen: Ich inspiziere täglich die Füße, führe eine schonende Fußpflege mit lauwarmem Wasser und sorgfältigem Abtrocknen durch, achte auf passendes Schuhwerk und leite den Patienten zur Selbstkontrolle der Füße an.",
+          "points": [
+            "Risiko für Fußverletzungen",
+            "Haut der Füße intakt",
+            "tägliche Fußinspektion",
+            "schonende Fußpflege",
+            "passendes Schuhwerk",
+            "Anleitung zur Selbstkontrolle"
+          ],
+          "es": "Este es el problema de enfermería más típico de la diabetes. Fíjate en la forma: Problem con su causa (neuropatía y mala circulación), Ziel medible y con plazo (piel intacta durante la estancia; el paciente revisa sus pies solo en 7 días) y Maßnahmen concretas. Así puedes usar la misma estructura con cualquier paciente."
+        },
+        {
+          "id": "diabetes-typ-2.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Diabetes mellitus Typ 2 im Zusammenhang mit dem Blutzucker und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund der Therapie mit Insulin oder Sulfonylharnstoffen und eines Wissensdefizits ein Risiko für Blutzuckerentgleisungen, besonders für eine Hypoglykämie. Ziel: Der Patient nennt innerhalb von 3 Tagen drei Zeichen einer Hypoglykämie und die Sofortmaßnahmen, und sein Blutzucker liegt während des Aufenthalts im ärztlich festgelegten Zielbereich. Maßnahmen: Ich kontrolliere und dokumentiere den Blutzucker nach Anordnung, beobachte den Patienten auf Zeichen einer Hypo- oder Hyperglykämie, achte auf regelmäßige Mahlzeiten und schule ihn zu Symptomen und zum Verhalten bei Unterzuckerung.",
+          "points": [
+            "Risiko für Blutzuckerentgleisung",
+            "Patient nennt Hypoglykämiezeichen",
+            "Blutzucker im Zielbereich",
+            "Blutzuckerkontrolle und Dokumentation",
+            "regelmäßige Mahlzeiten",
+            "Schulung zur Hypoglykämie"
+          ],
+          "es": "El segundo problema clásico es el riesgo de Blutzuckerentgleisung (descompensación de la glucosa), sobre todo hipoglucemia con insulina o Sulfonylharnstoffe. El Ziel es medible: el paciente puede nombrar tres signos y qué hacer, en tres días. El rango de glucosa lo define el médico para cada paciente, por eso dices «im ärztlich festgelegten Zielbereich» y no un número fijo."
+        },
+        {
+          "id": "diabetes-typ-2.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Diabetes mellitus Typ 2 im Bereich Ernährung und Bewegung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist übergewichtig, bewegt sich wenig und kennt die Ernährungsempfehlungen bei Diabetes nicht ausreichend. Ziel: Der Patient nennt innerhalb von 7 Tagen drei Ernährungsregeln bei Diabetes und bewegt sich bis zur Entlassung täglich mindestens 30 Minuten. Maßnahmen: Ich organisiere eine Ernährungsberatung und beziehe die Angehörigen ein, bespreche mit dem Patienten geeignete Lebensmittel und Getränke, motiviere ihn zu täglicher Bewegung und kontrolliere einmal pro Woche das Gewicht.",
+          "points": [
+            "Übergewicht und Bewegungsmangel",
+            "Wissensdefizit Ernährung",
+            "Patient nennt drei Ernährungsregeln",
+            "täglich 30 Minuten Bewegung",
+            "Ernährungsberatung organisieren",
+            "wöchentliche Gewichtskontrolle"
+          ],
+          "es": "El tercer problema toca la base del tratamiento: sobrepeso, poco movimiento y falta de conocimientos. Las metas son pequeñas y realistas (nombrar tres reglas, moverse 30 minutos al día), porque bajar muchos kilos en una estancia corta no es alcanzable. Las Maßnahmen combinan asesoría, motivación y control del peso."
+        },
+        {
+          "id": "diabetes-typ-2.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Erklären Sie es an einem Beispiel für einen Patienten mit Diabetes mellitus Typ 2.",
+          "answer": "SMART bedeutet: Ein Pflegeziel ist spezifisch, messbar, akzeptiert, realistisch und terminiert. Das Ziel beschreibt also genau einen Zustand, den man überprüfen kann, es ist mit dem Patienten abgesprochen, für ihn erreichbar und hat einen festen Zeitpunkt. Ein Beispiel bei Diabetes ist: Der Patient führt innerhalb von 7 Tagen die Blutzuckerselbstkontrolle selbstständig und korrekt durch. Nicht geeignet wäre das Ziel, der Patient soll besser mit seinem Diabetes umgehen, denn das ist weder messbar noch terminiert. Am festgelegten Termin überprüfe ich in der Evaluation, ob das Ziel erreicht ist.",
+          "points": [
+            "spezifisch",
+            "messbar",
+            "akzeptiert",
+            "realistisch",
+            "terminiert",
+            "Beispiel mit Zeitangabe"
+          ],
+          "es": "SMART es la regla para formular un Pflegeziel (objetivo de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado por el paciente), realistisch (alcanzable) y terminiert (con fecha). Da siempre un ejemplo bueno y uno malo; así el examinador ve que lo entiendes y no solo lo memorizaste. El objetivo se escribe en presente, como un estado ya logrado."
+        }
+      ]
+    }
+  ]
+}

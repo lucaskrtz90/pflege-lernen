@@ -1,0 +1,1768 @@
+{
+  "id": "herzinsuffizienz",
+  "name": "Herzinsuffizienz",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "herzinsuffizienz.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Herzinsuffizienz?",
+              "options": [
+                "Ein akuter Verschluss einer Herzkranzarterie",
+                "Eine Entzündung der Herzinnenhaut",
+                "Die Unfähigkeit des Herzens, den Körper mit ausreichend Blut und Sauerstoff zu versorgen",
+                "Ein zu hoher Blutdruck in den Arterien"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Herzinsuffizienz kann das Herz nicht mehr genug Blut pumpen, um die Organe ausreichend mit Sauerstoff zu versorgen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Bei einer Herzinsuffizienz ist die ___ des Herzens vermindert, deshalb bekommt der Körper zu wenig Sauerstoff.",
+              "options": [
+                "Größe",
+                "Pumpleistung",
+                "Durchblutung der Haut",
+                "Anzahl der Herzklappen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Herzinsuffizienz (insuficiencia cardiaca) significa que el corazón ya no bombea suficiente sangre para lo que el cuerpo necesita. Por eso los órganos reciben poco oxígeno y la sangre se acumula antes del corazón. No es un infarto ni una inflamación: es una debilidad de la bomba."
+        },
+        {
+          "id": "herzinsuffizienz.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Form der Herzinsuffizienz der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Linksherzinsuffizienz",
+                  "Die linke Herzkammer pumpt zu schwach, das Blut staut sich in die Lunge zurück"
+                ],
+                [
+                  "Rechtsherzinsuffizienz",
+                  "Die rechte Herzkammer pumpt zu schwach, das Blut staut sich in die Körpervenen zurück"
+                ],
+                [
+                  "Globalinsuffizienz",
+                  "Beide Herzhälften sind betroffen"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Globalinsuffizienz?",
+              "options": [
+                "Beide Herzhälften sind von der Pumpschwäche betroffen",
+                "Nur die Vorhöfe sind betroffen",
+                "Die Herzinsuffizienz besteht nur bei Belastung",
+                "Alle Herzklappen sind verengt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Linksherzinsuffizienz staut sich das Blut zuerst in die Beine zurück.",
+              "correct": false
+            }
+          ],
+          "es": "Se distingue según la mitad del corazón afectada. En la Linksherzinsuffizienz (insuficiencia cardiaca izquierda) la sangre se regresa hacia los pulmones; en la Rechtsherzinsuffizienz (insuficiencia cardiaca derecha) se regresa hacia las venas del cuerpo. Si fallan las dos mitades se llama Globalinsuffizienz (insuficiencia global)."
+        },
+        {
+          "id": "herzinsuffizienz.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das NYHA-Stadium der Beschreibung zu.",
+              "pairs": [
+                [
+                  "NYHA I",
+                  "Herzerkrankung ohne Beschwerden bei normaler Belastung"
+                ],
+                [
+                  "NYHA II",
+                  "Beschwerden bei stärkerer körperlicher Belastung"
+                ],
+                [
+                  "NYHA III",
+                  "Beschwerden schon bei leichter körperlicher Belastung"
+                ],
+                [
+                  "NYHA IV",
+                  "Beschwerden bereits in Ruhe"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient hat schon in Ruhe Atemnot. Welches NYHA-Stadium liegt vor?",
+              "options": [
+                "NYHA I",
+                "NYHA II",
+                "NYHA III",
+                "NYHA IV"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Die NYHA-Klassifikation teilt die Herzinsuffizienz nach der körperlichen ___ in vier Stadien ein.",
+              "options": [
+                "Belastbarkeit",
+                "Größe",
+                "Temperatur",
+                "Trinkmenge"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La clasificación NYHA divide la insuficiencia cardiaca en cuatro estadios según la Belastbarkeit (tolerancia al esfuerzo). En I no hay molestias, en II aparecen con esfuerzos fuertes, en III con esfuerzos ligeros y en IV ya en reposo. Es una pregunta clásica de examen, apréndetela de memoria."
+        },
+        {
+          "id": "herzinsuffizienz.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wodurch unterscheiden sich akute und chronische Herzinsuffizienz?",
+              "options": [
+                "Die akute Form betrifft nur junge Menschen",
+                "Die akute Form entsteht innerhalb von Minuten bis Stunden, die chronische entwickelt sich über Monate bis Jahre",
+                "Die chronische Form ist immer harmlos",
+                "Die akute Form betrifft nur das rechte Herz"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine chronische Herzinsuffizienz entwickelt sich langsam über Monate bis Jahre.",
+              "correct": true
+            }
+          ],
+          "es": "La forma akut (aguda) aparece en minutos u horas, por ejemplo después de un infarto, y es una urgencia. La forma chronisch (crónica) se desarrolla poco a poco durante meses o años, y el cuerpo la compensa por un tiempo. Una insuficiencia crónica puede empeorar de pronto: eso se llama Dekompensation (descompensación)."
+        },
+        {
+          "id": "herzinsuffizienz.definition.5",
+          "type": "sprech",
+          "q": "Was ist eine Herzinsuffizienz? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Eine Herzinsuffizienz ist eine Herzschwäche. Das Herz kann nicht mehr genug Blut pumpen, um den Körper ausreichend mit Sauerstoff zu versorgen. Man unterscheidet die Linksherzinsuffizienz, die Rechtsherzinsuffizienz und die Globalinsuffizienz, bei der beide Herzhälften betroffen sind. Bei der Linksherzinsuffizienz staut sich das Blut in die Lunge zurück, bei der Rechtsherzinsuffizienz in die Körpervenen. Die Erkrankung kann akut auftreten oder chronisch verlaufen.",
+          "points": [
+            "Pumpschwäche des Herzens",
+            "Sauerstoffmangel im Körper",
+            "Links-, Rechts-, Globalinsuffizienz",
+            "Rückstau in Lunge oder Körper",
+            "Akut oder chronisch"
+          ],
+          "es": "Aquí te piden la definición con tus propias palabras. Di primero qué es (el corazón bombea muy poco), luego las formas (izquierda, derecha, global) y hacia dónde se regresa la sangre. Termina diciendo que puede ser aguda o crónica; con eso la respuesta queda completa."
+        },
+        {
+          "id": "herzinsuffizienz.definition.6",
+          "type": "sprech",
+          "q": "Erklären Sie die Einteilung der Herzinsuffizienz nach NYHA.",
+          "answer": "Die NYHA-Klassifikation teilt die Herzinsuffizienz nach der körperlichen Belastbarkeit in vier Stadien ein. Im Stadium I hat der Patient eine Herzerkrankung, aber keine Beschwerden bei normaler Belastung. Im Stadium II treten Beschwerden wie Atemnot bei stärkerer Belastung auf, zum Beispiel beim Treppensteigen. Im Stadium III hat der Patient schon bei leichter Belastung Beschwerden, zum Beispiel beim Gehen in der Ebene. Im Stadium IV bestehen die Beschwerden bereits in Ruhe.",
+          "points": [
+            "Einteilung nach Belastbarkeit",
+            "Vier Stadien",
+            "I: keine Beschwerden",
+            "II: bei stärkerer Belastung",
+            "III: bei leichter Belastung",
+            "IV: in Ruhe"
+          ],
+          "es": "La NYHA-Klassifikation ordena la enfermedad por la tolerancia al esfuerzo. Explica los cuatro estadios en orden y da un ejemplo sencillo, como subir escaleras (II) o caminar en plano (III). Para la enfermería es importante porque de ahí depende cuánta ayuda necesita el paciente."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "herzinsuffizienz.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Herzhöhle ihrer Aufgabe zu.",
+              "pairs": [
+                [
+                  "Rechter Vorhof",
+                  "Nimmt sauerstoffarmes Blut aus dem Körper auf"
+                ],
+                [
+                  "Rechte Kammer",
+                  "Pumpt sauerstoffarmes Blut in die Lunge"
+                ],
+                [
+                  "Linker Vorhof",
+                  "Nimmt sauerstoffreiches Blut aus der Lunge auf"
+                ],
+                [
+                  "Linke Kammer",
+                  "Pumpt sauerstoffreiches Blut in den Körper"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Herzhöhle pumpt das Blut in den Körperkreislauf?",
+              "options": [
+                "Der rechte Vorhof",
+                "Die rechte Kammer",
+                "Der linke Vorhof",
+                "Die linke Kammer"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Herz besteht aus zwei Vorhöfen und zwei Kammern.",
+              "correct": true
+            }
+          ],
+          "es": "El corazón tiene cuatro cavidades: dos Vorhöfe (aurículas) y dos Kammern (ventrículos). El lado derecho recibe la sangre pobre en oxígeno del cuerpo y la manda a los pulmones; el lado izquierdo recibe la sangre oxigenada y la bombea a todo el cuerpo. Si entiendes esto, entiendes los síntomas de cada forma."
+        },
+        {
+          "id": "herzinsuffizienz.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welchen Weg nimmt das Blut im kleinen Kreislauf (Lungenkreislauf)?",
+              "options": [
+                "Linke Kammer – Aorta – Körper – Hohlvenen – rechter Vorhof",
+                "Rechte Kammer – Lungenarterie – Lunge – Lungenvenen – linker Vorhof",
+                "Rechter Vorhof – Aorta – Lunge – linke Kammer",
+                "Linker Vorhof – Lungenvenen – Lunge – rechte Kammer"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der kleine Kreislauf beginnt in der linken Herzkammer.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Im kleinen Kreislauf pumpt die rechte Kammer das Blut über die Lungenarterie in die ___.",
+              "options": [
+                "Leber",
+                "Aorta",
+                "Lunge",
+                "Nieren"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El kleiner Kreislauf (circulación menor o pulmonar) empieza en el ventrículo derecho: la sangre va por la arteria pulmonar a los pulmones, toma oxígeno y regresa por las venas pulmonares a la aurícula izquierda. Por eso, cuando falla el corazón izquierdo, la sangre se estanca justo en los pulmones."
+        },
+        {
+          "id": "herzinsuffizienz.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Im großen Kreislauf pumpt die linke Kammer das Blut über die ___ in den Körper.",
+              "options": [
+                "Lungenarterie",
+                "Hohlvene",
+                "Lungenvene",
+                "Aorta"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "mc",
+              "q": "Wo endet der große Kreislauf (Körperkreislauf)?",
+              "options": [
+                "Im rechten Vorhof",
+                "Im linken Vorhof",
+                "In der linken Kammer",
+                "In der Lunge"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Im großen Kreislauf fließt das Blut über die obere und untere Hohlvene zum rechten Vorhof zurück.",
+              "correct": true
+            }
+          ],
+          "es": "El großer Kreislauf (circulación mayor o sistémica) empieza en el ventrículo izquierdo, sale por la aorta, lleva oxígeno a los órganos y regresa por las Hohlvenen (venas cavas) a la aurícula derecha. Si falla el corazón derecho, la sangre se estanca en estas venas del cuerpo."
+        },
+        {
+          "id": "herzinsuffizienz.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum führt eine Linksherzinsuffizienz zu Atemnot?",
+              "options": [
+                "Weil sich die Bronchien durch eine Allergie verengen",
+                "Weil sich das Blut vor dem linken Herzen in die Lunge zurückstaut",
+                "Weil das Zwerchfell gelähmt ist",
+                "Weil zu wenig Blut in die Lunge gelangt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Rechtsherzinsuffizienz staut sich das Blut in die Lunge zurück.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne zu, wohin sich das Blut zurückstaut.",
+              "pairs": [
+                [
+                  "Schwäche der linken Kammer",
+                  "Rückstau in die Lungengefäße"
+                ],
+                [
+                  "Schwäche der rechten Kammer",
+                  "Rückstau in die Körpervenen"
+                ],
+                [
+                  "Schwäche beider Kammern",
+                  "Rückstau in Lunge und Körpervenen"
+                ]
+              ]
+            }
+          ],
+          "es": "La idea clave es el Rückstau (estancamiento hacia atrás): la sangre se acumula antes de la cámara débil. Antes del corazón izquierdo están los pulmones, por eso hay disnea; antes del corazón derecho están las venas del cuerpo, por eso hay edemas. Con esta lógica puedes deducir todos los síntomas."
+        },
+        {
+          "id": "herzinsuffizienz.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Herzklappe ihrer Lage zu.",
+              "pairs": [
+                [
+                  "Mitralklappe",
+                  "Zwischen linkem Vorhof und linker Kammer"
+                ],
+                [
+                  "Trikuspidalklappe",
+                  "Zwischen rechtem Vorhof und rechter Kammer"
+                ],
+                [
+                  "Aortenklappe",
+                  "Zwischen linker Kammer und Aorta"
+                ],
+                [
+                  "Pulmonalklappe",
+                  "Zwischen rechter Kammer und Lungenarterie"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben die Herzklappen?",
+              "options": [
+                "Sie erzeugen den elektrischen Impuls für den Herzschlag",
+                "Sie versorgen den Herzmuskel mit Sauerstoff",
+                "Sie wirken als Ventile und lassen das Blut nur in eine Richtung fließen",
+                "Sie filtern das Blut"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Las Herzklappen (válvulas cardiacas) funcionan como válvulas de un solo sentido: dejan pasar la sangre hacia adelante y evitan que se regrese. Hay cuatro: mitral y tricúspide entre aurículas y ventrículos, aórtica y pulmonar a la salida de los ventrículos. Si una válvula está estrecha o no cierra, el corazón trabaja de más y con el tiempo se debilita."
+        },
+        {
+          "id": "herzinsuffizienz.anatomie.6",
+          "type": "sprech",
+          "q": "Beschreiben Sie den Weg des Blutes durch das Herz und die beiden Kreisläufe.",
+          "answer": "Das sauerstoffarme Blut aus dem Körper fließt über die Hohlvenen in den rechten Vorhof und dann in die rechte Kammer. Die rechte Kammer pumpt es über die Lungenarterie in die Lunge, das ist der kleine Kreislauf. In der Lunge nimmt das Blut Sauerstoff auf und fließt über die Lungenvenen in den linken Vorhof und weiter in die linke Kammer. Die linke Kammer pumpt das sauerstoffreiche Blut über die Aorta in den ganzen Körper, das ist der große Kreislauf.",
+          "points": [
+            "Hohlvenen, rechter Vorhof",
+            "Rechte Kammer, Lungenarterie",
+            "Kleiner Kreislauf: Lunge",
+            "Lungenvenen, linker Vorhof",
+            "Linke Kammer, Aorta",
+            "Großer Kreislauf: Körper"
+          ],
+          "es": "Sigue el camino de la sangre paso a paso, empezando en las venas cavas. Nombra las cuatro cavidades y los dos circuitos: el kleiner Kreislauf (pulmonar) y el großer Kreislauf (sistémico). Si lo cuentas en orden, luego puedes explicar fácilmente por qué cada insuficiencia da síntomas distintos."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "herzinsuffizienz.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Erkrankungen sind die häufigsten Ursachen einer Herzinsuffizienz?",
+              "options": [
+                "Koronare Herzkrankheit (KHK)",
+                "Asthma bronchiale",
+                "Arterielle Hypertonie",
+                "Gastritis",
+                "Arthrose"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Kombination nennt die häufigsten Ursachen der Herzinsuffizienz?",
+              "options": [
+                "Diabetes insipidus und Anämie",
+                "Asthma bronchiale und Allergien",
+                "Schilddrüsenunterfunktion und Arthrose",
+                "Koronare Herzkrankheit und arterielle Hypertonie"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die koronare Herzkrankheit und der Bluthochdruck sind die häufigsten Ursachen einer Herzinsuffizienz.",
+              "correct": true
+            }
+          ],
+          "es": "Las dos causas más frecuentes son la koronare Herzkrankheit, KHK (cardiopatía isquémica) y la arterielle Hypertonie (hipertensión arterial). Muchas veces el paciente tiene las dos. En el examen nómbralas siempre primero."
+        },
+        {
+          "id": "herzinsuffizienz.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie führt eine langjährige arterielle Hypertonie zur Herzinsuffizienz?",
+              "options": [
+                "Das Herz muss ständig gegen einen erhöhten Widerstand pumpen und wird dadurch überlastet",
+                "Der hohe Druck zerstört die Lungenbläschen",
+                "Das Herz schlägt immer langsamer, bis es stehen bleibt",
+                "Der Bluthochdruck verdünnt das Blut"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei Bluthochdruck wird das Herz entlastet, weil das Blut schneller fließt.",
+              "correct": false
+            }
+          ],
+          "es": "Con la hipertensión el ventrículo izquierdo tiene que bombear todo el tiempo contra una resistencia alta. Primero el músculo se engrosa para aguantar, pero con los años se agota y pierde fuerza. Por eso controlar bien la presión es prevenir la insuficiencia cardiaca."
+        },
+        {
+          "id": "herzinsuffizienz.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum kann ein Herzinfarkt zu einer Herzinsuffizienz führen?",
+              "options": [
+                "Weil sich nach dem Infarkt die Herzklappen entzünden",
+                "Weil Herzmuskelgewebe abstirbt und durch Narbengewebe ersetzt wird, das nicht mitpumpt",
+                "Weil nach dem Infarkt zu viel Blut gebildet wird",
+                "Weil das Herz nach einem Infarkt größer und kräftiger wird"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Abgestorbenes Herzmuskelgewebe wächst nach einem Herzinfarkt vollständig nach.",
+              "correct": false
+            }
+          ],
+          "es": "En la KHK el músculo cardiaco recibe poca sangre, y en un Herzinfarkt (infarto al corazón) una parte del músculo muere. Ese tejido no vuelve a crecer: queda una cicatriz que no se contrae. Así el corazón pierde fuerza de bombeo."
+        },
+        {
+          "id": "herzinsuffizienz.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die häufigste Ursache einer Rechtsherzinsuffizienz?",
+              "options": [
+                "Eine Leberzirrhose",
+                "Eine Nierenentzündung",
+                "Eine Linksherzinsuffizienz",
+                "Eine Venenthrombose im Bein"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Chronische Lungenerkrankungen wie die COPD belasten vor allem die ___ Herzkammer.",
+              "options": [
+                "linke",
+                "rechte",
+                "obere",
+                "hintere"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Lungenerkrankungen wie COPD oder eine Lungenembolie können eine Rechtsherzinsuffizienz verursachen.",
+              "correct": true
+            }
+          ],
+          "es": "El corazón derecho bombea hacia los pulmones. Si el izquierdo falla, la sangre se estanca en los pulmones, sube la presión ahí y el derecho se sobrecarga: por eso la causa más común de Rechtsherzinsuffizienz es la Linksherzinsuffizienz. También las enfermedades pulmonares como la COPD (EPOC) o una Lungenembolie (embolia pulmonar) sobrecargan el ventrículo derecho."
+        },
+        {
+          "id": "herzinsuffizienz.ursachen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Ursache der Erklärung zu.",
+              "pairs": [
+                [
+                  "Herzklappenfehler",
+                  "Eine Klappe ist verengt oder schließt nicht dicht"
+                ],
+                [
+                  "Kardiomyopathie",
+                  "Erkrankung des Herzmuskels selbst"
+                ],
+                [
+                  "Myokarditis",
+                  "Entzündung des Herzmuskels"
+                ],
+                [
+                  "Herzrhythmusstörung",
+                  "Das Herz schlägt zu schnell, zu langsam oder unregelmäßig"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist eine Kardiomyopathie?",
+              "options": [
+                "Eine Erkrankung des Herzmuskels",
+                "Eine Entzündung des Herzbeutels",
+                "Eine Verengung der Herzkranzgefäße",
+                "Ein angeborenes Loch in der Herzscheidewand"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Además de KHK e hipertensión hay otras causas: Herzklappenfehler (valvulopatías), Kardiomyopathie (miocardiopatía, enfermedad del músculo cardiaco), Myokarditis (miocarditis) y Herzrhythmusstörungen (arritmias) como el Vorhofflimmern (fibrilación auricular). En todas el corazón trabaja de forma poco eficaz y termina debilitándose."
+        },
+        {
+          "id": "herzinsuffizienz.ursachen.6",
+          "type": "sprech",
+          "q": "Welche Ursachen einer Herzinsuffizienz kennen Sie?",
+          "answer": "Die häufigsten Ursachen sind die koronare Herzkrankheit und die arterielle Hypertonie. Bei der KHK und nach einem Herzinfarkt geht Herzmuskelgewebe zugrunde, bei Bluthochdruck muss das Herz ständig gegen einen hohen Widerstand pumpen. Weitere Ursachen sind Herzklappenfehler, Kardiomyopathien, Herzmuskelentzündungen und Herzrhythmusstörungen. Eine Rechtsherzinsuffizienz entsteht meistens als Folge einer Linksherzinsuffizienz oder durch Lungenerkrankungen wie die COPD.",
+          "points": [
+            "Koronare Herzkrankheit, Herzinfarkt",
+            "Arterielle Hypertonie",
+            "Herzklappenfehler",
+            "Kardiomyopathie",
+            "Herzrhythmusstörungen",
+            "Rechtsherz: Linksherzinsuffizienz, Lungenerkrankungen"
+          ],
+          "es": "Empieza con las dos causas principales (KHK e hipertensión) y explica en una frase el mecanismo. Después nombra las demás: valvulopatías, miocardiopatías, miocarditis y arritmias. Cierra con las causas del corazón derecho; eso muestra que entiendes la relación entre las dos mitades."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "herzinsuffizienz.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren erhöhen das Risiko für eine Herzinsuffizienz?",
+              "options": [
+                "Arterielle Hypertonie",
+                "Regelmäßige Bewegung",
+                "Diabetes mellitus",
+                "Rauchen",
+                "Niedriger Blutdruck"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Rauchen, Diabetes mellitus und Bluthochdruck erhöhen das Risiko für eine Herzinsuffizienz.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Faktor schützt eher vor einer Herzinsuffizienz?",
+              "options": [
+                "Übergewicht",
+                "Rauchen",
+                "Regelmäßige körperliche Bewegung",
+                "Unbehandelter Bluthochdruck"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los Risikofaktoren (factores de riesgo) son los mismos que dañan los vasos y el corazón: hipertensión, Diabetes mellitus, tabaquismo, Adipositas (obesidad), colesterol alto y falta de movimiento. Favorecen la KHK y sobrecargan el corazón. El ejercicio regular, en cambio, protege."
+        },
+        {
+          "id": "herzinsuffizienz.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wirkt sich langjähriger hoher Alkoholkonsum auf das Herz aus?",
+              "options": [
+                "Er stärkt den Herzmuskel",
+                "Er hat keinen Einfluss auf das Herz",
+                "Er verengt nur die Herzklappen",
+                "Er kann den Herzmuskel direkt schädigen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Hoher Alkoholkonsum über viele Jahre kann den Herzmuskel schädigen und zu einer Herzinsuffizienz führen.",
+              "correct": true
+            }
+          ],
+          "es": "El alcohol en exceso es tóxico para el músculo cardiaco y con los años puede provocar una Kardiomyopathie (miocardiopatía). Por eso en la Beratung (asesoría) se recomienda tomar muy poco o nada de alcohol."
+        },
+        {
+          "id": "herzinsuffizienz.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren können bei einer chronischen Herzinsuffizienz eine Dekompensation auslösen?",
+              "options": [
+                "Ein Infekt, z. B. eine Pneumonie",
+                "Tägliches Wiegen",
+                "Nicht eingenommene Medikamente",
+                "Salzarme Kost",
+                "Zu viel Salz und Flüssigkeit"
+              ],
+              "correct": [
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Ein fieberhafter Infekt hat keinen Einfluss auf eine bestehende Herzinsuffizienz.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient mit chronischer Herzinsuffizienz nimmt seine Diuretika seit einer Woche nicht mehr ein. Was droht?",
+              "options": [
+                "Eine Austrocknung",
+                "Eine kardiale Dekompensation mit Ödemen und Atemnot",
+                "Eine Unterzuckerung",
+                "Ein zu niedriger Puls"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Una insuficiencia crónica estable puede descompensarse por ciertos desencadenantes: infecciones (por la fiebre y la taquicardia el corazón trabaja más), no tomar los medicamentos, comer mucha sal o tomar demasiados líquidos, y arritmias. Conocerlos es importante para la Beratung, porque el paciente puede evitar varios."
+        },
+        {
+          "id": "herzinsuffizienz.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Die Herzinsuffizienz ist vor allem eine Erkrankung junger Erwachsener.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aussage zum Alter ist richtig?",
+              "options": [
+                "Die Häufigkeit der Herzinsuffizienz nimmt mit dem Alter deutlich zu",
+                "Die Herzinsuffizienz tritt fast nur bei Kindern auf",
+                "Das Alter spielt keine Rolle",
+                "Ab 70 Jahren sinkt das Risiko wieder"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La insuficiencia cardiaca es sobre todo una enfermedad de la edad avanzada: mientras más años, más frecuente, porque se suman hipertensión, KHK y desgaste del corazón. En Alemania es uno de los motivos más comunes de hospitalización en personas mayores."
+        },
+        {
+          "id": "herzinsuffizienz.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren begünstigen eine Herzinsuffizienz, und welche davon kann der Patient selbst beeinflussen?",
+          "answer": "Wichtige Risikofaktoren sind arterielle Hypertonie, Diabetes mellitus, Rauchen, Übergewicht, erhöhte Blutfette, Bewegungsmangel und hoher Alkoholkonsum. Nicht beeinflussbar sind das höhere Lebensalter und eine familiäre Veranlagung. Der Patient kann selbst viel tun: nicht rauchen, wenig Alkohol trinken, sich regelmäßig bewegen und Übergewicht abbauen. Außerdem sollten Blutdruck und Blutzucker gut eingestellt sein.",
+          "points": [
+            "Hypertonie, Diabetes mellitus",
+            "Rauchen, Alkohol",
+            "Übergewicht, Bewegungsmangel",
+            "Alter nicht beeinflussbar",
+            "Lebensstil ändern",
+            "Blutdruck und Blutzucker einstellen"
+          ],
+          "es": "Ordena tu respuesta en dos grupos: factores beeinflussbar (modificables), como fumar, alcohol, sobrepeso y sedentarismo, y nicht beeinflussbar (no modificables), como la edad y la herencia. Al examinador le gusta que menciones qué puede hacer el paciente, porque eso lleva directo a la asesoría de enfermería."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "herzinsuffizienz.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind typisch für eine Linksherzinsuffizienz?",
+              "options": [
+                "Dyspnoe",
+                "Aszites",
+                "Orthopnoe",
+                "Gestaute Halsvenen",
+                "Rasselgeräusche über der Lunge"
+              ],
+              "correct": [
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Leitsymptom der Linksherzinsuffizienz?",
+              "options": [
+                "Beinödeme",
+                "Atemnot (Dyspnoe)",
+                "Gelbsucht",
+                "Bauchwassersucht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Atemnot, die sich im Liegen verstärkt, ist ein typisches Zeichen der Linksherzinsuffizienz.",
+              "correct": true
+            }
+          ],
+          "es": "En la Linksherzinsuffizienz la sangre se estanca en los pulmones, por eso todo gira alrededor de la respiración: Dyspnoe (disnea), Orthopnoe (disnea al estar acostado), tos y Rasselgeräusche (estertores). Además, como sale poca sangre hacia el cuerpo, el paciente está cansado y rinde poco."
+        },
+        {
+          "id": "herzinsuffizienz.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind typisch für eine Rechtsherzinsuffizienz?",
+              "options": [
+                "Lungenödem",
+                "Beinödeme",
+                "Gestaute Halsvenen",
+                "Schaumiger Auswurf",
+                "Aszites"
+              ],
+              "correct": [
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wo treten Ödeme bei einer Rechtsherzinsuffizienz bei mobilen Patienten zuerst auf?",
+              "options": [
+                "Im Gesicht und an den Augenlidern",
+                "An den Händen",
+                "An Knöcheln und Unterschenkeln",
+                "Nur am Bauch"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei bettlägerigen Patienten mit Rechtsherzinsuffizienz finden sich Ödeme oft im Bereich des Kreuzbeins.",
+              "correct": true
+            }
+          ],
+          "es": "En la Rechtsherzinsuffizienz la sangre se estanca en las venas del cuerpo. Aparecen Beinödeme (edemas en piernas, primero en tobillos), Halsvenenstauung (ingurgitación yugular), Aszites (ascitis), hígado congestivo y aumento de peso. El agua sigue la gravedad: en pacientes encamados los edemas están en la zona del sacro."
+        },
+        {
+          "id": "herzinsuffizienz.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Orthopnoe",
+                  "Schwere Atemnot im Liegen, die sich im Sitzen bessert"
+                ],
+                [
+                  "Nykturie",
+                  "Vermehrtes nächtliches Wasserlassen"
+                ],
+                [
+                  "Asthma cardiale",
+                  "Nächtliche Anfälle von Atemnot und Husten durch Lungenstauung"
+                ],
+                [
+                  "Aszites",
+                  "Flüssigkeitsansammlung in der Bauchhöhle"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten mit Herzinsuffizienz häufig eine Nykturie?",
+              "options": [
+                "Weil sie abends zu viel trinken",
+                "Weil die Blase entzündet ist",
+                "Weil nachts mehr Flüssigkeit über die Haut verloren geht",
+                "Weil im Liegen das Herz entlastet wird, die Nieren besser durchblutet werden und Ödeme ausgeschwemmt werden"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Nykturie bedeutet, dass der Patient nachts nicht mehr Wasser lassen kann.",
+              "correct": false
+            }
+          ],
+          "es": "Estos cuatro términos salen casi seguro en el examen. La Nykturie (nicturia) se explica así: de noche, acostado, el corazón trabaja con menos carga, los riñones reciben más sangre y eliminan el agua de los edemas. El Asthma cardiale (asma cardiaca) no es asma bronquial, sino disnea y tos nocturnas por la congestión pulmonar."
+        },
+        {
+          "id": "herzinsuffizienz.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Zeichen sprechen für ein akutes Lungenödem?",
+              "options": [
+                "Langsame, tiefe Atmung und rosige Haut",
+                "Schwerste Atemnot, brodelndes Atemgeräusch und schaumiger Auswurf",
+                "Trockener Husten ohne Atemnot",
+                "Bauchschmerzen und Durchfall"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein akutes Lungenödem erkennt man unter anderem an schwerster Atemnot und einem brodelnden Atemgeräusch.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Beim akuten Lungenödem hustet der Patient typischerweise ___ Sekret ab.",
+              "options": [
+                "schaumiges",
+                "grünes, zähes",
+                "kein",
+                "übel riechendes"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El Lungenödem (edema pulmonar) es la forma más grave de la congestión: el líquido pasa a los alvéolos. Lo reconoces por disnea extrema, respiración con ruido de burbujeo, esputo espumoso (a veces rosado), cianosis, angustia y sudor frío. Es una urgencia que pone en peligro la vida."
+        },
+        {
+          "id": "herzinsuffizienz.symptome.5",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Linksherzinsuffizienz, und wie entstehen sie?",
+          "answer": "Bei der Linksherzinsuffizienz staut sich das Blut in die Lunge zurück. Deshalb hat der Patient Atemnot, zuerst bei Belastung und später auch in Ruhe, und er bekommt im Liegen schlechter Luft, das nennt man Orthopnoe. Typisch sind auch Husten, Rasselgeräusche und nächtliche Atemnotanfälle, das Asthma cardiale. Im schlimmsten Fall entsteht ein Lungenödem. Weil zu wenig Blut in den Körper gepumpt wird, ist der Patient außerdem müde, wenig belastbar und manchmal zyanotisch.",
+          "points": [
+            "Rückstau in die Lunge",
+            "Dyspnoe, Orthopnoe",
+            "Husten, Rasselgeräusche",
+            "Asthma cardiale",
+            "Lungenödem",
+            "Leistungsminderung, Müdigkeit"
+          ],
+          "es": "Explica primero el mecanismo (la sangre se regresa a los pulmones) y luego los síntomas respiratorios en orden de gravedad: disnea de esfuerzo, Orthopnoe, Asthma cardiale y Lungenödem. No olvides los síntomas por bajo gasto: cansancio y poca tolerancia al esfuerzo."
+        },
+        {
+          "id": "herzinsuffizienz.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Rechtsherzinsuffizienz, und wie entstehen sie?",
+          "answer": "Bei der Rechtsherzinsuffizienz staut sich das Blut in die Körpervenen zurück. Dadurch entstehen Ödeme, zuerst an den Knöcheln und Unterschenkeln, bei bettlägerigen Patienten am Kreuzbein, und das Körpergewicht nimmt zu. Man sieht gestaute Halsvenen, und es können ein Aszites und eine Stauungsleber entstehen. Durch die Stauung im Magen-Darm-Trakt haben die Patienten oft Appetitlosigkeit und Völlegefühl. Typisch ist auch die Nykturie, also vermehrtes Wasserlassen in der Nacht.",
+          "points": [
+            "Rückstau in Körpervenen",
+            "Ödeme, Gewichtszunahme",
+            "Gestaute Halsvenen",
+            "Aszites, Stauungsleber",
+            "Appetitlosigkeit, Völlegefühl",
+            "Nykturie"
+          ],
+          "es": "Aquí el mecanismo es el estancamiento en las venas del cuerpo. Recorre el cuerpo de abajo hacia arriba: edemas en piernas, ascitis e hígado congestivo, falta de apetito por la congestión del estómago y venas del cuello ingurgitadas. Menciona también el aumento de peso y la Nykturie."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "herzinsuffizienz.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung ist am wichtigsten, um eine Herzinsuffizienz zu sichern und die Pumpfunktion zu beurteilen?",
+              "options": [
+                "Die Echokardiografie",
+                "Die Lungenfunktionsprüfung",
+                "Die Gastroskopie",
+                "Das Belastungs-EKG"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Echokardiografie ist eine Röntgenuntersuchung mit Strahlenbelastung.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Echokardiografie ist eine ___ des Herzens und zeigt die Pumpfunktion und die Herzklappen.",
+              "options": [
+                "Röntgenaufnahme",
+                "Blutuntersuchung",
+                "Ultraschalluntersuchung",
+                "Gewebeprobe"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Echokardiografie (ecocardiograma) es el estudio más importante: es un ultrasonido del corazón, sin radiación y sin dolor. Muestra qué tan bien bombea el corazón (la fracción de eyección), el tamaño de las cavidades y cómo funcionan las válvulas."
+        },
+        {
+          "id": "herzinsuffizienz.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Laborwert ist bei einer Herzinsuffizienz typischerweise erhöht?",
+              "options": [
+                "HbA1c",
+                "Lipase",
+                "TSH",
+                "BNP bzw. NT-proBNP"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein normaler BNP-Wert macht eine Herzinsuffizienz unwahrscheinlich.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Wann wird BNP vermehrt ausgeschüttet?",
+              "options": [
+                "Wenn die Leber entzündet ist",
+                "Wenn die Herzkammern durch Druck und Volumen überdehnt werden",
+                "Wenn der Blutzucker zu niedrig ist",
+                "Wenn der Patient zu wenig trinkt"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El BNP (péptido natriurético tipo B) o NT-proBNP es una hormona que liberan los ventrículos cuando están sobrecargados y distendidos. Si está alto, apoya el diagnóstico de insuficiencia cardiaca; si está normal, la enfermedad es poco probable. También sirve para vigilar la evolución."
+        },
+        {
+          "id": "herzinsuffizienz.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was kann der Röntgen-Thorax bei einer Herzinsuffizienz zeigen?",
+              "options": [
+                "Die genaue Pumpleistung in Prozent",
+                "Verengungen der Herzkranzgefäße",
+                "Ein vergrößertes Herz und eine Lungenstauung",
+                "Herzrhythmusstörungen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Auf dem Röntgenbild des Thorax kann man eine Herzvergrößerung und einen Pleuraerguss erkennen.",
+              "correct": true
+            }
+          ],
+          "es": "El Röntgen-Thorax (radiografía de tórax) muestra las consecuencias de la enfermedad: un corazón agrandado, Lungenstauung (congestión pulmonar) y a veces un Pleuraerguss (derrame pleural). No mide la fuerza de bombeo; para eso está el ecocardiograma."
+        },
+        {
+          "id": "herzinsuffizienz.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung dem zu, was sie vor allem zeigt.",
+              "pairs": [
+                [
+                  "EKG",
+                  "Herzrhythmus und Hinweise auf einen Herzinfarkt"
+                ],
+                [
+                  "Echokardiografie",
+                  "Pumpfunktion und Herzklappen"
+                ],
+                [
+                  "Röntgen-Thorax",
+                  "Herzgröße und Lungenstauung"
+                ],
+                [
+                  "BNP im Blut",
+                  "Belastung und Überdehnung der Herzkammern"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wozu dient das EKG bei Verdacht auf Herzinsuffizienz?",
+              "options": [
+                "Es misst die Menge der Ödeme",
+                "Es zeigt Rhythmusstörungen und Hinweise auf die Ursache, z. B. einen Herzinfarkt",
+                "Es misst den Sauerstoffgehalt im Blut",
+                "Es zeigt die Größe der Leber"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Mit dem EKG kann man die Pumpleistung des Herzens direkt messen.",
+              "correct": false
+            }
+          ],
+          "es": "Cada estudio responde una pregunta distinta. El EKG (electrocardiograma) registra la actividad eléctrica: muestra arritmias como Vorhofflimmern y señales de un infarto, es decir, ayuda a encontrar la causa. No mide la fuerza de bombeo. En el examen puedes decir qué estudio muestra qué cosa."
+        },
+        {
+          "id": "herzinsuffizienz.diagnostik.5",
+          "type": "sprech",
+          "q": "Wie wird eine Herzinsuffizienz diagnostiziert, und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Am Anfang stehen die Anamnese und die körperliche Untersuchung, zum Beispiel mit Abhören von Herz und Lunge und der Suche nach Ödemen. Die wichtigste Untersuchung ist die Echokardiografie, weil sie die Pumpfunktion und die Herzklappen zeigt. Dazu kommen ein EKG, ein Röntgen-Thorax und eine Blutuntersuchung mit dem BNP-Wert. Die Pflege informiert den Patienten, bereitet ihn vor, nimmt nach Anordnung Blut ab und schreibt das EKG. Außerdem liefert sie wichtige Beobachtungen wie Vitalzeichen, Gewicht, Ödeme und Atmung.",
+          "points": [
+            "Anamnese, körperliche Untersuchung",
+            "Echokardiografie",
+            "EKG",
+            "Röntgen-Thorax",
+            "BNP im Blut",
+            "Pflege: informieren, vorbereiten, beobachten"
+          ],
+          "es": "Nombra los estudios en un orden lógico: Anamnese (historia clínica) y exploración, luego el ecocardiograma como estudio principal, después EKG, radiografía y laboratorio con BNP. La segunda parte es tu papel como enfermera: informar, preparar, asistir y aportar tus observaciones de signos vitales, peso y edemas."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "herzinsuffizienz.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wirken Diuretika bei einer Herzinsuffizienz?",
+              "options": [
+                "Sie steigern die Herzfrequenz",
+                "Sie verdünnen das Blut und verhindern Thrombosen",
+                "Sie fördern die Wasserausscheidung über die Nieren und entlasten so das Herz",
+                "Sie erweitern die Bronchien"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Nebenwirkungen muss die Pflege bei Schleifendiuretika wie Furosemid beobachten?",
+              "options": [
+                "Kaliummangel (Hypokaliämie)",
+                "Gewichtszunahme durch Wassereinlagerung",
+                "Austrocknung (Exsikkose)",
+                "Blutdruckabfall mit Schwindel",
+                "Trockener Reizhusten"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Diuretika gibt man am besten spät abends, damit der Patient gut schlafen kann.",
+              "correct": false
+            }
+          ],
+          "es": "Los Diuretika (diuréticos) hacen que los riñones eliminen más agua y sal: bajan los edemas y la disnea. Tú observas el efecto (orina, peso, edemas) y los efectos secundarios: pérdida de potasio, Exsikkose (deshidratación), presión baja y mareo con riesgo de caídas. Se dan en la mañana para que el paciente no tenga que ir al baño toda la noche."
+        },
+        {
+          "id": "herzinsuffizienz.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche typische Nebenwirkung haben ACE-Hemmer?",
+              "options": [
+                "Trockener Reizhusten",
+                "Verstopfung",
+                "Gewichtszunahme",
+                "Haarausfall"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "ACE-Hemmer senken den Blutdruck und entlasten dadurch das Herz.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "ACE-Hemmer erweitern die Blutgefäße und senken den ___, deshalb wird er regelmäßig kontrolliert.",
+              "options": [
+                "Blutzucker",
+                "Blutdruck",
+                "Hämoglobinwert",
+                "Hirndruck"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los ACE-Hemmer (inhibidores de la ECA) dilatan los vasos, bajan la presión y así el corazón bombea contra menos resistencia. El efecto secundario típico es el trockener Reizhusten (tos seca irritativa); también pueden bajar demasiado la presión y subir el potasio. Por eso controlas la presión y avisas si el paciente tose o se marea."
+        },
+        {
+          "id": "herzinsuffizienz.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was kontrolliert die Pflege vor der Gabe eines Betablockers?",
+              "options": [
+                "Die Körpertemperatur",
+                "Den Blutzucker",
+                "Die Pupillenreaktion",
+                "Puls und Blutdruck"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Betablocker erhöhen die Herzfrequenz und den Sauerstoffbedarf des Herzens.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung ist bei Betablockern typisch?",
+              "options": [
+                "Tachykardie",
+                "Bradykardie",
+                "Fieber",
+                "Reizhusten"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los Betablocker (betabloqueadores) bajan la frecuencia cardiaca y la presión; así el corazón necesita menos oxígeno y trabaja de forma más económica. Los efectos secundarios típicos son Bradykardie (bradicardia) e hipotensión, por eso mides pulso y presión antes de darlos y avisas al médico si están muy bajos. No se suspenden de golpe."
+        },
+        {
+          "id": "herzinsuffizienz.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen ergreift die Pflege sofort bei einem akuten Lungenödem?",
+              "options": [
+                "Oberkörper hoch lagern, Beine tief",
+                "Patienten flach lagern, Beine hoch",
+                "Arzt bzw. Notfallteam alarmieren",
+                "Viel zu trinken geben",
+                "Beim Patienten bleiben und ihn beruhigen"
+              ],
+              "correct": [
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem akuten Lungenödem wird der Patient flach gelagert und die Beine werden hochgelegt.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Wie wird ein Patient mit akutem Lungenödem gelagert?",
+              "options": [
+                "In flacher Rückenlage",
+                "In Bauchlage",
+                "Sitzend mit erhöhtem Oberkörper und herabhängenden Beinen",
+                "In Schocklage"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El Lungenödem (edema pulmonar) es un Notfall (urgencia). Lo primero es sentar al paciente con las piernas colgando: así regresa menos sangre al corazón y respira mejor. Avisas de inmediato al médico, no dejas solo al paciente, lo tranquilizas, das oxígeno según indicación y controlas los signos vitales. Acostarlo plano o subirle las piernas empeora todo."
+        },
+        {
+          "id": "herzinsuffizienz.therapie.5",
+          "type": "sprech",
+          "q": "Wie wird eine chronische Herzinsuffizienz behandelt, und was beobachten Sie als Pflegefachfrau bei der medikamentösen Therapie?",
+          "answer": "Zuerst wird die Ursache behandelt, zum Beispiel der Bluthochdruck oder die KHK. Die wichtigsten Medikamente sind ACE-Hemmer, Betablocker und Diuretika. Ich kontrolliere regelmäßig Blutdruck, Puls und Gewicht und beobachte die Wirkung, also ob Ödeme und Atemnot zurückgehen. Ich achte auf Nebenwirkungen wie Reizhusten bei ACE-Hemmern, Bradykardie bei Betablockern und Kaliummangel, Austrocknung und Schwindel bei Diuretika. Dazu kommen allgemeine Maßnahmen wie salzarme Kost, eine angepasste Trinkmenge und regelmäßige, angepasste Bewegung.",
+          "points": [
+            "Ursache behandeln",
+            "ACE-Hemmer, Betablocker, Diuretika",
+            "Blutdruck, Puls, Gewicht kontrollieren",
+            "Wirkung beobachten",
+            "Nebenwirkungen beobachten",
+            "Allgemeine Maßnahmen"
+          ],
+          "es": "En la parte médica basta una visión general: tratar la causa y los tres grupos de medicamentos. Lo que más cuenta es tu papel: controlar presión, pulso y peso, y conocer un efecto secundario típico de cada grupo. Termina con las medidas generales como poca sal y líquidos controlados."
+        },
+        {
+          "id": "herzinsuffizienz.therapie.6",
+          "type": "sprech",
+          "q": "Sie kommen ins Zimmer, und Ihr Patient hat plötzlich schwerste Atemnot mit brodelnder Atmung. Was tun Sie?",
+          "answer": "Ich denke an ein akutes Lungenödem, das ist ein Notfall. Ich bleibe beim Patienten, beruhige ihn und alarmiere sofort den Arzt oder das Notfallteam. Ich setze den Patienten auf, mit erhöhtem Oberkörper und herabhängenden Beinen, um das Herz zu entlasten. Ich gebe Sauerstoff nach Anordnung und kontrolliere Blutdruck, Puls, Atmung und Sauerstoffsättigung. Dann bereite ich die angeordneten Medikamente vor, zum Beispiel Diuretika, und dokumentiere alles.",
+          "points": [
+            "Lungenödem als Notfall",
+            "Arzt alarmieren",
+            "Nicht allein lassen, beruhigen",
+            "Oberkörper hoch, Beine tief",
+            "Sauerstoff nach Anordnung",
+            "Vitalzeichen kontrollieren"
+          ],
+          "es": "Es una pregunta de caso típica. Di primero qué sospechas (Lungenödem) y que es una urgencia; luego tus acciones en orden: quedarte con el paciente, pedir ayuda, sentarlo con las piernas colgando, oxígeno según indicación y signos vitales. Los medicamentos los ordena el médico; tú los preparas y documentas."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "herzinsuffizienz.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter einer kardialen Dekompensation?",
+              "options": [
+                "Die Heilung der Herzinsuffizienz",
+                "Eine geplante Pause der Medikamente",
+                "Eine akute Verschlechterung, bei der das Herz die Schwäche nicht mehr ausgleichen kann",
+                "Einen zu langsamen Herzschlag im Schlaf"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine rasche Gewichtszunahme, zunehmende Ödeme und zunehmende Atemnot sind Warnzeichen einer kardialen Dekompensation.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sprechen für eine beginnende kardiale Dekompensation?",
+              "options": [
+                "Rasche Gewichtszunahme",
+                "Zunehmende Atemnot",
+                "Gewichtsabnahme mit trockener Haut",
+                "Zunehmende Beinödeme",
+                "Bessere Belastbarkeit"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "es": "La kardiale Dekompensation (descompensación cardiaca) es el empeoramiento agudo de una insuficiencia crónica: el corazón ya no logra compensar. Las señales de alarma son aumento rápido de peso, más edemas y más disnea. Si las detectas a tiempo y avisas al médico, se puede evitar un edema pulmonar."
+        },
+        {
+          "id": "herzinsuffizienz.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert bei einem Lungenödem?",
+              "options": [
+                "Flüssigkeit tritt aus den Lungengefäßen in das Lungengewebe und die Lungenbläschen über",
+                "Luft gelangt in den Pleuraspalt",
+                "Ein Blutgerinnsel verschließt eine Lungenarterie",
+                "Die Bronchien verkrampfen sich durch eine Allergie"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Das akute Lungenödem ist eine lebensbedrohliche Komplikation der ___.",
+              "options": [
+                "Rechtsherzinsuffizienz",
+                "Venenthrombose",
+                "Leberzirrhose",
+                "Linksherzinsuffizienz"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein Lungenödem ist unangenehm, aber nicht lebensbedrohlich.",
+              "correct": false
+            }
+          ],
+          "es": "En el Lungenödem (edema pulmonar) la presión en los vasos del pulmón sube tanto que el líquido se sale hacia el tejido pulmonar y los alvéolos. Ahí ya no puede haber intercambio de gases y el paciente siente que se ahoga. Es la complicación más temida de la Linksherzinsuffizienz y pone en peligro la vida."
+        },
+        {
+          "id": "herzinsuffizienz.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation kann durch Vorhofflimmern bei Herzinsuffizienz entstehen?",
+              "options": [
+                "Eine Blinddarmentzündung",
+                "Blutgerinnsel im Herzen, die einen Schlaganfall auslösen können",
+                "Ein Magengeschwür",
+                "Eine Unterzuckerung"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Herzrhythmusstörungen sind bei Herzinsuffizienz häufig und können zum plötzlichen Herztod führen.",
+              "correct": true
+            }
+          ],
+          "es": "Un corazón dilatado y debilitado tiende a las Herzrhythmusstörungen (arritmias). Con el Vorhofflimmern (fibrilación auricular) se pueden formar coágulos en la aurícula que viajan al cerebro y causan un Schlaganfall (EVC). Las arritmias graves de los ventrículos pueden causar muerte súbita; por eso tomas en serio un pulso irregular."
+        },
+        {
+          "id": "herzinsuffizienz.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein kardiogener Schock?",
+              "options": [
+                "Ein Schock durch großen Blutverlust",
+                "Ein Schock durch eine schwere Allergie",
+                "Ein Schock durch eine Blutvergiftung",
+                "Ein Kreislaufversagen, weil das Herz zu wenig Blut pumpt"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen passen zu einem kardiogenen Schock?",
+              "options": [
+                "Blutdruckabfall",
+                "Warme, rosige, trockene Haut",
+                "Kalter Schweiß und blasse Haut",
+                "Bewusstseinstrübung",
+                "Langsamer, kräftiger Puls"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Beim kardiogenen Schock ist der Blutdruck stark erhöht.",
+              "correct": false
+            }
+          ],
+          "es": "El kardiogener Schock (choque cardiogénico) es la forma más grave: el corazón bombea tan poco que la circulación colapsa. Lo reconoces por presión baja, pulso rápido y débil, piel pálida con sudor frío y alteración de la conciencia. Es una urgencia vital que se trata en terapia intensiva."
+        },
+        {
+          "id": "herzinsuffizienz.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten mit Herzinsuffizienz ein erhöhtes Thromboserisiko?",
+              "options": [
+                "Weil das Blut langsamer fließt und sie sich wenig bewegen",
+                "Weil sie zu viel Vitamin K essen",
+                "Weil ihr Blutdruck zu hoch ist",
+                "Weil Diuretika die Venen erweitern"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei Herzinsuffizienz fließt das Blut in den Venen schneller, deshalb sind Thrombosen selten.",
+              "correct": false
+            }
+          ],
+          "es": "En la insuficiencia cardiaca la sangre fluye más lento en las venas y el paciente se mueve poco por la disnea y el cansancio. Además, los diuréticos pueden espesar la sangre. Todo eso favorece la Thrombose (trombosis) y, como consecuencia, una Lungenembolie (embolia pulmonar)."
+        },
+        {
+          "id": "herzinsuffizienz.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einer Herzinsuffizienz auftreten, und woran erkennen Sie eine Verschlechterung?",
+          "answer": "Die wichtigste Komplikation ist die kardiale Dekompensation, also eine akute Verschlechterung der Herzinsuffizienz. Ich erkenne sie an einer raschen Gewichtszunahme, zunehmenden Ödemen und zunehmender Atemnot. Daraus kann ein akutes Lungenödem entstehen, das lebensbedrohlich ist. Weitere Komplikationen sind Herzrhythmusstörungen bis zum plötzlichen Herztod, der kardiogene Schock sowie Thrombosen und Embolien. Bei solchen Zeichen informiere ich sofort den Arzt.",
+          "points": [
+            "Kardiale Dekompensation",
+            "Gewichtszunahme, Ödeme, Atemnot",
+            "Lungenödem",
+            "Herzrhythmusstörungen",
+            "Kardiogener Schock",
+            "Thrombose, Embolie"
+          ],
+          "es": "Nombra primero la Dekompensation y cómo la reconoces, porque eso es lo que tú observas todos los días: peso, edemas y respiración. Después menciona las complicaciones graves: edema pulmonar, arritmias, choque cardiogénico y trombosis. Cierra diciendo que avisas de inmediato al médico."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit Herzinsuffizienz?",
+          "answer": "Ich beobachte die Atmung, also Atemfrequenz, Atemnot, Atemgeräusche, Husten und Auswurf. Ich kontrolliere regelmäßig Blutdruck, Puls mit Rhythmus und die Sauerstoffsättigung. Ich wiege den Patienten täglich, führe eine Flüssigkeitsbilanz und beobachte die Ödeme und die Urinausscheidung. Außerdem achte ich auf die Haut, zum Beispiel auf Zyanose und Hautschäden, auf die Belastbarkeit und auf das Bewusstsein. Veränderungen dokumentiere ich und gebe sie sofort an den Arzt weiter.",
+          "points": [
+            "Atmung",
+            "Blutdruck, Puls, Sauerstoffsättigung",
+            "Tägliche Gewichtskontrolle",
+            "Flüssigkeitsbilanz, Ausscheidung",
+            "Ödeme, Haut",
+            "Dokumentieren, Arzt informieren"
+          ],
+          "es": "La Krankenbeobachtung (observación del paciente) es tu tarea más importante en esta enfermedad, porque tú notas primero una descompensación. Ordena tu respuesta: respiración, signos vitales, peso y balance, edemas y piel, estado general. Termina siempre con documentar y avisar al médico."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird das tägliche Wiegen bei Herzinsuffizienz richtig durchgeführt?",
+              "options": [
+                "Abends nach dem Essen, jeden Tag auf einer anderen Waage",
+                "Morgens nüchtern nach dem Toilettengang, immer mit derselben Waage und ähnlicher Kleidung",
+                "Einmal pro Woche zu einer beliebigen Uhrzeit",
+                "Nur dann, wenn der Patient Atemnot hat"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Gewichtszunahme von mehr als 2 kg in drei Tagen spricht für eine Wassereinlagerung und muss dem Arzt gemeldet werden.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Eine rasche Gewichtszunahme bei Herzinsuffizienz entsteht meistens durch eingelagertes ___.",
+              "options": [
+                "Fett",
+                "Muskelgewebe",
+                "Wasser",
+                "Eiweiß"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El peso diario es la forma más sencilla de detectar retención de agua, incluso antes de que se vean los edemas. Para poder comparar, se pesa siempre igual: en la mañana, en ayunas, después de ir al baño, con la misma báscula y ropa parecida. Un aumento rápido (por ejemplo más de 2 kg en tres días) no es grasa, es agua, y se avisa al médico."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie lagern und mobilisieren Sie einen Patienten mit Herzinsuffizienz?",
+          "answer": "Bei Atemnot lagere ich den Patienten mit erhöhtem Oberkörper, am besten in der Herzbettlage mit erhöhtem Oberkörper und tief gelagerten Beinen. So fließt weniger Blut zum Herzen zurück, das Herz wird entlastet und die Atmung wird leichter. Die Mobilisation passe ich an die Belastbarkeit an: in kleinen Schritten, mit Pausen und ohne Überforderung. Vor, während und nach der Belastung kontrolliere ich Puls, Blutdruck und Atmung und breche bei Atemnot, Schwindel oder Brustschmerzen ab. Eine strenge Bettruhe gibt es nur bei akuter Dekompensation nach Anordnung.",
+          "points": [
+            "Oberkörperhochlagerung, Herzbettlage",
+            "Herz entlasten, Atmung erleichtern",
+            "Angepasste Mobilisation mit Pausen",
+            "Vitalzeichen bei Belastung",
+            "Abbruch bei Beschwerden"
+          ],
+          "es": "Dos ideas: posición y movilización. La Herzbettlage (posición cardiaca: tronco elevado y piernas bajas) descarga el corazón y facilita la respiración. La movilización es angepasst (adaptada): poco a poco, con pausas, controlando pulso, presión y respiración, y se interrumpe si hay disnea, mareo o dolor en el pecho."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird ein Patient in der Herzbettlage gelagert?",
+              "options": [
+                "Flach auf dem Rücken mit erhöhten Beinen",
+                "In Bauchlage",
+                "In Seitenlage mit flachem Oberkörper",
+                "Mit erhöhtem Oberkörper und tief gelagerten Beinen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "In der Herzbettlage werden die Beine hoch und der Oberkörper flach gelagert.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum entlastet die Herzbettlage das Herz?",
+              "options": [
+                "Weil weniger venöses Blut zum Herzen zurückfließt",
+                "Weil der Blutdruck in den Beinen sinkt und die Arterien sich verschließen",
+                "Weil das Herz in dieser Lage langsamer schlägt und stehen bleibt",
+                "Weil die Nieren weniger Urin bilden"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "En la Herzbettlage el tronco está elevado y las piernas quedan abajo, casi como sentado en un sillón. Así se queda más sangre en las piernas, regresa menos sangre al corazón y este tiene menos trabajo; además el diafragma baja y el paciente respira mejor. Subir las piernas haría lo contrario: mandaría más sangre a un corazón que ya no puede."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung und der Flüssigkeitszufuhr eines Patienten mit Herzinsuffizienz?",
+          "answer": "Die Trinkmenge wird vom Arzt festgelegt und ist oft beschränkt, häufig auf etwa 1,5 bis 2 Liter am Tag. Ich verteile die Trinkmenge über den Tag, führe eine Flüssigkeitsbilanz und wiege den Patienten täglich. Die Kost soll salzarm sein, weil Salz Wasser im Körper bindet. Ich biete mehrere kleine, leicht verdauliche Mahlzeiten an, weil große Mahlzeiten das Herz belasten und viele Patienten Appetitlosigkeit und Völlegefühl haben. Bei Durst helfen Mundpflege, Eiswürfel oder Zitronenstücke, und Alkohol sollte der Patient meiden.",
+          "points": [
+            "Trinkmenge nach Arztanordnung",
+            "Flüssigkeitsbilanz, tägliches Wiegen",
+            "Salzarme Kost",
+            "Kleine, leichte Mahlzeiten",
+            "Mundpflege bei Durst",
+            "Alkohol meiden"
+          ],
+          "es": "Los puntos clave son líquidos y sal. La Trinkmengenbeschränkung (restricción de líquidos) la indica el médico; tú la repartes durante el día y llevas el balance. La comida es salzarm (baja en sal) porque la sal retiene agua, y en porciones pequeñas porque el estómago está congestionado. Para la sed ayudan el cuidado de la boca y cubitos de hielo."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "ernaehrung",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Flüssigkeitsbilanz?",
+              "options": [
+                "Die Messung des Körpergewichts einmal pro Woche",
+                "Die Gegenüberstellung von Einfuhr und Ausfuhr über 24 Stunden",
+                "Die Messung des Blutdrucks im Liegen und im Stehen",
+                "Die Zählung der Mahlzeiten pro Tag"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer negativen Flüssigkeitsbilanz scheidet der Patient mehr aus, als er aufnimmt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Bei einer positiven Flüssigkeitsbilanz ist die Einfuhr ___ als die Ausfuhr.",
+              "options": [
+                "kleiner",
+                "genauso groß",
+                "größer",
+                "salziger"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Flüssigkeitsbilanz (balance de líquidos) compara en 24 horas la Einfuhr (ingresos: bebidas, infusiones, sopa) con la Ausfuhr (egresos: sobre todo orina). Balance positivo significa que el paciente retiene agua; balance negativo, que elimina más de lo que toma. Cuando se quieren quitar edemas con diuréticos, se busca un balance negativo."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Was beachten Sie bei der Körperpflege eines Patienten mit Herzinsuffizienz und Ödemen?",
+          "answer": "Ich passe die Körperpflege an die Belastbarkeit an: Der Patient macht selbst, was er kann, und ich übernehme den Rest, damit er sich nicht überanstrengt. Die Pflege findet mit erhöhtem Oberkörper oder im Sitzen statt, mit Pausen, und ich beobachte dabei Atmung und Puls. Die Haut über den Ödemen ist dünn, gespannt und verletzlich, deshalb wasche ich sie vorsichtig, tupfe sie trocken und pflege sie mit einer geeigneten Hautlotion. Hautfalten halte ich trocken, und ich inspiziere die Haut täglich auf Rötungen, Risse und Druckstellen.",
+          "points": [
+            "An Belastbarkeit anpassen",
+            "Im Sitzen, mit Pausen",
+            "Atmung und Puls beobachten",
+            "Ödemhaut vorsichtig pflegen",
+            "Hautfalten trocken halten",
+            "Tägliche Hautinspektion"
+          ],
+          "es": "Piensa en dos cosas: la poca tolerancia al esfuerzo y la piel con edemas. El aseo se hace sentado o con el tronco elevado, con pausas, y tú ayudas lo necesario sin quitarle su autonomía. La piel sobre los edemas es delgada y frágil: se lava con cuidado, se seca a toquecitos, se hidrata y se revisa todos los días."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Kleidung und beim An- und Auskleiden eines Patienten mit Herzinsuffizienz?",
+          "answer": "Die Kleidung soll bequem und weit sein und darf nicht einschnüren, zum Beispiel keine engen Bündchen an Socken und keine engen Gürtel. Wegen der Ödeme braucht der Patient weite, feste Schuhe, die guten Halt geben. Beim An- und Auskleiden unterstütze ich so viel wie nötig, am besten im Sitzen und mit Pausen, weil Bücken und Anstrengung Atemnot auslösen. Kompressionsstrümpfe ziehe ich nur nach ärztlicher Anordnung an, denn bei dekompensierter Herzinsuffizienz sind sie kontraindiziert.",
+          "points": [
+            "Weite, nicht einschnürende Kleidung",
+            "Weite, feste Schuhe",
+            "Im Sitzen, mit Pausen",
+            "Unterstützung nach Bedarf",
+            "Kompression nur nach Anordnung"
+          ],
+          "es": "La ropa no debe apretar: nada de resortes ajustados en calcetines ni cinturones, porque marcan la piel con edema y estorban la circulación. Los zapatos deben ser amplios y firmes para evitar caídas. Vestirse cansa, por eso se hace sentado y con pausas. Las Kompressionsstrümpfe (medias de compresión) solo se ponen con indicación médica."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wozu beraten Sie einen Patienten mit chronischer Herzinsuffizienz vor der Entlassung?",
+          "answer": "Ich leite den Patienten an, sich täglich morgens zu wiegen und das Gewicht in ein Tagebuch einzutragen. Ich erkläre die Warnzeichen: rasche Gewichtszunahme, zunehmende Ödeme, zunehmende Atemnot oder Atemnot im Liegen, dann soll er sofort den Arzt kontaktieren. Er soll seine Medikamente regelmäßig einnehmen und nicht selbst absetzen. Außerdem berate ich zu salzarmer Ernährung, zur vereinbarten Trinkmenge, zu Verzicht auf Rauchen und Alkohol und zu regelmäßiger, angepasster Bewegung, zum Beispiel in einer Herzsportgruppe. Wenn möglich beziehe ich die Angehörigen mit ein.",
+          "points": [
+            "Tägliches Wiegen, Gewichtstagebuch",
+            "Warnzeichen kennen",
+            "Medikamente regelmäßig einnehmen",
+            "Salzarme Kost, Trinkmenge",
+            "Angepasste Bewegung",
+            "Angehörige einbeziehen"
+          ],
+          "es": "La Beratung (asesoría) busca que el paciente reconozca solo una descompensación. Lo central es el peso diario con un diario de peso y las Warnzeichen (señales de alarma): subir rápido de peso, más edemas, más disnea. Completa con medicamentos, alimentación, líquidos, movimiento adaptado e incluir a la familia."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit Herzinsuffizienz besonders wichtig? Begründen Sie.",
+          "answer": "Wichtig ist die Dekubitusprophylaxe, weil die Haut durch Ödeme und schlechte Durchblutung gefährdet ist und der Patient in der Herzbettlage viel Druck auf Kreuzbein und Fersen hat. Die Thromboseprophylaxe ist nötig, weil das Blut langsamer fließt und der Patient wenig mobil ist. Die Pneumonieprophylaxe ist wichtig wegen der Lungenstauung und der flachen Atmung. Dazu kommen die Obstipationsprophylaxe wegen Trinkmengenbeschränkung und Bewegungsmangel und die Sturzprophylaxe wegen Schwäche, Schwindel und nächtlichem Wasserlassen. Bei Ödemen und feuchten Hautfalten gehört auch die Intertrigoprophylaxe dazu.",
+          "points": [
+            "Dekubitusprophylaxe",
+            "Thromboseprophylaxe",
+            "Pneumonieprophylaxe",
+            "Obstipationsprophylaxe",
+            "Sturzprophylaxe",
+            "Intertrigoprophylaxe"
+          ],
+          "es": "En el examen no basta con nombrar las profilaxis; hay que justificar cada una con la enfermedad. Dekubitus (úlceras por presión) por los edemas y la presión en el sacro, Thrombose por el flujo lento, Pneumonie (neumonía) por la congestión pulmonar, Obstipation (estreñimiento) por pocos líquidos, Sturz (caídas) por mareo y nicturia, e Intertrigo por la piel húmeda en los pliegues."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was gilt für Kompressionsstrümpfe und Kompressionsverbände bei Herzinsuffizienz?",
+              "options": [
+                "Sie werden bei jedem Patienten mit Beinödemen sofort angelegt",
+                "Sie dürfen nur nach ärztlicher Anordnung angelegt werden und sind bei dekompensierter Herzinsuffizienz kontraindiziert",
+                "Sie werden nur nachts getragen",
+                "Sie ersetzen die Diuretika"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei dekompensierter Herzinsuffizienz legt die Pflegefachfrau zur Thromboseprophylaxe selbstständig Kompressionsverbände an.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum ist Kompression bei dekompensierter Herzinsuffizienz gefährlich?",
+              "options": [
+                "Weil sie die Haut austrocknet",
+                "Weil sie den Blutzucker erhöht",
+                "Weil die Beine dadurch auskühlen",
+                "Weil Flüssigkeit aus den Beinen zum Herzen verschoben wird und das Herz zusätzlich belastet"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "La compresión empuja el líquido de las piernas hacia la circulación central. Un corazón descompensado no puede con ese volumen extra y puede aparecer un edema pulmonar. Por eso la compresión es solo nach ärztlicher Anordnung (por indicación médica); para la Thromboseprophylaxe usas mientras tanto la movilización adaptada y ejercicios de pies."
+        },
+        {
+          "id": "herzinsuffizienz.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie unterstützen Sie die Atmung eines Patienten mit Herzinsuffizienz und beugen einer Pneumonie vor?",
+          "answer": "Ich lagere den Patienten mit erhöhtem Oberkörper und zeige ihm atemerleichternde Positionen, zum Beispiel den Kutschersitz. Ich leite ihn zu ruhiger, tiefer Atmung und zu Atemübungen an und mobilisiere ihn so früh wie möglich im Rahmen seiner Belastbarkeit. Ich sorge für frische Luft, gebe Sauerstoff nach ärztlicher Anordnung und achte auf eine gute Mundpflege. Dabei beobachte ich Atemfrequenz, Atemgeräusche, Sauerstoffsättigung, Husten und Auswurf sowie die Körpertemperatur.",
+          "points": [
+            "Oberkörperhochlagerung",
+            "Atemerleichternde Positionen",
+            "Atemübungen",
+            "Mobilisation nach Belastbarkeit",
+            "Sauerstoff nach Anordnung",
+            "Atmung beobachten"
+          ],
+          "es": "Por la congestión pulmonar y la respiración superficial, estos pacientes tienen riesgo alto de Pneumonie. La Pneumonieprophylaxe aquí consiste en posición con tronco elevado, posturas que facilitan la respiración como el Kutschersitz (posición de cochero), ejercicios respiratorios, movilización temprana y buena higiene bucal. El oxígeno siempre es por indicación médica."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "herzinsuffizienz.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Herzinsuffizienz zum Thema Atmung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat Atemnot bei Belastung und im Liegen, weil sich das Blut in die Lunge zurückstaut. Ziel: Der Patient gibt innerhalb von drei Tagen an, in Ruhe ohne Atemnot zu sein, und seine Atemfrequenz liegt in Ruhe unter 20 pro Minute. Maßnahmen: Ich lagere den Patienten mit erhöhtem Oberkörper oder in der Herzbettlage und kontrolliere mehrmals täglich Atmung, Sauerstoffsättigung, Puls und Blutdruck. Ich gebe Sauerstoff und Medikamente nach ärztlicher Anordnung, leite atemerleichternde Positionen an und plane Pausen bei allen Aktivitäten ein.",
+          "points": [
+            "Problem: Atemnot durch Lungenstauung",
+            "Ziel: in Ruhe ohne Atemnot",
+            "Oberkörperhochlagerung, Herzbettlage",
+            "Atmung und Vitalzeichen kontrollieren",
+            "Sauerstoff nach Anordnung",
+            "Pausen einplanen"
+          ],
+          "es": "La estructura siempre es Problem – Ziel – Maßnahmen (problema, meta, medidas). El problema lleva su causa (disnea por congestión pulmonar). La meta es medible y con plazo: sin disnea en reposo en tres días, frecuencia respiratoria menor de 20. Las medidas son concretas: posición, control de la respiración, oxígeno indicado y pausas."
+        },
+        {
+          "id": "herzinsuffizienz.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Herzinsuffizienz zum Thema Flüssigkeitshaushalt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat Ödeme an beiden Beinen, weil das Herz zu schwach pumpt und Wasser im Körper zurückbleibt, und seine Haut ist dadurch verletzungsgefährdet. Ziel: Innerhalb einer Woche sind die Ödeme sichtbar zurückgegangen, das Körpergewicht hat sich dem vom Arzt festgelegten Zielgewicht angenähert, und die Haut ist intakt. Maßnahmen: Ich wiege den Patienten täglich morgens unter gleichen Bedingungen und führe eine Flüssigkeitsbilanz. Ich achte auf die angeordnete Trinkmenge und salzarme Kost, gebe die Diuretika nach Anordnung und beobachte ihre Wirkung und Nebenwirkungen. Ich inspiziere und pflege die Haut täglich sorgfältig.",
+          "points": [
+            "Problem: Ödeme, Hautgefährdung",
+            "Ziel: Ödeme rückläufig, Haut intakt",
+            "Tägliches Wiegen",
+            "Flüssigkeitsbilanz, Trinkmenge",
+            "Diuretika nach Anordnung",
+            "Hautinspektion und Hautpflege"
+          ],
+          "es": "Aquí el problema son los edemas por retención de agua y el riesgo para la piel. La meta se mide con el peso y con la piel intacta en una semana; el peso meta lo fija el médico. Las medidas son las clásicas: peso diario, balance, líquidos y sal controlados, diuréticos indicados con observación de efectos, y cuidado de la piel."
+        },
+        {
+          "id": "herzinsuffizienz.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Herzinsuffizienz zum Thema Bewegung und Selbstversorgung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist wegen der verminderten Herzleistung schnell erschöpft und kann die Körperpflege und das Gehen nicht selbstständig durchführen. Ziel: Der Patient führt innerhalb einer Woche die Körperpflege am Waschbecken im Sitzen mit Pausen selbstständig durch, ohne Atemnot zu bekommen. Maßnahmen: Ich mobilisiere den Patienten täglich schrittweise und angepasst an seine Belastbarkeit und plane Ruhepausen ein. Ich kontrolliere Puls, Blutdruck und Atmung vor und nach der Belastung und breche bei Atemnot oder Schwindel ab. Ich übernehme nur die Tätigkeiten, die er nicht schafft, und fördere seine Selbstständigkeit.",
+          "points": [
+            "Problem: eingeschränkte Belastbarkeit",
+            "Ziel: Körperpflege selbstständig mit Pausen",
+            "Schrittweise Mobilisation",
+            "Ruhepausen einplanen",
+            "Vitalzeichen bei Belastung",
+            "Selbstständigkeit fördern"
+          ],
+          "es": "El tercer problema típico es la poca Belastbarkeit (tolerancia al esfuerzo), que limita el autocuidado. La meta describe algo concreto y observable: asearse solo en el lavabo, sentado y con pausas, sin disnea, en una semana. Las medidas: movilización gradual, pausas, signos vitales antes y después, y ayudar solo en lo necesario para fomentar la autonomía."
+        },
+        {
+          "id": "herzinsuffizienz.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART, und wie formulieren Sie ein Pflegeziel für einen Patienten mit Herzinsuffizienz?",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel beschreibt also einen konkreten Zustand des Patienten, den man überprüfen kann, den der Patient mitträgt, der erreichbar ist und der einen Zeitpunkt hat. Ein Beispiel bei Herzinsuffizienz ist: Der Patient wiegt sich bis zur Entlassung täglich selbstständig und nennt drei Warnzeichen einer Verschlechterung. Ein Ziel wie „Der Patient fühlt sich besser“ ist dagegen nicht SMART, weil man es nicht messen kann.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert",
+            "Realistisch",
+            "Terminiert",
+            "Beispiel bei Herzinsuffizienz"
+          ],
+          "es": "SMART son las cinco características de una buena meta de enfermería: spezifisch (específica), messbar (medible), akzeptiert (aceptada por el paciente), realistisch (realista) y terminiert (con fecha). Explica cada letra y da un ejemplo de esta enfermedad, como pesarse solo todos los días y nombrar tres señales de alarma antes del alta. Compararlo con una meta vaga muestra que lo entendiste."
+        }
+      ]
+    }
+  ]
+}

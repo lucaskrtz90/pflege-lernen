@@ -1,0 +1,1487 @@
+{
+  "id": "asthma-bronchiale",
+  "name": "Asthma bronchiale",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "asthma-bronchiale.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist Asthma bronchiale?",
+              "options": [
+                "Eine akute bakterielle Entzündung des Lungengewebes",
+                "Eine dauerhafte, nicht rückbildungsfähige Zerstörung der Lungenbläschen",
+                "Eine chronisch-entzündliche Erkrankung der Atemwege mit Überempfindlichkeit der Bronchien und anfallsartiger, reversibler Verengung",
+                "Ein Verschluss einer Lungenarterie durch ein Blutgerinnsel"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Beim Asthma bronchiale reagieren die Bronchien überempfindlich auf Reize. Das nennt man bronchiale ___.",
+              "options": ["Hyperreagibilität", "Hypertonie", "Hypoxie", "Hyperglykämie"],
+              "correct": 0
+            }
+          ],
+          "es": "El Asthma bronchiale (asma bronquial) es una enfermedad inflamatoria crónica de las vías respiratorias. Los bronquios están hipersensibles (bronchiale Hyperreagibilität, hiperreactividad bronquial) y por eso se estrechan en forma de crisis. Estas tres ideas —inflamación crónica, hiperreactividad y obstrucción reversible— son la base de la definición."
+        },
+        {
+          "id": "asthma-bronchiale.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist typisch für die Atemwegsverengung (Obstruktion) beim Asthma bronchiale?",
+              "options": [
+                "Sie ist ganz oder teilweise reversibel, spontan oder durch Medikamente",
+                "Sie ist immer dauerhaft und bildet sich nie zurück",
+                "Sie betrifft nur die Luftröhre",
+                "Sie tritt nur bei der Einatmung auf"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Verengung der Bronchien beim Asthma bronchiale bildet sich nicht mehr zurück, genau wie bei der COPD.",
+              "correct": false
+            }
+          ],
+          "es": "La obstrucción en el asma es variable y reversible: se quita sola o con medicamentos, y entre las crisis la persona puede estar sin síntomas. Esa es la gran diferencia con la COPD (EPOC), donde la obstrucción casi no se revierte. En el examen conviene decir siempre la palabra «reversibel»."
+        },
+        {
+          "id": "asthma-bronchiale.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Asthmaform der Beschreibung zu.",
+              "pairs": [
+                ["Allergisches (extrinsisches) Asthma", "Ausgelöst durch Allergene wie Pollen oder Hausstaubmilben"],
+                ["Nicht-allergisches (intrinsisches) Asthma", "Ausgelöst z. B. durch Infekte, kalte Luft oder Anstrengung"],
+                ["Mischform", "Allergische und nicht-allergische Auslöser kommen zusammen vor"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche zwei Hauptformen des Asthma bronchiale unterscheidet man?",
+              "options": [
+                "Akutes und chronisches Asthma",
+                "Rechtsseitiges und linksseitiges Asthma",
+                "Bakterielles und virales Asthma",
+                "Allergisches und nicht-allergisches Asthma"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Se distinguen dos formas: allergisches Asthma (asma alérgica o extrínseca), que se desencadena por alérgenos, y nicht-allergisches Asthma (asma no alérgica o intrínseca), que se desencadena por infecciones, aire frío, esfuerzo, etc. Muchas personas adultas tienen una Mischform (forma mixta)."
+        },
+        {
+          "id": "asthma-bronchiale.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Status asthmaticus?",
+              "options": [
+                "Ein leichter Husten nach körperlicher Anstrengung",
+                "Ein schwerer Asthmaanfall, der trotz Behandlung anhält und lebensbedrohlich ist",
+                "Die symptomfreie Zeit zwischen zwei Anfällen",
+                "Eine allergische Hautreaktion bei Asthmatikern"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein Status asthmaticus ist harmlos und kann zu Hause abgewartet werden.",
+              "correct": false
+            }
+          ],
+          "es": "El Status asthmaticus es una crisis de asma grave que no cede a pesar del tratamiento habitual y se prolonga. Es un Notfall (urgencia) que pone en peligro la vida, porque la persona puede agotarse y dejar de respirar bien. Siempre requiere médico de urgencias y hospital."
+        },
+        {
+          "id": "asthma-bronchiale.definition.5",
+          "type": "sprech",
+          "q": "Was ist Asthma bronchiale? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege. Die Bronchien sind überempfindlich, das nennt man bronchiale Hyperreagibilität. Auf bestimmte Reize verengen sie sich anfallsartig, und es kommt zu Atemnot, Husten und pfeifender Ausatmung. Diese Verengung ist reversibel, sie bildet sich also spontan oder durch Medikamente zurück. Man unterscheidet das allergische und das nicht-allergische Asthma.",
+          "points": [
+            "Chronische Entzündung der Atemwege",
+            "Bronchiale Hyperreagibilität",
+            "Anfallsartige Atemnot",
+            "Reversible Obstruktion",
+            "Allergisch und nicht-allergisch"
+          ],
+          "es": "Para definir el asma en el examen oral usa siempre estos elementos: enfermedad inflamatoria crónica, bronquios hiperreactivos, estrechamiento en crisis y reversibilidad. Termina mencionando las dos formas (alérgica y no alérgica). Con eso das una definición completa y ordenada."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "asthma-bronchiale.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welcher Reihenfolge strömt die Luft bei der Einatmung durch die unteren Atemwege?",
+              "options": [
+                "Bronchien – Luftröhre – Alveolen – Bronchiolen",
+                "Luftröhre – Bronchien – Bronchiolen – Alveolen",
+                "Alveolen – Bronchiolen – Bronchien – Luftröhre",
+                "Luftröhre – Alveolen – Bronchien – Bronchiolen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Die Luftröhre (Trachea) teilt sich in die zwei ___, die sich in der Lunge immer weiter verzweigen.",
+              "options": ["Lungenvenen", "Alveolen", "Hauptbronchien", "Stimmbänder"],
+              "correct": 2
+            }
+          ],
+          "es": "El aire pasa por la Luftröhre (tráquea), que se divide en dos Hauptbronchien (bronquios principales). Estos se ramifican como un árbol en bronquios cada vez más pequeños, luego en Bronchiolen (bronquiolos) y terminan en los Alveolen (alvéolos). El asma afecta justamente a los bronquios y bronquiolos."
+        },
+        {
+          "id": "asthma-bronchiale.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Struktur in der Wand der Bronchien zieht sich beim Asthmaanfall krampfartig zusammen?",
+              "options": [
+                "Die Knorpelspangen",
+                "Das Lungenfell",
+                "Das Zwerchfell",
+                "Die glatte Bronchialmuskulatur"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "In der Wand der Bronchien liegt glatte Muskulatur, die die Weite der Bronchien verändern kann.",
+              "correct": true
+            }
+          ],
+          "es": "La pared de los bronquios tiene una capa de glatte Muskulatur (músculo liso), llamada Bronchialmuskulatur. Cuando se contrae, el bronquio se hace más estrecho; cuando se relaja, se abre. En la crisis de asma este músculo se contrae como un calambre: eso es el Bronchospasmus (broncoespasmo)."
+        },
+        {
+          "id": "asthma-bronchiale.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Struktur der Bronchialwand ihrer Aufgabe zu.",
+              "pairs": [
+                ["Flimmerepithel", "Transportiert Schleim und Fremdkörper in Richtung Rachen"],
+                ["Becherzellen und Schleimdrüsen", "Bilden den Bronchialschleim"],
+                ["Glatte Muskulatur", "Verengt oder erweitert die Bronchien"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben die Flimmerhärchen (Zilien) der Bronchialschleimhaut?",
+              "options": [
+                "Sie transportieren Schleim mit Staub und Keimen in Richtung Rachen",
+                "Sie tauschen Sauerstoff und Kohlendioxid aus",
+                "Sie bilden den Bronchialschleim",
+                "Sie erzeugen die Stimme"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Por dentro, los bronquios están cubiertos por una Schleimhaut (mucosa) con Flimmerepithel (epitelio ciliado) y Becherzellen (células caliciformes). Las células caliciformes producen moco y los cilios lo mueven hacia la garganta: es el sistema de autolimpieza de los bronquios. En el asma esta mucosa está inflamada y produce moco espeso."
+        },
+        {
+          "id": "asthma-bronchiale.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Der Gasaustausch zwischen Luft und Blut findet in den ___ statt.",
+              "options": ["Bronchien", "Alveolen", "Bronchiolen", "Nasennebenhöhlen"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Gasaustausch findet in den Bronchien statt.",
+              "correct": false
+            }
+          ],
+          "es": "Los bronquios solo conducen el aire; el Gasaustausch (intercambio de gases) ocurre en los Alveolen (alvéolos), donde el oxígeno pasa a la sangre y el CO2 sale. Si los bronquios están estrechos, llega menos aire fresco a los alvéolos y el aire usado no puede salir bien."
+        },
+        {
+          "id": "asthma-bronchiale.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wirkt der Sympathikus über die Beta-2-Rezeptoren auf die Bronchien?",
+              "options": [
+                "Er verengt die Bronchien",
+                "Er hat keinen Einfluss auf die Bronchien",
+                "Er erweitert die Bronchien",
+                "Er steigert die Schleimbildung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Parasympathikus erweitert die Bronchien.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Teil des vegetativen Nervensystems seiner Wirkung auf die Bronchien zu.",
+              "pairs": [
+                ["Sympathikus", "Erweitert die Bronchien (Bronchodilatation)"],
+                ["Parasympathikus", "Verengt die Bronchien (Bronchokonstriktion)"],
+                ["Beta-2-Rezeptoren", "Angriffspunkt der bronchienerweiternden Sprays"]
+              ]
+            }
+          ],
+          "es": "El sistema nervioso vegetativo regula el ancho de los bronquios: el Sympathikus (simpático) los dilata a través de los receptores beta-2 y el Parasympathikus (parasimpático) los estrecha. Por eso los Beta-2-Sympathomimetika (broncodilatadores beta-2) abren los bronquios, y los betabloqueadores pueden cerrarlos."
+        },
+        {
+          "id": "asthma-bronchiale.anatomie.6",
+          "type": "sprech",
+          "q": "Beschreiben Sie kurz den Aufbau der unteren Atemwege und erklären Sie, welche Strukturen beim Asthma bronchiale betroffen sind.",
+          "answer": "Die Luftröhre teilt sich in zwei Hauptbronchien, die sich in der Lunge wie ein Baum immer weiter in kleinere Bronchien und Bronchiolen verzweigen. Am Ende liegen die Alveolen, dort findet der Gasaustausch statt. Die Wand der Bronchien besteht aus Schleimhaut mit Flimmerepithel und schleimbildenden Zellen und aus glatter Muskulatur. Beim Asthma sind die Bronchien und Bronchiolen betroffen: Die Schleimhaut ist entzündet und die Bronchialmuskulatur verkrampft sich.",
+          "points": [
+            "Luftröhre und Hauptbronchien",
+            "Bronchien und Bronchiolen",
+            "Alveolen: Gasaustausch",
+            "Schleimhaut mit Flimmerepithel",
+            "Glatte Bronchialmuskulatur"
+          ],
+          "es": "Describe el camino de arriba hacia abajo: tráquea, bronquios principales, bronquios, bronquiolos y alvéolos. Luego explica la pared del bronquio (mucosa y músculo liso), porque ahí pasa todo en el asma: la mucosa se inflama y el músculo se contrae. Los alvéolos no están dañados, a diferencia del enfisema."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "asthma-bronchiale.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Mechanismen verengen beim Asthmaanfall die Bronchien?",
+              "options": [
+                "Krampf der Bronchialmuskulatur (Bronchospasmus)",
+                "Zerstörung der Alveolen",
+                "Schwellung der Bronchialschleimhaut (Schleimhautödem)",
+                "Bildung von zähem Schleim (Dyskrinie)",
+                "Flüssigkeit im Pleuraspalt"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Dyskrinie beim Asthma bronchiale?",
+              "options": [
+                "Krampf der Bronchialmuskulatur",
+                "Bildung von zähem, glasigem Schleim",
+                "Schwellung der Schleimhaut",
+                "Erweiterung der Bronchien"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                ["Bronchospasmus", "Krampf der Bronchialmuskulatur"],
+                ["Schleimhautödem", "Schwellung der Bronchialschleimhaut"],
+                ["Dyskrinie", "Bildung von zähem Schleim"]
+              ]
+            }
+          ],
+          "es": "Tres mecanismos estrechan los bronquios en la crisis: Bronchospasmus (espasmo del músculo bronquial), Schleimhautödem (edema o hinchazón de la mucosa) y Dyskrinie (producción de moco espeso y pegajoso). Esta tríada es una pregunta clásica de examen; apréndetela de memoria."
+        },
+        {
+          "id": "asthma-bronchiale.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Grundlage der Überempfindlichkeit der Bronchien beim Asthma bronchiale?",
+              "options": [
+                "Eine chronische Entzündung der Bronchialschleimhaut",
+                "Eine Verkalkung der Lungenarterien",
+                "Ein Mangel an roten Blutkörperchen",
+                "Eine Schwäche des Herzmuskels"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Beim Asthma bronchiale ist die Bronchialschleimhaut nur während des Anfalls entzündet, zwischen den Anfällen ist sie völlig gesund.",
+              "correct": false
+            }
+          ],
+          "es": "La mucosa bronquial está inflamada de forma crónica, también cuando la persona no tiene síntomas. Esa inflamación permanente hace que los bronquios reaccionen de manera exagerada a los estímulos. Por eso el tratamiento de base es antiinflamatorio y se toma todos los días, no solo en la crisis."
+        },
+        {
+          "id": "asthma-bronchiale.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei sind typische Auslöser des allergischen Asthmas?",
+              "options": [
+                "Pollen",
+                "Hausstaubmilben",
+                "Vitamin C",
+                "Tierhaare",
+                "Mineralwasser"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Antikörper spielen beim allergischen Asthma die entscheidende Rolle?",
+              "options": [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgE"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Beim allergischen Asthma handelt es sich um eine allergische Reaktion vom Soforttyp (Typ I).",
+              "correct": true
+            }
+          ],
+          "es": "En el asma alérgica el cuerpo forma anticuerpos IgE contra sustancias inofensivas (Allergene, alérgenos) como Pollen (polen), Hausstaubmilben (ácaros del polvo), Tierhaare (pelo de animales) o Schimmelpilze (moho). Es una reacción alérgica inmediata, de tipo I: al contacto con el alérgeno se libera histamina y los bronquios se cierran."
+        },
+        {
+          "id": "asthma-bronchiale.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier sind typische nicht-allergische Auslöser eines Asthmaanfalls?",
+              "options": [
+                "Atemwegsinfekte",
+                "Kalte Luft",
+                "Körperliche Anstrengung",
+                "Tabakrauch",
+                "Warmes Wasser trinken",
+                "Ruhiges Sitzen"
+              ],
+              "correct": [0, 1, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Ein Atemwegsinfekt kann einen Asthmaanfall auslösen.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Auslöser gehört zum nicht-allergischen Asthma?",
+              "options": [
+                "Birkenpollen",
+                "Katzenhaare",
+                "Atemwegsinfekt",
+                "Hausstaubmilben"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los desencadenantes no alérgicos son estímulos que irritan los bronquios hiperreactivos: Atemwegsinfekte (infecciones respiratorias, sobre todo virales), aire frío, esfuerzo físico, humo de tabaco, olores fuertes, contaminación y también estrés o emociones fuertes. Las infecciones son el desencadenante más frecuente del asma no alérgica en adultos."
+        },
+        {
+          "id": "asthma-bronchiale.ursachen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Medikamente können bei Asthmatikern einen Anfall auslösen?",
+              "options": [
+                "Inhalative Glukokortikoide",
+                "ASS und andere NSAR sowie Betablocker",
+                "Beta-2-Sympathomimetika",
+                "Vitaminpräparate"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Betablocker können die Bronchien verengen und deshalb einen Asthmaanfall auslösen.",
+              "correct": true
+            }
+          ],
+          "es": "Algunos medicamentos pueden provocar una crisis: ASS (ácido acetilsalicílico) y otros NSAR (AINE, por ejemplo ibuprofeno) y los Betablocker (betabloqueadores), que bloquean los receptores que dilatan los bronquios. Como enfermera debes saber que una persona tiene asma antes de dar un analgésico y avisar al médico si hay dudas."
+        },
+        {
+          "id": "asthma-bronchiale.ursachen.6",
+          "type": "sprech",
+          "q": "Erklären Sie, was bei einem Asthmaanfall in den Bronchien passiert und welche Auslöser Sie kennen.",
+          "answer": "Die Bronchialschleimhaut ist beim Asthma chronisch entzündet und deshalb überempfindlich. Kommt ein Auslöser dazu, verengen sich die Bronchien durch drei Mechanismen: Die Bronchialmuskulatur verkrampft sich, die Schleimhaut schwillt an und es bildet sich zäher Schleim. Dadurch ist vor allem die Ausatmung erschwert. Auslöser sind beim allergischen Asthma Allergene wie Pollen, Hausstaubmilben oder Tierhaare. Nicht-allergische Auslöser sind zum Beispiel Infekte, kalte Luft, Anstrengung, Rauch, Stress und Medikamente wie ASS oder Betablocker.",
+          "points": [
+            "Chronische Entzündung, Hyperreagibilität",
+            "Bronchospasmus",
+            "Schleimhautödem",
+            "Zäher Schleim",
+            "Allergene als Auslöser",
+            "Nicht-allergische Auslöser"
+          ],
+          "es": "Una buena respuesta tiene dos partes: primero el mecanismo (inflamación crónica + los tres factores que estrechan el bronquio) y después los desencadenantes, separados en alérgicos y no alérgicos. Menciona que sobre todo se dificulta la Ausatmung (espiración), porque así explicas después los síntomas."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "asthma-bronchiale.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor ist für die Entstehung eines Asthma bronchiale besonders wichtig?",
+              "options": [
+                "Hoher Kaffeekonsum",
+                "Bewegungsmangel im Alter",
+                "Genetische Veranlagung, z. B. Asthma oder Allergien in der Familie",
+                "Zu wenig Schlaf"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Asthma bronchiale tritt in manchen Familien gehäuft auf, weil die Veranlagung vererbt werden kann.",
+              "correct": true
+            }
+          ],
+          "es": "El factor de riesgo más importante es la genetische Veranlagung (predisposición genética): si los padres tienen asma o alergias, el riesgo es mayor. La tendencia hereditaria a reaccionar con alergias se llama Atopie (atopia). No se hereda la enfermedad en sí, sino la predisposición."
+        },
+        {
+          "id": "asthma-bronchiale.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Erkrankungen gehören wie das allergische Asthma zu den atopischen Erkrankungen und erhöhen das Asthmarisiko?",
+              "options": [
+                "Heuschnupfen (allergische Rhinitis)",
+                "Arterielle Hypertonie",
+                "Neurodermitis (atopisches Ekzem)",
+                "Gicht",
+                "Osteoporose"
+              ],
+              "correct": [0, 2]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den deutschen Begriff dem Fachbegriff zu.",
+              "pairs": [
+                ["Heuschnupfen", "Allergische Rhinitis"],
+                ["Neurodermitis", "Atopisches Ekzem"],
+                ["Veranlagung zu Allergien", "Atopie"]
+              ]
+            }
+          ],
+          "es": "Heuschnupfen (rinitis alérgica o fiebre del heno), Neurodermitis (dermatitis atópica) y el asma alérgica forman el grupo de las enfermedades atópicas. Quien ya tiene una de ellas tiene más riesgo de desarrollar asma. Por eso en la anamnesis siempre se pregunta por alergias y problemas de piel."
+        },
+        {
+          "id": "asthma-bronchiale.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Passivrauchen hat keinen Einfluss auf das Asthma bronchiale, nur aktives Rauchen ist schädlich.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum ist Rauchen für Menschen mit Asthma bronchiale besonders schädlich?",
+              "options": [
+                "Tabakrauch reizt die Bronchien, fördert die Entzündung und verschlechtert die Asthmakontrolle",
+                "Tabakrauch erweitert die Bronchien zu stark",
+                "Tabakrauch verhindert die Schleimbildung vollständig",
+                "Tabakrauch wirkt nur auf das Herz und nicht auf die Lunge"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El humo de tabaco, tanto al fumar como al respirarlo de otros (Passivrauchen, tabaquismo pasivo), irrita los bronquios, mantiene la inflamación y provoca crisis. Además, en fumadores el asma se controla peor con los medicamentos. Por eso el Rauchstopp (dejar de fumar) es un consejo fijo en la asesoría."
+        },
+        {
+          "id": "asthma-bronchiale.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher berufliche Reizstoff ist ein klassischer Auslöser von Berufsasthma?",
+              "options": [
+                "Leitungswasser",
+                "Mehlstaub bei Bäckern",
+                "Papier im Büro",
+                "Glasflaschen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren erhöhen das Risiko für Asthma bronchiale oder verschlechtern es?",
+              "options": [
+                "Übergewicht (Adipositas)",
+                "Berufliche Belastung mit Stäuben oder Dämpfen",
+                "Regelmäßiges Händewaschen",
+                "Luftverschmutzung",
+                "Ausreichendes Trinken"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "Además de la genética influyen factores del ambiente: exposición laboral a polvos y vapores (clásico: Mehlstaub, polvo de harina, el «Bäckerasthma» o asma del panadero), Luftverschmutzung (contaminación del aire) y Übergewicht (sobrepeso). Son factores sobre los que sí se puede actuar con asesoría y prevención."
+        },
+        {
+          "id": "asthma-bronchiale.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für ein Asthma bronchiale kennen Sie?",
+          "answer": "Der wichtigste Risikofaktor ist die genetische Veranlagung, also Asthma oder Allergien in der Familie. Menschen mit anderen atopischen Erkrankungen wie Heuschnupfen oder Neurodermitis haben ein höheres Risiko. Dazu kommen Umweltfaktoren: aktives Rauchen und Passivrauchen, Luftverschmutzung und berufliche Belastung mit Stäuben oder Dämpfen, zum Beispiel Mehlstaub. Auch Übergewicht und häufige Atemwegsinfekte wirken ungünstig.",
+          "points": [
+            "Genetische Veranlagung",
+            "Heuschnupfen, Neurodermitis",
+            "Rauchen und Passivrauchen",
+            "Berufliche Reizstoffe",
+            "Übergewicht"
+          ],
+          "es": "Ordena tu respuesta en dos grupos: factores que no se pueden cambiar (predisposición genética, atopia) y factores que sí se pueden cambiar (tabaco, exposición en el trabajo, contaminación, sobrepeso). Así muestras que también piensas en la prevención y la asesoría."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "asthma-bronchiale.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Symptome sind typisch für einen Asthmaanfall?",
+              "options": [
+                "Anfallsartige Atemnot",
+                "Pfeifendes Atemgeräusch bei der Ausatmung (Giemen)",
+                "Husten",
+                "Engegefühl in der Brust",
+                "Gelbfärbung der Haut",
+                "Ödeme an den Unterschenkeln"
+              ],
+              "correct": [0, 1, 2, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Leitsymptom des Asthma bronchiale?",
+              "options": [
+                "Dauerhafte Atemnot, die sich nie bessert",
+                "Bluthusten",
+                "Stechender einseitiger Brustschmerz",
+                "Anfallsartige Atemnot mit pfeifender Ausatmung"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Los cuatro síntomas clásicos son: anfallsartige Atemnot (falta de aire en crisis), Giemen (sibilancias, el silbido al espirar), Husten (tos) y Engegefühl in der Brust (opresión en el pecho). Aparecen en episodios y entre ellos la persona puede estar completamente bien."
+        },
+        {
+          "id": "asthma-bronchiale.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Atemphase ist beim Asthmaanfall besonders erschwert und verlängert?",
+              "options": [
+                "Die Einatmung (Inspiration)",
+                "Die Ausatmung (Exspiration)",
+                "Die Atempause",
+                "Beide Phasen sind verkürzt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Das pfeifende Atemgeräusch beim Asthmaanfall hört man vor allem bei der ___.",
+              "options": ["Ausatmung", "Einatmung", "Atempause", "Nahrungsaufnahme"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Typisch für den Asthmaanfall ist ein Atemgeräusch nur bei der Einatmung (inspiratorischer Stridor).",
+              "correct": false
+            }
+          ],
+          "es": "En el asma se dificulta sobre todo la Ausatmung (espiración): al espirar los bronquios estrechos se cierran todavía más y el aire queda atrapado. Por eso la espiración es larga (verlängertes Exspirium) y se oye un silbido al espirar, llamado Giemen o exspiratorischer Stridor. Un ruido solo al inspirar hace pensar en una obstrucción de las vías altas."
+        },
+        {
+          "id": "asthma-bronchiale.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Zu welcher Tageszeit treten Asthmabeschwerden besonders häufig auf?",
+              "options": [
+                "Nur direkt nach dem Mittagessen",
+                "Ausschließlich am Nachmittag",
+                "Nachts und in den frühen Morgenstunden",
+                "Nur am späten Vormittag"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Asthmabeschwerden treten häufig nachts und in den frühen Morgenstunden auf.",
+              "correct": true
+            }
+          ],
+          "es": "Los síntomas aparecen con frecuencia nachts und in den frühen Morgenstunden (de noche y en la madrugada), porque a esas horas los bronquios están naturalmente más estrechos. Si la persona se despierta de noche por tos o falta de aire, es señal de que el asma no está bien controlada."
+        },
+        {
+          "id": "asthma-bronchiale.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie sieht das Sputum beim Asthma bronchiale typischerweise aus?",
+              "options": [
+                "Zäh und glasig",
+                "Schaumig und rötlich",
+                "Reichlich, dünnflüssig und blutig",
+                "Schwarz und krümelig"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Husten beim Asthma bronchiale ist oft ein trockener Reizhusten, bei dem nur wenig zäher Schleim abgehustet wird.",
+              "correct": true
+            }
+          ],
+          "es": "La tos del asma suele ser un trockener Reizhusten (tos seca e irritativa). Si sale Sputum (esputo), es poco, zäh und glasig (espeso y transparente como vidrio), difícil de expulsar. Si el esputo se vuelve amarillo o verde, hay que pensar en una infección y avisar al médico."
+        },
+        {
+          "id": "asthma-bronchiale.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen weisen auf einen schweren, bedrohlichen Asthmaanfall hin?",
+              "options": [
+                "Der Patient kann wegen der Atemnot kaum noch sprechen",
+                "Zyanose der Lippen",
+                "Ruhige, gleichmäßige Atmung",
+                "Erschöpfung und zunehmende Benommenheit",
+                "Rosige, warme Haut"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Wenn bei einem schweren Asthmaanfall das Giemen plötzlich verschwindet und der Patient erschöpft wirkt, ist das immer ein Zeichen der Besserung.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Sprechdyspnoe?",
+              "options": [
+                "Atemnot nur im Liegen",
+                "Atemnot nur bei starker Anstrengung",
+                "Atemnot schon beim Sprechen, der Patient kann keine ganzen Sätze mehr sagen",
+                "Heiserkeit nach dem Inhalieren"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Señales de alarma de una crisis grave: Sprechdyspnoe (la persona ya no puede decir frases completas), respiración y pulso muy rápidos, uso de la Atemhilfsmuskulatur (músculos accesorios), Zyanose (cianosis), agotamiento y somnolencia. Ojo: si el silbido desaparece y la persona está agotada («stille Lunge», pulmón silencioso), casi no entra aire; es peligro de muerte, no mejoría."
+        },
+        {
+          "id": "asthma-bronchiale.symptome.6",
+          "type": "sprech",
+          "q": "Sie kommen in ein Patientenzimmer und der Patient hat einen Asthmaanfall. Welche Symptome beobachten Sie?",
+          "answer": "Der Patient hat plötzlich starke Atemnot und ein Engegefühl in der Brust. Die Ausatmung ist verlängert und man hört ein pfeifendes Geräusch, das Giemen. Er hustet, oft trocken oder mit wenig zähem, glasigem Schleim. Meist sitzt er aufrecht, stützt die Arme auf und setzt die Atemhilfsmuskulatur ein. Er ist unruhig und hat Angst, die Atmung und der Puls sind beschleunigt. Bei einem schweren Anfall kann er kaum noch sprechen und die Lippen werden zyanotisch.",
+          "points": [
+            "Anfallsartige Atemnot",
+            "Giemen, verlängerte Ausatmung",
+            "Husten, zäher Schleim",
+            "Einsatz der Atemhilfsmuskulatur",
+            "Angst, Tachykardie",
+            "Zyanose, Sprechdyspnoe"
+          ],
+          "es": "Describe lo que ves, oyes y mides: disnea súbita, silbido y espiración larga, tos, postura sentada con apoyo de brazos, ansiedad, taquipnea y taquicardia. Termina con las señales de gravedad (no puede hablar, cianosis). Así el examinador ve que sabes observar y reconocer la urgencia."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "asthma-bronchiale.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung ist die wichtigste zur Diagnose eines Asthma bronchiale?",
+              "options": [
+                "Die Magenspiegelung",
+                "Das Elektrokardiogramm",
+                "Die Ultraschalluntersuchung des Bauches",
+                "Die Lungenfunktionsprüfung (Spirometrie)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Bei der Spirometrie ist beim Asthma vor allem die Einsekundenkapazität, abgekürzt ___, vermindert.",
+              "options": ["BGA", "FEV1", "EKG", "BMI"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Einsekundenkapazität (FEV1) ist das Luftvolumen, das nach tiefer Einatmung in der ersten Sekunde so kräftig wie möglich ausgeatmet werden kann.",
+              "correct": true
+            }
+          ],
+          "es": "La Lungenfunktionsprüfung o Spirometrie (espirometría) es el estudio principal. Mide, entre otros, la Einsekundenkapazität FEV1 (volumen espiratorio forzado en el primer segundo). Si los bronquios están estrechos, en un segundo sale menos aire y la FEV1 baja: eso demuestra la obstrucción."
+        },
+        {
+          "id": "asthma-bronchiale.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was wird beim Bronchospasmolysetest (Reversibilitätstest) geprüft?",
+              "options": [
+                "Ob der Patient eine Allergie gegen Pollen hat",
+                "Ob Bakterien im Sputum sind",
+                "Ob sich die Lungenfunktion nach Inhalation eines bronchienerweiternden Medikaments deutlich bessert",
+                "Ob das Herz vergrößert ist"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bessert sich die Lungenfunktion nach Inhalation eines bronchienerweiternden Medikaments deutlich, spricht das für ein Asthma bronchiale.",
+              "correct": true
+            }
+          ],
+          "es": "En el Bronchospasmolysetest (prueba broncodilatadora o de reversibilidad) se hace una espirometría, luego la persona inhala un broncodilatador y se repite la medición. Si la FEV1 mejora claramente, la obstrucción es reversible, y eso es típico del asma y no de la COPD."
+        },
+        {
+          "id": "asthma-bronchiale.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was misst das Peak-Flow-Meter?",
+              "options": [
+                "Die Sauerstoffsättigung im Blut",
+                "Die maximale Strömungsgeschwindigkeit der Luft bei kräftiger Ausatmung",
+                "Die Anzahl der Atemzüge pro Minute",
+                "Den Blutdruck in den Lungengefäßen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Peak-Flow-Messung kann nur in der Arztpraxis durchgeführt werden, nicht vom Patienten selbst.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der Peak-Flow-Wert wird in ___ angegeben.",
+              "options": ["Liter pro Minute", "Milligramm pro Deziliter", "Schlägen pro Minute", "Millimeter Quecksilbersäule"],
+              "correct": 0
+            }
+          ],
+          "es": "El Peak-Flow-Meter (medidor de flujo espiratorio máximo) mide qué tan rápido puede salir el aire al espirar con fuerza, en litros por minuto. Es un aparato pequeño que la persona usa sola en casa. Sirve para vigilar el curso del asma: valores que bajan o que varían mucho durante el día avisan de un empeoramiento."
+        },
+        {
+          "id": "asthma-bronchiale.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Mit welchem Test sucht man beim Verdacht auf allergisches Asthma nach den auslösenden Allergenen?",
+              "options": [
+                "Pricktest an der Haut",
+                "Schellong-Test",
+                "Glukosetoleranztest",
+                "Belastungs-EKG"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung ihrem Zweck zu.",
+              "pairs": [
+                ["Pricktest", "Allergene an der Haut testen"],
+                ["IgE-Bestimmung im Blut", "Hinweis auf eine allergische Ursache"],
+                ["Spirometrie", "Verengung der Atemwege nachweisen"],
+                ["Röntgen-Thorax", "Andere Lungenerkrankungen ausschließen"]
+              ]
+            }
+          ],
+          "es": "Para buscar la causa alérgica se hace Allergiediagnostik: el Pricktest (prueba cutánea por punción), donde se ponen gotas con alérgenos en la piel y se observa si sale una roncha, y la medición de IgE en sangre. Conocer el alérgeno es la base para evitarlo (Allergenkarenz). La radiografía de tórax sirve sobre todo para descartar otras enfermedades."
+        },
+        {
+          "id": "asthma-bronchiale.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchungen zeigen im akuten Asthmaanfall, wie gut der Patient noch mit Sauerstoff versorgt ist?",
+              "options": [
+                "Pricktest und IgE-Bestimmung",
+                "Urinstatus und Blutzucker",
+                "Körpergewicht und Körpergröße",
+                "Pulsoxymetrie und Blutgasanalyse"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Im akuten Asthmaanfall wird zuerst ein Allergietest an der Haut durchgeführt.",
+              "correct": false
+            }
+          ],
+          "es": "En la crisis aguda lo importante es saber cómo está la oxigenación: se mide la Sauerstoffsättigung (saturación de oxígeno) con Pulsoxymetrie (oximetría de pulso) y, en casos graves, se hace una Blutgasanalyse (gasometría). Las pruebas de alergia se hacen después, en una fase estable, nunca durante la crisis."
+        },
+        {
+          "id": "asthma-bronchiale.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird ein Asthma bronchiale diagnostiziert?",
+          "answer": "Am Anfang steht die Anamnese: Der Arzt fragt nach anfallsartiger Atemnot, Husten, Auslösern, Allergien und Asthma in der Familie. Bei der körperlichen Untersuchung hört er die Lunge ab und achtet auf Giemen und eine verlängerte Ausatmung. Die wichtigste Untersuchung ist die Lungenfunktionsprüfung mit dem Bronchospasmolysetest, der zeigt, ob die Verengung reversibel ist. Mit dem Peak-Flow-Meter kontrolliert der Patient den Verlauf selbst. Bei Verdacht auf allergisches Asthma kommen Allergietests wie der Pricktest dazu.",
+          "points": [
+            "Anamnese",
+            "Auskultation der Lunge",
+            "Spirometrie",
+            "Bronchospasmolysetest",
+            "Peak-Flow-Messung",
+            "Allergietest"
+          ],
+          "es": "Sigue siempre el mismo orden: Anamnese (interrogatorio), exploración física con Auskultation (auscultación), función pulmonar con prueba de reversibilidad, Peak-Flow para el seguimiento y pruebas de alergia. Decir por qué se hace la prueba de reversibilidad te da puntos extra."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "asthma-bronchiale.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Medikamentengruppe ihrer Aufgabe in der Asthmatherapie zu.",
+              "pairs": [
+                ["Kurz wirksame Beta-2-Sympathomimetika", "Bedarfsmedikation: erweitern die Bronchien schnell im Anfall"],
+                ["Inhalative Glukokortikoide", "Dauermedikation: hemmen die chronische Entzündung"],
+                ["Lang wirksame Beta-2-Sympathomimetika", "Dauermedikation: erweitern die Bronchien über viele Stunden"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welches Medikament ist die typische Bedarfsmedikation (Notfallspray) beim Asthmaanfall?",
+              "options": [
+                "Ein inhalatives Glukokortikoid",
+                "Ein kurz wirksames Beta-2-Sympathomimetikum, z. B. Salbutamol",
+                "Ein Betablocker",
+                "Ein Antibiotikum"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Inhalative Glukokortikoide sind die wichtigste Dauermedikation beim Asthma bronchiale.",
+              "correct": true
+            }
+          ],
+          "es": "Hay dos grupos: Bedarfsmedikation (medicación de rescate), que abre los bronquios rápido en la crisis —kurz wirksame Beta-2-Sympathomimetika (beta-2 agonistas de acción corta, por ejemplo Salbutamol)— y Dauermedikation (medicación de control), que se usa todos los días contra la inflamación —inhalative Glukokortikoide (corticoides inhalados)—. Confundirlas es un error típico de los pacientes."
+        },
+        {
+          "id": "asthma-bronchiale.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum hilft ein inhalatives Glukokortikoid (Kortisonspray) im akuten Asthmaanfall nicht sofort?",
+              "options": [
+                "Weil es nur im Magen wirkt",
+                "Weil es die Bronchien verengt",
+                "Weil es nur bei Kindern wirkt",
+                "Weil es entzündungshemmend wirkt und seine Wirkung erst bei regelmäßiger Anwendung über längere Zeit entfaltet"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Kortisonspray wird nur bei Atemnot genommen und kann abgesetzt werden, sobald es dem Patienten gut geht.",
+              "correct": false
+            }
+          ],
+          "es": "El Kortisonspray (corticoide inhalado) no abre los bronquios en el momento: reduce la inflamación poco a poco y solo funciona si se usa regelmäßig (de forma regular), también cuando no hay síntomas. Muchos pacientes lo dejan cuando se sienten bien y entonces el asma empeora; aquí tu asesoría es muy importante."
+        },
+        {
+          "id": "asthma-bronchiale.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Nebenwirkungen beobachtet die Pflegefachperson nach der Gabe von Beta-2-Sympathomimetika?",
+              "options": [
+                "Tachykardie",
+                "Zittern der Hände (Tremor)",
+                "Bradykardie",
+                "Unruhe",
+                "Verstopfung"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung ist typisch für kurz wirksame Beta-2-Sympathomimetika?",
+              "options": [
+                "Herzrasen (Tachykardie)",
+                "Mundsoor",
+                "Gewichtszunahme",
+                "Sehr langsamer Puls"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Los Beta-2-Sympathomimetika estimulan también un poco el corazón y los músculos, por eso pueden causar Tachykardie (taquicardia), Tremor (temblor de manos) y Unruhe (inquietud). Después de darlos controlas pulso, respiración y cómo se siente la persona, y avisas al médico si necesita el spray cada vez más seguido."
+        },
+        {
+          "id": "asthma-bronchiale.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Stufentherapie beim Asthma bronchiale?",
+              "options": [
+                "Alle Patienten bekommen von Anfang an die gleichen Medikamente in höchster Dosis",
+                "Die Medikamente werden nur im Krankenhaus gegeben",
+                "Die Therapie wird je nach Asthmakontrolle stufenweise gesteigert oder wieder reduziert",
+                "Der Patient steigt zur Therapie täglich Treppen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "In der Stufentherapie wird die Behandlung an die Asthmakontrolle angepasst: bei schlechter Kontrolle eine Stufe höher, bei guter Kontrolle wieder zurück.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Das Ziel der Stufentherapie ist eine gute ___, also möglichst keine Beschwerden am Tag und in der Nacht.",
+              "options": ["Asthmakontrolle", "Gewichtszunahme", "Blutzuckereinstellung", "Schleimbildung"],
+              "correct": 0
+            }
+          ],
+          "es": "La Stufentherapie (tratamiento escalonado) adapta los medicamentos al grado de control del asma: si la persona sigue con síntomas, se sube un escalón (más dosis o más medicamentos); si está bien controlada por meses, se puede bajar. La meta es la Asthmakontrolle (control del asma): sin síntomas de día ni de noche y con vida normal."
+        },
+        {
+          "id": "asthma-bronchiale.therapie.5",
+          "type": "sprech",
+          "q": "Geben Sie einen Überblick über die Therapie des Asthma bronchiale.",
+          "answer": "Die Therapie erfolgt nach einem Stufenschema und richtet sich nach der Asthmakontrolle. Man unterscheidet Bedarfsmedikation und Dauermedikation. Als Bedarfsmedikation inhaliert der Patient im Anfall ein kurz wirksames Beta-2-Sympathomimetikum, das die Bronchien schnell erweitert. Als Dauermedikation nimmt er regelmäßig ein inhalatives Glukokortikoid gegen die Entzündung, bei Bedarf kombiniert mit einem lang wirksamen Beta-2-Sympathomimetikum. Dazu kommen nicht-medikamentöse Maßnahmen wie Auslöser meiden, Rauchstopp, Asthmaschulung und Atemtherapie.",
+          "points": [
+            "Stufentherapie",
+            "Bedarfsmedikation: kurz wirksames Beta-2-Sympathomimetikum",
+            "Dauermedikation: inhalatives Glukokortikoid",
+            "Auslöser meiden",
+            "Asthmaschulung, Rauchstopp"
+          ],
+          "es": "Explica el principio, no las dosis: tratamiento escalonado, rescate contra control, y las medidas sin medicamentos (evitar desencadenantes, dejar de fumar, Asthmaschulung o educación en asma). En casos graves se añaden otros fármacos como corticoides en tabletas o Biologika, pero para el examen basta con el esquema general."
+        },
+        {
+          "id": "asthma-bronchiale.therapie.6",
+          "type": "sprech",
+          "q": "Welche Aufgaben hat die Pflegefachperson bei der medikamentösen Therapie eines Patienten mit Asthma bronchiale?",
+          "answer": "Ich verabreiche die Medikamente nach ärztlicher Anordnung und leite den Patienten zur richtigen Inhalationstechnik an. Ich beobachte die Wirkung: Atemfrequenz, Atemgeräusche, Atemnot, Sauerstoffsättigung und Peak-Flow-Werte. Ich achte auf Nebenwirkungen wie Tachykardie und Zittern bei Beta-2-Sympathomimetika oder Heiserkeit und Mundsoor bei inhalativem Kortison. Nach dem Kortisonspray lasse ich den Patienten den Mund ausspülen. Im Anfall gebe ich Sauerstoff nur nach ärztlicher Anordnung und dokumentiere alle Maßnahmen und Beobachtungen.",
+          "points": [
+            "Gabe nach ärztlicher Anordnung",
+            "Inhalationstechnik anleiten",
+            "Wirkung beobachten",
+            "Nebenwirkungen beobachten",
+            "Mund ausspülen nach Kortison",
+            "Dokumentation"
+          ],
+          "es": "El médico ordena; tú administras, enseñas, observas y documentas. Menciona qué observas en concreto (frecuencia respiratoria, ruidos, saturación, pulso) y los efectos secundarios de cada grupo. El detalle de enjuagar la boca después del corticoide inhalado es muy preguntado."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "asthma-bronchiale.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche akute Komplikation des Asthma bronchiale ist lebensbedrohlich?",
+              "options": [
+                "Der Status asthmaticus",
+                "Die Heiserkeit",
+                "Der trockene Mund",
+                "Das Zittern der Hände"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Status asthmaticus muss als Notfall im Krankenhaus behandelt werden, oft auf der Intensivstation.",
+              "correct": true
+            }
+          ],
+          "es": "La complicación aguda más temida es el Status asthmaticus: una crisis grave que no responde a los medicamentos y dura mucho. La persona se agota, baja el oxígeno y puede morir. Se trata como urgencia en el hospital, muchas veces en la Intensivstation (terapia intensiva)."
+        },
+        {
+          "id": "asthma-bronchiale.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was droht, wenn sich der Patient im schweren Asthmaanfall durch die anstrengende Atmung erschöpft?",
+              "options": [
+                "Ein Darmverschluss",
+                "Ein Harnwegsinfekt",
+                "Eine respiratorische Insuffizienz mit Sauerstoffmangel bis zum Atemstillstand",
+                "Eine Thrombose im Arm"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Kann die Lunge den Körper nicht mehr ausreichend mit Sauerstoff versorgen, spricht man von einer respiratorischen ___.",
+              "options": ["Infektion", "Insuffizienz", "Inkontinenz", "Immunität"],
+              "correct": 1
+            }
+          ],
+          "es": "Respirar contra bronquios cerrados cuesta muchísimo trabajo. Si la crisis dura, los músculos respiratorios se cansan y aparece la respiratorische Insuffizienz (insuficiencia respiratoria): falta oxígeno, se acumula CO2, la persona se pone somnolienta y puede llegar al paro respiratorio. Por eso el agotamiento es una señal de alarma."
+        },
+        {
+          "id": "asthma-bronchiale.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Spätfolgen können bei einem über viele Jahre schlecht kontrollierten, schweren Asthma entstehen?",
+              "options": [
+                "Lungenemphysem",
+                "Leberzirrhose",
+                "Rechtsherzbelastung (Cor pulmonale)",
+                "Niereninsuffizienz",
+                "Schilddrüsenüberfunktion"
+              ],
+              "correct": [0, 2]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Cor pulmonale?",
+              "options": [
+                "Eine Entzündung des Lungenfells",
+                "Eine Überblähung der Lunge",
+                "Eine Verengung der Herzkranzgefäße",
+                "Eine Belastung und Vergrößerung des rechten Herzens durch eine Lungenerkrankung"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Si un asma grave pasa muchos años mal controlada, los bronquios y el pulmón pueden dañarse de forma permanente: Lungenemphysem (enfisema, pulmón sobredistendido) y Cor pulmonale (sobrecarga del corazón derecho por la enfermedad pulmonar). Con buen tratamiento esto es raro, y por eso el control diario es tan importante."
+        },
+        {
+          "id": "asthma-bronchiale.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche örtliche Komplikation kann durch inhalatives Kortison im Mund entstehen?",
+              "options": [
+                "Karies durch Zucker im Spray",
+                "Mundsoor, eine Pilzinfektion mit Candida",
+                "Zahnfleischbluten durch Vitaminmangel",
+                "Herpes an der Lippe durch Kälte"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Inhalatives Kortison kann Heiserkeit und einen Pilzbefall der Mundschleimhaut verursachen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Mundsoor erkennt man an ___ Belägen auf der Mundschleimhaut und der Zunge.",
+              "options": ["schwarzen, festen", "blauen, glatten", "weißlichen, abwischbaren", "roten, blutenden"],
+              "correct": 2
+            }
+          ],
+          "es": "El corticoide inhalado que se queda en la boca baja las defensas locales y favorece el Mundsoor (candidiasis oral): placas blanquecinas que se pueden quitar al frotar, sobre la lengua y la mucosa. También puede causar Heiserkeit (ronquera). Se previene enjuagando la boca después de cada inhalación."
+        },
+        {
+          "id": "asthma-bronchiale.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Atemwegsinfekte sind für Menschen mit Asthma ungefährlich und haben keinen Einfluss auf die Erkrankung.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum sind Atemwegsinfekte bei Asthma bronchiale problematisch?",
+              "options": [
+                "Sie machen die Bronchien unempfindlich gegen Reize",
+                "Sie heilen das Asthma dauerhaft",
+                "Sie wirken nur auf den Magen",
+                "Sie können das Asthma verschlechtern und schwere Anfälle auslösen"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Las Atemwegsinfekte (infecciones respiratorias) irritan todavía más los bronquios inflamados y son una causa frecuente de Exazerbation (empeoramiento agudo) y de crisis graves. El moco espeso que no sale favorece además infecciones. Por eso la prevención de infecciones, incluida la vacuna contra la influenza, forma parte del cuidado."
+        },
+        {
+          "id": "asthma-bronchiale.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einem Asthma bronchiale auftreten?",
+          "answer": "Die gefährlichste akute Komplikation ist der Status asthmaticus, ein schwerer Anfall, der trotz Therapie anhält. Dabei kann sich der Patient erschöpfen, und es droht eine respiratorische Insuffizienz bis zum Atemstillstand. Atemwegsinfekte können das Asthma verschlechtern. Bei einem schweren, über Jahre schlecht kontrollierten Asthma können ein Lungenemphysem und ein Cor pulmonale entstehen. Außerdem gibt es Komplikationen durch die Therapie, zum Beispiel Mundsoor und Heiserkeit durch inhalatives Kortison.",
+          "points": [
+            "Status asthmaticus",
+            "Respiratorische Insuffizienz",
+            "Atemwegsinfekte",
+            "Lungenemphysem, Cor pulmonale",
+            "Mundsoor durch Kortison"
+          ],
+          "es": "Ordena las complicaciones en tres grupos: agudas (Status asthmaticus, insuficiencia respiratoria), a largo plazo (enfisema, Cor pulmonale) y por el tratamiento (candidiasis oral, ronquera). Esa estructura hace tu respuesta clara y fácil de seguir para el examinador."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Ein Patient bekommt einen akuten Asthmaanfall. Was tun Sie als Pflegefachperson?",
+          "answer": "Ich bleibe ruhig, bleibe beim Patienten und lasse ihn nicht allein. Ich bringe ihn in eine atemerleichternde Haltung, zum Beispiel in den Kutschersitz oder mit erhöhtem Oberkörper und aufgestützten Armen, und leite ihn zur Lippenbremse an. Ich öffne enge Kleidung, sorge für frische Luft und gebe das Bedarfsspray nach ärztlicher Anordnung. Ich informiere sofort den Arzt, bei schwerem Anfall löse ich den Notruf aus. Ich kontrolliere Atmung, Puls, Blutdruck und Sauerstoffsättigung, gebe Sauerstoff nach Anordnung und dokumentiere alles.",
+          "points": [
+            "Ruhe bewahren, nicht allein lassen",
+            "Kutschersitz, Oberkörper hoch",
+            "Lippenbremse",
+            "Bedarfsspray nach Anordnung",
+            "Arzt oder Notruf",
+            "Vitalzeichenkontrolle, Sauerstoff nach Anordnung"
+          ],
+          "es": "Esta es la pregunta de urgencia más probable. El orden importa: calma y compañía, posición que facilita la respiración (Kutschersitz, posición de cochero), Lippenbremse (respiración con labios fruncidos), aflojar la ropa, spray de rescate, avisar al médico o al Notruf (llamada de emergencia), signos vitales y oxígeno solo por orden médica. Tu calma disminuye la angustia, y la angustia empeora la disnea."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit Asthma bronchiale?",
+          "answer": "Ich beobachte vor allem die Atmung: Atemfrequenz, Atemtiefe, Atemrhythmus und Atemgeräusche wie Giemen, außerdem die Dauer der Ausatmung und den Einsatz der Atemhilfsmuskulatur. Ich achte auf Husten und auf Menge, Farbe und Konsistenz des Sputums. Ich kontrolliere Puls, Blutdruck und Sauerstoffsättigung und beobachte die Hautfarbe, besonders eine Zyanose der Lippen. Ich achte auf das Bewusstsein, auf Angst und Unruhe und darauf, ob der Patient noch ganze Sätze sprechen kann. Die Peak-Flow-Werte und alle Beobachtungen dokumentiere ich.",
+          "points": [
+            "Atemfrequenz und Atemgeräusche",
+            "Husten und Sputum",
+            "Vitalzeichen, Sauerstoffsättigung",
+            "Hautfarbe, Zyanose",
+            "Bewusstsein, Angst",
+            "Peak-Flow-Werte"
+          ],
+          "es": "La Atembeobachtung (observación de la respiración) es el centro del cuidado en el asma: frecuencia, profundidad, ritmo, ruidos, tos y esputo. Súmale signos vitales, saturación, color de piel y estado de conciencia. Si la persona ya no puede hablar en frases completas o se pone cianótica, avisas de inmediato al médico."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie leiten Sie einen Patienten zur Inhalation mit einem Dosieraerosol an?",
+          "answer": "Der Patient sitzt oder steht aufrecht. Er nimmt die Schutzkappe ab und schüttelt das Dosieraerosol. Dann atmet er tief aus, umschließt das Mundstück fest mit den Lippen und löst den Sprühstoß aus, während er gleichzeitig langsam und tief einatmet. Danach hält er die Luft etwa fünf bis zehn Sekunden an und atmet langsam aus, am besten mit der Lippenbremse. Wenn die Koordination schwierig ist, empfehle ich eine Inhalierhilfe, den Spacer. Nach einem Kortisonspray spült er den Mund aus. Ich lasse mir die Technik vom Patienten zeigen und korrigiere Fehler.",
+          "points": [
+            "Aufrechte Haltung, schütteln",
+            "Tief ausatmen",
+            "Sprühstoß beim langsamen Einatmen",
+            "Luft anhalten",
+            "Spacer bei Koordinationsproblemen",
+            "Technik vorführen lassen"
+          ],
+          "es": "Con el Dosieraerosol (inhalador presurizado de dosis medida) lo difícil es coordinar el disparo con la inspiración: agitar, exhalar, disparar al empezar a inhalar lento y profundo, y aguantar el aire unos segundos para que el medicamento se deposite. El Spacer (cámara espaciadora) facilita la coordinación y hace que llegue más medicamento al pulmón. Siempre pide a la persona que te muestre cómo lo hace."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "beraten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie muss der Patient bei einem Pulverinhalator einatmen?",
+              "options": [
+                "Sehr langsam und flach",
+                "Gar nicht, das Pulver wird geschluckt",
+                "Kräftig, zügig und tief",
+                "Nur durch die Nase"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Vor dem Einatmen darf der Patient in den Pulverinhalator hineinatmen, damit sich das Pulver besser verteilt.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne das Inhalationssystem dem wichtigsten Hinweis zu.",
+              "pairs": [
+                ["Dosieraerosol", "Sprühstoß auslösen und gleichzeitig langsam und tief einatmen"],
+                ["Pulverinhalator", "Kräftig und zügig einatmen, nicht in das Gerät ausatmen"],
+                ["Spacer", "Inhalierhilfe, die die Koordination erleichtert"]
+              ]
+            }
+          ],
+          "es": "En el Pulverinhalator (inhalador de polvo seco) no hay gas que empuje el medicamento: la propia inspiración lo arrastra, por eso hay que inhalar kräftig und zügig (fuerte y rápido). No se debe exhalar dentro del aparato, porque la humedad del aliento apelmaza el polvo. Con el Dosieraerosol es al revés: inspiración lenta y profunda."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Zu welchen Themen beraten und schulen Sie einen Patienten mit Asthma bronchiale?",
+          "answer": "Ich erkläre dem Patienten den Unterschied zwischen Bedarfsmedikation und Dauermedikation und dass er das Kortisonspray regelmäßig nehmen muss, auch wenn er keine Beschwerden hat. Ich leite ihn zur Peak-Flow-Messung an und zeige ihm, wie er die Werte in ein Asthmatagebuch einträgt. Wir besprechen seine persönlichen Auslöser und wie er sie meiden kann, und ich berate ihn zum Rauchstopp. Er soll einen schriftlichen Notfallplan haben und das Bedarfsspray immer bei sich tragen. Ich übe mit ihm atemerleichternde Haltungen und die Lippenbremse und empfehle die Teilnahme an einer Asthmaschulung.",
+          "points": [
+            "Bedarfs- und Dauermedikation",
+            "Peak-Flow-Protokoll",
+            "Auslöser meiden",
+            "Rauchstopp",
+            "Notfallplan, Bedarfsspray dabei",
+            "Asthmaschulung"
+          ],
+          "es": "El objetivo de la asesoría es el Selbstmanagement (autocuidado): que la persona entienda sus medicamentos, mida su Peak-Flow, conozca sus desencadenantes, tenga un Notfallplan (plan de emergencia) por escrito y lleve siempre su spray de rescate. La Asthmaschulung (curso de educación en asma) es un programa estructurado que reúne todo esto."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Farbe des Peak-Flow-Ampelschemas ihrer Bedeutung zu.",
+              "pairs": [
+                ["Grün", "Asthma gut kontrolliert, Therapie wie gewohnt fortführen"],
+                ["Gelb", "Vorsicht, Asthma verschlechtert sich, Therapie nach Plan anpassen"],
+                ["Rot", "Gefahr, Notfallmedikamente nehmen und sofort ärztliche Hilfe holen"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wie wird die Peak-Flow-Messung richtig durchgeführt?",
+              "options": [
+                "Im Liegen, einmal langsam ausatmen, den niedrigsten Wert notieren",
+                "Aufrecht stehend oder sitzend, tief einatmen, so kräftig und schnell wie möglich ausatmen, dreimal messen und den besten Wert notieren",
+                "Direkt nach dem Bedarfsspray, damit die Werte besser aussehen",
+                "Nur einmal pro Woche zu einer beliebigen Uhrzeit"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Peak-Flow-Messung wird dreimal gemessen und der beste Wert in das Protokoll eingetragen.",
+              "correct": true
+            }
+          ],
+          "es": "El Peak-Flow se mide con la persona de pie o sentada con la espalda recta: inspirar profundo, cerrar bien los labios en la boquilla y soplar lo más fuerte y rápido posible; tres veces, y se anota el mejor valor, siempre a las mismas horas. El Ampelschema (esquema de semáforo) compara el valor con el mejor valor personal: verde = bien, amarillo = precaución, rojo = urgencia."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist bei Patienten mit inhalativem Kortison die Soorprophylaxe wichtig und wie führen Sie sie durch?",
+          "answer": "Beim Inhalieren bleibt ein Teil des Kortisons im Mund und im Rachen. Dort schwächt es die örtliche Abwehr, und es kann ein Pilzbefall mit Candida entstehen, der Mundsoor. Zur Soorprophylaxe spült der Patient nach jeder Inhalation den Mund aus oder putzt die Zähne, oder er inhaliert direkt vor dem Essen. Ein Spacer verringert die Menge an Kortison, die im Mund bleibt. Ich inspiziere die Mundschleimhaut regelmäßig auf weißliche, abwischbare Beläge und informiere bei Auffälligkeiten den Arzt.",
+          "points": [
+            "Kortison bleibt im Mund",
+            "Mundsoor durch Candida",
+            "Mund ausspülen nach Inhalation",
+            "Inhalation vor dem Essen",
+            "Mundschleimhaut inspizieren"
+          ],
+          "es": "La Soorprophylaxe (prevención de candidiasis oral) es la profilaxis más específica del asma. Explica siempre el porqué: el corticoide que queda en la boca baja las defensas locales. Las medidas son sencillas: enjuagar la boca o lavarse los dientes después de inhalar, inhalar antes de comer, usar Spacer y revisar la mucosa."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist bei Asthma bronchiale die Pneumonieprophylaxe wichtig und welche Maßnahmen gehören dazu?",
+          "answer": "Durch die verengten Bronchien und den zähen Schleim wird die Lunge schlechter belüftet, und das Sekret kann schlecht abgehustet werden. In diesem Sekret können sich Keime vermehren, außerdem verschlechtert jeder Atemwegsinfekt das Asthma. Zur Pneumonieprophylaxe gehören atemunterstützende Lagerungen mit erhöhtem Oberkörper, Atemübungen wie die Lippenbremse, frühe Mobilisation und ausreichendes Trinken, damit das Sekret flüssiger wird. Ich leite zum wirksamen Abhusten an und achte auf Händehygiene und Infektionsschutz. Außerdem empfehle ich die Grippe- und Pneumokokkenimpfung.",
+          "points": [
+            "Schlechte Belüftung, zähes Sekret",
+            "Oberkörper hochlagern",
+            "Atemübungen, Lippenbremse",
+            "Mobilisation",
+            "Ausreichend trinken, abhusten",
+            "Infektionsschutz, Impfungen"
+          ],
+          "es": "La Pneumonieprophylaxe (prevención de neumonía) es importante porque el moco espeso se queda en los bronquios y es un buen medio para los gérmenes, y cada infección empeora el asma. Las medidas: posición con el tórax elevado, ejercicios respiratorios, movilización, tomar suficiente líquido, toser bien, higiene de manos y vacunas contra influenza y neumococo."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.9",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Allergenkarenz?",
+              "options": [
+                "Die langsame Gewöhnung an ein Allergen durch Spritzen",
+                "Die tägliche Einnahme von Kortison",
+                "Die Messung der Allergene im Blut",
+                "Das Meiden der Allergene, die die Beschwerden auslösen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Anfallsprophylaxe bei einer Hausstaubmilbenallergie?",
+              "options": [
+                "Milbendichte Bezüge (Encasings) für Matratze, Kissen und Bettdecke",
+                "Bettwäsche regelmäßig bei mindestens 60 °C waschen",
+                "Viele Teppiche und Stofftiere im Schlafzimmer",
+                "Regelmäßig lüften und Staubfänger entfernen",
+                "Schlafzimmer warm und feucht halten"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Pollenallergie soll der Patient abends die Haare waschen und die Straßenkleidung nicht im Schlafzimmer ablegen.",
+              "correct": true
+            }
+          ],
+          "es": "Allergenkarenz significa evitar el contacto con el alérgeno; es la mejor Anfallsprophylaxe (prevención de crisis) en el asma alérgica. Con ácaros: fundas antiácaros, lavar la ropa de cama a 60 °C, quitar alfombras y objetos que juntan polvo. Con polen: lavarse el cabello en la noche, no dejar la ropa de calle en la recámara y ventilar según el Pollenflug (calendario de polen)."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung und beim Trinken eines Patienten mit Asthma bronchiale?",
+          "answer": "Der Patient soll ausreichend trinken, wenn keine Trinkmengenbeschränkung besteht, damit der zähe Schleim flüssiger wird und leichter abgehustet werden kann. Ich empfehle mehrere kleine, leichte Mahlzeiten, weil ein sehr voller Magen das Zwerchfell nach oben drückt und die Atmung erschwert. Bekannte Nahrungsmittelallergene muss er meiden. Bei Übergewicht berate ich zur Gewichtsreduktion, weil Übergewicht das Asthma verschlechtert. Während eines Anfalls isst und trinkt der Patient nicht, weil bei Atemnot Aspirationsgefahr besteht.",
+          "points": [
+            "Ausreichend trinken",
+            "Kleine, leichte Mahlzeiten",
+            "Nahrungsmittelallergene meiden",
+            "Normalgewicht anstreben",
+            "Im Anfall nicht essen"
+          ],
+          "es": "No existe una dieta especial para el asma, pero sí principios: suficiente líquido para que el moco sea más fluido, comidas pequeñas para que el estómago lleno no empuje el diafragma, evitar alimentos a los que la persona es alérgica y bajar de peso si hay sobrepeso. Durante la crisis no se come ni se bebe por riesgo de Aspiration (broncoaspiración)."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.11",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Was beachten Sie bei der Körperpflege eines Patienten mit Asthma bronchiale?",
+          "answer": "Ich plane die Körperpflege so, dass der Patient sich nicht überanstrengt, und lege Pausen ein, weil Anstrengung Atemnot auslösen kann. Bei Atemnot übernehme ich Teile der Pflege und führe sie mit erhöhtem Oberkörper oder im Sitzen durch. Ich verzichte auf Sprays, Puder und stark parfümierte Pflegeprodukte, weil sie die Bronchien reizen können. Sehr heißer Wasserdampf kann ebenfalls reizen, deshalb achte ich auf eine angenehme Wassertemperatur und ein gut gelüftetes Bad. Nach der Inhalation von Kortison gehört die Mundpflege dazu, und nach einem Anfall biete ich eine Erfrischung an, weil der Patient oft stark geschwitzt hat.",
+          "points": [
+            "Pausen, nicht überanstrengen",
+            "Im Sitzen, Oberkörper hoch",
+            "Keine Sprays, Puder, Duftstoffe",
+            "Mundpflege nach Kortison",
+            "Erfrischung nach dem Anfall"
+          ],
+          "es": "En la Körperpflege (higiene corporal) hay dos ideas: ahorrar esfuerzo (pausas, posición sentada, ayudar cuando hay disnea) y evitar irritantes para los bronquios como sprays, talco y productos muy perfumados. No olvides la Mundpflege (higiene bucal) después del corticoide inhalado y refrescar a la persona después de una crisis, porque suda mucho."
+        },
+        {
+          "id": "asthma-bronchiale.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Was beachten Sie bei der Kleidung eines Patienten mit Asthma bronchiale?",
+          "answer": "Die Kleidung soll locker und bequem sein und darf Brustkorb und Bauch nicht einengen, damit der Patient frei atmen kann. Im Anfall öffne ich sofort enge Kleidungsstücke wie Kragen, Gürtel oder Hosenbund. Nach einem Anfall wechsle ich verschwitzte Wäsche, damit der Patient nicht auskühlt. Bei kalter Luft soll er Mund und Nase mit einem Schal bedecken, weil Kälte einen Anfall auslösen kann. Bei einer Pollenallergie soll er die Straßenkleidung nicht im Schlafzimmer ausziehen.",
+          "points": [
+            "Lockere, nicht einengende Kleidung",
+            "Enge Kleidung im Anfall öffnen",
+            "Verschwitzte Wäsche wechseln",
+            "Schal bei kalter Luft",
+            "Straßenkleidung nicht ins Schlafzimmer"
+          ],
+          "es": "La ropa debe dejar libres el tórax y el abdomen para que la respiración no se limite; en la crisis se afloja de inmediato todo lo que aprieta (cuello, cinturón). Además piensa en los desencadenantes: una bufanda sobre boca y nariz calienta el aire frío, y la ropa de calle con polen no debe entrar a la recámara."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "asthma-bronchiale.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Asthma bronchiale zum Thema Atmung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat anfallsartige Atemnot aufgrund der Verengung der Bronchien und hat dabei Angst zu ersticken. Ziel: Der Patient wendet innerhalb von drei Tagen bei beginnender Atemnot selbstständig den Kutschersitz und die Lippenbremse an und gibt an, dass die Atemnot dadurch nachlässt. Maßnahmen: Ich beobachte die Atmung und die Vitalzeichen regelmäßig und dokumentiere sie. Ich leite den Patienten täglich zu atemerleichternden Haltungen und zur Lippenbremse an. Im Anfall bleibe ich bei ihm, gebe die Bedarfsmedikation nach ärztlicher Anordnung und informiere den Arzt.",
+          "points": [
+            "Problem: Atemnot mit Angst",
+            "Ziel: wendet Atemtechniken selbstständig an",
+            "Atembeobachtung",
+            "Kutschersitz und Lippenbremse anleiten",
+            "Bedarfsmedikation nach Anordnung"
+          ],
+          "es": "El problema de enfermería se formula con causa: disnea en crisis por el estrechamiento de los bronquios, acompañada de miedo. La meta describe una conducta concreta de la persona y un plazo (en tres días usa sola la posición de cochero y la Lippenbremse). Las medidas responden al problema: observar, enseñar y actuar en la crisis."
+        },
+        {
+          "id": "asthma-bronchiale.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Asthma bronchiale zum Thema Inhalation und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient wendet sein Dosieraerosol fehlerhaft an und kennt den Unterschied zwischen Bedarfs- und Dauermedikation nicht, dadurch besteht die Gefahr einer unzureichenden Wirkung und häufiger Anfälle. Ziel: Der Patient führt bis zur Entlassung die Inhalation fehlerfrei vor und kann erklären, welches Spray er regelmäßig und welches er im Anfall nimmt. Maßnahmen: Ich erkläre und zeige die Inhalationstechnik Schritt für Schritt und lasse sie mir täglich vom Patienten vorführen. Ich biete bei Bedarf einen Spacer an. Ich erkläre die Wirkung der beiden Medikamentengruppen und gebe schriftliches Informationsmaterial mit.",
+          "points": [
+            "Problem: fehlerhafte Inhalationstechnik",
+            "Ziel: führt Inhalation fehlerfrei vor",
+            "Technik zeigen und vorführen lassen",
+            "Spacer anbieten",
+            "Bedarfs- und Dauermedikation erklären"
+          ],
+          "es": "Un problema muy frecuente es el Wissensdefizit (falta de conocimiento): la persona usa mal el inhalador, y entonces el medicamento no llega al pulmón. La meta se puede medir porque la persona demuestra la técnica sin errores antes del alta. La medida central es mostrar, dejar que lo repita y corregir."
+        },
+        {
+          "id": "asthma-bronchiale.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Asthma bronchiale im Zusammenhang mit dem Kortisonspray und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient inhaliert täglich ein Glukokortikoid, deshalb besteht die Gefahr eines Mundsoors. Ziel: Die Mundschleimhaut des Patienten ist während des gesamten Krankenhausaufenthalts rosig, feucht und ohne Beläge, und der Patient spült ab heute nach jeder Inhalation selbstständig den Mund aus. Maßnahmen: Ich erkläre dem Patienten, warum Kortison im Mund einen Pilzbefall fördern kann. Ich leite ihn an, nach jeder Inhalation den Mund auszuspülen oder die Zähne zu putzen. Ich inspiziere täglich die Mundschleimhaut und informiere bei weißlichen Belägen den Arzt.",
+          "points": [
+            "Problem: Soorgefahr durch Kortison",
+            "Ziel: intakte Mundschleimhaut",
+            "Mund ausspülen nach Inhalation",
+            "Tägliche Mundinspektion",
+            "Patient informieren"
+          ],
+          "es": "Este es un problema potencial («es besteht die Gefahr…», existe el riesgo de…): todavía no hay candidiasis, pero el corticoide inhalado la favorece. La meta describe el estado deseado (mucosa rosada, húmeda, sin placas) con un tiempo definido. Las medidas son las de la Soorprophylaxe: informar, enjuagar y revisar la boca."
+        },
+        {
+          "id": "asthma-bronchiale.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART und wie formulieren Sie ein Pflegeziel für einen Patienten mit Asthma bronchiale?",
+          "answer": "SMART bedeutet: spezifisch, messbar, akzeptiert, realistisch und terminiert. Ein Pflegeziel beschreibt also einen konkreten Zustand des Patienten, den man überprüfen kann, den der Patient selbst erreichen will und kann und der einen Zeitpunkt hat. Ich formuliere das Ziel positiv, in der Gegenwart und aus der Sicht des Patienten. Ein Beispiel bei Asthma ist: Der Patient misst innerhalb von drei Tagen selbstständig morgens und abends seinen Peak-Flow-Wert und trägt ihn in das Protokoll ein. Ein schlechtes Ziel wäre: Der Patient atmet besser, denn das ist weder messbar noch terminiert.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert",
+            "Realistisch",
+            "Terminiert",
+            "Beispiel: Peak-Flow-Protokoll"
+          ],
+          "es": "SMART es la regla para formular metas de enfermería: spezifisch (específica), messbar (medible), akzeptiert (aceptada por la persona), realistisch (realista) y terminiert (con plazo). La meta se escribe en presente, en positivo y desde la perspectiva del paciente. Da siempre un ejemplo concreto del asma, como el registro del Peak-Flow en tres días."
+        }
+      ]
+    }
+  ]
+}

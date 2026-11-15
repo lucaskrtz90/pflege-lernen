@@ -1,0 +1,1408 @@
+{
+  "id": "pavk",
+  "name": "pAVK",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "pavk.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine pAVK?",
+              "options": [
+                "Eine Erweiterung der oberflächlichen Beinvenen",
+                "Ein Blutgerinnsel in einer tiefen Beinvene",
+                "Eine chronische Verengung oder ein Verschluss von Arterien der Extremitäten, meist der Beine",
+                "Eine Entzündung der Lymphgefäße der Beine"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die pAVK ist eine chronische Durchblutungsstörung der Arterien, die die Extremitäten versorgen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Abkürzung pAVK bedeutet periphere ___ Verschlusskrankheit.",
+              "options": ["venöse", "arterielle", "lymphatische", "kapilläre"],
+              "correct": 1
+            }
+          ],
+          "es": "La pAVK, periphere arterielle Verschlusskrankheit (enfermedad arterial periférica), es un estrechamiento u obstrucción crónica de las arterias de las extremidades. Por eso llega poca sangre con oxígeno a los músculos y a la piel. No es una enfermedad de las venas: ese es el punto que más se confunde."
+        },
+        {
+          "id": "pavk.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Körperregion ist bei der pAVK am häufigsten betroffen?",
+              "options": [
+                "Die Beine",
+                "Die Arme",
+                "Der Hals",
+                "Die Hände"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die pAVK betrifft in den meisten Fällen die Arterien der Arme.",
+              "correct": false
+            }
+          ],
+          "es": "En más del 90 % de los casos la pAVK afecta las arterias de la pelvis y de las piernas. Los brazos se afectan muy rara vez. Por eso en el examen casi siempre hablas de las piernas y de los pies."
+        },
+        {
+          "id": "pavk.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Stadien nach Fontaine der Beschreibung zu.",
+              "pairs": [
+                ["Stadium I", "Keine Beschwerden, aber nachweisbare Gefäßveränderungen"],
+                ["Stadium II", "Belastungsschmerz beim Gehen (Claudicatio intermittens)"],
+                ["Stadium III", "Ruheschmerz"],
+                ["Stadium IV", "Nekrose, Gangrän oder Ulkus"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Nach welcher Einteilung werden die Stadien der pAVK in Deutschland üblicherweise beschrieben?",
+              "options": [
+                "Nach NYHA",
+                "Nach Braden",
+                "Nach Glasgow",
+                "Nach Fontaine"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Im Stadium I nach Fontaine hat der Patient bereits Ruheschmerzen.",
+              "correct": false
+            }
+          ],
+          "es": "La pAVK se clasifica en cuatro Stadien nach Fontaine (estadios de Fontaine): I sin síntomas, II dolor al caminar, III dolor en reposo, IV muerte de tejido (necrosis, gangrena o úlcera). Tienes que saberlos de memoria, porque de ellos dependen el tratamiento y los cuidados."
+        },
+        {
+          "id": "pavk.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird die pAVK auch „Schaufensterkrankheit“ genannt?",
+              "options": [
+                "Weil die Krankheit vor allem Verkäuferinnen betrifft",
+                "Weil die Betroffenen wegen der Schmerzen beim Gehen oft stehen bleiben müssen, zum Beispiel vor Schaufenstern",
+                "Weil die Beine im Schaufensterlicht blau aussehen",
+                "Weil die Beschwerden nur beim Stehen auftreten"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Begriff „Schaufensterkrankheit“ beschreibt, dass die Betroffenen beim Gehen wegen der Schmerzen immer wieder stehen bleiben müssen.",
+              "correct": true
+            }
+          ],
+          "es": "Se le dice «Schaufensterkrankheit» (enfermedad de los aparadores) porque la persona siente dolor en la pierna al caminar y tiene que detenerse cada cierta distancia. Para disimular, se queda parada como si viera un aparador. Con la pausa el dolor desaparece y puede seguir caminando."
+        },
+        {
+          "id": "pavk.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist der wichtigste Unterschied zwischen der pAVK und einer venösen Erkrankung der Beine?",
+              "options": [
+                "Bei der pAVK fließt zu wenig Blut ins Bein hinein, bei der venösen Erkrankung fließt das Blut schlecht aus dem Bein ab",
+                "Bei der pAVK fließt das Blut schlecht aus dem Bein ab, bei der venösen Erkrankung fließt zu wenig Blut hinein",
+                "Es gibt keinen Unterschied, beide werden gleich behandelt",
+                "Die pAVK betrifft nur die Haut, die venöse Erkrankung nur die Muskeln"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei der pAVK ist der Blutrückfluss zum Herzen gestört, deshalb werden die Beine hochgelagert.",
+              "correct": false
+            }
+          ],
+          "es": "En la pAVK el problema es la llegada de sangre arterial a la pierna; en la enfermedad venosa el problema es el regreso de la sangre al corazón. Por eso los cuidados son contrarios: en la enfermedad arterial las piernas van hacia abajo y no se comprime; en la venosa se elevan y se comprimen."
+        },
+        {
+          "id": "pavk.definition.6",
+          "type": "sprech",
+          "q": "Was ist eine pAVK? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Die pAVK ist die periphere arterielle Verschlusskrankheit. Das ist eine chronische Verengung oder ein Verschluss der Arterien, meistens in den Beinen. Die häufigste Ursache ist die Arteriosklerose. Dadurch werden Muskeln und Haut schlechter mit Sauerstoff versorgt, und es kommt zuerst zu Schmerzen beim Gehen, später zu Ruheschmerzen und Nekrosen. Die Krankheit wird in vier Stadien nach Fontaine eingeteilt.",
+          "points": [
+            "Chronische Arterienverengung",
+            "Meist Beine betroffen",
+            "Ursache Arteriosklerose",
+            "Sauerstoffmangel im Gewebe",
+            "Stadien nach Fontaine"
+          ],
+          "es": "Aquí das la definición completa: enfermedad crónica de las arterias, casi siempre de las piernas, causada por Arteriosklerose (aterosclerosis). Explica la consecuencia (falta de oxígeno en el tejido) y menciona los estadios de Fontaine. Con eso muestras que entiendes la enfermedad y no solo la abreviatura."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "pavk.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben die Arterien des Körperkreislaufs?",
+              "options": [
+                "Sie transportieren sauerstoffarmes Blut zum Herzen zurück",
+                "Sie transportieren die Lymphe zu den Lymphknoten",
+                "Sie speichern das Blut in den Beinen",
+                "Sie transportieren sauerstoffreiches Blut vom Herzen zu den Organen und zum Gewebe"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Arterien des Körperkreislaufs bringen sauerstoffreiches Blut vom Herzen in das Gewebe.",
+              "correct": true
+            }
+          ],
+          "es": "Las Arterien (arterias) llevan sangre rica en oxígeno desde el corazón hasta los órganos y los tejidos. Si una arteria de la pierna está estrecha, al músculo y a la piel les falta oxígeno. Las Venen (venas) hacen lo contrario: regresan la sangre al corazón."
+        },
+        {
+          "id": "pavk.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welcher Reihenfolge fließt das Blut vom Becken bis zum Unterschenkel?",
+              "options": [
+                "A. poplitea → A. femoralis → A. iliaca → Unterschenkelarterien",
+                "A. iliaca → A. femoralis → A. poplitea → Unterschenkelarterien",
+                "A. femoralis → A. iliaca → Unterschenkelarterien → A. poplitea",
+                "A. iliaca → A. poplitea → A. femoralis → Unterschenkelarterien"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Die Arterie des Oberschenkels heißt A. ___.",
+              "options": ["radialis", "carotis", "femoralis", "brachialis"],
+              "correct": 2
+            }
+          ],
+          "es": "La sangre baja desde la aorta a la A. iliaca (arteria ilíaca, en la pelvis), luego a la A. femoralis (arteria femoral, en el muslo), a la A. poplitea (arteria poplítea, detrás de la rodilla) y por último a las arterias de la pantorrilla y del pie. Conocer este camino te ayuda a entender dónde puede estar la obstrucción."
+        },
+        {
+          "id": "pavk.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Arterie der Stelle zu, an der man ihren Puls tastet.",
+              "pairs": [
+                ["A. femoralis", "In der Leiste"],
+                ["A. poplitea", "In der Kniekehle"],
+                ["A. tibialis posterior", "Hinter dem Innenknöchel"],
+                ["A. dorsalis pedis", "Auf dem Fußrücken"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wo tastet man den Puls der A. dorsalis pedis?",
+              "options": [
+                "Auf dem Fußrücken",
+                "In der Kniekehle",
+                "In der Leiste",
+                "Hinter dem Außenknöchel"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "En la pierna se palpan cuatro pulsos: en la ingle (A. femoralis), detrás de la rodilla (A. poplitea), detrás del maléolo interno (A. tibialis posterior) y en el dorso del pie (A. dorsalis pedis). Los dos Fußpulse (pulsos del pie) son los que más revisas en la pAVK, siempre comparando los dos lados."
+        },
+        {
+          "id": "pavk.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient hat eine Engstelle in der Oberschenkelarterie. Wo spürt er typischerweise den Belastungsschmerz?",
+              "options": [
+                "Im Gesäß",
+                "In der Leiste",
+                "In der Wade",
+                "Im Rücken"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Belastungsschmerz bei der pAVK tritt typischerweise oberhalb der Engstelle auf.",
+              "correct": false
+            }
+          ],
+          "es": "El dolor aparece siempre por debajo de la zona estrecha, porque ahí falta la sangre. El tipo más frecuente es el Oberschenkeltyp (tipo femoral): la arteria del muslo está estrecha y duele la pantorrilla. Si la estrechez está en la pelvis, duelen el glúteo y el muslo."
+        },
+        {
+          "id": "pavk.anatomie.5",
+          "type": "sprech",
+          "q": "Beschreiben Sie die arterielle Versorgung des Beines. Wo können Sie die Pulse tasten?",
+          "answer": "Die Arterien transportieren sauerstoffreiches Blut vom Herzen in das Gewebe. Das Blut fließt von der Aorta über die Beckenarterie in die A. femoralis im Oberschenkel, dann in die A. poplitea in der Kniekehle und weiter in die Unterschenkel- und Fußarterien. Die Pulse taste ich in der Leiste, in der Kniekehle, hinter dem Innenknöchel und auf dem Fußrücken. Bei einer Engstelle ist das Gewebe unterhalb davon schlechter durchblutet.",
+          "points": [
+            "Sauerstoffreiches Blut",
+            "Becken, Oberschenkel, Kniekehle, Unterschenkel",
+            "Vier Pulstaststellen",
+            "Minderdurchblutung unterhalb der Engstelle"
+          ],
+          "es": "En esta respuesta describes el camino de la sangre arterial de arriba hacia abajo y nombras los cuatro puntos donde se palpa el pulso. Termina diciendo que el tejido que queda por debajo de la estrechez recibe menos sangre: esa es la relación entre la anatomía y la enfermedad."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "pavk.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die mit Abstand häufigste Ursache der pAVK?",
+              "options": [
+                "Eine Venenklappeninsuffizienz",
+                "Die Arteriosklerose",
+                "Eine bakterielle Infektion",
+                "Eine Verletzung des Beines"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die pAVK entsteht meistens durch eine Entzündung der Venen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "In etwa 95 % der Fälle ist die Ursache der pAVK eine ___.",
+              "options": ["Thrombophlebitis", "Varikose", "Arteriosklerose", "Lymphangitis"],
+              "correct": 2
+            }
+          ],
+          "es": "En alrededor del 95 % de los casos la causa es la Arteriosklerose (aterosclerosis), es decir, el endurecimiento y estrechamiento de las arterias por depósitos en su pared. Las causas inflamatorias de los vasos son raras. Por eso la pAVK comparte factores de riesgo con el infarto y el EVC."
+        },
+        {
+          "id": "pavk.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert bei der Arteriosklerose in der Gefäßwand?",
+              "options": [
+                "Die Gefäßwand wird dünner und reißt",
+                "Die Venenklappen schließen nicht mehr",
+                "Die Arterie erweitert sich dauerhaft",
+                "Es lagern sich Fette und Kalk ein (Plaques), das Gefäß wird eng und starr"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Arteriosklerose bilden sich Plaques in der Arterienwand, die das Gefäß verengen.",
+              "correct": true
+            }
+          ],
+          "es": "En la Arteriosklerose se depositan grasas y calcio en la pared de la arteria y se forman Plaques (placas). La arteria se vuelve estrecha y rígida, así que pasa menos sangre. Sobre una placa también puede formarse un trombo que tape el vaso por completo."
+        },
+        {
+          "id": "pavk.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum treten die Schmerzen im Stadium II zuerst nur bei Belastung auf?",
+              "options": [
+                "Weil der Muskel bei Belastung mehr Sauerstoff braucht, als durch die enge Arterie ankommt",
+                "Weil die Venen bei Belastung das Blut nicht abtransportieren",
+                "Weil die Gelenke bei Belastung entzündet sind",
+                "Weil die Nerven beim Gehen eingeklemmt werden"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Belastungsschmerz bei der pAVK entsteht durch einen Sauerstoffmangel (Ischämie) in der Muskulatur.",
+              "correct": true
+            }
+          ],
+          "es": "Al caminar, el músculo necesita más oxígeno. La arteria estrecha no puede llevar suficiente sangre y aparece una Ischämie (isquemia, falta de riego) que duele. En reposo la necesidad baja y el dolor desaparece; cuando la enfermedad avanza, la sangre ya no alcanza ni en reposo."
+        },
+        {
+          "id": "pavk.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was sind Kollateralen?",
+              "options": [
+                "Verkalkte Abschnitte einer Arterie",
+                "Venenklappen im Unterschenkel",
+                "Umgehungsgefäße, die das Blut an einer Engstelle vorbeileiten",
+                "Blutgerinnsel, die mit dem Blutstrom wandern"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Regelmäßiges Gehtraining hemmt die Bildung von Kollateralen.",
+              "correct": false
+            }
+          ],
+          "es": "Las Kollateralen (vasos colaterales) son pequeñas arterias que rodean la zona estrecha y forman un «desvío natural» para la sangre. El Gehtraining (entrenamiento de marcha) estimula su formación, no la frena. Por eso caminar es un tratamiento real en los estadios I y II."
+        },
+        {
+          "id": "pavk.ursachen.5",
+          "type": "sprech",
+          "q": "Wie entsteht eine pAVK? Erklären Sie die Ursache und den Mechanismus.",
+          "answer": "Die häufigste Ursache der pAVK ist die Arteriosklerose. Dabei lagern sich Fette und Kalk in der Arterienwand ab, es entstehen Plaques, und das Gefäß wird eng und starr. Hinter der Engstelle kommt zu wenig sauerstoffreiches Blut an, das nennt man Ischämie. Zuerst reicht die Durchblutung nur bei Belastung nicht aus, später auch in Ruhe, und das Gewebe kann absterben. Der Körper kann Umgehungsgefäße bilden, die Kollateralen.",
+          "points": [
+            "Arteriosklerose",
+            "Plaques verengen Arterie",
+            "Ischämie hinter der Engstelle",
+            "Erst Belastung, dann Ruhe",
+            "Kollateralen"
+          ],
+          "es": "Explica la cadena completa: Arteriosklerose → placas → arteria estrecha → Ischämie (falta de oxígeno) primero con el esfuerzo y después en reposo. Menciona también las Kollateralen, porque así puedes justificar más adelante por qué el entrenamiento de marcha ayuda."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "pavk.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor gilt als der wichtigste für die Entstehung einer pAVK?",
+              "options": [
+                "Langes Stehen im Beruf",
+                "Schwangerschaft",
+                "Rauchen",
+                "Zu wenig Trinken"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Rauchen ist der wichtigste beeinflussbare Risikofaktor der pAVK.",
+              "correct": true
+            }
+          ],
+          "es": "El Rauchen (tabaquismo) es el factor de riesgo más importante de la pAVK; por eso en alemán también se habla de «Raucherbein» (pierna del fumador). La nicotina daña la pared de las arterias y las contrae. Dejar de fumar es la medida básica en todos los estadios."
+        },
+        {
+          "id": "pavk.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier sind Hauptrisikofaktoren der pAVK?",
+              "options": [
+                "Rauchen",
+                "Diabetes mellitus",
+                "Langes Stehen",
+                "Arterielle Hypertonie",
+                "Hyperlipidämie",
+                "Schwangerschaft"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "tf",
+              "q": "Langes Stehen und Schwangerschaft sind die Hauptrisikofaktoren der pAVK.",
+              "correct": false
+            }
+          ],
+          "es": "Los cuatro factores principales son Rauchen (fumar), Diabetes mellitus, arterielle Hypertonie (presión alta) e Hyperlipidämie (grasas altas en sangre). Son los mismos de la Arteriosklerose en general. Estar mucho tiempo de pie y el embarazo son factores de las enfermedades venosas, no de la pAVK."
+        },
+        {
+          "id": "pavk.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist die pAVK bei Menschen mit Diabetes mellitus besonders gefährlich?",
+              "options": [
+                "Weil Diabetiker keine Arteriosklerose bekommen können",
+                "Weil durch die Polyneuropathie Schmerzen und Verletzungen am Fuß oft nicht bemerkt werden",
+                "Weil Insulin die Arterien sofort verschließt",
+                "Weil Diabetiker immer stärkere Schmerzen beim Gehen haben"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei Diabetikern mit Polyneuropathie können die typischen Schmerzen der pAVK fehlen.",
+              "correct": true
+            }
+          ],
+          "es": "La diabetes daña las arterias y además los nervios: la Polyneuropathie (polineuropatía) quita la sensibilidad del pie. La persona no siente el dolor de aviso ni las heridas pequeñas, y la mala circulación hace que no sanen. Por eso en diabéticos revisas los pies con especial cuidado."
+        },
+        {
+          "id": "pavk.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Risikofaktoren der richtigen Gruppe zu.",
+              "pairs": [
+                ["Rauchen", "Beeinflussbar durch Verzicht"],
+                ["Höheres Lebensalter", "Nicht beeinflussbar"],
+                ["Bewegungsmangel", "Beeinflussbar durch körperliche Aktivität"],
+                ["Hyperlipidämie", "Beeinflussbar durch Ernährung und Medikamente"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor der pAVK ist NICHT beeinflussbar?",
+              "options": [
+                "Übergewicht",
+                "Bluthochdruck",
+                "Rauchen",
+                "Höheres Lebensalter"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Se distinguen factores beeinflussbar (modificables) y nicht beeinflussbar (no modificables). La edad avanzada, el sexo masculino y la predisposición familiar no se pueden cambiar. Fumar, la presión, el azúcar, las grasas, el sobrepeso y la falta de movimiento sí: en ellos se basa tu asesoría."
+        },
+        {
+          "id": "pavk.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für eine pAVK kennen Sie?",
+          "answer": "Die Risikofaktoren der pAVK sind die Risikofaktoren der Arteriosklerose. Der wichtigste ist das Rauchen. Dazu kommen Diabetes mellitus, Bluthochdruck und erhöhte Blutfette, außerdem Übergewicht und Bewegungsmangel. Nicht beeinflussbar sind das höhere Lebensalter, das männliche Geschlecht und die familiäre Veranlagung.",
+          "points": [
+            "Rauchen",
+            "Diabetes mellitus",
+            "Hypertonie",
+            "Hyperlipidämie",
+            "Übergewicht und Bewegungsmangel",
+            "Alter, Geschlecht, Veranlagung"
+          ],
+          "es": "Empieza por el tabaquismo, que es el más importante, y sigue con diabetes, hipertensión y grasas altas. Cierra con los factores que no se pueden cambiar (edad, sexo masculino, herencia). Ordenarlos en modificables y no modificables hace que tu respuesta suene estructurada."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "pavk.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Claudicatio intermittens?",
+              "options": [
+                "Belastungsabhängige Muskelschmerzen im Bein, die den Patienten zum Stehenbleiben zwingen und in Ruhe nachlassen",
+                "Dauerhafte Schmerzen im Bein, die beim Gehen besser werden",
+                "Schwellung beider Beine am Abend",
+                "Nächtliche Wadenkrämpfe durch Magnesiummangel"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Schmerzen der Claudicatio intermittens bessern sich, wenn der Patient weitergeht.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Claudicatio intermittens ist das Leitsymptom im Stadium ___ nach Fontaine.",
+              "options": ["I", "II", "III", "IV"],
+              "correct": 1
+            }
+          ],
+          "es": "La Claudicatio intermittens (claudicación intermitente) es el síntoma principal del estadio II: dolor muscular, casi siempre en la pantorrilla, que aparece al caminar cierta distancia y obliga a parar. Con unos minutos de descanso desaparece. Si la persona sigue caminando, el dolor aumenta, no mejora."
+        },
+        {
+          "id": "pavk.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie unterscheiden sich die Stadien IIa und IIb nach Fontaine?",
+              "options": [
+                "IIa: Schmerzen nur nachts, IIb: Schmerzen nur tagsüber",
+                "IIa: ein Bein betroffen, IIb: beide Beine betroffen",
+                "IIa: schmerzfreie Gehstrecke über 200 m, IIb: schmerzfreie Gehstrecke unter 200 m",
+                "IIa: ohne Nekrose, IIb: mit Nekrose"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Im Stadium IIb nach Fontaine beträgt die schmerzfreie Gehstrecke weniger als ___ Meter.",
+              "options": ["50", "500", "1000", "200"],
+              "correct": 3
+            }
+          ],
+          "es": "El estadio II se divide según la schmerzfreie Gehstrecke (distancia que camina sin dolor): IIa más de 200 metros, IIb menos de 200 metros. Por eso siempre preguntas y documentas cuántos metros puede caminar la persona antes de que empiece el dolor."
+        },
+        {
+          "id": "pavk.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist typisch für den Ruheschmerz im Stadium III?",
+              "options": [
+                "Er tritt vor allem im Stehen auf und bessert sich im Liegen",
+                "Er tritt vor allem nachts im Liegen auf und bessert sich, wenn das Bein herabhängt",
+                "Er bessert sich, wenn das Bein hochgelagert wird",
+                "Er tritt nur nach dem Essen auf"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Ruheschmerz bei der pAVK bessert sich, wenn der Patient das Bein hochlagert.",
+              "correct": false
+            }
+          ],
+          "es": "El Ruheschmerz (dolor en reposo) del estadio III aparece sobre todo de noche, acostado, en los dedos y el antepié. Mejora cuando la persona deja colgar la pierna fuera de la cama, porque la gravedad ayuda a que llegue sangre. Elevar la pierna lo empeora: justo al revés que en la enfermedad venosa."
+        },
+        {
+          "id": "pavk.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sind typisch für ein Bein mit pAVK?",
+              "options": [
+                "Blasse, kühle Haut",
+                "Warme, gerötete und geschwollene Haut",
+                "Abgeschwächte oder fehlende Fußpulse",
+                "Schlecht heilende Wunden",
+                "Ödeme, die über Nacht verschwinden"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bei der pAVK ist das betroffene Bein typischerweise blass und kühl, und die Fußpulse sind abgeschwächt oder fehlen.",
+              "correct": true
+            }
+          ],
+          "es": "La pierna con pAVK se ve blass (pálida) y se siente kühl (fría), y los pulsos del pie están débiles o no se palpan. Además la piel es delgada, se pierde el vello y las heridas tardan mucho en sanar. Una pierna caliente, roja e hinchada hace pensar más bien en un problema venoso o en una infección."
+        },
+        {
+          "id": "pavk.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Merkmale dem arteriellen oder venösen Ulkus zu.",
+              "pairs": [
+                ["Arterielles Ulkus: Lokalisation", "Zehen, Ferse, Außenknöchel"],
+                ["Venöses Ulkus: Lokalisation", "Meist oberhalb des Innenknöchels"],
+                ["Arterielles Ulkus: Umgebung", "Blasse, kühle Haut, Fußpulse fehlen"],
+                ["Venöses Ulkus: Umgebung", "Ödem und bräunliche Hautverfärbung"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wo liegt ein arterielles Ulkus im Stadium IV nach Fontaine typischerweise?",
+              "options": [
+                "Oberhalb des Innenknöchels",
+                "In der Kniekehle",
+                "An der Innenseite des Oberschenkels",
+                "An Zehen, Ferse oder Außenknöchel"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "En el estadio IV el tejido muere: hay Nekrose (necrosis), Gangrän (gangrena) o un Ulkus (úlcera). Las lesiones arteriales están en los puntos más lejanos y de presión: dedos, talón y maléolo externo, y suelen doler mucho. El Ulcus cruris venosum (úlcera venosa) está casi siempre arriba del maléolo interno."
+        },
+        {
+          "id": "pavk.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit pAVK? Orientieren Sie sich an den Stadien nach Fontaine.",
+          "answer": "Im Stadium I hat der Patient keine Beschwerden. Im Stadium II hat er die Claudicatio intermittens: Schmerzen beim Gehen, meist in der Wade, die in Ruhe wieder verschwinden. Im Stadium III bestehen Ruheschmerzen, vor allem nachts im Liegen, die sich bessern, wenn das Bein herabhängt. Im Stadium IV kommt es zu Nekrosen, Gangrän oder Ulzera, vor allem an Zehen und Ferse. Außerdem ist das Bein blass und kühl, und die Fußpulse sind abgeschwächt oder fehlen.",
+          "points": [
+            "Stadium I beschwerdefrei",
+            "Claudicatio intermittens",
+            "Ruheschmerz nachts",
+            "Nekrose und Gangrän",
+            "Blasse, kühle Haut",
+            "Fehlende Fußpulse"
+          ],
+          "es": "La forma más clara de responder es ir estadio por estadio: I sin molestias, II dolor al caminar, III dolor en reposo sobre todo de noche, IV necrosis. Añade los signos que tú observas como enfermera: piel pálida y fría y pulsos del pie débiles o ausentes."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "pavk.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was gehört zur körperlichen Basisuntersuchung bei Verdacht auf eine pAVK?",
+              "options": [
+                "Das Messen des Bauchumfangs",
+                "Die Kontrolle der Pupillenreaktion",
+                "Das Tasten der Pulse an beiden Beinen im Seitenvergleich",
+                "Das Abhören der Darmgeräusche"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Beim Pulsstatus werden die Pulse immer nur am betroffenen Bein getastet.",
+              "correct": false
+            }
+          ],
+          "es": "El Pulsstatus (exploración de los pulsos) es la base del diagnóstico: se palpan los pulsos de la ingle, la rodilla y el pie en las dos piernas y se comparan. Un pulso débil o ausente en un lado indica una estrechez más arriba. También se observan el color y la temperatura de la piel."
+        },
+        {
+          "id": "pavk.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was wird beim Knöchel-Arm-Index (ABI) verglichen?",
+              "options": [
+                "Der Umfang von Knöchel und Oberarm",
+                "Der systolische Blutdruck am Knöchel mit dem systolischen Blutdruck am Arm",
+                "Die Hauttemperatur von Fuß und Hand",
+                "Die Pulsfrequenz am Fuß mit der Pulsfrequenz am Handgelenk"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Ein Knöchel-Arm-Index unter ___ spricht für eine pAVK.",
+              "options": ["0,9", "1,5", "2,0", "3,0"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Knöchel-Arm-Index unter 0,9 spricht für eine pAVK.",
+              "correct": true
+            }
+          ],
+          "es": "El Knöchel-Arm-Index, abreviado ABI (índice tobillo-brazo), divide la presión sistólica del tobillo entre la del brazo; se mide con una sonda Doppler. En una persona sana la presión del tobillo es igual o un poco mayor que la del brazo. Un valor menor de 0,9 indica pAVK: mientras más bajo, más grave."
+        },
+        {
+          "id": "pavk.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung zeigt ohne Strahlen und ohne Kontrastmittel die Gefäße und den Blutfluss?",
+              "options": [
+                "Die Röntgenaufnahme des Beines",
+                "Die Angiografie",
+                "Das EKG",
+                "Die Duplexsonografie"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Duplexsonografie ist eine Ultraschalluntersuchung, mit der man Engstellen in den Arterien und den Blutfluss darstellen kann.",
+              "correct": true
+            }
+          ],
+          "es": "La Duplexsonografie (ultrasonido dúplex) es el estudio de imagen más importante: muestra la pared del vaso y el flujo de sangre, sin radiación, sin medio de contraste y sin dolor. Con ella se ve dónde está la estrechez y qué tan grave es."
+        },
+        {
+          "id": "pavk.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wozu dient der standardisierte Gehtest, zum Beispiel auf dem Laufband?",
+              "options": [
+                "Zur Bestimmung der schmerzfreien und der maximalen Gehstrecke",
+                "Zur Messung des Blutzuckers unter Belastung",
+                "Zur Kontrolle der Lungenfunktion",
+                "Zur Beurteilung des Gleichgewichts"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die schmerzfreie Gehstrecke ist für die Stadieneinteilung der pAVK ohne Bedeutung.",
+              "correct": false
+            }
+          ],
+          "es": "Con el Gehtest (prueba de marcha), muchas veces en la caminadora, se mide de forma objetiva cuántos metros camina la persona sin dolor y cuántos como máximo. Ese dato sirve para clasificar el estadio II (a o b) y para ver si el tratamiento funciona."
+        },
+        {
+          "id": "pavk.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Pflegefachperson nach einer Angiografie über die Leistenarterie?",
+              "options": [
+                "Punktionsstelle und Druckverband auf Nachblutung kontrollieren",
+                "Den Patienten sofort zum Gehtraining mobilisieren",
+                "Fußpulse, Hautfarbe und Temperatur des Beines kontrollieren",
+                "Bettruhe nach ärztlicher Anordnung einhalten lassen",
+                "Das Bein in der Hüfte stark beugen lassen"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Angiografie über die Leiste darf der Patient sofort aufstehen und das Bein frei bewegen.",
+              "correct": false
+            }
+          ],
+          "es": "En la Angiografie (angiografía) se inyecta medio de contraste por un catéter, casi siempre en la arteria de la ingle. Después hay riesgo de Nachblutung (sangrado) y de oclusión del vaso: por eso vigilas el sitio de punción y el Druckverband (vendaje compresivo), los pulsos del pie, y la persona guarda reposo en cama según la indicación médica."
+        },
+        {
+          "id": "pavk.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird eine pAVK diagnostiziert?",
+          "answer": "Am Anfang stehen die Anamnese mit der Frage nach der schmerzfreien Gehstrecke und die Inspektion der Beine. Dann werden die Pulse an beiden Beinen im Seitenvergleich getastet. Mit dem Knöchel-Arm-Index vergleicht man den Blutdruck am Knöchel mit dem am Arm, ein Wert unter 0,9 spricht für eine pAVK. Die Duplexsonografie zeigt die Engstellen und den Blutfluss. Vor einem Eingriff wird oft eine Angiografie mit Kontrastmittel gemacht.",
+          "points": [
+            "Anamnese mit Gehstrecke",
+            "Inspektion der Beine",
+            "Pulsstatus im Seitenvergleich",
+            "Knöchel-Arm-Index",
+            "Duplexsonografie",
+            "Angiografie"
+          ],
+          "es": "Ordena la respuesta de lo sencillo a lo complejo: preguntar por la distancia de marcha, observar la piel, palpar los pulsos, medir el ABI, luego ultrasonido dúplex y al final la angiografía. Así muestras que conoces el camino diagnóstico y lo que significa cada estudio."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "pavk.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welchen Stadien nach Fontaine ist das Gehtraining ein zentraler Teil der Therapie?",
+              "options": [
+                "Nur im Stadium IV",
+                "In den Stadien III und IV",
+                "In den Stadien I und II",
+                "In keinem Stadium"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Im Stadium III und IV ist das Gehtraining die wichtigste Therapie.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Beim Gehtraining geht der Patient bis zum Beginn der Schmerzen, macht dann eine ___ und geht danach weiter.",
+              "options": ["Pause", "Kniebeuge", "Kälteanwendung", "Hochlagerung"],
+              "correct": 0
+            }
+          ],
+          "es": "El Gehtraining (entrenamiento de marcha) se usa en los estadios I y II: la persona camina hasta que empieza el dolor, descansa hasta que se quita y vuelve a caminar, de forma regular. Así se forman Kollateralen y aumenta la distancia de marcha. En los estadios III y IV está contraindicado, porque el tejido ya no recibe suficiente sangre ni en reposo."
+        },
+        {
+          "id": "pavk.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme ist in allen Stadien der pAVK die Basis der Therapie?",
+              "options": [
+                "Kompressionstherapie",
+                "Behandlung der Risikofaktoren, vor allem Rauchstopp",
+                "Strenge Bettruhe",
+                "Amputation"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Rauchstopp und die Behandlung von Diabetes, Bluthochdruck und Blutfetten gehören in jedem Stadium zur Therapie der pAVK.",
+              "correct": true
+            }
+          ],
+          "es": "La base del tratamiento en todos los estadios es controlar los factores de riesgo: sobre todo el Rauchstopp (dejar de fumar), y además ajustar bien el azúcar, la presión y las grasas en sangre. Sin esto, la Arteriosklerose sigue avanzando aunque se abra o se puentee el vaso."
+        },
+        {
+          "id": "pavk.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum erhalten Patienten mit pAVK Thrombozytenaggregationshemmer wie ASS oder Clopidogrel?",
+              "options": [
+                "Um die Schmerzen direkt zu lindern",
+                "Um den Blutzucker zu senken",
+                "Um Ödeme auszuschwemmen",
+                "Um die Bildung von Blutgerinnseln in den Arterien zu verhindern"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Einnahme von Thrombozytenaggregationshemmern beobachtet die Pflegefachperson den Patienten auf Blutungszeichen.",
+              "correct": true
+            }
+          ],
+          "es": "Los Thrombozytenaggregationshemmer (antiagregantes plaquetarios), como ASS (ácido acetilsalicílico) o Clopidogrel, evitan que las plaquetas se peguen y formen un trombo en la arteria estrecha. También bajan el riesgo de infarto y de EVC. Tú observas Blutungszeichen (signos de sangrado), por ejemplo moretones, sangrado de nariz o encías y heces negras."
+        },
+        {
+          "id": "pavk.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Verfahren der Beschreibung zu.",
+              "pairs": [
+                ["PTA", "Aufdehnen der Engstelle mit einem Ballonkatheter"],
+                ["Stent", "Gefäßstütze, die die Arterie offen hält"],
+                ["Bypass", "Operative Umgehung des verschlossenen Gefäßabschnitts"],
+                ["Amputation", "Letzte Möglichkeit, wenn das Gewebe nicht zu retten ist"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was passiert bei einer PTA (perkutane transluminale Angioplastie)?",
+              "options": [
+                "Die verengte Arterie wird mit einem Ballonkatheter aufgedehnt",
+                "Eine Vene wird operativ entfernt",
+                "Das Bein wird oberhalb des Knies abgenommen",
+                "Ein Blutgerinnsel wird mit Medikamenten in der Vene aufgelöst"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Para volver a abrir el paso de la sangre hay varios métodos: la PTA (angioplastia con balón, a veces con Stent), el Bypass (puente quirúrgico que rodea la obstrucción) y, solo como último recurso, la Amputation, cuando el tejido ya no se puede salvar. Estos procedimientos se usan sobre todo cuando las molestias son fuertes y en los estadios III y IV."
+        },
+        {
+          "id": "pavk.therapie.5",
+          "type": "sprech",
+          "q": "Wie wird eine pAVK behandelt? Geben Sie einen Überblick.",
+          "answer": "Die Basis in allen Stadien ist die Behandlung der Risikofaktoren, vor allem der Rauchstopp und die gute Einstellung von Diabetes, Blutdruck und Blutfetten. Die Patienten bekommen Thrombozytenaggregationshemmer wie ASS. In den Stadien I und II ist das Gehtraining sehr wichtig. Wenn die Durchblutung nicht ausreicht, wird das Gefäß mit einer PTA, eventuell mit Stent, oder mit einer Bypass-Operation wieder durchgängig gemacht. Im Stadium III und IV kommen Schmerztherapie und Wundbehandlung dazu, die Amputation ist die letzte Möglichkeit.",
+          "points": [
+            "Risikofaktoren behandeln",
+            "Rauchstopp",
+            "Thrombozytenaggregationshemmer",
+            "Gehtraining Stadium I–II",
+            "PTA, Stent, Bypass",
+            "Amputation als letzte Möglichkeit"
+          ],
+          "es": "Presenta el tratamiento por niveles: primero la base para todos (factores de riesgo, dejar de fumar, antiagregantes), luego el entrenamiento de marcha en estadios I–II, después los procedimientos para abrir el vaso y al final la amputación como último recurso. Ese orden refleja que el tratamiento depende del estadio."
+        },
+        {
+          "id": "pavk.therapie.6",
+          "type": "sprech",
+          "q": "Ein Patient kommt nach einer PTA oder einer Bypass-Operation am Bein zurück auf Ihre Station. Worauf achten Sie?",
+          "answer": "Ich kontrolliere engmaschig die Vitalzeichen und das Bewusstsein. Ich beobachte die Punktionsstelle oder die Wunde und den Verband auf Nachblutung. Am betroffenen Bein kontrolliere ich regelmäßig Fußpulse, Hautfarbe, Temperatur, Sensibilität und Beweglichkeit und vergleiche mit der anderen Seite. Der Patient hält die angeordnete Bettruhe ein und soll das Bein in Hüfte und Knie nicht stark beugen. Bei Schmerzen, einem blassen und kalten Bein oder fehlenden Pulsen informiere ich sofort den Arzt.",
+          "points": [
+            "Vitalzeichenkontrolle",
+            "Nachblutung beobachten",
+            "Fußpulse kontrollieren",
+            "Hautfarbe, Temperatur, Sensibilität, Beweglichkeit",
+            "Bettruhe nach Anordnung",
+            "Arzt sofort informieren"
+          ],
+          "es": "Después de una PTA o de un Bypass hay dos peligros: el sangrado y que el vaso se vuelva a tapar. Por eso vigilas signos vitales, el vendaje y, en la pierna, pulsos, color, temperatura, sensibilidad y movimiento. Una pierna que de pronto está pálida, fría y con dolor es una urgencia y avisas de inmediato al médico."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "pavk.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein akuter arterieller Verschluss?",
+              "options": [
+                "Eine langsam zunehmende Schwellung des Beines",
+                "Eine Entzündung einer oberflächlichen Vene",
+                "Ein chronisches Geschwür am Unterschenkel",
+                "Der plötzliche Verschluss einer Arterie durch einen Embolus oder Thrombus – ein Notfall"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der akute arterielle Verschluss ist ein Notfall, weil das Gewebe ohne Durchblutung nach wenigen Stunden abstirbt.",
+              "correct": true
+            }
+          ],
+          "es": "El akuter arterieller Verschluss (oclusión arterial aguda) es el cierre repentino de una arteria por un émbolo, que muchas veces viene del corazón (por ejemplo en la fibrilación auricular), o por un trombo sobre una placa. Es un Notfall (urgencia): sin sangre, el tejido muere en pocas horas y se puede perder la pierna."
+        },
+        {
+          "id": "pavk.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die englischen Begriffe der 6 P nach Pratt der deutschen Bedeutung zu.",
+              "pairs": [
+                ["Pain", "Plötzlicher starker Schmerz"],
+                ["Paleness", "Blässe"],
+                ["Pulselessness", "Pulslosigkeit"],
+                ["Paralysis", "Bewegungsunfähigkeit"]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen gehören zu den 6 P nach Pratt beim akuten arteriellen Verschluss?",
+              "options": [
+                "Schmerz",
+                "Blässe",
+                "Überwärmung",
+                "Pulslosigkeit",
+                "Gefühlsstörung",
+                "Rötung"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "tf",
+              "q": "Beim akuten arteriellen Verschluss ist das Bein typischerweise warm, gerötet und geschwollen.",
+              "correct": false
+            }
+          ],
+          "es": "Las 6 P nach Pratt describen la oclusión arterial aguda: Pain (dolor), Paleness (palidez), Pulselessness (sin pulso), Paresthesia (alteración de la sensibilidad), Paralysis (no puede mover) y Prostration (choque). La pierna está pálida y fría. Caliente, roja e hinchada corresponde más bien a una trombosis venosa."
+        },
+        {
+          "id": "pavk.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Erstmaßnahmen sind beim Verdacht auf einen akuten arteriellen Verschluss richtig?",
+              "options": [
+                "Sofort den Arzt informieren",
+                "Das Bein hochlagern",
+                "Das Bein tief lagern",
+                "Das Bein mit einem Watteverband locker schützen",
+                "Eine Wärmflasche auflegen"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Beim akuten arteriellen Verschluss wird das Bein hochgelagert und mit einer Wärmflasche gewärmt.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum bleibt ein Patient mit Verdacht auf einen akuten arteriellen Verschluss nüchtern?",
+              "options": [
+                "Weil Essen die Schmerzen verstärkt",
+                "Weil möglicherweise sofort ein Eingriff oder eine Operation nötig ist",
+                "Weil der Blutzucker sonst zu stark steigt",
+                "Weil er Bettruhe hat"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Si sospechas una oclusión aguda: avisas de inmediato al médico, colocas la pierna hacia abajo, la proteges con un Watteverband (vendaje flojo de algodón) y la persona queda en reposo y en ayuno, porque puede necesitar una intervención urgente. Nunca elevas la pierna, ni pones calor, frío o presión, y no aplicas inyecciones intramusculares."
+        },
+        {
+          "id": "pavk.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                ["Nekrose", "Abgestorbenes Gewebe"],
+                ["Trockene Gangrän", "Schwarzes, trockenes, eingeschrumpftes Gewebe"],
+                ["Feuchte Gangrän", "Infiziertes, feuchtes, übel riechendes Gewebe mit Sepsisgefahr"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Warum ist eine feuchte Gangrän besonders gefährlich?",
+              "options": [
+                "Weil sie sich nicht verbinden lässt",
+                "Weil sie immer beide Beine betrifft",
+                "Weil sie infiziert ist und zu einer Sepsis führen kann",
+                "Weil sie keine Schmerzen verursacht"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Cuando el tejido se queda sin sangre muere: eso es la Nekrose. La trockene Gangrän (gangrena seca) es negra y seca, como momificada. La feuchte Gangrän (gangrena húmeda) está infectada, huele mal y puede causar una Sepsis; por eso una necrosis seca se mantiene seca y no se humedece."
+        },
+        {
+          "id": "pavk.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Menschen mit pAVK ein erhöhtes Risiko für Herzinfarkt und Schlaganfall?",
+              "options": [
+                "Weil die Arteriosklerose meist auch die Herzkranzgefäße und die Hirngefäße betrifft",
+                "Weil sie zu wenig trinken",
+                "Weil das Gehtraining das Herz überlastet",
+                "Weil Blutgerinnsel aus den Beinvenen ins Gehirn wandern"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die pAVK ist ein Hinweis darauf, dass auch andere Arterien im Körper von Arteriosklerose betroffen sein können.",
+              "correct": true
+            }
+          ],
+          "es": "La Arteriosklerose es una enfermedad de todo el cuerpo. Quien tiene las arterias de las piernas estrechas, muchas veces también tiene afectadas las coronarias y las arterias del cerebro. Por eso muchos pacientes con pAVK mueren de Herzinfarkt (infarto) o Schlaganfall (EVC), y por eso se tratan con tanto cuidado los factores de riesgo."
+        },
+        {
+          "id": "pavk.komplikationen.6",
+          "type": "sprech",
+          "q": "Sie betreten das Zimmer eines Patienten mit pAVK. Er klagt über plötzliche, sehr starke Schmerzen im Bein, das Bein ist blass und kalt. Woran denken Sie und was tun Sie?",
+          "answer": "Ich denke an einen akuten arteriellen Verschluss, das ist ein Notfall. Typisch sind die 6 P nach Pratt: Schmerz, Blässe, Pulslosigkeit, Gefühlsstörung, Bewegungsunfähigkeit und Schock. Ich informiere sofort den Arzt, lagere das Bein tief und schütze es locker mit einem Watteverband, ohne Wärme, Kälte oder Druck. Der Patient hat Bettruhe und bleibt nüchtern, ich kontrolliere die Vitalzeichen und gebe keine intramuskulären Injektionen. Medikamente wie Schmerzmittel und Heparin gebe ich nur nach ärztlicher Anordnung.",
+          "points": [
+            "Akuter arterieller Verschluss",
+            "6 P nach Pratt",
+            "Arzt sofort informieren",
+            "Bein tief lagern",
+            "Watteverband, keine Wärme",
+            "Nüchtern, Vitalzeichenkontrolle"
+          ],
+          "es": "Esta es una pregunta clásica de urgencia. Primero nombras la sospecha (oclusión arterial aguda) y la reconoces con las 6 P. Luego dices lo que haces: avisar al médico, pierna hacia abajo, Watteverband, reposo, ayuno y signos vitales. Y lo que no haces: elevar, calentar, enfriar, comprimir ni inyectar por vía intramuscular."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "pavk.pflegemassnahmen.1",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie werden die Beine bei einem Patienten mit pAVK und Ruheschmerzen gelagert?",
+              "options": [
+                "Hoch, über Herzniveau",
+                "Tief, zum Beispiel mit schräg gestelltem Bett (Fußende tiefer)",
+                "Auf einer Schiene mit gebeugtem Knie über Herzniveau",
+                "Fest gewickelt und hochgelagert"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der pAVK werden die Beine hochgelagert, damit sie besser durchblutet werden.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Merksatz: Arterien ___ lagern, Venen hoch lagern.",
+              "options": ["warm", "fest", "tief", "flach"],
+              "correct": 2
+            }
+          ],
+          "es": "En la pAVK las piernas se colocan hacia abajo (Beintieflagerung), por ejemplo inclinando toda la cama con los pies más bajos. La gravedad ayuda a que la sangre arterial llegue al pie y el dolor disminuye. Elevar las piernas es correcto en las enfermedades venosas, pero en la pAVK empeora la circulación."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit pAVK?",
+          "answer": "Ich beobachte beide Beine und Füße im Seitenvergleich: Hautfarbe, Hauttemperatur und Fußpulse. Ich inspiziere die Haut täglich auf Druckstellen, Verletzungen, Nekrosen und Infektionszeichen, besonders an Zehen, Zehenzwischenräumen und Fersen. Ich erfasse die Schmerzen mit einer Schmerzskala und frage nach der schmerzfreien Gehstrecke. Außerdem kontrolliere ich die Vitalzeichen und bei Diabetikern den Blutzucker. Veränderungen dokumentiere ich und melde sie dem Arzt.",
+          "points": [
+            "Hautfarbe und Temperatur",
+            "Fußpulse im Seitenvergleich",
+            "Tägliche Hautinspektion",
+            "Schmerzerfassung mit Skala",
+            "Gehstrecke",
+            "Vitalzeichenkontrolle"
+          ],
+          "es": "La observación se concentra en la circulación y en la piel de los pies: color, temperatura, pulsos y lesiones, siempre comparando las dos piernas. También valoras el dolor con una Schmerzskala (escala de dolor) y la distancia de marcha. Así detectas a tiempo que la enfermedad empeora o que hay una oclusión aguda."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.3",
+          "type": "wissen",
+          "sub": "koerperpflege",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum dürfen bei der pAVK keine Wärmflaschen oder Heizkissen an den Beinen verwendet werden?",
+              "options": [
+                "Weil Wärme die Arterien dauerhaft verschließt",
+                "Weil Wärme den Blutdruck senkt",
+                "Weil der Patient davon Fieber bekommt",
+                "Weil Wärme den Sauerstoffbedarf des Gewebes erhöht und wegen gestörter Durchblutung und Sensibilität Verbrennungen drohen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Kalte Füße bei pAVK dürfen mit einer Wärmflasche oder einem heißen Fußbad gewärmt werden.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Anwendungen sind an Beinen mit pAVK verboten?",
+              "options": [
+                "Wärmflasche oder Heizkissen",
+                "Warme Wollsocken",
+                "Kälteanwendungen wie Eispackungen",
+                "Heiße Fußbäder",
+                "Lockerer Watteverband"
+              ],
+              "correct": [0, 2, 3]
+            }
+          ],
+          "es": "En la pAVK no se aplica calor directo (Wärmflasche = bolsa de agua caliente, Heizkissen = cojín eléctrico, baños calientes): el calor aumenta la necesidad de oxígeno del tejido, y la arteria enferma no puede llevar más sangre; además hay riesgo de quemaduras. Tampoco frío, porque contrae los vasos. Los pies se mantienen tibios con calcetines de lana o un Watteverband."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum sind Kompressionsstrümpfe und Kompressionsverbände bei fortgeschrittener pAVK kontraindiziert?",
+              "options": [
+                "Weil der Druck von außen die ohnehin schlechte arterielle Durchblutung weiter verschlechtert",
+                "Weil sie den venösen Rückfluss verschlechtern",
+                "Weil sie die Haut zu stark wärmen",
+                "Weil sie die Gehstrecke verlängern"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Zur Thromboseprophylaxe erhalten Patienten mit fortgeschrittener pAVK medizinische Thromboseprophylaxestrümpfe.",
+              "correct": false
+            }
+          ],
+          "es": "La compresión aprieta desde afuera y reduce todavía más la sangre arterial que llega al pie; por eso en la pAVK avanzada no se usan medias ni vendajes de compresión. Para la Thromboseprophylaxe (prevención de trombosis) en pacientes inmóviles se usan movimiento, ejercicios y medicamentos según la indicación médica, pero no medias."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie lagern und mobilisieren Sie einen Patienten mit pAVK? Unterscheiden Sie nach dem Stadium.",
+          "answer": "In den Stadien I und II fördere ich die Bewegung und leite den Patienten zum Gehtraining an: Er geht bis zum Beginn der Schmerzen, macht eine Pause und geht dann weiter. In den Stadien III und IV ist das Gehtraining kontraindiziert. Dann lagere ich die Beine tief, zum Beispiel mit schräg gestelltem Bett, und niemals hoch. Ich lagere die Beine weich, die Fersen liegen frei, und ich vermeide jeden Druck. Die Mobilisation erfolgt schonend nach ärztlicher Anordnung und mit gutem Schuhwerk.",
+          "points": [
+            "Gehtraining Stadium I–II",
+            "Kein Gehtraining Stadium III–IV",
+            "Beine tief lagern",
+            "Weichlagerung, Fersen frei",
+            "Druck vermeiden"
+          ],
+          "es": "La movilización depende del estadio: en I y II se fomenta caminar con el Gehtraining; en III y IV ya no se entrena y lo importante es colocar las piernas hacia abajo, sobre superficie blanda y con los talones libres. Decir esta diferencia de forma clara es lo que más valoran en el examen."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Fußpflege bei einem Patienten mit pAVK durch?",
+          "answer": "Ich inspiziere die Füße täglich, auch die Zehenzwischenräume und die Fußsohlen. Ich wasche die Füße kurz mit lauwarmem Wasser und einer milden Waschlotion, ohne lange Fußbäder, und trockne sie vorsichtig und gründlich ab, besonders zwischen den Zehen. Die trockene Haut creme ich ein, aber nicht zwischen den Zehen. Die Nägel werden gerade gefeilt und nicht mit spitzen Scheren geschnitten, am besten durch eine podologische Fußpflege. Jede kleine Verletzung melde ich, weil Wunden bei pAVK schlecht heilen.",
+          "points": [
+            "Tägliche Inspektion",
+            "Lauwarm waschen, kein langes Fußbad",
+            "Zehenzwischenräume gut abtrocknen",
+            "Haut eincremen",
+            "Nägel feilen, Podologie",
+            "Verletzungen vermeiden und melden"
+          ],
+          "es": "La piel con mala circulación se lastima fácil y sana mal; una herida pequeña puede terminar en necrosis. Por eso el cuidado de los pies es muy suave: revisar diario, agua tibia y poco tiempo, secar bien entre los dedos, hidratar la piel y limar las uñas en lugar de cortarlas. La podologische Fußpflege (podología) es lo ideal."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist die Dekubitusprophylaxe bei pAVK so wichtig, und wie führen Sie sie durch?",
+          "answer": "Durch die schlechte arterielle Durchblutung ist das Gewebe sehr empfindlich gegen Druck, und ein Dekubitus heilt kaum ab. Besonders gefährdet sind die Fersen und die Knöchel. Ich lagere die Fersen frei und die Beine weich, zum Beispiel mit einem Watteverband oder weichen Kissen, aber nicht über Herzniveau. Ich wechsle regelmäßig die Position, vermeide Reibung und Scherkräfte und inspiziere die Haut täglich. Außerdem sorge ich dafür, dass die Bettdecke nicht auf die Zehen drückt, zum Beispiel mit einem Bettbogen.",
+          "points": [
+            "Gewebe druckempfindlich",
+            "Fersen besonders gefährdet",
+            "Fersenfreilagerung",
+            "Weichlagerung, Watteverband",
+            "Regelmäßiger Positionswechsel",
+            "Tägliche Hautinspektion"
+          ],
+          "es": "La Dekubitusprophylaxe (prevención de úlceras por presión) es la profilaxis más importante en la pAVK: el tejido con poca sangre tolera muy mal la presión, sobre todo en los talones. Dejas los Fersen (talones) libres, usas superficies blandas, cambias de posición y revisas la piel a diario. Un Bettbogen (arco de cama) evita que la cobija presione los dedos."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei Kleidung, Strümpfen und Schuhen eines Patienten mit pAVK?",
+          "answer": "Die Kleidung darf nicht einschnüren, also keine engen Strümpfe mit festem Bündchen und keine Kompressionsstrümpfe. Die Füße halte ich mit warmen Socken aus Wolle oder Baumwolle oder mit einem Watteverband warm, aber ohne direkte Wärmequelle. Die Socken werden täglich gewechselt und haben keine drückenden Nähte. Die Schuhe sind bequem, weich und weit genug und haben keine Druckstellen. Der Patient kontrolliert die Schuhe vor dem Anziehen auf Fremdkörper und läuft nicht barfuß.",
+          "points": [
+            "Keine einschnürende Kleidung",
+            "Keine Kompressionsstrümpfe",
+            "Warme Socken oder Watteverband",
+            "Bequeme, weite Schuhe",
+            "Schuhe auf Fremdkörper prüfen",
+            "Nicht barfuß laufen"
+          ],
+          "es": "La ropa y los zapatos no deben apretar ni lastimar: nada de resortes ajustados ni medias de compresión, calcetines calientitos y sin costuras que marquen, zapatos cómodos y amplios. Revisar el zapato por dentro y no andar descalzo evita heridas pequeñas que en la pAVK pueden volverse graves."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Ein Patient mit pAVK im Stadium II wird entlassen. Wozu beraten Sie ihn?",
+          "answer": "Ich erkläre ihm, dass der Rauchstopp die wichtigste Maßnahme ist, und informiere über Hilfen zur Raucherentwöhnung. Ich leite ihn zum regelmäßigen Gehtraining an und empfehle eine Gefäßsportgruppe. Er soll seine Füße täglich kontrollieren, Verletzungen vermeiden, bequeme Schuhe tragen und keine Wärmflasche oder Heizkissen benutzen. Ich erkläre, warum er seine Medikamente regelmäßig einnehmen und Blutdruck, Blutzucker und Blutfette kontrollieren lassen soll. Bei plötzlichen starken Schmerzen, einem kalten, blassen Bein oder einer Wunde am Fuß muss er sofort zum Arzt.",
+          "points": [
+            "Rauchstopp",
+            "Regelmäßiges Gehtraining",
+            "Tägliche Fußkontrolle",
+            "Keine Wärmflasche",
+            "Regelmäßige Medikamenteneinnahme",
+            "Warnzeichen kennen"
+          ],
+          "es": "La asesoría busca que el paciente frene la enfermedad en casa: dejar de fumar, caminar con regularidad (por ejemplo en una Gefäßsportgruppe, grupo de ejercicio vascular), cuidar sus pies y tomar sus medicamentos. También debe conocer las señales de alarma: dolor fuerte y repentino, pierna fría y pálida, o una herida en el pie."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche weiteren Prophylaxen sind bei einem Patienten mit fortgeschrittener pAVK neben der Dekubitusprophylaxe wichtig? Begründen Sie.",
+          "answer": "Wichtig ist die Sturzprophylaxe, weil der Patient durch Schmerzen, Wunden oder eine Amputation unsicher geht. Die Kontrakturprophylaxe ist nötig, weil viele Patienten wegen der Schmerzen eine Schonhaltung mit gebeugtem Knie einnehmen und sich wenig bewegen. Die Infektionsprophylaxe ist wichtig, weil schlecht durchblutetes Gewebe sich leicht infiziert, deshalb versorge ich Wunden aseptisch nach Anordnung. Bei Immobilität kommen die Pneumonieprophylaxe und die Thromboseprophylaxe dazu, die Thromboseprophylaxe aber ohne Kompressionsstrümpfe.",
+          "points": [
+            "Sturzprophylaxe",
+            "Kontrakturprophylaxe",
+            "Infektionsprophylaxe",
+            "Pneumonieprophylaxe",
+            "Thromboseprophylaxe ohne Kompression"
+          ],
+          "es": "Además de las úlceras por presión, piensas en: Sturzprophylaxe (prevención de caídas) por el dolor y la marcha insegura; Kontrakturprophylaxe (prevención de contracturas) por la postura de protección con la rodilla doblada; Infektionsprophylaxe por las heridas; y, si está inmóvil, prevención de neumonía y de trombosis, esta última sin medias de compresión."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.11",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Was empfehlen Sie einem Patienten mit pAVK zur Ernährung?",
+          "answer": "Ich empfehle eine ausgewogene, fettarme und cholesterinarme Kost mit viel Gemüse, Obst, Vollkornprodukten, Fisch und pflanzlichen Ölen, also eine mediterrane Ernährung. Bei Übergewicht ist eine Gewichtsreduktion sinnvoll. Diabetiker achten auf eine gute Blutzuckereinstellung, und bei Bluthochdruck soll der Patient wenig Salz verwenden. Bei chronischen Wunden braucht der Körper genug Eiweiß und Vitamine für die Wundheilung. Der Patient soll ausreichend trinken, wenn keine Trinkmengenbeschränkung besteht.",
+          "points": [
+            "Fett- und cholesterinarme Kost",
+            "Mediterrane Ernährung",
+            "Gewichtsreduktion bei Übergewicht",
+            "Gute Blutzuckereinstellung",
+            "Eiweiß für die Wundheilung",
+            "Ausreichend trinken"
+          ],
+          "es": "La alimentación ayuda a controlar los factores de riesgo: pocas grasas animales y poco colesterol, mucha verdura, fruta, pescado y aceites vegetales (dieta mediterránea), bajar de peso y cuidar el azúcar y la sal. Si hay heridas crónicas, el cuerpo necesita suficientes proteínas y vitaminas para cicatrizar."
+        },
+        {
+          "id": "pavk.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie gehen Sie mit einer trockenen Nekrose an der Zehe eines Patienten mit pAVK um?",
+              "options": [
+                "Ich weiche sie täglich in einem warmen Fußbad auf",
+                "Ich decke sie luftdicht mit einem feuchten Verband ab",
+                "Ich halte sie trocken, schütze sie vor Druck und versorge sie nach ärztlicher Anordnung",
+                "Ich entferne sie selbstständig mit der Schere"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine trockene Nekrose bei pAVK wird trocken gehalten und nach ärztlicher Anordnung versorgt.",
+              "correct": true
+            }
+          ],
+          "es": "Una trockene Nekrose (necrosis seca) se mantiene seca y protegida de la presión: si se humedece, puede infectarse y convertirse en gangrena húmeda. La Wundversorgung (curación de heridas) en la pAVK siempre se hace según la indicación médica; tú observas y documentas el tamaño, el color, el olor y los signos de infección."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "pavk.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei pAVK zum Thema Schmerz und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund der arteriellen Durchblutungsstörung Schmerzen im Bein, im Stadium III vor allem nachts in Ruhe. Ziel: Der Patient gibt innerhalb von drei Tagen in Ruhe eine Schmerzstärke von höchstens 3 auf der numerischen Rating-Skala an. Maßnahmen: Ich erfasse die Schmerzen regelmäßig mit der Schmerzskala, lagere die Beine tief und weich, gebe die Schmerzmittel nach ärztlicher Anordnung und beobachte Wirkung und Nebenwirkungen. Bei plötzlich stärkeren Schmerzen informiere ich sofort den Arzt.",
+          "points": [
+            "Problem: Schmerzen durch Durchblutungsstörung",
+            "Ziel: NRS höchstens 3",
+            "Schmerzerfassung mit Skala",
+            "Beine tief lagern",
+            "Analgetika nach Anordnung"
+          ],
+          "es": "El dolor es el problema de enfermería más típico de la pAVK. La meta es medible (máximo 3 en la numerische Rating-Skala, escala numérica del 0 al 10) y tiene plazo (tres días). Las medidas combinan valorar el dolor, colocar las piernas hacia abajo y dar analgésicos según la indicación médica."
+        },
+        {
+          "id": "pavk.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei pAVK zum Thema Haut und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund der schlechten Durchblutung ein hohes Risiko für Hautschäden, Dekubitus und schlecht heilende Wunden an den Füßen, besonders an den Fersen. Ziel: Die Haut an beiden Füßen und Fersen ist während des gesamten Krankenhausaufenthalts intakt, das wird täglich kontrolliert und dokumentiert. Maßnahmen: Ich inspiziere die Füße täglich, lagere die Fersen frei und die Beine weich und führe eine sorgfältige Fußpflege durch. Ich achte auf bequemes Schuhwerk und verwende keine Wärme, keine Kälte und keine Kompression.",
+          "points": [
+            "Problem: Gefahr von Hautschäden",
+            "Ziel: Haut bleibt intakt",
+            "Tägliche Hautinspektion",
+            "Fersenfreilagerung",
+            "Sorgfältige Fußpflege",
+            "Keine Wärme, keine Kompression"
+          ],
+          "es": "El segundo problema típico es el riesgo de lesiones en la piel, porque el tejido mal irrigado se daña fácil y casi no sana. La meta es que la piel de los pies siga íntegra durante toda la estancia, comprobado cada día. Las medidas son revisar, quitar presión de los talones y cuidar los pies con suavidad."
+        },
+        {
+          "id": "pavk.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei pAVK im Stadium II zum Thema Bewegung und Wissen und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist durch die Claudicatio intermittens in seiner Gehstrecke eingeschränkt und weiß zu wenig über seine Erkrankung und das richtige Verhalten. Ziel: Der Patient führt bis zur Entlassung täglich sein Gehtraining durch und kann drei Verhaltensregeln zum Schutz seiner Beine nennen. Maßnahmen: Ich leite ihn zum Gehtraining an und dokumentiere die schmerzfreie Gehstrecke. Ich berate ihn zu Rauchstopp, Fußpflege, Schuhwerk und Medikamenteneinnahme und gebe ihm schriftliches Informationsmaterial.",
+          "points": [
+            "Problem: eingeschränkte Gehstrecke, Wissensdefizit",
+            "Ziel: tägliches Gehtraining",
+            "Ziel: drei Verhaltensregeln nennen",
+            "Anleitung zum Gehtraining",
+            "Beratung zu Rauchstopp",
+            "Beratung zur Fußpflege"
+          ],
+          "es": "En el estadio II el problema es que la persona camina poco por el dolor y no sabe cómo cuidarse. La meta tiene dos partes medibles: hace su entrenamiento de marcha todos los días y puede decir tres reglas de cuidado antes del alta. Las medidas son enseñar, acompañar y documentar la distancia que camina."
+        },
+        {
+          "id": "pavk.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART, und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit pAVK.",
+          "answer": "SMART bedeutet: Ein Pflegeziel ist spezifisch, messbar, akzeptiert, realistisch und terminiert. Das Ziel beschreibt also genau einen Zustand des Patienten, den man überprüfen kann, den der Patient mitträgt, der erreichbar ist und der einen Zeitpunkt hat. Ich formuliere das Ziel positiv und in der Gegenwart, aus der Sicht des Patienten. Ein Beispiel bei pAVK: Der Patient gibt innerhalb von drei Tagen in Ruhe eine Schmerzstärke von höchstens 3 auf der numerischen Rating-Skala an.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert",
+            "Realistisch",
+            "Terminiert",
+            "Beispiel bei pAVK"
+          ],
+          "es": "SMART es la regla para escribir metas de enfermería: spezifisch (específica), messbar (medible), akzeptiert (aceptada por el paciente), realistisch (realista) y terminiert (con fecha). La meta describe un estado del paciente, en presente y en positivo. Da siempre un ejemplo concreto de la pAVK, como el del dolor."
+        }
+      ]
+    }
+  ]
+}

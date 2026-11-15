@@ -1,0 +1,1827 @@
+{
+  "id": "mammakarzinom",
+  "name": "Mammakarzinom",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "mammakarzinom.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Mammakarzinom?",
+              "options": [
+                "Eine gutartige Zyste in der Brust",
+                "Ein bösartiger (maligner) Tumor der Brustdrüse",
+                "Eine bakterielle Entzündung der Brustdrüse",
+                "Eine gutartige Vermehrung des Bindegewebes der Brust"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Das Mammakarzinom ist ein gutartiger Tumor der Brust.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Das Mammakarzinom ist ein ___ Tumor, der vom Drüsengewebe der Brust ausgeht.",
+              "options": [
+                "gutartiger",
+                "entzündlicher",
+                "bösartiger",
+                "angeborener"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El Mammakarzinom (cáncer de mama) es un tumor maligno que nace del tejido glandular del seno. Maligno quiere decir que crece hacia el tejido vecino, lo destruye y puede dar metástasis. No lo confundas con una Zyste (quiste) o una Mastitis (inflamación), que no son cáncer."
+        },
+        {
+          "id": "mammakarzinom.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zur Häufigkeit des Mammakarzinoms ist richtig?",
+              "options": [
+                "Es ist die häufigste Krebserkrankung der Frau in Deutschland",
+                "Es ist eine sehr seltene Krebserkrankung",
+                "Es ist die dritthäufigste Krebserkrankung der Frau",
+                "Es kommt fast nur bei Frauen unter 30 Jahren vor"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Das Mammakarzinom ist die häufigste Krebserkrankung der Frau.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Etwa jede ___ Frau in Deutschland erkrankt im Laufe ihres Lebens an Brustkrebs.",
+              "options": [
+                "zweite",
+                "achte",
+                "fünfzigste",
+                "hundertste"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El cáncer de mama es el cáncer más frecuente en la mujer en Alemania: más o menos una de cada ocho mujeres lo tendrá en algún momento de su vida. Por eso es un tema muy común en el examen y en el trabajo diario en el hospital."
+        },
+        {
+          "id": "mammakarzinom.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Duktales Karzinom",
+                  "Geht von den Milchgängen aus"
+                ],
+                [
+                  "Lobuläres Karzinom",
+                  "Geht von den Drüsenläppchen aus"
+                ],
+                [
+                  "In-situ-Karzinom",
+                  "Tumorzellen haben die Basalmembran noch nicht durchbrochen"
+                ],
+                [
+                  "Invasives Karzinom",
+                  "Tumor wächst in das umliegende Gewebe ein"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Von welcher Struktur geht das Mammakarzinom am häufigsten aus?",
+              "options": [
+                "Vom Fettgewebe der Brust",
+                "Von der Haut der Brust",
+                "Vom Brustmuskel",
+                "Von den Milchgängen (duktales Karzinom)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das duktale Karzinom geht von den Milchgängen aus und ist die häufigste Form des Mammakarzinoms.",
+              "correct": true
+            }
+          ],
+          "es": "Según donde nace, el tumor se llama duktal (de los Milchgänge, los conductos de la leche) o lobulär (de los Drüsenläppchen, los lobulillos). El duktal es el más frecuente. «In situ» significa que las células todavía no rompen la membrana basal; «invasiv» significa que ya crecen hacia el tejido de alrededor."
+        },
+        {
+          "id": "mammakarzinom.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Männer können nicht an einem Mammakarzinom erkranken.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aussage zum Mammakarzinom beim Mann ist richtig?",
+              "options": [
+                "Männer können nicht erkranken, weil sie kein Brustdrüsengewebe haben",
+                "Männer erkranken genauso häufig wie Frauen",
+                "Männer können auch erkranken, aber sehr selten (etwa 1 % der Fälle)",
+                "Bei Männern ist der Tumor immer gutartig"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los hombres también tienen un poco de tejido mamario, por eso también pueden tener Mammakarzinom, pero es muy raro: más o menos 1 % de todos los casos. Si en el examen te preguntan, di que afecta casi siempre a mujeres, pero que en hombres es posible."
+        },
+        {
+          "id": "mammakarzinom.definition.5",
+          "type": "sprech",
+          "q": "Was ist ein Mammakarzinom? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Das Mammakarzinom ist Brustkrebs, also ein bösartiger Tumor der Brustdrüse. Es ist die häufigste Krebserkrankung der Frau. Der Tumor geht meistens von den Milchgängen aus, seltener von den Drüsenläppchen. Er wächst in das umliegende Gewebe ein und kann über die Lymphbahnen und das Blut Metastasen bilden, zuerst oft in den Lymphknoten der Achselhöhle.",
+          "points": [
+            "Bösartiger Tumor der Brustdrüse",
+            "Häufigste Krebserkrankung der Frau",
+            "Milchgänge oder Drüsenläppchen",
+            "Invasives Wachstum",
+            "Metastasen über Lymphe und Blut"
+          ],
+          "es": "Es la pregunta de entrada típica. Empieza con la definición (tumor maligno de la glándula mamaria), di que es el cáncer más frecuente en la mujer, de dónde sale (Milchgänge = conductos, Drüsenläppchen = lobulillos) y termina con que invade y da metástasis, primero a los ganglios de la axila."
+        },
+        {
+          "id": "mammakarzinom.definition.6",
+          "type": "sprech",
+          "q": "Was ist der Unterschied zwischen einem In-situ-Karzinom und einem invasiven Mammakarzinom?",
+          "answer": "Beim In-situ-Karzinom bleiben die Tumorzellen in den Milchgängen oder Drüsenläppchen und haben die Basalmembran noch nicht durchbrochen. Es ist eine Krebsvorstufe und kann noch keine Metastasen bilden. Beim invasiven Karzinom wachsen die Tumorzellen in das umliegende Gewebe ein. Dann können sie in Lymph- und Blutgefäße einbrechen und Metastasen bilden.",
+          "points": [
+            "Basalmembran nicht durchbrochen",
+            "Krebsvorstufe",
+            "Keine Metastasen bei in situ",
+            "Einwachsen ins umliegende Gewebe",
+            "Metastasierung möglich"
+          ],
+          "es": "La diferencia está en la Basalmembran (membrana basal). En el carcinoma in situ las células malignas siguen dentro del conducto o lobulillo, por eso todavía no puede haber metástasis. En el invasivo ya rompieron esa barrera, entran al tejido y pueden llegar a los vasos linfáticos y sanguíneos."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "mammakarzinom.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Aus welchen drei Geweben besteht die weibliche Brust hauptsächlich?",
+              "options": [
+                "Drüsengewebe",
+                "Knorpelgewebe",
+                "Fettgewebe",
+                "Bindegewebe",
+                "Knochengewebe"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die weibliche Brust besteht nur aus Fettgewebe.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Woraus besteht die weibliche Brust (Mamma)?",
+              "options": [
+                "Nur aus Muskelgewebe",
+                "Aus Drüsengewebe, Fettgewebe und Bindegewebe",
+                "Aus Knorpel und Fettgewebe",
+                "Nur aus Drüsengewebe"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Mamma (el seno) está formada por Drüsengewebe (tejido glandular), Fettgewebe (grasa) y Bindegewebe (tejido conectivo). El cáncer nace del tejido glandular. Debajo de la mama está el músculo pectoral, pero no forma parte de ella."
+        },
+        {
+          "id": "mammakarzinom.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Struktur der Brust ihrer Aufgabe zu.",
+              "pairs": [
+                [
+                  "Drüsenläppchen (Lobuli)",
+                  "Bilden die Muttermilch"
+                ],
+                [
+                  "Milchgänge (Ductus)",
+                  "Leiten die Milch zur Brustwarze"
+                ],
+                [
+                  "Mamille",
+                  "Brustwarze, hier münden die Milchgänge"
+                ],
+                [
+                  "Areola",
+                  "Pigmentierter Warzenhof um die Brustwarze"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben die Milchgänge?",
+              "options": [
+                "Sie bilden die Muttermilch",
+                "Sie transportieren die Lymphe zur Achselhöhle",
+                "Sie leiten die Milch von den Drüsenläppchen zur Brustwarze",
+                "Sie versorgen die Brust mit Blut"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Die Muttermilch wird in den ___ gebildet und über die Milchgänge zur Brustwarze geleitet.",
+              "options": [
+                "Lymphknoten",
+                "Fettzellen",
+                "Brustmuskeln",
+                "Drüsenläppchen"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "El tejido glandular está formado por Drüsenläppchen (lobulillos), que producen la leche, y Milchgänge (conductos galactóforos), que la llevan a la Mamille (pezón). La Areola es la zona oscura alrededor del pezón. Necesitas estos nombres porque el tumor se llama según la estructura de donde sale."
+        },
+        {
+          "id": "mammakarzinom.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wohin fließt die Lymphe der Brust hauptsächlich ab?",
+              "options": [
+                "In die Lymphknoten der Achselhöhle (axilläre Lymphknoten)",
+                "In die Lymphknoten der Leiste",
+                "In die Lymphknoten am Hals",
+                "Direkt in die Milz"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Lymphe der Brust fließt hauptsächlich in die Lymphknoten der Leiste ab.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der größte Teil der Lymphe aus der Brust fließt in die Lymphknoten der ___ ab.",
+              "options": [
+                "Leiste",
+                "Achselhöhle",
+                "Kniekehle",
+                "Bauchhöhle"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La mayor parte de la linfa del seno drena a los axilläre Lymphknoten (ganglios de la axila). Por eso las células del tumor llegan primero ahí, y por eso en la operación se revisan los ganglios de la axila. Esto también explica el Lymphödem (linfedema) del brazo después de quitar ganglios."
+        },
+        {
+          "id": "mammakarzinom.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo ist das Mammakarzinom am häufigsten lokalisiert?",
+              "options": [
+                "Im unteren inneren Quadranten",
+                "Im unteren äußeren Quadranten",
+                "Im oberen inneren Quadranten",
+                "Im oberen äußeren Quadranten"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Mammakarzinom entsteht am häufigsten im oberen äußeren Quadranten der Brust.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Brust wird in vier Quadranten eingeteilt. Etwa die Hälfte der Mammakarzinome liegt im oberen ___ Quadranten.",
+              "options": [
+                "inneren",
+                "mittleren",
+                "äußeren",
+                "hinteren"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El seno se divide en cuatro Quadranten (cuadrantes). Alrededor de la mitad de los tumores está en el oberer äußerer Quadrant (cuadrante superior externo), el que queda hacia la axila, porque ahí hay más tejido glandular. Es una pregunta clásica de examen."
+        },
+        {
+          "id": "mammakarzinom.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist der Sentinel-Lymphknoten (Wächterlymphknoten)?",
+              "options": [
+                "Der größte Lymphknoten des Körpers",
+                "Der erste Lymphknoten im Lymphabflussgebiet des Tumors",
+                "Ein Lymphknoten in der Leiste",
+                "Ein Lymphknoten, der immer Metastasen enthält"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Wächterlymphknoten ist der erste Lymphknoten, den die Lymphe aus dem Tumorgebiet erreicht.",
+              "correct": true
+            }
+          ],
+          "es": "El Sentinel-Lymphknoten o Wächterlymphknoten (ganglio centinela) es el primer ganglio que recibe la linfa de la zona del tumor. Si ese ganglio no tiene células tumorales, es muy probable que los demás tampoco, y entonces no hace falta quitar más ganglios de la axila."
+        },
+        {
+          "id": "mammakarzinom.anatomie.6",
+          "type": "sprech",
+          "q": "Beschreiben Sie kurz den Aufbau der weiblichen Brust. Warum ist der Lymphabfluss beim Mammakarzinom so wichtig?",
+          "answer": "Die Brust besteht aus Drüsengewebe, Fettgewebe und Bindegewebe. Das Drüsengewebe besteht aus Drüsenläppchen, die die Milch bilden, und aus Milchgängen, die zur Brustwarze führen. Die Lymphe der Brust fließt vor allem in die Lymphknoten der Achselhöhle ab. Deshalb streuen Tumorzellen oft zuerst in die Achsellymphknoten, und diese werden bei der Diagnostik und der Operation immer mit untersucht.",
+          "points": [
+            "Drüsen-, Fett- und Bindegewebe",
+            "Drüsenläppchen bilden Milch",
+            "Milchgänge zur Brustwarze",
+            "Lymphabfluss in die Achselhöhle",
+            "Erste Metastasen in Achsellymphknoten"
+          ],
+          "es": "Aquí combinas anatomía con la enfermedad. Nombra los tres tejidos, luego Drüsenläppchen (lobulillos) y Milchgänge (conductos), y al final el drenaje linfático hacia la axila. Con eso explicas por qué las primeras metástasis suelen estar en los ganglios axilares."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "mammakarzinom.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zur Ursache des Mammakarzinoms ist richtig?",
+              "options": [
+                "Die Ursache ist immer eine Verletzung der Brust",
+                "Die Ursache ist eine bakterielle Infektion",
+                "Die genaue Ursache ist nicht bekannt, mehrere Faktoren wirken zusammen",
+                "Die Ursache ist immer eine Erbkrankheit"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die genaue Ursache des Mammakarzinoms ist nicht bekannt; die Entstehung ist multifaktoriell.",
+              "correct": true
+            }
+          ],
+          "es": "No se conoce una causa única del Mammakarzinom. Se habla de una multifaktorielle Entstehung (origen multifactorial): se juntan genes, hormonas, edad y estilo de vida. Por eso en el examen hablas sobre todo de Risikofaktoren (factores de riesgo) y no de «la causa»."
+        },
+        {
+          "id": "mammakarzinom.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert bei der Entstehung eines Karzinoms in den Zellen?",
+              "options": [
+                "Die Zellen sterben zu früh ab",
+                "Die Zellen werden durch Bakterien zerstört",
+                "Die Zellen speichern zu viel Fett",
+                "Veränderungen im Erbgut (Mutationen) führen zu unkontrolliertem Zellwachstum"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Krebszellen teilen sich kontrolliert und bleiben immer an ihrem Entstehungsort.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Durch Mutationen im Erbgut teilen sich die Zellen der Brustdrüse ___ und bilden einen Tumor.",
+              "options": [
+                "unkontrolliert",
+                "gar nicht mehr",
+                "langsamer",
+                "nur nachts"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El cáncer empieza cuando se dañan los genes de una célula (Mutationen = mutaciones). La célula ya no obedece las señales normales y se divide sin control; así se forma el tumor. Después las células malignas pueden invadir el tejido y viajar a otros órganos."
+        },
+        {
+          "id": "mammakarzinom.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Gene sind beim erblichen Mammakarzinom am häufigsten verändert?",
+              "options": [
+                "Die Gene für die Blutgruppe",
+                "BRCA1 und BRCA2",
+                "Die Gene für das Hämoglobin",
+                "Die Gene für das Insulin"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die meisten Mammakarzinome sind erblich bedingt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Nur etwa 5 bis 10 % der Mammakarzinome sind erblich bedingt, meistens durch eine Mutation in den Genen ___.",
+              "options": [
+                "HLA-B27",
+                "AB0",
+                "BRCA1 oder BRCA2",
+                "HbA1c"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Solo alrededor de 5 a 10 % de los cánceres de mama son hereditarios; la mayoría aparece sin herencia. En los casos hereditarios casi siempre hay una mutación en los genes BRCA1 o BRCA2 (se dice «Brustkrebsgene», genes del cáncer de mama). Las mujeres con esa mutación tienen un riesgo muy alto y se enferman más jóvenes."
+        },
+        {
+          "id": "mammakarzinom.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Für welche weitere Krebserkrankung ist das Risiko bei einer BRCA-Mutation ebenfalls deutlich erhöht?",
+              "options": [
+                "Hautkrebs",
+                "Schilddrüsenkrebs",
+                "Leukämie",
+                "Eierstockkrebs (Ovarialkarzinom)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Eine BRCA-Mutation erhöht auch das Risiko für Eierstockkrebs.",
+              "correct": true
+            }
+          ],
+          "es": "Una mutación BRCA no solo sube el riesgo de cáncer de mama, también el de Ovarialkarzinom (cáncer de ovario). Por eso se pregunta en la Anamnese (historia clínica) por cáncer de mama y de ovario en la familia, y a estas mujeres se les ofrece asesoría genética y controles más frecuentes."
+        },
+        {
+          "id": "mammakarzinom.ursachen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Ausbreitungsweg der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Lymphogene Metastasierung",
+                  "Über die Lymphbahnen in die Lymphknoten, vor allem der Achselhöhle"
+                ],
+                [
+                  "Hämatogene Metastasierung",
+                  "Über das Blut in entfernte Organe wie Knochen, Lunge, Leber, Gehirn"
+                ],
+                [
+                  "Lokales Wachstum",
+                  "Einwachsen in das umliegende Gewebe, zum Beispiel Haut oder Brustwand"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet „hämatogene Metastasierung“?",
+              "options": [
+                "Tumorzellen streuen über das Blut in andere Organe",
+                "Tumorzellen streuen über die Lymphbahnen in Lymphknoten",
+                "Der Tumor blutet in die Brust ein",
+                "Der Tumor wächst nur in die Haut ein"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Das Mammakarzinom streut lymphogen zuerst vor allem in die Lymphknoten der Leiste.",
+              "correct": false
+            }
+          ],
+          "es": "El tumor se extiende por tres caminos: crece localmente hacia la piel o la pared del tórax, viaja por la linfa (lymphogen) a los ganglios de la axila y viaja por la sangre (hämatogen) a órganos lejanos. Los sitios típicos de las metástasis a distancia son huesos, pulmón, hígado y cerebro."
+        },
+        {
+          "id": "mammakarzinom.ursachen.6",
+          "type": "sprech",
+          "q": "Wie entsteht ein Mammakarzinom, und wie breitet es sich im Körper aus?",
+          "answer": "Die genaue Ursache ist nicht bekannt, die Entstehung ist multifaktoriell. Durch Mutationen im Erbgut teilen sich Zellen der Milchgänge oder Drüsenläppchen unkontrolliert. Bei etwa 5 bis 10 % der Patientinnen ist die Erkrankung erblich, zum Beispiel durch eine BRCA-Mutation. Viele Tumoren wachsen unter dem Einfluss von Östrogen. Der Tumor wächst in das umliegende Gewebe ein und streut lymphogen in die Achsellymphknoten und hämatogen in Knochen, Lunge, Leber und Gehirn.",
+          "points": [
+            "Multifaktorielle Entstehung",
+            "Mutationen, unkontrolliertes Zellwachstum",
+            "BRCA-Mutation",
+            "Östrogeneinfluss",
+            "Lymphogen in die Achsel",
+            "Hämatogen in entfernte Organe"
+          ],
+          "es": "Para esta respuesta sigue un orden lógico: primero que no hay una sola causa, luego el mecanismo (mutaciones y crecimiento sin control), después herencia (BRCA) y hormonas (Östrogen = estrógeno), y al final cómo se disemina: por linfa a la axila y por sangre a hueso, pulmón, hígado y cerebro."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "mammakarzinom.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche beiden Faktoren sind die wichtigsten Risikofaktoren für ein Mammakarzinom?",
+              "options": [
+                "Untergewicht und niedriger Blutdruck",
+                "Weibliches Geschlecht und höheres Lebensalter",
+                "Männliches Geschlecht und junges Alter",
+                "Häufiges Stillen und viel Sport"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Das Risiko für ein Mammakarzinom ist bei Frauen unter 30 Jahren am höchsten.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Das Erkrankungsrisiko steigt mit dem ___; die meisten Patientinnen sind bei der Diagnose älter als 50 Jahre.",
+              "options": [
+                "Körpergewicht",
+                "Blutdruck",
+                "Lebensalter",
+                "Blutzucker"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los dos factores de riesgo más importantes no se pueden cambiar: ser mujer y la edad. El riesgo sube con los años y la mayoría de las pacientes tiene más de 50 cuando se le diagnostica; la edad promedio es de unos 64 años. Por eso el Screening (tamizaje) se ofrece a partir de los 50."
+        },
+        {
+          "id": "mammakarzinom.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Angabe in der Familienanamnese weist auf ein erhöhtes Brustkrebsrisiko hin?",
+              "options": [
+                "Der Vater hat Diabetes mellitus Typ 2",
+                "Die Großmutter hatte einen Schlaganfall",
+                "Der Bruder hat Asthma bronchiale",
+                "Mutter oder Schwester sind an Brust- oder Eierstockkrebs erkrankt"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Wenn Mutter oder Schwester an Brustkrebs erkrankt sind, ist das eigene Risiko erhöht.",
+              "correct": true
+            }
+          ],
+          "es": "La familiäre Belastung (antecedentes familiares) es un factor de riesgo importante: si la mamá, una hermana o una hija tuvo cáncer de mama o de ovario, el riesgo propio sube, sobre todo si se enfermaron jóvenes. Detrás puede haber una mutación BRCA."
+        },
+        {
+          "id": "mammakarzinom.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei hormonellen Faktoren erhöhen das Risiko für ein Mammakarzinom?",
+              "options": [
+                "Frühe erste Regelblutung (Menarche)",
+                "Späte Menopause",
+                "Langes Stillen",
+                "Hormonersatztherapie in den Wechseljahren",
+                "Mehrere frühe Schwangerschaften"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Eine frühe erste Regelblutung und eine späte Menopause erhöhen das Brustkrebsrisiko.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Warum erhöhen eine frühe Menarche und eine späte Menopause das Brustkrebsrisiko?",
+              "options": [
+                "Weil die Brust dann länger dem Einfluss von Östrogen ausgesetzt ist",
+                "Weil die Frau dann mehr Blut verliert",
+                "Weil das Immunsystem dadurch schwächer wird",
+                "Weil die Brust dadurch kleiner bleibt"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Entre más años actúa el Östrogen (estrógeno) sobre la mama, mayor es el riesgo. Por eso cuentan como factores de riesgo: frühe Menarche (primera regla temprana), späte Menopause (menopausia tardía), no tener hijos o tener el primero tarde, y la Hormonersatztherapie (terapia hormonal de reemplazo) en la menopausia."
+        },
+        {
+          "id": "mammakarzinom.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Lebensstilfaktoren erhöhen das Brustkrebsrisiko?",
+              "options": [
+                "Regelmäßige Bewegung",
+                "Übergewicht, besonders nach den Wechseljahren",
+                "Alkoholkonsum",
+                "Bewegungsmangel",
+                "Ballaststoffreiche Ernährung"
+              ],
+              "correct": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Regelmäßiger Alkoholkonsum senkt das Risiko für ein Mammakarzinom.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor für Brustkrebs ist beeinflussbar?",
+              "options": [
+                "Das Lebensalter",
+                "Eine BRCA-Mutation",
+                "Übergewicht",
+                "Das weibliche Geschlecht"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los factores del estilo de vida sí se pueden cambiar: Übergewicht (sobrepeso, sobre todo después de la menopausia, porque la grasa produce estrógeno), Alkohol, Bewegungsmangel (falta de ejercicio) y fumar. En la Beratung (consejería) son los puntos donde la paciente puede hacer algo ella misma."
+        },
+        {
+          "id": "mammakarzinom.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Faktor gilt als Schutzfaktor vor Brustkrebs?",
+              "options": [
+                "Hormonersatztherapie",
+                "Stillen",
+                "Kinderlosigkeit",
+                "Späte Menopause"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Stillen erhöht das Risiko, an Brustkrebs zu erkranken.",
+              "correct": false
+            }
+          ],
+          "es": "Stillen (amamantar) protege un poco contra el cáncer de mama, igual que el ejercicio regular y los embarazos a edad joven. Es lo contrario de los factores hormonales de riesgo. Si te preguntan por prevención, menciona estos factores protectores."
+        },
+        {
+          "id": "mammakarzinom.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für ein Mammakarzinom kennen Sie? Welche davon kann die Frau selbst beeinflussen?",
+          "answer": "Die wichtigsten Risikofaktoren sind das weibliche Geschlecht und ein höheres Lebensalter. Dazu kommt die familiäre Belastung, zum Beispiel Brustkrebs bei Mutter oder Schwester oder eine BRCA-Mutation. Hormonelle Faktoren sind eine frühe Menarche, eine späte Menopause, Kinderlosigkeit und eine Hormonersatztherapie. Geschlecht, Alter und Veranlagung kann die Frau nicht beeinflussen. Beeinflussbar ist vor allem der Lebensstil: Übergewicht, Alkohol, Rauchen und Bewegungsmangel erhöhen das Risiko.",
+          "points": [
+            "Geschlecht und Alter",
+            "Familiäre Belastung, BRCA",
+            "Hormonelle Faktoren",
+            "Übergewicht",
+            "Alkohol und Rauchen",
+            "Bewegungsmangel"
+          ],
+          "es": "Ordena tu respuesta en dos grupos: factores que no se pueden cambiar (sexo, edad, familia/BRCA, y casi siempre también los factores hormonales como menarca y menopausia) y factores que sí (sobrepeso, alcohol, tabaco, poco ejercicio). A los examinadores les gusta esa clasificación porque de ahí sale directamente la consejería de salud."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "mammakarzinom.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist das häufigste Leitsymptom des Mammakarzinoms?",
+              "options": [
+                "Starke Schmerzen in beiden Brüsten",
+                "Fieber und Schüttelfrost",
+                "Ein tastbarer, meist schmerzloser Knoten in der Brust",
+                "Juckreiz am ganzen Körper"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Ein Mammakarzinom verursacht schon im Frühstadium fast immer starke Schmerzen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Typisch für ein Mammakarzinom ist ein derber, schlecht verschieblicher und meist ___ Knoten.",
+              "options": [
+                "schmerzloser",
+                "sehr schmerzhafter",
+                "heißer",
+                "pulsierender"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "El Leitsymptom (síntoma principal) es un Knoten (bulto) que se palpa en el seno. Lo típico del tumor maligno es que es duro, no se mueve bien y casi nunca duele. Justo porque no duele, muchas mujeres lo notan tarde; por eso es importante que cualquier bulto nuevo se estudie."
+        },
+        {
+          "id": "mammakarzinom.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Symptom der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Orangenhaut (Peau d'orange)",
+                  "Verdickte Haut mit eingezogenen Poren durch Lymphstau"
+                ],
+                [
+                  "Hauteinziehung",
+                  "Die Haut über dem Tumor wird nach innen gezogen"
+                ],
+                [
+                  "Mamillenretraktion",
+                  "Die Brustwarze ist neu nach innen gezogen"
+                ],
+                [
+                  "Mamillensekretion",
+                  "Flüssigkeit tritt aus der Brustwarze aus"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was versteht man unter „Orangenhaut“ (Peau d'orange) an der Brust?",
+              "options": [
+                "Eine gelbe Verfärbung der Haut",
+                "Viele kleine Bläschen auf der Haut",
+                "Trockene, schuppende Haut am Warzenhof",
+                "Geschwollene, verdickte Haut mit eingezogenen Poren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Eine neu aufgetretene Einziehung der Haut oder der Brustwarze ist ein Warnzeichen für ein Mammakarzinom.",
+              "correct": true
+            }
+          ],
+          "es": "El tumor jala la piel y bloquea la linfa, por eso aparecen cambios visibles: Hauteinziehung (retracción de la piel), Orangenhaut o Peau d'orange (piel de naranja, hinchada y con poros hundidos) y Mamillenretraktion (pezón hundido de forma nueva). Son señales de alarma que tú puedes ver al hacer la Körperpflege (higiene corporal)."
+        },
+        {
+          "id": "mammakarzinom.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Mamillensekretion ist besonders verdächtig auf ein Mammakarzinom?",
+              "options": [
+                "Milchige Sekretion aus beiden Brüsten in der Stillzeit",
+                "Einseitige, blutige Sekretion außerhalb der Stillzeit",
+                "Klare Sekretion aus beiden Brüsten in der Schwangerschaft",
+                "Milchfluss in den ersten Tagen nach der Geburt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine einseitige, blutige Sekretion aus der Brustwarze muss ärztlich abgeklärt werden.",
+              "correct": true
+            }
+          ],
+          "es": "Mamillensekretion significa que sale líquido por el pezón. Es sospechoso cuando es de un solo lado, con sangre y fuera del embarazo o la lactancia. En ese caso siempre debe revisarlo el médico. La salida de leche de los dos lados durante la lactancia es normal."
+        },
+        {
+          "id": "mammakarzinom.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Im Frühstadium verursacht das Mammakarzinom häufig keine Beschwerden.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Warum wird ein Mammakarzinom oft erst spät bemerkt?",
+              "options": [
+                "Weil es im Frühstadium meist keine Schmerzen und keine Beschwerden macht",
+                "Weil es immer hinter dem Brustbein liegt",
+                "Weil es nur nachts Symptome macht",
+                "Weil es in der Mammografie grundsätzlich nicht sichtbar ist"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Al principio el cáncer de mama casi no da molestias: no duele y la mujer se siente sana. Por eso son tan importantes la Früherkennung (detección temprana), la Selbstuntersuchung (autoexploración) y la Mammografie. Entre más temprano se encuentra, mejor es el pronóstico."
+        },
+        {
+          "id": "mammakarzinom.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Befunde sind Warnzeichen für ein Mammakarzinom?",
+              "options": [
+                "Vergrößerte, tastbare Lymphknoten in der Achselhöhle",
+                "Neu aufgetretene Größen- oder Formveränderung einer Brust",
+                "Beidseitiges Spannungsgefühl vor der Regelblutung",
+                "Nicht heilende Rötung oder Ekzem an der Brustwarze",
+                "Milchfluss beider Brüste in der Stillzeit"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Tastbare Lymphknoten in der Achselhöhle haben mit einem Mammakarzinom nichts zu tun.",
+              "correct": false
+            }
+          ],
+          "es": "Otras señales de alarma son: ganglios palpables en la axila, un seno que de pronto cambia de tamaño o de forma, y enrojecimiento o eccema del pezón que no sana. En cambio, la tensión en los dos senos antes de la regla es normal y depende del ciclo."
+        },
+        {
+          "id": "mammakarzinom.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome können auf ein Mammakarzinom hinweisen?",
+          "answer": "Das Leitsymptom ist ein tastbarer Knoten in der Brust, der meist derb, schlecht verschieblich und schmerzlos ist. An der Haut können eine Einziehung, eine Orangenhaut oder eine Rötung auftreten. Die Brustwarze kann eingezogen sein oder einseitig Sekret absondern, zum Beispiel blutiges Sekret. Auch eine neue Größen- oder Formveränderung der Brust und vergrößerte Lymphknoten in der Achselhöhle sind Warnzeichen. Im Frühstadium haben viele Frauen keine Beschwerden.",
+          "points": [
+            "Tastbarer, schmerzloser Knoten",
+            "Hauteinziehung, Orangenhaut",
+            "Mamilleneinziehung",
+            "Mamillensekretion",
+            "Lymphknoten in der Achsel",
+            "Frühstadium oft symptomlos"
+          ],
+          "es": "Empieza siempre con el síntoma principal (el Knoten = bulto duro que no duele). Luego sigue de afuera hacia adentro: piel, pezón, forma del seno y ganglios de la axila. Termina diciendo que al principio muchas veces no hay síntomas; así muestras que entiendes por qué existe la detección temprana."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "mammakarzinom.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann sollte eine Frau vor den Wechseljahren ihre Brust selbst abtasten?",
+              "options": [
+                "Einmal im Monat, etwa eine Woche nach Beginn der Regelblutung",
+                "Jeden Tag direkt nach dem Aufstehen",
+                "Einmal im Jahr, direkt vor der Regelblutung",
+                "Nur, wenn sie Schmerzen hat"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der beste Zeitpunkt für die Selbstuntersuchung der Brust ist kurz vor der Regelblutung.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Selbstuntersuchung der Brust sollte einmal im ___ durchgeführt werden.",
+              "options": [
+                "Jahr",
+                "Monat",
+                "Quartal",
+                "Jahrzehnt"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Selbstuntersuchung (autoexploración) se hace una vez al mes, más o menos una semana después de que empieza la regla, porque entonces el seno está blando y se palpa mejor. Después de la menopausia se escoge un día fijo del mes. Se mira primero frente al espejo y luego se palpan los dos senos y las axilas."
+        },
+        {
+          "id": "mammakarzinom.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist das Mammografie-Screening?",
+              "options": [
+                "Eine Ultraschalluntersuchung für alle Frauen ab 20 Jahren",
+                "Eine Blutuntersuchung auf Tumormarker",
+                "Eine Röntgenuntersuchung der Brust zur Früherkennung, zu der Frauen ab 50 Jahren eingeladen werden",
+                "Eine Gewebeentnahme aus der Brust"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Mammografie ist eine Röntgenuntersuchung der Brust.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Im Mammografie-Screening werden Frauen ab 50 Jahren alle ___ Jahre zur Mammografie eingeladen.",
+              "options": [
+                "zwei",
+                "fünf",
+                "zehn",
+                "sieben"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La Mammografie es una radiografía del seno y es el estudio más importante para la Früherkennung (detección temprana). En Alemania hay un programa de Screening: a las mujeres a partir de los 50 años las invitan cada dos años (antes hasta los 69, ahora hasta los 75). Así se encuentran tumores pequeños que todavía no se palpan."
+        },
+        {
+          "id": "mammakarzinom.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Mit welcher Untersuchung wird die Diagnose Mammakarzinom gesichert?",
+              "options": [
+                "Mit der Tastuntersuchung",
+                "Mit einer Blutuntersuchung",
+                "Mit der Mammografie allein",
+                "Mit der Stanzbiopsie und der histologischen Untersuchung des Gewebes"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Mammografie allein reicht aus, um die Diagnose Mammakarzinom sicher zu stellen.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Mammografie",
+                  "Röntgenuntersuchung der Brust"
+                ],
+                [
+                  "Mammasonografie",
+                  "Ultraschalluntersuchung der Brust, ohne Strahlenbelastung"
+                ],
+                [
+                  "Stanzbiopsie",
+                  "Entnahme einer Gewebeprobe zur histologischen Untersuchung"
+                ],
+                [
+                  "Staging",
+                  "Suche nach Metastasen, zum Beispiel in Knochen, Lunge und Leber"
+                ]
+              ]
+            }
+          ],
+          "es": "La Mammografie y la Sonografie (ultrasonido) solo muestran un hallazgo sospechoso. El diagnóstico se confirma únicamente con la Stanzbiopsie (biopsia con aguja gruesa): se saca un pedacito de tejido y se estudia al microscopio (Histologie). El Staging busca después si hay metástasis."
+        },
+        {
+          "id": "mammakarzinom.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Buchstaben der TNM-Klassifikation ihrer Bedeutung zu.",
+              "pairs": [
+                [
+                  "T",
+                  "Größe und Ausdehnung des Primärtumors"
+                ],
+                [
+                  "N",
+                  "Befall der regionären Lymphknoten"
+                ],
+                [
+                  "M",
+                  "Fernmetastasen"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet das „N“ in der TNM-Klassifikation?",
+              "options": [
+                "Nekrose des Tumors",
+                "Befall der Lymphknoten (Nodus)",
+                "Anzahl der Tumoren",
+                "Befall der Nerven"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "In der TNM-Klassifikation bedeutet M1, dass Fernmetastasen vorhanden sind.",
+              "correct": true
+            }
+          ],
+          "es": "La TNM-Klassifikation describe qué tan avanzado está el tumor: T = Tumor (tamaño y extensión), N = Nodus (ganglios linfáticos afectados), M = Metastasen (metástasis a distancia). Por ejemplo, N0 significa ganglios libres y M1 significa que sí hay metástasis. De esto depende el tratamiento."
+        },
+        {
+          "id": "mammakarzinom.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird am Tumorgewebe der Hormonrezeptor- und der HER2-Status bestimmt?",
+              "options": [
+                "Um die Blutgruppe der Patientin festzustellen",
+                "Um das Narkoserisiko einzuschätzen",
+                "Um zu entscheiden, ob eine antihormonelle Therapie oder eine Antikörpertherapie sinnvoll ist",
+                "Um das Alter des Tumors zu bestimmen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Hormonrezeptorstatus des Tumors hat keinen Einfluss auf die Wahl der Therapie.",
+              "correct": false
+            }
+          ],
+          "es": "En el tejido de la biopsia se revisa si el tumor tiene Hormonrezeptoren (receptores de estrógeno y progesterona) y si es HER2-positiv. Con eso se decide el tratamiento: si hay receptores hormonales, sirve la antihormonelle Therapie; si es HER2-positivo, sirve la Antikörpertherapie (terapia con anticuerpos)."
+        },
+        {
+          "id": "mammakarzinom.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird ein Mammakarzinom diagnostiziert?",
+          "answer": "Am Anfang stehen die Anamnese und die Inspektion und Tastuntersuchung beider Brüste und der Achselhöhlen. Als bildgebende Verfahren folgen die Mammografie und die Mammasonografie. Gesichert wird die Diagnose durch eine Stanzbiopsie mit histologischer Untersuchung, dabei werden auch der Hormonrezeptor- und der HER2-Status bestimmt. Danach sucht man beim Staging nach Metastasen, und der Tumor wird nach der TNM-Klassifikation eingeteilt.",
+          "points": [
+            "Anamnese und Tastuntersuchung",
+            "Mammografie",
+            "Mammasonografie",
+            "Stanzbiopsie mit Histologie",
+            "Rezeptorstatus",
+            "Staging und TNM"
+          ],
+          "es": "Explica el diagnóstico paso a paso, como ocurre en la realidad: preguntar y palpar, luego imagen (Mammografie y ultrasonido), luego la Stanzbiopsie (biopsia) que confirma, y al final Staging y TNM. Si mencionas que la biopsia es la que confirma el diagnóstico, ya tienes el punto más importante."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "mammakarzinom.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Operationsverfahren der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Brusterhaltende Therapie (BET)",
+                  "Der Tumor wird mit Sicherheitsabstand entfernt, die Brust bleibt erhalten"
+                ],
+                [
+                  "Mastektomie",
+                  "Die gesamte Brustdrüse wird entfernt"
+                ],
+                [
+                  "Sentinel-Lymphknoten-Biopsie",
+                  "Nur der Wächterlymphknoten wird entfernt und untersucht"
+                ],
+                [
+                  "Axilladissektion",
+                  "Mehrere Lymphknoten der Achselhöhle werden entfernt"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Mastektomie?",
+              "options": [
+                "Entfernung nur des Tumors",
+                "Entfernung der gesamten Brustdrüse",
+                "Bestrahlung der Brust",
+                "Entfernung der Eierstöcke"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der brusterhaltenden Therapie wird die gesamte Brust entfernt.",
+              "correct": false
+            }
+          ],
+          "es": "La operación es la base del tratamiento. Hoy casi siempre se intenta la brusterhaltende Therapie, BET (cirugía conservadora: se quita solo el tumor con margen de seguridad). La Mastektomie (quitar todo el seno) se hace cuando el tumor es muy grande o hay varios focos. En la axila se quita primero solo el ganglio centinela; la Axilladissektion solo si hay ganglios afectados."
+        },
+        {
+          "id": "mammakarzinom.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Therapie gehört nach einer brusterhaltenden Operation in der Regel dazu?",
+              "options": [
+                "Die Bestrahlung der operierten Brust",
+                "Eine Dialyse",
+                "Eine Entfernung der anderen Brust",
+                "Eine dauerhafte Bettruhe"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer brusterhaltenden Operation wird die Brust in der Regel bestrahlt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Nach einer brusterhaltenden Operation folgt in der Regel eine ___ der Brust, um das Rückfallrisiko zu senken.",
+              "options": [
+                "Kühlung",
+                "Massage",
+                "Punktion",
+                "Bestrahlung"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Después de una BET (cirugía conservadora) casi siempre se da Bestrahlung (radioterapia) al seno operado para destruir células tumorales que pudieran quedar y bajar el riesgo de Rezidiv (recaída). Para ti en la Pflege (enfermería) lo importante es observar y cuidar la piel de la zona irradiada."
+        },
+        {
+          "id": "mammakarzinom.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Bei welchen Patientinnen wirkt eine antihormonelle Therapie (zum Beispiel mit Tamoxifen)?",
+              "options": [
+                "Bei allen Patientinnen mit Mammakarzinom",
+                "Nur bei Patientinnen ohne Metastasen",
+                "Nur bei Patientinnen mit hormonrezeptor-positivem Tumor",
+                "Nur bei Patientinnen unter 40 Jahren"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine antihormonelle Therapie wirkt bei jedem Mammakarzinom, egal ob der Tumor Hormonrezeptoren hat.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkungen sind typisch für die antihormonelle Therapie?",
+              "options": [
+                "Haarausfall und schwere Mukositis",
+                "Wechseljahresbeschwerden wie Hitzewallungen",
+                "Blutzuckerentgleisungen",
+                "Lähmungen der Beine"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La antihormonelle Therapie (terapia antihormonal, por ejemplo Tamoxifen o Aromatasehemmer = inhibidores de aromatasa) solo sirve si el tumor tiene receptores hormonales, porque le quita el estímulo del estrógeno. Se toma en tabletas durante varios años. Los efectos secundarios parecen menopausia: Hitzewallungen (bochornos), sudoración, dolor de articulaciones."
+        },
+        {
+          "id": "mammakarzinom.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Bei welchem Tumor wird eine Antikörpertherapie mit Trastuzumab eingesetzt?",
+              "options": [
+                "Bei jedem gutartigen Tumor der Brust",
+                "Bei hormonrezeptor-negativem Tumor ohne HER2",
+                "Bei allen Tumoren im oberen äußeren Quadranten",
+                "Bei HER2-positivem Mammakarzinom"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Antikörpertherapie mit Trastuzumab wird beim HER2-positiven Mammakarzinom eingesetzt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Der Antikörper Trastuzumab richtet sich gegen den Rezeptor ___ auf den Tumorzellen.",
+              "options": [
+                "HER2",
+                "BRCA1",
+                "TNM",
+                "PSA"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Algunos tumores tienen muchos receptores HER2 en la superficie de sus células; se llaman HER2-positiv. Contra ese receptor hay una Antikörpertherapie (terapia con anticuerpos), por ejemplo Trastuzumab, que se da en infusión. Como puede afectar al corazón, se controla la función cardiaca de la paciente."
+        },
+        {
+          "id": "mammakarzinom.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Während einer Zytostatika-Infusion klagt die Patientin über Brennen und Schmerzen an der Einstichstelle, die Stelle ist geschwollen. Was tun Sie zuerst?",
+              "options": [
+                "Die Infusion schneller laufen lassen",
+                "Die Infusion sofort stoppen und den Arzt informieren",
+                "Einen warmen Umschlag auflegen und weiter beobachten",
+                "Die Patientin beruhigen und bis zum Ende der Infusion warten"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf ein Paravasat lässt man die Zytostatika-Infusion zuerst zu Ende laufen.",
+              "correct": false
+            }
+          ],
+          "es": "Un Paravasat (extravasación) significa que el Zytostatikum (medicamento de quimioterapia) sale de la vena al tejido; puede causar necrosis. Las señales son ardor, dolor, hinchazón o enrojecimiento en el sitio de punción. Entonces paras la infusión de inmediato, dejas el acceso puesto y avisas al médico."
+        },
+        {
+          "id": "mammakarzinom.therapie.6",
+          "type": "sprech",
+          "q": "Welche Therapiemöglichkeiten gibt es beim Mammakarzinom, und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Die wichtigste Therapie ist die Operation, entweder brusterhaltend oder als Mastektomie, mit Entfernung des Sentinel-Lymphknotens. Dazu kommen die Bestrahlung und die medikamentöse Therapie: Chemotherapie, antihormonelle Therapie und Antikörpertherapie, je nach Tumorstadium und Rezeptorstatus. Die Pflege bereitet die Patientin auf die Operation vor und überwacht sie danach. Bei der Chemotherapie und Bestrahlung beobachtet sie Wirkungen und Nebenwirkungen, zum Beispiel Übelkeit, Mukositis und Hautreaktionen. Außerdem berät und begleitet sie die Patientin psychisch.",
+          "points": [
+            "Operation: BET oder Mastektomie",
+            "Sentinel-Lymphknoten",
+            "Bestrahlung",
+            "Chemo-, Antihormon-, Antikörpertherapie",
+            "Überwachung und Nebenwirkungen beobachten",
+            "Beratung und psychische Begleitung"
+          ],
+          "es": "Nombra primero los pilares del tratamiento: operación, radioterapia y medicamentos (quimio, antihormonal, anticuerpos). La quimio puede darse antes de la operación (neoadjuvant) o después (adjuvant). Luego di qué hace enfermería: preparar, vigilar, observar efectos secundarios y acompañar. Esa segunda parte es la que más cuenta en tu examen."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "mammakarzinom.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation ist typisch nach der Entfernung von Achsellymphknoten?",
+              "options": [
+                "Ein Lymphödem des Arms auf der operierten Seite",
+                "Eine Thrombose im Arm der gesunden Seite",
+                "Eine Lähmung beider Beine",
+                "Ein Lymphödem beider Beine"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Axilladissektion kann sich ein Lymphödem am Arm der operierten Seite entwickeln.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Wenn nach der Entfernung von Achsellymphknoten die Lymphe nicht mehr richtig abfließt, entsteht am Arm ein ___.",
+              "options": [
+                "Hämatom",
+                "Dekubitus",
+                "Lymphödem",
+                "Ulkus"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Cuando se quitan o se irradian los ganglios de la axila, la linfa del brazo ya no drena bien y se acumula: eso es el Lymphödem (linfedema). El brazo se hincha, se siente pesado y tenso. Puede aparecer semanas o incluso años después, por eso la profilaxis es para toda la vida."
+        },
+        {
+          "id": "mammakarzinom.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "In welche vier Organe metastasiert das Mammakarzinom am häufigsten?",
+              "options": [
+                "Knochen",
+                "Lunge",
+                "Milz",
+                "Leber",
+                "Gehirn",
+                "Niere"
+              ],
+              "correct": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wo treten Fernmetastasen des Mammakarzinoms am häufigsten auf?",
+              "options": [
+                "In der Milz",
+                "In der Harnblase",
+                "Im Herzen",
+                "In den Knochen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Mammakarzinom bildet nie Fernmetastasen.",
+              "correct": false
+            }
+          ],
+          "es": "Las Fernmetastasen (metástasis a distancia) del cáncer de mama aparecen sobre todo en Knochen (huesos), Lunge (pulmón), Leber (hígado) y Gehirn (cerebro). Los huesos son el sitio más frecuente. Apréndete estos cuatro órganos de memoria, porque es pregunta segura."
+        },
+        {
+          "id": "mammakarzinom.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Folge können Knochenmetastasen haben?",
+              "options": [
+                "Sie machen die Knochen stabiler",
+                "Sie führen zu Knochenschmerzen und pathologischen Frakturen",
+                "Sie führen immer zu einem Lymphödem",
+                "Sie haben keine Folgen für die Patientin"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Knochenmetastasen können zu Knochenschmerzen und zu Knochenbrüchen ohne großen Unfall führen.",
+              "correct": true
+            }
+          ],
+          "es": "Las Knochenmetastasen (metástasis en hueso) destruyen el hueso. La paciente tiene dolor, por ejemplo en la columna, y puede tener una pathologische Fraktur (fractura patológica), es decir, el hueso se rompe sin un golpe fuerte. Por eso el dolor de espalda nuevo en una paciente con cáncer de mama siempre se informa al médico."
+        },
+        {
+          "id": "mammakarzinom.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Komplikation nach der Operation der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Serom",
+                  "Ansammlung von Wundflüssigkeit und Lymphe in der Wundhöhle"
+                ],
+                [
+                  "Hämatom",
+                  "Bluterguss im Wundgebiet durch eine Nachblutung"
+                ],
+                [
+                  "Wundinfektion",
+                  "Rötung, Überwärmung, Schwellung, Schmerz, eventuell Eiter"
+                ],
+                [
+                  "Lymphödem",
+                  "Schwellung des Arms durch gestörten Lymphabfluss"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Serom?",
+              "options": [
+                "Eine Ansammlung von Wundflüssigkeit in der Wundhöhle",
+                "Eine Ansammlung von Eiter in der Wunde",
+                "Ein Blutgerinnsel in einer Vene",
+                "Eine Narbe, die stark wuchert"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Nachblutung, Serom und Wundinfektion sind mögliche Komplikationen nach einer Brustoperation.",
+              "correct": true
+            }
+          ],
+          "es": "Después de la operación pueden presentarse: Nachblutung con Hämatom (sangrado con hematoma), Serom (acumulación de líquido de la herida y linfa), Wundinfektion (infección) y Wundheilungsstörung (mala cicatrización). Por eso observas el apósito, los drenajes y la herida, y avisas si ves algo anormal."
+        },
+        {
+          "id": "mammakarzinom.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Rezidiv?",
+              "options": [
+                "Eine Nebenwirkung der Chemotherapie",
+                "Eine gutartige Narbe",
+                "Das Wiederauftreten des Tumors nach der Behandlung",
+                "Eine Allergie auf das Narkosemittel"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer erfolgreichen Operation ist keine Nachsorge mehr nötig.",
+              "correct": false
+            }
+          ],
+          "es": "Rezidiv significa recaída: el tumor vuelve a aparecer después del tratamiento, en el mismo seno, en la cicatriz o como metástasis. Por eso existe la Nachsorge (seguimiento) durante muchos años, con revisiones y mamografías regulares, y la paciente debe seguir explorándose ella misma."
+        },
+        {
+          "id": "mammakarzinom.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können beim Mammakarzinom und bei seiner Behandlung auftreten?",
+          "answer": "Durch die Erkrankung selbst können Metastasen entstehen, vor allem in Knochen, Lunge, Leber und Gehirn, und es kann ein Rezidiv auftreten. Nach der Operation sind Nachblutung, Serom, Wundinfektion und Wundheilungsstörungen möglich. Nach der Entfernung oder Bestrahlung der Achsellymphknoten kann sich ein Lymphödem des Arms entwickeln, außerdem kann die Schulter in ihrer Beweglichkeit eingeschränkt sein. Die Chemotherapie kann unter anderem zu Infektionen, Übelkeit, Mukositis und Haarausfall führen.",
+          "points": [
+            "Metastasen",
+            "Rezidiv",
+            "Nachblutung, Serom, Wundinfektion",
+            "Lymphödem des Arms",
+            "Bewegungseinschränkung der Schulter",
+            "Nebenwirkungen der Chemotherapie"
+          ],
+          "es": "Divide las complicaciones en dos grupos: las de la enfermedad (metástasis, recaída) y las del tratamiento (después de la operación, de quitar ganglios y de la quimio). El Lymphödem (linfedema) del brazo es la complicación que más te van a preguntar, porque de ahí sale mucha Pflege (cuidados)."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "mammakarzinom.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einer Patientin mit Mammakarzinom besonders wichtig? Begründen Sie.",
+          "answer": "Nach der Entfernung von Achsellymphknoten ist die Lymphödemprophylaxe am betroffenen Arm am wichtigsten. Wegen der Operation und der Schonhaltung führe ich die Kontrakturprophylaxe für das Schultergelenk, die Thromboseprophylaxe und die Pneumonieprophylaxe durch. Die Infektionsprophylaxe ist wichtig für die Wunde und besonders während der Chemotherapie, weil dann die Leukozyten vermindert sind. Bei Chemotherapie brauche ich außerdem die Mukositis- und Soorprophylaxe, weil die Mundschleimhaut geschädigt wird.",
+          "points": [
+            "Lymphödemprophylaxe",
+            "Kontrakturprophylaxe der Schulter",
+            "Thromboseprophylaxe",
+            "Pneumonieprophylaxe",
+            "Infektionsprophylaxe",
+            "Mukositis- und Soorprophylaxe"
+          ],
+          "es": "No basta con decir los nombres; da siempre el porqué. Lymphödemprophylaxe (prevención del linfedema) por los ganglios que se quitaron; Kontraktur-, Thrombose- y Pneumonieprophylaxe por la operación y porque la paciente protege el brazo y respira superficial por dolor; Infektions- y Mukositisprophylaxe (infección e inflamación de la boca) por la quimioterapia."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einer Patientin nach einer Brustoperation?",
+          "answer": "Ich kontrolliere regelmäßig die Vitalzeichen, also Blutdruck, Puls, Atmung und Temperatur, und messe den Blutdruck am nicht betroffenen Arm. Ich beobachte den Verband auf Nachblutung und die Drainagen auf Menge und Aussehen des Sekrets. Später beobachte ich die Wunde auf Entzündungszeichen. Ich erfasse die Schmerzen mit einer Schmerzskala und beobachte den betroffenen Arm auf Schwellung, Durchblutung und Sensibilität. Außerdem achte ich auf die psychische Situation der Patientin.",
+          "points": [
+            "Vitalzeichenkontrolle",
+            "Verband und Nachblutung",
+            "Drainagen: Menge und Aussehen",
+            "Entzündungszeichen der Wunde",
+            "Schmerzerfassung",
+            "Arm und psychische Situation"
+          ],
+          "es": "Ordena la observación de lo vital a lo específico: Vitalzeichen (signos vitales), luego apósito y Drainagen (drenajes), herida, dolor, el brazo del lado operado y al final el estado emocional. Recuerda decir que la presión se toma en el brazo sano; eso demuestra que piensas en el linfedema."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie führen Sie die Lymphödemprophylaxe bei einer Patientin nach Axilladissektion durch?",
+          "answer": "Am betroffenen Arm messe ich keinen Blutdruck, nehme kein Blut ab und gebe keine Injektionen oder Infusionen. Ich lagere den Arm leicht erhöht auf einem Kissen und achte darauf, dass nichts einschnürt, zum Beispiel enge Ärmel, Uhr oder Ringe. Die Patientin soll Verletzungen, Überlastung und Hitze vermeiden und die Haut gut pflegen. Ich beobachte den Arm täglich auf Schwellung, Spannungsgefühl und Rötung. Bei einem Lymphödem bekommt sie nach ärztlicher Anordnung manuelle Lymphdrainage und Kompressionstherapie.",
+          "points": [
+            "Kein Blutdruck, keine Punktion",
+            "Arm erhöht lagern",
+            "Nichts Einschnürendes",
+            "Verletzungen und Hitze vermeiden",
+            "Arm auf Schwellung beobachten",
+            "Lymphdrainage und Kompression"
+          ],
+          "es": "Esta es la pregunta de enfermería más típica del tema. La idea es no cargar ni lastimar el brazo operado: nada de toma de presión, punciones ni inyecciones ahí; brazo elevado sobre una almohada; nada apretado; evitar heridas, esfuerzo y calor. Si ya hay linfedema, el médico indica manuelle Lymphdrainage (drenaje linfático manual) y compresión."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen dürfen am Arm der operierten Seite nach Axilladissektion nicht durchgeführt werden?",
+              "options": [
+                "Blutdruckmessung",
+                "Hautpflege mit einer milden Lotion",
+                "Blutentnahme",
+                "Injektionen und Infusionen",
+                "Leichte Bewegungsübungen nach Anleitung"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Axilladissektion wird der Blutdruck am Arm der operierten Seite gemessen, weil dort die Durchblutung besser ist.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum darf am betroffenen Arm nach Axilladissektion kein Blutdruck gemessen werden?",
+              "options": [
+                "Weil der Blutdruck dort immer zu hoch ist",
+                "Weil die Manschette den Lymphabfluss staut und ein Lymphödem fördern kann",
+                "Weil die Manschette die Wunddrainage verschiebt",
+                "Weil der Puls dort nicht tastbar ist"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "En el brazo del lado operado no se hace Blutdruckmessung (toma de presión), Blutentnahme (toma de sangre) ni Injektion o Infusion. El brazalete comprime y estanca la linfa, y cada piquete es una puerta de entrada para infecciones que pueden provocar un linfedema. Usa siempre el otro brazo y márcalo en la documentación."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie lagern und mobilisieren Sie eine Patientin nach einer Brustoperation mit Entfernung von Achsellymphknoten?",
+          "answer": "Ich lagere den Arm der operierten Seite leicht erhöht und etwas abgespreizt auf einem Kissen, damit die Lymphe gut abfließen kann. Die Patientin wird früh mobilisiert, meist schon am Operationstag oder am ersten Tag danach, das dient auch der Thrombose- und Pneumonieprophylaxe. Mit der Physiotherapie beginnt sie nach ärztlicher Anordnung mit Bewegungsübungen für Hand, Arm und Schulter, die langsam gesteigert werden. So verhindern wir eine Schonhaltung und eine Schultersteife. Den Arm soll sie im Alltag benutzen, aber nicht schwer heben.",
+          "points": [
+            "Arm erhöht auf Kissen",
+            "Frühmobilisation",
+            "Bewegungsübungen mit Physiotherapie",
+            "Schultersteife verhindern",
+            "Nicht schwer heben"
+          ],
+          "es": "Dos ideas: posición y movimiento. El brazo va un poco elevado y separado del cuerpo sobre una almohada para que drene la linfa. La paciente se levanta pronto y, según indicación médica, hace ejercicios del brazo y el hombro con fisioterapia para que no se quede rígido el hombro (Kontrakturprophylaxe). Usar el brazo sí, cargar pesado no."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Eine Patientin hatte eine Mastektomie und ist sehr traurig. Wie begleiten und beraten Sie sie?",
+          "answer": "Der Verlust der Brust verändert das Körperbild und kann das Selbstwertgefühl stark belasten. Ich nehme mir Zeit für Gespräche, höre aktiv zu und lasse Gefühle wie Trauer und Angst zu. Beim ersten Verbandwechsel begleite ich die Patientin, wenn sie die Narbe ansieht, und dränge sie nicht. Ich informiere sie über Brustprothesen, den Brustaufbau und Perücken bei Haarausfall. Außerdem vermittle ich Kontakt zur Psychoonkologie, zum Sozialdienst wegen der Rehabilitation und zu Selbsthilfegruppen und beziehe auf Wunsch den Partner ein.",
+          "points": [
+            "Verändertes Körperbild",
+            "Gespräche, aktives Zuhören",
+            "Begleitung beim Ansehen der Narbe",
+            "Prothese, Brustaufbau, Perücke",
+            "Psychoonkologie und Sozialdienst",
+            "Selbsthilfegruppen"
+          ],
+          "es": "Aquí el examen quiere ver tu parte humana y tu Beratung (consejería). Reconoce que perder un seno cambia el Körperbild (imagen corporal), ofrece tiempo y escucha, acompáñala cuando vea la cicatriz sin presionarla, e infórmale sobre prótesis, reconstrucción y peluca. Menciona Psychoonkologie, Sozialdienst (trabajo social) y Selbsthilfegruppen (grupos de autoayuda)."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Wie beraten Sie eine Patientin nach Mastektomie zu Brustprothese, BH und Kleidung?",
+          "answer": "Direkt nach der Operation bekommt die Patientin eine leichte Erstversorgungsprothese aus weichem Material, die nicht auf die Wunde drückt. Wenn die Wunde abgeheilt ist, wird im Sanitätshaus eine Silikonprothese angepasst, die in Gewicht und Form zur anderen Brust passt. Dazu gehört ein spezieller BH mit Tasche und breiten Trägern, der nicht einschneidet. Die Prothese wird vom Arzt verordnet. Die Kleidung soll bequem sein und am betroffenen Arm nicht einschnüren, also keine engen Ärmel oder Bündchen.",
+          "points": [
+            "Erstversorgungsprothese",
+            "Silikonprothese nach Wundheilung",
+            "Anpassung im Sanitätshaus",
+            "BH mit breiten Trägern",
+            "Ärztliche Verordnung",
+            "Keine einschnürende Kleidung"
+          ],
+          "es": "Hay dos etapas: primero la Erstversorgungsprothese (prótesis provisional, ligera y suave) y, cuando la herida cicatrizó, la prótesis de silicón que se adapta en el Sanitätshaus (tienda de ortopedia) con receta médica. El BH (brasier) especial tiene bolsa para la prótesis y tirantes anchos. La ropa no debe apretar el brazo operado, por el riesgo de linfedema."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Ihre Patientin leidet unter der Chemotherapie an Übelkeit, Erbrechen und Appetitlosigkeit. Wie unterstützen Sie sie bei der Ernährung?",
+          "answer": "Ich gebe die verordneten Antiemetika rechtzeitig vor der Chemotherapie und beobachte ihre Wirkung. Ich biete Wunschkost und mehrere kleine, leichte Mahlzeiten an und vermeide starke Essensgerüche im Zimmer. Die Patientin soll ausreichend trinken, damit sie nicht austrocknet. Bei einer Mukositis bekommt sie weiche, milde Kost, die nicht scharf, sauer oder heiß ist. Ich kontrolliere regelmäßig das Gewicht und dokumentiere, wie viel sie isst und trinkt und wie oft sie erbricht.",
+          "points": [
+            "Antiemetika nach Anordnung",
+            "Wunschkost, kleine Mahlzeiten",
+            "Essensgerüche vermeiden",
+            "Ausreichend trinken",
+            "Weiche, milde Kost bei Mukositis",
+            "Gewichtskontrolle"
+          ],
+          "es": "La náusea es de los efectos secundarios que más molestan en la Chemotherapie. Lo primero son los Antiemetika (medicamentos contra el vómito) a tiempo, según indicación médica. Luego la comida: lo que se le antoje, porciones chicas, sin olores fuertes, suficientes líquidos, y comida suave si hay Mukositis (inflamación de la mucosa de la boca). Controla el peso."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Worauf achten Sie bei der Körperpflege einer Patientin nach einer Brustoperation und während der Bestrahlung?",
+          "answer": "Nach der Operation unterstütze ich die Patientin so viel wie nötig, weil der Arm der operierten Seite noch eingeschränkt beweglich ist, und fördere ihre Selbstständigkeit. Das Wundgebiet und der Verband bleiben trocken. Dabei beobachte ich die Haut und die Wunde und gehe behutsam vor, weil der Anblick der Narbe für die Patientin belastend ist. Die Haut am betroffenen Arm pflege ich sorgfältig und vermeide Verletzungen, zum Beispiel bei der Nagelpflege. Im Bestrahlungsfeld wird die Haut nur schonend gereinigt, trocken getupft und nicht gerieben, Pflegeprodukte verwende ich dort nur nach Absprache mit der Strahlentherapie.",
+          "points": [
+            "Unterstützung, Selbstständigkeit fördern",
+            "Wundgebiet trocken halten",
+            "Haut- und Wundbeobachtung",
+            "Hautpflege am betroffenen Arm",
+            "Bestrahlte Haut schonen"
+          ],
+          "es": "En la Körperpflege (higiene corporal) ayudas solo lo necesario, porque el brazo operado aún se mueve poco. La herida no se moja, y aprovechas para observar piel y herida con tacto, porque ver la cicatriz es difícil para ella. En el brazo afectado cuida la piel y evita heridas. La piel irradiada es muy sensible: limpiar suave, secar a toquecitos, no tallar."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.10",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist eine Patientin unter Chemotherapie besonders infektionsgefährdet?",
+              "options": [
+                "Weil die Chemotherapie die Zahl der Leukozyten senkt",
+                "Weil die Chemotherapie die Zahl der Erythrozyten erhöht",
+                "Weil die Chemotherapie den Blutzucker senkt",
+                "Weil die Chemotherapie die Körpertemperatur senkt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Infektionsprophylaxe bei einer Patientin unter Chemotherapie?",
+              "options": [
+                "Sorgfältige Händedesinfektion",
+                "Regelmäßige Temperaturkontrolle, Fieber sofort melden",
+                "Kontakt zu erkälteten Personen meiden",
+                "Blutentnahmen immer am Arm der operierten Seite",
+                "Fieber erst nach drei Tagen dem Arzt melden"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Fieber bei einer Patientin unter Chemotherapie ist harmlos und muss nicht gemeldet werden.",
+              "correct": false
+            }
+          ],
+          "es": "La quimioterapia daña la médula ósea y bajan los Leukozyten (glóbulos blancos); eso se llama Leukopenie y la paciente se infecta fácil. Por eso: higiene de manos estricta, tomar la temperatura con regularidad, evitar personas enfermas y avisar de inmediato al médico si hay fiebre, porque puede ser una urgencia."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme gehört zur Mukositis- und Soorprophylaxe bei Chemotherapie?",
+              "options": [
+                "Zähneputzen mit einer harten Zahnbürste",
+                "Mundspülungen mit alkoholhaltigem Mundwasser",
+                "Tägliche Inspektion der Mundhöhle und sorgfältige Mundpflege mit weicher Zahnbürste",
+                "Möglichst wenig trinken, damit die Schleimhaut trocken bleibt"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei Chemotherapie wird die Mundhöhle täglich inspiziert, um eine Mukositis oder einen Soor früh zu erkennen.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Mukositis",
+                  "Entzündung der Schleimhaut, zum Beispiel im Mund"
+                ],
+                [
+                  "Soor",
+                  "Pilzinfektion mit weißlichen, abwischbaren Belägen"
+                ],
+                [
+                  "Leukopenie",
+                  "Verminderung der weißen Blutkörperchen"
+                ]
+              ]
+            }
+          ],
+          "es": "La quimioterapia daña la mucosa de la boca: aparece Mukositis (inflamación dolorosa) y fácilmente Soor (candidiasis, placas blancas). La profilaxis es revisar la boca todos los días, cepillo suave, enjuagues frecuentes sin alcohol y mantener la mucosa húmeda. Si ves enrojecimiento, úlceras o placas, lo documentas y avisas."
+        },
+        {
+          "id": "mammakarzinom.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was beobachten und dokumentieren Sie bei einer Wunddrainage (zum Beispiel Redon-Drainage) nach einer Brustoperation?",
+              "options": [
+                "Nur die Farbe des Schlauchs",
+                "Menge und Aussehen des Sekrets und ob der Sog erhalten ist",
+                "Nur die Körpertemperatur der Patientin",
+                "Die Drainage muss nicht beobachtet werden"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Fördert die Drainage plötzlich viel frisches, hellrotes Blut, muss sofort der Arzt informiert werden.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Bei der Drainage dokumentiere ich regelmäßig die ___ und das Aussehen des Wundsekrets.",
+              "options": [
+                "Temperatur",
+                "Dichte",
+                "Geschwindigkeit",
+                "Menge"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Las Drainagen (drenajes, por ejemplo Redon) sacan sangre y líquido de la herida. Observas y anotas Menge (cantidad) y Aussehen (aspecto) del líquido, y que el sistema tenga Sog (succión) y no esté doblado. Mucha sangre fresca de repente indica Nachblutung (sangrado posoperatorio): avisas al médico de inmediato."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "mammakarzinom.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einer Patientin nach Brustoperation mit Axilladissektion und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Bei der Patientin besteht die Gefahr eines Lymphödems am Arm der operierten Seite, weil Achsellymphknoten entfernt wurden. Ziel: Der Arm ist bis zur Entlassung nicht geschwollen, und die Patientin nennt bis zur Entlassung mindestens drei Maßnahmen zur Lymphödemprophylaxe. Maßnahmen: Ich messe am betroffenen Arm keinen Blutdruck und führe dort keine Blutentnahmen und Injektionen durch. Ich lagere den Arm erhöht auf einem Kissen und beobachte ihn täglich auf Schwellung. Ich leite die Patientin zur Lymphödemprophylaxe im Alltag an.",
+          "points": [
+            "Gefahr eines Lymphödems",
+            "Arm bis Entlassung nicht geschwollen",
+            "Kein Blutdruck, keine Punktion",
+            "Arm erhöht lagern",
+            "Arm täglich beobachten",
+            "Anleitung zur Lymphödemprophylaxe"
+          ],
+          "es": "Es el problema de enfermería número uno de este tema. Fíjate en la estructura Problem – Ziel – Maßnahmen (problema, objetivo, medidas): el problema lleva su causa (se quitaron ganglios), el objetivo se puede medir (brazo sin hinchazón, tres medidas nombradas) y tiene plazo (hasta el alta)."
+        },
+        {
+          "id": "mammakarzinom.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einer Patientin nach Mastektomie im psychischen Bereich und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Die Patientin hat ein verändertes Körperbild und fühlt sich weniger wertvoll, weil ihr eine Brust entfernt wurde. Ziel: Die Patientin spricht innerhalb von drei Tagen über ihre Gefühle und sieht bis zur Entlassung ihre Narbe an. Maßnahmen: Ich biete täglich Gespräche an und höre aktiv zu. Ich begleite sie beim Verbandwechsel, wenn sie die Narbe ansehen möchte. Ich informiere über die Brustprothese und vermittle Kontakt zur Psychoonkologie und zu einer Selbsthilfegruppe.",
+          "points": [
+            "Verändertes Körperbild",
+            "Spricht über ihre Gefühle",
+            "Sieht Narbe bis Entlassung an",
+            "Tägliche Gesprächsangebote",
+            "Begleitung beim Verbandwechsel",
+            "Prothese, Psychoonkologie, Selbsthilfegruppe"
+          ],
+          "es": "El segundo problema típico es emocional: Körperbildveränderung (cambio de la imagen corporal) después de la mastectomía. El objetivo también debe ser observable y con plazo: habla de lo que siente en tres días y ve su cicatriz antes del alta. Las medidas son hablar, acompañar e informar, además de conectar con apoyo profesional y grupos de autoayuda."
+        },
+        {
+          "id": "mammakarzinom.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einer Patientin mit Mammakarzinom unter Chemotherapie und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Die Patientin hat eine erhöhte Infektionsgefahr, weil durch die Chemotherapie die Leukozyten vermindert sind. Ziel: Die Patientin hat während des gesamten Chemotherapie-Zyklus kein Fieber und keine Infektionszeichen. Maßnahmen: Ich achte auf sorgfältige Händedesinfektion bei allen Kontakten. Ich kontrolliere zweimal täglich die Temperatur und melde Fieber sofort dem Arzt. Ich inspiziere täglich Mundschleimhaut und Haut und führe die Mundpflege durch. Ich informiere die Patientin und ihre Besucher über Hygieneregeln.",
+          "points": [
+            "Erhöhte Infektionsgefahr",
+            "Kein Fieber im Zyklus",
+            "Händedesinfektion",
+            "Temperaturkontrolle, Fieber melden",
+            "Mund- und Hautinspektion",
+            "Hygieneregeln erklären"
+          ],
+          "es": "Durante la Chemotherapie bajan los Leukozyten (glóbulos blancos), por eso el problema es Infektionsgefahr (riesgo de infección). El objetivo es medible (sin fiebre, sin signos de infección) y tiene plazo (todo el ciclo de quimio). Las medidas: higiene de manos, temperatura dos veces al día, revisar boca y piel, y enseñar las reglas de higiene a la paciente y a las visitas."
+        },
+        {
+          "id": "mammakarzinom.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Geben Sie ein Beispiel für eine Patientin mit Mammakarzinom.",
+          "answer": "SMART bedeutet: Ein Pflegeziel ist spezifisch, messbar, akzeptiert, realistisch und terminiert. Das Ziel beschreibt konkret den Zustand, den die Patientin erreichen soll, und wird positiv und aus ihrer Sicht formuliert. Es muss überprüfbar sein und einen Zeitpunkt haben. Ein Beispiel ist: Die Patientin nennt bis zur Entlassung drei Maßnahmen zur Lymphödemprophylaxe. Am festgelegten Termin überprüfe ich in der Evaluation, ob das Ziel erreicht ist.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert und realistisch",
+            "Terminiert",
+            "Beispiel Lymphödemprophylaxe",
+            "Evaluation"
+          ],
+          "es": "SMART es una regla para escribir buenos Pflegeziele (objetivos de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado por la paciente), realistisch (realista) y terminiert (con fecha). Di las cinco palabras, da un ejemplo concreto del cáncer de mama y menciona la Evaluation, que es cuando revisas si se logró."
+        }
+      ]
+    }
+  ]
+}

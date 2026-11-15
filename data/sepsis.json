@@ -1,0 +1,1829 @@
+{
+  "id": "sepsis",
+  "name": "Sepsis",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "sepsis.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Sepsis?",
+              "options": [
+                "Eine harmlose lokale Entzündung der Haut",
+                "Eine lebensbedrohliche Organfunktionsstörung durch eine fehlregulierte Körperantwort auf eine Infektion",
+                "Eine allergische Reaktion auf ein Antibiotikum",
+                "Eine angeborene Störung der Blutgerinnung"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Sepsis schädigt die fehlregulierte Abwehrreaktion des Körpers die eigenen Organe.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Eine Sepsis ist eine lebensbedrohliche ___ durch eine fehlregulierte Körperantwort auf eine Infektion.",
+              "options": [
+                "Hauterkrankung",
+                "Stoffwechselstörung",
+                "Organfunktionsstörung",
+                "Blutarmut"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Sepsis (sepsis) es una Organfunktionsstörung (disfunción orgánica) que pone en peligro la vida. No la causa solo el germen: la respuesta del cuerpo a la infección se sale de control y daña los propios órganos. Por eso la definición siempre lleva tres partes: infección, respuesta desregulada y daño de órganos."
+        },
+        {
+          "id": "sepsis.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter einem septischen Schock?",
+              "options": [
+                "Eine Sepsis mit Fieber über 39 °C",
+                "Eine Sepsis, bei der Blutkulturen positiv sind",
+                "Einen Schock durch großen Blutverlust",
+                "Eine Sepsis mit Kreislaufversagen: Der Blutdruck bleibt trotz Volumengabe zu niedrig, Vasopressoren sind nötig und das Laktat ist erhöht"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der septische Schock ist die schwerste Verlaufsform der Sepsis.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Beim septischen Schock normalisiert sich der Blutdruck allein durch Infusionen.",
+              "correct": false
+            }
+          ],
+          "es": "El septischer Schock (choque séptico) es la forma más grave de la sepsis. La presión arterial sigue demasiado baja aunque el paciente ya recibió suficiente líquido, por eso necesita Vasopressoren (vasopresores), y el Laktat (lactato) está elevado. La mortalidad es mucho más alta que en la sepsis sin choque."
+        },
+        {
+          "id": "sepsis.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist die Sepsis ein Notfall?",
+              "options": [
+                "Weil der Patient sofort isoliert werden muss",
+                "Weil jede Stunde ohne Behandlung die Überlebenschance verschlechtert",
+                "Weil die Sepsis immer mit starken Schmerzen beginnt",
+                "Weil die Sepsis nur innerhalb der ersten Stunde im Blut nachweisbar ist"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf eine Sepsis kann man zunächst einen Tag abwarten und den Verlauf beobachten.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Sepsis ist ein zeitkritischer ___ wie der Herzinfarkt und der Schlaganfall.",
+              "options": [
+                "Zufallsbefund",
+                "Routinefall",
+                "Pflegefehler",
+                "Notfall"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "La sepsis es un Notfall (urgencia) igual que el infarto o el EVC: cada hora sin tratamiento empeora el pronóstico. Por eso nunca se espera a ver qué pasa; ante la sospecha avisas de inmediato al médico. Reconocerla temprano es una de las tareas más importantes de enfermería."
+        },
+        {
+          "id": "sepsis.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Kriterien gehören zum qSOFA-Score?",
+              "options": [
+                "Atemfrequenz ab 22 pro Minute",
+                "Körpertemperatur über 38 °C",
+                "Systolischer Blutdruck von 100 mmHg oder weniger",
+                "Veränderter Bewusstseinszustand",
+                "Blutzucker über 200 mg/dl"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Sind beim qSOFA mindestens ___ der drei Kriterien erfüllt, besteht bei einer Infektion der Verdacht auf eine Sepsis.",
+              "options": [
+                "zwei",
+                "null",
+                "vier",
+                "fünf"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Fieber ist eines der drei Kriterien des qSOFA-Scores.",
+              "correct": false
+            }
+          ],
+          "es": "El qSOFA es una prueba rápida a la cabecera del paciente, sin laboratorio. Tiene tres criterios: Atemfrequenz (frecuencia respiratoria) de 22 o más, presión sistólica de 100 mmHg o menos y alteración de la conciencia. Con dos o más criterios en un paciente con infección debes pensar en sepsis; fíjate que la fiebre no forma parte del qSOFA."
+        },
+        {
+          "id": "sepsis.definition.5",
+          "type": "sprech",
+          "q": "Was ist eine Sepsis? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Eine Sepsis ist eine lebensbedrohliche Organfunktionsstörung. Sie entsteht, wenn der Körper auf eine Infektion fehlreguliert reagiert und dabei die eigenen Organe schädigt. In der Umgangssprache sagt man auch Blutvergiftung. Die schwerste Form ist der septische Schock mit Kreislaufversagen. Die Sepsis ist immer ein Notfall und muss sofort behandelt werden.",
+          "points": [
+            "Infektion als Auslöser",
+            "Fehlregulierte Körperantwort",
+            "Organfunktionsstörung",
+            "Septischer Schock",
+            "Notfall"
+          ],
+          "es": "Esta es la pregunta de entrada típica del examen oral. Menciona siempre las tres partes de la definición (infección, respuesta desregulada, daño de órganos) y termina diciendo que es una urgencia. «Blutvergiftung» (envenenamiento de la sangre) es la palabra coloquial que usan los pacientes."
+        },
+        {
+          "id": "sepsis.definition.6",
+          "type": "sprech",
+          "q": "Was ist der qSOFA-Score und wozu dient er?",
+          "answer": "Der qSOFA-Score ist ein einfacher Test, mit dem man am Patientenbett schnell einen Sepsisverdacht erkennen kann. Er hat drei Kriterien: eine Atemfrequenz ab 22 pro Minute, einen systolischen Blutdruck von 100 mmHg oder weniger und einen veränderten Bewusstseinszustand. Wenn bei einem Patienten mit einer Infektion mindestens zwei Kriterien erfüllt sind, besteht der Verdacht auf eine Sepsis. Dann informiere ich sofort den Arzt.",
+          "points": [
+            "Schneller Test am Patientenbett",
+            "Atemfrequenz ab 22",
+            "Systolischer Blutdruck bis 100",
+            "Bewusstseinsveränderung",
+            "Ab zwei Kriterien Sepsisverdacht",
+            "Arzt informieren"
+          ],
+          "es": "El qSOFA te sirve como enfermera porque solo necesitas medir signos vitales y observar la conciencia. Aprende los tres criterios con sus números y la regla de «dos o más». Recuerda también que un qSOFA negativo no descarta la sepsis: si el paciente te preocupa, avisas de todos modos."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "sepsis.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe hat das Immunsystem?",
+              "options": [
+                "Es transportiert Sauerstoff zu den Organen",
+                "Es reguliert den Blutzucker",
+                "Es erkennt und bekämpft Krankheitserreger",
+                "Es bildet die Gerinnungsfaktoren"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Leukozyten (weiße Blutkörperchen) gehören zum Immunsystem.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die ___ sind die Abwehrzellen des Blutes.",
+              "options": [
+                "Erythrozyten",
+                "Leukozyten",
+                "Thrombozyten",
+                "Hepatozyten"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El Immunsystem (sistema inmunológico) reconoce y combate a los gérmenes; sus células principales en la sangre son los Leukozyten (leucocitos). Normalmente esta defensa te protege. En la sepsis el problema es que esta misma defensa reacciona de forma exagerada y desordenada."
+        },
+        {
+          "id": "sepsis.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was unterscheidet eine lokale Entzündung von einer Sepsis?",
+              "options": [
+                "Bei der lokalen Entzündung bleibt die Abwehrreaktion auf den Infektionsort begrenzt, bei der Sepsis betrifft sie den ganzen Körper",
+                "Die lokale Entzündung wird immer durch Viren ausgelöst, die Sepsis immer durch Bakterien",
+                "Bei der lokalen Entzündung gibt es keine Rötung",
+                "Es gibt keinen Unterschied"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Lokale Entzündung",
+                  "Rötung, Schwellung, Wärme und Schmerz am Infektionsort"
+                ],
+                [
+                  "Sepsis",
+                  "Abwehrreaktion im ganzen Körper mit Organschädigung"
+                ],
+                [
+                  "Infektionsherd (Fokus)",
+                  "Ort, von dem die Infektion ausgeht"
+                ]
+              ]
+            }
+          ],
+          "es": "En una inflamación local la defensa se queda en el lugar de la infección: enrojecimiento, hinchazón, calor y dolor. En la sepsis la reacción se extiende a todo el cuerpo y daña órganos que están lejos del foco. El Fokus (foco) es el sitio donde empezó la infección, por ejemplo el pulmón."
+        },
+        {
+          "id": "sepsis.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Mikrozirkulation?",
+              "options": [
+                "Der Blutfluss in den großen Arterien",
+                "Der Blutfluss im Herzen",
+                "Der Lymphfluss in den Lymphknoten",
+                "Der Blutfluss in den kleinsten Gefäßen, vor allem den Kapillaren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "In den ___ findet der Austausch von Sauerstoff und Nährstoffen zwischen Blut und Gewebe statt.",
+              "options": [
+                "Venen",
+                "Arterien",
+                "Kapillaren",
+                "Herzklappen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Stoffaustausch zwischen Blut und Gewebe findet in den großen Arterien statt.",
+              "correct": false
+            }
+          ],
+          "es": "La Mikrozirkulation (microcirculación) es el flujo de sangre en los vasos más pequeños, sobre todo los Kapillaren (capilares). Ahí pasa el oxígeno de la sangre a las células. En la sepsis justo esta zona se altera, y por eso los órganos reciben poco oxígeno aunque el corazón siga bombeando."
+        },
+        {
+          "id": "sepsis.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Veränderungen an den Gefäßen sind typisch für die Sepsis?",
+              "options": [
+                "Die Gefäße stellen sich weit (Vasodilatation)",
+                "Die Gefäßwände werden undicht, Flüssigkeit tritt ins Gewebe aus",
+                "Die Gefäßwände verkalken innerhalb weniger Stunden",
+                "In den kleinen Gefäßen bilden sich kleine Blutgerinnsel",
+                "Die Gefäße werden dauerhaft enger und der Blutdruck steigt"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Sepsis werden die Gefäße weit und undicht, deshalb fällt der Blutdruck ab.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Veränderung ihrer Folge zu.",
+              "pairs": [
+                [
+                  "Weitstellung der Gefäße",
+                  "Der Blutdruck fällt ab"
+                ],
+                [
+                  "Undichte Kapillaren",
+                  "Ödeme und Flüssigkeitsmangel in den Gefäßen"
+                ],
+                [
+                  "Kleine Gerinnsel in den Kapillaren",
+                  "Die Organe werden schlechter durchblutet"
+                ]
+              ]
+            }
+          ],
+          "es": "En la sepsis pasan tres cosas en los vasos: se dilatan (Vasodilatation), se vuelven permeables y el líquido se sale al tejido, y se forman pequeños coágulos en los capilares. El resultado es presión baja, edema y órganos mal irrigados. Con esto puedes explicar casi todos los síntomas y también por qué se da líquido y vasopresores."
+        },
+        {
+          "id": "sepsis.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum steigt bei einer Sepsis das Laktat im Blut an?",
+              "options": [
+                "Weil der Patient zu viel Milch getrunken hat",
+                "Weil die Zellen zu wenig Sauerstoff bekommen und Energie ohne Sauerstoff gewinnen",
+                "Weil die Bakterien Laktat ins Blut abgeben",
+                "Weil die Niere zu viel Urin ausscheidet"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein erhöhter Laktatwert zeigt, dass das Gewebe zu wenig Sauerstoff bekommt.",
+              "correct": true
+            }
+          ],
+          "es": "El Laktat (lactato) se forma cuando las células producen energía sin suficiente oxígeno. En la sepsis sube porque los tejidos están mal irrigados. Por eso un lactato alto es una señal de alarma de que los órganos están sufriendo."
+        },
+        {
+          "id": "sepsis.anatomie.6",
+          "type": "sprech",
+          "q": "Was passiert bei einer Sepsis im Blutkreislauf und in der Mikrozirkulation?",
+          "answer": "Bei einer Sepsis reagiert das Immunsystem im ganzen Körper zu stark auf die Infektion. Die Gefäße stellen sich weit und werden undicht, deshalb tritt Flüssigkeit ins Gewebe aus und der Blutdruck fällt ab. Zusätzlich bilden sich kleine Gerinnsel in den Kapillaren. Dadurch werden die Organe schlecht durchblutet und bekommen zu wenig Sauerstoff. Das erkennt man am erhöhten Laktat und an der gestörten Organfunktion.",
+          "points": [
+            "Überschießende Immunreaktion",
+            "Weite Gefäße",
+            "Undichte Gefäße",
+            "Blutdruckabfall",
+            "Sauerstoffmangel der Organe",
+            "Erhöhtes Laktat"
+          ],
+          "es": "Con esta respuesta demuestras que entiendes el mecanismo y no solo la definición. La cadena es: reacción exagerada, vasos dilatados y permeables, presión baja, poca irrigación, falta de oxígeno en los órganos. No necesitas más detalle de fisiopatología para el examen de enfermería."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "sepsis.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Ausgangsherd einer Sepsis ist am häufigsten?",
+              "options": [
+                "Die Zähne",
+                "Das Ohr",
+                "Die Lunge (Pneumonie)",
+                "Das Auge"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche vier Infektionsherde führen häufig zu einer Sepsis?",
+              "options": [
+                "Lunge",
+                "Harnwege",
+                "Bauchraum",
+                "Haut und Wunden",
+                "Schilddrüse",
+                "Kniegelenk bei Arthrose"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Sepsis geht nur selten von der Lunge aus.",
+              "correct": false
+            }
+          ],
+          "es": "El foco más frecuente de la sepsis es el pulmón, es decir, la Pneumonie (neumonía). Después vienen el abdomen, las vías urinarias, la piel y las heridas, y los catéteres. Cuando hay sospecha de sepsis, siempre se busca de dónde viene la infección."
+        },
+        {
+          "id": "sepsis.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Erreger verursachen am häufigsten eine Sepsis?",
+              "options": [
+                "Bakterien",
+                "Würmer",
+                "Milben",
+                "Prionen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine Sepsis kann nur durch Bakterien ausgelöst werden, nie durch Pilze oder Viren.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die häufigsten Erreger einer Sepsis sind ___, seltener sind es Pilze oder Viren.",
+              "options": [
+                "Parasiten",
+                "Bakterien",
+                "Pollen",
+                "Läuse"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La mayoría de las sepsis son causadas por bacterias. Pero también los hongos, como Candida, y los virus pueden provocarla, sobre todo en pacientes inmunodeprimidos. Por eso «solo bacterias» es una afirmación falsa."
+        },
+        {
+          "id": "sepsis.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Infektion ihrem Ausgangsort zu.",
+              "pairs": [
+                [
+                  "Urosepsis",
+                  "Harnwege"
+                ],
+                [
+                  "Pneumonie",
+                  "Lunge"
+                ],
+                [
+                  "Peritonitis",
+                  "Bauchraum"
+                ],
+                [
+                  "Wundinfektion",
+                  "Haut und Weichteile"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist eine Urosepsis?",
+              "options": [
+                "Eine Sepsis, die von einer Infektion der Harnwege ausgeht",
+                "Eine Sepsis, die von der Lunge ausgeht",
+                "Eine Entzündung der Harnblase ohne Fieber",
+                "Eine Sepsis nach einer Zahnbehandlung"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Urosepsis es la sepsis que empieza en las vías urinarias, por ejemplo por una pielonefritis o una sonda vesical. Es muy común en personas mayores. Peritonitis es la inflamación del peritoneo en el abdomen, y Pneumonie es la infección del pulmón."
+        },
+        {
+          "id": "sepsis.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum sind Venenkatheter und Blasenkatheter mögliche Ursachen einer Sepsis?",
+              "options": [
+                "Weil sie den Blutdruck senken",
+                "Weil sie das Immunsystem ausschalten",
+                "Weil sie Allergien auslösen",
+                "Weil sie Eintrittspforten für Erreger sind"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Eine Sepsis kann auch durch eine im Krankenhaus erworbene (nosokomiale) Infektion entstehen.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Ein zentraler Venenkatheter ist kein Risiko für eine Infektion, weil er steril gelegt wird.",
+              "correct": false
+            }
+          ],
+          "es": "Cada acceso invasivo, como el ZVK (catéter venoso central), la venoclisis o el Blasenkatheter (sonda vesical), es una Eintrittspforte (puerta de entrada) para los gérmenes. Muchas sepsis nacen de infecciones nosocomiales, o sea, adquiridas en el hospital. Aquí la enfermería tiene mucha responsabilidad con la higiene."
+        },
+        {
+          "id": "sepsis.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen hat eine Sepsis und von welchen Infektionsherden geht sie häufig aus?",
+          "answer": "Die Ursache einer Sepsis ist immer eine Infektion, meistens mit Bakterien, seltener mit Pilzen oder Viren. Der häufigste Ausgangsherd ist die Lunge bei einer Pneumonie. Weitere häufige Herde sind die Harnwege, der Bauchraum sowie Haut und Wunden. Auch Katheter wie ein zentraler Venenkatheter oder ein Blasenkatheter können die Eintrittspforte sein.",
+          "points": [
+            "Infektion als Ursache",
+            "Meist Bakterien",
+            "Lunge am häufigsten",
+            "Harnwege und Bauchraum",
+            "Haut und Wunden",
+            "Katheter als Eintrittspforte"
+          ],
+          "es": "Para contestar bien, empieza con la idea principal: sin infección no hay sepsis. Luego nombra los gérmenes y enumera los focos del más frecuente al menos frecuente. Mencionar los catéteres te da puntos extra porque es el tema donde enfermería puede prevenir."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "sepsis.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Altersgruppen haben ein besonders hohes Sepsisrisiko?",
+              "options": [
+                "Sehr alte Menschen",
+                "Jugendliche",
+                "Neugeborene und Säuglinge",
+                "Junge Erwachsene",
+                "Schulkinder"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Ein hohes Lebensalter ist ein Risikofaktor für eine Sepsis.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Warum haben alte Menschen ein erhöhtes Sepsisrisiko?",
+              "options": [
+                "Weil sie mehr Leukozyten haben",
+                "Weil ihr Immunsystem schwächer ist und sie oft chronische Krankheiten haben",
+                "Weil sie weniger Antibiotika bekommen dürfen",
+                "Weil ihre Haut dicker ist"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La edad es un factor de riesgo en los dos extremos: los muy mayores y los recién nacidos y lactantes. En ambos el sistema inmunológico es más débil. En las personas mayores se suman además las enfermedades crónicas y, con frecuencia, las sondas y catéteres."
+        },
+        {
+          "id": "sepsis.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Patient hat ein besonders hohes Risiko für eine Sepsis?",
+              "options": [
+                "Ein junger Sportler mit Muskelkater",
+                "Eine Patientin mit Heuschnupfen",
+                "Ein Patient unter Chemotherapie",
+                "Ein Patient mit Kurzsichtigkeit"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Medikamente wie Kortison oder Zytostatika schwächen die Abwehr und erhöhen das Sepsisrisiko.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Menschen ohne Milz haben kein erhöhtes Risiko für schwere Infektionen.",
+              "correct": false
+            }
+          ],
+          "es": "La Immunschwäche (inmunodeficiencia) es un factor de riesgo central: la quimioterapia, la cortisona y otros inmunosupresores debilitan las defensas. También las personas sin bazo tienen mayor riesgo de infecciones graves. En estos pacientes una infección pequeña puede volverse sepsis muy rápido."
+        },
+        {
+          "id": "sepsis.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei chronischen Krankheiten erhöhen das Sepsisrisiko?",
+              "options": [
+                "Diabetes mellitus",
+                "Krebserkrankungen",
+                "Chronische Niereninsuffizienz",
+                "Heuschnupfen",
+                "Kurzsichtigkeit"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Menschen mit ___ haben wegen der gestörten Abwehr und der schlechten Wundheilung ein erhöhtes Sepsisrisiko.",
+              "options": [
+                "Farbenblindheit",
+                "Plattfüßen",
+                "Migräne",
+                "Diabetes mellitus"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Las enfermedades crónicas debilitan al cuerpo frente a las infecciones. Las más importantes son Diabetes mellitus, cáncer, insuficiencia renal y enfermedades crónicas del hígado y del pulmón. En la diabetes, además, las heridas sanan mal y se infectan con facilidad."
+        },
+        {
+          "id": "sepsis.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme im Krankenhaus erhöht das Sepsisrisiko?",
+              "options": [
+                "Die tägliche Mobilisation",
+                "Die Messung des Blutdrucks",
+                "Die Atemgymnastik",
+                "Das Legen eines zentralen Venenkatheters"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer großen Operation ist das Risiko für eine Sepsis erhöht.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Risikofaktor der Erklärung zu.",
+              "pairs": [
+                [
+                  "Blasenkatheter",
+                  "Erreger können in die Harnwege aufsteigen"
+                ],
+                [
+                  "Operation",
+                  "Erreger können über die Wunde eindringen"
+                ],
+                [
+                  "Beatmung",
+                  "Erreger können in die Lunge gelangen"
+                ]
+              ]
+            }
+          ],
+          "es": "Todo lo que rompe las barreras naturales del cuerpo aumenta el riesgo: catéteres venosos, sonda vesical, ventilación mecánica, cirugías y heridas grandes. Por eso los pacientes de terapia intensiva y los recién operados son un grupo de riesgo. Cada acceso debe quitarse en cuanto ya no se necesite."
+        },
+        {
+          "id": "sepsis.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für eine Sepsis kennen Sie?",
+          "answer": "Ein erhöhtes Risiko haben sehr alte Menschen sowie Neugeborene und Säuglinge. Wichtige Risikofaktoren sind außerdem eine Immunschwäche, zum Beispiel durch eine Chemotherapie oder Kortison, und chronische Krankheiten wie Diabetes mellitus, Krebs oder eine Niereninsuffizienz. Auch invasive Zugänge wie Venenkatheter und Blasenkatheter, Operationen und große Wunden erhöhen das Risiko, weil Erreger leichter in den Körper gelangen.",
+          "points": [
+            "Hohes Alter",
+            "Neugeborene und Säuglinge",
+            "Immunschwäche",
+            "Chronische Krankheiten",
+            "Invasive Zugänge",
+            "Operationen und Wunden"
+          ],
+          "es": "Ordena tu respuesta en grupos: edad, defensas bajas, enfermedades crónicas y puertas de entrada. Así no se te olvida nada y suenas estructurada. Si puedes, da un ejemplo de cada grupo, como Chemotherapie (quimioterapia) o Blasenkatheter (sonda vesical)."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "sepsis.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Zeichen sind Warnzeichen einer Sepsis?",
+              "options": [
+                "Schnelle Atmung",
+                "Neu aufgetretene Verwirrtheit",
+                "Niedriger Blutdruck",
+                "Langsamer Puls unter 50 pro Minute",
+                "Schüttelfrost",
+                "Vermehrte Urinausscheidung"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Sepsis ist immer Fieber vorhanden.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Körpertemperatur kann bei einer Sepsis auftreten?",
+              "options": [
+                "Nur Fieber über 40 °C",
+                "Fieber, aber auch eine Untertemperatur unter 36 °C",
+                "Immer eine normale Temperatur",
+                "Nur eine Untertemperatur"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Las señales de alarma son: fiebre o Untertemperatur (hipotermia), Schüttelfrost (escalofríos), pulso rápido, respiración rápida, presión baja y confusión nueva. Ojo: no siempre hay fiebre. Sobre todo las personas mayores o inmunodeprimidas pueden tener temperatura normal o incluso baja."
+        },
+        {
+          "id": "sepsis.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein 85-jähriger Patient mit Harnwegsinfekt ist plötzlich verwirrt und schläfrig. Woran müssen Sie denken?",
+              "options": [
+                "An eine normale Alterserscheinung",
+                "An Heimweh",
+                "An eine beginnende Sepsis",
+                "An zu viel Schlaf in der Nacht"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine neu aufgetretene Verwirrtheit kann ein frühes Zeichen einer Sepsis sein.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Verwirrtheit bei einem alten Patienten mit Infektion ist normal und muss nicht gemeldet werden.",
+              "correct": false
+            }
+          ],
+          "es": "La confusión nueva o la somnolencia puede ser uno de los primeros signos de la sepsis, porque el cerebro recibe poco oxígeno. En adultos mayores a veces es el único signo. Nunca la tomes como «cosa de la edad» en un paciente con infección: avisa al médico."
+        },
+        {
+          "id": "sepsis.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Tachykardie",
+                  "Zu schneller Puls"
+                ],
+                [
+                  "Tachypnoe",
+                  "Zu schnelle Atmung"
+                ],
+                [
+                  "Hypotonie",
+                  "Zu niedriger Blutdruck"
+                ],
+                [
+                  "Oligurie",
+                  "Verminderte Urinausscheidung"
+                ]
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Eine beschleunigte Atmung nennt man ___.",
+              "options": [
+                "Tachypnoe",
+                "Bradypnoe",
+                "Apnoe",
+                "Tachykardie"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "mc",
+              "q": "Welche Kombination der Vitalzeichen ist typisch für eine Sepsis?",
+              "options": [
+                "Langsamer Puls, langsamer Atem, hoher Blutdruck",
+                "Schneller Puls, schnelle Atmung, niedriger Blutdruck",
+                "Normaler Puls, normale Atmung, hoher Blutdruck",
+                "Langsamer Puls, schnelle Atmung, hoher Blutdruck"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Estos cuatro términos los necesitas para describir la sepsis en alemán: Tachykardie (pulso rápido), Tachypnoe (respiración rápida), Hypotonie (presión baja) y Oligurie (poca orina). La combinación típica es pulso y respiración rápidos con presión baja. La respiración rápida muchas veces es el signo más temprano."
+        },
+        {
+          "id": "sepsis.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie sieht die Haut bei einer fortgeschrittenen Sepsis mit Kreislaufversagen typischerweise aus?",
+              "options": [
+                "Rosig, warm und trocken",
+                "Gelb und trocken",
+                "Stark gebräunt",
+                "Kühl, blass und marmoriert"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Eine marmorierte, kühle Haut ist ein Zeichen für eine schlechte Durchblutung.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "In der frühen Phase einer Sepsis ist die Haut immer kalt und blau.",
+              "correct": false
+            }
+          ],
+          "es": "La piel marmoleada, fría y pálida (marmorierte Haut) indica mala circulación periférica y es un signo de alarma tardío. Al principio de la sepsis la piel puede estar caliente y enrojecida por la fiebre y la vasodilatación. Por eso observas la piel una y otra vez, no solo una vez."
+        },
+        {
+          "id": "sepsis.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was zeigt eine verminderte Urinausscheidung bei einer Sepsis an?",
+              "options": [
+                "Dass der Patient genug getrunken hat",
+                "Dass die Nieren schlecht durchblutet sind",
+                "Dass die Infektion ausgeheilt ist",
+                "Dass das Fieber sinkt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine abnehmende Urinausscheidung ist bei einer Sepsis ein Warnzeichen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Eine Urinausscheidung von weniger als ___ ml pro kg Körpergewicht pro Stunde gilt als vermindert.",
+              "options": [
+                "5",
+                "2",
+                "0,5",
+                "10"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Cuando la presión baja, el riñón recibe menos sangre y produce menos orina. Por eso la Oligurie (oliguria) es un signo temprano de que un órgano ya está afectado. Como referencia se usa menos de 0,5 ml por kg de peso por hora."
+        },
+        {
+          "id": "sepsis.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome und Warnzeichen hat ein Patient mit Sepsis?",
+          "answer": "Typische Warnzeichen sind Fieber oder Untertemperatur und Schüttelfrost. Der Patient hat einen schnellen Puls (Tachykardie), eine schnelle Atmung (Tachypnoe) und einen niedrigen Blutdruck (Hypotonie). Oft ist er plötzlich verwirrt oder schläfrig. Die Haut kann kühl und marmoriert sein und die Urinausscheidung nimmt ab. Der Patient fühlt sich schwer krank.",
+          "points": [
+            "Fieber oder Untertemperatur",
+            "Schüttelfrost",
+            "Tachykardie und Tachypnoe",
+            "Hypotonie",
+            "Verwirrtheit",
+            "Marmorierte Haut, wenig Urin"
+          ],
+          "es": "Para no olvidar nada, ve de la cabeza a los pies o por sistemas: temperatura, circulación, respiración, conciencia, piel y orina. Si usas los términos técnicos como Tachykardie y Hypotonie, la respuesta suena más profesional. Termina con que el paciente se siente gravemente enfermo."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "sepsis.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann werden bei Verdacht auf eine Sepsis die Blutkulturen abgenommen?",
+              "options": [
+                "Nach der dritten Antibiotikagabe",
+                "Erst wenn das Fieber gesunken ist",
+                "Vor der ersten Antibiotikagabe",
+                "Nur am nächsten Morgen nüchtern"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Blutkulturen werden möglichst vor der ersten Antibiotikagabe abgenommen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Blutkulturen werden ___ der ersten Antibiotikagabe abgenommen, damit der Erreger nachgewiesen werden kann.",
+              "options": [
+                "einen Tag nach",
+                "vor",
+                "während",
+                "eine Woche nach"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Las Blutkulturen (hemocultivos) se toman antes de la primera dosis de antibiótico, porque después es más difícil que el germen crezca en el laboratorio. Pero la toma no debe retrasar el antibiótico: se hace rápido y enseguida se inicia el tratamiento. Es una pregunta clásica de examen."
+        },
+        {
+          "id": "sepsis.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist bei der Abnahme von Blutkulturen wichtig?",
+              "options": [
+                "Eine Flasche reicht immer aus",
+                "Die Flaschen werden vor dem Transport gekühlt",
+                "Das Blut wird ohne Hautdesinfektion abgenommen",
+                "Aseptisches Arbeiten und mindestens zwei Flaschenpaare (aerob und anaerob)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Abnahme von Blutkulturen ist eine sorgfältige Hautdesinfektion nicht nötig.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne zu.",
+              "pairs": [
+                [
+                  "Aerobe Flasche",
+                  "Für Erreger, die Sauerstoff brauchen"
+                ],
+                [
+                  "Anaerobe Flasche",
+                  "Für Erreger, die ohne Sauerstoff wachsen"
+                ],
+                [
+                  "Hautdesinfektion",
+                  "Verhindert eine Verunreinigung der Probe mit Hautkeimen"
+                ]
+              ]
+            }
+          ],
+          "es": "Se toman por lo menos dos pares de frascos, cada par con uno aerobe (aerobio) y uno anaerobe (anaerobio). Lo más importante para ti es la técnica aséptica: desinfección de manos, desinfección cuidadosa de la piel y del tapón del frasco. Si la muestra se contamina con gérmenes de la piel, el resultado no sirve."
+        },
+        {
+          "id": "sepsis.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Laborwert zeigt bei einer Sepsis die Minderdurchblutung des Gewebes an?",
+              "options": [
+                "Laktat",
+                "Cholesterin",
+                "Harnsäure",
+                "HbA1c"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein steigender Laktatwert ist bei einer Sepsis ein gutes Zeichen.",
+              "correct": false
+            }
+          ],
+          "es": "El Laktat (lactato) muestra si los tejidos reciben suficiente oxígeno. Un valor alto, por arriba de 2 mmol/l, significa mala irrigación y un pronóstico más grave. Por eso se mide pronto y se repite para ver si el tratamiento funciona."
+        },
+        {
+          "id": "sepsis.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Laborwerte gehören zu den Entzündungswerten?",
+              "options": [
+                "CRP (C-reaktives Protein)",
+                "Procalcitonin (PCT)",
+                "Leukozyten",
+                "Kalium",
+                "TSH"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Laborwert seiner Aussage zu.",
+              "pairs": [
+                [
+                  "CRP und Procalcitonin",
+                  "Zeigen eine Entzündung an"
+                ],
+                [
+                  "Laktat",
+                  "Zeigt einen Sauerstoffmangel im Gewebe an"
+                ],
+                [
+                  "Kreatinin",
+                  "Zeigt die Nierenfunktion an"
+                ],
+                [
+                  "Thrombozyten und Gerinnungswerte",
+                  "Zeigen eine Gerinnungsstörung an"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Sepsis können die Leukozyten erhöht, aber auch erniedrigt sein.",
+              "correct": true
+            }
+          ],
+          "es": "Los Entzündungswerte (marcadores de inflamación) son CRP, Procalcitonin (procalcitonina) y los leucocitos. La procalcitonina sube sobre todo en infecciones bacterianas graves. Los leucocitos pueden estar altos o bajos. Además se revisan valores de órganos, como Kreatinin (creatinina) para el riñón y la coagulación."
+        },
+        {
+          "id": "sepsis.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung dem gesuchten Infektionsherd zu.",
+              "pairs": [
+                [
+                  "Röntgen-Thorax",
+                  "Lunge"
+                ],
+                [
+                  "Urinstatus und Urinkultur",
+                  "Harnwege"
+                ],
+                [
+                  "Ultraschall oder CT des Abdomens",
+                  "Bauchraum"
+                ],
+                [
+                  "Wundabstrich",
+                  "Wunde"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Fokussuche?",
+              "options": [
+                "Die Suche nach dem passenden Bett auf der Intensivstation",
+                "Die Suche nach dem Infektionsherd, von dem die Sepsis ausgeht",
+                "Die Prüfung der Sehschärfe",
+                "Die Suche nach einer geeigneten Vene"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Fokussuche significa buscar el foco de la infección, porque solo así se puede tratar la causa. Se orienta por los focos más frecuentes: radiografía de tórax para el pulmón, examen y cultivo de orina, ultrasonido o tomografía del abdomen y cultivo de heridas. Tú ayudas tomando las muestras correctamente y observando heridas y sitios de punción."
+        },
+        {
+          "id": "sepsis.diagnostik.6",
+          "type": "sprech",
+          "q": "Welche Diagnostik wird bei Verdacht auf eine Sepsis durchgeführt und welche Aufgaben haben Sie dabei als Pflegefachfrau?",
+          "answer": "Zuerst werden die Vitalzeichen und das Bewusstsein kontrolliert, zum Beispiel mit dem qSOFA-Score. Vor der ersten Antibiotikagabe werden Blutkulturen abgenommen. Im Labor werden das Laktat, die Entzündungswerte und die Organwerte bestimmt. Außerdem sucht man den Infektionsherd, zum Beispiel mit einem Röntgen-Thorax und einer Urinuntersuchung. Ich bereite die Blutentnahme vor, arbeite aseptisch, gewinne Urinproben und sorge für einen schnellen Transport ins Labor.",
+          "points": [
+            "Vitalzeichen und Bewusstsein",
+            "Blutkulturen vor Antibiotika",
+            "Laktat und Entzündungswerte",
+            "Fokussuche",
+            "Aseptisches Arbeiten",
+            "Schneller Probentransport"
+          ],
+          "es": "En esta respuesta junta lo médico con tu papel de enfermera. Lo que más cuenta: Blutkulturen (hemocultivos) antes del antibiótico, lactato y búsqueda del foco. De tu parte: preparar el material, trabajar de forma aséptica y que las muestras lleguen rápido al laboratorio."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "sepsis.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann soll bei einer Sepsis die Antibiotikatherapie beginnen?",
+              "options": [
+                "So früh wie möglich, am besten innerhalb der ersten Stunde",
+                "Erst wenn das Ergebnis der Blutkultur nach einigen Tagen vorliegt",
+                "Erst nach drei Tagen Beobachtung",
+                "Erst wenn das Fieber über 40 °C steigt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Mit der Antibiotikagabe wartet man bei einer Sepsis, bis der Erreger im Labor sicher nachgewiesen ist.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Bei einer Sepsis beginnt man sofort mit einem ___, das gegen viele verschiedene Erreger wirkt.",
+              "options": [
+                "Schmerzmittel",
+                "Schlafmittel",
+                "Breitspektrum-Antibiotikum",
+                "Abführmittel"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El antibiótico se da lo más pronto posible, de preferencia en la primera hora, por vía intravenosa. Como todavía no se conoce el germen, se empieza con un Breitspektrum-Antibiotikum (antibiótico de amplio espectro) y después se ajusta según el cultivo. A ti te toca prepararlo y administrarlo sin retraso según la indicación médica."
+        },
+        {
+          "id": "sepsis.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum bekommt ein Patient mit Sepsis und niedrigem Blutdruck Infusionen?",
+              "options": [
+                "Um das Fieber direkt zu senken",
+                "Um die Bakterien aus dem Blut zu spülen",
+                "Um den Flüssigkeitsmangel in den Gefäßen auszugleichen und den Kreislauf zu stabilisieren",
+                "Um den Blutzucker zu senken"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Zur Volumentherapie bei Sepsis werden vor allem kristalloide Infusionslösungen verwendet.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Während der Volumentherapie muss die Pflegefachfrau nicht auf Zeichen einer Überwässerung achten.",
+              "correct": false
+            }
+          ],
+          "es": "La Volumentherapie (reposición de líquidos) compensa el líquido que se salió de los vasos y estabiliza la circulación. Se usan sobre todo kristalloide Lösungen (soluciones cristaloides). Tú vigilas la presión, el pulso, la orina y también signos de sobrecarga, como disnea o edemas."
+        },
+        {
+          "id": "sepsis.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches Medikament wird beim septischen Schock zur Kreislaufunterstützung zuerst eingesetzt?",
+              "options": [
+                "Insulin",
+                "Noradrenalin",
+                "Furosemid",
+                "Paracetamol"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Vasopressoren wie Noradrenalin werden kontinuierlich über eine Spritzenpumpe gegeben und der Blutdruck wird dabei engmaschig überwacht.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Noradrenalin gehört zu den ___, es verengt die Gefäße und hebt den Blutdruck.",
+              "options": [
+                "Antibiotika",
+                "Diuretika",
+                "Vasopressoren",
+                "Analgetika"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Si la presión sigue baja a pesar de los líquidos, se dan Vasopressoren (vasopresores); el de primera elección es Noradrenalin (noradrenalina). Contrae los vasos y sube la presión. Se administra de forma continua con bomba, normalmente por catéter venoso central y en terapia intensiva, con vigilancia estrecha de la presión."
+        },
+        {
+          "id": "sepsis.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Fokussanierung?",
+              "options": [
+                "Die Desinfektion des Patientenzimmers",
+                "Die Verlegung auf die Intensivstation",
+                "Die Gabe von fiebersenkenden Medikamenten",
+                "Die Beseitigung des Infektionsherdes"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Infektionsherd einer möglichen Fokussanierung zu.",
+              "pairs": [
+                [
+                  "Abszess",
+                  "Eröffnen und Drainieren"
+                ],
+                [
+                  "Infizierter Venenkatheter",
+                  "Katheter entfernen"
+                ],
+                [
+                  "Infizierte Wunde",
+                  "Chirurgische Wundreinigung"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Ein infizierter Katheter wird bei einer Sepsis möglichst belassen.",
+              "correct": false
+            }
+          ],
+          "es": "Fokussanierung (control del foco) significa eliminar la fuente de la infección; sin eso el antibiótico solo no alcanza. Ejemplos: drenar un absceso, retirar un catéter infectado, limpiar quirúrgicamente una herida u operar el abdomen. Es uno de los pilares del tratamiento junto con antibiótico y líquidos."
+        },
+        {
+          "id": "sepsis.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Pflegefachfrau während der Sepsistherapie?",
+              "options": [
+                "Vitalzeichen und Bewusstsein engmaschig überwachen",
+                "Das Antibiotikum selbstständig auswählen",
+                "Infusionen und Antibiotika nach Arztanordnung zügig vorbereiten und verabreichen",
+                "Die Urinausscheidung messen und bilanzieren",
+                "Den Katheter ohne Anordnung entfernen"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Nach Beginn der Antibiotikagabe beobachtet die Pflegefachfrau den Patienten auf Zeichen einer allergischen Reaktion.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Wo wird ein Patient mit septischem Schock behandelt?",
+              "options": [
+                "Auf der Intensivstation",
+                "In der Reha-Klinik",
+                "Zu Hause",
+                "In der Tagesklinik"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Durante el tratamiento tu papel es vigilar, preparar y observar efectos: signos vitales y conciencia muy seguido, antibióticos e infusiones a tiempo según la indicación médica, y balance de líquidos. También observas efectos secundarios, por ejemplo una reacción alérgica al antibiótico. El paciente con choque séptico va a la Intensivstation (terapia intensiva)."
+        },
+        {
+          "id": "sepsis.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird eine Sepsis behandelt und welche Aufgaben übernehmen Sie dabei?",
+          "answer": "Die Sepsis ist ein Notfall und wird sofort behandelt. Die wichtigsten Säulen sind eine frühe Antibiotikagabe, die Volumentherapie mit Infusionen und die Sanierung des Infektionsherdes. Wenn der Blutdruck trotzdem zu niedrig bleibt, bekommt der Patient Vasopressoren wie Noradrenalin und wird auf der Intensivstation überwacht. Ich bereite die Medikamente und Infusionen nach Arztanordnung vor, überwache Vitalzeichen, Bewusstsein und Urinausscheidung und beobachte Wirkung und Nebenwirkungen.",
+          "points": [
+            "Frühe Antibiotikagabe",
+            "Volumentherapie",
+            "Fokussanierung",
+            "Vasopressoren",
+            "Intensivstation",
+            "Überwachung durch Pflege"
+          ],
+          "es": "Los pilares del tratamiento son fáciles de recordar: antibiótico temprano, líquidos, control del foco y apoyo a la circulación. En el examen de enfermería siempre agrega lo que haces tú: preparar, administrar por indicación médica, vigilar y observar efectos y efectos secundarios."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "sepsis.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation der Sepsis ist besonders gefürchtet?",
+              "options": [
+                "Der septische Schock",
+                "Die hypertensive Krise",
+                "Die Schilddrüsenüberfunktion",
+                "Der Gichtanfall"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der septische Schock hat eine hohe Sterblichkeit.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Beim septischen ___ bleibt der Blutdruck trotz Volumengabe zu niedrig.",
+              "options": [
+                "Fieber",
+                "Schock",
+                "Husten",
+                "Ausschlag"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La complicación más temida es el septischer Schock (choque séptico), con falla de la circulación y alta mortalidad. Por eso vigilas tan de cerca la presión arterial y la conciencia. Si detectas la caída de presión a tiempo, el equipo puede actuar antes."
+        },
+        {
+          "id": "sepsis.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Multiorganversagen?",
+              "options": [
+                "Die Entzündung eines einzelnen Organs",
+                "Eine Allergie gegen mehrere Medikamente",
+                "Das gleichzeitige oder aufeinanderfolgende Versagen von zwei oder mehr Organen",
+                "Die Entfernung mehrerer Organe bei einer Operation"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Versagen bei einer Sepsis mehrere Organe, spricht man von einem ___.",
+              "options": [
+                "Multiorganversagen",
+                "Organspendefall",
+                "Organtransplantat",
+                "Organscreening"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Sepsis kann immer nur ein einziges Organ geschädigt werden.",
+              "correct": false
+            }
+          ],
+          "es": "El Multiorganversagen (falla orgánica múltiple) es cuando fallan dos o más órganos, al mismo tiempo o uno tras otro, por ejemplo pulmón, riñón e hígado. Es la causa de muerte más importante en la sepsis. Pasa porque todos los órganos sufren por la mala irrigación."
+        },
+        {
+          "id": "sepsis.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Organ der typischen Komplikation bei Sepsis zu.",
+              "pairs": [
+                [
+                  "Lunge",
+                  "Akutes Lungenversagen (ARDS)"
+                ],
+                [
+                  "Niere",
+                  "Akutes Nierenversagen"
+                ],
+                [
+                  "Gehirn",
+                  "Delir"
+                ],
+                [
+                  "Blutgerinnung",
+                  "Verbrauchskoagulopathie"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Komplikation betrifft bei der Sepsis die Niere?",
+              "options": [
+                "Nierensteine",
+                "Akutes Nierenversagen",
+                "Nierenzysten",
+                "Nierenkrebs"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Cada órgano tiene su complicación típica: el pulmón, el ARDS (síndrome de dificultad respiratoria aguda); el riñón, la falla renal aguda; el cerebro, el Delir (delirium); y la coagulación, la Verbrauchskoagulopathie (coagulación intravascular diseminada). Con esta lista puedes explicar qué observas en cada sistema."
+        },
+        {
+          "id": "sepsis.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Woran erkennen Sie eine Gerinnungsstörung bei einem Patienten mit Sepsis?",
+              "options": [
+                "An vermehrtem Durst",
+                "An Gelenkschmerzen",
+                "An trockener Haut",
+                "An punktförmigen Hautblutungen und Blutungen aus Einstichstellen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Verbrauchskoagulopathie bilden sich viele kleine Gerinnsel und gleichzeitig steigt die Blutungsneigung.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Neue Hautblutungen bei einem Patienten mit Sepsis sind harmlos und müssen nicht gemeldet werden.",
+              "correct": false
+            }
+          ],
+          "es": "En la Verbrauchskoagulopathie se forman muchos coágulos pequeños y se gastan las plaquetas y los factores de coagulación; por eso después el paciente sangra con facilidad. Tú lo notas por Petechien (petequias), moretones o sangrado en los sitios de punción y en las mucosas. Cualquier sangrado nuevo lo reportas de inmediato."
+        },
+        {
+          "id": "sepsis.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Langzeitfolgen können nach einer überstandenen Sepsis bleiben?",
+              "options": [
+                "Muskelschwäche und Nervenschäden",
+                "Konzentrations- und Gedächtnisstörungen",
+                "Depressionen und Ängste",
+                "Lebenslange Immunität gegen Infektionen",
+                "Verbesserte Nierenfunktion"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer überstandenen Sepsis sind alle Patienten sofort wieder vollständig gesund.",
+              "correct": false
+            }
+          ],
+          "es": "Muchos pacientes que sobreviven a una sepsis quedan con secuelas: debilidad muscular y daño de nervios, problemas de concentración y memoria, cansancio, depresión y ansiedad. Por eso la rehabilitación y la movilización temprana son importantes. La sepsis no deja inmunidad; al contrario, el paciente queda más vulnerable a nuevas infecciones."
+        },
+        {
+          "id": "sepsis.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einer Sepsis auftreten?",
+          "answer": "Die gefährlichste Komplikation ist der septische Schock mit Kreislaufversagen. Außerdem können mehrere Organe versagen, das nennt man Multiorganversagen. Betroffen sind zum Beispiel die Lunge mit einem akuten Lungenversagen und die Niere mit einem akuten Nierenversagen. Auch eine Gerinnungsstörung mit Blutungen und ein Delir sind möglich. Nach der Sepsis bleiben oft Langzeitfolgen wie Muskelschwäche und Konzentrationsstörungen.",
+          "points": [
+            "Septischer Schock",
+            "Multiorganversagen",
+            "Lungen- und Nierenversagen",
+            "Gerinnungsstörung",
+            "Delir",
+            "Langzeitfolgen"
+          ],
+          "es": "Empieza con las dos complicaciones principales: septischer Schock y Multiorganversagen. Luego nombra órganos concretos y al final las secuelas a largo plazo. Así muestras que conoces la evolución completa de la enfermedad, desde la fase aguda hasta después del alta."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "sepsis.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Sie betreuen einen Patienten mit einer Infektion und Verdacht auf Sepsis. Was beobachten Sie und wann informieren Sie den Arzt?",
+          "answer": "Ich kontrolliere engmaschig die Vitalzeichen, also Blutdruck, Puls, Atemfrequenz, Temperatur und Sauerstoffsättigung. Außerdem beobachte ich das Bewusstsein, die Haut und die Urinausscheidung. Ich informiere sofort den Arzt, wenn der Blutdruck abfällt, die Atmung oder der Puls schneller werden, der Patient verwirrt oder schläfrig wird oder die Urinausscheidung abnimmt. Alle Werte und Beobachtungen dokumentiere ich mit Uhrzeit.",
+          "points": [
+            "Vitalzeichen engmaschig",
+            "Atemfrequenz zählen",
+            "Bewusstsein beobachten",
+            "Haut und Urinausscheidung",
+            "Arzt sofort informieren",
+            "Dokumentation"
+          ],
+          "es": "La tarea más importante de enfermería en la sepsis es detectar el empeoramiento a tiempo. Para eso haces Vitalzeichenkontrolle (control de signos vitales) frecuente, sin olvidar la frecuencia respiratoria, que muchas veces no se mide. Ante cualquier cambio avisas de inmediato al médico y lo documentas con hora."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird bei einem Patienten mit Sepsis die Urinausscheidung stündlich gemessen?",
+              "options": [
+                "Weil der Urin der wichtigste Infektionsweg ist",
+                "Weil sie zeigt, ob die Nieren ausreichend durchblutet sind und der Kreislauf stabil ist",
+                "Weil der Patient sonst zu viel trinkt",
+                "Weil man so das Fieber berechnen kann"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Zur Flüssigkeitsbilanz gehören die Einfuhr, zum Beispiel Infusionen und Getränke, und die Ausfuhr, zum Beispiel Urin.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Gegenüberstellung von Einfuhr und Ausfuhr nennt man ___.",
+              "options": [
+                "Pflegeanamnese",
+                "Fieberkurve",
+                "Flüssigkeitsbilanz",
+                "Sturzprotokoll"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La orina por hora te dice si el riñón está bien irrigado y la circulación es estable; por eso muchas veces se mide con sonda vesical y bolsa con medidor. La Flüssigkeitsbilanz (balance de líquidos) compara lo que entra con lo que sale. Si la orina baja, avisas al médico porque puede ser el inicio de una falla renal."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.3",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie prüfen Sie die periphere Durchblutung bei einem Patienten mit Sepsis?",
+              "options": [
+                "Mit der Rekapillarisierungszeit am Fingernagel",
+                "Mit einem Sehtest",
+                "Mit der Messung des Bauchumfangs",
+                "Mit einem Hörtest"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine Rekapillarisierungszeit von mehr als 2 Sekunden spricht für eine schlechte periphere Durchblutung.",
+              "correct": true
+            },
+            {
+              "form": "tf",
+              "q": "Kalte, marmorierte Knie und Hände sind bei einer Sepsis ein gutes Zeichen.",
+              "correct": false
+            }
+          ],
+          "es": "Para la Hautbeobachtung (observación de la piel) revisas color, temperatura y humedad, y haces la Rekapillarisierungszeit (tiempo de llenado capilar): aprietas la uña y cuentas cuánto tarda en volver el color. Más de 2 segundos indica mala circulación periférica. La piel fría y marmoleada, sobre todo en rodillas y manos, es señal de alarma."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Maßnahmen der Infektionsprophylaxe führen Sie bei Patienten mit Kathetern und anderen Zugängen durch, um eine Sepsis zu verhindern?",
+          "answer": "Die wichtigste Maßnahme ist die hygienische Händedesinfektion vor und nach jedem Patientenkontakt und vor jeder aseptischen Tätigkeit. Mit peripheren Venenkathetern, zentralen Venenkathetern und Blasenkathetern gehe ich aseptisch um, zum Beispiel beim Verbandwechsel und beim Anschließen von Infusionen. Ich kontrolliere die Einstichstellen täglich auf Rötung, Schwellung, Schmerz und Sekret und melde Entzündungszeichen sofort dem Arzt. Außerdem spreche ich täglich mit dem Arzt, ob der Zugang noch nötig ist, denn jeder unnötige Zugang wird entfernt.",
+          "points": [
+            "Händedesinfektion",
+            "Aseptischer Umgang mit Zugängen",
+            "Einstichstellen täglich kontrollieren",
+            "Entzündungszeichen melden",
+            "Notwendigkeit täglich prüfen"
+          ],
+          "es": "La Infektionsprophylaxe (prevención de infecciones) es la mejor protección contra la sepsis, y la Händedesinfektion (desinfección de manos) es la medida número uno. Manejas todos los accesos con técnica aséptica y revisas diario los sitios de punción. Un catéter que ya no se necesita se retira, porque cada día de más aumenta el riesgo."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem bettlägerigen Patienten mit Sepsis besonders wichtig? Begründen Sie Ihre Auswahl.",
+          "answer": "Wichtig ist die Dekubitusprophylaxe, weil der Patient immobil ist und die Haut schlecht durchblutet wird. Ich positioniere ihn regelmäßig um und kontrolliere die Haut. Die Thromboseprophylaxe ist nötig, weil der Patient im Bett liegt und die Blutgerinnung aktiviert ist. Dazu gehören Bewegungsübungen und die Antikoagulation nach Arztanordnung. Die Pneumonieprophylaxe ist wichtig, weil der Patient flach atmet und wenig mobil ist: Ich lagere den Oberkörper hoch, leite zu Atemübungen an und führe eine gute Mundpflege durch.",
+          "points": [
+            "Dekubitusprophylaxe",
+            "Regelmäßiger Positionswechsel",
+            "Thromboseprophylaxe",
+            "Pneumonieprophylaxe",
+            "Oberkörper hochlagern",
+            "Begründung nennen"
+          ],
+          "es": "En el examen no basta con nombrar las profilaxis; tienes que decir por qué. Dekubitusprophylaxe (prevención de úlceras por presión): inmovilidad y piel mal irrigada. Thromboseprophylaxe (prevención de trombosis): reposo en cama y coagulación activada. Pneumonieprophylaxe (prevención de neumonía): respiración superficial y poca movilidad."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist bei einem Patienten mit Sepsis die Soor- und Parotitisprophylaxe wichtig?",
+              "options": [
+                "Weil der Patient zu viel isst",
+                "Weil Antibiotika die Zähne verfärben",
+                "Weil die Abwehr geschwächt ist, der Patient Antibiotika bekommt und oft wenig isst und trinkt",
+                "Weil der Patient zu viel Speichel bildet"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Prophylaxe einer passenden Maßnahme zu.",
+              "pairs": [
+                [
+                  "Soor- und Parotitisprophylaxe",
+                  "Regelmäßige Mundpflege und Inspektion der Mundhöhle"
+                ],
+                [
+                  "Kontrakturprophylaxe",
+                  "Gelenke regelmäßig durchbewegen"
+                ],
+                [
+                  "Dekubitusprophylaxe",
+                  "Regelmäßiger Positionswechsel und Hautkontrolle"
+                ],
+                [
+                  "Pneumonieprophylaxe",
+                  "Oberkörper hochlagern und Atemübungen"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Antibiotikatherapie kann eine Pilzinfektion im Mund (Soor) begünstigen.",
+              "correct": true
+            }
+          ],
+          "es": "La Soor- und Parotitisprophylaxe (prevención de candidiasis oral y parotiditis) consiste en una Mundpflege (higiene bucal) regular e inspección de la boca. Es importante porque los antibióticos y las defensas bajas favorecen los hongos, y el paciente casi no come ni mastica. La Kontrakturprophylaxe (prevención de contracturas) se hace moviendo las articulaciones del paciente encamado."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Körperpflege bei einem Patienten mit Sepsis durch?",
+          "answer": "In der akuten Phase übernehme ich die Körperpflege im Bett, weil der Patient sehr geschwächt ist. Ich arbeite schonend und in kleinen Schritten und beobachte dabei den Kreislauf und die Atmung. Die Körperpflege nutze ich zur Hautbeobachtung, besonders an den gefährdeten Stellen und an den Einstichstellen der Katheter. Nach dem Schwitzen wasche ich den Patienten und trockne die Haut gut ab. Dazu gehören auch eine sorgfältige Mundpflege und eine Intimpflege, besonders bei einem Blasenkatheter.",
+          "points": [
+            "Körperpflege im Bett übernehmen",
+            "Schonend, Kreislauf beobachten",
+            "Hautbeobachtung",
+            "Mundpflege",
+            "Intimpflege bei Blasenkatheter"
+          ],
+          "es": "El paciente séptico está muy débil, así que en la fase aguda tú haces la Körperpflege (higiene corporal) en cama, con calma y vigilando la circulación. Aprovechas el baño para revisar la piel y los sitios de los catéteres. La Intimpflege (higiene íntima) cuidadosa es clave cuando hay sonda vesical, para evitar nuevas infecciones."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung und der Flüssigkeitszufuhr eines Patienten mit Sepsis?",
+          "answer": "Durch Fieber und Schwitzen verliert der Patient viel Flüssigkeit und hat einen erhöhten Energiebedarf. Ich achte deshalb auf eine ausreichende Flüssigkeitszufuhr nach Arztanordnung und führe eine Flüssigkeitsbilanz. Wenn der Patient essen kann, biete ich kleine, leicht verdauliche Mahlzeiten und Wunschkost an. Kann er nicht ausreichend essen, wird er nach Arztanordnung über eine Sonde oder parenteral ernährt. Ich kontrolliere außerdem den Blutzucker nach Anordnung und achte bei schläfrigen Patienten auf die Aspirationsgefahr.",
+          "points": [
+            "Erhöhter Flüssigkeits- und Energiebedarf",
+            "Flüssigkeitsbilanz",
+            "Kleine, leichte Mahlzeiten",
+            "Sonden- oder parenterale Ernährung",
+            "Blutzuckerkontrolle",
+            "Aspirationsgefahr beachten"
+          ],
+          "es": "Con fiebre el cuerpo gasta más energía y pierde líquidos, por eso vigilas la ingesta y llevas el balance. La cantidad de líquidos la indica el médico, porque puede haber falla renal o sobrecarga. Si el paciente no puede comer lo suficiente, se usa Sondenernährung (alimentación por sonda) o nutrición parenteral, y en pacientes somnolientos hay riesgo de aspiración."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie mobilisieren Sie einen Patienten mit Sepsis?",
+          "answer": "In der akuten Phase hat der Patient Bettruhe, weil der Kreislauf instabil ist. In dieser Zeit positioniere ich ihn regelmäßig um und bewege die Gelenke durch. Sobald der Kreislauf stabil ist, beginne ich nach Rücksprache mit dem Arzt mit der Frühmobilisation. Ich gehe schrittweise vor, zuerst Sitzen an der Bettkante, dann Stehen und Gehen. Vor, während und nach der Mobilisation kontrolliere ich Puls und Blutdruck und arbeite mit der Physiotherapie zusammen.",
+          "points": [
+            "Bettruhe in der Akutphase",
+            "Positionswechsel und Durchbewegen",
+            "Frühmobilisation bei stabilem Kreislauf",
+            "Schrittweise vorgehen",
+            "Kreislaufkontrolle",
+            "Physiotherapie einbeziehen"
+          ],
+          "es": "Mientras la circulación está inestable, el paciente guarda reposo en cama y tú haces cambios de posición y movilización pasiva. Cuando ya está estable, empieza la Frühmobilisation (movilización temprana) paso a paso, siempre controlando pulso y presión. Esto previene la debilidad muscular, que es una secuela frecuente de la sepsis."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Ihr Patient mit Sepsis hat hohes Fieber. Wie unterstützen Sie ihn in den verschiedenen Fieberphasen, auch bei Kleidung und Bettwäsche?",
+          "answer": "Im Fieberanstieg friert der Patient und hat Schüttelfrost, deshalb halte ich ihn warm, zum Beispiel mit einer zusätzlichen Decke. In der Fieberhöhe ist die Haut heiß, dann entferne ich dicke Decken und ziehe ihm leichte Baumwollkleidung an. Im Fieberabfall schwitzt der Patient stark, deshalb wechsle ich nasse Kleidung und Bettwäsche zügig und biete Flüssigkeit an. Ich kontrolliere die Temperatur regelmäßig und gebe fiebersenkende Medikamente nur nach Arztanordnung.",
+          "points": [
+            "Fieberanstieg: wärmen",
+            "Fieberhöhe: leichte Kleidung",
+            "Fieberabfall: Wäschewechsel",
+            "Flüssigkeit anbieten",
+            "Temperaturkontrolle",
+            "Medikamente nach Arztanordnung"
+          ],
+          "es": "El Fiebermanagement (manejo de la fiebre) depende de la fase. Cuando sube la fiebre y hay escalofríos, abrigas al paciente; en la fase alta le quitas cobijas y le pones ropa ligera de algodón; cuando baja y suda, cambias la ropa y las sábanas mojadas. Los antipiréticos se dan solo por indicación médica."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "bekleidung",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann dürfen bei Fieber keine Wadenwickel angelegt werden?",
+              "options": [
+                "Wenn der Patient warme Beine hat",
+                "Wenn der Patient wach ist",
+                "Wenn der Patient Schüttelfrost oder kalte Hände und Füße hat",
+                "Wenn der Patient getrunken hat"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Fieberphase der passenden Maßnahme zu.",
+              "pairs": [
+                [
+                  "Fieberanstieg mit Schüttelfrost",
+                  "Patienten warm halten"
+                ],
+                [
+                  "Fieberhöhe",
+                  "Dicke Decken entfernen, leichte Kleidung"
+                ],
+                [
+                  "Fieberabfall mit Schwitzen",
+                  "Nasse Wäsche wechseln, Flüssigkeit anbieten"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Während des Schüttelfrosts wird der Patient mit kalten Wickeln gekühlt.",
+              "correct": false
+            }
+          ],
+          "es": "Los Wadenwickel (compresas húmedas y frescas en las pantorrillas) solo se usan con piernas calientes y circulación estable. Están contraindicados con escalofríos o con manos y pies fríos, porque ahí la circulación ya está centralizada. En el paciente séptico inestable se usan con mucha reserva y siempre de acuerdo con el médico."
+        },
+        {
+          "id": "sepsis.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Ein Patient wird nach einer Sepsis entlassen. Worüber informieren und beraten Sie ihn und seine Angehörigen?",
+          "answer": "Ich erkläre dem Patienten und den Angehörigen die Warnzeichen einer Sepsis, zum Beispiel Fieber, Schüttelfrost, schnelle Atmung und Verwirrtheit. Bei diesen Zeichen sollen sie sofort einen Arzt oder den Notruf 112 kontaktieren. Ich berate zur Vorbeugung von Infektionen, also zur Händehygiene, zur richtigen Wundversorgung und zu den empfohlenen Impfungen gegen Grippe und Pneumokokken. Außerdem informiere ich über mögliche Langzeitfolgen wie Schwäche und Konzentrationsstörungen und über Angebote wie Rehabilitation.",
+          "points": [
+            "Warnzeichen erklären",
+            "Sofort Arzt oder 112",
+            "Händehygiene und Wundversorgung",
+            "Impfungen",
+            "Langzeitfolgen und Rehabilitation"
+          ],
+          "es": "En la Beratung (asesoría) lo esencial es que el paciente y la familia reconozcan las señales de alarma y pidan ayuda de inmediato. También previenes nuevas infecciones con higiene de manos, cuidado de heridas y vacunas contra influenza y neumococo. No olvides mencionar las secuelas y la rehabilitación, porque muchos pacientes no las esperan."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "sepsis.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Sepsis und instabilem Kreislauf und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat wegen der Sepsis die Gefahr einer Kreislaufverschlechterung bis zum septischen Schock. Ziel: In den nächsten 48 Stunden wird jede Abweichung von den ärztlich festgelegten Grenzwerten für Blutdruck, Puls, Atemfrequenz, Bewusstsein und Urinausscheidung bei der stündlichen Kontrolle erkannt und sofort dem Arzt gemeldet. Maßnahmen: Ich kontrolliere die Vitalzeichen und das Bewusstsein mindestens stündlich, bei Bedarf häufiger nach Arztanordnung. Ich messe die Urinausscheidung stündlich und führe eine Flüssigkeitsbilanz. Bei Abweichungen informiere ich sofort den Arzt und dokumentiere alles.",
+          "points": [
+            "Problem: Gefahr der Kreislaufverschlechterung",
+            "Ziel: Abweichungen erkennen und melden",
+            "Stündliche Vitalzeichenkontrolle",
+            "Bewusstsein beobachten",
+            "Urinausscheidung und Bilanz",
+            "Arzt sofort informieren"
+          ],
+          "es": "Este es el problema de enfermería más importante en la sepsis: el riesgo de que la circulación empeore. Como enfermera no puedes prometer que no habrá choque, por eso el objetivo es detectar y reportar los cambios. Es SMART porque tiene plazo (48 horas) y se puede medir: control cada hora y valores límite que fija el médico. Usa la estructura Problem – Ziel – Maßnahmen (problema, objetivo, medidas)."
+        },
+        {
+          "id": "sepsis.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Sepsis und Fieber und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat wegen der Infektion Fieber und verliert durch das Schwitzen viel Flüssigkeit. Ziel: Der Patient äußert innerhalb von 24 Stunden, dass er sich wohler fühlt, seine Haut und Wäsche sind trocken und seine Schleimhäute sind feucht. Maßnahmen: Ich kontrolliere die Temperatur regelmäßig und passe die Pflege an die Fieberphase an. Ich wechsle nasse Kleidung und Bettwäsche, biete Flüssigkeit nach Arztanordnung an und führe eine Flüssigkeitsbilanz. Fiebersenkende Medikamente gebe ich nach Arztanordnung.",
+          "points": [
+            "Problem: Fieber mit Flüssigkeitsverlust",
+            "Ziel: Wohlbefinden, feuchte Schleimhäute",
+            "Temperaturkontrolle",
+            "Pflege nach Fieberphase",
+            "Wäschewechsel",
+            "Flüssigkeit und Bilanz"
+          ],
+          "es": "Aquí el problema es la fiebre con pérdida de líquidos por el sudor. El objetivo se puede medir: piel y ropa secas, mucosas húmedas y el paciente dice sentirse mejor en 24 horas. Las medidas son el Fiebermanagement (manejo de la fiebre) por fases, el cambio de ropa y el balance de líquidos."
+        },
+        {
+          "id": "sepsis.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem immobilen Patienten mit Sepsis und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat eine Dekubitusgefahr, weil er wegen der Sepsis immobil ist, seine Haut schlecht durchblutet wird und er stark schwitzt. Ziel: Die Haut des Patienten ist während des gesamten Krankenhausaufenthalts an allen gefährdeten Stellen intakt und ohne Rötung. Maßnahmen: Ich schätze das Dekubitusrisiko ein und positioniere den Patienten regelmäßig nach einem individuellen Bewegungsplan um. Ich kontrolliere die Haut täglich mit dem Fingertest, halte sie trocken und nutze bei Bedarf eine Weichlagerungsmatratze. Sobald der Kreislauf stabil ist, fördere ich die Mobilisation.",
+          "points": [
+            "Problem: Dekubitusgefahr",
+            "Ziel: intakte Haut",
+            "Regelmäßiger Positionswechsel",
+            "Hautkontrolle mit Fingertest",
+            "Haut trocken halten",
+            "Mobilisation fördern"
+          ],
+          "es": "El paciente séptico tiene alto riesgo de Dekubitus (úlcera por presión): no se mueve, la piel está mal irrigada y además húmeda por el sudor. El objetivo es clásico y medible: piel intacta y sin enrojecimiento durante toda la hospitalización. El Fingertest (prueba del dedo) sirve para distinguir un enrojecimiento que desaparece de un Dekubitus de grado 1."
+        },
+        {
+          "id": "sepsis.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Erklären Sie es an einem Beispiel für einen Patienten mit Sepsis.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel beschreibt also genau, was der Patient erreichen soll, man kann es überprüfen, der Patient ist einverstanden, es ist erreichbar und es hat einen Zeitrahmen. Ein Pflegeziel wird positiv und in der Gegenwart als erreichter Zustand formuliert. Ein Beispiel bei Sepsis ist: Die Haut des Patienten ist während des gesamten Krankenhausaufenthalts an allen gefährdeten Stellen intakt.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert",
+            "Realistisch",
+            "Terminiert",
+            "Beispiel bei Sepsis"
+          ],
+          "es": "SMART es la regla para formular un Pflegeziel (objetivo de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado), realistisch (realista) y terminiert (con plazo). El objetivo se escribe en positivo y en presente, como un estado ya logrado. Ten siempre un ejemplo listo para la sepsis, como la piel intacta durante toda la hospitalización."
+        }
+      ]
+    }
+  ]
+}

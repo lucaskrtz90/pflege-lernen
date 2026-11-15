@@ -1,0 +1,1356 @@
+{
+  "id": "depression",
+  "name": "Depression",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "depression.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Depression?",
+              "options": [
+                "Eine normale Traurigkeit nach einem schlechten Tag",
+                "Eine Störung des Gedächtnisses durch Abbau von Nervenzellen",
+                "Eine psychische Erkrankung (affektive Störung) mit gedrückter Stimmung, Interessenverlust und Antriebsmangel",
+                "Eine Erkrankung mit Wahn und Halluzinationen als Hauptmerkmal"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Depression ist eine normale Traurigkeit, die jeder Mensch mit genug Willenskraft selbst überwinden kann.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Depression gehört zu den ___ Störungen, also zu den Erkrankungen der Stimmung.",
+              "options": ["dementiellen", "affektiven", "neurologischen", "schizophrenen"],
+              "correct": 1
+            }
+          ],
+          "es": "La Depression es una enfermedad psíquica real, una affektive Störung (trastorno afectivo, es decir, del estado de ánimo). No es tristeza normal ni falta de voluntad: el ánimo está bajo, se pierde el interés y falta la energía durante semanas. Por eso necesita tratamiento profesional."
+        },
+        {
+          "id": "depression.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Nach ICD-10 müssen die Symptome einer depressiven Episode mindestens ___ Wochen bestehen.",
+              "options": ["zwei", "vier", "sechs", "acht"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Für die Diagnose einer depressiven Episode müssen die Symptome mindestens zwei Wochen lang bestehen.",
+              "correct": true
+            }
+          ],
+          "es": "Según la ICD-10, se habla de una depressive Episode (episodio depresivo) solo cuando los síntomas duran por lo menos dos semanas. Así se distingue la enfermedad de un bajón pasajero o de unos días tristes."
+        },
+        {
+          "id": "depression.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet „unipolare Depression“?",
+              "options": [
+                "Es treten nur depressive Episoden auf, keine manischen Phasen",
+                "Depressive und manische Phasen wechseln sich ab",
+                "Die Depression betrifft nur eine Gehirnhälfte",
+                "Die Depression tritt nur einmal im Leben auf"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                ["Unipolare Depression", "Nur depressive Episoden"],
+                ["Bipolare Störung", "Wechsel von depressiven und manischen Episoden"],
+                ["Manie", "Krankhaft gehobene Stimmung mit gesteigertem Antrieb"],
+                ["Dysthymie", "Leichtere, aber chronische depressive Verstimmung über Jahre"]
+              ]
+            }
+          ],
+          "es": "Unipolar quiere decir que el ánimo solo se va hacia un polo: hacia abajo. En la bipolare Störung (trastorno bipolar) hay además fases de Manie (manía), con ánimo exageradamente alto y mucha energía. La diferencia importa porque el tratamiento con medicamentos es distinto."
+        },
+        {
+          "id": "depression.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wonach wird der Schweregrad einer depressiven Episode (leicht, mittelgradig, schwer) nach ICD-10 eingeteilt?",
+              "options": [
+                "Nach dem Alter des Patienten",
+                "Nach einem Laborwert im Blut",
+                "Nach der Dosis der Antidepressiva",
+                "Nach der Anzahl der Haupt- und Zusatzsymptome"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der Schweregrad einer depressiven Episode wird nach ICD-10 anhand der Anzahl der Haupt- und Zusatzsymptome bestimmt.",
+              "correct": true
+            }
+          ],
+          "es": "La ICD-10 distingue episodio leicht (leve), mittelgradig (moderado) y schwer (grave). Se cuenta cuántos Hauptsymptome (síntomas principales) y Zusatzsymptome (síntomas adicionales) tiene la persona: entre más síntomas, más grave el episodio. No existe un valor de laboratorio para esto."
+        },
+        {
+          "id": "depression.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zur Häufigkeit der Depression ist richtig?",
+              "options": [
+                "Die Depression ist eine sehr seltene Erkrankung",
+                "Die Depression ist eine der häufigsten psychischen Erkrankungen; Frauen erkranken etwa doppelt so häufig wie Männer",
+                "Männer erkranken etwa doppelt so häufig wie Frauen",
+                "Depressionen kommen nur bei alten Menschen vor"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Männer erhalten etwa doppelt so häufig die Diagnose Depression wie Frauen.",
+              "correct": false
+            }
+          ],
+          "es": "La Depression es una de las enfermedades psíquicas más frecuentes y puede aparecer a cualquier edad. A las mujeres se les diagnostica más o menos el doble de veces que a los hombres. En los hombres muchas veces pasa desapercibida, pero ellos mueren más por Suizid (suicidio)."
+        },
+        {
+          "id": "depression.definition.6",
+          "type": "sprech",
+          "q": "Was ist eine Depression? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Eine Depression ist eine psychische Erkrankung und gehört zu den affektiven Störungen. Typisch sind gedrückte Stimmung, Interessenverlust und Antriebsmangel. Die Symptome bestehen mindestens zwei Wochen. Bei der unipolaren Depression gibt es nur depressive Episoden und keine manischen Phasen. Man unterscheidet leichte, mittelgradige und schwere Episoden, und die Erkrankung ist gefährlich, weil sie zum Suizid führen kann.",
+          "points": [
+            "Affektive Störung",
+            "Drei Hauptsymptome",
+            "Mindestens zwei Wochen",
+            "Unipolar: keine Manie",
+            "Schweregrade",
+            "Suizidgefahr"
+          ],
+          "es": "En la definición di primero qué tipo de enfermedad es (affektive Störung, trastorno afectivo), luego los tres síntomas principales y la duración mínima de dos semanas. Después explica «unipolar» y los grados de gravedad. Cierra con el riesgo de Suizid (suicidio), porque eso muestra que entiendes por qué es una enfermedad seria."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "depression.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was sind Neurotransmitter?",
+              "options": [
+                "Hormone, die in der Schilddrüse gebildet werden",
+                "Blutgefäße, die das Gehirn versorgen",
+                "Chemische Botenstoffe, die Signale von einer Nervenzelle zur nächsten übertragen",
+                "Stützzellen, die die Nervenzellen ernähren"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Neurotransmitter werden in den synaptischen ___ ausgeschüttet und binden an Rezeptoren der nächsten Nervenzelle.",
+              "options": ["Kern", "Spalt", "Muskel", "Knoten"],
+              "correct": 1
+            }
+          ],
+          "es": "Los Neurotransmitter (neurotransmisores) son mensajeros químicos. Una Nervenzelle (neurona) los libera en el synaptischer Spalt (hendidura sináptica) y se unen a los receptores de la siguiente neurona; así pasa la señal. Esto es la base para entender cómo actúan los Antidepressiva."
+        },
+        {
+          "id": "depression.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche beiden Neurotransmitter spielen bei der Depression die wichtigste Rolle?",
+              "options": [
+                "Serotonin und Noradrenalin",
+                "Insulin und Glukagon",
+                "Acetylcholin und Histamin",
+                "Thyroxin und Kortisol"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Botenstoff seiner wichtigsten Funktion zu.",
+              "pairs": [
+                ["Serotonin", "Stimmung, Schlaf und Appetit"],
+                ["Noradrenalin", "Antrieb, Wachheit und Aufmerksamkeit"],
+                ["Dopamin", "Motivation und Belohnung"]
+              ]
+            }
+          ],
+          "es": "En la Depression importan sobre todo Serotonin (serotonina) y Noradrenalin (noradrenalina). La serotonina regula el ánimo, el sueño y el apetito; la noradrenalina, la energía (Antrieb) y la atención. Si piensas en estas funciones, entiendes de dónde vienen los síntomas."
+        },
+        {
+          "id": "depression.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Bei einer Depression geht man von einem Mangel oder Ungleichgewicht der Botenstoffe Serotonin und Noradrenalin im Gehirn aus.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Wie wirken die meisten Antidepressiva an der Synapse?",
+              "options": [
+                "Sie zerstören die Rezeptoren der Nervenzelle",
+                "Sie senken die Konzentration von Serotonin im synaptischen Spalt",
+                "Sie blockieren die Durchblutung des Gehirns",
+                "Sie erhöhen die Konzentration von Serotonin und/oder Noradrenalin im synaptischen Spalt"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Se piensa que en la Depression hay un déficit o desequilibrio de Serotonin y Noradrenalin en el cerebro. Por eso la mayoría de los Antidepressiva (antidepresivos) aumentan la concentración de estos mensajeros en el synaptischer Spalt (hendidura sináptica), por ejemplo frenando su Wiederaufnahme (recaptación)."
+        },
+        {
+          "id": "depression.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Teil des Gehirns ist besonders für die Verarbeitung von Gefühlen zuständig?",
+              "options": [
+                "Das Kleinhirn",
+                "Das limbische System",
+                "Das Rückenmark",
+                "Die Sehrinde"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Das Kleinhirn ist der Teil des Gehirns, der hauptsächlich für Gefühle und Stimmung zuständig ist.",
+              "correct": false
+            }
+          ],
+          "es": "El limbisches System (sistema límbico) es la parte del cerebro que procesa las emociones y el ánimo. El Kleinhirn (cerebelo) se encarga de la coordinación y el equilibrio, no de los sentimientos. En la Depression el sistema límbico trabaja de forma alterada."
+        },
+        {
+          "id": "depression.anatomie.5",
+          "type": "sprech",
+          "q": "Erklären Sie kurz, was im Gehirn bei einer Depression verändert ist.",
+          "answer": "Nervenzellen übertragen ihre Signale an den Synapsen mit chemischen Botenstoffen, den Neurotransmittern. Bei einer Depression besteht vermutlich ein Mangel oder Ungleichgewicht von Serotonin und Noradrenalin. Serotonin beeinflusst Stimmung, Schlaf und Appetit, Noradrenalin den Antrieb und die Aufmerksamkeit. Betroffen ist vor allem das limbische System, das die Gefühle verarbeitet. Antidepressiva erhöhen die Konzentration dieser Botenstoffe im synaptischen Spalt.",
+          "points": [
+            "Neurotransmitter an der Synapse",
+            "Serotonin und Noradrenalin",
+            "Mangel oder Ungleichgewicht",
+            "Limbisches System",
+            "Ansatzpunkt der Antidepressiva"
+          ],
+          "es": "Aquí no te piden toda la neuroanatomía, solo lo necesario: las neuronas se comunican con Neurotransmitter (neurotransmisores) y en la Depression faltan o están desequilibrados Serotonin y Noradrenalin. Relaciona cada mensajero con sus funciones y termina diciendo que ahí actúan los medicamentos."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "depression.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht eine Depression?",
+              "options": [
+                "Immer durch ein einzelnes schlimmes Erlebnis",
+                "Durch eine Infektion mit Bakterien",
+                "Multifaktoriell: biologische, psychische und soziale Faktoren wirken zusammen",
+                "Ausschließlich durch Vererbung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Depression hat immer genau eine klare Ursache.",
+              "correct": false
+            }
+          ],
+          "es": "La Depression es multifaktoriell (multifactorial): se juntan factores biológicos (genes, neurotransmisores), psíquicos y sociales. Casi nunca hay una sola causa. En el examen usa la palabra «multifaktoriell» y da un ejemplo de cada grupo."
+        },
+        {
+          "id": "depression.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was beschreibt das Vulnerabilitäts-Stress-Modell?",
+              "options": [
+                "Eine persönliche Verletzlichkeit und belastende Ereignisse führen zusammen zur Erkrankung",
+                "Stress allein macht jeden Menschen depressiv",
+                "Depressionen entstehen nur durch falsche Ernährung",
+                "Wer verletzlich ist, kann nicht behandelt werden"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Nach dem Vulnerabilitäts-Stress-Modell entsteht eine Depression, wenn eine erhöhte Verletzlichkeit und ___ zusammenkommen.",
+              "options": ["Bewegung", "Schlaf", "Übergewicht", "Belastungen"],
+              "correct": 3
+            }
+          ],
+          "es": "El Vulnerabilitäts-Stress-Modell (modelo de vulnerabilidad y estrés) dice que cada persona tiene una Vulnerabilität (vulnerabilidad), por ejemplo por herencia o experiencias tempranas. Cuando a eso se suman cargas fuertes, como una pérdida o estrés crónico, puede aparecer la Depression."
+        },
+        {
+          "id": "depression.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei psychosozialen Belastungen können eine Depression auslösen?",
+              "options": [
+                "Tod eines nahen Angehörigen",
+                "Regelmäßige Bewegung an der frischen Luft",
+                "Trennung oder Scheidung",
+                "Verlust des Arbeitsplatzes",
+                "Ein stabiler Freundeskreis"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Verlusterlebnisse wie der Tod eines Angehörigen oder eine Trennung können eine depressive Episode auslösen.",
+              "correct": true
+            }
+          ],
+          "es": "Los auslösende Faktoren (factores desencadenantes) más típicos son pérdidas y cargas: la muerte de un familiar, una separación, perder el trabajo o estrés prolongado. El ejercicio y una buena red social, al contrario, protegen."
+        },
+        {
+          "id": "depression.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei körperlichen Erkrankungen können eine Depression verursachen oder begünstigen?",
+              "options": [
+                "Hypothyreose (Schilddrüsenunterfunktion)",
+                "Fußpilz",
+                "Morbus Parkinson",
+                "Kurzsichtigkeit",
+                "Heuschnupfen"
+              ],
+              "correct": [0, 2]
+            },
+            {
+              "form": "tf",
+              "q": "Körperliche Erkrankungen wie eine Schilddrüsenunterfunktion haben mit depressiven Symptomen nichts zu tun.",
+              "correct": false
+            }
+          ],
+          "es": "También enfermedades del cuerpo pueden causar síntomas depresivos, por ejemplo la Hypothyreose (hipotiroidismo), el Morbus Parkinson o un Schlaganfall (EVC). Por eso en el diagnóstico siempre se descartan causas físicas. Algunos medicamentos, como el Kortison (cortisona), también pueden influir."
+        },
+        {
+          "id": "depression.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen hat eine Depression?",
+          "answer": "Eine Depression entsteht multifaktoriell, das heißt, mehrere Ursachen wirken zusammen. Biologische Faktoren sind eine genetische Veranlagung und ein Ungleichgewicht der Neurotransmitter Serotonin und Noradrenalin. Dazu kommen psychosoziale Belastungen wie Verlusterlebnisse, Trennung, Arbeitslosigkeit oder chronischer Stress. Auch körperliche Erkrankungen wie eine Schilddrüsenunterfunktion können eine Depression auslösen. Das Vulnerabilitäts-Stress-Modell erklärt, dass Verletzlichkeit und Belastung zusammen zur Erkrankung führen.",
+          "points": [
+            "Multifaktoriell",
+            "Genetische Veranlagung",
+            "Neurotransmitter-Ungleichgewicht",
+            "Psychosoziale Belastungen",
+            "Körperliche Erkrankungen",
+            "Vulnerabilitäts-Stress-Modell"
+          ],
+          "es": "Empieza con la palabra clave «multifaktoriell» y luego ordena tu respuesta en grupos: biológico (herencia, neurotransmisores), psicosocial (pérdidas, estrés) y físico (otras enfermedades). Si mencionas el Vulnerabilitäts-Stress-Modell (modelo de vulnerabilidad y estrés), demuestras que entiendes cómo se combinan."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "depression.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren erhöhen das Risiko, an einer Depression zu erkranken?",
+              "options": [
+                "Depressionen bei nahen Verwandten",
+                "Frühere depressive Episoden",
+                "Ein stabiles soziales Umfeld",
+                "Chronische körperliche Erkrankungen oder Schmerzen",
+                "Regelmäßiger Sport"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Wer schon einmal eine depressive Episode hatte, hat ein erhöhtes Risiko für eine weitere Episode.",
+              "correct": true
+            }
+          ],
+          "es": "Los Risikofaktoren (factores de riesgo) más importantes son: familiares con Depression, episodios depresivos anteriores y enfermedades crónicas o dolor crónico. Quien ya tuvo un episodio tiene más riesgo de otro; por eso la prevención de recaídas es tan importante."
+        },
+        {
+          "id": "depression.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher soziale Faktor erhöht das Risiko für eine Depression besonders?",
+              "options": [
+                "Eine feste Tagesstruktur",
+                "Einsamkeit und soziale Isolation",
+                "Ein Hobby im Verein",
+                "Regelmäßiger Kontakt zur Familie"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Einsamkeit und fehlende soziale Unterstützung schützen vor einer Depression.",
+              "correct": false
+            }
+          ],
+          "es": "La Einsamkeit (soledad) y la soziale Isolation (aislamiento social) aumentan mucho el riesgo, igual que el desempleo o los problemas económicos. Los contactos sociales y una estructura diaria fija protegen. Por eso en la Pflege se fomenta el contacto con otras personas."
+        },
+        {
+          "id": "depression.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren sprechen bei einem depressiven Patienten für ein erhöhtes Suizidrisiko?",
+              "options": [
+                "Ein früherer Suizidversuch",
+                "Gute Einbindung in die Familie",
+                "Konkrete Suizidpläne",
+                "Starke Hoffnungslosigkeit",
+                "Pläne für den nächsten Urlaub"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Ein früherer Suizidversuch ist ein wichtiger Risikofaktor für einen erneuten Suizidversuch.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welche Personengruppe hat ein besonders hohes Suizidrisiko?",
+              "options": [
+                "Junge Frauen mit vielen sozialen Kontakten",
+                "Kinder im Grundschulalter",
+                "Menschen mit festen Zukunftsplänen",
+                "Ältere, alleinlebende Männer"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Para valorar la Suizidalität (riesgo suicida) fíjate en: intentos previos de Suizid (suicidio), planes concretos, mucha Hoffnungslosigkeit (desesperanza), aislamiento y consumo de alcohol. Los hombres mayores que viven solos tienen un riesgo especialmente alto. Un intento anterior es el factor de riesgo más fuerte."
+        },
+        {
+          "id": "depression.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird eine Depression bei alten Menschen oft übersehen?",
+              "options": [
+                "Weil alte Menschen keine Depression bekommen können",
+                "Weil die Symptome für normales Altern, körperliche Krankheit oder eine Demenz gehalten werden",
+                "Weil alte Menschen immer offen über ihre Gefühle sprechen",
+                "Weil Antidepressiva im Alter verboten sind"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Niedergeschlagenheit und Rückzug gehören zum normalen Altern und müssen nicht abgeklärt werden.",
+              "correct": false
+            }
+          ],
+          "es": "En personas mayores la Depression es frecuente, pero muchas veces no se reconoce: se piensa que el retraimiento es «normal por la edad», o los problemas de concentración se confunden con Demenz (demencia). Además suelen quejarse más de molestias físicas que de tristeza. Estar deprimido no es parte normal de envejecer."
+        },
+        {
+          "id": "depression.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für eine Depression kennen Sie?",
+          "answer": "Wichtige Risikofaktoren sind eine familiäre Belastung und frühere depressive Episoden. Frauen erkranken häufiger als Männer. Auch belastende Lebensereignisse wie Verlust, Trennung oder Arbeitslosigkeit erhöhen das Risiko. Weitere Risikofaktoren sind chronische Erkrankungen und Schmerzen, Einsamkeit und Suchterkrankungen wie Alkoholabhängigkeit.",
+          "points": [
+            "Familiäre Belastung",
+            "Frühere depressive Episoden",
+            "Weibliches Geschlecht",
+            "Belastende Lebensereignisse",
+            "Chronische Erkrankungen",
+            "Einsamkeit und Sucht"
+          ],
+          "es": "Los Risikofaktoren (factores de riesgo) no son causas seguras, sino cosas que hacen más probable la enfermedad. Nómbralos en orden: familia, episodios previos, sexo femenino, acontecimientos difíciles, enfermedades crónicas, soledad y adicciones. Con cinco o seis puntos claros la respuesta ya está completa."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "depression.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind die Hauptsymptome der Depression nach ICD-10?",
+              "options": [
+                "Gedrückte Stimmung",
+                "Halluzinationen",
+                "Interessenverlust und Freudlosigkeit",
+                "Antriebsmangel und erhöhte Ermüdbarkeit",
+                "Fieber",
+                "Gesteigerter Rededrang"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "cloze",
+              "q": "Die drei Hauptsymptome der Depression sind gedrückte Stimmung, Interessenverlust und ___.",
+              "options": ["Antriebsmangel", "Größenwahn", "Gedächtnisverlust", "Krampfanfälle"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Halluzinationen gehören zu den drei Hauptsymptomen der Depression nach ICD-10.",
+              "correct": false
+            }
+          ],
+          "es": "Los tres Hauptsymptome (síntomas principales) según la ICD-10 son: gedrückte Stimmung (ánimo deprimido), Interessenverlust und Freudlosigkeit (pérdida de interés y de alegría) y Antriebsmangel (falta de energía e iniciativa) con cansancio rápido. Apréndetelos de memoria: es la pregunta más segura del examen."
+        },
+        {
+          "id": "depression.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Symptome gehören zu den Zusatzsymptomen der Depression nach ICD-10?",
+              "options": [
+                "Verminderte Konzentration und Aufmerksamkeit",
+                "Schuldgefühle und Gefühle von Wertlosigkeit",
+                "Gesteigertes Selbstwertgefühl",
+                "Schlafstörungen",
+                "Suizidgedanken",
+                "Vermehrter Tatendrang"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Welches Symptom ist KEIN Zusatzsymptom der Depression?",
+              "options": [
+                "Verminderter Appetit",
+                "Vermindertes Selbstwertgefühl",
+                "Negative und pessimistische Zukunftsgedanken",
+                "Gehobene Stimmung mit Ideenflucht"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Los siete Zusatzsymptome (síntomas adicionales) son: menor concentración, baja autoestima, Schuldgefühle (sentimientos de culpa), visión pesimista del futuro, Suizidgedanken (pensamientos suicidas), Schlafstörungen (trastornos del sueño) y poco apetito. El ánimo elevado con muchas ideas pertenece a la Manie, no a la Depression."
+        },
+        {
+          "id": "depression.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter einem „Morgentief“?",
+              "options": [
+                "Niedriger Blutdruck nach dem Aufstehen",
+                "Die Stimmung ist am Morgen am schlechtesten und bessert sich im Lauf des Tages",
+                "Besonders tiefer Schlaf am Morgen",
+                "Die Stimmung ist am Morgen gut und am Abend schlecht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Typisch für die Depression sind Durchschlafstörungen mit ___ in den frühen Morgenstunden.",
+              "options": ["Schlafwandeln", "Schnarchen", "Früherwachen", "Albträumen"],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei vielen depressiven Menschen sind die Beschwerden am Morgen am stärksten.",
+              "correct": true
+            }
+          ],
+          "es": "Muchos pacientes tienen Morgentief (bajón matutino): en la mañana se sienten peor y en la tarde un poco mejor. También es típico el Früherwachen (despertar muy temprano) sin poder volver a dormir. Para la Pflege esto significa: en la mañana necesitan más apoyo, y las actividades exigentes se planean para más tarde."
+        },
+        {
+          "id": "depression.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei körperlichen Beschwerden treten bei einer Depression häufig auf?",
+              "options": [
+                "Appetitlosigkeit und Gewichtsverlust",
+                "Obstipation",
+                "Hohes Fieber",
+                "Libidoverlust",
+                "Hautausschlag"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Depression zeigt sich nur in der Stimmung; körperliche Beschwerden treten dabei nicht auf.",
+              "correct": false
+            }
+          ],
+          "es": "La Depression también se nota en el cuerpo: falta de apetito con pérdida de peso, Obstipation (estreñimiento), Libidoverlust (pérdida del deseo sexual), cansancio y dolores sin causa clara, por ejemplo de cabeza o espalda. A veces el paciente llega al médico solo por estas molestias físicas."
+        },
+        {
+          "id": "depression.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                ["Anhedonie", "Unfähigkeit, Freude zu empfinden"],
+                ["Antriebshemmung", "Jede Tätigkeit kostet große Überwindung"],
+                ["Grübeln", "Ständiges Kreisen der Gedanken um Probleme"],
+                ["Sozialer Rückzug", "Kontakte zu anderen Menschen werden vermieden"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet der Fachbegriff „Anhedonie“?",
+              "options": [
+                "Unfähigkeit, Freude zu empfinden",
+                "Unfähigkeit zu schlafen",
+                "Angst vor engen Räumen",
+                "Verlust des Geruchssinns"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Anhedonie (anhedonia) significa que la persona ya no puede sentir alegría, ni siquiera con cosas que antes le gustaban. Otros términos útiles: Antriebshemmung (inhibición del impulso, todo cuesta muchísimo), Grübeln (rumiar pensamientos) y sozialer Rückzug (retraimiento social). Usarlos en el examen suena muy profesional."
+        },
+        {
+          "id": "depression.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit einer Depression?",
+          "answer": "Die drei Hauptsymptome sind gedrückte Stimmung, Interessenverlust mit Freudlosigkeit und Antriebsmangel mit erhöhter Ermüdbarkeit. Zusatzsymptome sind Konzentrationsstörungen, vermindertes Selbstwertgefühl, Schuldgefühle, pessimistische Zukunftsgedanken, Schlafstörungen, Appetitlosigkeit und Suizidgedanken. Typisch sind außerdem das Morgentief und das Früherwachen. Dazu kommen körperliche Beschwerden wie Gewichtsverlust, Obstipation und Libidoverlust. Viele Patienten ziehen sich sozial zurück und vernachlässigen sich selbst.",
+          "points": [
+            "Drei Hauptsymptome",
+            "Zusatzsymptome nennen",
+            "Suizidgedanken",
+            "Morgentief und Früherwachen",
+            "Körperliche Beschwerden",
+            "Sozialer Rückzug"
+          ],
+          "es": "Organiza la respuesta igual que la ICD-10: primero los tres Hauptsymptome (síntomas principales), después los Zusatzsymptome (síntomas adicionales). Nunca olvides mencionar los Suizidgedanken (pensamientos suicidas). Termina con lo típico del día (Morgentief) y las molestias físicas."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "depression.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird die Diagnose Depression hauptsächlich gestellt?",
+              "options": [
+                "Durch einen speziellen Bluttest",
+                "Durch eine Röntgenaufnahme des Kopfes",
+                "Durch das ärztliche Gespräch (Anamnese) und den psychopathologischen Befund nach ICD-10-Kriterien",
+                "Durch eine Untersuchung des Liquors"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Depression lässt sich durch einen Laborwert im Blut sicher beweisen.",
+              "correct": false
+            }
+          ],
+          "es": "La Depression se diagnostica de forma clínica: con la Anamnese (historia clínica, entrevista) y el psychopathologischer Befund (examen del estado mental), usando los criterios de la ICD-10. No existe un análisis de sangre ni una imagen que la demuestre."
+        },
+        {
+          "id": "depression.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum müssen in der Diagnostik Suizidgedanken immer aktiv erfragt werden?",
+              "options": [
+                "Weil der Patient sonst keine Medikamente bekommt",
+                "Weil Suizidalität lebensgefährlich ist und viele Patienten nicht von selbst darüber sprechen",
+                "Weil die Krankenkasse es verlangt",
+                "Weil das Fragen die Stimmung sofort verbessert"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Wenn man einen depressiven Patienten direkt nach Suizidgedanken fragt, bringt man ihn erst auf die Idee und erhöht das Risiko.",
+              "correct": false
+            }
+          ],
+          "es": "En cada paciente con Depression se pregunta de forma directa por Suizidgedanken (pensamientos suicidas). Preguntar no «mete la idea» ni aumenta el riesgo; al contrario, muchos pacientes sienten alivio de poder hablar. Es un mito frecuente y una pregunta clásica de examen."
+        },
+        {
+          "id": "depression.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum werden bei Verdacht auf eine Depression auch Blutwerte wie der TSH-Wert bestimmt?",
+              "options": [
+                "Um die Schwere der Depression zu messen",
+                "Um den Serotoninspiegel im Gehirn zu bestimmen",
+                "Um die richtige Psychotherapie auszuwählen",
+                "Um körperliche Ursachen wie eine Schilddrüsenunterfunktion auszuschließen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Zur Diagnostik gehört eine körperliche Untersuchung mit Labor, um körperliche Ursachen der Symptome auszuschließen.",
+              "correct": true
+            }
+          ],
+          "es": "Se hace exploración física y laboratorio para descartar causas del cuerpo: el TSH sirve para buscar una Hypothyreose (hipotiroidismo), que puede dar síntomas muy parecidos. El laboratorio no mide la Depression; solo excluye otras enfermedades. A esto se le llama Ausschlussdiagnostik (diagnóstico de exclusión)."
+        },
+        {
+          "id": "depression.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Instrument seiner Beschreibung zu.",
+              "pairs": [
+                ["Beck-Depressions-Inventar (BDI)", "Fragebogen zur Selbstbeurteilung durch den Patienten"],
+                ["Hamilton-Depressionsskala (HAMD)", "Fremdbeurteilung durch den Untersucher"],
+                ["Geriatrische Depressionsskala (GDS)", "Screening speziell für ältere Menschen"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welches Instrument wird speziell zum Depressions-Screening bei alten Menschen eingesetzt?",
+              "options": [
+                "Geriatrische Depressionsskala (GDS)",
+                "Braden-Skala",
+                "Glasgow Coma Scale",
+                "Barthel-Index"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Los cuestionarios ayudan a valorar la gravedad y la evolución. El BDI lo llena el paciente mismo (Selbstbeurteilung, autoevaluación); la HAMD la aplica el profesional (Fremdbeurteilung, evaluación externa); la GDS es para personas mayores. La Braden-Skala es para riesgo de Dekubitus, no para Depression."
+        },
+        {
+          "id": "depression.diagnostik.5",
+          "type": "sprech",
+          "q": "Wie wird eine Depression diagnostiziert?",
+          "answer": "Die Diagnose wird vor allem durch das ärztliche Gespräch gestellt, also durch Anamnese und psychopathologischen Befund. Der Arzt prüft nach ICD-10, welche Haupt- und Zusatzsymptome seit mindestens zwei Wochen bestehen. Suizidgedanken werden immer direkt erfragt. Zusätzlich helfen Fragebögen wie das Beck-Depressions-Inventar und die Fremdanamnese durch Angehörige. Mit körperlicher Untersuchung und Labor, zum Beispiel dem TSH-Wert, werden körperliche Ursachen ausgeschlossen.",
+          "points": [
+            "Anamnese und psychopathologischer Befund",
+            "ICD-10-Kriterien",
+            "Suizidalität erfragen",
+            "Fragebögen",
+            "Fremdanamnese",
+            "Körperliche Ursachen ausschließen"
+          ],
+          "es": "Deja claro que el diagnóstico es clínico: entrevista y criterios de la ICD-10. Luego menciona la pregunta por Suizidalität (riesgo suicida), los cuestionarios y la Fremdanamnese (información de los familiares). Al final, la exclusión de causas físicas con exploración y laboratorio."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "depression.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches sind die beiden wichtigsten Säulen der Depressionsbehandlung?",
+              "options": [
+                "Antibiotika und Bettruhe",
+                "Operation und Bestrahlung",
+                "Psychotherapie und Antidepressiva",
+                "Diät und Schmerzmittel"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Verfahren gehören zur Behandlung einer Depression?",
+              "options": [
+                "Kognitive Verhaltenstherapie",
+                "Antidepressiva",
+                "Antibiotikatherapie",
+                "Elektrokonvulsionstherapie (EKT) bei schweren, therapieresistenten Verläufen",
+                "Strenge Bettruhe"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "El tratamiento se apoya en dos pilares: Psychotherapie (psicoterapia, por ejemplo la kognitive Verhaltenstherapie, terapia cognitivo-conductual) y Antidepressiva (antidepresivos). En casos graves que no responden se usa la EKT (terapia electroconvulsiva), bajo anestesia breve. El reposo estricto en cama no ayuda; al contrario, empeora la falta de energía."
+        },
+        {
+          "id": "depression.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Die stimmungsaufhellende Wirkung von Antidepressiva setzt erst nach etwa ___ ein.",
+              "options": ["30 Minuten", "zwei bis vier Wochen", "einem Tag", "sechs Monaten"],
+              "correct": 1
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet „Wirklatenz“ bei Antidepressiva?",
+              "options": [
+                "Das Medikament wirkt nur nachts",
+                "Das Medikament wirkt nur bei jedem zweiten Patienten",
+                "Das Medikament verliert nach kurzer Zeit seine Wirkung",
+                "Die stimmungsaufhellende Wirkung tritt verzögert ein, die Nebenwirkungen kommen oft früher"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Antidepressiva hellen die Stimmung schon wenige Stunden nach der ersten Einnahme auf.",
+              "correct": false
+            }
+          ],
+          "es": "Wirklatenz (latencia del efecto) significa que el efecto sobre el ánimo tarda en llegar, más o menos de dos a cuatro semanas. Las Nebenwirkungen (efectos secundarios), en cambio, aparecen desde los primeros días. Por eso tienes que explicárselo al paciente, para que no deje el medicamento por pensar que «no sirve»."
+        },
+        {
+          "id": "depression.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist das Suizidrisiko zu Beginn einer Behandlung mit Antidepressiva erhöht?",
+              "options": [
+                "Der Antrieb kann sich bessern, bevor sich die Stimmung aufhellt",
+                "Die Medikamente machen sofort abhängig",
+                "Die Patienten schlafen dann zu viel",
+                "Die Stimmung bessert sich vor dem Antrieb"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "In den ersten Wochen einer Antidepressiva-Therapie muss der Patient besonders aufmerksam auf Suizidalität beobachtet werden.",
+              "correct": true
+            }
+          ],
+          "es": "Al inicio del tratamiento, el Antrieb (impulso, energía) puede mejorar antes que el ánimo. Entonces el paciente sigue desesperado, pero ya tiene fuerza para llevar a cabo un Suizid (suicidio). Por eso en las primeras semanas la observación de enfermería debe ser especialmente atenta."
+        },
+        {
+          "id": "depression.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Wirkstoffgruppe den typischen Nebenwirkungen zu.",
+              "pairs": [
+                ["SSRI (z. B. Citalopram, Sertralin)", "Übelkeit, innere Unruhe, sexuelle Funktionsstörungen"],
+                ["Trizyklische Antidepressiva (z. B. Amitriptylin)", "Mundtrockenheit, Obstipation, Harnverhalt"],
+                ["Mirtazapin", "Müdigkeit und Gewichtszunahme"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkungen sind typisch für trizyklische Antidepressiva?",
+              "options": [
+                "Durchfall und vermehrter Speichelfluss",
+                "Anticholinerge Nebenwirkungen wie Mundtrockenheit, Obstipation und Harnverhalt",
+                "Hypoglykämie und Schwitzen",
+                "Haarausfall und Blutungen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los SSRI (inhibidores selectivos de la recaptación de serotonina) suelen dar náusea, inquietud y problemas sexuales. Los trizyklische Antidepressiva (antidepresivos tricíclicos) tienen efectos anticolinérgicos: Mundtrockenheit (boca seca), Obstipation (estreñimiento) y Harnverhalt (retención de orina). Tú observas y documentas estos efectos y avisas al médico."
+        },
+        {
+          "id": "depression.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was beachtet die Pflegefachperson bei der Medikamentengabe bei einem suizidgefährdeten Patienten?",
+              "options": [
+                "Sie stellt die Tabletten für die ganze Woche ans Bett",
+                "Sie gibt die Medikamente nur, wenn der Patient danach fragt",
+                "Sie beobachtet die Einnahme, damit der Patient keine Tabletten sammeln kann",
+                "Sie lässt die Medikamente weg, wenn der Patient müde ist"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Antidepressiva machen körperlich abhängig und sollen deshalb nach Besserung sofort abgesetzt werden.",
+              "correct": false
+            },
+            {
+              "form": "tf",
+              "q": "Antidepressiva dürfen nicht abrupt abgesetzt werden, sondern werden nach ärztlicher Anordnung langsam ausgeschlichen.",
+              "correct": true
+            }
+          ],
+          "es": "La Pflege observa la toma (Einnahme beobachten) para que el paciente no junte tabletas y las use para un intento de Suizid. Los Antidepressiva no causan dependencia, pero no se suspenden de golpe: se siguen tomando varios meses después de la mejoría y se retiran poco a poco por indicación médica (ausschleichen), para evitar recaídas."
+        },
+        {
+          "id": "depression.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird eine Depression behandelt und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Die Behandlung besteht vor allem aus Psychotherapie, zum Beispiel kognitiver Verhaltenstherapie, und aus Antidepressiva. Bei schweren, therapieresistenten Depressionen kann eine Elektrokonvulsionstherapie in Kurznarkose durchgeführt werden. Die Pflege verabreicht die Medikamente nach Anordnung und beobachtet die Einnahme. Sie beobachtet Wirkung und Nebenwirkungen und informiert den Patienten über die Wirklatenz von etwa zwei bis vier Wochen. In dieser Zeit achtet sie besonders auf Suizidalität, weil der Antrieb vor der Stimmung besser werden kann.",
+          "points": [
+            "Psychotherapie",
+            "Antidepressiva",
+            "EKT bei schwerem Verlauf",
+            "Einnahme beobachten",
+            "Wirkung und Nebenwirkungen beobachten",
+            "Wirklatenz und Suizidrisiko"
+          ],
+          "es": "Primero nombra los tratamientos médicos (psicoterapia, antidepresivos, EKT en casos graves) y luego pasa a lo tuyo: dar los medicamentos, observar la toma, vigilar efecto y efectos secundarios, informar sobre la Wirklatenz (latencia del efecto). El punto fuerte es explicar por qué al inicio hay más riesgo de Suizid."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "depression.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die gefährlichste Komplikation einer Depression?",
+              "options": [
+                "Obstipation",
+                "Suizid",
+                "Gewichtszunahme",
+                "Kopfschmerzen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Suizidäußerungen eines depressiven Patienten sind meistens nur ein Ruf nach Aufmerksamkeit und müssen nicht ernst genommen werden.",
+              "correct": false
+            }
+          ],
+          "es": "La complicación más peligrosa es el Suizid (suicidio). Toda Suizidäußerung (expresión de querer morir) se toma en serio, se informa de inmediato al médico y se documenta. Pensar que «solo quiere llamar la atención» es un error que puede costar una vida."
+        },
+        {
+          "id": "depression.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Beobachtungen können Warnzeichen für eine akute Suizidgefahr sein?",
+              "options": [
+                "Der Patient verschenkt persönliche Dinge und verabschiedet sich",
+                "Der Patient plant Aktivitäten für die nächsten Wochen",
+                "Der Patient äußert Hoffnungslosigkeit und sagt, alles sei sinnlos",
+                "Der Patient ist nach großer Verzweiflung plötzlich auffällig ruhig und gelöst",
+                "Der Patient fragt nach seinem Lieblingsessen"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Wenn ein verzweifelter Patient plötzlich auffällig ruhig und gelöst wirkt, kann das ein Warnzeichen für einen gefassten Suizidentschluss sein.",
+              "correct": true
+            }
+          ],
+          "es": "Señales de alarma: el paciente habla de que nada tiene sentido, regala sus cosas, se despide, se aísla más o junta medicamentos. Ojo con la «Ruhe vor dem Sturm» (calma antes de la tormenta): una calma repentina después de mucha desesperación puede significar que ya tomó la decisión."
+        },
+        {
+          "id": "depression.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zum Verlauf der Depression ist richtig?",
+              "options": [
+                "Nach einer Episode tritt nie wieder eine Depression auf",
+                "Eine Depression heilt immer ohne Behandlung aus",
+                "Depressionen verlaufen häufig in wiederkehrenden Episoden (Rezidive) und können chronisch werden",
+                "Eine Depression geht immer in eine Demenz über"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Rückfälle (Rezidive) sind bei der Depression selten.",
+              "correct": false
+            }
+          ],
+          "es": "La Depression muchas veces regresa: a eso se le llama Rezidiv (recaída), y sin tratamiento puede volverse crónica (Chronifizierung). Por eso el medicamento se sigue tomando después de la mejoría, y el paciente debe conocer sus Frühwarnzeichen (señales tempranas de alarma)."
+        },
+        {
+          "id": "depression.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei körperlichen Folgen können bei einer schweren Depression mit starker Antriebslosigkeit auftreten?",
+              "options": [
+                "Mangelernährung und Dehydratation",
+                "Obstipation",
+                "Bluthochdruckkrise",
+                "Dekubitus und Thrombose durch Bewegungsmangel",
+                "Hyperthyreose"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Bei schwerer Antriebslosigkeit kann ein depressiver Patient so wenig essen und trinken, dass Mangelernährung und Dehydratation drohen.",
+              "correct": true
+            }
+          ],
+          "es": "Cuando la Antriebslosigkeit (falta total de energía) es grave, el paciente casi no come, no bebe y se queda en cama. Entonces hay riesgo de Mangelernährung (desnutrición), Dehydratation (deshidratación), Obstipation (estreñimiento), Dekubitus (úlceras por presión) y Thrombose (trombosis). De ahí salen las profilaxis de enfermería."
+        },
+        {
+          "id": "depression.komplikationen.5",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einer Depression auftreten?",
+          "answer": "Die gefährlichste Komplikation ist der Suizid. Außerdem kann die Depression chronisch werden oder in Rezidiven wiederkommen. Viele Patienten ziehen sich zurück, sodass soziale Isolation und der Verlust des Arbeitsplatzes drohen. Manche entwickeln eine Suchterkrankung, zum Beispiel durch Alkohol. Bei starker Antriebslosigkeit kommt es zu Selbstvernachlässigung mit Mangelernährung, Dehydratation, Obstipation und den Folgen von Bewegungsmangel wie Dekubitus und Thrombose.",
+          "points": [
+            "Suizid",
+            "Chronifizierung und Rezidive",
+            "Soziale Isolation",
+            "Suchterkrankung",
+            "Mangelernährung und Dehydratation",
+            "Folgen von Bewegungsmangel"
+          ],
+          "es": "Empieza siempre con el Suizid, porque es lo más grave. Después menciona el curso (crónico, recaídas), las consecuencias sociales y las adicciones. Termina con las consecuencias físicas de la falta de energía: así conectas directamente con las Prophylaxen (profilaxis) de enfermería."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "depression.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Wie erkennen Sie Suizidalität bei einem depressiven Patienten und wie sprechen Sie sie an?",
+          "answer": "Ich beobachte Warnzeichen wie Äußerungen von Hoffnungslosigkeit, starken Rückzug, das Verschenken von persönlichen Dingen, das Sammeln von Medikamenten oder eine plötzliche auffällige Ruhe. Wenn ich einen Verdacht habe, spreche ich den Patienten offen und direkt an, zum Beispiel: „Denken Sie daran, sich das Leben zu nehmen?“ Das direkte Fragen erhöht das Risiko nicht, sondern entlastet den Patienten. Ich nehme jede Äußerung ernst, bleibe ruhig und bewerte nicht. Ich informiere sofort den Arzt und das Team und dokumentiere meine Beobachtungen.",
+          "points": [
+            "Warnzeichen beobachten",
+            "Offen und direkt ansprechen",
+            "Fragen erhöht Risiko nicht",
+            "Ernst nehmen, nicht bewerten",
+            "Arzt sofort informieren",
+            "Dokumentieren"
+          ],
+          "es": "Esta es probablemente la pregunta más importante del tema. Describe primero las Warnzeichen (señales de alarma), luego di que preguntas de forma directa por pensamientos de Suizid, porque preguntar no aumenta el riesgo. Cierra con los tres pasos obligatorios: tomar en serio, avisar al médico y documentar."
+        },
+        {
+          "id": "depression.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Maßnahmen gehören zur Suizidprophylaxe auf der Station?",
+          "answer": "Zuerst schätze ich gemeinsam mit dem Arzt die Suizidgefahr ein und beobachte den Patienten engmaschig, bei akuter Gefahr auch durchgehend. Ich baue eine vertrauensvolle Beziehung auf und biete regelmäßig Gespräche an. Gefährliche Gegenstände wie Messer, Gürtel, Scheren und gesammelte Medikamente werden entfernt. Die Medikamenteneinnahme beobachte ich direkt. Der Patient wird möglichst in einem Zimmer nahe am Stationszimmer und nicht allein untergebracht. Alle Beobachtungen und Absprachen dokumentiere ich und gebe sie bei der Übergabe weiter.",
+          "points": [
+            "Suizidgefahr einschätzen",
+            "Engmaschige Beobachtung",
+            "Beziehung und Gesprächsangebote",
+            "Gefährliche Gegenstände entfernen",
+            "Medikamenteneinnahme beobachten",
+            "Dokumentation und Übergabe"
+          ],
+          "es": "La Suizidprophylaxe (prevención del suicidio) es la profilaxis más importante en la Depression. Combina vigilancia (observación frecuente, cuarto cerca de la central de enfermería), seguridad del entorno (quitar objetos peligrosos, observar la toma de medicamentos) y relación de confianza. La relación es clave: un paciente que confía en ti avisa cuando se siente peor."
+        },
+        {
+          "id": "depression.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie gestalten Sie die Beziehung und die Kommunikation mit einem depressiven Patienten?",
+          "answer": "Ich begegne dem Patienten mit Geduld, Wertschätzung und Empathie und nehme seine Gefühle ernst. Ich biete regelmäßig kurze Kontakte an, bin zuverlässig und halte Absprachen ein. Ich höre aktiv zu und halte auch Schweigen aus. Aufforderungen wie „Reißen Sie sich zusammen“ oder billigen Trost vermeide ich, weil sie die Schuldgefühle verstärken. Stattdessen erkläre ich, dass die Depression eine behandelbare Krankheit ist, und lobe auch kleine Fortschritte.",
+          "points": [
+            "Geduld und Empathie",
+            "Regelmäßige kurze Kontakte",
+            "Aktiv zuhören",
+            "Keine Appelle, kein billiger Trost",
+            "Behandelbare Krankheit erklären",
+            "Kleine Fortschritte loben"
+          ],
+          "es": "La Beziehungsgestaltung (construcción de la relación) es la base de todo el cuidado psiquiátrico. Importa ser constante, paciente y confiable. Frases como «échele ganas» (en alemán «Reißen Sie sich zusammen») hacen daño, porque el paciente no puede y se siente más culpable. Mejor reconocer cada avance pequeño."
+        },
+        {
+          "id": "depression.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie aktivieren Sie einen antriebslosen depressiven Patienten und wie gestalten Sie seinen Tag?",
+          "answer": "Ich plane mit dem Patienten eine feste Tagesstruktur mit regelmäßigen Zeiten für Aufstehen, Mahlzeiten, Therapien und Ruhe. Ich aktiviere ihn in kleinen, erreichbaren Schritten, damit er nicht überfordert und nicht unterfordert wird. Wegen des Morgentiefs braucht er morgens mehr Unterstützung, anspruchsvollere Aktivitäten plane ich eher für später. Bewegung an der frischen Luft und in der Gruppe fördere ich besonders, weil sie die Stimmung verbessert. Jede geschaffte Aktivität erkenne ich an.",
+          "points": [
+            "Feste Tagesstruktur",
+            "Kleine erreichbare Schritte",
+            "Weder über- noch unterfordern",
+            "Morgentief berücksichtigen",
+            "Bewegung fördern",
+            "Erfolge anerkennen"
+          ],
+          "es": "La Tagesstruktur (estructura del día) le da al paciente un marco cuando él solo no tiene Antrieb (impulso). La Aktivierung (activación) se hace en pasos pequeños: si exiges demasiado, fracasa y se siente peor; si no exiges nada, se queda en cama. Recuerda el Morgentief: en la mañana necesita más ayuda."
+        },
+        {
+          "id": "depression.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche weiteren Prophylaxen sind bei einem schwer depressiven, antriebslosen Patienten wichtig und warum?",
+          "answer": "Wichtig ist die Obstipationsprophylaxe, weil der Patient sich wenig bewegt, wenig trinkt und manche Antidepressiva anticholinerg wirken. Dazu gehören ausreichend Flüssigkeit, ballaststoffreiche Kost, Bewegung und die Beobachtung des Stuhlgangs. Wenn der Patient viel im Bett liegt, sind auch Dekubitusprophylaxe und Thromboseprophylaxe nötig, also Mobilisation, Positionswechsel und Hautbeobachtung. Außerdem achte ich auf die Prophylaxe von Mangelernährung und Dehydratation. Zu Beginn der Medikamententherapie gehört auch die Sturzprophylaxe dazu, weil Schwindel und Müdigkeit auftreten können.",
+          "points": [
+            "Obstipationsprophylaxe",
+            "Dekubitusprophylaxe",
+            "Thromboseprophylaxe",
+            "Mangelernährung vorbeugen",
+            "Sturzprophylaxe",
+            "Begründung: Bewegungsmangel und Nebenwirkungen"
+          ],
+          "es": "En el examen no basta con nombrar las Prophylaxen (profilaxis); tienes que explicar el porqué. Aquí la razón es siempre la misma: poca movilidad, poca comida y bebida, y los efectos secundarios de los medicamentos. De ahí salen Obstipation (estreñimiento), Dekubitus (úlceras por presión), Thrombose (trombosis), desnutrición y Sturz (caída)."
+        },
+        {
+          "id": "depression.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung eines depressiven Patienten?",
+          "answer": "Viele depressive Patienten haben keinen Appetit und verlieren Gewicht. Ich beobachte und dokumentiere deshalb die Ess- und Trinkmenge und kontrolliere regelmäßig das Gewicht. Ich biete Wunschkost und mehrere kleine Mahlzeiten an und motiviere den Patienten, in Gesellschaft zu essen. Auf eine ausreichende Trinkmenge achte ich besonders, auch wegen der Obstipationsgefahr. Bei manchen Medikamenten kann der Appetit auch steigen, dann berate ich zu einer ausgewogenen Ernährung.",
+          "points": [
+            "Ess- und Trinkmenge beobachten",
+            "Gewichtskontrolle",
+            "Wunschkost, kleine Mahlzeiten",
+            "Essen in Gesellschaft",
+            "Ausreichend trinken"
+          ],
+          "es": "La Appetitlosigkeit (falta de apetito) es un síntoma de la Depression, por eso hay riesgo de Mangelernährung (desnutrición). Tú observas, documentas y pesas al paciente con regularidad. Ayudan la Wunschkost (comida a su gusto), porciones pequeñas y comer acompañado. Algunos medicamentos, como Mirtazapin, más bien aumentan el apetito y el peso."
+        },
+        {
+          "id": "depression.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie unterstützen Sie einen depressiven Patienten bei der Körperpflege?",
+          "answer": "Durch die Antriebslosigkeit vernachlässigen viele Patienten ihre Körperpflege. Ich erinnere und motiviere den Patienten freundlich und ohne Vorwürfe zur Körperpflege und plane sie zu festen Zeiten in die Tagesstruktur ein. Ich leite ihn an und lasse ihn so viel wie möglich selbst tun, also aktivierende Pflege. Nur wenn er es wirklich nicht schafft, übernehme ich einzelne Handlungen. Dabei beobachte ich die Haut und den Allgemeinzustand und lobe, was er selbst geschafft hat.",
+          "points": [
+            "Selbstvernachlässigung durch Antriebsmangel",
+            "Motivieren ohne Vorwürfe",
+            "Feste Zeiten",
+            "Aktivierende Pflege",
+            "Nur bei Bedarf übernehmen",
+            "Hautbeobachtung"
+          ],
+          "es": "El paciente no descuida su higiene por flojera, sino por la Antriebslosigkeit (falta de energía) propia de la enfermedad. Por eso se motiva sin reproches. El principio es aktivierende Pflege (cuidado activador): guiar y acompañar, pero no hacerle todo, porque cada cosa que logra solo fortalece su autoestima."
+        },
+        {
+          "id": "depression.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie beim Thema Kleidung bei einem depressiven Patienten?",
+          "answer": "Ich motiviere den Patienten, morgens aufzustehen und sich Tageskleidung anzuziehen, statt den ganzen Tag im Schlafanzug zu bleiben. Das gehört zur Tagesstruktur und trennt Tag und Nacht. Der Patient wählt seine Kleidung selbst aus, bei Bedarf leite ich ihn an. Ich achte darauf, dass die Kleidung sauber ist und zur Jahreszeit passt, und rege einen regelmäßigen Wäschewechsel an. Ein gepflegtes Äußeres stärkt das Selbstwertgefühl. Bei akuter Suizidgefahr werden gefährliche Gegenstände wie Gürtel nach Absprache im Team entfernt.",
+          "points": [
+            "Tageskleidung statt Schlafanzug",
+            "Teil der Tagesstruktur",
+            "Kleidung selbst auswählen",
+            "Saubere, passende Kleidung",
+            "Selbstwertgefühl stärken",
+            "Gürtel bei Suizidgefahr entfernen"
+          ],
+          "es": "Vestirse con Tageskleidung (ropa de día) parece un detalle, pero marca la diferencia entre día y noche y forma parte de la Tagesstruktur (estructura del día). Que el paciente elija su ropa fomenta la autonomía y la autoestima. Y recuerda el aspecto de seguridad: con riesgo agudo de Suizid se retiran cinturones y objetos parecidos."
+        },
+        {
+          "id": "depression.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Ein depressiver Patient schläft schlecht. Wie beraten Sie ihn zur Schlafhygiene?",
+          "answer": "Ich empfehle feste Zeiten für das Zubettgehen und das Aufstehen, auch am Wochenende. Tagsüber soll der Patient aktiv sein, sich bewegen und möglichst nicht oder nur kurz schlafen. Am Abend rate ich von Koffein, Alkohol, schweren Mahlzeiten und Bildschirmen ab. Hilfreich sind ein ruhiges, dunkles Zimmer und ein Abendritual, zum Beispiel ein warmes Getränk oder eine Entspannungsübung. Ich beobachte und dokumentiere den Schlaf und informiere den Arzt, wenn die Schlafstörung bestehen bleibt.",
+          "points": [
+            "Feste Schlafzeiten",
+            "Tagsüber aktiv sein",
+            "Kein Koffein und Alkohol abends",
+            "Ruhige Umgebung",
+            "Abendritual",
+            "Schlaf beobachten und dokumentieren"
+          ],
+          "es": "La Schlafhygiene (higiene del sueño) son reglas sencillas para dormir mejor: horarios fijos, actividad de día, nada de café ni alcohol en la noche y un Abendritual (ritual antes de dormir). En la Depression son típicos el despertar temprano y el sueño interrumpido, así que tú además observas, documentas e informas al médico."
+        },
+        {
+          "id": "depression.pflegemassnahmen.10",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Bereiche beobachtet und dokumentiert die Pflegefachperson bei einem depressiven Patienten regelmäßig?",
+              "options": [
+                "Stimmung und Antrieb",
+                "Schlaf",
+                "Ess- und Trinkverhalten",
+                "Sehschärfe",
+                "Äußerungen zu Suizidgedanken",
+                "Hörvermögen"
+              ],
+              "correct": [0, 1, 2, 4]
+            },
+            {
+              "form": "tf",
+              "q": "Veränderungen von Stimmung und Antrieb im Tagesverlauf müssen bei depressiven Patienten nicht dokumentiert werden.",
+              "correct": false
+            }
+          ],
+          "es": "La Krankenbeobachtung (observación del paciente) en la Depression incluye: ánimo, Antrieb (impulso), sueño, alimentación, contactos sociales, efecto de los medicamentos y, sobre todo, señales de Suizidalität. Los cambios durante el día también se documentan, porque el equipo y el médico deciden el tratamiento con base en tus observaciones."
+        },
+        {
+          "id": "depression.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Prophylaxe dem passenden Grund bei Depression zu.",
+              "pairs": [
+                ["Suizidprophylaxe", "Hoffnungslosigkeit und Suizidgedanken"],
+                ["Obstipationsprophylaxe", "Anticholinerge Nebenwirkungen mancher Antidepressiva"],
+                ["Dekubitus- und Thromboseprophylaxe", "Langes Liegen im Bett"],
+                ["Prophylaxe der Mangelernährung", "Appetitlosigkeit und Gewichtsverlust"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Warum besteht bei depressiven Patienten ein erhöhtes Obstipationsrisiko?",
+              "options": [
+                "Wegen einer Entzündung des Darms",
+                "Weil sie zu viele Ballaststoffe essen",
+                "Wegen Bewegungsmangel, geringer Trinkmenge und Nebenwirkungen mancher Antidepressiva",
+                "Weil Serotonin den Darm lähmt"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Cada Prophylaxe (profilaxis) tiene su razón en esta enfermedad: Suizidprophylaxe por la desesperanza; Obstipationsprophylaxe (prevención del estreñimiento) por poco movimiento, poco líquido y medicamentos anticolinérgicos; Dekubitus- y Thromboseprophylaxe si el paciente pasa mucho tiempo en cama; y prevención de Mangelernährung (desnutrición) por la falta de apetito."
+        },
+        {
+          "id": "depression.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "beraten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Information geben Sie einem Patienten, der neu ein Antidepressivum bekommt?",
+              "options": [
+                "„Wenn Sie nach drei Tagen keine Besserung merken, setzen Sie es ab.“",
+                "„Das Medikament macht schnell abhängig.“",
+                "„Nehmen Sie das Medikament nur an schlechten Tagen.“",
+                "„Die Wirkung auf die Stimmung kommt erst nach einigen Wochen; nehmen Sie das Medikament regelmäßig weiter.“"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Zur Beratung gehört, dass der Patient und seine Angehörigen Frühwarnzeichen eines Rückfalls kennen und wissen, wo sie Hilfe bekommen.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Themen gehören zur Beratung von Patient und Angehörigen vor der Entlassung?",
+              "options": [
+                "Regelmäßige Einnahme der Medikamente, kein eigenmächtiges Absetzen",
+                "Frühwarnzeichen eines Rückfalls",
+                "Alkohol als Einschlafhilfe",
+                "Hilfsangebote wie Hausarzt, Psychotherapie und Krisendienst",
+                "Vermeiden aller sozialen Kontakte"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "En la Beratung (asesoría) explicas que el antidepresivo tarda semanas en actuar y que debe tomarse todos los días, sin suspenderlo por cuenta propia. El paciente y la familia deben conocer las Frühwarnzeichen (señales tempranas de recaída), como dormir mal o aislarse, y saber a dónde acudir en una crisis. El alcohol empeora la Depression."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "depression.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Depression und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist suizidgefährdet, weil er hoffnungslos ist und Suizidgedanken äußert. Ziel: Der Patient verletzt sich während des gesamten Aufenthalts nicht selbst und meldet sich ab sofort bei Suizidgedanken beim Pflegepersonal. Maßnahmen: Ich beobachte den Patienten engmaschig und biete täglich Gespräche an. Ich spreche Suizidgedanken offen an und entferne gefährliche Gegenstände. Ich beobachte die Medikamenteneinnahme, informiere den Arzt über Veränderungen und dokumentiere alles.",
+          "points": [
+            "Problem: Suizidgefahr",
+            "Ziel: keine Selbstverletzung, meldet sich",
+            "Engmaschige Beobachtung",
+            "Gespräche, offen ansprechen",
+            "Gefährliche Gegenstände entfernen",
+            "Medikamenteneinnahme beobachten"
+          ],
+          "es": "La Suizidgefahr (riesgo de suicidio) es el Pflegeproblem número uno en la Depression, así que conviene empezar con él. Usa siempre la estructura Problem – Ziel – Maßnahmen. El objetivo es medible (no se autolesiona, avisa al personal) y las medidas son las de la Suizidprophylaxe."
+        },
+        {
+          "id": "depression.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein Pflegeproblem bei Depression aus dem Bereich Antrieb und Selbstversorgung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat ein Selbstversorgungsdefizit, weil er durch den Antriebsmangel seine Körperpflege und seinen Tagesablauf vernachlässigt. Ziel: Der Patient steht innerhalb von einer Woche täglich zur vereinbarten Zeit auf und führt die Körperpflege nach Erinnerung selbstständig durch. Maßnahmen: Ich erstelle mit dem Patienten einen Tagesplan mit festen Zeiten. Ich motiviere ihn morgens zum Aufstehen und leite ihn bei der Körperpflege aktivierend an. Ich fordere ihn in kleinen Schritten und lobe jeden Fortschritt.",
+          "points": [
+            "Problem: Selbstversorgungsdefizit durch Antriebsmangel",
+            "Ziel: tägliches Aufstehen, selbstständige Körperpflege",
+            "Tagesplan mit festen Zeiten",
+            "Aktivierende Anleitung",
+            "Kleine Schritte, Lob"
+          ],
+          "es": "El Selbstversorgungsdefizit (déficit de autocuidado) aparece porque el Antriebsmangel (falta de impulso) no deja que el paciente se levante ni se asee. El objetivo es SMART: tiene plazo (una semana) y se puede comprobar. Las medidas combinan Tagesstruktur (estructura del día) y aktivierende Pflege (cuidado activador)."
+        },
+        {
+          "id": "depression.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein Pflegeproblem bei Depression aus dem Bereich Ernährung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat ein Risiko für Mangelernährung und Dehydratation, weil er durch die Appetitlosigkeit zu wenig isst und trinkt. Ziel: Der Patient trinkt ab sofort täglich mindestens 1,5 Liter und hält sein Körpergewicht in den nächsten zwei Wochen stabil. Maßnahmen: Ich führe ein Ess- und Trinkprotokoll und wiege den Patienten einmal pro Woche. Ich biete Wunschkost und mehrere kleine Mahlzeiten an und motiviere ihn, gemeinsam mit anderen zu essen. Bei weiterer Gewichtsabnahme informiere ich den Arzt.",
+          "points": [
+            "Problem: Risiko für Mangelernährung",
+            "Ziel: Trinkmenge und stabiles Gewicht",
+            "Ess- und Trinkprotokoll",
+            "Wöchentliche Gewichtskontrolle",
+            "Wunschkost, kleine Mahlzeiten",
+            "Arzt informieren"
+          ],
+          "es": "Por la Appetitlosigkeit (falta de apetito) el paciente come y bebe muy poco. El objetivo se mide con dos datos claros: cantidad de líquido al día y peso estable en dos semanas. Con el Ess- und Trinkprotokoll (registro de comida y bebida) y el peso semanal puedes comprobar si se logró."
+        },
+        {
+          "id": "depression.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit Depression.",
+          "answer": "SMART bedeutet: spezifisch, messbar, akzeptiert oder attraktiv, realistisch und terminiert. Ein Pflegeziel beschreibt also genau und überprüfbar, welchen Zustand der Patient bis zu einem bestimmten Zeitpunkt erreichen soll. Es wird positiv und aus der Sicht des Patienten formuliert. Ein Beispiel bei Depression ist: Der Patient nimmt innerhalb von einer Woche täglich an mindestens einer Gruppenaktivität teil. Zum vereinbarten Zeitpunkt überprüfe ich in der Evaluation, ob das Ziel erreicht wurde.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert und realistisch",
+            "Terminiert",
+            "Beispiel bei Depression",
+            "Evaluation"
+          ],
+          "es": "SMART es la regla para formular un Pflegeziel (objetivo de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado), realistisch (realista) y terminiert (con plazo). Da siempre un ejemplo concreto con plazo y algo que se pueda contar. En la Depression los objetivos deben ser pequeños y alcanzables, para no sobrecargar al paciente."
+        }
+      ]
+    }
+  ]
+}

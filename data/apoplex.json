@@ -1,0 +1,1339 @@
+{
+  "id": "apoplex",
+  "name": "Apoplex",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "apoplex.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Apoplex (Schlaganfall)?",
+              "options": [
+                "Eine langsam fortschreitende Demenz",
+                "Eine plötzliche Durchblutungsstörung oder Blutung im Gehirn mit neurologischen Ausfällen",
+                "Eine Entzündung der Hirnhäute durch Bakterien",
+                "Ein Verschluss einer Herzkranzarterie"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein Apoplex ist eine plötzlich auftretende Durchblutungsstörung oder Blutung im Gehirn, die zu neurologischen Ausfällen führt.",
+              "correct": true
+            }
+          ],
+          "es": "El Apoplex o Schlaganfall (evento vascular cerebral, EVC) aparece de golpe: una parte del cerebro se queda sin sangre o hay un sangrado. Por eso las neuronas dejan de funcionar y aparecen déficits neurológicos como parálisis o problemas para hablar."
+        },
+        {
+          "id": "apoplex.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Form des Schlaganfalls ist am häufigsten?",
+              "options": [
+                "Der ischämische Schlaganfall (Hirninfarkt), ca. 80–85 %",
+                "Der hämorrhagische Schlaganfall (Hirnblutung), ca. 80–85 %",
+                "Die Subarachnoidalblutung, ca. 60 %",
+                "Beide Formen sind genau gleich häufig"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die meisten Schlaganfälle entstehen durch eine Hirnblutung.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Form des Schlaganfalls der Beschreibung zu.",
+              "pairs": [
+                ["Ischämischer Schlaganfall", "Verschluss eines Hirngefäßes, ca. 80–85 % der Fälle"],
+                ["Hämorrhagischer Schlaganfall", "Blutung aus einem Hirngefäß, ca. 15–20 % der Fälle"],
+                ["TIA", "Vorübergehende Durchblutungsstörung ohne bleibende Ausfälle"]
+              ]
+            }
+          ],
+          "es": "Hay dos formas: el ischämischer Schlaganfall (EVC isquémico, por un vaso tapado) y el hämorrhagischer Schlaganfall (EVC hemorrágico, por un sangrado). El isquémico es por mucho el más frecuente, alrededor del 80–85 % de los casos. Esta diferencia es clave porque el tratamiento es totalmente distinto."
+        },
+        {
+          "id": "apoplex.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine TIA (transitorische ischämische Attacke)?",
+              "options": [
+                "Eine Hirnblutung mit bleibender Lähmung",
+                "Eine chronische Durchblutungsstörung der Beine",
+                "Eine vorübergehende Durchblutungsstörung des Gehirns, deren Symptome sich vollständig zurückbilden",
+                "Ein epileptischer Anfall mit Bewusstseinsverlust"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer TIA bleiben die neurologischen Ausfälle dauerhaft bestehen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Bei einer TIA bilden sich die Symptome vollständig zurück, nach der klassischen Definition innerhalb von ___ Stunden.",
+              "options": ["72", "48", "24", "96"],
+              "correct": 2
+            }
+          ],
+          "es": "La TIA (ataque isquémico transitorio) es una falta pasajera de flujo sanguíneo en el cerebro: los síntomas son iguales a los de un EVC, pero desaparecen por completo, según la definición clásica en menos de 24 horas (casi siempre en minutos). Aun así es una señal de alarma, porque muchas veces anuncia un Schlaganfall verdadero."
+        },
+        {
+          "id": "apoplex.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet der Merksatz „Time is brain“?",
+              "options": [
+                "Das Gehirn braucht nach einem Schlaganfall viel Zeit und Ruhe, bevor man behandelt",
+                "Die Symptome verschwinden mit der Zeit von selbst",
+                "Die Diagnostik darf erst am nächsten Tag beginnen",
+                "Jede Minute ohne Behandlung sterben Nervenzellen ab, deshalb ist der Schlaganfall ein Notfall"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei Verdacht auf einen Schlaganfall muss sofort der Notruf 112 gewählt werden, auch wenn die Symptome wieder nachlassen.",
+              "correct": true
+            }
+          ],
+          "es": "«Time is brain» quiere decir que cada minuto sin tratamiento mueren más neuronas. Por eso el Schlaganfall siempre es un Notfall (urgencia): se llama de inmediato al 112, aunque los síntomas mejoren, porque también una TIA debe estudiarse en el hospital."
+        },
+        {
+          "id": "apoplex.definition.5",
+          "type": "sprech",
+          "q": "Was ist ein Apoplex? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Ein Apoplex ist ein Schlaganfall, also eine plötzliche Durchblutungsstörung oder Blutung im Gehirn. Bei der häufigsten Form, dem ischämischen Schlaganfall, ist ein Hirngefäß verschlossen. Seltener ist der hämorrhagische Schlaganfall, also eine Hirnblutung. In beiden Fällen werden die Nervenzellen nicht mehr ausreichend mit Sauerstoff versorgt und sterben ab, deshalb entstehen neurologische Ausfälle wie eine Halbseitenlähmung oder eine Sprachstörung. Der Schlaganfall ist immer ein Notfall.",
+          "points": [
+            "Plötzliches Ereignis im Gehirn",
+            "Ischämischer Schlaganfall",
+            "Hämorrhagischer Schlaganfall",
+            "Sauerstoffmangel der Nervenzellen",
+            "Neurologische Ausfälle",
+            "Notfall"
+          ],
+          "es": "Esta es la pregunta de entrada más típica del examen. Di primero que es algo repentino en el cerebro, luego nombra las dos formas (isquémica y hemorrágica) y termina con las consecuencias: faltan oxígeno y nutrientes, mueren neuronas y aparecen déficits. Cierra diciendo que siempre es una urgencia."
+        },
+        {
+          "id": "apoplex.definition.6",
+          "type": "sprech",
+          "q": "Was ist der Unterschied zwischen einer TIA und einem Schlaganfall?",
+          "answer": "Eine TIA ist eine transitorische ischämische Attacke, also eine vorübergehende Durchblutungsstörung des Gehirns. Die Symptome sind die gleichen wie beim Schlaganfall, aber sie bilden sich vollständig zurück, meistens nach wenigen Minuten. Beim Schlaganfall bleiben die Ausfälle länger bestehen, weil Hirngewebe abgestorben ist. Die TIA ist ein wichtiges Warnsignal, denn danach ist das Schlaganfallrisiko deutlich erhöht. Deshalb muss auch eine TIA sofort im Krankenhaus abgeklärt werden.",
+          "points": [
+            "TIA: vorübergehende Durchblutungsstörung",
+            "Vollständige Rückbildung",
+            "Schlaganfall: Hirngewebe abgestorben",
+            "TIA als Warnsignal",
+            "Sofortige Abklärung im Krankenhaus"
+          ],
+          "es": "La diferencia central es que en la TIA los síntomas se quitan por completo y en el Schlaganfall queda daño en el tejido cerebral. Lo importante para el examen: la TIA no es inofensiva, es un Warnsignal (señal de alarma) y el paciente debe ir de inmediato al hospital."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "apoplex.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Arterienpaare versorgen das Gehirn mit Blut?",
+              "options": [
+                "Arteria carotis interna (innere Halsschlagader)",
+                "Arteria femoralis",
+                "Arteria vertebralis (Wirbelarterie)",
+                "Arteria radialis",
+                "Arteria renalis"
+              ],
+              "correct": [0, 2]
+            },
+            {
+              "form": "cloze",
+              "q": "Das Gehirn wird über die Arteria carotis interna und die Arteria ___ mit Blut versorgt.",
+              "options": ["vertebralis", "femoralis", "brachialis", "pulmonalis"],
+              "correct": 0
+            }
+          ],
+          "es": "El cerebro recibe sangre por dos pares de arterias: la Arteria carotis interna (carótida interna) y la Arteria vertebralis (arteria vertebral). Si una de ellas o una de sus ramas se tapa, la zona del cerebro que depende de ella se queda sin irrigación y ocurre el infarto cerebral."
+        },
+        {
+          "id": "apoplex.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient hat einen Hirninfarkt in der linken Gehirnhälfte. Auf welcher Körperseite ist die Lähmung zu erwarten?",
+              "options": [
+                "Auf der linken Körperseite",
+                "Auf beiden Körperseiten gleich stark",
+                "Nur an beiden Beinen",
+                "Auf der rechten Körperseite"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem Infarkt in der linken Gehirnhälfte ist die linke Körperseite gelähmt.",
+              "correct": false
+            }
+          ],
+          "es": "Las vías motoras (Pyramidenbahn, vía piramidal) cruzan al lado contrario antes de llegar a la médula. Por eso un daño en el hemisferio izquierdo causa parálisis del lado derecho del cuerpo y al revés. En el examen di: la Hemiparese (hemiparesia) está en la «Gegenseite», el lado contrario."
+        },
+        {
+          "id": "apoplex.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welcher Gehirnhälfte liegt bei den meisten Menschen das Sprachzentrum?",
+              "options": [
+                "In der rechten Gehirnhälfte",
+                "In der linken Gehirnhälfte",
+                "Im Kleinhirn",
+                "Im Hirnstamm"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Aphasie tritt meistens zusammen mit einer rechtsseitigen Hemiparese auf, weil das Sprachzentrum meist in der linken Gehirnhälfte liegt.",
+              "correct": true
+            }
+          ],
+          "es": "En la mayoría de las personas el Sprachzentrum (centro del lenguaje) está en el hemisferio izquierdo. Por eso un infarto del lado izquierdo suele dar Aphasie (afasia) junto con parálisis del lado derecho. Así puedes explicar por qué estos dos síntomas casi siempre van juntos."
+        },
+        {
+          "id": "apoplex.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum reagiert das Gehirn so empfindlich auf eine Durchblutungsstörung?",
+              "options": [
+                "Weil Nervenzellen ständig Sauerstoff und Glukose brauchen und kaum Reserven haben",
+                "Weil das Gehirn keine eigenen Blutgefäße hat",
+                "Weil Nervenzellen sich sehr schnell neu bilden",
+                "Weil das Gehirn nur nachts durchblutet wird"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Nervenzellen können mehrere Stunden ohne Sauerstoff auskommen, ohne Schaden zu nehmen.",
+              "correct": false
+            }
+          ],
+          "es": "Las neuronas necesitan oxígeno y glucosa todo el tiempo y casi no tienen reservas. Si se interrumpe el flujo de sangre, empiezan a morir en pocos minutos y prácticamente no se regeneran. Esto explica por qué en el Schlaganfall cada minuto cuenta."
+        },
+        {
+          "id": "apoplex.anatomie.5",
+          "type": "sprech",
+          "q": "Erklären Sie anhand der Anatomie, warum bei einem Schlaganfall meistens nur eine Körperseite gelähmt ist.",
+          "answer": "Das Gehirn besteht aus zwei Gehirnhälften, und jede Hälfte steuert die Bewegungen der gegenüberliegenden Körperseite. Der Grund ist, dass die motorischen Nervenbahnen auf die Gegenseite kreuzen. Ein Schlaganfall betrifft meistens nur ein Gefäß in einer Gehirnhälfte, am häufigsten die Arteria cerebri media. Deshalb entsteht eine Halbseitenlähmung auf der Gegenseite, zum Beispiel eine Hemiparese rechts bei einem Infarkt links.",
+          "points": [
+            "Zwei Gehirnhälften",
+            "Steuerung der Gegenseite",
+            "Kreuzung der Nervenbahnen",
+            "Arteria cerebri media",
+            "Halbseitenlähmung der Gegenseite"
+          ],
+          "es": "Aquí el examinador quiere oír la lógica: cada hemisferio controla el lado contrario del cuerpo porque las vías motoras se cruzan. Como el Schlaganfall casi siempre afecta un solo vaso de un hemisferio (sobre todo la Arteria cerebri media, arteria cerebral media), la parálisis es de un solo lado."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "apoplex.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wodurch entsteht ein ischämischer Schlaganfall?",
+              "options": [
+                "Durch das Platzen eines Hirngefäßes",
+                "Durch eine bakterielle Infektion des Gehirns",
+                "Durch den Verschluss eines Hirngefäßes durch einen Thrombus oder Embolus",
+                "Durch einen zu niedrigen Blutzucker"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Beim ischämischen Schlaganfall verschließt ein Blutgerinnsel ein Hirngefäß, häufig auf dem Boden einer Arteriosklerose.",
+              "correct": true
+            }
+          ],
+          "es": "El EVC isquémico ocurre porque un coágulo tapa una arteria del cerebro. El coágulo puede formarse ahí mismo sobre una Arteriosklerose (aterosclerosis), entonces es un Thrombus, o llegar desde otro lugar, entonces es un Embolus. Detrás de ese vaso el tejido ya no recibe sangre."
+        },
+        {
+          "id": "apoplex.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Herzerkrankung ist eine häufige Ursache für eine Hirnembolie?",
+              "options": [
+                "Vorhofflimmern",
+                "Sinusbradykardie beim Sportler",
+                "Perikarditis",
+                "Angina pectoris"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Bei ___ können sich im Herzvorhof Blutgerinnsel bilden, die mit dem Blutstrom ins Gehirn gelangen.",
+              "options": ["Hypotonie", "Vorhofflimmern", "Asthma bronchiale", "Gastritis"],
+              "correct": 1
+            }
+          ],
+          "es": "En el Vorhofflimmern (fibrilación auricular) las aurículas no se contraen bien, la sangre se estanca y se forman coágulos. Si un coágulo se desprende, viaja con la sangre hasta el cerebro y tapa una arteria: eso es una embolia cardiaca. Por eso estos pacientes reciben Antikoagulation (anticoagulación)."
+        },
+        {
+          "id": "apoplex.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die häufigste Ursache einer Hirnblutung (hämorrhagischer Schlaganfall)?",
+              "options": [
+                "Niedriger Blutdruck",
+                "Flüssigkeitsmangel",
+                "Vitaminmangel",
+                "Langjähriger Bluthochdruck"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die häufigste Ursache einer Hirnblutung ist ein zu niedriger Blutdruck.",
+              "correct": false
+            }
+          ],
+          "es": "La causa más frecuente de la Hirnblutung (hemorragia cerebral) es la arterielle Hypertonie (hipertensión arterial) de muchos años. La presión alta daña las paredes de los vasos pequeños del cerebro hasta que uno se rompe. La sangre que sale además comprime el tejido de alrededor."
+        },
+        {
+          "id": "apoplex.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die typische Ursache einer Subarachnoidalblutung?",
+              "options": [
+                "Ein Thrombus in einer Beinvene",
+                "Ein geplatztes Aneurysma einer Hirnarterie",
+                "Eine Verengung der Halsschlagader",
+                "Eine Entzündung des Sehnervs"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Subarachnoidalblutung entsteht meist durch das Platzen eines Aneurysmas, also einer Aussackung einer Hirnarterie.",
+              "correct": true
+            }
+          ],
+          "es": "La Subarachnoidalblutung (hemorragia subaracnoidea) casi siempre se debe a un Aneurysma (aneurisma) roto, es decir, una dilatación débil en la pared de una arteria cerebral. La sangre entra al espacio entre las meninges. Es una forma especial de sangrado dentro del cráneo."
+        },
+        {
+          "id": "apoplex.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen hat ein Schlaganfall?",
+          "answer": "Beim ischämischen Schlaganfall ist ein Hirngefäß verschlossen. Das passiert entweder durch einen Thrombus bei Arteriosklerose oder durch eine Embolie, zum Beispiel aus dem Herzen bei Vorhofflimmern oder aus einer verengten Halsschlagader. Beim hämorrhagischen Schlaganfall platzt ein Hirngefäß, meistens wegen Bluthochdruck. Eine weitere Ursache für eine Blutung ist ein geplatztes Aneurysma.",
+          "points": [
+            "Gefäßverschluss (ischämisch)",
+            "Thrombus bei Arteriosklerose",
+            "Embolie",
+            "Vorhofflimmern",
+            "Hirnblutung (hämorrhagisch)",
+            "Bluthochdruck"
+          ],
+          "es": "Ordena tu respuesta por las dos formas: primero la isquémica (vaso tapado por trombo o émbolo) y luego la hemorrágica (vaso roto, sobre todo por hipertensión). Si mencionas Vorhofflimmern y Arteriosklerose, ya tienes las causas que más preguntan."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "apoplex.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher ist der wichtigste Risikofaktor für einen Schlaganfall?",
+              "options": [
+                "Arterielle Hypertonie",
+                "Untergewicht",
+                "Niedriger Blutdruck",
+                "Kurzsichtigkeit"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bluthochdruck ist der wichtigste Risikofaktor für einen Schlaganfall.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Der wichtigste beeinflussbare Risikofaktor für einen Schlaganfall ist die arterielle ___.",
+              "options": ["Hypotonie", "Hypothermie", "Hypertonie", "Hypoglykämie"],
+              "correct": 2
+            }
+          ],
+          "es": "La arterielle Hypertonie (hipertensión arterial) es el factor de riesgo número uno, tanto para el EVC isquémico como para el hemorrágico. Daña las paredes de los vasos y favorece la aterosclerosis. Por eso el control de la presión es la medida de prevención más importante."
+        },
+        {
+          "id": "apoplex.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Risikofaktoren für einen Schlaganfall sind beeinflussbar?",
+              "options": [
+                "Rauchen",
+                "Höheres Lebensalter",
+                "Übergewicht",
+                "Familiäre Veranlagung",
+                "Bewegungsmangel"
+              ],
+              "correct": [0, 2, 4]
+            },
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor für einen Schlaganfall ist nicht beeinflussbar?",
+              "options": [
+                "Rauchen",
+                "Bewegungsmangel",
+                "Übergewicht",
+                "Höheres Lebensalter"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Los factores de riesgo se dividen en beeinflussbar (modificables) y nicht beeinflussbar (no modificables). Fumar, el sobrepeso y la falta de ejercicio se pueden cambiar; la edad y la predisposición familiar no. Esta división te sirve después para la Beratung (asesoría) del paciente."
+        },
+        {
+          "id": "apoplex.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum erhöhen Diabetes mellitus und erhöhte Blutfette das Schlaganfallrisiko?",
+              "options": [
+                "Weil sie den Blutdruck stark senken",
+                "Weil sie die Arteriosklerose fördern",
+                "Weil sie die Blutgerinnung vollständig verhindern",
+                "Weil sie die Nervenzellen direkt entzünden"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Diabetes mellitus hat keinen Einfluss auf das Schlaganfallrisiko.",
+              "correct": false
+            }
+          ],
+          "es": "La Diabetes mellitus y los lípidos altos (Fettstoffwechselstörung, dislipidemia) dañan las paredes de las arterias y favorecen la Arteriosklerose (aterosclerosis). Así los vasos se estrechan y se forman trombos con más facilidad. Por eso un buen control de la glucosa y del colesterol también previene el Schlaganfall."
+        },
+        {
+          "id": "apoplex.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Wer schon einen Schlaganfall oder eine TIA hatte, hat ein erhöhtes Risiko für einen weiteren Schlaganfall.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aussage über Patienten nach einer TIA oder einem Schlaganfall ist richtig?",
+              "options": [
+                "Sie sind vor einem weiteren Schlaganfall geschützt",
+                "Sie brauchen keine Medikamente mehr",
+                "Sie haben ein erhöhtes Risiko für einen erneuten Schlaganfall",
+                "Ihr Risiko ist genauso hoch wie bei gesunden Menschen"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Quien ya tuvo una TIA o un Schlaganfall tiene un riesgo claramente mayor de un Re-Insult (nuevo evento). Por eso existe la Sekundärprävention (prevención secundaria): tomar los medicamentos de forma constante y controlar los factores de riesgo."
+        },
+        {
+          "id": "apoplex.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für einen Schlaganfall kennen Sie?",
+          "answer": "Man unterscheidet beeinflussbare und nicht beeinflussbare Risikofaktoren. Der wichtigste beeinflussbare Risikofaktor ist der Bluthochdruck. Weitere sind Vorhofflimmern, Diabetes mellitus, erhöhte Blutfette, Rauchen, Übergewicht, Bewegungsmangel und viel Alkohol. Nicht beeinflussbar sind das höhere Lebensalter und die familiäre Veranlagung.",
+          "points": [
+            "Beeinflussbar / nicht beeinflussbar",
+            "Bluthochdruck",
+            "Vorhofflimmern, Diabetes mellitus",
+            "Rauchen, Übergewicht, Bewegungsmangel",
+            "Alter, familiäre Veranlagung"
+          ],
+          "es": "Empieza con la división en modificables y no modificables, eso muestra estructura. Nombra primero el Bluthochdruck (hipertensión) porque es el más importante, y luego los demás. Con cinco o seis factores bien dichos la respuesta ya está completa."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "apoplex.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Buchstaben des FAST-Tests ihrer Bedeutung zu.",
+              "pairs": [
+                ["F – Face", "Lächeln lassen: hängt ein Mundwinkel?"],
+                ["A – Arms", "Beide Arme heben lassen: sinkt ein Arm ab?"],
+                ["S – Speech", "Einen Satz nachsprechen lassen: ist die Sprache verwaschen oder gestört?"],
+                ["T – Time", "Keine Zeit verlieren: sofort Notruf 112"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wofür steht das „A“ im FAST-Test?",
+              "options": [
+                "Atmung kontrollieren",
+                "Arme: beide Arme nach vorne heben lassen",
+                "Augen: Pupillen kontrollieren",
+                "Anamnese erheben"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Beim FAST-Test steht das „T“ für ___: Es muss sofort der Notruf gewählt werden.",
+              "options": ["Temperatur", "Tablette", "Time (Zeit)", "Tonus"],
+              "correct": 2
+            }
+          ],
+          "es": "El FAST-Test es una prueba rápida para reconocer un Schlaganfall: Face (cara, se cuelga una comisura), Arms (brazos, uno se cae), Speech (habla, alterada o arrastrada) y Time (tiempo, llamar ya al 112). Te lo pueden pedir tal cual en el examen, así que apréndete las cuatro letras con su prueba."
+        },
+        {
+          "id": "apoplex.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind typisch für einen Schlaganfall?",
+              "options": [
+                "Plötzliche Halbseitenlähmung (Hemiparese)",
+                "Langsam zunehmende Gelenkschmerzen",
+                "Hängender Mundwinkel",
+                "Plötzliche Sprachstörung",
+                "Seit Tagen bestehender Hautausschlag"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Die Symptome eines Schlaganfalls entwickeln sich typischerweise langsam über mehrere Wochen.",
+              "correct": false
+            }
+          ],
+          "es": "Lo típico del Schlaganfall es que los síntomas aparecen «plötzlich» (de repente): Hemiparese (debilidad o parálisis de medio cuerpo), comisura caída y alteración del lenguaje. Otros síntomas posibles son trastornos visuales, mareo y alteración de la conciencia."
+        },
+        {
+          "id": "apoplex.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                ["Aphasie", "Störung der Sprache: Wortfindung und/oder Sprachverständnis sind gestört"],
+                ["Dysarthrie", "Störung des Sprechens: verwaschene, undeutliche Aussprache"],
+                ["Dysphagie", "Schluckstörung"],
+                ["Hemianopsie", "Halbseitiger Ausfall des Gesichtsfeldes"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist eine Aphasie?",
+              "options": [
+                "Eine Schluckstörung",
+                "Eine Lähmung der Atemmuskulatur",
+                "Ein halbseitiger Gesichtsfeldausfall",
+                "Eine Störung der Sprache, bei der Wortfindung und/oder Sprachverständnis gestört sind"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Estos términos se confunden fácil. Aphasie (afasia) es un problema del lenguaje en el cerebro: encontrar palabras o entender; la inteligencia no está afectada. Dysarthrie (disartria) es solo la articulación, Dysphagie (disfagia) es tragar y Hemianopsie (hemianopsia) es perder la mitad del campo visual."
+        },
+        {
+          "id": "apoplex.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter einem Neglect?",
+              "options": [
+                "Der Patient nimmt die betroffene Körperseite und Raumhälfte nicht wahr",
+                "Der Patient kann nicht mehr schlucken",
+                "Der Patient hat starke Kopfschmerzen",
+                "Der Patient verweigert bewusst die Mitarbeit"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Patient mit Neglect isst zum Beispiel nur eine Hälfte des Tellers leer, weil er die andere Hälfte nicht wahrnimmt.",
+              "correct": true
+            }
+          ],
+          "es": "El Neglect (heminegligencia) es un trastorno de la percepción: el paciente no registra el lado afectado de su cuerpo ni esa mitad del espacio, aunque sus ojos funcionen. No lo hace a propósito. Ejemplos típicos: come solo medio plato o choca con objetos de ese lado, por eso hay riesgo de lesiones."
+        },
+        {
+          "id": "apoplex.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches Symptom spricht besonders für eine Subarachnoidalblutung?",
+              "options": [
+                "Langsam zunehmende Vergesslichkeit",
+                "Juckreiz am ganzen Körper",
+                "Plötzlicher, extrem starker Kopfschmerz (Vernichtungskopfschmerz)",
+                "Schmerzen in beiden Waden beim Gehen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Ein plötzlicher, extrem starker Kopfschmerz mit Übelkeit und Erbrechen ist ein typisches Zeichen einer Blutung im Schädel.",
+              "correct": true
+            }
+          ],
+          "es": "El Vernichtungskopfschmerz (cefalea «en trueno», el peor dolor de cabeza de la vida) que empieza de golpe, muchas veces con náusea y vómito, hace pensar en un sangrado, sobre todo en una Subarachnoidalblutung (hemorragia subaracnoidea). Aun así, solo la tomografía distingue con seguridad entre sangrado e isquemia."
+        },
+        {
+          "id": "apoplex.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Schlaganfall, und wie können Sie einen Schlaganfall schnell erkennen?",
+          "answer": "Die Symptome treten plötzlich auf. Typisch sind eine Hemiparese, also eine Halbseitenlähmung, ein hängender Mundwinkel und eine Sprachstörung wie die Aphasie. Dazu kommen oft Sehstörungen, Schwindel, eine Schluckstörung oder eine Bewusstseinsstörung. Schnell erkennen kann ich den Schlaganfall mit dem FAST-Test: Ich lasse den Patienten lächeln, beide Arme heben und einen Satz nachsprechen. Wenn etwas auffällig ist, wähle ich sofort den Notruf.",
+          "points": [
+            "Plötzlicher Beginn",
+            "Hemiparese",
+            "Hängender Mundwinkel",
+            "Sprachstörung (Aphasie)",
+            "FAST-Test",
+            "Notruf wählen"
+          ],
+          "es": "Empieza siempre con la palabra «plötzlich», porque el inicio repentino es lo que caracteriza al Schlaganfall. Luego nombra los síntomas principales y une todo con el FAST-Test, que revisa justo cara, brazos y habla. Termina con la acción: llamar de inmediato al Notruf (número de emergencias)."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "apoplex.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird bei Verdacht auf Schlaganfall sofort eine Computertomografie (CT) des Kopfes gemacht?",
+              "options": [
+                "Um die Lungenfunktion zu prüfen",
+                "Um eine Hirnblutung von einem Hirninfarkt zu unterscheiden",
+                "Um den Blutzucker zu bestimmen",
+                "Um die Schluckfähigkeit zu testen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Allein anhand der Symptome kann man sicher unterscheiden, ob ein Hirninfarkt oder eine Hirnblutung vorliegt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Vor einer Lysetherapie muss mit einer Bildgebung des Kopfes (CT oder MRT) eine ___ ausgeschlossen werden.",
+              "options": ["Pneumonie", "Thrombose", "Hirnblutung", "Fraktur"],
+              "correct": 2
+            }
+          ],
+          "es": "Los síntomas del infarto y del sangrado cerebral pueden ser iguales, así que solo la imagen (CT o MRT, tomografía o resonancia) los distingue. Es indispensable antes de la Lysetherapie (trombólisis): si hubiera una Hirnblutung (hemorragia cerebral), disolver coágulos la empeoraría de forma peligrosa."
+        },
+        {
+          "id": "apoplex.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum wird bei Verdacht auf Schlaganfall sofort der Blutzucker gemessen?",
+              "options": [
+                "Weil eine Hypoglykämie ähnliche Symptome wie ein Schlaganfall verursachen kann",
+                "Weil der Blutzucker die Lähmungsseite anzeigt",
+                "Weil ein Schlaganfall nur bei Diabetikern vorkommt",
+                "Weil der Blutzucker die Größe des Infarkts zeigt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine Unterzuckerung kann Symptome wie bei einem Schlaganfall hervorrufen, deshalb gehört die Blutzuckermessung zur Erstdiagnostik.",
+              "correct": true
+            }
+          ],
+          "es": "Una Hypoglykämie (hipoglucemia) puede causar confusión, problemas para hablar e incluso debilidad de un lado, igual que un Schlaganfall. Medir la glucosa es rápido y descarta esta causa, que se trata de forma muy distinta. Por eso la Blutzuckermessung (medición de glucosa) va al inicio."
+        },
+        {
+          "id": "apoplex.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung dem Ziel bei der Ursachensuche zu.",
+              "pairs": [
+                ["EKG und Langzeit-EKG", "Vorhofflimmern erkennen"],
+                ["Duplexsonografie der Halsgefäße", "Verengung der Halsschlagader erkennen"],
+                ["Echokardiografie", "Blutgerinnsel im Herzen erkennen"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Mit welcher Untersuchung sucht man nach einer Verengung der Halsschlagader (Karotisstenose)?",
+              "options": [
+                "Lungenfunktionsprüfung",
+                "Gastroskopie",
+                "Knochendichtemessung",
+                "Duplexsonografie der Halsgefäße"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Después de la fase aguda se busca la causa del evento para evitar otro. El EKG detecta Vorhofflimmern (fibrilación auricular), la Duplexsonografie (ultrasonido Doppler) de los vasos del cuello detecta estrechamientos de la carótida y la Echokardiografie (ecocardiograma) busca coágulos en el corazón."
+        },
+        {
+          "id": "apoplex.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Information aus der Anamnese ist für die Therapieentscheidung besonders wichtig?",
+              "options": [
+                "Die Lieblingsspeisen des Patienten",
+                "Der genaue Zeitpunkt des Symptombeginns",
+                "Die Schuhgröße des Patienten",
+                "Der Beruf der Angehörigen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Zeitpunkt des Symptombeginns ist für die Entscheidung über eine Lysetherapie unwichtig.",
+              "correct": false
+            }
+          ],
+          "es": "La Lysetherapie (trombólisis) solo es posible dentro de una ventana de tiempo corta desde el inicio de los síntomas. Por eso siempre se pregunta al paciente o a los familiares cuándo empezaron exactamente, o cuándo fue visto bien por última vez. Como enfermera, documentas esa hora con precisión."
+        },
+        {
+          "id": "apoplex.diagnostik.5",
+          "type": "sprech",
+          "q": "Welche diagnostischen Maßnahmen werden bei Verdacht auf einen Schlaganfall durchgeführt?",
+          "answer": "Zuerst werden die Anamnese mit dem Zeitpunkt des Symptombeginns und eine neurologische Untersuchung gemacht. Sofort danach folgt eine Computertomografie oder MRT des Kopfes, um eine Hirnblutung auszuschließen. Außerdem werden die Vitalzeichen und der Blutzucker kontrolliert und Blut abgenommen, zum Beispiel für die Gerinnung. Zur Ursachensuche macht man ein EKG wegen Vorhofflimmern und eine Duplexsonografie der Halsgefäße.",
+          "points": [
+            "Zeitpunkt des Symptombeginns",
+            "Neurologische Untersuchung",
+            "CT oder MRT",
+            "Hirnblutung ausschließen",
+            "Vitalzeichen und Blutzucker",
+            "EKG und Duplexsonografie"
+          ],
+          "es": "Explica el diagnóstico en el orden real: primero preguntar y explorar, luego la imagen de la cabeza para descartar sangrado, después laboratorio y signos vitales, y al final los estudios para buscar la causa. Menciona siempre para qué sirve cada estudio, eso da puntos."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "apoplex.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Stroke Unit?",
+              "options": [
+                "Eine Rehabilitationsklinik für die Langzeittherapie",
+                "Eine Spezialstation zur Akutbehandlung und Überwachung von Schlaganfallpatienten",
+                "Eine Ambulanz für Blutdruckkontrollen",
+                "Eine Station für Patienten mit Herzinfarkt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Auf der Stroke Unit werden Vitalzeichen und neurologischer Status von Schlaganfallpatienten engmaschig überwacht.",
+              "correct": true
+            }
+          ],
+          "es": "La Stroke Unit es una unidad especializada para la fase aguda del Schlaganfall. Ahí un equipo multiprofesional vigila de forma continua los signos vitales y el estado neurológico e inicia la rehabilitación temprana. Los pacientes atendidos en una Stroke Unit tienen mejor pronóstico."
+        },
+        {
+          "id": "apoplex.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "cloze",
+              "q": "Die Lysetherapie beim ischämischen Schlaganfall ist in der Regel nur bis ___ Stunden nach Symptombeginn möglich.",
+              "options": ["4,5", "12", "24", "48"],
+              "correct": 0
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Ziel der Lysetherapie beim ischämischen Schlaganfall?",
+              "options": [
+                "Den Blutdruck zu erhöhen",
+                "Eine Blutung im Gehirn zu stoppen",
+                "Die Schmerzen zu lindern",
+                "Das Blutgerinnsel medikamentös aufzulösen"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "En la Lysetherapie (trombólisis) se da un medicamento intravenoso que disuelve el coágulo para que la sangre vuelva a pasar. Solo funciona y solo es segura al inicio: por regla general hasta 4.5 horas después del comienzo de los síntomas. Por eso es tan importante que el paciente llegue rápido."
+        },
+        {
+          "id": "apoplex.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Die Lysetherapie wird auch bei einer Hirnblutung eingesetzt.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Bei welcher Form des Schlaganfalls darf keine Lysetherapie durchgeführt werden?",
+              "options": [
+                "Beim Hirninfarkt durch Thrombose",
+                "Beim Hirninfarkt durch Embolie",
+                "Beim hämorrhagischen Schlaganfall (Hirnblutung)",
+                "Beim ischämischen Schlaganfall im Zeitfenster"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Lyse disuelve coágulos y por eso aumenta el riesgo de sangrado. En una Hirnblutung (hemorragia cerebral) está contraindicada, porque el sangrado crecería. Ahí el tratamiento es otro: controlar la presión arterial, vigilar la presión intracraneal y a veces operar."
+        },
+        {
+          "id": "apoplex.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Thrombektomie?",
+              "options": [
+                "Die mechanische Entfernung des Blutgerinnsels mit einem Katheter",
+                "Die Gabe von Schmerzmitteln über die Vene",
+                "Eine Operation am offenen Herzen",
+                "Die Entfernung der Schilddrüse"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Thrombektomie wird das Blutgerinnsel bei einem Verschluss eines großen Hirngefäßes mit einem Katheter mechanisch entfernt.",
+              "correct": true
+            }
+          ],
+          "es": "En la Thrombektomie (trombectomía) el médico llega con un catéter, casi siempre desde la ingle, hasta la arteria cerebral tapada y saca el coágulo. Se usa cuando está cerrado un vaso grande. La ventana de tiempo es de unas 6 horas desde el inicio de los síntomas y en casos seleccionados puede ser más larga."
+        },
+        {
+          "id": "apoplex.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei pflegerischen Aufgaben gehören zur Überwachung während und nach einer Lysetherapie?",
+              "options": [
+                "Engmaschige Kontrolle von Vitalzeichen und neurologischem Status",
+                "Beobachtung auf Blutungen, z. B. an Einstichstellen, Zahnfleisch oder im Urin",
+                "Intramuskuläre Injektionen bevorzugen",
+                "Verschlechterungen sofort dem Arzt melden",
+                "Blutdruck nur einmal täglich messen"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung der Lysetherapie müssen Pflegefachpersonen besonders beobachten?",
+              "options": [
+                "Verstopfung",
+                "Blutungen",
+                "Haarausfall",
+                "Gewichtszunahme"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El efecto adverso más importante de la Lyse son las Blutungen (sangrados), incluso dentro del cerebro. Por eso vigilas muy seguido los signos vitales, la conciencia y el estado neurológico, y buscas sangrado en sitios de punción, encías u orina. Cualquier empeoramiento se avisa de inmediato al médico, y se evitan las inyecciones intramusculares."
+        },
+        {
+          "id": "apoplex.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird ein ischämischer Schlaganfall behandelt, und welche Aufgaben haben Sie als Pflegefachfrau auf der Stroke Unit?",
+          "answer": "Der Patient wird auf der Stroke Unit behandelt. Wenn er im Zeitfenster kommt, bekommt er eine Lysetherapie oder eine Thrombektomie, um das Gefäß wieder zu öffnen. Meine Aufgabe ist die engmaschige Überwachung von Blutdruck, Puls, Atmung, Sauerstoffsättigung, Temperatur, Blutzucker und Bewusstsein. Ich beobachte den Patienten auf Blutungen und melde jede Verschlechterung sofort dem Arzt. Der Blutdruck darf in der Akutphase nicht zu stark gesenkt werden, damit das Gehirn weiter durchblutet wird. Später bekommt der Patient Medikamente zur Sekundärprävention, zum Beispiel Thrombozytenaggregationshemmer, und beginnt früh mit der Rehabilitation.",
+          "points": [
+            "Stroke Unit",
+            "Lysetherapie oder Thrombektomie",
+            "Engmaschige Überwachung",
+            "Beobachtung auf Blutungen",
+            "Blutdruck nicht stark senken",
+            "Sekundärprävention"
+          ],
+          "es": "Divide tu respuesta en tratamiento médico y tareas de enfermería. Lo tuyo es la Überwachung (vigilancia): signos vitales, glucosa, conciencia y señales de sangrado. Un detalle que impresiona: en la fase aguda la presión no se baja de golpe, porque el tejido alrededor del infarto necesita ese flujo de sangre."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "apoplex.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation droht bei einer Schluckstörung (Dysphagie) nach Schlaganfall?",
+              "options": [
+                "Harnwegsinfekt",
+                "Aspirationspneumonie",
+                "Gallenkolik",
+                "Hypertensive Krise"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Dysphagie können Nahrung oder Speichel in die Atemwege gelangen und eine Aspirationspneumonie auslösen.",
+              "correct": true
+            }
+          ],
+          "es": "Con Dysphagie (disfagia) la comida, los líquidos o la saliva pueden irse a las vías respiratorias: eso es Aspiration. La consecuencia es la Aspirationspneumonie (neumonía por aspiración), una de las complicaciones más frecuentes y peligrosas después de un Schlaganfall. Por eso se evalúa la deglución antes de dar algo por la boca."
+        },
+        {
+          "id": "apoplex.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen können auf einen steigenden Hirndruck hinweisen?",
+              "options": [
+                "Zunehmende Bewusstseinstrübung",
+                "Starke Kopfschmerzen",
+                "Juckreiz an den Füßen",
+                "Erbrechen",
+                "Vermehrter Appetit"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Warnzeichen für einen steigenden Hirndruck nach einem Schlaganfall?",
+              "options": [
+                "Der Patient hat mehr Appetit",
+                "Der Patient schläft nachts gut",
+                "Der Patient wird zunehmend schläfrig und schwer erweckbar",
+                "Der Patient hat warme Hände"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Después de un infarto grande o un sangrado puede formarse un Hirnödem (edema cerebral) y subir el Hirndruck (presión intracraneal). Las señales son somnolencia que aumenta, dolor de cabeza fuerte, vómito y cambios en las pupilas. Si notas esto, avisa de inmediato al médico: es una situación que pone en peligro la vida."
+        },
+        {
+          "id": "apoplex.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Komplikationen entstehen vor allem durch die Immobilität nach einem Schlaganfall?",
+              "options": [
+                "Thrombose",
+                "Dekubitus",
+                "Kontrakturen",
+                "Kurzsichtigkeit",
+                "Schilddrüsenüberfunktion"
+              ],
+              "correct": [0, 1, 2]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Hemiparese besteht kein erhöhtes Thromboserisiko, weil ein Bein noch beweglich ist.",
+              "correct": false
+            }
+          ],
+          "es": "La parálisis vuelve al paciente inmóvil, y la Immobilität (inmovilidad) trae complicaciones: Thrombose (trombosis) porque falta la bomba muscular, Dekubitus (úlcera por presión) por la presión constante y Kontrakturen (contracturas) porque las articulaciones no se mueven. De aquí salen las profilaxis que tienes que nombrar en el examen."
+        },
+        {
+          "id": "apoplex.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum darf man einen Patienten mit Hemiparese nicht am betroffenen Arm ziehen?",
+              "options": [
+                "Weil der Arm sonst zu stark durchblutet wird",
+                "Weil der Patient dadurch schneller müde wird",
+                "Weil dadurch die Sprache schlechter wird",
+                "Weil das Schultergelenk geschädigt werden kann und eine schmerzhafte Schulter entsteht"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Beim Transfer darf die Pflegeperson den Patienten am gelähmten Arm hochziehen.",
+              "correct": false
+            }
+          ],
+          "es": "En el brazo paralizado los músculos ya no sostienen bien la articulación del hombro. Si jalas de ese brazo, la articulación puede lesionarse o subluxarse y aparece la schmerzhafte Schulter (hombro doloroso), que frena mucho la rehabilitación. Por eso el brazo afectado siempre se apoya y se sostiene, nunca se jala."
+        },
+        {
+          "id": "apoplex.komplikationen.5",
+          "type": "sprech",
+          "q": "Welche Komplikationen können nach einem Schlaganfall auftreten?",
+          "answer": "In der Akutphase können ein Hirnödem mit steigendem Hirndruck und ein erneuter Schlaganfall auftreten. Durch die Schluckstörung droht eine Aspirationspneumonie. Durch die Immobilität können Thrombose, Dekubitus und Kontrakturen entstehen, und die Sturzgefahr ist erhöht. Außerdem entwickeln viele Patienten eine Depression, eine Spastik oder eine schmerzhafte Schulter.",
+          "points": [
+            "Hirnödem, Hirndruck",
+            "Erneuter Schlaganfall",
+            "Aspirationspneumonie",
+            "Thrombose, Dekubitus, Kontrakturen",
+            "Sturzgefahr",
+            "Depression"
+          ],
+          "es": "Ordena las complicaciones por su origen: las del cerebro (edema, nuevo evento), las de la disfagia (neumonía por aspiración) y las de la inmovilidad (trombosis, úlceras, contracturas, caídas). No olvides la Depression: es frecuente después de un Schlaganfall y afecta la motivación en la rehabilitación."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "apoplex.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit Schlaganfall und Hemiparese besonders wichtig? Begründen Sie.",
+          "answer": "Wichtig ist die Aspirationsprophylaxe und Pneumonieprophylaxe, weil viele Patienten eine Schluckstörung haben. Durch die Immobilität brauche ich die Dekubitusprophylaxe mit regelmäßigem Positionswechsel und Hautbeobachtung sowie die Thromboseprophylaxe mit früher Mobilisation. Die Kontrakturprophylaxe ist nötig, weil die gelähmten Gelenke nicht bewegt werden und sich eine Spastik entwickeln kann. Wegen der Lähmung und der gestörten Wahrnehmung führe ich auch die Sturzprophylaxe durch.",
+          "points": [
+            "Aspirations- und Pneumonieprophylaxe",
+            "Dekubitusprophylaxe",
+            "Thromboseprophylaxe",
+            "Kontrakturprophylaxe",
+            "Sturzprophylaxe"
+          ],
+          "es": "Esta pregunta sale casi seguro. Nombra cada Prophylaxe (medida preventiva) junto con su razón: disfagia lleva a aspiración y neumonía; inmovilidad lleva a úlceras por presión, trombosis y contracturas; parálisis y mala percepción llevan a caídas. Decir el «porqué» es lo que distingue una buena respuesta."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Was ist das Bobath-Konzept, und wie wenden Sie es bei der Mobilisation an?",
+          "answer": "Das Bobath-Konzept ist ein Pflege- und Therapiekonzept für Menschen mit Lähmungen nach einer Hirnschädigung. Es nutzt die Lernfähigkeit des Gehirns, deshalb wird die betroffene Seite in alle Aktivitäten einbezogen. Die Ziele sind, normale Bewegungen anzubahnen, den Muskeltonus zu regulieren und die Wahrnehmung der betroffenen Seite zu fördern. Es ist ein 24-Stunden-Konzept, das heißt, alle Berufsgruppen arbeiten rund um die Uhr nach den gleichen Prinzipien. Bei der Mobilisation führe ich den Transfer über die betroffene Seite durch, unterstütze den betroffenen Arm und ziehe nie daran.",
+          "points": [
+            "Lernfähigkeit des Gehirns",
+            "Betroffene Seite einbeziehen",
+            "Normale Bewegungen anbahnen",
+            "Muskeltonus regulieren",
+            "24-Stunden-Konzept",
+            "Transfer über betroffene Seite"
+          ],
+          "es": "El Bobath-Konzept (concepto Bobath) se basa en que el cerebro puede reaprender (plasticidad). Por eso no se compensa todo con el lado sano, sino que se integra el lado afectado en cada actividad, las 24 horas y por todo el equipo. Di «betroffene Seite» (lado afectado) y no «kranke Seite»; así se dice en alemán profesional."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Ihr Patient hat nach dem Schlaganfall eine Dysphagie. Worauf achten Sie bei der Nahrungsaufnahme?",
+          "answer": "Vor dem ersten Essen und Trinken muss die Schluckfähigkeit geprüft werden, zum Beispiel durch die Logopädie. Der Patient sitzt beim Essen aufrecht und neigt den Kopf leicht nach vorne. Ich gebe kleine Bissen und lasse ihm Zeit, und Flüssigkeiten dicke ich nach Anordnung an. Ich achte auf Aspirationszeichen wie Husten, Räuspern oder eine gurgelnde Stimme. Nach dem Essen kontrolliere ich den Mund auf Speisereste, mache die Mundpflege und lasse den Patienten noch etwa 20 bis 30 Minuten aufrecht sitzen.",
+          "points": [
+            "Schluckfähigkeit prüfen",
+            "Aufrechte Sitzposition",
+            "Kleine Bissen, Zeit lassen",
+            "Flüssigkeiten andicken",
+            "Aspirationszeichen beobachten",
+            "Mundkontrolle und Mundpflege"
+          ],
+          "es": "Con Dysphagie (disfagia) cada comida es un riesgo de aspiración. Las claves son: evaluar primero la deglución, sentar al paciente bien derecho con la cabeza un poco hacia adelante, dar bocados pequeños y líquidos espesados, y revisar la boca al final, porque quedan restos en la mejilla del lado paralizado. Después sigue sentado para evitar reflujo y aspiración."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten in der Akutphase nach einem Schlaganfall?",
+          "answer": "Ich kontrolliere engmaschig die Vitalzeichen, also Blutdruck, Puls, Atmung, Sauerstoffsättigung und Temperatur, und den Blutzucker. Ich beobachte das Bewusstsein und die Pupillen, um einen steigenden Hirndruck früh zu erkennen. Außerdem beobachte ich die neurologischen Ausfälle: Lähmung, Sprache, Schlucken und Wahrnehmung. Ich achte auch auf die Haut, die Ausscheidung und die Stimmung des Patienten. Jede Veränderung dokumentiere ich und melde sie sofort dem Arzt.",
+          "points": [
+            "Vitalzeichen",
+            "Blutzucker",
+            "Bewusstsein und Pupillen",
+            "Neurologische Ausfälle",
+            "Dokumentieren, Arzt informieren"
+          ],
+          "es": "En la fase aguda tu observación puede salvar tejido cerebral. Vigilas Vitalzeichen (signos vitales) y glucosa, porque fiebre, hipoxia y glucosa alterada empeoran el daño. Conciencia y pupilas te avisan de presión intracraneal alta, y los déficits neurológicos te dicen si el paciente mejora o empeora."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie unterstützen Sie einen Patienten mit Hemiparese bei der Körperpflege?",
+          "answer": "Ich arbeite nach dem Bobath-Konzept und beziehe die betroffene Seite in die Körperpflege ein. Wenn möglich, findet die Körperpflege im Sitzen am Waschbecken statt, weil das die Selbstständigkeit fördert. Der Patient wäscht sich so weit wie möglich selbst, und ich führe seine betroffene Hand bei den Bewegungen. Ich leite ihn an, die betroffene Seite bewusst zu waschen und anzusehen, damit er sie besser wahrnimmt. Dabei beobachte ich die Haut und achte auf einen sicheren Sitz wegen der Sturzgefahr.",
+          "points": [
+            "Betroffene Seite einbeziehen",
+            "Sitzen am Waschbecken",
+            "Selbstständigkeit fördern",
+            "Betroffene Hand führen",
+            "Hautbeobachtung",
+            "Sicherer Sitz (Sturzgefahr)"
+          ],
+          "es": "En la Körperpflege (higiene corporal) no se trata de lavar rápido al paciente, sino de usar el baño como terapia: es aktivierende Pflege (cuidado activador). Guiar la mano afectada y hacer que el paciente mire y toque ese lado mejora la percepción y ayuda al cerebro a reaprender movimientos."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Wie leiten Sie einen Patienten mit Hemiparese beim An- und Auskleiden an?",
+          "answer": "Beim Anziehen gilt: zuerst die betroffene Seite. Der Patient zieht also den Ärmel zuerst über den betroffenen Arm und danach über den nicht betroffenen Arm. Beim Ausziehen ist es umgekehrt, also zuerst die nicht betroffene Seite. Ich empfehle weite, bequeme Kleidung mit einfachen Verschlüssen und feste, geschlossene Schuhe. Der Patient sitzt dabei sicher und macht so viel wie möglich selbst.",
+          "points": [
+            "Anziehen: betroffene Seite zuerst",
+            "Ausziehen: nicht betroffene Seite zuerst",
+            "Weite, bequeme Kleidung",
+            "Feste, geschlossene Schuhe",
+            "Selbstständigkeit fördern"
+          ],
+          "es": "La regla es fácil: al vestir empieza por el lado afectado y al desvestir por el lado sano. Así el brazo paralizado no se tiene que doblar ni jalar y el hombro queda protegido. La ropa amplia y los zapatos firmes y cerrados facilitan la independencia y previenen caídas."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Worüber beraten Sie einen Patienten nach einem Schlaganfall und seine Angehörigen vor der Entlassung?",
+          "answer": "Ich informiere über die Risikofaktoren und einen gesunden Lebensstil: Blutdruck regelmäßig kontrollieren, nicht rauchen, sich bewegen und sich ausgewogen ernähren. Ich erkläre, dass die Medikamente regelmäßig eingenommen werden müssen, um einen erneuten Schlaganfall zu verhindern. Die Angehörigen lernen den FAST-Test und wissen, dass sie bei Warnzeichen sofort den Notruf 112 wählen. Ich leite die Angehörigen beim Transfer und beim Essenanreichen an. Außerdem informiere ich über Rehabilitation, Hilfsmittel und Selbsthilfegruppen.",
+          "points": [
+            "Risikofaktoren, gesunder Lebensstil",
+            "Blutdruckkontrolle",
+            "Regelmäßige Medikamenteneinnahme",
+            "FAST-Test",
+            "Notruf 112",
+            "Anleitung der Angehörigen"
+          ],
+          "es": "La Beratung (asesoría) busca evitar un segundo Schlaganfall y preparar la vida en casa. Los temas son: controlar los factores de riesgo, tomar los medicamentos sin interrupciones y reconocer las señales de alarma con el FAST-Test. A los familiares también se les enseña de forma práctica, por ejemplo cómo hacer el traslado."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie führen Sie die Aspirations- und Pneumonieprophylaxe bei einem Schlaganfallpatienten durch?",
+          "answer": "Der Patient bekommt erst nach einer Schluckprüfung etwas zu essen oder zu trinken. Beim Essen und danach lagere ich den Oberkörper hoch und passe die Kostform an, zum Beispiel mit angedickten Getränken. Eine sorgfältige Mundpflege ist wichtig, weil sie die Keime im Mund reduziert. Zur Pneumonieprophylaxe mobilisiere ich den Patienten früh, leite Atemübungen an und wechsle regelmäßig die Position. Ich beobachte Atmung, Husten und Temperatur, um eine Pneumonie früh zu erkennen.",
+          "points": [
+            "Schluckprüfung",
+            "Oberkörper hochlagern",
+            "Kostform anpassen",
+            "Mundpflege",
+            "Frühe Mobilisation, Atemübungen",
+            "Atmung und Temperatur beobachten"
+          ],
+          "es": "Aspirationsprophylaxe (prevención de aspiración) y Pneumonieprophylaxe (prevención de neumonía) van juntas en el Schlaganfall. Evitas que algo entre a las vías respiratorias y al mismo tiempo mejoras la ventilación con movilización y ejercicios respiratorios. La Mundpflege (higiene bucal) cuenta mucho: menos gérmenes en la boca significa menos riesgo si el paciente aspira saliva."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.9",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Prophylaxe der passenden Maßnahme bei einem Schlaganfallpatienten zu.",
+              "pairs": [
+                ["Dekubitusprophylaxe", "Regelmäßiger Positionswechsel und Hautbeobachtung"],
+                ["Thromboseprophylaxe", "Frühe Mobilisation und Heparin nach Arztanordnung"],
+                ["Kontrakturprophylaxe", "Gelenke regelmäßig durchbewegen und nach Bobath positionieren"],
+                ["Sturzprophylaxe", "Feste Schuhe, Klingel in Reichweite, Begleitung beim Gehen"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme gehört zur Kontrakturprophylaxe bei einem Patienten mit Hemiparese?",
+              "options": [
+                "Die betroffenen Gelenke möglichst ruhig halten",
+                "Die betroffenen Gelenke regelmäßig durchbewegen",
+                "Die Trinkmenge reduzieren",
+                "Den Patienten nur auf dem Rücken lagern"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Zur Kontrakturprophylaxe werden die gelähmten Gelenke möglichst gar nicht bewegt.",
+              "correct": false
+            }
+          ],
+          "es": "Cada profilaxis tiene su medida central: en la Dekubitusprophylaxe (prevención de úlceras por presión) son los cambios de posición, en la Thromboseprophylaxe (prevención de trombosis) la movilización temprana, en la Kontrakturprophylaxe (prevención de contracturas) mover las articulaciones y en la Sturzprophylaxe (prevención de caídas) un entorno seguro. Las articulaciones paralizadas se ponen rígidas justo cuando no se mueven."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.10",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie gestalten Sie nach dem Bobath-Konzept das Zimmer eines Patienten mit Hemiparese, um seine Wahrnehmung zu fördern?",
+              "options": [
+                "Nachttisch und Besucherstuhl stehen auf der betroffenen Seite",
+                "Alle Gegenstände stehen nur auf der nicht betroffenen Seite",
+                "Das Bett steht mit der betroffenen Seite direkt an der Wand",
+                "Der Patient wird nur von der nicht betroffenen Seite angesprochen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Nach dem Bobath-Konzept wird der Patient möglichst von der betroffenen Seite angesprochen, damit er diese Seite wieder besser wahrnimmt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Nach dem Bobath-Konzept steht der Nachttisch möglichst auf der ___ Seite des Patienten.",
+              "options": ["nicht betroffenen", "betroffenen", "dem Fenster zugewandten", "der Tür zugewandten"],
+              "correct": 1
+            }
+          ],
+          "es": "En el Bobath-Konzept (concepto Bobath) el cuarto se organiza para que los estímulos lleguen por el lado afectado: buró, silla de visitas y la persona que habla se colocan de ese lado. Así el paciente voltea hacia allá y el cerebro vuelve a prestar atención a esa mitad. Ojo: el timbre debe quedar siempre al alcance por seguridad."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen weisen beim Essen auf eine Aspiration hin?",
+              "options": [
+                "Husten während oder nach dem Schlucken",
+                "Gurgelnde, feuchte Stimme",
+                "Guter Appetit",
+                "Häufiges Räuspern",
+                "Langsames Kauen"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Dysphagie hustet beim Trinken und hat danach eine gurgelnde Stimme. Was vermuten Sie?",
+              "options": [
+                "Eine Hypoglykämie",
+                "Eine Thrombose",
+                "Eine Aspiration",
+                "Eine Kontraktur"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Las señales de Aspiration son tos al tragar o después, carraspeo frecuente y una voz húmeda o «gorgoteante». Si las ves, se interrumpe la comida y se informa al médico. Algunos pacientes aspiran sin toser, por eso también cuentan la voz y la respiración."
+        },
+        {
+          "id": "apoplex.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie kommunizieren Sie mit einem Patienten mit Aphasie, und wie leiten Sie die Angehörigen dazu an?",
+          "answer": "Ich spreche langsam und deutlich in kurzen, einfachen Sätzen und halte Blickkontakt. Ich stelle Fragen, die der Patient mit Ja oder Nein beantworten kann, und gebe ihm viel Zeit für die Antwort. Ich unterstütze die Kommunikation mit Gestik, Bildern oder einer Kommunikationstafel. Wichtig ist, den Patienten als Erwachsenen ernst zu nehmen, denn seine Intelligenz ist nicht gestört. Den Angehörigen erkläre ich diese Regeln und sage ihnen, dass sie nicht für den Patienten sprechen und ihn nicht ständig korrigieren sollen.",
+          "points": [
+            "Kurze, einfache Sätze",
+            "Ja-Nein-Fragen",
+            "Zeit geben",
+            "Gestik, Bilder, Kommunikationstafel",
+            "Patienten ernst nehmen",
+            "Angehörige anleiten"
+          ],
+          "es": "En la Aphasie (afasia) el paciente piensa con claridad, pero no logra encontrar las palabras o no las entiende bien. Por eso hablas sencillo, haces preguntas de sí o no, das tiempo y usas gestos o imágenes, sin tratarlo como niño. Los familiares necesitan esta Anleitung (instrucción práctica), porque por desesperación suelen hablar por él o corregirlo todo el tiempo."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "apoplex.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Schlaganfall und Dysphagie und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat eine Aspirationsgefahr, weil er wegen des Schlaganfalls eine Schluckstörung hat. Ziel: Der Patient aspiriert während des gesamten Krankenhausaufenthalts nicht, seine Atmung ist frei und er hat kein Fieber. Maßnahmen: Ich lasse vor der ersten Nahrungsaufnahme die Schluckfähigkeit prüfen. Bei jeder Mahlzeit sitzt der Patient aufrecht und bekommt angepasste Kost mit angedickten Getränken. Nach jeder Mahlzeit führe ich eine Mundkontrolle und Mundpflege durch und beobachte ihn auf Aspirationszeichen.",
+          "points": [
+            "Problem: Aspirationsgefahr",
+            "Ziel: keine Aspiration",
+            "Schluckfähigkeit prüfen",
+            "Aufrechte Sitzposition",
+            "Angedickte Getränke",
+            "Mundkontrolle und Mundpflege"
+          ],
+          "es": "Este es el problema de enfermería más típico del Schlaganfall. Fíjate en la estructura Problem – Ziel – Maßnahmen (problema, objetivo, medidas): el problema lleva su causa (por la disfagia), el objetivo se puede medir (no aspira, sin fiebre, respiración libre) y tiene plazo (toda la hospitalización)."
+        },
+        {
+          "id": "apoplex.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Hemiparese nach Schlaganfall und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist wegen der Hemiparese in seiner Mobilität eingeschränkt und hat deshalb eine erhöhte Sturzgefahr. Ziel: Der Patient führt innerhalb von zwei Wochen den Transfer vom Bett in den Stuhl mit Hilfe einer Pflegeperson sicher durch und stürzt in dieser Zeit nicht. Maßnahmen: Ich mobilisiere den Patienten täglich nach dem Bobath-Konzept über die betroffene Seite. Ich achte auf feste Schuhe, stelle die Klingel in Reichweite und arbeite eng mit der Physiotherapie zusammen.",
+          "points": [
+            "Problem: eingeschränkte Mobilität",
+            "Sturzgefahr",
+            "Ziel: sicherer Transfer",
+            "Mobilisation nach Bobath",
+            "Feste Schuhe",
+            "Klingel in Reichweite"
+          ],
+          "es": "Aquí el problema es la movilidad limitada por la Hemiparese (hemiparesia), con el riesgo de caídas que trae. El objetivo es SMART: dice qué logra el paciente (el traslado de la cama a la silla), con qué ayuda y en cuánto tiempo. Las medidas combinan Bobath con Sturzprophylaxe (prevención de caídas)."
+        },
+        {
+          "id": "apoplex.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Patienten mit Aphasie nach Schlaganfall und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient kann sich wegen der Aphasie nicht verständlich mitteilen und ist dadurch in der Kommunikation eingeschränkt. Ziel: Der Patient teilt innerhalb von einer Woche seine Grundbedürfnisse wie Durst, Schmerzen oder Toilettengang verständlich mit, zum Beispiel mit Ja-Nein-Signalen oder einer Kommunikationstafel. Maßnahmen: Ich spreche in kurzen Sätzen, stelle Ja-Nein-Fragen und gebe dem Patienten Zeit. Ich biete eine Kommunikationstafel an, arbeite mit der Logopädie zusammen und leite die Angehörigen an.",
+          "points": [
+            "Problem: eingeschränkte Kommunikation",
+            "Ziel: Grundbedürfnisse mitteilen",
+            "Kurze Sätze, Ja-Nein-Fragen",
+            "Kommunikationstafel",
+            "Logopädie",
+            "Angehörige anleiten"
+          ],
+          "es": "La comunicación limitada por la Aphasie (afasia) es un problema que al paciente le pesa mucho, porque no puede decir ni lo más básico. El objetivo es realista y medible: en una semana logra comunicar sus necesidades básicas con señales o con una Kommunikationstafel (tablero de comunicación). La Logopädie (terapia de lenguaje) siempre va entre las medidas."
+        },
+        {
+          "id": "apoplex.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART, und wie formulieren Sie ein Pflegeziel für einen Patienten mit Schlaganfall?",
+          "answer": "SMART bedeutet: spezifisch, messbar, akzeptiert, realistisch und terminiert. Ein Pflegeziel beschreibt also genau, was der Patient erreichen soll, es ist überprüfbar und hat einen Zeitpunkt. Ich formuliere das Ziel positiv und aus der Sicht des Patienten. Ein Beispiel beim Schlaganfall ist: Der Patient zieht innerhalb von zwei Wochen sein Oberteil mit Anleitung selbstständig an. Am festgelegten Termin überprüfe ich in der Evaluation, ob das Ziel erreicht ist.",
+          "points": [
+            "SMART-Begriffe nennen",
+            "Überprüfbar, mit Zeitpunkt",
+            "Sicht des Patienten",
+            "Beispiel mit Zeitrahmen",
+            "Evaluation"
+          ],
+          "es": "SMART es la regla para escribir un Pflegeziel (objetivo de enfermería): específico, medible, aceptado, realista y con fecha. El objetivo describe el estado que alcanza el paciente, no lo que hace la enfermera. Da siempre un ejemplo concreto del Schlaganfall con plazo, y menciona que al final se evalúa si se logró."
+        }
+      ]
+    }
+  ]
+}

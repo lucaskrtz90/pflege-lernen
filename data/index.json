@@ -1,0 +1,18 @@
+[
+  {"id": "apoplex", "name": "Apoplex", "icon": "brain", "color": "#7C5CFF", "available": true},
+  {"id": "depression", "name": "Depression", "icon": "cloud", "color": "#5B8DEF", "available": true},
+  {"id": "niereninsuffizienz", "name": "Chronische Niereninsuffizienz", "icon": "kidney", "color": "#E0728C", "available": true},
+  {"id": "diabetes-typ-1", "name": "Diabetes mellitus Typ 1", "icon": "droplet", "color": "#F2994A", "available": true},
+  {"id": "diabetes-typ-2", "name": "Diabetes mellitus Typ 2", "icon": "gauge", "color": "#E8B33C", "available": true},
+  {"id": "myokardinfarkt", "name": "Myokardinfarkt", "icon": "heartPulse", "color": "#EB5757", "available": true},
+  {"id": "herzinsuffizienz", "name": "Herzinsuffizienz", "icon": "heart", "color": "#D9467A", "available": true},
+  {"id": "mammakarzinom", "name": "Mammakarzinom", "icon": "ribbon", "color": "#F06BB1", "available": true},
+  {"id": "pavk", "name": "pAVK", "icon": "footprints", "color": "#B4623A", "available": true},
+  {"id": "pneumonie", "name": "Pneumonie", "icon": "lungs", "color": "#2FA8C7", "available": true},
+  {"id": "sepsis", "name": "Sepsis", "icon": "thermometer", "color": "#C0392B", "available": true},
+  {"id": "leberzirrhose", "name": "Leberzirrhose", "icon": "liver", "color": "#9C6B30", "available": true},
+  {"id": "appendizitis", "name": "Appendizitis", "icon": "stomach", "color": "#27AE60", "available": true},
+  {"id": "asthma-bronchiale", "name": "Asthma bronchiale", "icon": "wind", "color": "#1ABC9C", "available": true},
+  {"id": "asthma-kinder", "name": "Asthma bei Kindern", "icon": "child", "color": "#3DBE8B", "available": true},
+  {"id": "neurodermitis", "name": "Neurodermitis", "icon": "hand", "color": "#8E7CC3", "available": true}
+]

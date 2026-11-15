@@ -1,0 +1,1500 @@
+{
+  "id": "leberzirrhose",
+  "name": "Leberzirrhose",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "leberzirrhose.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Leberzirrhose?",
+              "options": [
+                "Eine akute Entzündung der Gallenblase",
+                "Eine gutartige Vergrößerung der Leber, die von selbst verschwindet",
+                "Ein irreversibler bindegewebiger Umbau der Leber mit Zerstörung der normalen Läppchenstruktur",
+                "Ein Verschluss der Gallenwege durch Gallensteine"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Leberzirrhose wird funktionsfähiges Lebergewebe durch Bindegewebe (Narbengewebe) ersetzt.",
+              "correct": true
+            }
+          ],
+          "es": "La Leberzirrhose (cirrosis hepática) es una transformación del hígado: las células hepáticas sanas mueren y se sustituyen por Bindegewebe (tejido conectivo, o sea cicatrices). Así se destruye la estructura normal de los lobulillos y el hígado se vuelve duro y nodular. Esta es la definición que debes poder decir de memoria."
+        },
+        {
+          "id": "leberzirrhose.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Der bindegewebige Umbau der Leber bei einer Leberzirrhose bildet sich nach einigen Wochen vollständig zurück.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der Umbau des Lebergewebes bei der Leberzirrhose ist ___, das heißt, er kann nicht rückgängig gemacht werden.",
+              "options": ["reversibel", "irreversibel", "akut", "infektiös"],
+              "correct": 1
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet irreversibel im Zusammenhang mit der Leberzirrhose?",
+              "options": [
+                "Der Umbau des Lebergewebes kann nicht mehr rückgängig gemacht werden",
+                "Die Erkrankung ist ansteckend",
+                "Die Erkrankung beginnt plötzlich",
+                "Die Erkrankung betrifft nur ältere Menschen"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La palabra clave es irreversibel (irreversible): el tejido cicatricial ya no vuelve a ser tejido hepático sano. Por eso el objetivo del tratamiento no es curar, sino frenar el avance y evitar complicaciones. En el examen siempre menciona esta palabra en la definición."
+        },
+        {
+          "id": "leberzirrhose.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht eine Leberzirrhose in der Regel?",
+              "options": [
+                "Plötzlich innerhalb weniger Stunden nach einer Mahlzeit",
+                "Durch einen einmaligen Unfall mit Leberverletzung",
+                "Als Folge einer akuten Blinddarmentzündung",
+                "Als Endstadium chronischer Lebererkrankungen, meist über viele Jahre"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Leberzirrhose ist das gemeinsame Endstadium vieler chronischer Lebererkrankungen.",
+              "correct": true
+            }
+          ],
+          "es": "La Leberzirrhose no aparece de un día para otro: es la etapa final de enfermedades crónicas del hígado que lo dañan durante muchos años. La secuencia típica es daño crónico, luego fibrosis y al final cirrosis. Por eso muchas personas no notan nada durante mucho tiempo."
+        },
+        {
+          "id": "leberzirrhose.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Hauptfolgen hat der Umbau der Leber bei einer Leberzirrhose?",
+              "options": [
+                "Die Leber verliert ihre Funktion (Leberinsuffizienz)",
+                "Der Blutzucker ist dauerhaft zu hoch",
+                "Der Druck in der Pfortader steigt (portale Hypertension)",
+                "Die Lunge wird überbläht",
+                "Die Schilddrüse arbeitet zu stark"
+              ],
+              "correct": [0, 2]
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Folge der Leberzirrhose ihrer Erklärung zu.",
+              "pairs": [
+                ["Leberinsuffizienz", "Die Leber kann ihre Aufgaben nicht mehr ausreichend erfüllen"],
+                ["Portale Hypertension", "Das Blut staut sich vor der Leber, der Druck in der Pfortader steigt"],
+                ["Dekompensation", "Es treten Komplikationen wie Aszites, Ikterus oder Blutungen auf"]
+              ]
+            }
+          ],
+          "es": "El hígado cicatrizado tiene dos grandes problemas. Primero, ya no trabaja bien: Leberinsuffizienz (insuficiencia hepática). Segundo, la sangre ya no pasa bien por él y se estanca: portale Hypertension (hipertensión portal). Casi todos los síntomas y complicaciones se explican con estos dos mecanismos."
+        },
+        {
+          "id": "leberzirrhose.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Womit wird der Schweregrad einer Leberzirrhose eingeteilt?",
+              "options": [
+                "Mit der Glasgow-Coma-Scale",
+                "Mit der Child-Pugh-Klassifikation (Stadien A, B und C)",
+                "Mit der Braden-Skala",
+                "Mit der NYHA-Klassifikation"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "In der Child-Pugh-Klassifikation bedeutet das Stadium C die schwerste Form der Leberzirrhose.",
+              "correct": true
+            }
+          ],
+          "es": "La gravedad se clasifica con la Child-Pugh-Klassifikation en los estadios A, B y C; A es el más leve y C el más grave. Se toman en cuenta Bilirubin, Albumin, la coagulación, el Aszites (ascitis) y la encefalopatía. No necesitas saber los puntos, pero sí el nombre y que C es el peor estadio."
+        },
+        {
+          "id": "leberzirrhose.definition.6",
+          "type": "sprech",
+          "q": "Was ist eine Leberzirrhose? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Die Leberzirrhose ist ein irreversibler bindegewebiger Umbau der Leber. Gesunde Leberzellen gehen zugrunde und werden durch Narbengewebe ersetzt, dadurch wird die normale Läppchenstruktur zerstört. Sie ist das Endstadium chronischer Lebererkrankungen und entwickelt sich meist über viele Jahre. Die Folgen sind eine Leberinsuffizienz, also ein Verlust der Leberfunktion, und eine portale Hypertension, also ein Hochdruck in der Pfortader.",
+          "points": [
+            "Irreversibler bindegewebiger Umbau",
+            "Narbengewebe statt Leberzellen",
+            "Endstadium chronischer Lebererkrankungen",
+            "Leberinsuffizienz",
+            "Portale Hypertension"
+          ],
+          "es": "Esta es la pregunta de entrada más probable. Una buena respuesta tiene tres partes: qué es (transformación irreversible en tejido cicatricial), cómo surge (etapa final de enfermedades hepáticas crónicas) y qué consecuencias tiene (Leberinsuffizienz y portale Hypertension). Con eso ya tienes el hilo para todo lo demás."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "leberzirrhose.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo liegt die Leber?",
+              "options": [
+                "Im rechten Oberbauch direkt unter dem Zwerchfell",
+                "Im linken Unterbauch neben dem Dickdarm",
+                "Hinter dem Brustbein zwischen den Lungenflügeln",
+                "Im kleinen Becken hinter der Harnblase"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Leber liegt im linken Unterbauch.",
+              "correct": false
+            }
+          ],
+          "es": "La Leber (hígado) está en el rechter Oberbauch (cuadrante superior derecho del abdomen), justo debajo del Zwerchfell (diafragma). Es la glándula más grande del cuerpo y pesa alrededor de 1.5 kg. Por eso los pacientes sienten presión o molestia del lado derecho arriba."
+        },
+        {
+          "id": "leberzirrhose.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Leber?",
+              "options": [
+                "Entgiftung von Stoffwechselprodukten, Alkohol und Medikamenten",
+                "Bildung von Insulin",
+                "Bildung von Galle",
+                "Bildung von Gerinnungsfaktoren und Albumin",
+                "Bildung von Urin"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Aufgabe der Leber ihrer Bedeutung zu.",
+              "pairs": [
+                ["Entgiftung", "Abbau von Ammoniak, Alkohol und Medikamenten"],
+                ["Gallebildung", "Wichtig für die Fettverdauung im Darm"],
+                ["Bildung von Gerinnungsfaktoren", "Wichtig für die Blutstillung"],
+                ["Speicherfunktion", "Speicherung von Glykogen und Vitaminen"]
+              ]
+            }
+          ],
+          "es": "El hígado es el laboratorio central del cuerpo: metaboliza carbohidratos, grasas y proteínas, desintoxica (Entgiftung), produce Galle (bilis), Gerinnungsfaktoren (factores de coagulación) y Albumin, y almacena glucógeno y vitaminas. Si conoces estas funciones, puedes deducir casi todos los síntomas de la cirrosis. Ojo: la insulina la produce el páncreas, no el hígado."
+        },
+        {
+          "id": "leberzirrhose.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe hat die Pfortader (Vena portae)?",
+              "options": [
+                "Sie bringt sauerstoffreiches Blut vom Herzen zur Lunge",
+                "Sie leitet die Galle von der Leber in den Darm",
+                "Sie bringt das Blut aus den Beinen zum Herzen",
+                "Sie bringt nährstoffreiches Blut aus Magen, Darm und Milz zur Leber"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Pfortader sammelt das Blut aus den unpaaren Bauchorganen wie Magen, Darm und Milz und führt es zur Leber.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Das nährstoffreiche Blut aus dem Magen-Darm-Trakt fließt über die ___ zur Leber.",
+              "options": ["Aorta", "Pfortader", "Lungenvene", "Nierenarterie"],
+              "correct": 1
+            }
+          ],
+          "es": "La Pfortader (vena porta) lleva al hígado la sangre rica en nutrientes que viene de estómago, intestino y bazo, para que el hígado la procese y desintoxique. En la cirrosis esa sangre ya no pasa bien por el hígado cicatrizado y se estanca. Así entiendes después la portale Hypertension y las várices."
+        },
+        {
+          "id": "leberzirrhose.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe hat das in der Leber gebildete Albumin?",
+              "options": [
+                "Es transportiert Sauerstoff im Blut",
+                "Es senkt den Blutzucker",
+                "Es hält die Flüssigkeit in den Blutgefäßen",
+                "Es baut Alkohol ab"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Bei einem Mangel an ___ tritt Flüssigkeit aus den Blutgefäßen ins Gewebe aus, und es entstehen Ödeme und Aszites.",
+              "options": ["Albumin", "Hämoglobin", "Insulin", "Bilirubin"],
+              "correct": 0
+            }
+          ],
+          "es": "El Albumin es la proteína más importante del plasma y la produce el hígado. Mantiene el líquido dentro de los vasos (presión coloidosmótica). Si falta, el líquido se sale al tejido y a la cavidad abdominal: así se forman Ödeme (edemas) y Aszites (ascitis)."
+        },
+        {
+          "id": "leberzirrhose.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was macht die gesunde Leber mit dem giftigen Ammoniak aus dem Eiweißstoffwechsel?",
+              "options": [
+                "Sie speichert es in der Gallenblase",
+                "Sie wandelt es in Harnstoff um, der über die Nieren ausgeschieden wird",
+                "Sie gibt es unverändert an das Gehirn weiter",
+                "Sie wandelt es in Bilirubin um"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die gesunde Leber wandelt ungiftigen Harnstoff in giftiges Ammoniak um.",
+              "correct": false
+            }
+          ],
+          "es": "El Ammoniak (amoniaco) se forma al degradar proteínas, sobre todo en el intestino, y es tóxico para el cerebro. El hígado sano lo convierte en Harnstoff (urea), que se elimina por los riñones. Si el hígado falla, el amoniaco llega al cerebro: esa es la base de la hepatische Enzephalopathie (encefalopatía hepática)."
+        },
+        {
+          "id": "leberzirrhose.anatomie.6",
+          "type": "sprech",
+          "q": "Welche Aufgaben hat die Leber, und warum ist das für das Verständnis der Leberzirrhose wichtig?",
+          "answer": "Die Leber ist das zentrale Stoffwechselorgan. Sie entgiftet das Blut, zum Beispiel von Ammoniak, Alkohol und Medikamenten, und sie bildet Galle für die Fettverdauung. Außerdem bildet sie Gerinnungsfaktoren und Albumin und speichert Glykogen und Vitamine. Das Blut aus dem Magen-Darm-Trakt fließt über die Pfortader zur Leber. Wenn die Leber bei einer Zirrhose ausfällt, erklärt das die Symptome: Blutungsneigung, Ödeme und Aszites, Ikterus und Bewusstseinsstörungen.",
+          "points": [
+            "Stoffwechsel",
+            "Entgiftung",
+            "Gallebildung",
+            "Gerinnungsfaktoren und Albumin",
+            "Pfortader",
+            "Symptome ableiten"
+          ],
+          "es": "Con esta pregunta el examinador quiere ver que entiendes la relación entre función y enfermedad. Nombra las funciones (Stoffwechsel, Entgiftung, Galle, Gerinnungsfaktoren, Albumin) y luego di qué pasa cuando fallan. Así demuestras que no solo memorizaste, sino que puedes razonar."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "leberzirrhose.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist in Deutschland die häufigste Ursache einer Leberzirrhose?",
+              "options": [
+                "Chronischer Alkoholmissbrauch",
+                "Gallensteine",
+                "Eine Hepatitis-A-Infektion",
+                "Ein Mangel an Vitamin D"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Langjähriger übermäßiger Alkoholkonsum ist in Deutschland die häufigste Ursache der Leberzirrhose.",
+              "correct": true
+            }
+          ],
+          "es": "En Alemania la causa más frecuente es el consumo crónico y excesivo de alcohol. El alcohol daña directamente las células del hígado: primero hay Fettleber (hígado graso), luego hepatitis alcohólica y al final cirrosis. Es lo primero que debes nombrar cuando te pregunten por las causas."
+        },
+        {
+          "id": "leberzirrhose.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Infektionskrankheiten können chronisch verlaufen und zu einer Leberzirrhose führen?",
+              "options": [
+                "Hepatitis A und E",
+                "Influenza und Masern",
+                "Chronische Hepatitis B und C",
+                "Tuberkulose und Borreliose"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Hepatitis A wird regelmäßig chronisch und ist deshalb eine häufige Ursache der Leberzirrhose.",
+              "correct": false
+            }
+          ],
+          "es": "La segunda causa más importante es la chronische Virushepatitis (hepatitis viral crónica) por los virus B y C. La inflamación dura años y va destruyendo el tejido. La hepatitis A no se vuelve crónica, por eso no causa cirrosis."
+        },
+        {
+          "id": "leberzirrhose.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Lebererkrankung, die oft bei Übergewicht und Diabetes mellitus Typ 2 auftritt, kann in eine Leberzirrhose übergehen?",
+              "options": [
+                "Die Leberzyste",
+                "Die nichtalkoholische Fettleber",
+                "Der Leberabszess",
+                "Das Leberhämangiom"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Auch Menschen, die keinen Alkohol trinken, können über eine Fettleber eine Leberzirrhose entwickeln.",
+              "correct": true
+            }
+          ],
+          "es": "La nichtalkoholische Fettleber (hígado graso no alcohólico) aparece sobre todo con sobrepeso, diabetes tipo 2 y alteraciones de las grasas en sangre. Si se inflama (Fettleberhepatitis), con los años puede terminar en cirrosis. Así que cirrosis no siempre significa alcohol: es importante no juzgar al paciente."
+        },
+        {
+          "id": "leberzirrhose.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die seltenere Ursache der Leberzirrhose ihrer Beschreibung zu.",
+              "pairs": [
+                ["Autoimmunhepatitis", "Das Immunsystem greift die eigenen Leberzellen an"],
+                ["Hämochromatose", "Eisenspeicherkrankheit"],
+                ["Morbus Wilson", "Kupferspeicherkrankheit"],
+                ["Chronische Rechtsherzinsuffizienz", "Blutrückstau in die Leber (Stauungsleber)"]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei der folgenden Erkrankungen sind seltenere Ursachen einer Leberzirrhose?",
+              "options": [
+                "Autoimmunhepatitis",
+                "Appendizitis",
+                "Hämochromatose (Eisenspeicherkrankheit)",
+                "Asthma bronchiale",
+                "Arthrose"
+              ],
+              "correct": [0, 2]
+            }
+          ],
+          "es": "Además de alcohol, hepatitis viral y Fettleber hay causas menos frecuentes: Autoimmunhepatitis (hepatitis autoinmune), enfermedades de depósito como Hämochromatose (hierro) y Morbus Wilson (cobre), y la congestión del hígado por insuficiencia cardiaca derecha. Con mencionar una o dos de estas en el examen ya das una respuesta completa."
+        },
+        {
+          "id": "leberzirrhose.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen einer Leberzirrhose kennen Sie?",
+          "answer": "Die häufigste Ursache in Deutschland ist der chronische Alkoholmissbrauch. An zweiter Stelle stehen die chronischen Virushepatitiden B und C. Eine weitere wichtige Ursache ist die nichtalkoholische Fettleber, die vor allem bei Übergewicht und Diabetes mellitus entsteht. Seltener sind eine Autoimmunhepatitis, Stoffwechselerkrankungen wie die Hämochromatose oder lebertoxische Medikamente und Giftstoffe die Ursache.",
+          "points": [
+            "Chronischer Alkoholmissbrauch",
+            "Chronische Hepatitis B und C",
+            "Nichtalkoholische Fettleber",
+            "Seltene Ursachen nennen"
+          ],
+          "es": "Ordena tu respuesta por frecuencia: primero alcohol, luego hepatitis B y C crónicas, después Fettleber y al final las causas raras. Ese orden muestra que sabes qué es lo más importante. No hace falta explicar cada causa a fondo, a menos que te lo pidan."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "leberzirrhose.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher beeinflussbare Risikofaktor ist für die Leberzirrhose am wichtigsten?",
+              "options": [
+                "Regelmäßiger Kaffeekonsum",
+                "Zu wenig Schlaf",
+                "Häufiges Fliegen",
+                "Regelmäßiger hoher Alkoholkonsum über viele Jahre"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei Frauen kann die Leber schon durch geringere Alkoholmengen geschädigt werden als bei Männern.",
+              "correct": true
+            }
+          ],
+          "es": "El factor de riesgo más importante y modificable es el alcohol: cuenta la cantidad y los años de consumo. Las mujeres toleran menos alcohol que los hombres, así que su hígado se daña con cantidades menores. Esto es importante para la Beratung (asesoría) del paciente."
+        },
+        {
+          "id": "leberzirrhose.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren begünstigen eine nichtalkoholische Fettleber und damit eine Leberzirrhose?",
+              "options": [
+                "Adipositas",
+                "Diabetes mellitus Typ 2",
+                "Niedriger Blutdruck",
+                "Fettstoffwechselstörung",
+                "Untergewicht in der Jugend",
+                "Kurzsichtigkeit"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Adipositas und Diabetes mellitus Typ 2 erhöhen das Risiko für eine Fettleber.",
+              "correct": true
+            }
+          ],
+          "es": "Adipositas (obesidad), Diabetes mellitus Typ 2 y Fettstoffwechselstörung (dislipidemia) favorecen que se deposite grasa en el hígado. Es el llamado síndrome metabólico. Bajar de peso y moverse más puede mejorar el hígado graso antes de que llegue a cirrosis."
+        },
+        {
+          "id": "leberzirrhose.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie werden Hepatitis B und C vor allem übertragen?",
+              "options": [
+                "Über verunreinigtes Trinkwasser",
+                "Über Blut und andere Körperflüssigkeiten, zum Beispiel durch gemeinsam benutzte Spritzen oder ungeschützten Geschlechtsverkehr",
+                "Über Tröpfchen beim Husten und Niesen",
+                "Über Insektenstiche"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Hepatitis B und C werden hauptsächlich über verunreinigte Lebensmittel und Trinkwasser übertragen.",
+              "correct": false
+            }
+          ],
+          "es": "Los virus de hepatitis B y C se transmiten por sangre y otros líquidos corporales: jeringas compartidas, piquetes con agujas usadas y, sobre todo la B, relaciones sexuales sin protección. Agua y alimentos contaminados transmiten la hepatitis A y E, no la B ni la C. Para ti como enfermera, esto significa cuidarte de las Nadelstichverletzungen (lesiones por punción con aguja)."
+        },
+        {
+          "id": "leberzirrhose.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Gegen welche Virushepatitis, die zur Leberzirrhose führen kann, gibt es eine Schutzimpfung?",
+              "options": [
+                "Gegen Hepatitis B",
+                "Gegen Hepatitis C",
+                "Gegen keine Form der Hepatitis",
+                "Nur gegen Hepatitis E"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Gegen Hepatitis C gibt es eine wirksame Schutzimpfung.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Schutzimpfung gegen Hepatitis ___ schützt vor einer chronischen Virushepatitis und damit indirekt vor einer Leberzirrhose.",
+              "options": ["C", "D", "B", "E"],
+              "correct": 2
+            }
+          ],
+          "es": "Contra la hepatitis B hay una vacuna eficaz, y en Alemania se recomienda para todos los niños y para el personal de salud. Contra la hepatitis C no existe vacuna, aunque hoy se puede tratar bien con medicamentos antivirales. La vacuna es entonces una forma de prevenir la cirrosis."
+        },
+        {
+          "id": "leberzirrhose.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum sollen Menschen mit einer Lebererkrankung Medikamente nur nach ärztlicher Rücksprache einnehmen?",
+              "options": [
+                "Weil Medikamente bei ihnen grundsätzlich nicht wirken",
+                "Weil Medikamente den Blutzucker immer senken",
+                "Weil viele Medikamente über die Leber abgebaut werden und sie zusätzlich schädigen können",
+                "Weil Medikamente den Aszites sofort vergrößern"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Manche Medikamente, zum Beispiel Paracetamol in zu hoher Dosis, können die Leber schädigen.",
+              "correct": true
+            }
+          ],
+          "es": "Muchos medicamentos se metabolizan en el hígado y algunos son lebertoxisch (tóxicos para el hígado), por ejemplo el Paracetamol en sobredosis. Un hígado ya dañado los elimina más lento y se daña todavía más. Por eso el paciente no debe automedicarse, tampoco con productos de venta libre."
+        },
+        {
+          "id": "leberzirrhose.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für eine Leberzirrhose kennen Sie, und welche davon kann man beeinflussen?",
+          "answer": "Der wichtigste Risikofaktor ist ein langjähriger hoher Alkoholkonsum. Weitere Risikofaktoren sind Übergewicht, Diabetes mellitus Typ 2 und Fettstoffwechselstörungen, weil sie zu einer Fettleber führen. Ein Risiko sind auch Infektionen mit Hepatitis B oder C, zum Beispiel durch gemeinsam benutzte Spritzen oder ungeschützten Geschlechtsverkehr, sowie lebertoxische Medikamente. Beeinflussen kann man diese Risiken durch Alkoholverzicht, Gewichtsreduktion, die Hepatitis-B-Impfung und den Schutz vor Blutkontakt.",
+          "points": [
+            "Alkoholkonsum",
+            "Übergewicht und Diabetes",
+            "Hepatitis-B- und -C-Infektion",
+            "Lebertoxische Medikamente",
+            "Hepatitis-B-Impfung",
+            "Alkoholverzicht und Gewichtsreduktion"
+          ],
+          "es": "Aquí conviene separar: primero nombras los factores de riesgo y después dices cómo se pueden reducir. Casi todos son modificables: dejar el alcohol, bajar de peso, vacunarse contra hepatitis B y evitar el contacto con sangre. Eso conecta directo con tu papel en la Beratung."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "leberzirrhose.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei unspezifischen Symptome sind typisch für das Frühstadium einer Leberzirrhose?",
+              "options": [
+                "Müdigkeit und Leistungsminderung",
+                "Starke, stechende Brustschmerzen",
+                "Appetitlosigkeit und Gewichtsverlust",
+                "Druck- oder Völlegefühl im Oberbauch",
+                "Plötzliche Halbseitenlähmung"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Leberzirrhose macht sich schon im Frühstadium fast immer durch starke Schmerzen bemerkbar.",
+              "correct": false
+            }
+          ],
+          "es": "Al principio los síntomas son poco específicos: Müdigkeit (cansancio), menor rendimiento, falta de apetito, pérdida de peso y sensación de presión o llenura en la parte alta del abdomen. El hígado casi no duele, por eso la enfermedad se descubre tarde. Los síntomas llamativos aparecen cuando el hígado ya se descompensa."
+        },
+        {
+          "id": "leberzirrhose.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Leberhautzeichen seiner Beschreibung zu.",
+              "pairs": [
+                ["Spider naevi", "Kleine, spinnenförmige Gefäßerweiterungen, vor allem am Oberkörper"],
+                ["Palmarerythem", "Rötung der Handinnenflächen"],
+                ["Lackzunge", "Glatte, rote, glänzende Zunge"],
+                ["Caput medusae", "Sichtbar erweiterte Venen um den Bauchnabel"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was sind Spider naevi?",
+              "options": [
+                "Blaue Flecken an den Unterschenkeln",
+                "Spinnenförmige Gefäßerweiterungen der Haut, vor allem an Oberkörper und Gesicht",
+                "Gelbe Fettablagerungen an den Augenlidern",
+                "Weiße Flecken auf den Fingernägeln"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Das Palmarerythem ist eine Rötung der Handinnenflächen und gehört zu den Leberhautzeichen.",
+              "correct": true
+            }
+          ],
+          "es": "Los Leberhautzeichen (signos cutáneos hepáticos) son muy típicos y te los preguntan mucho: Spider naevi (arañas vasculares), Palmarerythem (eritema palmar), Lackzunge (lengua lisa y roja) y Caput medusae (venas dilatadas alrededor del ombligo). Los puedes observar tú misma durante la Körperpflege (higiene corporal). Apréndete al menos tres con su descripción."
+        },
+        {
+          "id": "leberzirrhose.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Ikterus?",
+              "options": [
+                "Eine Blaufärbung der Lippen durch Sauerstoffmangel",
+                "Eine Rötung der Haut durch Fieber",
+                "Eine Blässe der Haut durch Blutarmut",
+                "Eine Gelbfärbung von Haut und Skleren durch erhöhtes Bilirubin"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Der Ikterus entsteht, weil der Gallenfarbstoff ___ im Blut erhöht ist und sich in Haut und Skleren ablagert.",
+              "options": ["Bilirubin", "Albumin", "Kreatinin", "Hämoglobin"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Ikterus ist oft zuerst an den Skleren der Augen zu erkennen.",
+              "correct": true
+            }
+          ],
+          "es": "Ikterus (ictericia) es la coloración amarilla de la piel y de las Skleren (escleras, lo blanco del ojo). Aparece porque el hígado enfermo ya no elimina bien el Bilirubin, el pigmento biliar. Muchas veces viene acompañado de Juckreiz (comezón), que es muy molesto para el paciente."
+        },
+        {
+          "id": "leberzirrhose.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Aszites?",
+              "options": [
+                "Eine Ansammlung von Luft im Darm",
+                "Eine Ansammlung von Flüssigkeit in der freien Bauchhöhle",
+                "Eine Ansammlung von Flüssigkeit in der Lunge",
+                "Eine Vergrößerung der Milz"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Typische Zeichen eines Aszites sind ein zunehmender Bauchumfang und eine Gewichtszunahme.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Ursachen führen bei der Leberzirrhose zum Aszites?",
+              "options": [
+                "Albuminmangel",
+                "Zu viel Bewegung",
+                "Hochdruck in der Pfortader",
+                "Zu hoher Blutzucker",
+                "Vitamin-C-Mangel"
+              ],
+              "correct": [0, 2]
+            }
+          ],
+          "es": "Aszites (ascitis, en alemán también Bauchwassersucht) es líquido libre en la cavidad abdominal. Se forma por dos razones: la presión alta en la Pfortader y la falta de Albumin. Lo notas porque el abdomen crece, el peso sube y el paciente puede tener Atemnot (dificultad para respirar), ya que el líquido empuja el diafragma hacia arriba."
+        },
+        {
+          "id": "leberzirrhose.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten mit Leberzirrhose eine erhöhte Blutungsneigung?",
+              "options": [
+                "Weil die Leber zu wenig Gerinnungsfaktoren bildet",
+                "Weil das Herz zu schnell schlägt",
+                "Weil sie zu viel Vitamin C aufnehmen",
+                "Weil die Niere zu viel Urin ausscheidet"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Leberzirrhose bildet die Leber zu viele Gerinnungsfaktoren, deshalb gerinnt das Blut besonders schnell.",
+              "correct": false
+            }
+          ],
+          "es": "La Blutungsneigung (tendencia al sangrado) se debe a que el hígado enfermo produce menos Gerinnungsfaktoren. Además, muchas veces hay menos plaquetas porque el bazo está agrandado. Por eso ves Hämatome (moretones), sangrado de nariz y de encías, y por eso la Blutungsprophylaxe es tan importante."
+        },
+        {
+          "id": "leberzirrhose.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Leberzirrhose?",
+          "answer": "Am Anfang sind die Symptome unspezifisch: Müdigkeit, Leistungsminderung, Appetitlosigkeit und ein Druckgefühl im rechten Oberbauch. Typisch sind die Leberhautzeichen wie Spider naevi, Palmarerythem und Lackzunge. Später kommen ein Ikterus mit Juckreiz, ein Aszites und Ödeme an den Beinen dazu. Außerdem besteht eine Blutungsneigung mit Hämatomen, Nasenbluten oder Zahnfleischbluten. Durch hormonelle Störungen können bei Männern eine Gynäkomastie und ein Verlust der Bauchbehaarung auftreten.",
+          "points": [
+            "Müdigkeit und Leistungsminderung",
+            "Leberhautzeichen",
+            "Ikterus und Juckreiz",
+            "Aszites und Ödeme",
+            "Blutungsneigung",
+            "Hormonelle Störungen"
+          ],
+          "es": "Organiza los síntomas de lo temprano a lo tardío: primero los generales, luego las Leberhautzeichen y después los signos de descompensación (Ikterus, Aszites, Ödeme, sangrados). Los cambios hormonales, como la Gynäkomastie (crecimiento de las mamas en el hombre), son un punto extra que impresiona al examinador."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "leberzirrhose.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Laborwerte zeigen eine Schädigung der Leberzellen an?",
+              "options": [
+                "Kreatinin und Harnstoff",
+                "Troponin und CK-MB",
+                "Die Transaminasen GOT (AST) und GPT (ALT)",
+                "TSH und T4"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Laborwerte gehören zu den sogenannten Leberwerten?",
+              "options": [
+                "GOT (AST)",
+                "GPT (ALT)",
+                "Troponin",
+                "Gamma-GT",
+                "Kreatinin"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "Los Leberwerte (pruebas hepáticas) clásicos son las Transaminasen GOT/AST y GPT/ALT, que suben cuando se dañan las células del hígado, y la Gamma-GT, que sube sobre todo con el alcohol y cuando se estanca la bilis. Troponin es del corazón y Kreatinin del riñón. En el examen basta con nombrarlos y decir qué indican."
+        },
+        {
+          "id": "leberzirrhose.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Laborwert der typischen Veränderung bei fortgeschrittener Leberzirrhose zu.",
+              "pairs": [
+                ["Albumin", "Erniedrigt, weil die Leber weniger Eiweiß bildet"],
+                ["Quick-Wert", "Erniedrigt, weil Gerinnungsfaktoren fehlen"],
+                ["Bilirubin", "Erhöht, sichtbar als Ikterus"],
+                ["Ammoniak", "Erhöht, weil die Entgiftung gestört ist"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer fortgeschrittenen Leberzirrhose ist der Quick-Wert typischerweise erhöht.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Welche Laborwerte zeigen, dass die Syntheseleistung der Leber vermindert ist?",
+              "options": [
+                "Erhöhtes Kreatinin und erhöhter Harnstoff",
+                "Erniedrigtes Albumin und erniedrigter Quick-Wert (erhöhter INR)",
+                "Erhöhter Blutzucker und erhöhter HbA1c",
+                "Erhöhte Leukozyten und erhöhtes CRP"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Para saber cuánto trabaja todavía el hígado se mide lo que produce: Albumin y Gerinnungsfaktoren. En la cirrosis avanzada el Albumin está bajo y el Quick-Wert también (el INR está alto), o sea que la sangre coagula más lento. Bilirubin y Ammoniak suben porque el hígado ya no los elimina."
+        },
+        {
+          "id": "leberzirrhose.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches bildgebende Verfahren wird bei Verdacht auf eine Leberzirrhose als Erstes eingesetzt?",
+              "options": [
+                "Die Sonografie des Abdomens",
+                "Das Röntgen des Thorax",
+                "Die Koronarangiografie",
+                "Das EEG"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Mit der Sonografie kann man eine höckrige Leberoberfläche, einen Aszites und eine vergrößerte Milz erkennen.",
+              "correct": true
+            }
+          ],
+          "es": "La Sonografie (ultrasonido) del abdomen es el primer estudio de imagen: no duele, no irradia y se hace rápido. Muestra la superficie irregular del hígado, Aszites y el bazo agrandado. Normalmente el paciente debe estar nüchtern (en ayunas) para que se vea mejor."
+        },
+        {
+          "id": "leberzirrhose.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Worauf achtet die Pflegefachperson nach einer Leberbiopsie besonders?",
+              "options": [
+                "Auf eine sofortige Mobilisation, damit die Leber gut durchblutet wird",
+                "Auf eine reichliche Mahlzeit direkt nach dem Eingriff",
+                "Auf einen Anstieg des Blutzuckers",
+                "Auf Zeichen einer Nachblutung: Vitalzeichen, Verband und Schmerzen kontrollieren, Bettruhe einhalten"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Nach einer Leberbiopsie darf der Patient sofort aufstehen und umhergehen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Vor einer Leberbiopsie müssen die ___ kontrolliert werden, weil nach der Punktion eine Blutung droht.",
+              "options": ["Schilddrüsenwerte", "Blutzuckerwerte", "Gerinnungswerte", "Nierenwerte"],
+              "correct": 2
+            }
+          ],
+          "es": "La Leberbiopsie (biopsia hepática) confirma el diagnóstico con una muestra de tejido. El gran riesgo es la Nachblutung (sangrado posterior), sobre todo porque estos pacientes coagulan mal: por eso antes se revisan los Gerinnungswerte. Después el paciente guarda Bettruhe (reposo en cama) según indicación médica, muchas veces acostado sobre el lado derecho, y tú controlas signos vitales, vendaje y dolor de forma frecuente."
+        },
+        {
+          "id": "leberzirrhose.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Mit welcher Untersuchung werden Ösophagusvarizen nachgewiesen?",
+              "options": [
+                "Mit einer Koloskopie",
+                "Mit einer Gastroskopie (Ösophago-Gastro-Duodenoskopie)",
+                "Mit einer Bronchoskopie",
+                "Mit einer Zystoskopie"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Leberzirrhose wird eine Gastroskopie durchgeführt, um Ösophagusvarizen zu erkennen.",
+              "correct": true
+            }
+          ],
+          "es": "Con la Gastroskopie (endoscopia alta) el médico ve directamente si hay Ösophagusvarizen (várices esofágicas) y qué tan grandes son. Es importante porque las várices pueden sangrar de forma mortal y se pueden tratar de manera preventiva. Para el estudio el paciente debe estar en ayunas."
+        },
+        {
+          "id": "leberzirrhose.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird eine Leberzirrhose diagnostiziert?",
+          "answer": "Am Anfang stehen die Anamnese, zum Beispiel zum Alkoholkonsum, und die körperliche Untersuchung mit der Suche nach Leberhautzeichen, Ikterus und Aszites. Im Labor werden die Leberwerte, das Bilirubin, das Albumin und die Gerinnung bestimmt. Die wichtigste Bildgebung ist die Sonografie des Abdomens. Gesichert wird die Diagnose durch eine Leberbiopsie. Mit einer Gastroskopie sucht man nach Ösophagusvarizen.",
+          "points": [
+            "Anamnese und körperliche Untersuchung",
+            "Leberwerte",
+            "Albumin und Gerinnung",
+            "Sonografie",
+            "Leberbiopsie",
+            "Gastroskopie"
+          ],
+          "es": "Sigue siempre el mismo orden: Anamnese, exploración física, laboratorio, imagen y al final estudios invasivos. Así no se te olvida nada y tu respuesta suena estructurada. Si quieres sumar puntos, agrega qué hace enfermería: preparar al paciente, dejarlo en ayunas y vigilarlo después de la biopsia."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "leberzirrhose.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme ist die wichtigste Grundlage der Therapie bei jeder Leberzirrhose?",
+              "options": [
+                "Absolute Alkoholkarenz und Meiden lebertoxischer Substanzen",
+                "Strenge Bettruhe über mehrere Monate",
+                "Eine sehr eiweißarme Diät für alle Patienten",
+                "Tägliche Abführmaßnahmen mit Einläufen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Patienten mit Leberzirrhose dürfen kleine Mengen Alkohol trinken, wenn die Ursache der Zirrhose kein Alkohol ist.",
+              "correct": false
+            }
+          ],
+          "es": "La base de todo tratamiento es la absolute Alkoholkarenz (abstinencia total de alcohol), sin importar la causa de la cirrosis, porque cualquier cantidad daña más al hígado. También se evitan medicamentos tóxicos para el hígado y se trata la causa, por ejemplo con antivirales en la hepatitis. Así se puede frenar el avance, aunque la cicatriz no desaparece."
+        },
+        {
+          "id": "leberzirrhose.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Behandlung des Aszites?",
+              "options": [
+                "Natriumarme Kost",
+                "Diuretika, zum Beispiel Spironolacton",
+                "Salzreiche Kost",
+                "Aszitespunktion",
+                "Strikte Rückenlage ohne Kopfteilerhöhung"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Was kontrolliert die Pflegefachperson bei einem Patienten mit Aszites unter Diuretikatherapie?",
+              "options": [
+                "Die Sehschärfe und das Hörvermögen",
+                "Nur die Körpertemperatur",
+                "Das Körpergewicht täglich, die Flüssigkeitsbilanz und nach Anordnung die Elektrolyte",
+                "Den Blutzucker vor jeder Mahlzeit"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El Aszites se trata con natriumarme Kost (dieta baja en sodio), Diuretika como Spironolacton y, si no alcanza, con Aszitespunktion (paracentesis). Tu tarea es vigilar el efecto: peso diario, Flüssigkeitsbilanz (balance de líquidos) y Bauchumfang. Con los diuréticos se alteran los electrolitos, sobre todo potasio y sodio, por eso se controlan en sangre."
+        },
+        {
+          "id": "leberzirrhose.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe hat die Pflegefachperson bei einer Aszitespunktion?",
+              "options": [
+                "Sie führt die Punktion selbstständig durch",
+                "Sie gibt dem Patienten vorher reichlich zu trinken, damit die Blase gefüllt ist",
+                "Sie lagert den Patienten in Bauchlage",
+                "Sie bereitet Material und Patient vor, kontrolliert die Vitalzeichen und dokumentiert Menge und Aussehen des Punktats"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Während und nach einer Aszitespunktion müssen Blutdruck und Puls kontrolliert werden, weil ein Kreislaufabfall möglich ist.",
+              "correct": true
+            }
+          ],
+          "es": "La Aszitespunktion la hace el médico; tú preparas el material estéril y al paciente (que orine antes), asistes, y vigilas presión y pulso. Si se saca mucho líquido puede bajar la presión, por eso a veces el médico indica Albumin por vía intravenosa. Después documentas cantidad y aspecto del Punktat (líquido extraído) y revisas el sitio de punción."
+        },
+        {
+          "id": "leberzirrhose.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum bekommen Patienten mit hepatischer Enzephalopathie Laktulose?",
+              "options": [
+                "Sie senkt den Blutdruck in der Pfortader",
+                "Sie vermindert die Aufnahme von Ammoniak aus dem Darm und wirkt abführend",
+                "Sie ersetzt fehlende Gerinnungsfaktoren",
+                "Sie schwemmt den Aszites aus"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "cloze",
+              "q": "Laktulose soll bewirken, dass weniger ___ aus dem Darm ins Blut aufgenommen wird.",
+              "options": ["Ammoniak", "Albumin", "Glukose", "Kalium"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Unter der Therapie mit Laktulose werden etwa zwei bis drei weiche Stühle pro Tag angestrebt.",
+              "correct": true
+            }
+          ],
+          "es": "La Laktulose es un laxante que acidifica el contenido del intestino: así se absorbe menos Ammoniak y se elimina más con las heces. La meta son unas dos o tres evacuaciones blandas al día. Tú observas y documentas la frecuencia y consistencia del Stuhlgang (evacuación), porque tanto el estreñimiento como la diarrea fuerte son un problema."
+        },
+        {
+          "id": "leberzirrhose.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Therapie ist die einzige Möglichkeit, eine Leberzirrhose zu heilen?",
+              "options": [
+                "Die Gabe von Diuretika",
+                "Die Aszitespunktion",
+                "Die Lebertransplantation",
+                "Die Gabe von Laktulose"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Leberzirrhose kann durch Medikamente vollständig geheilt werden.",
+              "correct": false
+            }
+          ],
+          "es": "Como el daño es irreversible, los medicamentos solo tratan los síntomas y las complicaciones. La única terapia curativa es la Lebertransplantation (trasplante de hígado). Para entrar a la lista de espera, los pacientes con cirrosis por alcohol tienen que demostrar que viven en abstinencia."
+        },
+        {
+          "id": "leberzirrhose.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird eine Leberzirrhose behandelt, und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Die Grundlage ist die absolute Alkoholkarenz und die Behandlung der Ursache, zum Beispiel eine antivirale Therapie bei Hepatitis. Der Aszites wird mit natriumarmer Kost, Diuretika und bei Bedarf mit einer Aszitespunktion behandelt. Zur Vorbeugung und Behandlung der hepatischen Enzephalopathie bekommt der Patient Laktulose. Die einzige heilende Therapie ist die Lebertransplantation. Die Pflege verabreicht die Medikamente nach Anordnung, kontrolliert Gewicht, Bilanz, Vitalzeichen und Stuhlgang, assistiert bei der Punktion und beobachtet Wirkung und Nebenwirkungen.",
+          "points": [
+            "Alkoholkarenz",
+            "Ursache behandeln",
+            "Diuretika und Aszitespunktion",
+            "Laktulose",
+            "Lebertransplantation",
+            "Wirkung und Nebenwirkungen beobachten"
+          ],
+          "es": "En el examen oral no basta con listar las terapias médicas: siempre agrega qué haces tú. Vigilar peso, balance, signos vitales y evacuaciones, asistir en la punción y observar Wirkung und Nebenwirkungen (efecto y efectos secundarios) es justo lo que quieren escuchar de una Pflegefachfrau."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "leberzirrhose.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter einer portalen Hypertension?",
+              "options": [
+                "Einen erhöhten Druck in der Pfortader, weil das Blut nicht mehr ungehindert durch die vernarbte Leber fließen kann",
+                "Einen erhöhten Blutdruck in den Lungenarterien",
+                "Einen erhöhten Druck im Schädelinneren",
+                "Einen erhöhten Augeninnendruck"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Folgen hat die portale Hypertension?",
+              "options": [
+                "Ösophagusvarizen",
+                "Aszites",
+                "Schilddrüsenvergrößerung",
+                "Vergrößerung der Milz",
+                "Verengung der Herzkranzgefäße"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "Portale Hypertension (hipertensión portal) significa presión alta en la Pfortader porque la sangre no pasa por el hígado cicatrizado. La sangre busca caminos alternos (Umgehungskreisläufe) y así se forman Ösophagusvarizen y el Caput medusae. Además el bazo crece y se favorece el Aszites."
+        },
+        {
+          "id": "leberzirrhose.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Woran erkennt man eine akute Ösophagusvarizenblutung?",
+              "options": [
+                "An Husten mit gelblichem Auswurf",
+                "An hellrotem Blut im Urin",
+                "An schwallartigem Bluterbrechen, Teerstuhl und Schockzeichen",
+                "An Schmerzen beim Wasserlassen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Teerstuhl (schwarzer, glänzender, übel riechender Stuhl) ist ein Hinweis auf eine Blutung im oberen Magen-Darm-Trakt.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff seiner Bedeutung zu.",
+              "pairs": [
+                ["Hämatemesis", "Bluterbrechen"],
+                ["Meläna", "Teerstuhl"],
+                ["Ösophagusvarizen", "Krampfadern in der Speiseröhre"]
+              ]
+            }
+          ],
+          "es": "La Ösophagusvarizenblutung (sangrado de várices esofágicas) es la complicación más peligrosa. La reconoces por Hämatemesis (vómito de sangre, a veces a chorro), Teerstuhl o Meläna (heces negras como alquitrán) y Schockzeichen: pulso rápido, presión baja, palidez y sudor frío. Es un Notfall (urgencia) que pone en peligro la vida."
+        },
+        {
+          "id": "leberzirrhose.komplikationen.3",
+          "type": "sprech",
+          "q": "Ihr Patient mit Leberzirrhose erbricht plötzlich Blut. Was tun Sie?",
+          "answer": "Das ist ein lebensbedrohlicher Notfall, es besteht der Verdacht auf eine Ösophagusvarizenblutung. Ich bleibe beim Patienten, beruhige ihn und rufe sofort über die Klingel Hilfe und den Arzt. Solange er wach ist, lagere ich ihn mit erhöhtem Oberkörper; ist sein Bewusstsein getrübt, bringe ich ihn in die stabile Seitenlage, damit er das Blut nicht aspiriert. Ich kontrolliere engmaschig Puls, Blutdruck, Atmung und Bewusstsein und lasse ihn nüchtern. Außerdem bereite ich Absaugung, Sauerstoff und venöse Zugänge vor und dokumentiere Menge und Aussehen des Blutes. Die Blutung wird dann endoskopisch gestillt.",
+          "points": [
+            "Notfall erkennen",
+            "Arzt rufen, beim Patienten bleiben",
+            "Aspirationsschutz durch Lagerung",
+            "Vitalzeichen und Bewusstsein",
+            "Nüchtern lassen",
+            "Endoskopische Blutstillung"
+          ],
+          "es": "Esta pregunta de urgencia es muy probable. Lo que más cuenta: reconocer el Notfall, no dejar solo al paciente, llamar al médico y evitar la Aspiration con la posición (Oberkörper erhöht, o sea tórax elevado, mientras está despierto; si tiene alteración de la conciencia, stabile Seitenlage, posición lateral de seguridad). Después vienen signos vitales, ayuno y preparar el material; el tratamiento definitivo es endoscópico, por ejemplo con ligadura de las várices."
+        },
+        {
+          "id": "leberzirrhose.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine hepatische Enzephalopathie?",
+              "options": [
+                "Eine Entzündung der Hirnhäute durch Bakterien",
+                "Eine Funktionsstörung des Gehirns, weil die Leber Giftstoffe wie Ammoniak nicht mehr ausreichend abbaut",
+                "Eine Durchblutungsstörung des Gehirns durch ein Blutgerinnsel",
+                "Eine angeborene Fehlbildung des Gehirns"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sprechen für eine hepatische Enzephalopathie?",
+              "options": [
+                "Schläfrigkeit und Verlangsamung",
+                "Flapping Tremor (grobschlägiges Zittern der Hände)",
+                "Hohes Fieber mit Schüttelfrost",
+                "Verwirrtheit und verändertes Verhalten",
+                "Halbseitenlähmung mit hängendem Mundwinkel"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Die hepatische Enzephalopathie kann unbehandelt bis zum Leberkoma (Coma hepaticum) fortschreiten.",
+              "correct": true
+            }
+          ],
+          "es": "En la hepatische Enzephalopathie (encefalopatía hepática) el Ammoniak y otras toxinas llegan al cerebro porque el hígado no las elimina. Empieza con problemas de concentración, cambios de ánimo y sueño; luego hay Flapping Tremor (temblor en aleteo), confusión y al final Coma hepaticum. La desencadenan sobre todo sangrados digestivos, Obstipation (estreñimiento), infecciones y sedantes."
+        },
+        {
+          "id": "leberzirrhose.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine spontan bakterielle Peritonitis?",
+              "options": [
+                "Eine Entzündung des Blinddarms",
+                "Eine Entzündung der Gallenblase durch Steine",
+                "Eine Entzündung der Bauchspeicheldrüse durch Alkohol",
+                "Eine bakterielle Infektion des Aszites ohne erkennbare äußere Ursache"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Fieber und Bauchschmerzen bei einem Patienten mit Aszites können auf eine spontan bakterielle Peritonitis hinweisen.",
+              "correct": true
+            }
+          ],
+          "es": "En la spontan bakterielle Peritonitis (peritonitis bacteriana espontánea) el líquido del Aszites se infecta con bacterias, casi siempre del intestino. Sospéchala si un paciente con ascitis tiene fiebre, dolor abdominal o empeora de repente; avisa al médico. Se diagnostica con la punción del Aszites y se trata con antibióticos."
+        },
+        {
+          "id": "leberzirrhose.komplikationen.6",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche bösartige Erkrankung entsteht häufig als Spätfolge auf dem Boden einer Leberzirrhose?",
+              "options": [
+                "Das Leberzellkarzinom (hepatozelluläres Karzinom)",
+                "Das Bronchialkarzinom",
+                "Das Mammakarzinom",
+                "Das maligne Melanom"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eine Leberzirrhose hat keinen Einfluss auf das Risiko, an Leberkrebs zu erkranken.",
+              "correct": false
+            }
+          ],
+          "es": "La cirrosis aumenta mucho el riesgo de Leberzellkarzinom (carcinoma hepatocelular, cáncer de hígado). Por eso estos pacientes van a controles regulares con Sonografie. En la Beratung les explicas por qué no deben faltar a esas citas aunque se sientan bien."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "leberzirrhose.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit Leberzirrhose?",
+          "answer": "Ich beobachte das Bewusstsein und das Verhalten, weil Schläfrigkeit, Verwirrtheit oder ein Flapping Tremor auf eine hepatische Enzephalopathie hinweisen. Ich messe täglich das Gewicht und den Bauchumfang und führe eine Flüssigkeitsbilanz, um den Aszites und die Ödeme zu beurteilen. Ich beobachte die Haut auf Ikterus, Hämatome und Kratzspuren. Den Stuhl beobachte ich auf Farbe und Häufigkeit, besonders auf Teerstuhl, und ich achte auf Bluterbrechen. Außerdem kontrolliere ich regelmäßig die Vitalzeichen und die Temperatur.",
+          "points": [
+            "Bewusstsein und Verhalten",
+            "Gewicht und Bauchumfang",
+            "Flüssigkeitsbilanz",
+            "Haut und Blutungszeichen",
+            "Stuhl und Teerstuhl",
+            "Vitalzeichen und Temperatur"
+          ],
+          "es": "La Beobachtung (observación) es la tarea central de enfermería en la cirrosis, porque las complicaciones se detectan primero junto a la cama. Cada observación tiene su razón: conciencia por la Enzephalopathie, peso y Bauchumfang por el Aszites, heces y vómito por sangrados, temperatura por infecciones. Di siempre qué observas y por qué."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird der Bauchumfang bei einem Patienten mit Aszites richtig gemessen?",
+              "options": [
+                "Jeden Tag zu einer anderen Tageszeit und an einer anderen Stelle",
+                "Immer zur gleichen Tageszeit, in der gleichen Position und an der gleichen markierten Stelle",
+                "Nur einmal bei der Aufnahme",
+                "Immer direkt nach dem Essen im Sitzen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Das Körpergewicht wird bei Aszites täglich unter gleichen Bedingungen kontrolliert, am besten morgens nüchtern und mit der gleichen Waage.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Damit die Messwerte vergleichbar sind, wird die Messstelle für den Bauchumfang auf der Haut ___.",
+              "options": ["rasiert", "eingecremt", "markiert", "gekühlt"],
+              "correct": 2
+            }
+          ],
+          "es": "Para que los valores sean comparables, el Bauchumfang (perímetro abdominal) se mide siempre igual: misma hora, misma posición y mismo lugar, que se marca en la piel. El peso se toma diario, de preferencia en la mañana en ayunas y con la misma báscula. Un aumento rápido de peso significa más líquido, no más grasa."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Woran erkennen Sie eine beginnende hepatische Enzephalopathie, und wie reagieren Sie?",
+          "answer": "Frühe Zeichen sind Konzentrationsstörungen, eine Verlangsamung, Stimmungsschwankungen und ein gestörter Schlaf-wach-Rhythmus. Später kommen Schläfrigkeit, Desorientierung, eine verwaschene Sprache und der Flapping Tremor dazu. Auch eine veränderte Handschrift und ein süßlicher Mundgeruch, der Foetor hepaticus, sind Hinweise. Ich informiere sofort den Arzt, dokumentiere meine Beobachtungen und kontrolliere das Bewusstsein engmaschig. Außerdem sorge ich für Sicherheit, zum Beispiel durch Sturzprophylaxe, und achte auf regelmäßigen Stuhlgang und die Laktulosegabe nach Anordnung.",
+          "points": [
+            "Konzentrationsstörung und Verlangsamung",
+            "Schläfrigkeit und Desorientierung",
+            "Flapping Tremor",
+            "Arzt informieren",
+            "Bewusstsein engmaschig kontrollieren",
+            "Für Sicherheit sorgen"
+          ],
+          "es": "La Enzephalopathie empieza de forma discreta, y tú o la familia son quienes la notan primero: el paciente está lento, cambia de carácter, duerme de día. El Flapping Tremor lo ves cuando extiende los brazos y dobla las manos hacia atrás. Lo correcto es avisar al médico, documentar, vigilar la conciencia y proteger al paciente de caídas."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung eines Patienten mit Leberzirrhose?",
+          "answer": "Der Patient darf keinen Alkohol trinken. Die Kost soll ausreichend kalorienreich sein und genug Eiweiß enthalten, weil viele Patienten mangelernährt sind. Ich biete mehrere kleine Mahlzeiten über den Tag verteilt und eine Spätmahlzeit an. Bei Aszites und Ödemen bekommt der Patient eine natriumarme Kost, und die Trinkmenge richtet sich nach der ärztlichen Anordnung. Bei Ösophagusvarizen achte ich auf weiche Kost ohne harte oder scharfkantige Speisen. Außerdem kontrolliere ich das Gewicht und beobachte, wie viel der Patient isst.",
+          "points": [
+            "Kein Alkohol",
+            "Kalorienreich, ausreichend Eiweiß",
+            "Mehrere kleine Mahlzeiten",
+            "Natriumarm bei Aszites",
+            "Weiche Kost bei Ösophagusvarizen",
+            "Gewicht und Essmenge kontrollieren"
+          ],
+          "es": "Muchos pacientes con cirrosis están desnutridos, por eso la dieta debe tener suficientes calorías y proteína; las proteínas ya no se restringen de forma general, solo si el médico lo indica. Varias comidas pequeñas y una colación en la noche evitan ayunos largos. Con Aszites se reduce la sal, y con várices esofágicas se evitan alimentos duros que puedan lastimar."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.5",
+          "type": "wissen",
+          "sub": "ernaehrung",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum erhalten Patienten mit Aszites eine natriumarme Kost?",
+              "options": [
+                "Weil Natrium Wasser im Körper bindet und so Aszites und Ödeme verstärkt",
+                "Weil Natrium den Blutzucker erhöht",
+                "Weil Natrium die Blutgerinnung hemmt",
+                "Weil Natrium Juckreiz auslöst"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Bei Aszites soll die Kost ___ sein, deshalb wird das Essen nicht nachgesalzen.",
+              "options": ["eiweißfrei", "natriumarm", "kalorienarm", "ballaststofffrei"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Patienten mit Aszites sollten ihr Essen kräftig nachsalzen, damit der Körper mehr Wasser ausscheidet.",
+              "correct": false
+            }
+          ],
+          "es": "El Natrium (sodio) de la sal retiene agua en el cuerpo, así que mucha sal empeora el Aszites y los Ödeme. Por eso la dieta es natriumarm (baja en sodio): no agregar sal en la mesa y evitar embutidos, comida enlatada y botanas saladas. Puedes recomendar hierbas y especias para dar sabor."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Was beachten Sie bei der Mobilisation und Lagerung eines Patienten mit Leberzirrhose und Aszites?",
+          "answer": "Ich mobilisiere den Patienten regelmäßig, aber angepasst an seine Belastbarkeit, weil er oft schwach und schnell erschöpft ist. Durch den Aszites, die Muskelschwäche und eine mögliche Enzephalopathie ist die Sturzgefahr erhöht, deshalb begleite ich ihn und achte auf festes Schuhwerk und Hilfsmittel. Bei Aszites lagere ich den Oberkörper erhöht, damit er leichter atmen kann. Der Patient soll nicht schwer heben und nicht pressen, weil dadurch der Druck im Bauchraum steigt. Bei Bettlägerigkeit führe ich regelmäßige Positionswechsel durch.",
+          "points": [
+            "Mobilisation nach Belastbarkeit",
+            "Sturzgefahr beachten",
+            "Oberkörper erhöht lagern",
+            "Nicht pressen, nicht schwer heben",
+            "Regelmäßige Positionswechsel"
+          ],
+          "es": "El paciente con cirrosis se cansa rápido, tiene poca masa muscular y con el abdomen lleno de líquido pierde el equilibrio: por eso lo movilizas con acompañamiento y pensando en la Sturzgefahr (riesgo de caídas). El tórax elevado le ayuda a respirar porque el Aszites empuja el diafragma. Pujar o cargar cosas pesadas aumenta la presión en el abdomen y puede favorecer un sangrado de várices."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie gestalten Sie die Körperpflege bei einem Patienten mit Ikterus und Juckreiz?",
+          "answer": "Ich wasche den Patienten mit lauwarmem oder kühlem Wasser und verwende wenig, pH-neutrale Waschlotion, weil heißes Wasser und Seife die Haut austrocknen und den Juckreiz verstärken. Ich trockne die Haut vorsichtig durch Tupfen ab und creme sie mit einer rückfettenden, auf Anordnung juckreizstillenden Lotion ein. Die Fingernägel halte ich kurz, damit sich der Patient nicht aufkratzt. Dabei beobachte ich die Haut auf Kratzspuren, Hämatome und Druckstellen. Zur Mundpflege benutze ich eine weiche Zahnbürste, und rasiert wird elektrisch.",
+          "points": [
+            "Lauwarmes Wasser, pH-neutrale Lotion",
+            "Abtupfen statt Rubbeln",
+            "Rückfettende Hautpflege",
+            "Fingernägel kurz halten",
+            "Hautbeobachtung",
+            "Weiche Zahnbürste, elektrische Rasur"
+          ],
+          "es": "El Juckreiz (comezón) en el Ikterus viene de sustancias de la bilis que se depositan en la piel, y puede ser desesperante. Ayudan el agua tibia o fresca, poco jabón, secar con toquecitos y cremas humectantes; las uñas cortas evitan heridas por rascado, que se infectan y sangran fácil. El cepillo suave y la rasuradora eléctrica son parte de la Blutungsprophylaxe."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Kleidung eines Patienten mit Leberzirrhose?",
+          "answer": "Die Kleidung soll weit und bequem sein und darf am Bauch nicht einschnüren, weil der Bauchumfang durch den Aszites zunimmt. Ich empfehle weiche, luftdurchlässige Stoffe wie Baumwolle, weil Wolle und synthetische Stoffe den Juckreiz verstärken können. Der Patient soll sich nicht zu warm anziehen, denn Wärme und Schwitzen verstärken den Juckreiz ebenfalls. Bei Ödemen achte ich auf Socken ohne einschnürende Bündchen und zur Sturzprophylaxe auf feste, geschlossene Schuhe. Beim An- und Auskleiden unterstütze ich den Patienten so viel wie nötig.",
+          "points": [
+            "Weite, nicht einschnürende Kleidung",
+            "Baumwolle, luftdurchlässig",
+            "Nicht zu warm",
+            "Keine einschnürenden Bündchen",
+            "Feste Schuhe",
+            "Hilfe beim An- und Auskleiden"
+          ],
+          "es": "En Bekleidung (vestido) piensa en tres problemas de la cirrosis: el abdomen crecido por el Aszites, la comezón y el riesgo de caídas. Por eso ropa amplia que no apriete, algodón que deje respirar la piel, no abrigar de más y zapatos firmes y cerrados. Con el abdomen grande, agacharse y vestirse cuesta trabajo, así que ofreces ayuda."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Zu welchen Themen beraten Sie einen Patienten mit Leberzirrhose und seine Angehörigen vor der Entlassung?",
+          "answer": "Das wichtigste Thema ist die lebenslange Alkoholabstinenz. Ich informiere wertfrei über Hilfsangebote wie Suchtberatung und Selbsthilfegruppen. Ich erkläre, dass Medikamente nur nach Rücksprache mit dem Arzt eingenommen werden dürfen, auch frei verkäufliche Schmerzmittel. Ich berate zur Ernährung, also natriumarm und ausreichend kalorienreich, und leite den Patienten an, sich täglich zu wiegen. Außerdem nenne ich die Warnzeichen, bei denen er sofort einen Arzt oder den Notruf rufen muss: Bluterbrechen, Teerstuhl, Verwirrtheit, Fieber oder eine schnelle Zunahme des Bauchumfangs. Wichtig sind auch die regelmäßigen Kontrolluntersuchungen.",
+          "points": [
+            "Alkoholabstinenz",
+            "Suchtberatung und Selbsthilfegruppen",
+            "Medikamente nur nach Rücksprache",
+            "Ernährung und tägliches Wiegen",
+            "Warnzeichen kennen",
+            "Regelmäßige Kontrollen"
+          ],
+          "es": "En la Beratung lo primero es la Alkoholabstinenz (abstinencia de alcohol), dicho sin juzgar y con ofertas concretas de ayuda como Suchtberatung (asesoría en adicciones) y Selbsthilfegruppen (grupos de autoayuda). También cuenta que el paciente y su familia reconozcan los Warnzeichen (signos de alarma), porque la familia suele ser la primera en notar la confusión. Incluir a los Angehörige siempre suma en el examen."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit Leberzirrhose besonders wichtig? Begründen Sie.",
+          "answer": "Besonders wichtig ist die Blutungs- und Verletzungsprophylaxe, weil die Gerinnung gestört ist und Ösophagusvarizen bluten können. Die Sturzprophylaxe ist wichtig wegen der Schwäche, des Aszites und einer möglichen Enzephalopathie. Die Dekubitusprophylaxe brauche ich wegen der Ödeme, der Mangelernährung und der eingeschränkten Mobilität. Die Pneumonieprophylaxe ist nötig, weil der Aszites das Zwerchfell nach oben drückt und der Patient flach atmet. Wegen der Abwehrschwäche führe ich eine Infektionsprophylaxe durch, und die Obstipationsprophylaxe beugt einer hepatischen Enzephalopathie vor.",
+          "points": [
+            "Blutungsprophylaxe",
+            "Sturzprophylaxe",
+            "Dekubitusprophylaxe",
+            "Pneumonieprophylaxe",
+            "Infektionsprophylaxe",
+            "Obstipationsprophylaxe"
+          ],
+          "es": "Las Prophylaxen (medidas preventivas) son tema fijo del examen, y lo importante es la justificación. En la cirrosis cada una tiene su porqué: sangrado por la mala coagulación, caídas por debilidad y confusión, Dekubitus (úlceras por presión) por edemas y desnutrición, Pneumonie por la respiración superficial, infecciones por las defensas bajas y Obstipation porque el estreñimiento sube el Ammoniak."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Blutungsprophylaxe bei Leberzirrhose?",
+              "options": [
+                "Weiche Zahnbürste verwenden",
+                "Nassrasur mit Klinge",
+                "Elektrisch rasieren",
+                "Intramuskuläre Injektionen möglichst vermeiden",
+                "Harte, scharfkantige Speisen anbieten"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Intramuskuläre Injektionen sind bei Patienten mit Leberzirrhose und gestörter Gerinnung unproblematisch.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Warum benutzt ein Patient mit Leberzirrhose eine weiche Zahnbürste?",
+              "options": [
+                "Weil seine Zähne durch den Ikterus weicher werden",
+                "Weil er sonst mehr Speichel bildet",
+                "Weil harte Borsten den Juckreiz verstärken",
+                "Weil das Zahnfleisch wegen der gestörten Gerinnung leicht blutet"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "En la Blutungsprophylaxe (prevención de sangrados) se evita todo lo que pueda lastimar: cepillo dental suave, rasuradora eléctrica en vez de navaja, nada de inyecciones intramusculares si se puede evitar, y presionar más tiempo después de una punción venosa. La razón es siempre la misma: faltan Gerinnungsfaktoren y muchas veces plaquetas. También observas piel, mucosas, orina y heces para detectar sangrados."
+        },
+        {
+          "id": "leberzirrhose.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Warum ist bei Leberzirrhose ein regelmäßiger Stuhlgang so wichtig, und wie führen Sie die Obstipationsprophylaxe durch?",
+          "answer": "Bei einer Obstipation bleibt der Stuhl lange im Darm, dadurch wird mehr Ammoniak ins Blut aufgenommen und es droht eine hepatische Enzephalopathie. Außerdem erhöht starkes Pressen den Druck im Bauchraum und damit die Gefahr einer Varizenblutung. Ich beobachte und dokumentiere deshalb täglich die Häufigkeit, die Konsistenz und die Farbe des Stuhls, besonders achte ich auf Teerstuhl. Der Patient bekommt Laktulose nach ärztlicher Anordnung, Ziel sind zwei bis drei weiche Stühle pro Tag. Zusätzlich fördere ich die Bewegung und eine ballaststoffreiche Kost.",
+          "points": [
+            "Ammoniak und Enzephalopathie",
+            "Pressen vermeiden",
+            "Stuhl beobachten und dokumentieren",
+            "Auf Teerstuhl achten",
+            "Laktulose nach Anordnung",
+            "Bewegung und Ballaststoffe"
+          ],
+          "es": "En la cirrosis el estreñimiento no es una molestia menor: mientras más tiempo se quedan las heces en el intestino, más Ammoniak pasa a la sangre y puede desencadenar una Enzephalopathie. Por eso documentas cada día el Stuhlgang y das la Laktulose indicada, buscando dos o tres evacuaciones blandas. Al mismo tiempo revisas el color: Teerstuhl significa sangrado y se avisa de inmediato al médico."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "leberzirrhose.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Leberzirrhose mit Aszites und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund des Aszites einen stark vergrößerten Bauchumfang, er leidet unter Atemnot bei Belastung und ist in seiner Beweglichkeit eingeschränkt. Ziel: Der Patient atmet in Ruhe ohne Atemnot, und sein Körpergewicht und Bauchumfang nehmen innerhalb von sieben Tagen nicht weiter zu. Maßnahmen: Ich lagere den Oberkörper erhöht, messe täglich Gewicht und Bauchumfang unter gleichen Bedingungen und führe eine Flüssigkeitsbilanz. Ich achte auf die natriumarme Kost, verabreiche die Diuretika nach Anordnung und führe atemunterstützende Maßnahmen zur Pneumonieprophylaxe durch.",
+          "points": [
+            "Problem: Aszites mit Atemnot",
+            "Ziel: keine Zunahme, freie Atmung",
+            "Oberkörperhochlagerung",
+            "Gewicht und Bauchumfang täglich",
+            "Flüssigkeitsbilanz",
+            "Natriumarme Kost"
+          ],
+          "es": "En la Pflegeplanung siempre usas la misma estructura: Problem, Ziel, Maßnahmen. Aquí el problema es el Aszites con Atemnot y poca movilidad; la meta es medible (respirar sin dificultad en reposo, peso y Bauchumfang sin aumento en siete días). Las medidas salen directo de lo que ya sabes: posición, mediciones diarias, balance y dieta baja en sodio."
+        },
+        {
+          "id": "leberzirrhose.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Leberzirrhose im Zusammenhang mit der gestörten Blutgerinnung und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat aufgrund der gestörten Blutgerinnung und der Ösophagusvarizen ein erhöhtes Blutungsrisiko. Ziel: Der Patient erleidet während des Krankenhausaufenthalts keine pflegebedingten Verletzungen, und Blutungszeichen werden sofort erkannt. Maßnahmen: Ich verwende eine weiche Zahnbürste und einen elektrischen Rasierer und vermeide intramuskuläre Injektionen. Ich beobachte täglich Haut, Schleimhäute, Stuhl und Erbrochenes auf Blutungszeichen und kontrolliere die Vitalzeichen. Der Patient erhält weiche Kost und soll nicht pressen. Ich informiere ihn, dass er sich bei Bluterbrechen oder schwarzem Stuhl sofort melden muss.",
+          "points": [
+            "Problem: erhöhtes Blutungsrisiko",
+            "Ziel: keine Verletzung, Früherkennung",
+            "Weiche Zahnbürste, elektrische Rasur",
+            "Beobachtung auf Blutungszeichen",
+            "Weiche Kost, nicht pressen",
+            "Patient über Warnzeichen informieren"
+          ],
+          "es": "El segundo problema típico es la Blutungsgefahr (riesgo de sangrado) por la mala coagulación y las várices. La meta se formula de modo que se pueda comprobar: sin lesiones causadas por el cuidado durante la estancia y sangrados detectados de inmediato. Las medidas son la Blutungsprophylaxe completa más la observación y la información al paciente."
+        },
+        {
+          "id": "leberzirrhose.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Leberzirrhose im Zusammenhang mit der hepatischen Enzephalopathie und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient ist durch die gestörte Entgiftungsfunktion der Leber gefährdet, eine hepatische Enzephalopathie mit Bewusstseinsstörung und Sturzgefahr zu entwickeln. Ziel: Der Patient ist während des gesamten Aufenthalts wach und orientiert, hat täglich zwei bis drei weiche Stühle und stürzt nicht. Maßnahmen: Ich beobachte in jeder Schicht Bewusstsein, Orientierung und Verhalten und achte auf einen Flapping Tremor. Ich verabreiche Laktulose nach Anordnung und dokumentiere den Stuhlgang. Ich führe die Sturzprophylaxe durch, zum Beispiel mit Klingel in Reichweite, Begleitung beim Gehen und festen Schuhen. Bei Veränderungen informiere ich sofort den Arzt.",
+          "points": [
+            "Problem: Gefahr der Enzephalopathie",
+            "Ziel: wach, orientiert, kein Sturz",
+            "Bewusstsein in jeder Schicht beobachten",
+            "Laktulose und Stuhlkontrolle",
+            "Sturzprophylaxe",
+            "Arzt bei Veränderungen informieren"
+          ],
+          "es": "El tercer problema es el riesgo de hepatische Enzephalopathie con alteración de la conciencia y caídas. La meta tiene criterios claros: despierto y orientado, dos o tres evacuaciones blandas al día y ninguna caída. Las medidas combinan observación en cada turno, Laktulose con control de heces y Sturzprophylaxe."
+        },
+        {
+          "id": "leberzirrhose.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Erklären Sie es an einem Beispiel für einen Patienten mit Leberzirrhose.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel wird aus der Sicht des Patienten und positiv formuliert und beschreibt einen Zustand, den man überprüfen kann. Ein Beispiel bei Leberzirrhose mit Aszites ist: Das Körpergewicht des Patienten nimmt innerhalb von sieben Tagen nicht weiter zu, und er atmet in Ruhe ohne Atemnot. Das Ziel ist spezifisch und messbar durch das tägliche Wiegen, es ist realistisch und hat einen klaren Zeitraum. Nach dieser Zeit wird in der Evaluation überprüft, ob das Ziel erreicht wurde.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert und realistisch",
+            "Terminiert",
+            "Beispiel mit Aszites",
+            "Evaluation"
+          ],
+          "es": "SMART es la regla para formular Pflegeziele (metas de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado), realistisch (realista) y terminiert (con plazo). Lo mejor es explicar las letras y dar enseguida un ejemplo concreto, como el peso que no aumenta en siete días. Termina mencionando la Evaluation, porque ahí se revisa si la meta se cumplió."
+        }
+      ]
+    }
+  ]
+}

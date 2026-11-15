@@ -1,0 +1,1509 @@
+{
+  "id": "asthma-kinder",
+  "name": "Asthma bei Kindern",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "asthma-kinder.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist Asthma bronchiale?",
+              "options": [
+                "Eine akute bakterielle Entzündung des Lungengewebes",
+                "Eine chronisch-entzündliche Erkrankung der Atemwege mit überempfindlichen Bronchien und anfallsartiger Verengung der Atemwege",
+                "Eine angeborene Fehlbildung der Luftröhre",
+                "Eine dauerhafte Zerstörung der Lungenbläschen durch Rauchen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege mit einer Überempfindlichkeit der Bronchien (bronchiale Hyperreagibilität).",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Überempfindlichkeit der Bronchien auf verschiedene Reize nennt man bronchiale ___.",
+              "options": ["Hypertrophie", "Hypoxie", "Hyperreagibilität", "Hyperventilation"],
+              "correct": 2
+            }
+          ],
+          "es": "El Asthma bronchiale (asma bronquial) es una inflamación crónica de las vías respiratorias. Los bronquios están hipersensibles (bronchiale Hyperreagibilität, hiperreactividad bronquial) y se estrechan por crisis ante ciertos estímulos. Esta definición es la base de toda tu respuesta en el examen."
+        },
+        {
+          "id": "asthma-kinder.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zur Häufigkeit von Asthma bei Kindern ist richtig?",
+              "options": [
+                "Asthma kommt bei Kindern praktisch nicht vor",
+                "Asthma ist eine seltene Erkrankung, die nur Jugendliche betrifft",
+                "Asthma tritt erst nach der Pubertät auf",
+                "Asthma ist die häufigste chronische Erkrankung im Kindesalter"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Asthma bronchiale ist im Kindesalter eine sehr seltene chronische Erkrankung.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Asthma bronchiale ist die häufigste ___ Erkrankung im Kindesalter.",
+              "options": ["akute", "chronische", "infektiöse", "angeborene"],
+              "correct": 1
+            }
+          ],
+          "es": "El asma es la enfermedad crónica más frecuente en la infancia; en Alemania afecta aproximadamente a uno de cada diez niños. Es una frase muy buena para empezar tu respuesta oral, porque muestra de inmediato por qué el tema es tan importante en pediatría."
+        },
+        {
+          "id": "asthma-kinder.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Vorgänge verengen beim Asthma die Atemwege?",
+              "options": [
+                "Verkrampfung der Bronchialmuskulatur (Bronchospasmus)",
+                "Zerstörung der Lungenbläschen",
+                "Schwellung der Bronchialschleimhaut (Schleimhautödem)",
+                "Vermehrte Bildung von zähem Schleim",
+                "Flüssigkeitsansammlung im Pleuraspalt"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                ["Bronchospasmus", "Verkrampfung der Bronchialmuskulatur"],
+                ["Schleimhautödem", "Schwellung der Bronchialschleimhaut"],
+                ["Hypersekretion", "Vermehrte Bildung von zähem Schleim"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Beim Asthma werden die Atemwege durch Bronchospasmus, Schleimhautschwellung und zähen Schleim verengt.",
+              "correct": true
+            }
+          ],
+          "es": "En el asma tres mecanismos estrechan los bronquios: el Bronchospasmus (espasmo del músculo bronquial), el Schleimhautödem (edema de la mucosa) y la producción de moco espeso. En alemán se suele llamar la «Asthma-Trias». En los niños esto pesa más, porque sus bronquios ya son muy estrechos."
+        },
+        {
+          "id": "asthma-kinder.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist typisch für die Verengung der Atemwege (Obstruktion) beim Asthma?",
+              "options": [
+                "Sie tritt anfallsartig auf und ist reversibel, also rückbildungsfähig",
+                "Sie ist dauerhaft und bildet sich nie zurück",
+                "Sie betrifft nur die Nase und den Rachen",
+                "Sie tritt nur bei Fieber auf"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Atemwegsverengung beim Asthma ist nicht rückbildungsfähig.",
+              "correct": false
+            }
+          ],
+          "es": "La obstrucción en el asma es variable y reversibel (reversible): aparece por crisis y cede sola o con medicamentos. Entre las crisis muchos niños no tienen síntomas. Esto lo distingue de enfermedades con obstrucción permanente, como la COPD (EPOC) del adulto."
+        },
+        {
+          "id": "asthma-kinder.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Form des Asthmas ist bei Kindern am häufigsten?",
+              "options": [
+                "Das nicht-allergische (intrinsische) Asthma",
+                "Das berufsbedingte Asthma",
+                "Das allergische (extrinsische) Asthma",
+                "Das durch Schmerzmittel ausgelöste Asthma"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Bei Kindern ist das Asthma meist ___ bedingt.",
+              "options": ["bakteriell", "allergisch", "beruflich", "altersbedingt"],
+              "correct": 1
+            }
+          ],
+          "es": "Se distingue el allergisches Asthma (asma alérgica o extrínseca) del nicht-allergisches Asthma (asma no alérgica o intrínseca). En los niños casi siempre es alérgica; la forma no alérgica es más típica del adulto. Por eso en pediatría siempre se buscan alergias."
+        },
+        {
+          "id": "asthma-kinder.definition.6",
+          "type": "sprech",
+          "q": "Was ist Asthma bronchiale bei Kindern? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege und die häufigste chronische Erkrankung im Kindesalter. Die Bronchien sind überempfindlich und reagieren auf bestimmte Reize mit einer anfallsartigen Verengung. Diese Verengung entsteht durch einen Bronchospasmus, eine Schwellung der Schleimhaut und zähen Schleim. Sie ist reversibel, das heißt, sie bildet sich von selbst oder durch Medikamente wieder zurück. Bei Kindern ist das Asthma meist allergisch bedingt.",
+          "points": [
+            "Chronische Entzündung der Atemwege",
+            "Häufigste chronische Erkrankung bei Kindern",
+            "Überempfindliche Bronchien",
+            "Bronchospasmus, Schwellung, Schleim",
+            "Reversible Verengung",
+            "Meist allergisch"
+          ],
+          "es": "Esta es la pregunta de entrada clásica. Empieza con la definición (inflamación crónica, bronquios hipersensibles), di que es la enfermedad crónica más frecuente en niños, menciona los tres mecanismos de la obstrucción y que es reversible. Termina con que en niños casi siempre es alérgica."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "asthma-kinder.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welchem Teil der Atemwege spielt sich das Asthma ab?",
+              "options": [
+                "Im Kehlkopf",
+                "In den Nasennebenhöhlen",
+                "Im Pleuraspalt",
+                "In den Bronchien und Bronchiolen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Struktur ihrer Aufgabe zu.",
+              "pairs": [
+                ["Luftröhre (Trachea)", "Leitet die Luft vom Kehlkopf zu den Hauptbronchien"],
+                ["Bronchien und Bronchiolen", "Verzweigen sich in der Lunge und leiten die Luft zu den Lungenbläschen"],
+                ["Lungenbläschen (Alveolen)", "Ort des Gasaustauschs"],
+                ["Zwerchfell", "Wichtigster Atemmuskel"]
+              ]
+            }
+          ],
+          "es": "El asma afecta a los Bronchien (bronquios) y Bronchiolen (bronquiolos), es decir, a las vías respiratorias inferiores. El aire pasa por la Trachea (tráquea), los bronquios y bronquiolos hasta los Alveolen (alvéolos), donde ocurre el intercambio de gases. Si los bronquios se estrechan, el aire casi no pasa."
+        },
+        {
+          "id": "asthma-kinder.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum führt eine Schleimhautschwellung bei Kindern schneller zu Atemnot als bei Erwachsenen?",
+              "options": [
+                "Weil Kinder weniger Lungenbläschen brauchen",
+                "Weil die Atemwege von Kindern einen kleineren Durchmesser haben und deshalb schon eine geringe Schwellung den Luftstrom stark behindert",
+                "Weil Kinder nur durch den Mund atmen",
+                "Weil Kinder keine Bronchialmuskulatur haben"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Weil die Atemwege von Kindern eng sind, behindert schon eine geringe Schwellung der Schleimhaut die Atmung deutlich.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Atemwege von Kindern haben einen kleineren ___ als die von Erwachsenen, deshalb verengen sie sich schneller kritisch.",
+              "options": ["Durchmesser", "Sauerstoffgehalt", "Blutdruck", "Hustenreflex"],
+              "correct": 0
+            }
+          ],
+          "es": "Las vías respiratorias del niño tienen un diámetro mucho menor. Por eso un poco de edema o de moco ya reduce mucho el paso del aire y aumenta el trabajo respiratorio. Es la razón principal por la que un niño pequeño puede empeorar tan rápido."
+        },
+        {
+          "id": "asthma-kinder.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie verändert sich die normale Atemfrequenz im Lauf der Kindheit?",
+              "options": [
+                "Sie ist bei Neugeborenen am niedrigsten und steigt mit dem Alter",
+                "Sie ist in jedem Alter gleich",
+                "Sie ist bei Neugeborenen am höchsten und sinkt mit zunehmendem Alter",
+                "Sie ist nur bei Jugendlichen erhöht"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne der Altersgruppe die ungefähre normale Atemfrequenz in Ruhe zu.",
+              "pairs": [
+                ["Neugeborenes", "ca. 40–50 Atemzüge pro Minute"],
+                ["Kleinkind", "ca. 25–30 Atemzüge pro Minute"],
+                ["Erwachsener", "ca. 12–18 Atemzüge pro Minute"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Kinder haben in Ruhe eine niedrigere Atemfrequenz als Erwachsene.",
+              "correct": false
+            }
+          ],
+          "es": "Cuanto más pequeño es el niño, más alta es su Atemfrequenz (frecuencia respiratoria) normal: un recién nacido respira unas 40–50 veces por minuto, un adulto 12–18. Por eso siempre debes valorar la frecuencia según la edad. Además, un niño que ya respira rápido tiene poca reserva y se agota pronto."
+        },
+        {
+          "id": "asthma-kinder.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum sieht man bei Kindern mit Atemnot häufig Einziehungen am Brustkorb?",
+              "options": [
+                "Weil der kindliche Thorax noch weich und nachgiebig ist",
+                "Weil die Rippen bei Kindern besonders starr sind",
+                "Weil Kinder keine Atemhilfsmuskulatur besitzen",
+                "Weil das Zwerchfell bei Kindern nicht arbeitet"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Brustkorb von Säuglingen und Kleinkindern ist starr und zieht sich bei Atemnot nie ein.",
+              "correct": false
+            }
+          ],
+          "es": "El Thorax (tórax) del niño pequeño es blando y flexible. Cuando el niño tiene que hacer mucha fuerza para respirar, la pared torácica se hunde hacia adentro: son las Einziehungen (tiraje o retracciones). Además, los músculos respiratorios del niño se cansan rápido, y eso lleva pronto al agotamiento."
+        },
+        {
+          "id": "asthma-kinder.anatomie.5",
+          "type": "sprech",
+          "q": "Welche Besonderheiten haben die Atemwege und die Atmung von Kindern, und warum sind sie beim Asthma wichtig?",
+          "answer": "Die Atemwege von Kindern haben einen kleineren Durchmesser als die von Erwachsenen. Deshalb behindern schon eine geringe Schwellung der Schleimhaut oder etwas Schleim die Atmung stark. Der Thorax ist noch weich, darum sieht man bei Atemnot Einziehungen. Kinder haben außerdem eine höhere Atemfrequenz und weniger Reserven, sodass ihre Atemmuskulatur schnell erschöpft ist. Aus diesen Gründen kann sich der Zustand eines Kindes im Asthmaanfall sehr schnell verschlechtern.",
+          "points": [
+            "Kleiner Durchmesser der Atemwege",
+            "Schwellung wirkt stärker",
+            "Weicher Thorax, Einziehungen",
+            "Höhere Atemfrequenz",
+            "Schnelle Erschöpfung"
+          ],
+          "es": "Aquí debes mostrar que un niño no es un adulto pequeño. Las vías aéreas estrechas, el tórax blando, la frecuencia respiratoria alta y la poca reserva explican por qué el niño se descompensa rápido. Cierra diciendo que por eso la observación estrecha es tan importante."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "asthma-kinder.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die häufigste Ursache von Asthma im Kindesalter?",
+              "options": [
+                "Eine bakterielle Infektion der Lunge",
+                "Eine allergische Reaktion bei erblicher Veranlagung (Atopie)",
+                "Ein Herzfehler",
+                "Eine Fehlbildung des Zwerchfells"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Asthma bei Kindern entsteht meist durch eine Allergie bei erblicher Veranlagung.",
+              "correct": true
+            }
+          ],
+          "es": "En los niños el asma casi siempre es alérgica y se basa en una Atopie (atopia), es decir, una predisposición hereditaria a reaccionar con alergias. A esto se suman factores del ambiente, como alérgenos, infecciones y humo de tabaco. Así que la causa es una combinación de herencia y entorno."
+        },
+        {
+          "id": "asthma-kinder.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Reize sind typische Auslöser eines Asthmaanfalls bei Kindern?",
+              "options": [
+                "Atemwegsinfekte",
+                "Hausstaubmilben, Tierhaare und Pollen",
+                "Ausreichendes Trinken",
+                "Tabakrauch (Passivrauchen)",
+                "Körperliche Anstrengung und kalte Luft",
+                "Regelmäßiger Schlaf"
+              ],
+              "correct": [0, 1, 3, 4]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Auslöser der passenden Gruppe zu.",
+              "pairs": [
+                ["Hausstaubmilben", "Allergen"],
+                ["Erkältung durch Viren", "Infekt"],
+                ["Tabakrauch", "Reizstoff in der Luft"],
+                ["Rennen im Sportunterricht", "Körperliche Anstrengung"]
+              ]
+            }
+          ],
+          "es": "Los Auslöser (desencadenantes) más importantes son: infecciones respiratorias, alérgenos como Hausstaubmilben (ácaros del polvo), pelo de animales y polen, humo de tabaco, esfuerzo físico y aire frío. También las emociones fuertes pueden desencadenar una crisis. Conocerlos es la base para prevenir crisis."
+        },
+        {
+          "id": "asthma-kinder.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was löst bei Säuglingen und Kleinkindern am häufigsten eine Verengung der Bronchien aus?",
+              "options": [
+                "Berufliche Schadstoffe",
+                "Schmerzmittel",
+                "Virale Atemwegsinfekte",
+                "Zu viel Bewegung an der frischen Luft"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei Kleinkindern sind virale Atemwegsinfekte ein sehr häufiger Auslöser von Asthmabeschwerden.",
+              "correct": true
+            }
+          ],
+          "es": "En lactantes y niños pequeños las infecciones virales de las vías respiratorias son el desencadenante más frecuente de la obstrucción bronquial. En el niño mayor ganan importancia los alérgenos. Por eso la prevención de infecciones es un tema de enfermería en estos niños."
+        },
+        {
+          "id": "asthma-kinder.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was passiert beim allergischen Asthma nach dem Kontakt mit dem Allergen?",
+              "options": [
+                "Bakterien vermehren sich in den Lungenbläschen",
+                "Das Blut gerinnt in den Lungengefäßen",
+                "Die Lungenbläschen platzen",
+                "IgE-Antikörper aktivieren Mastzellen, die Botenstoffe wie Histamin freisetzen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Beim allergischen Asthma bildet der Körper gegen das Allergen Antikörper der Klasse ___.",
+              "options": ["IgE", "IgA", "IgM", "IgD"],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Das allergische Asthma ist eine allergische Reaktion vom Soforttyp (Typ I).",
+              "correct": true
+            }
+          ],
+          "es": "El asma alérgica es una alergia de tipo inmediato (Typ I). El cuerpo forma anticuerpos IgE contra el alérgeno; en el siguiente contacto los Mastzellen (mastocitos) liberan mediadores como la histamina. Esto provoca el espasmo bronquial, el edema y el moco."
+        },
+        {
+          "id": "asthma-kinder.ursachen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man unter Anstrengungsasthma?",
+              "options": [
+                "Asthmabeschwerden, die durch körperliche Belastung ausgelöst werden",
+                "Asthma, das nur im Schlaf auftritt",
+                "Asthma durch Medikamente",
+                "Atemnot durch eine Herzerkrankung"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Kalte, trockene Luft kann die Beschwerden bei körperlicher Anstrengung verstärken.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Asthmabeschwerden, die beim Rennen oder Toben auftreten, nennt man ___.",
+              "options": ["Infektasthma", "Anstrengungsasthma", "Herzasthma", "Berufsasthma"],
+              "correct": 1
+            }
+          ],
+          "es": "El Anstrengungsasthma (asma inducida por el esfuerzo) aparece durante o poco después del ejercicio, sobre todo con aire frío y seco. Es muy típico en niños porque corren y juegan mucho. Con buen tratamiento y calentamiento el niño puede y debe hacer deporte."
+        },
+        {
+          "id": "asthma-kinder.ursachen.6",
+          "type": "sprech",
+          "q": "Welche Ursachen und Auslöser hat das Asthma bei Kindern?",
+          "answer": "Bei Kindern ist das Asthma meist allergisch bedingt. Grundlage ist eine erbliche Veranlagung zu Allergien, die Atopie. Typische Allergene sind Hausstaubmilben, Tierhaare und Pollen. Weitere Auslöser sind Atemwegsinfekte, die besonders bei Kleinkindern wichtig sind, Tabakrauch, körperliche Anstrengung und kalte Luft. Auch starke Gefühle wie Aufregung können einen Anfall auslösen.",
+          "points": [
+            "Meist allergisch",
+            "Atopie, erbliche Veranlagung",
+            "Milben, Tierhaare, Pollen",
+            "Atemwegsinfekte",
+            "Tabakrauch",
+            "Anstrengung, kalte Luft"
+          ],
+          "es": "Ordena tu respuesta en dos partes: primero la causa de fondo (alergia con predisposición hereditaria, Atopie) y luego los desencadenantes concretos. Menciona siempre las infecciones en niños pequeños y el humo de tabaco, porque de ahí salen las medidas de prevención."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "asthma-kinder.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist der wichtigste Risikofaktor für Asthma bei einem Kind?",
+              "options": [
+                "Viel Sport im Verein",
+                "Häufiges Spielen im Freien",
+                "Allergische Erkrankungen in der Familie (Atopie)",
+                "Eine vegetarische Ernährung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Wenn die Eltern Asthma, Heuschnupfen oder Neurodermitis haben, ist das Asthmarisiko des Kindes erhöht.",
+              "correct": true
+            }
+          ],
+          "es": "El factor de riesgo más importante es la atopia en la familia: si los padres tienen asma, Heuschnupfen (rinitis alérgica o fiebre del heno) o Neurodermitis (dermatitis atópica), el niño tiene mucho más riesgo. Por eso la historia familiar es parte fija de la anamnesis."
+        },
+        {
+          "id": "asthma-kinder.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Erkrankungen gehören zum atopischen Formenkreis?",
+              "options": [
+                "Neurodermitis",
+                "Diabetes mellitus Typ 1",
+                "Heuschnupfen",
+                "Allergisches Asthma",
+                "Epilepsie"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den deutschen Begriff der Beschreibung zu.",
+              "pairs": [
+                ["Neurodermitis", "Chronische, juckende Entzündung der Haut"],
+                ["Heuschnupfen", "Allergische Entzündung der Nasenschleimhaut durch Pollen"],
+                ["Atopie", "Erbliche Veranlagung zu allergischen Erkrankungen"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Ein Kind mit Neurodermitis oder Heuschnupfen hat ein geringeres Risiko für Asthma als andere Kinder.",
+              "correct": false
+            }
+          ],
+          "es": "Neurodermitis, Heuschnupfen y asma alérgica forman el atopischer Formenkreis (grupo de enfermedades atópicas). Un niño que ya tiene una de ellas tiene más riesgo de desarrollar asma después. Cuando la alergia «baja» de la nariz a los bronquios, en alemán se habla de Etagenwechsel (cambio de nivel)."
+        },
+        {
+          "id": "asthma-kinder.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Risikofaktor für kindliches Asthma lässt sich von den Eltern direkt vermeiden?",
+              "options": [
+                "Die erbliche Veranlagung",
+                "Das Geschlecht des Kindes",
+                "Das Alter des Kindes",
+                "Tabakrauch in der Wohnung und in der Schwangerschaft"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Rauchen in der Schwangerschaft und Passivrauchen haben keinen Einfluss auf das Asthmarisiko des Kindes.",
+              "correct": false
+            }
+          ],
+          "es": "El Passivrauchen (tabaquismo pasivo) y fumar durante el embarazo aumentan claramente el riesgo de asma y empeoran un asma ya existente. Es el factor de riesgo evitable más importante. Por eso el hogar libre de humo es un punto central cuando asesoras a los padres."
+        },
+        {
+          "id": "asthma-kinder.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren erhöhen zusätzlich das Risiko für Asthma im Kindesalter?",
+              "options": [
+                "Frühgeburt",
+                "Übergewicht",
+                "Stillen in den ersten Lebensmonaten",
+                "Häufige schwere Atemwegsinfekte im frühen Kindesalter",
+                "Regelmäßige Bewegung"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Im Kindesalter erkranken Jungen häufiger an Asthma als Mädchen.",
+              "correct": true
+            }
+          ],
+          "es": "Otros factores de riesgo son la Frühgeburt (parto prematuro), el sobrepeso y las infecciones respiratorias graves y repetidas en los primeros años. En la infancia los niños varones se enferman más que las niñas. El ejercicio regular no es un riesgo: al contrario, es bueno."
+        },
+        {
+          "id": "asthma-kinder.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren für Asthma bei Kindern kennen Sie?",
+          "answer": "Der wichtigste Risikofaktor ist die Atopie in der Familie, also wenn Eltern oder Geschwister Asthma, Heuschnupfen oder Neurodermitis haben. Auch Kinder, die selbst schon Neurodermitis oder Heuschnupfen haben, erkranken häufiger. Ein wichtiger vermeidbarer Risikofaktor ist Tabakrauch, also Rauchen in der Schwangerschaft und Passivrauchen. Weitere Risikofaktoren sind Frühgeburt, Übergewicht und häufige schwere Atemwegsinfekte im frühen Kindesalter. Jungen sind im Kindesalter häufiger betroffen als Mädchen.",
+          "points": [
+            "Atopie in der Familie",
+            "Eigene Neurodermitis, Heuschnupfen",
+            "Tabakrauch, Passivrauchen",
+            "Frühgeburt",
+            "Übergewicht",
+            "Häufige Atemwegsinfekte"
+          ],
+          "es": "Una buena estructura es: primero los factores no modificables (herencia, enfermedades atópicas propias, sexo masculino, prematurez) y después los modificables (humo de tabaco, sobrepeso). Así puedes enlazar directo con la asesoría a los padres."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "asthma-kinder.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind die Leitsymptome des Asthmas bei Kindern?",
+              "options": [
+                "Trockener Husten, besonders nachts",
+                "Hohes Fieber mit Schüttelfrost",
+                "Pfeifendes Atemgeräusch (Giemen)",
+                "Anfallsartige Atemnot",
+                "Bauchschmerzen mit Durchfall"
+              ],
+              "correct": [0, 2, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Kombination ist typisch für Asthma bei einem Kind?",
+              "options": [
+                "Fieber, Ohrenschmerzen und Schnupfen",
+                "Husten, Giemen und anfallsartige Atemnot",
+                "Erbrechen, Durchfall und Bauchkrämpfe",
+                "Kopfschmerzen, Nackensteifigkeit und Lichtscheu"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Los síntomas principales son tos seca (sobre todo de noche), Giemen (sibilancias, un silbido al respirar) y Atemnot (dificultad para respirar) en forma de crisis. La fiebre no es parte del asma; si aparece, hay que pensar en una infección."
+        },
+        {
+          "id": "asthma-kinder.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann tritt der Husten bei Kindern mit Asthma besonders häufig auf?",
+              "options": [
+                "Nur direkt nach dem Essen",
+                "Nur am Nachmittag",
+                "Nur beim Sitzen",
+                "Nachts und in den frühen Morgenstunden"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein lang anhaltender trockener Husten in der Nacht kann bei Kindern das einzige Zeichen eines Asthmas sein.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Typisch für Asthma bei Kindern ist ein trockener Reizhusten, der vor allem ___ auftritt.",
+              "options": ["nachts", "beim Essen", "beim Baden", "nach dem Trinken"],
+              "correct": 0
+            }
+          ],
+          "es": "La tos seca nocturna o de madrugada es muy típica y en niños pequeños a veces es el único síntoma. Por eso siempre se pregunta a los papás si el niño tose de noche. Una tos crónica nocturna debe hacer pensar en asma."
+        },
+        {
+          "id": "asthma-kinder.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist Giemen?",
+              "options": [
+                "Ein bellender Husten",
+                "Ein Schnarchen im Schlaf",
+                "Ein pfeifendes Atemgeräusch, vor allem beim Ausatmen",
+                "Ein Rasseln nur beim Einatmen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Beim Asthma ist vor allem die ___ erschwert und verlängert.",
+              "options": ["Einatmung", "Ausatmung", "Nasenatmung", "Stimmbildung"],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Beim Asthma ist vor allem die Einatmung verlängert, die Ausatmung ist unauffällig.",
+              "correct": false
+            }
+          ],
+          "es": "El Giemen (sibilancias) es un silbido que se oye sobre todo al exhalar, porque el aire sale con dificultad por los bronquios estrechos. Por eso la Ausatmung (espiración) es difícil y prolongada: se habla de verlängertes Exspirium (espiración prolongada)."
+        },
+        {
+          "id": "asthma-kinder.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen zeigen bei einem Kind eine Atemnot (Dyspnoe) an?",
+              "options": [
+                "Einziehungen zwischen den Rippen und am Hals",
+                "Nasenflügeln",
+                "Rosige, warme Haut",
+                "Schnelle Atmung (Tachypnoe)",
+                "Ruhiger, tiefer Schlaf"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Beschreibung zu.",
+              "pairs": [
+                ["Einziehungen", "Die Haut zwischen den Rippen oder über dem Brustbein zieht sich beim Einatmen nach innen"],
+                ["Nasenflügeln", "Die Nasenflügel bewegen sich bei jedem Atemzug sichtbar mit"],
+                ["Tachypnoe", "Beschleunigte Atmung"],
+                ["Zyanose", "Bläuliche Färbung von Lippen und Haut durch Sauerstoffmangel"]
+              ]
+            }
+          ],
+          "es": "En el niño la dificultad respiratoria se ve: Einziehungen (tiraje entre las costillas, en el cuello o bajo las costillas), Nasenflügeln (aleteo nasal) y Tachypnoe (respiración rápida). La Zyanose (cianosis) es un signo tardío y de gravedad. Debes saber describir estos signos, porque el niño pequeño no puede decir que le falta el aire."
+        },
+        {
+          "id": "asthma-kinder.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Woran erkennt man bei einem Säugling oder Kleinkind eine zunehmende Atemnot besonders gut?",
+              "options": [
+                "Das Kind trinkt schlecht, weil es beim Trinken keine Luft bekommt",
+                "Das Kind hat mehr Appetit als sonst",
+                "Das Kind schläft ruhiger als sonst",
+                "Das Kind spielt länger allein"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein Kind, das im Asthmaanfall nur noch einzelne Wörter oder kurze Sätze spricht, hat nur leichte Beschwerden.",
+              "correct": false
+            },
+            {
+              "form": "tf",
+              "q": "Trinkschwäche kann bei einem Säugling ein Zeichen von Atemnot sein.",
+              "correct": true
+            }
+          ],
+          "es": "Un lactante con dificultad respiratoria toma mal, porque no puede succionar y respirar al mismo tiempo: eso es la Trinkschwäche (dificultad para tomar). Un niño mayor solo habla con palabras sueltas o frases cortas. Los dos son signos de una crisis seria."
+        },
+        {
+          "id": "asthma-kinder.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome zeigt ein Kind mit Asthma bronchiale?",
+          "answer": "Typische Symptome sind ein trockener Husten, der besonders nachts und am frühen Morgen auftritt, ein pfeifendes Atemgeräusch beim Ausatmen, das Giemen, und anfallsartige Atemnot. Die Ausatmung ist verlängert. Bei Atemnot sieht man beim Kind eine schnelle Atmung, Einziehungen am Brustkorb und Nasenflügeln. Säuglinge und Kleinkinder trinken schlecht, ältere Kinder können nur noch kurze Sätze sprechen. Die Kinder sind unruhig und ängstlich, und in schweren Fällen kommt es zu einer Zyanose.",
+          "points": [
+            "Trockener Husten nachts",
+            "Giemen, verlängerte Ausatmung",
+            "Anfallsartige Atemnot",
+            "Einziehungen, Nasenflügeln",
+            "Trinkschwäche, kurze Sätze",
+            "Unruhe, Angst, Zyanose"
+          ],
+          "es": "Empieza con los tres síntomas principales (tos nocturna, Giemen, Atemnot) y luego describe lo que tú observas en el niño: tiraje, aleteo nasal, respiración rápida. Menciona lo específico por edad: el lactante toma mal y el niño mayor habla en frases cortas."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "asthma-kinder.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist bei kleinen Kindern der wichtigste erste Schritt der Asthmadiagnostik?",
+              "options": [
+                "Eine Computertomografie der Lunge",
+                "Eine ausführliche Anamnese mit den Eltern und die körperliche Untersuchung",
+                "Eine Bronchoskopie",
+                "Ein Belastungs-EKG"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Fragen gehören zur Anamnese bei Verdacht auf Asthma bei einem Kind?",
+              "options": [
+                "Hustet das Kind nachts?",
+                "Gibt es Allergien, Asthma oder Neurodermitis in der Familie?",
+                "Wie viele Geschwister gehen zur Schule?",
+                "In welchen Situationen treten die Beschwerden auf?",
+                "Welche Schuhgröße hat das Kind?"
+              ],
+              "correct": [0, 1, 3]
+            }
+          ],
+          "es": "En niños pequeños el diagnóstico se basa sobre todo en la Anamnese (historia clínica) con los papás y en la exploración física, porque todavía no pueden colaborar en pruebas de función pulmonar. Se pregunta por tos nocturna, desencadenantes y alergias en la familia."
+        },
+        {
+          "id": "asthma-kinder.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ab welchem Alter ist eine Lungenfunktionsprüfung (Spirometrie) in der Regel möglich?",
+              "options": [
+                "Ab der Geburt",
+                "Ab etwa 1 Jahr",
+                "Ab etwa 5 bis 6 Jahren, also etwa ab dem Schulalter",
+                "Erst ab 18 Jahren"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Lungenfunktionsprüfung kann schon bei Säuglingen problemlos durchgeführt werden, weil keine Mitarbeit nötig ist.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Lungenfunktionsprüfung ist erst etwa ab dem ___ möglich, weil das Kind aktiv mitarbeiten muss.",
+              "options": ["Säuglingsalter", "Kleinkindalter", "Erwachsenenalter", "Schulalter"],
+              "correct": 3
+            }
+          ],
+          "es": "La Lungenfunktionsprüfung (prueba de función pulmonar, espirometría) necesita que el niño colabore: debe inhalar profundo y soplar con fuerza siguiendo instrucciones. Eso suele lograrse a partir de los 5 o 6 años, más o menos en edad escolar. Antes, el diagnóstico es sobre todo clínico."
+        },
+        {
+          "id": "asthma-kinder.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was hört die Ärztin bei der Auskultation der Lunge im Asthmaanfall typischerweise?",
+              "options": [
+                "Giemen und Brummen mit verlängerter Ausatmung",
+                "Völlig normale Atemgeräusche",
+                "Ein Reiben der Pleura",
+                "Darmgeräusche im Brustkorb"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Das Abhören der Lunge mit dem Stethoskop nennt man ___.",
+              "options": ["Palpation", "Auskultation", "Perkussion", "Inspektion"],
+              "correct": 1
+            }
+          ],
+          "es": "En la Auskultation (auscultación) se escuchan Giemen y Brummen (sibilancias y roncus) y una espiración prolongada. Entre las crisis la auscultación puede ser completamente normal, y eso no descarta el asma."
+        },
+        {
+          "id": "asthma-kinder.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung ihrem Zweck zu.",
+              "pairs": [
+                ["Pricktest", "Nachweis einer Allergie über die Haut"],
+                ["Spezifisches IgE im Blut", "Nachweis einer Allergie durch eine Blutuntersuchung"],
+                ["Spirometrie", "Messung der Lungenfunktion"],
+                ["Pulsoxymetrie", "Messung der Sauerstoffsättigung"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wozu dient der Pricktest bei einem Kind mit Asthma?",
+              "options": [
+                "Zur Messung des Blutzuckers",
+                "Zur Bestimmung der Blutgruppe",
+                "Zur Messung der Sauerstoffsättigung",
+                "Zum Nachweis der auslösenden Allergene"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Como el asma infantil casi siempre es alérgica, se hace Allergiediagnostik (estudio de alergias): el Pricktest (prueba cutánea) o la medición de IgE específica en sangre. Así se identifican los alérgenos que el niño debe evitar. La Pulsoxymetrie (oximetría de pulso) es importante sobre todo en la crisis."
+        },
+        {
+          "id": "asthma-kinder.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was wird mit dem Peak-Flow-Meter gemessen?",
+              "options": [
+                "Die Sauerstoffsättigung im Blut",
+                "Die Atemfrequenz pro Minute",
+                "Die maximale Strömungsgeschwindigkeit der Luft beim kräftigen Ausatmen",
+                "Die Körpertemperatur"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Farbe des Ampelschemas der Bedeutung zu.",
+              "pairs": [
+                ["Grün", "Asthma ist gut kontrolliert"],
+                ["Gelb", "Vorsicht, Therapie nach Plan anpassen"],
+                ["Rot", "Notfall, Notfallmedikament nehmen und ärztliche Hilfe holen"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Mit dem Peak-Flow-Meter können ältere Kinder ihre Atemwege zu Hause selbst kontrollieren und die Werte in ein Asthmatagebuch eintragen.",
+              "correct": true
+            }
+          ],
+          "es": "El Peak-Flow-Meter (medidor de flujo espiratorio máximo) mide qué tan rápido puede el niño soplar el aire. Sirve para el autocontrol en casa, más o menos desde la edad escolar. Los valores se anotan en un Asthmatagebuch (diario de asma) y se valoran con el Ampelschema (esquema de semáforo): verde, amarillo, rojo."
+        },
+        {
+          "id": "asthma-kinder.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird Asthma bei Kindern diagnostiziert?",
+          "answer": "Die Diagnostik ist vom Alter des Kindes abhängig. Am Anfang steht die Anamnese mit den Eltern, zum Beispiel zu nächtlichem Husten, Auslösern und Allergien in der Familie. Dann folgt die körperliche Untersuchung mit Auskultation der Lunge, bei der man Giemen und eine verlängerte Ausatmung hört. Eine Lungenfunktionsprüfung ist erst etwa ab dem Schulalter möglich, weil das Kind mitarbeiten muss. Außerdem macht man einen Allergietest, zum Beispiel einen Pricktest, und ältere Kinder kontrollieren den Verlauf mit dem Peak-Flow-Meter.",
+          "points": [
+            "Altersabhängige Diagnostik",
+            "Anamnese mit Eltern",
+            "Auskultation: Giemen",
+            "Lungenfunktion ab Schulalter",
+            "Allergietest",
+            "Peak-Flow-Messung"
+          ],
+          "es": "La idea clave es altersabhängig (según la edad): en el niño pequeño el diagnóstico es clínico, con anamnesis a los papás y auscultación; desde la edad escolar se agregan la espirometría y el Peak-Flow. No olvides la prueba de alergias, porque el asma infantil casi siempre es alérgica."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "asthma-kinder.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Medikamentengruppe ihrer Aufgabe zu.",
+              "pairs": [
+                ["Bedarfsmedikation (Reliever)", "Erweitert im Anfall schnell die Bronchien"],
+                ["Dauermedikation (Controller)", "Hemmt langfristig die Entzündung der Atemwege"],
+                ["Asthmaschulung und Auslöser meiden", "Nicht-medikamentöse Therapie"]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Medikamente werden als Bedarfsmedikation im Asthmaanfall inhaliert?",
+              "options": [
+                "Antibiotika",
+                "Kurz wirksame Beta-2-Sympathomimetika, zum Beispiel Salbutamol",
+                "Hustenstiller",
+                "Schlafmittel"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Bedarfsmedikation wirkt schnell bronchienerweiternd und wird bei akuten Beschwerden eingesetzt.",
+              "correct": true
+            }
+          ],
+          "es": "Hay dos grupos: la Bedarfsmedikation (medicación de rescate), que son Beta-2-Sympathomimetika (beta-2-agonistas) de acción corta como el salbutamol y abren los bronquios en minutos, y la Dauermedikation (medicación de control), que se usa todos los días contra la inflamación. Esta distinción es de lo que más se pregunta."
+        },
+        {
+          "id": "asthma-kinder.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welches ist die wichtigste Dauermedikation beim Asthma im Kindesalter?",
+              "options": [
+                "Inhalative Glukokortikoide (Kortison zum Inhalieren)",
+                "Antibiotika",
+                "Fiebersenkende Mittel",
+                "Abführmittel"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Das Kortisonspray wirkt sofort bronchienerweiternd und ist deshalb das Notfallmedikament im akuten Anfall.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Inhalative Glukokortikoide wirken ___ und müssen deshalb regelmäßig angewendet werden, auch wenn das Kind keine Beschwerden hat.",
+              "options": ["schmerzstillend", "fiebersenkend", "entzündungshemmend", "schlaffördernd"],
+              "correct": 2
+            }
+          ],
+          "es": "Los inhalative Glukokortikoide (corticoides inhalados) son la base del tratamiento de control: frenan la inflamación, pero no actúan de inmediato. Por eso el niño debe inhalarlos todos los días aunque se sienta bien, y nunca sustituyen al spray de rescate en una crisis. Muchos papás le tienen miedo a la «cortisona»; ahí tu explicación es clave."
+        },
+        {
+          "id": "asthma-kinder.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie inhaliert ein Kleinkind ein Dosieraerosol am besten?",
+              "options": [
+                "Direkt aus dem Dosieraerosol ohne Hilfsmittel",
+                "Über ein Trinkröhrchen",
+                "Gar nicht, Kleinkinder dürfen nicht inhalieren",
+                "Über eine Inhalierhilfe (Spacer) mit Maske"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne dem Alter die passende Inhalationsform zu.",
+              "pairs": [
+                ["Säugling und Kleinkind", "Dosieraerosol mit Spacer und Maske"],
+                ["Älteres Kind, das am Mundstück atmen kann", "Dosieraerosol mit Spacer und Mundstück"],
+                ["Kind im schweren Anfall in der Klinik", "Feuchtinhalation mit dem Vernebler nach Anordnung"]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Sobald ein Kind sicher über ein Mundstück atmen kann, soll es den Spacer mit Mundstück statt mit Maske benutzen.",
+              "correct": true
+            }
+          ],
+          "es": "Los niños no pueden coordinar el disparo del Dosieraerosol (inhalador de dosis medida) con la inhalación, por eso usan un Spacer (cámara espaciadora o aerocámara). Los pequeños la usan con mascarilla; en cuanto pueden, con boquilla, porque así llega más medicamento a los bronquios. El Vernebler (nebulizador) es otra opción."
+        },
+        {
+          "id": "asthma-kinder.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Nebenwirkungen beobachtet die Pflegefachperson nach der Inhalation eines Beta-2-Sympathomimetikums?",
+              "options": [
+                "Schneller Puls (Tachykardie)",
+                "Zittern der Hände (Tremor)",
+                "Verlangsamter Puls (Bradykardie)",
+                "Unruhe",
+                "Starke Müdigkeit mit tiefem Schlaf"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "mc",
+              "q": "Welche örtliche Nebenwirkung können inhalative Glukokortikoide haben?",
+              "options": [
+                "Haarausfall",
+                "Pilzinfektion im Mund (Mundsoor) und Heiserkeit",
+                "Durchfall",
+                "Gelenkschmerzen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Después del beta-2-agonista observas Tachykardie (taquicardia), Tremor (temblor) e inquietud; debes explicárselo a los papás para que no se asusten. Los corticoides inhalados pueden causar Mundsoor (candidiasis oral) y ronquera, por eso se hace cuidado bucal después de inhalar."
+        },
+        {
+          "id": "asthma-kinder.therapie.5",
+          "type": "sprech",
+          "q": "Wie wird Asthma bei Kindern behandelt? Geben Sie einen Überblick.",
+          "answer": "Die Therapie besteht aus Medikamenten und nicht-medikamentösen Maßnahmen und erfolgt nach einem Stufenschema. Als Bedarfsmedikation inhaliert das Kind ein kurz wirksames Beta-2-Sympathomimetikum, das die Bronchien schnell erweitert. Als Dauermedikation bekommt es vor allem ein inhalatives Glukokortikoid, das die Entzündung hemmt und regelmäßig genommen werden muss. Die Inhalation erfolgt altersgerecht, beim Kleinkind über einen Spacer mit Maske, beim älteren Kind mit Mundstück. Dazu kommen das Meiden der Auslöser, die Asthmaschulung für Kind und Eltern und regelmäßiger Sport.",
+          "points": [
+            "Stufenschema",
+            "Bedarfsmedikation: Beta-2-Sympathomimetikum",
+            "Dauermedikation: inhalatives Kortison",
+            "Altersgerechte Inhalation, Spacer",
+            "Auslöser meiden",
+            "Asthmaschulung"
+          ],
+          "es": "Divide tu respuesta en medikamentös (con medicamentos) y nicht-medikamentös (sin medicamentos). Nombra el medicamento de rescate y el de control con su efecto, y di que el tratamiento sigue un Stufenschema (esquema escalonado). Lo específico del niño es la inhalación adaptada a la edad y la capacitación de la familia."
+        },
+        {
+          "id": "asthma-kinder.therapie.6",
+          "type": "sprech",
+          "q": "Welche Aufgaben hat die Pflegefachperson bei der Inhalationstherapie eines Kindes mit Dosieraerosol und Spacer?",
+          "answer": "Ich bereite die Inhalation nach ärztlicher Anordnung vor und erkläre dem Kind und den Eltern jeden Schritt altersgerecht. Das Kind sitzt aufrecht, ich schüttle das Dosieraerosol und stecke es in den Spacer. Die Maske muss dicht über Mund und Nase sitzen, ein älteres Kind umschließt das Mundstück mit den Lippen. Nach dem Sprühstoß atmet das Kind mehrere Atemzüge ruhig ein und aus. Danach beobachte ich Wirkung und Nebenwirkungen wie Atmung, Puls und Zittern, und nach Kortison sorge ich für die Mundpflege.",
+          "points": [
+            "Ärztliche Anordnung beachten",
+            "Aufrechte Sitzposition",
+            "Dosieraerosol schütteln",
+            "Maske dicht oder Mundstück",
+            "Mehrere ruhige Atemzüge",
+            "Wirkung und Nebenwirkungen beobachten"
+          ],
+          "es": "Aquí se evalúa tu papel práctico: preparar, asistir y observar. Describe la técnica paso a paso (sentado derecho, agitar el inhalador, mascarilla bien sellada o boquilla, varias respiraciones tranquilas). Termina con la observación del efecto y de los efectos secundarios y con el cuidado de la boca después del corticoide."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "asthma-kinder.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Status asthmaticus?",
+              "options": [
+                "Ein leichter Husten nach dem Sport",
+                "Ein Asthma, das nur im Frühling auftritt",
+                "Ein schwerer, lang anhaltender Asthmaanfall, der trotz Bedarfsmedikation nicht aufhört und lebensbedrohlich ist",
+                "Ein Zustand ohne Beschwerden zwischen zwei Anfällen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Der Status asthmaticus ist ein lebensbedrohlicher Notfall.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Ein schwerer Asthmaanfall, der trotz Behandlung nicht aufhört, heißt Status ___.",
+              "options": ["epilepticus", "asthmaticus", "febrilis", "allergicus"],
+              "correct": 1
+            }
+          ],
+          "es": "El Status asthmaticus (estado asmático) es una crisis grave y prolongada que no cede con el medicamento de rescate. Es la complicación aguda más peligrosa y pone en riesgo la vida, porque el niño puede agotarse y dejar de respirar bien. Siempre es una urgencia médica."
+        },
+        {
+          "id": "asthma-kinder.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sind Alarmzeichen für einen lebensbedrohlichen Asthmaanfall beim Kind?",
+              "options": [
+                "Zyanose der Lippen",
+                "Erschöpfung und zunehmende Schläfrigkeit",
+                "Das Kind spielt und lacht",
+                "Kaum noch hörbares Atemgeräusch („stille Lunge“)",
+                "Das Kind spricht in langen, ganzen Sätzen"
+              ],
+              "correct": [0, 1, 3]
+            },
+            {
+              "form": "tf",
+              "q": "Wenn bei einem Kind im schweren Asthmaanfall das Giemen plötzlich verschwindet und das Kind müde wird, ist das immer ein Zeichen der Besserung.",
+              "correct": false
+            }
+          ],
+          "es": "Signos de alarma son la cianosis, el agotamiento con somnolencia y la stille Lunge («pulmón silencioso»): casi ya no se oye ruido respiratorio porque casi no entra aire. Ojo: si el silbido desaparece y el niño se ve cansado, no está mejorando; es una urgencia que amenaza la vida."
+        },
+        {
+          "id": "asthma-kinder.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die erste Maßnahme, wenn ein Kind auf der Station einen Asthmaanfall bekommt?",
+              "options": [
+                "Das Kind flach hinlegen und das Zimmer verlassen, um Hilfe zu holen",
+                "Dem Kind ein Glas Milch zu trinken geben",
+                "Beim Kind bleiben, es beruhigen und in eine aufrechte, atemerleichternde Haltung bringen",
+                "Abwarten, ob der Anfall von selbst aufhört"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Welche vier Maßnahmen gehören zur Ersten Hilfe beim Asthmaanfall eines Kindes?",
+              "options": [
+                "Ruhe bewahren und das Kind nicht allein lassen",
+                "Oberkörper hoch lagern oder Kutschersitz",
+                "Bedarfsspray nach Anordnung oder Notfallplan geben",
+                "Das Kind flach auf den Rücken legen",
+                "Arzt informieren oder Notruf 112 wählen",
+                "Das Kind zum schnellen Laufen auffordern"
+              ],
+              "correct": [0, 1, 2, 4]
+            }
+          ],
+          "es": "En la crisis: mantén la calma, no dejes solo al niño, colócalo erguido en una atemerleichternde Haltung (postura que facilita la respiración), dale el spray de rescate según la indicación o el Notfallplan (plan de emergencia) y avisa al médico o llama al 112. Acostarlo plano empeora la respiración."
+        },
+        {
+          "id": "asthma-kinder.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Folge kann ein schlecht kontrolliertes Asthma im Alltag eines Kindes haben?",
+              "options": [
+                "Besseres Hören",
+                "Schlafstörungen durch nächtlichen Husten und Fehlzeiten in der Schule",
+                "Schnelleres Wachstum der Zähne",
+                "Eine bessere Konzentration im Unterricht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Ein schlecht kontrolliertes Asthma kann den Schlaf, die Schulleistungen und die sozialen Kontakte des Kindes beeinträchtigen.",
+              "correct": true
+            }
+          ],
+          "es": "Un asma mal controlada afecta la vida diaria: el niño duerme mal por la tos nocturna, está cansado, falta a la escuela y a veces deja de hacer deporte o de jugar con otros niños por miedo. Estas consecuencias psicosociales también son complicaciones y por eso el buen control es tan importante."
+        },
+        {
+          "id": "asthma-kinder.komplikationen.5",
+          "type": "sprech",
+          "q": "Ein vierjähriges Kind bekommt auf Ihrer Station einen Asthmaanfall. Wie handeln Sie?",
+          "answer": "Ich bewahre Ruhe, bleibe beim Kind und beruhige es, denn Angst verstärkt die Atemnot. Ich bringe das Kind in eine aufrechte, atemerleichternde Haltung, zum Beispiel sitzend auf dem Schoß der Mutter oder im Kutschersitz, und öffne enge Kleidung. Ich rufe über die Klingel Hilfe und lasse den Arzt informieren. Nach ärztlicher Anordnung gebe ich das Bedarfsspray über den Spacer mit Maske und verabreiche Sauerstoff. Ich kontrolliere Atmung, Puls, Sauerstoffsättigung und Hautfarbe, beziehe die Eltern ein und dokumentiere alles.",
+          "points": [
+            "Ruhe bewahren, beruhigen",
+            "Nicht allein lassen",
+            "Atemerleichternde Haltung",
+            "Arzt informieren",
+            "Bedarfsspray nach Anordnung",
+            "Vitalzeichen und Sauerstoffsättigung"
+          ],
+          "es": "Es un caso de urgencia típico del examen. El orden importa: calmar y no dejar solo al niño, posición erguida, pedir ayuda y avisar al médico, medicamento de rescate y oxígeno según indicación, y vigilar signos vitales. Menciona a los papás: su presencia tranquila es lo que más calma a un niño pequeño."
+        },
+        {
+          "id": "asthma-kinder.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können beim Asthma im Kindesalter auftreten?",
+          "answer": "Die gefährlichste akute Komplikation ist der schwere Asthmaanfall bis zum Status asthmaticus. Dabei kann sich das Kind erschöpfen, es kommt zu Sauerstoffmangel mit Zyanose und im schlimmsten Fall zum Atemversagen. Außerdem können Atemwegsinfekte das Asthma immer wieder akut verschlechtern. Langfristig führt ein schlecht kontrolliertes Asthma zu Schlafstörungen, Fehlzeiten in der Schule und einer geringeren Belastbarkeit. Als Nebenwirkung der Kortisoninhalation kann ein Mundsoor entstehen.",
+          "points": [
+            "Status asthmaticus",
+            "Erschöpfung, Atemversagen",
+            "Sauerstoffmangel, Zyanose",
+            "Atemwegsinfekte",
+            "Schlafstörungen, Schulfehlzeiten",
+            "Mundsoor durch Kortison"
+          ],
+          "es": "Separa las complicaciones agudas (crisis grave, Status asthmaticus, agotamiento, falta de oxígeno) de las de largo plazo (infecciones, mal sueño, faltas a la escuela, menor rendimiento físico). Agregar el Mundsoor como efecto del tratamiento muestra que piensas como enfermera."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "asthma-kinder.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Kind mit Asthma bronchiale?",
+          "answer": "Ich beobachte vor allem die Atmung: Atemfrequenz, Atemgeräusche wie Giemen, Einziehungen, Nasenflügeln und den Einsatz der Atemhilfsmuskulatur. Ich achte auf Husten, besonders nachts, und auf die Hautfarbe, vor allem auf eine Zyanose der Lippen. Ich kontrolliere Puls und Sauerstoffsättigung und beurteile die Werte altersgerecht. Außerdem beobachte ich das Verhalten des Kindes, also ob es spielt, trinkt und ganze Sätze spricht oder unruhig und ängstlich ist. Nach der Inhalation beobachte ich Wirkung und Nebenwirkungen der Medikamente.",
+          "points": [
+            "Atemfrequenz und Atemgeräusche",
+            "Einziehungen, Nasenflügeln",
+            "Hautfarbe, Zyanose",
+            "Puls und Sauerstoffsättigung",
+            "Verhalten, Trinken, Sprechen",
+            "Wirkung der Medikamente"
+          ],
+          "es": "La Krankenbeobachtung (observación del paciente) es la tarea central, porque el niño pequeño no puede describir su dificultad para respirar. Empieza con la respiración, sigue con color de piel y signos vitales, y termina con la conducta: un niño que ya no juega, no toma o no habla está grave."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Beobachtung bei einem Kind mit Asthma müssen Sie sofort dem Arzt melden?",
+              "options": [
+                "Das Kind möchte nach der Inhalation spielen",
+                "Die Atemnot nimmt trotz Bedarfsspray zu und die Lippen werden bläulich",
+                "Das Kind hat nach dem Mittagessen Durst",
+                "Das Kind schläft nachts ruhig durch"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Atemfrequenz eines Kindes wird immer im Vergleich zu den Normalwerten seiner Altersgruppe beurteilt.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Sauerstoffsättigung wird beim Kind nicht-invasiv mit dem ___ gemessen.",
+              "options": ["Blutdruckgerät", "Thermometer", "Pulsoxymeter", "Peak-Flow-Meter"],
+              "correct": 2
+            }
+          ],
+          "es": "Si la dificultad respiratoria aumenta a pesar del spray de rescate o aparece cianosis, debes avisar de inmediato al médico: puede empezar un Status asthmaticus. Recuerda valorar la frecuencia respiratoria según la edad y medir la saturación con el Pulsoxymeter (oxímetro de pulso)."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie leiten Sie ein Kind und seine Eltern zur Inhalation an?",
+          "answer": "Ich leite das Kind altersgerecht und spielerisch an, zum Beispiel inhaliert zuerst das Kuscheltier oder wir zählen die Atemzüge gemeinsam. Ich erkläre und zeige jeden Schritt: aufrecht sitzen, Dosieraerosol schütteln, in den Spacer stecken, Maske dicht aufsetzen oder Mundstück mit den Lippen umschließen und mehrere Atemzüge ruhig atmen. Dann lasse ich das Kind und die Eltern die Inhalation selbst durchführen und korrigiere Fehler. Ich erkläre den Unterschied zwischen Bedarfsspray und Dauermedikament und lobe das Kind. Außerdem zeige ich die Reinigung des Spacers und die Mundpflege nach dem Kortison.",
+          "points": [
+            "Altersgerecht und spielerisch",
+            "Schritte zeigen und erklären",
+            "Selbst durchführen lassen",
+            "Bedarfs- und Dauermedikament unterscheiden",
+            "Loben",
+            "Mundpflege nach Kortison"
+          ],
+          "es": "En pediatría la Anleitung (instrucción práctica) tiene que ser adecuada a la edad y con juego: el peluche inhala primero, se cuentan las respiraciones, se elogia al niño. El principio es mostrar, dejar hacer y corregir. Los errores de técnica son la causa más frecuente de que el tratamiento no funcione."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.4",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Worüber beraten und schulen Sie die Eltern eines Kindes mit Asthma?",
+          "answer": "Die Eltern sind Co-Therapeuten, deshalb schule ich sie gründlich. Ich erkläre die Erkrankung, die Auslöser und wie man sie meidet, zum Beispiel durch ein rauchfreies Zuhause und eine allergenarme Umgebung. Ich bespreche die Medikamente und die richtige Inhalationstechnik. Wichtig ist der schriftliche Notfallplan: Die Eltern sollen einen Anfall erkennen und richtig handeln können, und auch Kindergarten oder Schule brauchen den Plan und das Bedarfsspray. Ich empfehle eine Asthmaschulung für Kind und Familie und erkläre, dass Sport erwünscht ist.",
+          "points": [
+            "Eltern als Co-Therapeuten",
+            "Auslöser meiden, rauchfrei",
+            "Medikamente und Inhalation",
+            "Notfallplan, auch für Schule",
+            "Asthmaschulung",
+            "Sport erwünscht"
+          ],
+          "es": "En el asma infantil los papás son Co-Therapeuten (coterapeutas): ellos aplican el tratamiento todos los días. Tu asesoría incluye conocer la enfermedad, evitar desencadenantes, la técnica de inhalación y el Notfallplan (plan de emergencia) por escrito, que también deben tener el kínder y la escuela. La Asthmaschulung es un curso estructurado para el niño y su familia."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie kann man Asthmaanfällen bei einem Kind vorbeugen?",
+          "answer": "Die Anfallsprophylaxe besteht vor allem darin, die bekannten Auslöser zu meiden. Die Wohnung muss rauchfrei sein. Bei einer Hausstaubmilbenallergie helfen milbendichte Bezüge für Matratze, Kopfkissen und Bettdecke, heiß waschbare Bettwäsche, wenige Staubfänger und Kuscheltiere, die regelmäßig gewaschen werden. Bei einer Tierhaarallergie sollte kein Haustier in der Wohnung leben, und bei Pollenflug werden die Haare abends gewaschen und die Fenster entsprechend geschlossen. Außerdem muss das Kind die Dauermedikation regelmäßig inhalieren, auch wenn es keine Beschwerden hat.",
+          "points": [
+            "Auslöser meiden",
+            "Rauchfreies Zuhause",
+            "Milbendichte Bezüge",
+            "Keine Haustiere bei Tierhaarallergie",
+            "Maßnahmen bei Pollenflug",
+            "Dauermedikation regelmäßig"
+          ],
+          "es": "La Anfallsprophylaxe (prevención de crisis) tiene dos pilares: Allergenkarenz (evitar los alérgenos y demás desencadenantes) y tomar el medicamento de control todos los días. Da ejemplos concretos, como fundas antiácaros, casa sin humo y peluches lavados; eso suena a práctica real y no a teoría."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist nach der Inhalation von Kortison eine Mundpflege nötig?",
+              "options": [
+                "Um einer Pilzinfektion im Mund (Soor) vorzubeugen",
+                "Damit das Medikament besser schmeckt",
+                "Um die Wirkung des Kortisons in der Lunge zu verstärken",
+                "Um Karies sicher zu verhindern"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen sind nach der Kortisoninhalation beim Kind richtig?",
+              "options": [
+                "Mund ausspülen oder Zähne putzen",
+                "Etwas trinken oder essen lassen",
+                "Nach Inhalation mit Maske das Gesicht waschen",
+                "Den Mund mehrere Stunden trocken lassen",
+                "Die Inhalation ausfallen lassen"
+              ],
+              "correct": [0, 1, 2]
+            },
+            {
+              "form": "tf",
+              "q": "Nach der Inhalation mit Kortison ist keine Mundpflege nötig, weil das Medikament nur in der Lunge wirkt.",
+              "correct": false
+            }
+          ],
+          "es": "Parte del corticoide se queda en la boca y la garganta y favorece el Mundsoor (candidiasis oral). La Soorprophylaxe consiste en enjuagar la boca, cepillar los dientes o dar algo de beber o comer después de inhalar; por eso conviene inhalar antes de la comida. Si el niño usa mascarilla, también se le lava la cara."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Kind mit Asthma besonders wichtig? Begründen Sie.",
+          "answer": "Wichtig ist erstens die Anfallsprophylaxe, also das Meiden der Auslöser und die regelmäßige Dauermedikation. Zweitens die Infekt- und Pneumonieprophylaxe, weil Atemwegsinfekte Anfälle auslösen und zäher Schleim die Belüftung der Lunge verschlechtert. Dazu gehören Händehygiene, Abstand zu erkälteten Personen, die empfohlenen Impfungen, Atemübungen, ausreichendes Trinken und Bewegung. Drittens die Soorprophylaxe mit Mundpflege nach jeder Kortisoninhalation.",
+          "points": [
+            "Anfallsprophylaxe",
+            "Infekt- und Pneumonieprophylaxe",
+            "Händehygiene, Impfungen",
+            "Atemübungen, Trinken, Bewegung",
+            "Soorprophylaxe"
+          ],
+          "es": "Nombra tres profilaxis y da la razón de cada una: Anfallsprophylaxe (evitar crisis), Infekt- und Pneumonieprophylaxe (prevención de infecciones y neumonía, porque las infecciones desencadenan crisis y el moco se acumula) y Soorprophylaxe (por el corticoide inhalado). Dar siempre el «porque» es lo que da puntos."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Welche atemerleichternden Haltungen und Techniken zeigen Sie einem Kind mit Asthma, und was sagen Sie zum Thema Sport?",
+          "answer": "Bei Atemnot helfen aufrechte Haltungen, zum Beispiel der Kutschersitz oder die Torwartstellung, weil das Kind dabei die Arme abstützt und die Atemhilfsmuskulatur besser einsetzen kann. Ein Kleinkind sitzt aufrecht auf dem Schoß der Eltern. Zusätzlich übe ich mit dem Kind die Lippenbremse, also das langsame Ausatmen gegen die locker geschlossenen Lippen. Sport und Bewegung sind ausdrücklich erwünscht, weil sie die Lunge und die Belastbarkeit stärken. Wichtig sind ein langsames Aufwärmen und dass das Bedarfsspray beim Sport immer dabei ist.",
+          "points": [
+            "Kutschersitz, Torwartstellung",
+            "Arme abstützen",
+            "Kleinkind aufrecht auf dem Schoß",
+            "Lippenbremse",
+            "Sport erwünscht",
+            "Aufwärmen, Bedarfsspray dabei"
+          ],
+          "es": "Las atemerleichternde Haltungen (posturas que facilitan la respiración) son el Kutschersitz (posición de cochero: sentado, inclinado hacia adelante, antebrazos sobre los muslos) y la Torwartstellung (posición de portero: de pie, rodillas ligeramente flexionadas, manos apoyadas en los muslos). La Lippenbremse es exhalar despacio con los labios casi cerrados. Y muy importante: el deporte es deseado, no prohibido."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.9",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Kinder mit Asthma sollen grundsätzlich vom Schulsport befreit werden.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Was bewirkt die Lippenbremse?",
+              "options": [
+                "Sie beschleunigt die Einatmung",
+                "Sie befeuchtet die Nasenschleimhaut",
+                "Sie ersetzt das Bedarfsspray",
+                "Sie hält die Bronchien beim Ausatmen länger offen und erleichtert so die Ausatmung"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Technik der Beschreibung zu.",
+              "pairs": [
+                ["Kutschersitz", "Sitzen mit vorgebeugtem Oberkörper, Unterarme auf den Oberschenkeln"],
+                ["Torwartstellung", "Stehen mit leicht gebeugten Knien, Hände auf den Oberschenkeln abgestützt"],
+                ["Lippenbremse", "Langsames Ausatmen gegen die locker geschlossenen Lippen"]
+              ]
+            }
+          ],
+          "es": "Los niños con asma no deben quedar exentos del deporte escolar: con buen control, calentamiento y el spray a la mano pueden participar. La Lippenbremse mantiene los bronquios abiertos más tiempo al exhalar. Con niños pequeños se practica jugando, por ejemplo soplando burbujas o un rehilete."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung und beim Trinken eines Kindes mit Asthma?",
+          "answer": "Das Kind soll ausreichend trinken, weil Flüssigkeit den zähen Schleim verflüssigt und das Abhusten erleichtert. Bei Atemnot biete ich mehrere kleine Mahlzeiten und häufig kleine Trinkmengen an, weil ein voller Magen die Atmung behindert und das Kind schnell erschöpft ist. Bei Säuglingen beobachte ich das Trinkverhalten genau und plane Pausen beim Stillen oder bei der Flasche ein. Bekannte Nahrungsmittelallergien beachte ich. Außerdem achte ich auf ein normales Körpergewicht, weil Übergewicht das Asthma verschlechtert.",
+          "points": [
+            "Ausreichend trinken",
+            "Schleim verflüssigen",
+            "Kleine Mahlzeiten",
+            "Trinkverhalten beim Säugling",
+            "Nahrungsmittelallergien beachten",
+            "Normales Körpergewicht"
+          ],
+          "es": "Tomar suficientes líquidos ayuda a que el moco espeso sea más fluido. Con dificultad respiratoria se dan comidas pequeñas y frecuentes, porque el estómago lleno empuja el diafragma. En el lactante vigilas cómo toma y le das pausas. Menciona también las alergias alimentarias y el peso normal."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.11",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Was beachten Sie bei der Körperpflege eines Kindes mit Asthma?",
+          "answer": "Nach jeder Kortisoninhalation führe ich die Mundpflege durch oder leite das Kind dazu an, und nach der Inhalation mit Maske wasche ich das Gesicht. Bei Atemnot passe ich die Körperpflege an die Belastbarkeit an, mache Pausen und übernehme anstrengende Teile. Ich verwende keine Sprays und keine stark parfümierten Pflegeprodukte, weil Duftstoffe die Bronchien reizen können. Viele Kinder haben zusätzlich Neurodermitis, deshalb beobachte ich die Haut und pflege sie mit den verordneten rückfettenden Produkten. Bei einer Pollenallergie werden die Haare am Abend gewaschen.",
+          "points": [
+            "Mundpflege nach Kortison",
+            "Gesicht waschen nach Maske",
+            "An Belastbarkeit anpassen, Pausen",
+            "Keine Sprays, keine Duftstoffe",
+            "Hautpflege bei Neurodermitis",
+            "Haare waschen bei Pollenallergie"
+          ],
+          "es": "En el cuidado corporal piensas en cuatro cosas: boca y cara después del corticoide, adaptar el baño a la capacidad del niño cuando le falta el aire, evitar aerosoles y perfumes que irritan los bronquios, y cuidar la piel porque muchos niños con asma también tienen Neurodermitis."
+        },
+        {
+          "id": "asthma-kinder.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Kleidung und der Bettwäsche eines Kindes mit Asthma?",
+          "answer": "Die Kleidung soll locker und bequem sein und darf Brustkorb und Bauch nicht einengen, damit das Kind frei atmen kann. Im Asthmaanfall öffne ich enge Kleidung sofort. Bei kaltem Wetter schützt ein Schal vor Mund und Nase, weil kalte Luft einen Anfall auslösen kann. Bei einer Pollenallergie wird die getragene Kleidung nicht im Kinderzimmer ausgezogen und abgelegt. Bei einer Hausstaubmilbenallergie bekommt das Bett milbendichte Bezüge, und die Bettwäsche wird regelmäßig bei mindestens 60 Grad gewaschen.",
+          "points": [
+            "Lockere, nicht einengende Kleidung",
+            "Im Anfall Kleidung öffnen",
+            "Schal bei kalter Luft",
+            "Getragene Kleidung nicht ins Kinderzimmer",
+            "Milbendichte Bezüge",
+            "Bettwäsche bei 60 Grad waschen"
+          ],
+          "es": "La ropa no debe apretar el tórax ni el abdomen; en la crisis se afloja de inmediato. En invierno una bufanda sobre boca y nariz calienta el aire frío. Con alergia al polen la ropa usada no se deja en el cuarto del niño, y con alergia a los ácaros se usan fundas antiácaros y se lava la ropa de cama a 60 grados."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "asthma-kinder.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Kind mit Asthma und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Das Kind hat Atemnot aufgrund der verengten Bronchien, es atmet schnell und zeigt Giemen und Einziehungen. Ziel: Das Kind atmet innerhalb von 30 Minuten nach der Bedarfsinhalation ruhiger, hat eine altersgerechte Atemfrequenz und eine Sauerstoffsättigung im Normbereich. Maßnahmen: Ich bringe das Kind in eine atemerleichternde Haltung mit erhöhtem Oberkörper, gebe das Bedarfsspray nach ärztlicher Anordnung über den Spacer, kontrolliere regelmäßig Atmung, Puls und Sauerstoffsättigung und bleibe beim Kind, um es zu beruhigen.",
+          "points": [
+            "Problem: Atemnot",
+            "Ziel: altersgerechte Atemfrequenz",
+            "Atemerleichternde Haltung",
+            "Bedarfsspray nach Anordnung",
+            "Atmung und Sättigung kontrollieren"
+          ],
+          "es": "El problema de enfermería número uno es la Atemnot (dificultad para respirar). Usa siempre la estructura Problem – Ziel – Maßnahmen. La meta es medible (frecuencia respiratoria adecuada a la edad, saturación normal) y tiene plazo (30 minutos después de inhalar), así cumple con SMART."
+        },
+        {
+          "id": "asthma-kinder.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein weiteres Pflegeproblem bei einem Kind mit Asthma, das die Inhalationstherapie betrifft, mit Ziel und Maßnahmen.",
+          "answer": "Problem: Das Kind und seine Eltern haben ein Wissensdefizit, sie beherrschen die Inhalationstechnik noch nicht sicher und kennen den Unterschied zwischen Bedarfs- und Dauermedikation nicht. Ziel: Das Kind und die Eltern führen die Inhalation mit dem Spacer bis zur Entlassung selbstständig und korrekt durch und können beide Medikamente richtig zuordnen. Maßnahmen: Ich leite täglich altersgerecht und spielerisch zur Inhalation an, lasse die Technik vorführen und korrigiere sie, gebe schriftliches Informationsmaterial mit und vermittle eine Asthmaschulung.",
+          "points": [
+            "Problem: Wissensdefizit Inhalation",
+            "Ziel: korrekte Inhalation bis Entlassung",
+            "Tägliche Anleitung",
+            "Technik vorführen lassen",
+            "Asthmaschulung vermitteln"
+          ],
+          "es": "El segundo problema típico es el Wissensdefizit (déficit de conocimientos) del niño y de los papás sobre la inhalación. La meta se puede comprobar: hasta el alta hacen la inhalación solos y correctamente. Las medidas son instruir a diario, pedir que lo demuestren y canalizar a una Asthmaschulung."
+        },
+        {
+          "id": "asthma-kinder.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein Pflegeproblem aus dem psychischen Bereich bei einem Kind mit Asthma und formulieren Sie Ziel und Maßnahmen.",
+          "answer": "Problem: Das Kind und seine Eltern haben Angst vor einem erneuten Asthmaanfall, und die Angst verstärkt die Atemnot. Ziel: Die Eltern nennen bis zur Entlassung die Schritte des Notfallplans, und das Kind wendet bei beginnender Atemnot innerhalb einer Woche die Lippenbremse und den Kutschersitz an. Maßnahmen: Ich lasse das Kind bei Atemnot nicht allein und spreche ruhig mit ihm, ich beziehe die Eltern ein und ermögliche ihre Anwesenheit, ich übe die atemerleichternden Techniken spielerisch und bespreche den schriftlichen Notfallplan mit der Familie.",
+          "points": [
+            "Problem: Angst vor Anfall",
+            "Ziel: Notfallplan nennen können",
+            "Nicht allein lassen, beruhigen",
+            "Eltern einbeziehen",
+            "Atemtechniken üben"
+          ],
+          "es": "La Angst (miedo) es un problema real: el miedo aumenta la dificultad respiratoria y forma un círculo vicioso. La meta se mide en lo que la familia sabe hacer: los papás nombran los pasos del plan de emergencia y el niño aplica la Lippenbremse y el Kutschersitz. La seguridad se gana con conocimiento y práctica."
+        },
+        {
+          "id": "asthma-kinder.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART, und wie formulieren Sie ein Pflegeziel für ein Kind mit Asthma?",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert oder attraktiv, realistisch und terminiert ist. Das Ziel beschreibt einen Zustand, den der Patient erreichen soll, und wird positiv und in der Gegenwart formuliert. Ein Beispiel bei Asthma ist: Das Kind führt die Inhalation mit dem Spacer bis zur Entlassung selbstständig und korrekt durch. Dieses Ziel ist spezifisch und messbar, weil ich die Technik beobachten kann, es ist für ein Schulkind realistisch und hat einen Termin. Bei Kindern formuliere ich die Ziele altersgerecht und beziehe die Eltern ein.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert, realistisch",
+            "Terminiert",
+            "Beispiel: korrekte Inhalation",
+            "Eltern einbeziehen"
+          ],
+          "es": "SMART significa spezifisch (específico), messbar (medible), akzeptiert (aceptado), realistisch (realista) y terminiert (con plazo). Explica cada letra y da enseguida un ejemplo de asma. En pediatría agrega que la meta debe ser adecuada a la edad y que los papás participan."
+        }
+      ]
+    }
+  ]
+}

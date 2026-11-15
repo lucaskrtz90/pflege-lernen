@@ -1,0 +1,1918 @@
+{
+  "id": "pneumonie",
+  "name": "Pneumonie",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "pneumonie.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Pneumonie?",
+              "options": [
+                "Eine Verengung der Bronchien durch einen Krampf der Bronchialmuskulatur",
+                "Eine akute oder chronische Entzündung des Lungengewebes, meist durch Erreger verursacht",
+                "Ein Verschluss einer Lungenarterie durch ein Blutgerinnsel",
+                "Eine Ansammlung von Luft im Pleuraspalt"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Pneumonie sind nur die Bronchien entzündet, das Lungengewebe selbst ist nicht betroffen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Pneumonie ist eine Entzündung des ___, also der Alveolen und/oder des Gewebes dazwischen.",
+              "options": [
+                "Rippenfells",
+                "Kehlkopfs",
+                "Lungengewebes",
+                "Herzmuskels"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La Pneumonie (neumonía) es una inflamación del Lungengewebe (tejido pulmonar), es decir, de los alvéolos y/o del tejido que está entre ellos, casi siempre causada por microbios. No es lo mismo que una bronquitis, donde solo se inflaman los bronquios. En el examen empieza siempre con esta definición."
+        },
+        {
+          "id": "pneumonie.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann spricht man von einer nosokomialen Pneumonie?",
+              "options": [
+                "Wenn die Pneumonie zu Hause erworben wurde",
+                "Wenn die Pneumonie durch Viren verursacht wird",
+                "Wenn die Pneumonie nur einen Lungenlappen betrifft",
+                "Wenn die Pneumonie im Krankenhaus erworben wurde, frühestens 48 Stunden nach der Aufnahme"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Eine nosokomiale Pneumonie tritt frühestens ___ Stunden nach der Aufnahme ins Krankenhaus auf.",
+              "options": [
+                "48",
+                "6",
+                "12",
+                "2"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Form der Pneumonie der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Ambulant erworbene Pneumonie",
+                  "Außerhalb des Krankenhauses erworben"
+                ],
+                [
+                  "Nosokomiale Pneumonie",
+                  "Im Krankenhaus erworben"
+                ],
+                [
+                  "Aspirationspneumonie",
+                  "Durch Eindringen von Mageninhalt oder Nahrung in die Atemwege"
+                ],
+                [
+                  "Beatmungsassoziierte Pneumonie",
+                  "Entsteht bei Patienten mit invasiver Beatmung"
+                ]
+              ]
+            }
+          ],
+          "es": "Según dónde se adquiere, se distingue la ambulant erworbene Pneumonie (neumonía adquirida en la comunidad) y la nosokomiale Pneumonie (neumonía intrahospitalaria), que aparece como mínimo 48 horas después del ingreso. La diferencia importa porque los gérmenes del hospital son otros y muchas veces más resistentes."
+        },
+        {
+          "id": "pneumonie.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Aspirationspneumonie?",
+              "options": [
+                "Eine Pneumonie durch Einatmen von kalter Luft",
+                "Eine Pneumonie, die nur bei Rauchern vorkommt",
+                "Eine Pneumonie, die entsteht, wenn Mageninhalt, Nahrung oder Speichel in die Atemwege gelangen",
+                "Eine Pneumonie nach einer Lungenembolie"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Aspirationspneumonie entsteht, wenn Nahrung, Speichel oder Mageninhalt in die Atemwege gelangen.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Gelangen Nahrung oder Mageninhalt in die Atemwege, nennt man das ___.",
+              "options": [
+                "Auskultation",
+                "Aspiration",
+                "Inhalation",
+                "Expektoration"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Aspiration (broncoaspiración) significa que comida, saliva o contenido del estómago se van a las vías respiratorias en lugar del esófago. Eso lleva gérmenes y ácido al pulmón y provoca la Aspirationspneumonie (neumonía por aspiración). Es típica en pacientes con Schluckstörung (trastorno de la deglución) o con alteración de la conciencia."
+        },
+        {
+          "id": "pneumonie.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Form der Pneumonie nach ihrer Ausbreitung zu.",
+              "pairs": [
+                [
+                  "Lobärpneumonie",
+                  "Ein ganzer Lungenlappen ist betroffen"
+                ],
+                [
+                  "Bronchopneumonie",
+                  "Herdförmige Entzündung, die von den Bronchien ausgeht"
+                ],
+                [
+                  "Interstitielle Pneumonie",
+                  "Entzündung des Gewebes zwischen den Alveolen"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist bei einer Lobärpneumonie betroffen?",
+              "options": [
+                "Ein ganzer Lungenlappen",
+                "Nur die Luftröhre",
+                "Nur das Rippenfell",
+                "Immer beide Lungenflügel vollständig"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Según cómo se extiende en el pulmón hay tres formas: la Lobärpneumonie (neumonía lobar) afecta un lóbulo completo, la Bronchopneumonie (bronconeumonía) forma focos alrededor de los bronquios y la interstitielle Pneumonie (neumonía intersticial) afecta el tejido entre los alvéolos. Con esto puedes entender lo que dice el reporte de la radiografía."
+        },
+        {
+          "id": "pneumonie.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine sekundäre Pneumonie?",
+              "options": [
+                "Eine Pneumonie, die zum zweiten Mal im Leben auftritt",
+                "Eine Pneumonie bei einem zuvor gesunden Menschen ohne Vorerkrankung",
+                "Eine Pneumonie, die nur den zweiten Lungenflügel betrifft",
+                "Eine Pneumonie, die als Folge einer anderen Erkrankung oder eines begünstigenden Faktors entsteht, z. B. Bettlägerigkeit"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Entwickelt ein bettlägeriger Patient mit Herzinsuffizienz eine Pneumonie, spricht man von einer sekundären Pneumonie.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne zu.",
+              "pairs": [
+                [
+                  "Primäre Pneumonie",
+                  "Tritt bei zuvor Lungengesunden ohne Vorerkrankung auf"
+                ],
+                [
+                  "Sekundäre Pneumonie",
+                  "Entsteht auf dem Boden einer Vorerkrankung oder eines Risikofaktors"
+                ],
+                [
+                  "Nosokomiale Pneumonie",
+                  "Wird im Krankenhaus erworben"
+                ]
+              ]
+            }
+          ],
+          "es": "Una primäre Pneumonie (neumonía primaria) aparece en una persona antes sana. La sekundäre Pneumonie (neumonía secundaria) se desarrolla porque ya hay otra enfermedad o un factor que la favorece, por ejemplo Bettlägerigkeit (estar postrado en cama), insuficiencia cardiaca o EPOC. En el hospital casi siempre vas a ver neumonías secundarias, y por eso la prevención es tarea de enfermería."
+        },
+        {
+          "id": "pneumonie.definition.6",
+          "type": "sprech",
+          "q": "Was ist eine Pneumonie? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Eine Pneumonie ist eine Lungenentzündung, also eine akute oder chronische Entzündung des Lungengewebes. Sie wird meistens durch Erreger verursacht, vor allem durch Bakterien, aber auch durch Viren oder Pilze. Durch die Entzündung füllen sich die Alveolen mit Flüssigkeit und Sekret, deshalb ist der Gasaustausch gestört. Man unterscheidet die ambulant erworbene Pneumonie und die nosokomiale Pneumonie, die im Krankenhaus erworben wird. Eine Sonderform ist die Aspirationspneumonie.",
+          "points": [
+            "Entzündung des Lungengewebes",
+            "Erreger: Bakterien, Viren, Pilze",
+            "Gasaustausch gestört",
+            "Ambulant erworben / nosokomial",
+            "Aspirationspneumonie"
+          ],
+          "es": "Esta es la pregunta de entrada clásica. Empieza con la definición (inflamación del Lungengewebe, tejido pulmonar), di qué la causa y qué pasa en los alvéolos, y cierra con la clasificación: ambulant erworben (adquirida en la comunidad), nosokomial (intrahospitalaria) y Aspirationspneumonie. Con cuatro o cinco frases claras es suficiente."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "pneumonie.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welcher Reihenfolge strömt die Atemluft bei der Einatmung?",
+              "options": [
+                "Nase – Kehlkopf – Rachen – Bronchien – Luftröhre – Alveolen",
+                "Nase – Rachen – Kehlkopf – Luftröhre – Bronchien – Bronchiolen – Alveolen",
+                "Nase – Rachen – Luftröhre – Kehlkopf – Alveolen – Bronchien",
+                "Nase – Speiseröhre – Luftröhre – Bronchiolen – Bronchien – Alveolen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Strukturen den Atemwegen zu.",
+              "pairs": [
+                [
+                  "Nase und Rachen",
+                  "Obere Atemwege"
+                ],
+                [
+                  "Luftröhre und Bronchien",
+                  "Untere Atemwege"
+                ],
+                [
+                  "Alveolen",
+                  "Ort des Gasaustauschs"
+                ]
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Die Luftröhre (Trachea) teilt sich in die beiden ___, die in die Lungenflügel führen.",
+              "options": [
+                "Speiseröhren",
+                "Lungenvenen",
+                "Hauptbronchien",
+                "Stimmbänder"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El aire pasa por Nase (nariz), Rachen (faringe), Kehlkopf (laringe), Luftröhre (tráquea), Bronchien, Bronchiolen y llega a los Alveolen (alvéolos). Nariz y faringe forman las vías respiratorias altas (obere Atemwege); la tráquea y los bronquios pertenecen a las bajas (untere Atemwege). La neumonía ocurre al final de este camino, en el tejido pulmonar."
+        },
+        {
+          "id": "pneumonie.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo findet der Gasaustausch statt?",
+              "options": [
+                "In den Alveolen (Lungenbläschen)",
+                "In der Luftröhre",
+                "In den Hauptbronchien",
+                "Im Pleuraspalt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Der Gasaustausch findet in den Bronchien statt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "In den Alveolen geht Sauerstoff ins Blut über und ___ wird aus dem Blut an die Atemluft abgegeben.",
+              "options": [
+                "Stickstoff",
+                "Kohlendioxid",
+                "Glukose",
+                "Wasserstoff"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El Gasaustausch (intercambio gaseoso) ocurre en los Alveolen (alvéolos): el oxígeno pasa del aire a la sangre de los capilares y el Kohlendioxid (dióxido de carbono) sale de la sangre al aire. En la neumonía los alvéolos se llenan de líquido inflamatorio, por eso entra menos oxígeno a la sangre y el paciente tiene disnea."
+        },
+        {
+          "id": "pneumonie.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie viele Lungenlappen hat die Lunge?",
+              "options": [
+                "Rechts zwei, links drei",
+                "Rechts zwei, links zwei",
+                "Rechts drei, links drei",
+                "Rechts drei, links zwei"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Der linke Lungenflügel besteht aus drei Lungenlappen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der rechte Lungenflügel hat ___ Lungenlappen, der linke hat zwei.",
+              "options": [
+                "vier",
+                "drei",
+                "fünf",
+                "einen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El pulmón derecho tiene tres Lungenlappen (lóbulos pulmonares) y el izquierdo solo dos, porque el corazón ocupa espacio del lado izquierdo. Lo necesitas para entender términos como Lobärpneumonie (neumonía de un lóbulo) o «Unterlappenpneumonie» (neumonía del lóbulo inferior)."
+        },
+        {
+          "id": "pneumonie.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie reinigen sich die Atemwege normalerweise selbst?",
+              "options": [
+                "Durch die Magensäure",
+                "Durch die Alveolen, die Sekret ins Blut aufnehmen",
+                "Durch Schleim und Flimmerhärchen, die Fremdkörper Richtung Rachen transportieren, und durch den Hustenreflex",
+                "Durch das Zwerchfell, das Keime abtötet"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Das Flimmerepithel der Atemwege transportiert Schleim mit Staub und Keimen in Richtung Rachen.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Mechanismen gehören zur Selbstreinigung der Atemwege?",
+              "options": [
+                "Flimmerepithel mit Schleim",
+                "Hustenreflex",
+                "Gasaustausch",
+                "Herzschlag",
+                "Pleuraspalt"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            }
+          ],
+          "es": "Las vías respiratorias se limpian solas: el moco atrapa polvo y gérmenes y el Flimmerepithel (epitelio ciliado) lo mueve hacia la faringe; además está el Hustenreflex (reflejo de la tos). Si este sistema falla, por ejemplo por fumar, por un tubo de ventilación o por tos débil, las secreciones se quedan en el pulmón y favorecen la neumonía."
+        },
+        {
+          "id": "pneumonie.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Pleura?",
+              "options": [
+                "Der wichtigste Atemmuskel",
+                "Der Kehldeckel, der die Luftröhre beim Schlucken verschließt",
+                "Die Schleimhaut der Bronchien",
+                "Eine zweiblättrige Haut aus Lungenfell und Rippenfell, die die Lunge umgibt"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Atemabhängige Schmerzen bei einer Pneumonie entstehen, wenn das Rippenfell mitentzündet ist.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne zu.",
+              "pairs": [
+                [
+                  "Lungenfell",
+                  "Überzieht die Lunge"
+                ],
+                [
+                  "Rippenfell",
+                  "Kleidet den Brustkorb von innen aus"
+                ],
+                [
+                  "Pleuraspalt",
+                  "Schmaler Raum zwischen den beiden Pleurablättern"
+                ],
+                [
+                  "Zwerchfell",
+                  "Wichtigster Atemmuskel"
+                ]
+              ]
+            }
+          ],
+          "es": "La Pleura tiene dos hojas: el Lungenfell (pleura visceral) cubre el pulmón y el Rippenfell (pleura parietal) tapiza el tórax por dentro; entre las dos está el Pleuraspalt (espacio pleural). El Rippenfell es muy sensible al dolor: si se inflama junto con el pulmón, el paciente tiene dolor al respirar y respira superficialmente."
+        },
+        {
+          "id": "pneumonie.anatomie.6",
+          "type": "sprech",
+          "q": "Erklären Sie kurz den Aufbau der Lunge und was bei einer Pneumonie in der Lunge passiert.",
+          "answer": "Die Atemluft gelangt über Nase, Rachen, Kehlkopf, Luftröhre und Bronchien bis in die Alveolen. In den Alveolen findet der Gasaustausch statt: Sauerstoff geht ins Blut über und Kohlendioxid wird abgegeben. Bei einer Pneumonie ist das Lungengewebe entzündet und die Alveolen füllen sich mit entzündlicher Flüssigkeit und Sekret. Dadurch ist der Gasaustausch gestört und es kommt zu Sauerstoffmangel und Atemnot.",
+          "points": [
+            "Weg der Atemluft",
+            "Alveolen",
+            "Gasaustausch",
+            "Entzündliches Sekret in den Alveolen",
+            "Sauerstoffmangel und Atemnot"
+          ],
+          "es": "Aquí une anatomía y enfermedad: primero describe el camino del aire hasta los Alveolen y el Gasaustausch (intercambio gaseoso), y luego explica que en la neumonía los alvéolos se llenan de líquido inflamatorio. Así queda claro por qué el paciente tiene falta de oxígeno y Atemnot (disnea)."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "pneumonie.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Erreger verursacht am häufigsten eine ambulant erworbene Pneumonie?",
+              "options": [
+                "Pneumokokken (Streptococcus pneumoniae)",
+                "Candida albicans",
+                "Helicobacter pylori",
+                "Noroviren"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die häufigsten Erreger einer ambulant erworbenen Pneumonie sind Pilze.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Der häufigste Erreger der ambulant erworbenen Pneumonie sind ___.",
+              "options": [
+                "Salmonellen",
+                "Hefepilze",
+                "Pneumokokken",
+                "Noroviren"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los Pneumokokken (neumococos, Streptococcus pneumoniae) son la causa más frecuente de la ambulant erworbene Pneumonie (neumonía adquirida en la comunidad). Son bacterias, por eso se trata con antibióticos, y existe una vacuna que se recomienda sobre todo a personas mayores y con enfermedades crónicas."
+        },
+        {
+          "id": "pneumonie.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Erregergruppen können eine Pneumonie verursachen?",
+              "options": [
+                "Bakterien",
+                "Viren",
+                "Pilze",
+                "Milben",
+                "Läuse"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Eine Pneumonie wird ausschließlich durch Bakterien verursacht.",
+              "correct": false
+            },
+            {
+              "form": "match",
+              "q": "Ordne die Erreger der Erregergruppe zu.",
+              "pairs": [
+                [
+                  "Pneumokokken",
+                  "Bakterien"
+                ],
+                [
+                  "Influenzaviren",
+                  "Viren"
+                ],
+                [
+                  "Candida und Aspergillus",
+                  "Pilze"
+                ]
+              ]
+            }
+          ],
+          "es": "La neumonía puede ser causada por Bakterien (bacterias, lo más frecuente), Viren (virus, por ejemplo influenza) o Pilze (hongos). Las neumonías por hongos aparecen casi solo en pacientes con Immunschwäche (inmunodeficiencia). Saber el tipo de germen es importante porque los antibióticos solo sirven contra bacterias."
+        },
+        {
+          "id": "pneumonie.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was begünstigt bei bettlägerigen Patienten die Entstehung einer Pneumonie?",
+              "options": [
+                "Zu tiefe Atmung mit Überblähung der Lunge",
+                "Flache Atmung: Lungenabschnitte werden schlecht belüftet und Sekret staut sich",
+                "Zu viel Bewegung im Bett",
+                "Zu hohe Flüssigkeitszufuhr"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Flache Atmung schützt die Lunge vor einer Pneumonie, weil weniger Keime eingeatmet werden.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "In schlecht belüfteten Lungenabschnitten staut sich ___, das ein guter Nährboden für Keime ist.",
+              "options": [
+                "Sauerstoff",
+                "Blutzucker",
+                "Magensaft",
+                "Sekret"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Cuando un paciente respira superficialmente, partes del pulmón casi no se ventilan (Minderbelüftung, hipoventilación) y las secreciones se quedan ahí. Ese Sekret (secreción) estancado es un caldo de cultivo para los gérmenes. Este mecanismo explica por qué la movilización y los ejercicios respiratorios previenen la neumonía."
+        },
+        {
+          "id": "pneumonie.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie gelangen die Erreger einer Pneumonie meistens in die Lunge?",
+              "options": [
+                "Über die Haut",
+                "Über das Trinkwasser in den Darm und von dort in die Lunge",
+                "Über die Harnwege",
+                "Über die Atemwege: durch Tröpfcheninfektion oder durch Aspiration von Keimen aus dem Mund-Rachen-Raum"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Keime aus dem Mund-Rachen-Raum können in die tiefen Atemwege gelangen und dort eine Pneumonie auslösen.",
+              "correct": true
+            }
+          ],
+          "es": "Los gérmenes llegan al pulmón casi siempre por las vías respiratorias: por Tröpfcheninfektion (infección por gotitas) al toser o estornudar, o porque se aspiran gérmenes de la boca y la faringe. Por eso una buena Mundpflege (higiene bucal) y la higiene de manos son medidas reales de prevención."
+        },
+        {
+          "id": "pneumonie.ursachen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist typisch für die Erreger einer nosokomialen Pneumonie?",
+              "options": [
+                "Es sind immer Viren",
+                "Sie sind grundsätzlich harmlos",
+                "Es sind häufig Krankenhauskeime, die gegen viele Antibiotika resistent sein können, z. B. Pseudomonas aeruginosa oder MRSA",
+                "Sie werden nur über Lebensmittel übertragen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Erreger einer nosokomialen Pneumonie sind häufiger gegen Antibiotika resistent als die Erreger einer ambulant erworbenen Pneumonie.",
+              "correct": true
+            }
+          ],
+          "es": "En la nosokomiale Pneumonie (neumonía intrahospitalaria) los gérmenes suelen ser Krankenhauskeime (gérmenes del hospital) como Pseudomonas aeruginosa o MRSA (estafilococo resistente a meticilina). Muchas veces son resistentes a varios antibióticos, por eso el tratamiento es más difícil y la higiene de manos es tan importante."
+        },
+        {
+          "id": "pneumonie.ursachen.6",
+          "type": "sprech",
+          "q": "Welche Ursachen hat eine Pneumonie und wie entsteht sie?",
+          "answer": "Eine Pneumonie wird meistens durch Erreger verursacht. Am häufigsten sind Bakterien, vor allem Pneumokokken, aber auch Viren und bei abwehrgeschwächten Menschen Pilze kommen vor. Die Erreger gelangen durch Tröpfcheninfektion oder durch Aspiration in die Lunge. Begünstigt wird die Infektion durch flache Atmung, weil dann Lungenabschnitte schlecht belüftet sind und sich Sekret staut. Im Krankenhaus sind die Erreger oft resistente Krankenhauskeime.",
+          "points": [
+            "Bakterien, v. a. Pneumokokken",
+            "Viren und Pilze",
+            "Tröpfcheninfektion",
+            "Aspiration",
+            "Minderbelüftung und Sekretstau"
+          ],
+          "es": "Para esta pregunta nombra primero los gérmenes (bacterias como Pneumokokken, virus, hongos) y luego cómo llegan al pulmón: Tröpfcheninfektion (gotitas) o Aspiration. Termina con el mecanismo que más importa en enfermería: respiración superficial, mala ventilación y Sekretstau (acumulación de secreciones)."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "pneumonie.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum erhöht Immobilität das Pneumonierisiko?",
+              "options": [
+                "Weil der Patient im Bett zu viel Sauerstoff bekommt",
+                "Weil Immobilität den Hustenreflex verstärkt",
+                "Weil der Patient flacher atmet, die Lunge schlechter belüftet wird und Sekret sich staut",
+                "Weil Immobilität das Immunsystem stärkt"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bettlägerige Patienten haben ein erhöhtes Pneumonierisiko.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Bettlägerigkeit führt zu ___ Atmung, dadurch werden vor allem die unteren Lungenabschnitte schlecht belüftet.",
+              "options": [
+                "flacher",
+                "sehr tiefer",
+                "schnellerer und tieferer",
+                "unveränderter"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La Immobilität (inmovilidad) es el factor de riesgo más importante en el hospital: quien está acostado todo el día respira de forma superficial, las partes bajas del pulmón casi no se ventilan y las secreciones no se movilizan. Por eso la Frühmobilisation (movilización temprana) es la mejor prevención de neumonía."
+        },
+        {
+          "id": "pneumonie.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Patienten haben ein besonders hohes Risiko für eine Aspirationspneumonie?",
+              "options": [
+                "Patienten mit Hautausschlag",
+                "Patienten mit Schluckstörung oder Bewusstseinsstörung",
+                "Patienten mit Bluthochdruck ohne weitere Erkrankung",
+                "Patienten mit Sehschwäche"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Patienten mit einer Schluckstörung haben kein erhöhtes Pneumonierisiko, solange sie nicht rauchen.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Situationen erhöhen das Aspirationsrisiko?",
+              "options": [
+                "Schluckstörung nach Schlaganfall",
+                "Bewusstseinsstörung",
+                "Liegende Magensonde",
+                "Aufrechtes Sitzen beim Essen",
+                "Sorgfältige Mundpflege"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "Con una Schluckstörung (disfagia) o una Bewusstseinsstörung (alteración de la conciencia) fallan los reflejos que protegen la vía aérea, y comida, saliva o contenido gástrico pueden irse al pulmón. Ejemplos típicos: pacientes después de un Schlaganfall, con demencia avanzada o con sonda nasogástrica."
+        },
+        {
+          "id": "pneumonie.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Faktoren erhöhen das Risiko für eine Pneumonie?",
+              "options": [
+                "Hohes Lebensalter",
+                "Rauchen",
+                "Immunschwäche",
+                "Invasive Beatmung",
+                "Regelmäßige Bewegung",
+                "Impfung gegen Pneumokokken"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Risikofaktor dem Mechanismus zu.",
+              "pairs": [
+                [
+                  "Rauchen",
+                  "Schädigt das Flimmerepithel der Atemwege"
+                ],
+                [
+                  "Invasive Beatmung",
+                  "Der Tubus umgeht die natürliche Abwehr der oberen Atemwege"
+                ],
+                [
+                  "Immunsuppression",
+                  "Die körpereigene Abwehr ist geschwächt"
+                ],
+                [
+                  "Schmerzen im Brustkorb oder Bauch",
+                  "Führen zu Schonatmung"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Vorerkrankung erhöht das Pneumonierisiko deutlich?",
+              "options": [
+                "Kurzsichtigkeit",
+                "Arthrose im Kniegelenk",
+                "Heuschnupfen ohne Asthma",
+                "COPD"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Otros factores de riesgo son: edad avanzada, Rauchen (fumar, daña el epitelio ciliado), Immunschwäche (inmunodeficiencia), ventilación mecánica invasiva y enfermedades crónicas como EPOC, insuficiencia cardiaca o diabetes. En el examen conviene decir no solo el factor, sino también por qué aumenta el riesgo."
+        },
+        {
+          "id": "pneumonie.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten nach einer Operation am Bauch oder Brustkorb ein erhöhtes Pneumonierisiko?",
+              "options": [
+                "Weil sie wegen der Schmerzen flach atmen und nicht richtig abhusten (Schonatmung)",
+                "Weil sie nach der Operation zu viel trinken",
+                "Weil die Narkose die Lunge dauerhaft vergrößert",
+                "Weil sie nach der Operation zu früh mobilisiert werden"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Schmerzen im Bauch oder Brustkorb führen zu Schonatmung und erhöhen dadurch das Pneumonierisiko.",
+              "correct": true
+            }
+          ],
+          "es": "Después de una operación de abdomen o tórax, respirar profundo y toser duele. El paciente hace Schonatmung (respiración superficial para evitar el dolor) y no expulsa las secreciones. Por eso una buena Schmerztherapie (tratamiento del dolor) también es prevención de neumonía."
+        },
+        {
+          "id": "pneumonie.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Patienten sind besonders pneumoniegefährdet? Nennen Sie Risikofaktoren und begründen Sie sie.",
+          "answer": "Besonders gefährdet sind alte und immobile Patienten, weil sie flach atmen und die Lunge schlecht belüftet wird. Patienten mit Schluckstörungen oder Bewusstseinsstörungen können aspirieren. Schmerzen nach Operationen führen zu Schonatmung und der Patient hustet nicht richtig ab. Weitere Risikofaktoren sind invasive Beatmung, Immunschwäche, Rauchen und chronische Erkrankungen wie COPD oder Herzinsuffizienz.",
+          "points": [
+            "Hohes Alter",
+            "Immobilität, flache Atmung",
+            "Schluckstörung, Aspiration",
+            "Schonatmung bei Schmerzen",
+            "Beatmung, Immunschwäche",
+            "Rauchen, Vorerkrankungen"
+          ],
+          "es": "Lo mejor es ordenar los factores por mecanismo: mala ventilación (Immobilität, Schonatmung por dolor), Aspiration (Schluckstörung, alteración de la conciencia) y defensas bajas (edad, Immunschwäche, Rauchen, enfermedades crónicas). Si das el porqué de cada uno, la respuesta se escucha muy profesional."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "pneumonie.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Symptome sind typisch für eine klassische bakterielle Pneumonie?",
+              "options": [
+                "Plötzlich hohes Fieber mit Schüttelfrost",
+                "Husten mit Auswurf",
+                "Atemnot",
+                "Atemabhängige Thoraxschmerzen",
+                "Halbseitenlähmung",
+                "Starker Durst mit häufigem Wasserlassen"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wie beginnt eine klassische bakterielle Pneumonie meistens?",
+              "options": [
+                "Schleichend über Monate ohne Fieber",
+                "Plötzlich mit hohem Fieber, Schüttelfrost und starkem Krankheitsgefühl",
+                "Mit Lähmungen und Sprachstörungen",
+                "Mit Juckreiz und Hautausschlag"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine klassische bakterielle Pneumonie beginnt meist schleichend und ohne Fieber.",
+              "correct": false
+            }
+          ],
+          "es": "La neumonía bacteriana clásica empieza de golpe: Fieber (fiebre) alta, Schüttelfrost (escalofríos), Husten mit Auswurf (tos con flemas), Atemnot (disnea) y dolor en el pecho al respirar. El paciente se ve y se siente muy enfermo. Estos son los síntomas que debes poder decir sin pensar."
+        },
+        {
+          "id": "pneumonie.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie sieht der Auswurf bei einer bakteriellen Pneumonie typischerweise aus?",
+              "options": [
+                "Klar und wässrig",
+                "Schaumig und weiß",
+                "Immer hellrot und flüssig",
+                "Eitrig gelb-grünlich oder rotbraun (rostfarben)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Der Auswurf wird in der Fachsprache ___ genannt.",
+              "options": [
+                "Sputum",
+                "Exsudat",
+                "Urin",
+                "Emesis"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Gelb-grünlicher Auswurf spricht für eine bakterielle Infektion der Atemwege.",
+              "correct": true
+            }
+          ],
+          "es": "El Auswurf o Sputum (esputo, flemas) en la neumonía bacteriana es purulento, amarillo-verdoso; en la neumonía por neumococo puede ser rotbraun o «rostfarben» (color óxido). Como enfermera observas y documentas color, cantidad y consistencia del esputo, porque dan pistas sobre la causa."
+        },
+        {
+          "id": "pneumonie.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Tachypnoe",
+                  "Beschleunigte Atmung"
+                ],
+                [
+                  "Dyspnoe",
+                  "Atemnot"
+                ],
+                [
+                  "Zyanose",
+                  "Bläuliche Verfärbung von Haut und Schleimhäuten"
+                ],
+                [
+                  "Tachykardie",
+                  "Beschleunigter Puls"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welches Zeichen weist bei einer Pneumonie auf einen Sauerstoffmangel hin?",
+              "options": [
+                "Rosige, warme Haut",
+                "Langsamer, kräftiger Puls",
+                "Zyanose der Lippen",
+                "Vermehrter Appetit"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Eine beschleunigte Atmung mit mehr als 20 Atemzügen pro Minute beim Erwachsenen nennt man ___.",
+              "options": [
+                "Bradypnoe",
+                "Tachypnoe",
+                "Apnoe",
+                "Bradykardie"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Estos términos los vas a usar todo el tiempo: Tachypnoe (taquipnea, más de 20 respiraciones por minuto en el adulto), Dyspnoe (disnea), Zyanose (cianosis, color azulado por falta de oxígeno) y Tachykardie (taquicardia). También son signos de dificultad respiratoria el Nasenflügeln (aleteo nasal) y el uso de la Atemhilfsmuskulatur (músculos accesorios)."
+        },
+        {
+          "id": "pneumonie.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben manche Patienten mit Pneumonie atemabhängige Schmerzen im Brustkorb?",
+              "options": [
+                "Weil das Rippenfell mitentzündet ist (Begleitpleuritis)",
+                "Weil das Herz zu wenig durchblutet ist",
+                "Weil die Rippen gebrochen sind",
+                "Weil der Magen übersäuert ist"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Atemabhängige Schmerzen führen dazu, dass der Patient flach atmet (Schonatmung).",
+              "correct": true
+            }
+          ],
+          "es": "Si la inflamación llega al Rippenfell (pleura parietal), el paciente tiene dolor al inspirar profundo y al toser: eso se llama Begleitpleuritis (pleuritis acompañante). Por el dolor hace Schonatmung (respiración superficial), lo que empeora la ventilación. Por eso hay que avisar y dar el analgésico indicado."
+        },
+        {
+          "id": "pneumonie.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie zeigt sich eine Pneumonie bei alten Menschen häufig?",
+              "options": [
+                "Immer mit sehr hohem Fieber und starkem Husten",
+                "Nur mit Hautausschlag",
+                "Mit starkem Hunger und Gewichtszunahme",
+                "Atypisch: wenig oder kein Fieber, dafür plötzliche Verwirrtheit und Verschlechterung des Allgemeinzustands"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei alten Menschen ist hohes Fieber immer das erste Zeichen einer Pneumonie.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen können bei alten Menschen auf eine Pneumonie hinweisen?",
+              "options": [
+                "Plötzliche Verwirrtheit",
+                "Verschlechterung des Allgemeinzustands",
+                "Beschleunigte Atmung",
+                "Gewichtszunahme",
+                "Vermehrter Appetit"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "En los adultos mayores la neumonía muchas veces es atypisch (atípica): casi sin fiebre y con poca tos, pero con Verwirrtheit (confusión) repentina, debilidad, falta de apetito y respiración rápida. Si un paciente mayor de pronto está confundido, piensa en una infección y revisa respiración, temperatura y saturación."
+        },
+        {
+          "id": "pneumonie.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Pneumonie?",
+          "answer": "Typisch sind plötzlich hohes Fieber mit Schüttelfrost und ein starkes Krankheitsgefühl. Der Patient hat Husten mit eitrigem, gelb-grünlichem oder rotbraunem Auswurf. Dazu kommen Atemnot, eine beschleunigte Atmung und ein schneller Puls, bei Sauerstoffmangel auch eine Zyanose. Wenn das Rippenfell mitentzündet ist, hat er atemabhängige Schmerzen. Bei alten Menschen verläuft die Pneumonie oft atypisch, zum Beispiel nur mit Verwirrtheit und wenig Fieber.",
+          "points": [
+            "Fieber, Schüttelfrost",
+            "Husten mit Auswurf",
+            "Dyspnoe, Tachypnoe",
+            "Tachykardie, Zyanose",
+            "Atemabhängige Schmerzen",
+            "Atypisch bei alten Menschen"
+          ],
+          "es": "Estructura tu respuesta así: síntomas generales (Fieber, Schüttelfrost), síntomas respiratorios (tos con Auswurf, Dyspnoe, Tachypnoe, dolor al respirar) y al final el punto extra que gusta a los examinadores: en adultos mayores el cuadro es atípico, con Verwirrtheit (confusión) y poca fiebre."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "pneumonie.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung sichert die Diagnose Pneumonie?",
+              "options": [
+                "Röntgen-Thorax mit Nachweis eines Infiltrats",
+                "Urinuntersuchung",
+                "Magenspiegelung",
+                "Langzeit-Blutdruckmessung"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Im Röntgen-Thorax zeigt sich eine Pneumonie als Verschattung (Infiltrat).",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die entzündliche Verdichtung des Lungengewebes, die man im Röntgenbild sieht, heißt ___.",
+              "options": [
+                "Embolus",
+                "Infiltrat",
+                "Emphysem",
+                "Thrombus"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El Röntgen-Thorax (radiografía de tórax) es el estudio que confirma la neumonía: se ve una Verschattung (opacidad), llamada Infiltrat (infiltrado), en la zona inflamada. Tu tarea es preparar y acompañar al paciente al estudio y vigilar su respiración durante el traslado."
+        },
+        {
+          "id": "pneumonie.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was hört der Arzt bei der Auskultation der Lunge bei einer Pneumonie typischerweise?",
+              "options": [
+                "Ein Herzgeräusch über der Herzspitze",
+                "Völlig normale Atemgeräusche",
+                "Rasselgeräusche über dem betroffenen Lungenabschnitt",
+                "Darmgeräusche"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Rasselgeräusche bei der Auskultation der Lunge sprechen gegen eine Pneumonie.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Das Abhören der Lunge mit dem Stethoskop nennt man ___.",
+              "options": [
+                "Palpation",
+                "Inspektion",
+                "Perkussion",
+                "Auskultation"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "En la Auskultation (auscultación con estetoscopio) se escuchan Rasselgeräusche (estertores) sobre la parte afectada del pulmón, porque hay líquido en los alvéolos. Junto con la historia clínica y la exploración física, es el primer paso del diagnóstico antes de la radiografía."
+        },
+        {
+          "id": "pneumonie.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Laborwerte sind bei einer bakteriellen Pneumonie typischerweise erhöht?",
+              "options": [
+                "CRP",
+                "Leukozyten",
+                "Hämoglobin",
+                "HbA1c",
+                "Cholesterin"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer bakteriellen Pneumonie sind die Entzündungswerte CRP und Leukozyten typischerweise erniedrigt.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Wofür stehen ein erhöhtes CRP und erhöhte Leukozyten?",
+              "options": [
+                "Für eine Blutarmut",
+                "Für eine Entzündung im Körper",
+                "Für eine Unterzuckerung",
+                "Für eine Nierenschwäche"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "En el laboratorio se ven los Entzündungswerte (marcadores de inflamación) elevados: CRP (proteína C reactiva) y Leukozyten (leucocitos). Sirven para confirmar la infección y, sobre todo, para ver la evolución: si bajan, el tratamiento está funcionando."
+        },
+        {
+          "id": "pneumonie.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wann sollten Blutkulturen und Sputum für den Erregernachweis möglichst abgenommen werden?",
+              "options": [
+                "Erst nach Abschluss der Antibiotikatherapie",
+                "Frühestens eine Woche nach Therapiebeginn",
+                "Nur, wenn der Patient kein Fieber hat",
+                "Vor Beginn der Antibiotikatherapie"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Material für den Erregernachweis sollte möglichst vor der ersten Antibiotikagabe gewonnen werden.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Sputum für die Untersuchung wird am besten ___ gewonnen, nachdem der Patient den Mund mit Wasser ausgespült hat.",
+              "options": [
+                "morgens",
+                "direkt nach dem Mittagessen",
+                "nach dem Zähneputzen mit Mundwasser",
+                "nach dem Abendessen"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Para encontrar el germen se toman Sputum (esputo) y Blutkulturen (hemocultivos), de preferencia antes del primer antibiótico, porque después ya no crecen bien las bacterias. El esputo se junta mejor en la mañana: el paciente se enjuaga la boca con agua y tose profundo en un recipiente estéril; debe ser secreción de los bronquios, no saliva."
+        },
+        {
+          "id": "pneumonie.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Untersuchung dem zu, was sie zeigt.",
+              "pairs": [
+                [
+                  "Pulsoxymetrie",
+                  "Sauerstoffsättigung des Blutes"
+                ],
+                [
+                  "Blutgasanalyse",
+                  "Sauerstoff- und Kohlendioxid-Partialdruck im Blut"
+                ],
+                [
+                  "Blutkultur",
+                  "Erreger im Blut"
+                ],
+                [
+                  "Röntgen-Thorax",
+                  "Infiltrat in der Lunge"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was wird mit der Pulsoxymetrie gemessen?",
+              "options": [
+                "Der Blutzucker",
+                "Der Blutdruck",
+                "Die Sauerstoffsättigung des Blutes und die Pulsfrequenz",
+                "Die Körpertemperatur"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Pulsoxymetrie ist eine nichtinvasive Messung über einen Sensor am Finger oder Ohrläppchen.",
+              "correct": true
+            }
+          ],
+          "es": "Con la Pulsoxymetrie (oximetría de pulso) mides sin piquete la Sauerstoffsättigung (saturación de oxígeno) y el pulso; es tu herramienta diaria para vigilar al paciente. La Blutgasanalyse (gasometría) la toma el médico y muestra con exactitud el oxígeno y el CO2 en la sangre, por ejemplo cuando hay sospecha de insuficiencia respiratoria."
+        },
+        {
+          "id": "pneumonie.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird eine Pneumonie diagnostiziert und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Der Arzt erhebt die Anamnese und untersucht den Patienten, bei der Auskultation hört er Rasselgeräusche. Gesichert wird die Diagnose durch ein Röntgenbild des Thorax, auf dem ein Infiltrat zu sehen ist. Im Blut sind die Entzündungswerte CRP und Leukozyten erhöht. Für den Erregernachweis werden Sputum und Blutkulturen möglichst vor der ersten Antibiotikagabe abgenommen. Die Pflege misst die Vitalzeichen und die Sauerstoffsättigung, gewinnt das Sputum und bereitet die Untersuchungen vor.",
+          "points": [
+            "Anamnese und Auskultation",
+            "Röntgen-Thorax: Infiltrat",
+            "Entzündungswerte",
+            "Sputum und Blutkultur",
+            "Pulsoxymetrie, Vitalzeichen"
+          ],
+          "es": "Di los pasos en orden: Anamnese y Auskultation, Röntgen-Thorax con Infiltrat, Entzündungswerte en sangre y búsqueda del germen con Sputum y Blutkultur antes del antibiótico. No olvides tu parte como enfermera: signos vitales, Pulsoxymetrie, recolección del esputo y preparación del paciente."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "pneumonie.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird eine bakterielle Pneumonie ursächlich behandelt?",
+              "options": [
+                "Mit Antibiotika, die möglichst früh begonnen werden",
+                "Mit Insulin",
+                "Mit Blutverdünnern",
+                "Nur mit Bettruhe, Medikamente sind nicht nötig"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Antibiotika wirken auch gegen Viren.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Wenn der Erreger und das Antibiogramm bekannt sind, wird die ___ bei Bedarf gezielt angepasst.",
+              "options": [
+                "Insulintherapie",
+                "Antibiotikatherapie",
+                "Diuretikatherapie",
+                "Lysetherapie"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La neumonía bacteriana se trata con Antibiotika (antibióticos), que se empiezan lo antes posible. Al principio el médico elige uno que cubra los gérmenes más probables; cuando llega el Antibiogramm (antibiograma), lo ajusta. Contra virus no sirven, por eso el diagnóstico del germen es importante."
+        },
+        {
+          "id": "pneumonie.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Pflege bei der Antibiotikatherapie?",
+              "options": [
+                "Antibiotika pünktlich nach ärztlicher Anordnung verabreichen",
+                "Auf allergische Reaktionen wie Hautausschlag oder Atemnot achten",
+                "Auf Nebenwirkungen wie Durchfall beobachten",
+                "Das Antibiotikum selbstständig wechseln, wenn das Fieber nicht sinkt",
+                "Die Therapie beenden, sobald der Patient fieberfrei ist"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei Hautausschlag oder Atemnot nach einer Antibiotikagabe muss die Pflegekraft die Gabe stoppen und sofort den Arzt informieren.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung tritt bei Antibiotika häufig auf?",
+              "options": [
+                "Haarausfall",
+                "Unterzuckerung",
+                "Bluthochdruck",
+                "Durchfall"
+              ],
+              "correct": 3
+            }
+          ],
+          "es": "Con los antibióticos tu trabajo es darlos puntualmente según la ärztliche Anordnung (indicación médica) y observar al paciente: reacciones alérgicas (Hautausschlag = ronchas o erupción, dificultad para respirar), Durchfall (diarrea) y hongos en la boca. Si hay signos de alergia, detienes la infusión y avisas de inmediato al médico."
+        },
+        {
+          "id": "pneumonie.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was gilt für die Sauerstoffgabe bei einem Patienten mit Pneumonie?",
+              "options": [
+                "Sauerstoff kann jede Pflegekraft in beliebiger Menge ohne Anordnung geben",
+                "Sauerstoff wird nur nachts gegeben",
+                "Sauerstoff ist ein Arzneimittel und wird nach ärztlicher Anordnung gegeben; die Pflege überwacht Atmung und Sauerstoffsättigung",
+                "Sauerstoff ersetzt die Antibiotikatherapie"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Pflegekräfte dürfen die Sauerstoffmenge ohne ärztliche Anordnung dauerhaft beliebig erhöhen.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Pflege bei Sauerstofftherapie über eine Nasenbrille?",
+              "options": [
+                "Sauerstoffsättigung und Atmung überwachen",
+                "Nasenschleimhaut beobachten und pflegen",
+                "Auf Druckstellen an Nase und Ohren achten",
+                "Rauchen im Zimmer erlauben",
+                "Die Nasenbrille nur einmal pro Woche kontrollieren"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "El Sauerstoff (oxígeno) es un medicamento: la cantidad y la duración las indica el médico. Tú vigilas Atmung y Sauerstoffsättigung (saturación), cuidas la mucosa nasal porque el oxígeno reseca, y revisas que la Nasenbrille (puntas nasales) no cause Druckstellen (lesiones por presión) en nariz y orejas. Cerca del oxígeno no se fuma ni hay fuego."
+        },
+        {
+          "id": "pneumonie.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Medikamentengruppe ihrer Wirkung zu.",
+              "pairs": [
+                [
+                  "Antibiotika",
+                  "Bekämpfen Bakterien"
+                ],
+                [
+                  "Antipyretika",
+                  "Senken das Fieber"
+                ],
+                [
+                  "Sekretolytika",
+                  "Verflüssigen das Bronchialsekret"
+                ],
+                [
+                  "Analgetika",
+                  "Lindern Schmerzen und ermöglichen tiefes Durchatmen"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Warum ist eine ausreichende Flüssigkeitszufuhr Teil der Therapie?",
+              "options": [
+                "Sie verflüssigt das Sekret und gleicht den Flüssigkeitsverlust durch Fieber aus",
+                "Sie ersetzt die Antibiotika",
+                "Sie senkt den Blutzucker",
+                "Sie verhindert das Abhusten"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei Patienten mit Herz- oder Niereninsuffizienz richtet sich die Trinkmenge nach der ärztlichen Anordnung.",
+              "correct": true
+            }
+          ],
+          "es": "Además del antibiótico hay medidas de apoyo: Antipyretika (antipiréticos) para la fiebre, Sekretolytika (mucolíticos) para aflojar las flemas, Analgetika (analgésicos) para que el paciente pueda respirar profundo, y suficiente Flüssigkeit (líquidos). Ojo: con insuficiencia cardiaca o renal la cantidad de líquidos la decide el médico."
+        },
+        {
+          "id": "pneumonie.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Woran erkennt die Pflegekraft, dass die Therapie wirkt?",
+              "options": [
+                "Das Fieber steigt weiter und die Atmung wird schneller",
+                "Der Patient wird zunehmend verwirrt",
+                "Der Auswurf wird mehr und eitriger",
+                "Das Fieber sinkt, die Atmung wird ruhiger und das Befinden bessert sich"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bessert sich der Zustand des Patienten trotz Antibiotika nach zwei bis drei Tagen nicht, muss der Arzt informiert werden.",
+              "correct": true
+            }
+          ],
+          "es": "Tú eres quien ve al paciente todo el día, por eso observas la Wirkung (efecto) del tratamiento: la fiebre baja, la respiración se calma, mejora la saturación y el estado general. Si después de 2 a 3 días no hay mejoría o el paciente empeora, avisas al médico, porque puede ser necesario cambiar el antibiótico."
+        },
+        {
+          "id": "pneumonie.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird eine Pneumonie behandelt und welche Aufgaben übernimmt die Pflege bei der Therapie?",
+          "answer": "Eine bakterielle Pneumonie wird möglichst früh mit Antibiotika behandelt. Dazu kommen Sauerstoff nach ärztlicher Anordnung, ausreichend Flüssigkeit, fiebersenkende und schleimlösende Medikamente sowie Schmerzmittel. Die Pflege verabreicht die Medikamente pünktlich nach Anordnung und beobachtet Wirkung und Nebenwirkungen, zum Beispiel allergische Reaktionen oder Durchfall. Außerdem überwacht sie Atmung, Sauerstoffsättigung, Temperatur und Kreislauf und informiert den Arzt bei einer Verschlechterung.",
+          "points": [
+            "Antibiotika",
+            "Sauerstoff nach Anordnung",
+            "Flüssigkeit, Fiebersenkung",
+            "Wirkung und Nebenwirkungen beobachten",
+            "Vitalzeichen überwachen",
+            "Arzt informieren"
+          ],
+          "es": "Divide la respuesta en dos: primero la terapia médica (Antibiotika, Sauerstoff nach Anordnung, líquidos, antipiréticos, mucolíticos, analgésicos) y luego lo que hace enfermería: administrar según indicación, observar Wirkung y Nebenwirkungen (efecto y efectos secundarios), vigilar signos vitales y avisar al médico si algo empeora."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "pneumonie.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine respiratorische Insuffizienz?",
+              "options": [
+                "Eine Entzündung des Rippenfells",
+                "Eine Störung des Gasaustauschs, bei der der Körper nicht mehr ausreichend mit Sauerstoff versorgt wird",
+                "Eine allergische Reaktion auf Antibiotika",
+                "Ein zu hoher Blutzucker"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Zunehmende Atemnot, Zyanose und ein Abfall der Sauerstoffsättigung sind Warnzeichen einer respiratorischen Insuffizienz.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen weisen auf eine respiratorische Insuffizienz hin?",
+              "options": [
+                "Zyanose",
+                "Abfall der Sauerstoffsättigung",
+                "Unruhe oder Bewusstseinstrübung",
+                "Rosige Hautfarbe",
+                "Ruhige, gleichmäßige Atmung"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "La respiratorische Insuffizienz (insuficiencia respiratoria) es la complicación más importante: el pulmón ya no logra oxigenar bien la sangre. La reconoces por más disnea, taquipnea, Zyanose, caída de la saturación e inquietud o somnolencia. Es una urgencia: el paciente puede necesitar oxígeno, terapia intensiva o ventilación."
+        },
+        {
+          "id": "pneumonie.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Sepsis?",
+              "options": [
+                "Eine harmlose Hautrötung an der Einstichstelle",
+                "Eine Verstopfung",
+                "Eine lebensbedrohliche Organfunktionsstörung durch eine fehlgesteuerte Reaktion des Körpers auf eine Infektion",
+                "Eine Schwellung der Beine"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Eine Sepsis ist eine harmlose Begleiterscheinung der Pneumonie und braucht keine sofortige Behandlung.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Warnzeichen können auf eine Sepsis hinweisen?",
+              "options": [
+                "Blutdruckabfall",
+                "Beschleunigte Atmung",
+                "Neu aufgetretene Verwirrtheit",
+                "Langsamer, ruhiger Puls bei gutem Befinden",
+                "Gesteigerter Appetit"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "La Sepsis es una complicación que pone en peligro la vida: la respuesta del cuerpo a la infección se descontrola y se dañan los órganos. Signos de alarma: Blutdruckabfall (baja de presión), respiración rápida, taquicardia y Verwirrtheit (confusión) nueva. Si los ves, avisas de inmediato al médico; es una urgencia."
+        },
+        {
+          "id": "pneumonie.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Komplikation der Beschreibung zu.",
+              "pairs": [
+                [
+                  "Pleuraerguss",
+                  "Flüssigkeit im Pleuraspalt"
+                ],
+                [
+                  "Pleuraempyem",
+                  "Eiter im Pleuraspalt"
+                ],
+                [
+                  "Lungenabszess",
+                  "Abgekapselte Eiteransammlung im Lungengewebe"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Pleuraerguss?",
+              "options": [
+                "Luft im Pleuraspalt",
+                "Ein Blutgerinnsel in der Lungenarterie",
+                "Eine Verengung der Bronchien",
+                "Eine Flüssigkeitsansammlung im Pleuraspalt"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Ein Pleuraerguss kann die Atmung zusätzlich erschweren, weil die Lunge sich nicht mehr vollständig entfalten kann.",
+              "correct": true
+            }
+          ],
+          "es": "Complicaciones locales de la neumonía: Pleuraerguss (derrame pleural, líquido en el espacio pleural), Pleuraempyem (empiema, pus en el espacio pleural) y Lungenabszess (absceso pulmonar). El derrame comprime el pulmón y aumenta la disnea; a veces el médico tiene que puncionarlo o drenarlo."
+        },
+        {
+          "id": "pneumonie.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ein Patient mit Pneumonie bekommt plötzlich starke Atemnot. Was tun Sie zuerst?",
+              "options": [
+                "Den Oberkörper hochlagern, beim Patienten bleiben, ihn beruhigen und sofort den Arzt informieren lassen",
+                "Den Patienten flach lagern und das Zimmer verlassen",
+                "Dem Patienten etwas zu essen geben",
+                "Bis zur nächsten Visite abwarten"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei akuter Atemnot wird der Patient flach gelagert und allein gelassen, damit er zur Ruhe kommt.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen sind bei akuter Atemnot richtig?",
+              "options": [
+                "Oberkörper hochlagern",
+                "Patienten nicht allein lassen und beruhigen",
+                "Vitalzeichen und Sauerstoffsättigung kontrollieren",
+                "Flach auf den Rücken lagern",
+                "Beengende Kleidung fest schließen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "En una Atemnot (disnea) aguda actúas en este orden: Oberkörper hochlagern (elevar el tronco), quedarte con el paciente y calmarlo, pedir que avisen al médico, medir signos vitales y saturación, y dar oxígeno según la indicación. Nunca lo acuestes plano ni lo dejes solo, porque el miedo aumenta la disnea."
+        },
+        {
+          "id": "pneumonie.komplikationen.5",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einer Pneumonie auftreten und woran erkennen Sie sie?",
+          "answer": "Die wichtigste Komplikation ist die respiratorische Insuffizienz. Ich erkenne sie an zunehmender Atemnot, Zyanose, einem Abfall der Sauerstoffsättigung und Unruhe oder Bewusstseinstrübung. Weitere Komplikationen sind ein Pleuraerguss oder ein Pleuraempyem und ein Lungenabszess. Lebensbedrohlich ist die Sepsis, die sich durch Blutdruckabfall, schnellen Puls, schnelle Atmung und Verwirrtheit zeigt. Bei solchen Zeichen informiere ich sofort den Arzt.",
+          "points": [
+            "Respiratorische Insuffizienz",
+            "Pleuraerguss, Pleuraempyem",
+            "Lungenabszess",
+            "Sepsis",
+            "Warnzeichen nennen",
+            "Arzt sofort informieren"
+          ],
+          "es": "Nombra primero las complicaciones (respiratorische Insuffizienz, Pleuraerguss, Lungenabszess, Sepsis) y después los signos de alarma que tú puedes observar: más disnea, Zyanose, saturación baja, presión baja, confusión. Termina diciendo que avisas de inmediato al médico: eso demuestra que sabes actuar."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "pneumonie.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit Pneumonie?",
+          "answer": "Ich beobachte vor allem die Atmung: Atemfrequenz, Atemtiefe, Atemrhythmus, Atemgeräusche und ob der Patient Atemnot hat. Ich kontrolliere regelmäßig die Vitalzeichen, also Temperatur, Puls und Blutdruck, und messe die Sauerstoffsättigung. Ich achte auf die Hautfarbe, zum Beispiel eine Zyanose, und auf das Bewusstsein. Außerdem beobachte ich den Husten und das Sputum nach Menge, Farbe und Konsistenz sowie Schmerzen und die Flüssigkeitsbilanz. Veränderungen dokumentiere ich und gebe sie an den Arzt weiter.",
+          "points": [
+            "Atmung beobachten",
+            "Vitalzeichen und Temperatur",
+            "Sauerstoffsättigung",
+            "Hautfarbe und Bewusstsein",
+            "Husten und Sputum",
+            "Dokumentieren, Arzt informieren"
+          ],
+          "es": "La Atembeobachtung (observación de la respiración) es lo más importante: frecuencia, profundidad, ritmo, ruidos y disnea. Además vigilas Vitalzeichen (signos vitales), temperatura, saturación, color de la piel, conciencia y el Sputum (esputo). Así detectas a tiempo una insuficiencia respiratoria o una sepsis."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Wie können Sie einem Patienten mit Pneumonie durch Positionierung und Mobilisation das Atmen erleichtern?",
+          "answer": "Ich lagere den Oberkörper hoch, weil sich das Zwerchfell dann besser senken kann und die Atmung leichter wird. Zusätzlich kann ich atemunterstützende Lagerungen wie die V-A-T-I-Lagerungen anwenden, die den Brustkorb dehnen und bestimmte Lungenabschnitte besser belüften. Bei Atemnot helfen atemerleichternde Körperhaltungen wie der Kutschersitz. Sobald es der Zustand erlaubt, mobilisiere ich den Patienten früh, zum Beispiel an die Bettkante oder in den Stuhl, denn Bewegung vertieft die Atmung. Im Bett wechsle ich regelmäßig die Position.",
+          "points": [
+            "Oberkörperhochlagerung",
+            "V-A-T-I-Lagerungen",
+            "Kutschersitz",
+            "Frühmobilisation",
+            "Regelmäßiger Positionswechsel"
+          ],
+          "es": "Las posiciones ayudan mucho a respirar: Oberkörperhochlagerung (tronco elevado), las V-A-T-I-Lagerungen (posiciones con almohadas en forma de V, A, T o I que abren el tórax) y el Kutschersitz (posición de cochero: sentado, inclinado hacia adelante con los antebrazos apoyados). La Frühmobilisation (movilización temprana) hace que el paciente respire más profundo."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Was bedeutet das LISA-Prinzip der Pneumonieprophylaxe? Nennen Sie zu jedem Buchstaben Maßnahmen.",
+          "answer": "LISA fasst die Ziele der Pneumonieprophylaxe zusammen. L steht für Lungenbelüftung verbessern, zum Beispiel durch Mobilisation, Atemübungen und atemunterstützende Lagerungen. I steht für Infektionen vermeiden, also Händehygiene und sorgfältige Mundpflege. S steht für Sekret verflüssigen und lösen, zum Beispiel durch ausreichend Flüssigkeit, Inhalationen und Unterstützung beim Abhusten. A steht für Aspiration vermeiden, zum Beispiel durch aufrechtes Sitzen beim Essen.",
+          "points": [
+            "Lungenbelüftung verbessern",
+            "Infektionen vermeiden",
+            "Sekret verflüssigen und lösen",
+            "Aspiration vermeiden",
+            "Maßnahmen je Buchstabe"
+          ],
+          "es": "LISA es la regla para la Pneumonieprophylaxe (prevención de neumonía): L = Lungenbelüftung (ventilación pulmonar), I = Infektionen vermeiden (evitar infecciones), S = Sekret (aflojar y sacar secreciones), A = Aspiration vermeiden (evitar la broncoaspiración). Si das un ejemplo de medida para cada letra, tienes una respuesta completa."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Buchstaben des LISA-Prinzips ihrer Bedeutung zu.",
+              "pairs": [
+                [
+                  "L",
+                  "Lungenbelüftung verbessern"
+                ],
+                [
+                  "I",
+                  "Infektionen vermeiden"
+                ],
+                [
+                  "S",
+                  "Sekret verflüssigen und lösen"
+                ],
+                [
+                  "A",
+                  "Aspiration vermeiden"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Maßnahme gehört beim LISA-Prinzip zum Buchstaben L?",
+              "options": [
+                "Sorgfältige Mundpflege",
+                "Angedickte Getränke bei Schluckstörung",
+                "Frühmobilisation und Atemübungen",
+                "Händedesinfektion"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Beim LISA-Prinzip steht der Buchstabe A für: ___ vermeiden.",
+              "options": [
+                "Atemübungen",
+                "Aspiration",
+                "Antibiotika",
+                "Aufstehen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Con LISA ordenas todas las medidas de Pneumonieprophylaxe: Lungenbelüftung verbessern (mejorar la ventilación: movilizar, ejercicios respiratorios), Infektionen vermeiden (higiene de manos y de boca), Sekret verflüssigen und lösen (líquidos, inhalaciones, toser) y Aspiration vermeiden (comer sentado, cuidar la deglución)."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie unterstützen Sie einen Patienten mit Pneumonie bei der Sekretmobilisation und beim Abhusten?",
+          "answer": "Damit das Sekret flüssiger wird, achte ich auf eine ausreichende Trinkmenge und führe Inhalationen nach Anordnung durch. Ich leite den Patienten zu Atemübungen an, zum Beispiel mit einem Atemtrainer oder der Lippenbremse. Zum Abhusten setze ich ihn aufrecht hin, er atmet tief ein und hustet dann kräftig ab. Bei Schmerzen bekommt er vorher das angeordnete Schmerzmittel. Ich stelle Taschentücher und einen Abwurf bereit, achte auf Hygiene und beobachte das Sputum.",
+          "points": [
+            "Ausreichend trinken",
+            "Inhalation",
+            "Atemübungen",
+            "Aufrecht sitzen beim Abhusten",
+            "Schmerzmittel vor dem Abhusten",
+            "Sputum beobachten, Hygiene"
+          ],
+          "es": "Para la Sekretmobilisation (movilización de secreciones) primero hay que aflojar las flemas: líquidos e Inhalation (nebulización). Luego ejercicios respiratorios y toser sentado, después de una inspiración profunda. Si toser duele, el paciente recibe antes el analgésico indicado. El esputo es infeccioso: usa guantes y haz higiene de manos."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "mobilisation",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Lagerung dem Lungenabschnitt zu, der besonders belüftet wird.",
+              "pairs": [
+                [
+                  "V-Lagerung",
+                  "Untere Lungenabschnitte und Flanken"
+                ],
+                [
+                  "A-Lagerung",
+                  "Obere Lungenabschnitte (Lungenspitzen)"
+                ],
+                [
+                  "T-Lagerung",
+                  "Alle Lungenabschnitte"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist das Ziel der V-A-T-I-Lagerungen?",
+              "options": [
+                "Den Patienten am Aufstehen zu hindern",
+                "Den Brustkorb zu dehnen und bestimmte Lungenabschnitte besser zu belüften",
+                "Den Blutdruck zu senken",
+                "Das Abhusten zu unterdrücken"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Oberkörperhochlagerung erleichtert die Atmung, weil sich das Zwerchfell besser senken kann.",
+              "correct": true
+            }
+          ],
+          "es": "En las V-A-T-I-Lagerungen se colocan almohadas bajo la espalda en forma de esas letras; así se abre el tórax y se ventilan mejor ciertas zonas: la V las partes bajas y los costados, la A las partes altas (vértices) y la T todas las zonas. Se usan por poco tiempo y varias veces al día, según lo tolere el paciente."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.7",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird die Atemfrequenz korrekt gemessen?",
+              "options": [
+                "Zehn Sekunden zählen und den Patienten bitten, besonders ruhig zu atmen",
+                "Nur schätzen, ohne zu zählen",
+                "Direkt nach körperlicher Belastung zählen",
+                "Eine volle Minute zählen, möglichst ohne dass der Patient es bemerkt"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Atemfrequenz zählt man am besten, nachdem man es dem Patienten ausdrücklich angekündigt hat.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Atemfrequenz wird über ___ gezählt, möglichst unbemerkt vom Patienten.",
+              "options": [
+                "eine volle Minute",
+                "fünf Sekunden",
+                "zehn Minuten",
+                "eine Stunde"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La Atemfrequenz (frecuencia respiratoria) se cuenta durante un minuto completo y sin que el paciente se dé cuenta, por ejemplo mientras parece que le tomas el pulso. Si sabe que lo observas, cambia su forma de respirar sin querer y el valor ya no sirve."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung und Flüssigkeitszufuhr eines Patienten mit Pneumonie?",
+          "answer": "Der Patient soll ausreichend trinken, etwa 1,5 bis 2 Liter pro Tag, wenn keine Kontraindikation wie eine Herz- oder Niereninsuffizienz besteht. Die Flüssigkeit verflüssigt das Sekret und gleicht den Verlust durch Fieber und Schwitzen aus. Ich biete Wunschgetränke an und führe bei Bedarf ein Trinkprotokoll. Beim Essen biete ich leichte, vitaminreiche Kost in kleinen Portionen an, weil der Patient wenig Appetit und Atemnot hat. Zum Essen und Trinken sitzt er aufrecht, damit er nicht aspiriert.",
+          "points": [
+            "Trinkmenge 1,5–2 Liter",
+            "Kontraindikationen beachten",
+            "Trinkprotokoll",
+            "Leichte Kost, kleine Portionen",
+            "Aufrecht sitzen beim Essen"
+          ],
+          "es": "La Flüssigkeitszufuhr (ingesta de líquidos) es parte del tratamiento: afloja las flemas y repone lo que se pierde con la fiebre. Lo normal es 1.5 a 2 litros al día, pero con insuficiencia cardiaca o renal decide el médico. La comida debe ser ligera y en porciones pequeñas, y siempre con el paciente sentado para evitar la Aspiration."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Körperpflege bei einem fiebernden Patienten mit Pneumonie durch?",
+          "answer": "Ich passe die Körperpflege an die Belastbarkeit an, übernehme bei Atemnot Teile der Pflege und plane Pausen ein. Bei Fieber schwitzt der Patient stark, deshalb wasche ich ihn bei Bedarf, trockne die Haut gut ab und beobachte sie. Wenn die Beine warm sind, kann ich nach Rücksprache Wadenwickel anwenden. Sehr wichtig ist eine sorgfältige Mundpflege, weil die Mundschleimhaut durch Fieber, Mundatmung und Sauerstoff austrocknet und Keime aus dem Mund in die Lunge gelangen können. Zusätzlich kann eine atemstimulierende Einreibung die Atmung vertiefen.",
+          "points": [
+            "An Belastbarkeit anpassen",
+            "Fieberpflege, Schweiß abwaschen",
+            "Wadenwickel bei warmen Beinen",
+            "Sorgfältige Mundpflege",
+            "Atemstimulierende Einreibung"
+          ],
+          "es": "En la Körperpflege (higiene corporal) lo principal es no cansar al paciente: ayudas más y haces pausas. Con fiebre suda mucho, así que lo lavas y secas bien. Los Wadenwickel (compresas húmedas con agua tibia en las pantorrillas, nunca helada) solo se usan si las piernas están calientes. La Mundpflege (higiene bucal) es clave porque la boca seca favorece hongos y gérmenes que pueden bajar al pulmón."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche weiteren Prophylaxen sind bei einem Patienten mit Pneumonie wichtig? Begründen Sie Ihre Auswahl.",
+          "answer": "Wichtig ist die Aspirationsprophylaxe, zum Beispiel aufrechtes Sitzen beim Essen, weil eine Aspiration die Pneumonie verschlimmert. Durch Bettruhe und Fieber ist das Thromboserisiko erhöht, deshalb führe ich eine Thromboseprophylaxe mit Bewegungsübungen und früher Mobilisation durch. Wegen der Immobilität und des Schwitzens ist auch eine Dekubitusprophylaxe mit regelmäßigem Positionswechsel und Hautbeobachtung nötig. Die Soor- und Parotitisprophylaxe erfolgt durch sorgfältige Mundpflege, besonders bei Antibiotika und Sauerstoffgabe. Wegen des Fiebers achte ich außerdem auf eine Dehydratationsprophylaxe.",
+          "points": [
+            "Aspirationsprophylaxe",
+            "Thromboseprophylaxe",
+            "Dekubitusprophylaxe",
+            "Soor- und Parotitisprophylaxe",
+            "Dehydratationsprophylaxe",
+            "Begründung nennen"
+          ],
+          "es": "Además de la prevención de neumonía, el paciente necesita: Aspirationsprophylaxe (evitar la broncoaspiración), Thromboseprophylaxe (prevención de trombosis, por el reposo en cama), Dekubitusprophylaxe (prevención de úlceras por presión), Soor- und Parotitisprophylaxe (prevención de candidiasis oral e inflamación de la glándula parótida, con higiene bucal) y Dehydratationsprophylaxe (prevención de deshidratación, por la fiebre). Di siempre el porqué."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.11",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wozu beraten und leiten Sie einen Patienten mit Pneumonie an, auch im Hinblick auf die Entlassung?",
+          "answer": "Ich erkläre dem Patienten, dass er die Antibiotika genau nach Anordnung und bis zum Ende einnehmen muss, auch wenn es ihm besser geht. Ich leite ihn zu Atemübungen und zum richtigen Abhusten an und erkläre, warum er viel trinken und sich bewegen soll. Er soll sich noch körperlich schonen und bei erneutem Fieber oder zunehmender Atemnot zum Arzt gehen. Rauchern empfehle ich den Rauchstopp. Außerdem informiere ich über die Impfungen gegen Pneumokokken und Influenza und über Händehygiene und Hustenetikette.",
+          "points": [
+            "Antibiotika vollständig einnehmen",
+            "Atemübungen und Abhusten",
+            "Trinken und Bewegung",
+            "Warnzeichen kennen",
+            "Rauchstopp",
+            "Impfungen"
+          ],
+          "es": "En la Beratung (orientación al paciente) lo más importante es: tomar el antibiótico completo, seguir con ejercicios respiratorios, tomar líquidos, moverse y reconocer señales de alarma como fiebre nueva o más disnea. También recomiendas Rauchstopp (dejar de fumar) y las vacunas contra neumococo e influenza, sobre todo en personas mayores y con enfermedades crónicas."
+        },
+        {
+          "id": "pneumonie.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Kleidung und Bettwäsche eines Patienten mit Pneumonie und Fieber?",
+          "answer": "Die Kleidung soll bequem und weit sein, damit sie den Brustkorb und den Bauch nicht einengt und die Atmung nicht behindert. Ich wähle atmungsaktive Kleidung, zum Beispiel aus Baumwolle. Wenn der Patient schwitzt, wechsle ich feuchte Kleidung und Bettwäsche zügig, damit er nicht auskühlt und die Haut nicht aufweicht. Im Fieberanstieg mit Schüttelfrost halte ich ihn warm, bei hohem Fieber decke ich ihn nur leicht zu. Beim An- und Ausziehen unterstütze ich ihn und plane Pausen ein, weil Anstrengung die Atemnot verstärkt.",
+          "points": [
+            "Weite, nicht einengende Kleidung",
+            "Atmungsaktives Material",
+            "Feuchte Wäsche wechseln",
+            "An Fieberphase anpassen",
+            "Hilfe mit Pausen"
+          ],
+          "es": "La ropa no debe apretar el tórax ni el abdomen, para que el paciente respire libremente, y debe ser de material que transpire, como algodón. Si suda, cambias pronto la ropa y la Bettwäsche (ropa de cama) húmedas. En el Schüttelfrost (escalofríos) lo abrigas; con fiebre alta lo tapas ligero. Al vestirlo haces pausas, porque el esfuerzo aumenta la disnea."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "pneumonie.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Pneumonie, das die Atmung betrifft, und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat Atemnot und atmet schnell und flach, weil der Gasaustausch durch die Pneumonie gestört ist. Ziel: Der Patient gibt innerhalb von drei Tagen an, in Ruhe keine Atemnot mehr zu haben, und seine Atemfrequenz liegt in Ruhe unter 20 Atemzügen pro Minute. Maßnahmen: Ich beobachte regelmäßig die Atmung und die Sauerstoffsättigung, lagere den Oberkörper hoch und leite den Patienten mehrmals täglich zu Atemübungen an. Sauerstoff gebe ich nach ärztlicher Anordnung.",
+          "points": [
+            "Problem: Atemnot",
+            "Ziel: keine Atemnot, 3 Tage",
+            "Atembeobachtung",
+            "Oberkörperhochlagerung",
+            "Atemübungen",
+            "Sauerstoff nach Anordnung"
+          ],
+          "es": "Este es el problema de enfermería número uno en la neumonía: Atemnot (disnea) por el intercambio gaseoso alterado. La meta es medible (sin disnea en reposo, frecuencia menor de 20 por minuto) y tiene plazo (tres días). Las medidas son las clásicas: observar la respiración, tronco elevado, ejercicios respiratorios y oxígeno según indicación."
+        },
+        {
+          "id": "pneumonie.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Pneumonie, das das Sekret betrifft, und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient kann das zähe Bronchialsekret nicht ausreichend abhusten, deshalb besteht die Gefahr eines Sekretstaus. Ziel: Der Patient hustet das Sekret innerhalb von zwei Tagen selbstständig und wirksam ab. Maßnahmen: Ich achte auf eine Trinkmenge von 1,5 bis 2 Litern täglich, wenn keine Kontraindikation besteht, und führe Inhalationen nach Anordnung durch. Ich leite den Patienten zum Abhusten in aufrechter Sitzposition an und mobilisiere ihn mehrmals täglich.",
+          "points": [
+            "Problem: zähes Sekret",
+            "Ziel: Abhusten in 2 Tagen",
+            "Ausreichende Trinkmenge",
+            "Inhalation",
+            "Anleitung zum Abhusten",
+            "Mobilisation"
+          ],
+          "es": "Segundo problema típico: el paciente no logra sacar las flemas espesas y hay riesgo de Sekretstau (acumulación de secreciones). La meta dice qué logra el paciente y en cuánto tiempo: toser de forma efectiva y solo en dos días. Las medidas atacan la causa: líquidos e Inhalation para aflojar, técnica de tos y movilización para expulsar."
+        },
+        {
+          "id": "pneumonie.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Pneumonie, das mit dem Fieber zusammenhängt, und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat Fieber und schwitzt stark, deshalb besteht die Gefahr einer Dehydratation. Ziel: Die Körpertemperatur des Patienten liegt innerhalb von drei Tagen unter 38 °C und er trinkt täglich mindestens 1,5 Liter. Maßnahmen: Ich kontrolliere regelmäßig Temperatur, Puls und Blutdruck und führe ein Trinkprotokoll. Ich führe fiebersenkende Maßnahmen nach Anordnung durch, zum Beispiel Medikamente oder Wadenwickel. Feuchte Kleidung und Bettwäsche wechsle ich und ich biete regelmäßig Getränke an.",
+          "points": [
+            "Problem: Fieber, Dehydratationsgefahr",
+            "Ziel: fieberfrei in 3 Tagen",
+            "Temperatur- und Kreislaufkontrolle",
+            "Trinkprotokoll",
+            "Fiebersenkende Maßnahmen",
+            "Wäschewechsel"
+          ],
+          "es": "Tercer problema: Fieber (fiebre) con mucho sudor y riesgo de Dehydratation (deshidratación). La meta tiene dos valores que se pueden medir: temperatura menor de 38 °C en tres días y al menos 1.5 litros de líquidos al día. Las medidas: controlar temperatura y circulación, Trinkprotokoll (registro de líquidos), bajar la fiebre según indicación y cambiar la ropa húmeda."
+        },
+        {
+          "id": "pneumonie.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit Pneumonie.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert sein soll. Das Ziel beschreibt einen Zustand, den der Patient erreichen soll, und wird positiv und aus Sicht des Patienten formuliert. Ein Beispiel bei Pneumonie ist: Der Patient hustet das Sekret innerhalb von zwei Tagen selbstständig ab. Dieses Ziel ist konkret, ich kann es überprüfen und es hat einen Zeitpunkt. Am festgelegten Termin evaluiere ich, ob das Ziel erreicht wurde, und passe die Planung an.",
+          "points": [
+            "SMART erklären",
+            "Aus Sicht des Patienten",
+            "Messbar mit Zeitangabe",
+            "Beispiel bei Pneumonie",
+            "Evaluation"
+          ],
+          "es": "SMART significa spezifisch (específico), messbar (medible), akzeptiert (aceptado por el paciente), realistisch (realista) y terminiert (con fecha). Un Pflegeziel (meta de enfermería) describe lo que el paciente logra, no lo que hace la enfermera. Da siempre un ejemplo concreto de neumonía y menciona la Evaluation (evaluación) al final del plazo."
+        }
+      ]
+    }
+  ]
+}

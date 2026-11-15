@@ -1,0 +1,1799 @@
+{
+  "id": "neurodermitis",
+  "name": "Neurodermitis",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "neurodermitis.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist Neurodermitis?",
+              "options": [
+                "Eine ansteckende Pilzerkrankung der Haut",
+                "Eine chronisch-entzündliche, schubweise verlaufende, nicht ansteckende Hauterkrankung mit starkem Juckreiz",
+                "Eine akute bakterielle Hautinfektion, die nach einer Woche ausheilt",
+                "Eine bösartige Tumorerkrankung der Haut"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Neurodermitis ist ansteckend und wird durch Hautkontakt übertragen.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Neurodermitis ist eine chronisch-entzündliche Hauterkrankung, die ___ verläuft.",
+              "options": [
+                "einmalig",
+                "schubweise",
+                "immer gleich stark",
+                "nur im Alter"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Neurodermitis (dermatitis atópica) es una enfermedad inflamatoria crónica de la piel que va por Schübe (brotes) y da muchísima comezón. No es contagiosa: no se pasa por tocar a la persona. Esto es importante porque muchos pacientes sufren rechazo por esa idea equivocada."
+        },
+        {
+          "id": "neurodermitis.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Begriffe sind andere Namen für Neurodermitis?",
+              "options": [
+                "Atopische Dermatitis",
+                "Psoriasis vulgaris",
+                "Atopisches Ekzem",
+                "Urtikaria",
+                "Erysipel"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Atopische Dermatitis und atopisches Ekzem sind andere Bezeichnungen für Neurodermitis.",
+              "correct": true
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Begriff der Bedeutung zu.",
+              "pairs": [
+                [
+                  "Atopische Dermatitis",
+                  "Fachbegriff für Neurodermitis"
+                ],
+                [
+                  "Psoriasis",
+                  "Schuppenflechte"
+                ],
+                [
+                  "Urtikaria",
+                  "Nesselsucht mit Quaddeln"
+                ]
+              ]
+            }
+          ],
+          "es": "En alemán la enfermedad tiene varios nombres: Neurodermitis, atopische Dermatitis (dermatitis atópica) y atopisches Ekzem (eccema atópico). Los tres significan lo mismo, y en el examen te pueden preguntar con cualquiera. No la confundas con Psoriasis (psoriasis), que es otra enfermedad."
+        },
+        {
+          "id": "neurodermitis.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Erkrankungen gehören zusammen mit der Neurodermitis zum atopischen Formenkreis?",
+              "options": [
+                "Diabetes mellitus und Hypertonie",
+                "Psoriasis und Akne",
+                "Allergisches Asthma bronchiale und Heuschnupfen (allergische Rhinokonjunktivitis)",
+                "Gürtelrose und Windpocken"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Menschen mit Neurodermitis haben häufiger auch Heuschnupfen oder allergisches Asthma.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die angeborene Neigung, überempfindlich auf eigentlich harmlose Stoffe aus der Umwelt zu reagieren, nennt man ___.",
+              "options": [
+                "Atrophie",
+                "Ataxie",
+                "Atopie",
+                "Apathie"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Atopie (atopia) es la tendencia heredada a reaccionar de forma exagerada a sustancias normalmente inofensivas. Al atopischer Formenkreis (grupo de enfermedades atópicas) pertenecen la Neurodermitis, el allergisches Asthma (asma alérgica) y el Heuschnupfen (rinitis alérgica). Por eso muchos pacientes tienen dos o tres de ellas al mismo tiempo."
+        },
+        {
+          "id": "neurodermitis.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "In welchem Lebensalter beginnt Neurodermitis am häufigsten?",
+              "options": [
+                "Im Säuglings- und Kleinkindalter",
+                "In der Pubertät",
+                "Zwischen 40 und 50 Jahren",
+                "Erst im hohen Alter"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Neurodermitis beginnt meistens erst im Erwachsenenalter.",
+              "correct": false
+            }
+          ],
+          "es": "La Neurodermitis empieza casi siempre en el Säuglings- und Kleinkindalter (lactantes y niños pequeños). En muchos niños mejora o desaparece hasta la pubertad, pero la piel sigue siendo sensible y la enfermedad puede continuar o volver en la edad adulta."
+        },
+        {
+          "id": "neurodermitis.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was versteht man bei Neurodermitis unter einem „Schub“?",
+              "options": [
+                "Eine Phase, in der die Haut vollständig geheilt ist",
+                "Eine Impfung gegen die Erkrankung",
+                "Die Übertragung der Erkrankung auf andere Menschen",
+                "Eine Phase, in der sich Ekzeme und Juckreiz deutlich verschlechtern"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Zwischen den Schüben gibt es Phasen, in denen die Haut kaum oder keine Ekzeme zeigt.",
+              "correct": true
+            }
+          ],
+          "es": "Un Schub (brote) es una fase en la que la piel empeora de forma clara: más eccema, más enrojecimiento y más comezón. Entre los brotes hay fases tranquilas con pocos síntomas, pero la piel sigue seca y sensible. Por eso el cuidado diario de la piel se hace siempre, también sin brote."
+        },
+        {
+          "id": "neurodermitis.definition.6",
+          "type": "sprech",
+          "q": "Was ist Neurodermitis? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Neurodermitis heißt auch atopische Dermatitis oder atopisches Ekzem. Es ist eine chronisch-entzündliche Hauterkrankung, die in Schüben verläuft und nicht ansteckend ist. Typisch sind sehr trockene Haut, Ekzeme und ein starker Juckreiz. Die Erkrankung beginnt meistens schon im Säuglings- oder Kleinkindalter. Sie gehört zum atopischen Formenkreis, zusammen mit allergischem Asthma und Heuschnupfen.",
+          "points": [
+            "Atopische Dermatitis",
+            "Chronisch-entzündlich",
+            "Schubweiser Verlauf",
+            "Nicht ansteckend",
+            "Starker Juckreiz",
+            "Atopischer Formenkreis"
+          ],
+          "es": "Esta es la pregunta de entrada típica. Di primero los nombres (Neurodermitis, atopische Dermatitis), luego las cuatro palabras clave: crónica, inflamatoria, por brotes y no contagiosa. Termina con los síntomas principales (piel seca, eccema, comezón) y con el atopischer Formenkreis (grupo de enfermedades atópicas)."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "neurodermitis.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Aus welchen drei Schichten besteht die Haut von außen nach innen?",
+              "options": [
+                "Subkutis – Dermis – Epidermis",
+                "Epidermis – Dermis – Subkutis",
+                "Dermis – Epidermis – Subkutis",
+                "Epidermis – Subkutis – Dermis"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff dem deutschen Namen zu.",
+              "pairs": [
+                [
+                  "Epidermis",
+                  "Oberhaut"
+                ],
+                [
+                  "Dermis (Korium)",
+                  "Lederhaut"
+                ],
+                [
+                  "Subkutis",
+                  "Unterhaut"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die Epidermis ist die tiefste Schicht der Haut.",
+              "correct": false
+            }
+          ],
+          "es": "La piel tiene tres capas, de afuera hacia adentro: Epidermis u Oberhaut (epidermis), Dermis o Lederhaut (dermis) y Subkutis o Unterhaut (tejido subcutáneo). En la Neurodermitis el problema principal está en la capa más externa, la epidermis, que es la que forma la barrera."
+        },
+        {
+          "id": "neurodermitis.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Haut?",
+              "options": [
+                "Schutz vor Krankheitserregern, Austrocknung und mechanischen Reizen",
+                "Bildung von Insulin",
+                "Regulation der Körpertemperatur",
+                "Sinnesorgan für Berührung, Schmerz und Temperatur",
+                "Bildung der roten Blutkörperchen"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aussage über die Aufgaben der Haut ist richtig?",
+              "options": [
+                "Die Haut hat keine Bedeutung für die Temperaturregulation",
+                "Die Haut bildet Verdauungsenzyme",
+                "Die Haut speichert Sauerstoff für den Körper",
+                "Die Haut schützt den Körper, reguliert die Temperatur und ist ein Sinnesorgan"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Haut ist auch ein Sinnesorgan, mit dem der Mensch Berührung, Schmerz und Temperatur wahrnimmt.",
+              "correct": true
+            }
+          ],
+          "es": "La piel es el órgano más grande del cuerpo. Sus tareas principales: Schutz (protección contra gérmenes, golpes y pérdida de agua), Temperaturregulation (regulación de la temperatura) y función de órgano de los sentidos. Además participa en la formación de vitamina D. Si la piel está enferma, todas estas funciones se alteran."
+        },
+        {
+          "id": "neurodermitis.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Schicht bildet die eigentliche Barriere der Haut nach außen?",
+              "options": [
+                "Die Hornschicht der Epidermis",
+                "Das Unterhautfettgewebe",
+                "Die Muskelschicht",
+                "Die Lederhaut mit den Blutgefäßen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Die äußerste Schicht der Epidermis heißt ___ und schützt vor Wasserverlust und vor dem Eindringen von Fremdstoffen.",
+              "options": [
+                "Fettschicht",
+                "Hornschicht",
+                "Muskelschicht",
+                "Schleimhaut"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Hornschicht liegt in der Unterhaut.",
+              "correct": false
+            }
+          ],
+          "es": "La Hornschicht (capa córnea) es la parte más externa de la epidermis. Funciona como una pared: las células córneas son los ladrillos y las grasas de la piel son el cemento. Así evita que el agua se pierda y que entren alérgenos y gérmenes."
+        },
+        {
+          "id": "neurodermitis.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist bei Neurodermitis an der Haut grundlegend gestört?",
+              "options": [
+                "Die Pigmentbildung",
+                "Die Durchblutung der Unterhaut",
+                "Die Hautbarriere: Die Haut verliert Wasser und lässt Reizstoffe, Allergene und Keime leichter eindringen",
+                "Das Haarwachstum"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei Neurodermitis verliert die Haut durch die gestörte Barriere mehr Wasser und trocknet aus.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Weil bei Neurodermitis Hautfette und Feuchthaltefaktoren fehlen, ist die Haut sehr ___.",
+              "options": [
+                "fettig",
+                "dick",
+                "trocken",
+                "stark behaart"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "En la Neurodermitis la Hautbarriere (barrera cutánea) está dañada: faltan grasas y factores que retienen la humedad. Por eso la piel pierde agua, se reseca y deja pasar más fácil irritantes, Allergene (alérgenos) y gérmenes. Esta es la razón por la que la crema hidratante y engrasante diaria es la base de todo el tratamiento."
+        },
+        {
+          "id": "neurodermitis.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist der Säureschutzmantel der Haut?",
+              "options": [
+                "Ein dicker Fettfilm, der nur an den Fußsohlen vorkommt",
+                "Ein leicht saurer Film aus Schweiß und Talg auf der Hautoberfläche, der vor Krankheitserregern schützt",
+                "Eine Schicht aus Muskelzellen unter der Haut",
+                "Ein alkalischer Film, der durch Seife entsteht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Alkalische Seifen schädigen den Säureschutzmantel der Haut.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Der pH-Wert der gesunden Hautoberfläche ist leicht ___.",
+              "options": [
+                "alkalisch",
+                "neutral",
+                "sauer",
+                "basisch"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El Säureschutzmantel (manto ácido protector) es una película ligeramente ácida de sudor y sebo, con un pH de más o menos 5.5. Frena el crecimiento de bacterias y hongos. El jabón normal es alcalino y lo destruye; por eso en la Neurodermitis se usan productos pH-hautneutral (con el mismo pH de la piel, ligeramente ácido) y sin jabón."
+        },
+        {
+          "id": "neurodermitis.anatomie.6",
+          "type": "sprech",
+          "q": "Erklären Sie den Aufbau und die Aufgaben der Haut und was bei Neurodermitis gestört ist.",
+          "answer": "Die Haut besteht aus drei Schichten: der Epidermis, also der Oberhaut, der Dermis oder Lederhaut und der Subkutis, der Unterhaut. Sie schützt den Körper vor Krankheitserregern und Austrocknung, reguliert die Körpertemperatur und ist ein Sinnesorgan. Die Hornschicht der Epidermis und der Säureschutzmantel bilden die Hautbarriere. Bei Neurodermitis ist diese Barriere gestört. Die Haut verliert Wasser, wird trocken und Allergene und Keime können leichter eindringen.",
+          "points": [
+            "Epidermis, Dermis, Subkutis",
+            "Schutzfunktion",
+            "Temperaturregulation",
+            "Sinnesorgan",
+            "Gestörte Hautbarriere",
+            "Trockene Haut"
+          ],
+          "es": "Aquí conviene seguir un orden fijo: primero las tres capas, luego las funciones y al final lo que falla en la enfermedad. La idea central es la gestörte Hautbarriere (barrera cutánea alterada): la piel pierde agua y deja entrar alérgenos y gérmenes. Con eso ya puedes explicar después por qué se cuida la piel con cremas todos los días."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "neurodermitis.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht Neurodermitis nach heutigem Wissen?",
+              "options": [
+                "Durch eine Ansteckung mit Bakterien",
+                "Allein durch falsche Ernährung",
+                "Allein durch mangelnde Körperhygiene",
+                "Durch das Zusammenwirken von genetischer Veranlagung, gestörter Hautbarriere, überschießender Immunreaktion und Umweltfaktoren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Neurodermitis hat eine einzige, klar bekannte Ursache.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren spielen bei der Entstehung der Neurodermitis eine Rolle?",
+              "options": [
+                "Genetische Veranlagung",
+                "Gestörte Hautbarriere",
+                "Ansteckung im Kindergarten",
+                "Überschießende Immunreaktion",
+                "Mangelnde Körperhygiene"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "es": "La Neurodermitis es multifaktoriell (multifactorial): no hay una sola causa. Se juntan la genetische Veranlagung (predisposición genética), la barrera de la piel alterada, una reacción exagerada del sistema inmune y factores del ambiente. No tiene nada que ver con falta de higiene ni con contagio."
+        },
+        {
+          "id": "neurodermitis.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Rolle spielt die Vererbung bei Neurodermitis?",
+              "options": [
+                "Keine, die Erkrankung ist nicht erblich",
+                "Die Veranlagung wird vererbt; das Risiko ist besonders hoch, wenn beide Eltern eine atopische Erkrankung haben",
+                "Die Erkrankung wird nur von der Mutter vererbt",
+                "Jedes Kind betroffener Eltern erkrankt sicher"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Wenn beide Eltern an einer atopischen Erkrankung leiden, ist das Risiko für das Kind deutlich erhöht.",
+              "correct": true
+            }
+          ],
+          "es": "Lo que se hereda es la Veranlagung (predisposición), no la enfermedad en sí. Si uno de los padres tiene una enfermedad atópica, el riesgo del niño sube; si los dos la tienen, sube todavía más. Por eso en la Anamnese siempre se pregunta por alergias, asma y Neurodermitis en la familia."
+        },
+        {
+          "id": "neurodermitis.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Antikörper ist bei vielen Menschen mit Neurodermitis im Blut erhöht?",
+              "options": [
+                "IgE",
+                "IgA",
+                "IgM",
+                "IgD"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Bei vielen Betroffenen reagiert das Immunsystem überschießend auf harmlose Stoffe und bildet vermehrt Antikörper vom Typ ___.",
+              "options": [
+                "IgA",
+                "IgM",
+                "IgE",
+                "IgD"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei Neurodermitis reagiert das Immunsystem zu schwach auf Allergene.",
+              "correct": false
+            }
+          ],
+          "es": "En la Neurodermitis el sistema inmune reacciona de más contra sustancias inofensivas como polen o ácaros. En muchos pacientes se forma mucha IgE (inmunoglobulina E), el anticuerpo típico de las alergias. Esta reacción mantiene la inflamación de la piel."
+        },
+        {
+          "id": "neurodermitis.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum führt die gestörte Hautbarriere zu Entzündungen der Haut?",
+              "options": [
+                "Weil die Haut zu viel Talg bildet und die Poren verstopfen",
+                "Weil die Haut zu stark durchblutet wird",
+                "Weil Allergene, Reizstoffe und Keime leichter eindringen und das Immunsystem darauf mit einer Entzündung reagiert",
+                "Weil die Haut zu viel Vitamin D bildet"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Durch die gestörte Hautbarriere können Allergene leichter in die Haut eindringen.",
+              "correct": true
+            }
+          ],
+          "es": "La barrera dañada y la reacción inmune se refuerzan una a la otra. Como la piel está «abierta», entran alérgenos, irritantes y gérmenes; el sistema inmune responde con Entzündung (inflamación), y la inflamación daña todavía más la barrera. Así se entiende por qué cuidar la barrera con cremas reduce los brotes."
+        },
+        {
+          "id": "neurodermitis.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen hat die Neurodermitis?",
+          "answer": "Die genaue Ursache ist nicht vollständig geklärt, die Entstehung ist multifaktoriell. Die Betroffenen haben eine genetische Veranlagung, die Atopie. Die Hautbarriere ist gestört, deshalb ist die Haut trocken und durchlässig für Allergene und Keime. Das Immunsystem reagiert überschießend, oft ist das IgE erhöht. Dazu kommen Umwelt- und Triggerfaktoren, die einen Schub auslösen können.",
+          "points": [
+            "Multifaktoriell",
+            "Genetische Veranlagung",
+            "Gestörte Hautbarriere",
+            "Überschießende Immunreaktion",
+            "Triggerfaktoren"
+          ],
+          "es": "Para esta pregunta arma tu respuesta con cuatro piezas: genética (Atopie), barrera de la piel alterada, reacción inmune exagerada y factores desencadenantes. Empieza diciendo que la causa es multifaktoriell (multifactorial). Así muestras que entiendes que no existe un solo culpable."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "neurodermitis.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Faktoren können einen Neurodermitis-Schub auslösen (Triggerfaktoren)?",
+              "options": [
+                "Stress",
+                "Kleidung aus Wolle",
+                "Schwitzen",
+                "Baumwollkleidung",
+                "Infekte",
+                "Regelmäßiges Eincremen"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was ist ein Triggerfaktor?",
+              "options": [
+                "Ein Medikament gegen Juckreiz",
+                "Ein Auslöser, der einen Schub hervorrufen oder verschlimmern kann",
+                "Ein Bluttest zur Diagnose",
+                "Eine Hautschicht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Triggerfaktoren sind bei allen Menschen mit Neurodermitis genau gleich.",
+              "correct": false
+            }
+          ],
+          "es": "Los Triggerfaktoren (factores desencadenantes) son cosas que provocan o empeoran un brote: estrés, sudor, lana, infecciones, alérgenos, aire seco. Son distintos en cada persona, por eso cada paciente tiene que descubrir los suyos, por ejemplo con un diario de síntomas."
+        },
+        {
+          "id": "neurodermitis.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum verschlechtert sich die Neurodermitis bei vielen Betroffenen im Winter?",
+              "options": [
+                "Weil im Winter mehr Pollen fliegen",
+                "Weil man im Winter mehr schwitzt",
+                "Weil kalte Außenluft und trockene Heizungsluft die Haut zusätzlich austrocknen",
+                "Weil im Winter weniger Kleidung getragen wird"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Trockene Heizungsluft im Winter trocknet die Haut zusätzlich aus und kann die Neurodermitis verschlechtern.",
+              "correct": true
+            }
+          ],
+          "es": "En invierno muchos pacientes empeoran porque el aire frío de afuera y la trockene Heizungsluft (aire seco de la calefacción) resecan más la piel. Por eso en esa época se usan cremas más grasosas y se cuida que el aire del cuarto no esté demasiado seco ni caliente."
+        },
+        {
+          "id": "neurodermitis.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Allergene sind häufige Triggerfaktoren bei Neurodermitis?",
+              "options": [
+                "Hausstaubmilben",
+                "Pollen",
+                "Leitungswasser",
+                "Tierhaare",
+                "Kochsalz"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "match",
+              "q": "Ordne den Triggerfaktor der passenden Gruppe zu.",
+              "pairs": [
+                [
+                  "Hausstaubmilben",
+                  "Allergen aus der Umwelt"
+                ],
+                [
+                  "Wolle",
+                  "Mechanischer Reiz durch Kleidung"
+                ],
+                [
+                  "Prüfungsangst",
+                  "Psychische Belastung"
+                ],
+                [
+                  "Erkältung",
+                  "Infekt"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Hausstaubmilben, Pollen und Tierhaare haben keinen Einfluss auf die Neurodermitis.",
+              "correct": false
+            }
+          ],
+          "es": "Los alérgenos más frecuentes son Hausstaubmilben (ácaros del polvo), Pollen (polen) y Tierhaare (pelo de animales). En personas sensibilizadas pueden provocar un brote. Por eso se aconseja, por ejemplo, fundas antiácaros para el colchón y no tener mascotas de pelo si hay alergia comprobada."
+        },
+        {
+          "id": "neurodermitis.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aussage zu Nahrungsmitteln als Triggerfaktor ist richtig?",
+              "options": [
+                "Alle Menschen mit Neurodermitis müssen auf Milch und Eier verzichten",
+                "Nahrungsmittel spielen nie eine Rolle",
+                "Nur Erwachsene reagieren auf Nahrungsmittel",
+                "Vor allem bei Säuglingen und Kleinkindern können bestimmte Nahrungsmittel wie Kuhmilch oder Hühnerei Schübe auslösen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Bei manchen Kindern mit Neurodermitis können Kuhmilch oder Hühnerei einen Schub auslösen.",
+              "correct": true
+            }
+          ],
+          "es": "Algunos Nahrungsmittel (alimentos) pueden desencadenar brotes, sobre todo en lactantes y niños pequeños: leche de vaca, huevo, trigo, soya, nueces o cacahuate. Pero no pasa en todos los pacientes. Por eso no se quitan alimentos «por si acaso», solo cuando la alergia está comprobada."
+        },
+        {
+          "id": "neurodermitis.risikofaktoren.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren reizen die Haut bei Neurodermitis zusätzlich?",
+              "options": [
+                "Häufiges, langes und heißes Duschen oder Baden",
+                "Rückfettende Pflegecreme",
+                "Alkalische Seifen",
+                "Tabakrauch",
+                "Weiche Baumwollwäsche"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Häufiges heißes Baden mit normaler Seife ist gut für die Haut bei Neurodermitis.",
+              "correct": false
+            }
+          ],
+          "es": "Todo lo que reseca o irrita la piel es un factor de riesgo para un brote: baños largos y calientes, jabón alcalino, Tabakrauch (humo de tabaco), detergentes y perfumes. Son factores que el paciente sí puede cambiar, y por eso son un tema importante de la asesoría de enfermería."
+        },
+        {
+          "id": "neurodermitis.risikofaktoren.6",
+          "type": "sprech",
+          "q": "Welche Triggerfaktoren können einen Neurodermitis-Schub auslösen?",
+          "answer": "Triggerfaktoren sind individuell verschieden. Häufig sind Hautreize wie Wolle oder Synthetik, Schwitzen, trockene Heizungsluft sowie häufiges Waschen mit Seife. Auch Allergene wie Hausstaubmilben, Pollen und Tierhaare können einen Schub auslösen, bei Kindern auch bestimmte Nahrungsmittel wie Kuhmilch oder Hühnerei. Weitere Auslöser sind Infekte und psychische Belastungen wie Stress. Der wichtigste Risikofaktor für die Erkrankung selbst ist die familiäre Veranlagung.",
+          "points": [
+            "Individuell verschieden",
+            "Wolle und Schwitzen",
+            "Trockene Luft",
+            "Allergene",
+            "Stress und Infekte",
+            "Familiäre Veranlagung"
+          ],
+          "es": "En el examen ordena los desencadenantes por grupos, así no se te olvida ninguno: irritación de la piel (lana, sudor, aire seco, jabón), alérgenos (ácaros, polen, pelo de animales, algunos alimentos), infecciones y estrés. Menciona también que la familiäre Veranlagung (predisposición familiar) es el factor de riesgo principal."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "neurodermitis.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist das Leitsymptom der Neurodermitis?",
+              "options": [
+                "Starker Juckreiz",
+                "Starke Schmerzen in den Gelenken",
+                "Hohes Fieber",
+                "Haarausfall"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Das Leitsymptom der Neurodermitis ist ein starker, quälender ___.",
+              "options": [
+                "Husten",
+                "Juckreiz",
+                "Schwindel",
+                "Durst"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Juckreiz ist bei Neurodermitis oft abends und nachts besonders stark.",
+              "correct": true
+            }
+          ],
+          "es": "El Leitsymptom (síntoma principal) es el Juckreiz (comezón), también llamado Pruritus. Es muy fuerte y casi siempre empeora en la tarde y en la noche, con el calor de la cama. Es lo que más hace sufrir a los pacientes y lo que más trabajo da en la atención de enfermería."
+        },
+        {
+          "id": "neurodermitis.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche vier Hautveränderungen sind typisch für Neurodermitis?",
+              "options": [
+                "Trockene, schuppende Haut",
+                "Gerötete Ekzeme",
+                "Scharf begrenzte, silbrig-weiße Schuppenplatten",
+                "Nässende Stellen und Krusten",
+                "Kratzspuren",
+                "Blasen nur an den Fußsohlen"
+              ],
+              "correct": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Welche Hautveränderungen sieht man typischerweise im akuten Schub?",
+              "options": [
+                "Blasse, kühle Haut ohne Juckreiz",
+                "Gelbe Verfärbung der Haut",
+                "Gerötete, geschwollene, teils nässende Ekzeme mit Krusten",
+                "Blaue Flecken ohne Juckreiz"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Im akuten Schub kann die Haut gerötet sein, nässen und Krusten bilden.",
+              "correct": true
+            }
+          ],
+          "es": "Las lesiones típicas son: trockene Haut (piel seca), Ekzeme con Rötung (enrojecimiento), zonas que nässen (que supuran) y Krusten (costras), además de Kratzspuren (marcas de rascado). En el brote agudo la piel está roja, hinchada y húmeda; en la fase crónica está seca, con escamas y engrosada."
+        },
+        {
+          "id": "neurodermitis.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet Lichenifikation?",
+              "options": [
+                "Eine Verdickung und Vergröberung der Haut mit verstärkter Hautfelderung durch chronisches Kratzen und Reiben",
+                "Eine Aufhellung der Haut durch Sonnenlicht",
+                "Eine Blasenbildung nach Verbrennung",
+                "Ein Pilzbefall der Nägel"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Lichenifikation ist ein Zeichen für einen ganz frischen, akuten Schub.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Durch jahrelanges Kratzen wird die Haut dick und grob gefeldert; das nennt man ___.",
+              "options": [
+                "Zyanose",
+                "Ikterus",
+                "Lichenifikation",
+                "Ödem"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Lichenifikation (liquenificación) quiere decir que la piel se pone gruesa, dura y con los surcos muy marcados, como cuero. Aparece por rascarse y frotarse durante mucho tiempo, o sea, es señal de un eccema crónico y no de un brote reciente."
+        },
+        {
+          "id": "neurodermitis.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo sitzen die Ekzeme bei Säuglingen typischerweise?",
+              "options": [
+                "Nur im Windelbereich",
+                "In den Ellenbeugen und Kniekehlen",
+                "Nur an Handflächen und Fußsohlen",
+                "Im Gesicht (Wangen), am behaarten Kopf und an den Streckseiten von Armen und Beinen"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "mc",
+              "q": "Wo sitzen die Ekzeme bei älteren Kindern und Erwachsenen typischerweise?",
+              "options": [
+                "An den Beugen: Ellenbeugen, Kniekehlen, Handgelenke sowie an Hals und Nacken",
+                "Nur am Bauch",
+                "An den Streckseiten der Ellenbogen und Knie",
+                "Nur an den Fußsohlen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "match",
+              "q": "Ordne zu: Lebensalter und typische Lokalisation der Ekzeme.",
+              "pairs": [
+                [
+                  "Säugling",
+                  "Gesicht, Kopf und Streckseiten der Arme und Beine"
+                ],
+                [
+                  "Schulkind und Erwachsener",
+                  "Ellenbeugen, Kniekehlen, Hals und Nacken"
+                ],
+                [
+                  "Windelbereich beim Säugling",
+                  "Meistens frei von Ekzemen"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei Säuglingen ist der Windelbereich meistens besonders stark vom Ekzem betroffen.",
+              "correct": false
+            }
+          ],
+          "es": "La localización cambia con la edad, y esto lo preguntan mucho. En el Säugling (lactante): cara, cuero cabelludo y Streckseiten (lados extensores) de brazos y piernas; la zona del pañal casi siempre queda libre. En niños mayores y adultos: Beugen (pliegues de flexión) como codos y detrás de las rodillas, además de cuello, nuca y manos. Por eso también se le llama Beugenekzem."
+        },
+        {
+          "id": "neurodermitis.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bezeichnet man bei Säuglingen mit Neurodermitis als „Milchschorf“?",
+              "options": [
+                "Weiße Beläge auf der Zunge durch Milchreste",
+                "Gelblich-bräunliche Krusten und Schuppen auf geröteter Haut am Kopf und im Gesicht",
+                "Eine Allergie gegen Muttermilch",
+                "Blaue Flecken am Rücken"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Der Name „Milchschorf“ kommt daher, dass die Krusten wie angebrannte Milch aussehen.",
+              "correct": true
+            }
+          ],
+          "es": "El Milchschorf (costra láctea) son costras y escamas amarillentas sobre piel roja en la cabeza y la cara del lactante, que dan comezón. Puede ser la primera señal de una Neurodermitis. El nombre viene de que parece leche quemada en una olla, no de que la leche sea la causa."
+        },
+        {
+          "id": "neurodermitis.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome hat ein Patient mit Neurodermitis?",
+          "answer": "Das Leitsymptom ist ein starker Juckreiz, der besonders abends und nachts auftritt. Die Haut ist sehr trocken und schuppig. Im Schub entstehen gerötete Ekzeme, die nässen und Krusten bilden können, dazu kommen Kratzspuren. Bei chronischem Verlauf wird die Haut dick und grob, das nennt man Lichenifikation. Bei Säuglingen sind vor allem Gesicht, Kopf und Streckseiten betroffen, bei älteren Kindern und Erwachsenen die Beugen wie Ellenbeugen und Kniekehlen.",
+          "points": [
+            "Starker Juckreiz",
+            "Trockene Haut",
+            "Gerötete, nässende Ekzeme",
+            "Lichenifikation",
+            "Säugling: Gesicht, Streckseiten",
+            "Erwachsene: Beugen"
+          ],
+          "es": "Empieza siempre con el Juckreiz (comezón) como Leitsymptom. Luego describe la piel: seca, con eccema rojo que puede supurar y formar costras, y en lo crónico la Lichenifikation (piel engrosada). Cierra con la localización según la edad; esa parte demuestra que de verdad conoces la enfermedad."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "neurodermitis.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird die Diagnose Neurodermitis in erster Linie gestellt?",
+              "options": [
+                "Durch eine Computertomografie",
+                "Durch eine Blutzuckermessung",
+                "Durch die Anamnese und das klinische Bild der Haut",
+                "Durch eine Urinuntersuchung"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Für die Diagnose Neurodermitis gibt es einen einzelnen Laborwert, der die Erkrankung sicher beweist.",
+              "correct": false
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Punkte sind für die Diagnose am wichtigsten?",
+              "options": [
+                "Anamnese mit Familienanamnese",
+                "Röntgen des Thorax",
+                "Inspektion der Haut (klinisches Bild)",
+                "EKG",
+                "Lumbalpunktion"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            }
+          ],
+          "es": "La Neurodermitis es una klinische Diagnose (diagnóstico clínico): el médico la reconoce por la Anamnese (historia clínica) y por el aspecto de la piel. No hay un estudio de laboratorio que la confirme por sí solo. Los estudios de alergia solo ayudan a encontrar desencadenantes."
+        },
+        {
+          "id": "neurodermitis.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Fragen gehören zur Anamnese bei Verdacht auf Neurodermitis?",
+              "options": [
+                "Gibt es Allergien, Asthma oder Neurodermitis in der Familie?",
+                "Seit wann bestehen Juckreiz und Hautveränderungen?",
+                "Wie hoch ist der Blutdruck der Großeltern?",
+                "Welche Auslöser verschlechtern die Haut?",
+                "Welche Blutgruppe hat der Patient?"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die Familienanamnese ist bei Neurodermitis unwichtig.",
+              "correct": false
+            }
+          ],
+          "es": "En la Anamnese se pregunta por la Familienanamnese (antecedentes familiares de alergias, asma o Neurodermitis), desde cuándo hay comezón y lesiones, cómo ha sido la evolución y qué cosas empeoran la piel. Estas respuestas, junto con la piel, llevan al diagnóstico."
+        },
+        {
+          "id": "neurodermitis.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wozu dient der Pricktest?",
+              "options": [
+                "Zur Messung der Hautdicke",
+                "Zum Nachweis von Bakterien auf der Haut",
+                "Zur Messung der Hautfeuchtigkeit",
+                "Zum Nachweis einer Sensibilisierung gegen bestimmte Allergene"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "cloze",
+              "q": "Beim ___ werden Allergenlösungen auf den Unterarm getropft und die Haut wird oberflächlich angestochen.",
+              "options": [
+                "Pricktest",
+                "Schellong-Test",
+                "FAST-Test",
+                "Belastungs-EKG"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Mit dem Pricktest sucht man nach Allergenen, die als Auslöser infrage kommen.",
+              "correct": true
+            }
+          ],
+          "es": "En el Pricktest (prueba cutánea de punción) se ponen gotas de alérgenos en el antebrazo y se pica la piel muy superficialmente. Si sale una Quaddel (roncha) con enrojecimiento, hay sensibilización a ese alérgeno. Sirve para buscar desencadenantes, no para diagnosticar la Neurodermitis en sí."
+        },
+        {
+          "id": "neurodermitis.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Blutuntersuchung gehört zur Allergiediagnostik bei Neurodermitis?",
+              "options": [
+                "Bestimmung des Gesamt-IgE und des spezifischen IgE",
+                "Bestimmung des HbA1c",
+                "Bestimmung des Troponins",
+                "Bestimmung des Kreatinins"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Ein normaler IgE-Wert schließt eine Neurodermitis sicher aus.",
+              "correct": false
+            }
+          ],
+          "es": "En sangre se puede medir el Gesamt-IgE (IgE total) y el spezifisches IgE (IgE específica contra ciertos alérgenos). En muchos pacientes está elevado, pero no en todos: un valor normal no descarta la enfermedad. Solo apoya el diagnóstico y ayuda a encontrar alergias."
+        },
+        {
+          "id": "neurodermitis.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe haben Pflegefachpersonen bei einem Pricktest?",
+              "options": [
+                "Sie stellen selbstständig die Diagnose",
+                "Sie bereiten den Test vor, beobachten den Patienten auf allergische Reaktionen und halten Notfallmedikamente bereit",
+                "Sie verordnen die Allergenlösungen",
+                "Sie haben beim Pricktest keine Aufgabe"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei einem Allergietest kann es in seltenen Fällen zu einer allergischen Allgemeinreaktion kommen, deshalb wird der Patient beobachtet.",
+              "correct": true
+            }
+          ],
+          "es": "En las pruebas de alergia enfermería prepara el material, informa al paciente y lo observa durante y después de la prueba. Aunque es raro, puede haber una reacción alérgica general, por eso el equipo de urgencia debe estar a la mano. También preguntas antes si tomó Antihistaminika (antihistamínicos), porque pueden falsear el resultado."
+        },
+        {
+          "id": "neurodermitis.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird Neurodermitis diagnostiziert?",
+          "answer": "Die Diagnose wird vor allem klinisch gestellt, also durch die Anamnese und die Inspektion der Haut. In der Anamnese fragt der Arzt nach dem Verlauf, nach Auslösern und nach atopischen Erkrankungen in der Familie. Bei der Inspektion achtet er auf das typische Bild und die altersabhängige Lokalisation der Ekzeme. Ergänzend sucht man nach Auslösern, zum Beispiel mit einem Pricktest und mit der Bestimmung von Gesamt-IgE und spezifischem IgE im Blut.",
+          "points": [
+            "Klinische Diagnose",
+            "Anamnese und Familienanamnese",
+            "Inspektion der Haut",
+            "Pricktest",
+            "IgE im Blut"
+          ],
+          "es": "Lo esencial es decir que el diagnóstico es klinisch (clínico): historia clínica más inspección de la piel. Después nombra los estudios complementarios para buscar alergias: Pricktest e IgE en sangre. Así dejas claro qué confirma el diagnóstico y qué solo busca desencadenantes."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "neurodermitis.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist die Grundlage jeder Neurodermitis-Therapie?",
+              "options": [
+                "Die Einnahme von Antibiotika",
+                "Eine Operation der betroffenen Hautstellen",
+                "Die tägliche Basispflege mit rückfettenden und feuchtigkeitsspendenden Pflegeprodukten",
+                "Strenge Bettruhe"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Die Basispflege wird nur im akuten Schub durchgeführt und in beschwerdefreien Phasen beendet.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die tägliche Basispflege mit rückfettenden Externa wird auch in ___ Phasen durchgeführt.",
+              "options": [
+                "fieberhaften",
+                "beschwerdefreien",
+                "infektiösen",
+                "nächtlichen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Basispflege o Basistherapie (cuidado básico de la piel) es la base de todo: cremas y ungüentos rückfettend (que reponen la grasa) e hidratantes, todos los días. Se hace también cuando la piel está bien, porque repara la barrera y previene nuevos brotes. Sin esto, ningún otro tratamiento funciona bien."
+        },
+        {
+          "id": "neurodermitis.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Medikamente werden im akuten Schub vor allem auf die Haut aufgetragen?",
+              "options": [
+                "Topische Antimykotika",
+                "Topische Glukokortikoide (Kortisonsalben)",
+                "Heparinsalben",
+                "Lokalanästhetika"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "mc",
+              "q": "Welche Nebenwirkung kann bei langer Anwendung von Kortisonsalben an der Haut auftreten?",
+              "options": [
+                "Verdickung der Haut",
+                "Dunkle Behaarung der Handflächen",
+                "Dauerhafte Unempfindlichkeit der Haut",
+                "Verdünnung der Haut (Hautatrophie)"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Kortisonsalben werden dünn und nur auf die betroffenen Hautstellen aufgetragen.",
+              "correct": true
+            }
+          ],
+          "es": "En el brote se usan topische Glukokortikoide (corticoides tópicos, o sea pomadas con cortisona) porque frenan la inflamación y la comezón. Se aplican en capa delgada, solo en las zonas afectadas y por tiempo limitado según la indicación médica. Con uso prolongado pueden causar Hautatrophie (adelgazamiento de la piel), sobre todo en cara, pliegues y genitales."
+        },
+        {
+          "id": "neurodermitis.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welchen Vorteil haben topische Calcineurininhibitoren (z. B. Tacrolimus, Pimecrolimus) gegenüber Kortisonsalben?",
+              "options": [
+                "Sie verursachen keine Hautatrophie und eignen sich deshalb für empfindliche Stellen wie das Gesicht",
+                "Sie wirken antibiotisch",
+                "Sie machen die Basispflege überflüssig",
+                "Sie müssen nur einmal im Jahr aufgetragen werden"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Calcineurininhibitoren wie Tacrolimus und Pimecrolimus wirken entzündungshemmend und enthalten kein Kortison.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "An empfindlichen Hautstellen wie Gesicht und Hautfalten werden statt Kortison oft ___ eingesetzt.",
+              "options": [
+                "Antikoagulanzien",
+                "Diuretika",
+                "Calcineurininhibitoren",
+                "Betablocker"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Los Calcineurininhibitoren (inhibidores de la calcineurina: Tacrolimus y Pimecrolimus) son antiinflamatorios tópicos sin cortisona. Su ventaja es que no adelgazan la piel, por eso sirven para cara, cuello y pliegues. Al principio pueden dar ardor en la piel, y el paciente debe protegerse bien del sol."
+        },
+        {
+          "id": "neurodermitis.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Therapie ihrer Wirkung zu.",
+              "pairs": [
+                [
+                  "Rückfettende Basispflege",
+                  "Stärkt die Hautbarriere"
+                ],
+                [
+                  "Topische Glukokortikoide",
+                  "Hemmen die Entzündung im Schub"
+                ],
+                [
+                  "Antihistaminika",
+                  "Können den Juckreiz lindern"
+                ],
+                [
+                  "Lichttherapie (UV-Therapie)",
+                  "Hemmt die Entzündung durch Bestrahlung"
+                ]
+              ]
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Therapien kommen bei schweren Verläufen zusätzlich infrage?",
+              "options": [
+                "Lichttherapie (UV-Therapie)",
+                "Systemische Therapie, z. B. mit Biologika",
+                "Dauerhafte Antibiotikagabe ohne Infektion",
+                "Bettruhe für mehrere Wochen",
+                "Bluttransfusion"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Antihistaminika heilen die Neurodermitis.",
+              "correct": false
+            }
+          ],
+          "es": "Además de cremas y cortisona hay otras opciones: Antihistaminika (antihistamínicos) que pueden calmar la comezón y, si dan sueño, ayudar a dormir; Lichttherapie (fototerapia con luz UV), sobre todo en adultos; y en casos graves tratamiento sistémico, por ejemplo con Biologika (medicamentos biológicos). Ninguno cura la enfermedad, solo la controlan."
+        },
+        {
+          "id": "neurodermitis.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie trägt eine Pflegefachperson Kortisonsalbe bei einem Patienten auf?",
+              "options": [
+                "Mit bloßen Händen und möglichst dick",
+                "Großflächig auf den ganzen Körper",
+                "Nur auf gesunde Haut",
+                "Mit Handschuhen, dünn und nur auf die betroffenen Stellen, wie ärztlich angeordnet"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die Pflegefachperson beobachtet bei der Lokaltherapie die Wirkung und mögliche Nebenwirkungen an der Haut und dokumentiert sie.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Pflege bei der Lokaltherapie mit Kortison?",
+              "options": [
+                "Salbe nach ärztlicher Anordnung auftragen",
+                "Dosis selbstständig erhöhen",
+                "Hautzustand beobachten und dokumentieren",
+                "Patienten zur richtigen Anwendung anleiten",
+                "Therapie bei Besserung selbstständig absetzen"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "es": "En la terapia local tu papel es aplicar el medicamento según la ärztliche Anordnung (indicación médica): con guantes, en capa delgada y solo donde hay eccema. Observas si la piel mejora y si aparecen efectos secundarios, lo documentas y enseñas al paciente a aplicarlo bien. Muchos pacientes tienen miedo a la cortisona, y explicarles con calma mejora su apego al tratamiento."
+        },
+        {
+          "id": "neurodermitis.therapie.6",
+          "type": "sprech",
+          "q": "Wie wird Neurodermitis behandelt und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Die Grundlage ist die tägliche Basispflege mit rückfettenden Externa, auch in beschwerdefreien Phasen. Im Schub kommen entzündungshemmende Salben dazu, vor allem topische Glukokortikoide, an empfindlichen Stellen auch Calcineurininhibitoren. Antihistaminika können den Juckreiz lindern, bei schweren Verläufen gibt es Lichttherapie oder eine systemische Therapie. Außerdem sollen Triggerfaktoren gemieden werden, und die Betroffenen nehmen an einer Neurodermitisschulung teil. Die Pflege trägt die Externa nach Anordnung mit Handschuhen auf, beobachtet Wirkung und Nebenwirkungen und leitet den Patienten an.",
+          "points": [
+            "Tägliche Basispflege",
+            "Topische Glukokortikoide im Schub",
+            "Calcineurininhibitoren",
+            "Trigger meiden",
+            "Schulung",
+            "Wirkung und Nebenwirkungen beobachten"
+          ],
+          "es": "Explica el tratamiento por escalones: primero la Basispflege diaria, luego los antiinflamatorios tópicos en el brote (cortisona, Calcineurininhibitoren) y al final las opciones para casos graves. No olvides evitar los desencadenantes y la Schulung (capacitación del paciente). Termina con tu papel: aplicar según indicación, observar efectos y efectos secundarios, y enseñar."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "neurodermitis.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Komplikation ist bei Neurodermitis am häufigsten?",
+              "options": [
+                "Bakterielle Superinfektion der Haut, meist durch Staphylococcus aureus",
+                "Herzinfarkt",
+                "Nierenversagen",
+                "Knochenbrüche"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Der häufigste Erreger einer bakteriellen Superinfektion bei Neurodermitis ist ___.",
+              "options": [
+                "Escherichia coli",
+                "Staphylococcus aureus",
+                "Candida albicans",
+                "Clostridioides difficile"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Haut von Menschen mit Neurodermitis ist besonders häufig mit Staphylococcus aureus besiedelt.",
+              "correct": true
+            }
+          ],
+          "es": "La complicación más frecuente es la bakterielle Superinfektion (sobreinfección bacteriana), casi siempre por Staphylococcus aureus. La piel con la barrera dañada y las heridas por rascado son la puerta de entrada para las bacterias. Por eso la prevención de infecciones de la piel es una tarea central de enfermería."
+        },
+        {
+          "id": "neurodermitis.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sprechen für eine bakterielle Superinfektion der Ekzeme?",
+              "options": [
+                "Gelbliche (honiggelbe) Krusten",
+                "Eitrige Pusteln",
+                "Blasse, trockene Haut ohne Rötung",
+                "Stark nässende Stellen",
+                "Verdickte Haut in den Beugen"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was tut die Pflegefachperson, wenn sie gelbliche Krusten und Eiterpusteln auf den Ekzemen beobachtet?",
+              "options": [
+                "Sie wartet eine Woche ab",
+                "Sie trägt mehr Kortisonsalbe auf",
+                "Sie informiert den Arzt und dokumentiert die Beobachtung",
+                "Sie entfernt die Krusten mit einer Bürste"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Gelbliche Krusten und Eiterpusteln auf den Ekzemen sind normal und müssen nicht gemeldet werden.",
+              "correct": false
+            }
+          ],
+          "es": "Señales de sobreinfección bacteriana: Krusten amarillas color miel, Pusteln (pústulas con pus), zonas que supuran mucho y a veces fiebre. Si observas esto, avisas al médico y lo documentas, porque puede hacer falta tratamiento antiséptico o antibiótico."
+        },
+        {
+          "id": "neurodermitis.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Eczema herpeticatum?",
+              "options": [
+                "Eine harmlose Hautrötung nach dem Duschen",
+                "Eine Pilzinfektion der Fußnägel",
+                "Eine allergische Reaktion auf Kortison",
+                "Eine großflächige Infektion der ekzematösen Haut mit Herpes-simplex-Viren"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Das Eczema herpeticatum ist ein Notfall und muss sofort ärztlich behandelt werden.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Zeichen sind typisch für ein Eczema herpeticatum?",
+              "options": [
+                "Viele gleich große Bläschen in Gruppen",
+                "Fieber",
+                "Starkes Krankheitsgefühl",
+                "Besserung ohne Behandlung innerhalb einer Stunde",
+                "Verdickte Fingernägel"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            }
+          ],
+          "es": "El Eczema herpeticatum es una infección extensa de la piel con eccema por Herpes-simplex-Viren (virus del herpes simple). Aparecen muchas Bläschen (vesículas) agrupadas, fiebre y malestar general fuerte. Es un Notfall (urgencia): se avisa de inmediato al médico y se trata con antivirales. Por eso personas con herpes labial activo no deben tener contacto estrecho con el paciente."
+        },
+        {
+          "id": "neurodermitis.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum leiden viele Menschen mit Neurodermitis unter Schlafstörungen?",
+              "options": [
+                "Weil die Medikamente wach machen",
+                "Weil der Juckreiz nachts besonders stark ist und sie durch das Kratzen aufwachen",
+                "Weil sie tagsüber zu viel schlafen",
+                "Weil sie nachts Hunger haben"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Schlafmangel durch nächtlichen Juckreiz kann zu Müdigkeit und Konzentrationsstörungen am Tag führen.",
+              "correct": true
+            }
+          ],
+          "es": "El Juckreiz empeora en la noche, y el paciente se despierta rascándose. El resultado son Schlafstörungen (trastornos del sueño), cansancio de día y problemas de concentración en la escuela o el trabajo. En niños, además, toda la familia duerme mal."
+        },
+        {
+          "id": "neurodermitis.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei psychosozialen Folgen kann Neurodermitis haben?",
+              "options": [
+                "Schamgefühl wegen der sichtbaren Hautveränderungen",
+                "Sozialer Rückzug",
+                "Verbesserte Konzentration",
+                "Depressive Verstimmung",
+                "Gesteigertes Selbstwertgefühl"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Neurodermitis betrifft nur die Haut und hat keine Auswirkungen auf die Psyche.",
+              "correct": false
+            }
+          ],
+          "es": "La Neurodermitis es también una psychische Belastung (carga psicológica). Las lesiones visibles dan vergüenza, algunos pacientes se aíslan o sufren burlas, y puede aparecer ánimo depresivo. Además el estrés empeora la piel, así que se forma otro círculo vicioso que debes tener presente en la atención."
+        },
+        {
+          "id": "neurodermitis.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei Neurodermitis auftreten?",
+          "answer": "Die häufigste Komplikation ist die bakterielle Superinfektion der Haut, meist durch Staphylococcus aureus. Man erkennt sie an gelblichen Krusten, Pusteln und nässenden Stellen. Gefährlich ist das Eczema herpeticatum, eine Infektion mit Herpes-simplex-Viren mit vielen Bläschen und Fieber; das ist ein Notfall. Durch den nächtlichen Juckreiz kommt es zu Schlafstörungen. Außerdem ist die Erkrankung eine psychische Belastung und kann zu sozialem Rückzug führen.",
+          "points": [
+            "Bakterielle Superinfektion",
+            "Staphylococcus aureus",
+            "Eczema herpeticatum als Notfall",
+            "Schlafstörungen",
+            "Psychische Belastung"
+          ],
+          "es": "Divide las complicaciones en dos grupos: infecciones de la piel (bacteriana por Staphylococcus aureus y viral, el Eczema herpeticatum) y consecuencias para la vida diaria (mal sueño, carga psicológica, aislamiento). Di claramente que el Eczema herpeticatum es una urgencia; eso es lo que el examinador quiere escuchar."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "neurodermitis.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Worauf achten Sie bei der Beobachtung eines Patienten mit Neurodermitis?",
+          "answer": "Ich beobachte die Haut täglich, am besten bei der Körperpflege. Ich achte auf Lokalisation und Ausdehnung der Ekzeme, auf Rötung, Trockenheit, nässende Stellen, Krusten und Kratzspuren. Besonders wichtig sind Infektionszeichen wie gelbliche Krusten, Pusteln, Bläschen oder Fieber, dann informiere ich sofort den Arzt. Außerdem frage ich nach der Stärke des Juckreizes, zum Beispiel mit einer Skala von 0 bis 10, und nach dem Schlaf. Ich beobachte auch die Wirkung der Therapie und die psychische Verfassung und dokumentiere alles.",
+          "points": [
+            "Tägliche Hautbeobachtung",
+            "Ausdehnung der Ekzeme",
+            "Infektionszeichen",
+            "Juckreiz mit Skala erfassen",
+            "Schlaf und Psyche",
+            "Dokumentation"
+          ],
+          "es": "La observación es la base de todo cuidado. Describe qué miras en la piel (dónde, qué tan extenso, rojo, seco, húmedo, costras, marcas de rascado) y resalta los Infektionszeichen (signos de infección), porque obligan a avisar al médico. Menciona también que preguntas por la comezón con una escala, por el sueño y por el estado de ánimo, y que todo se documenta."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.2",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Wie unterbrechen Sie den Juckreiz-Kratz-Kreislauf und wie vermeiden Sie Hautschäden durch Kratzen?",
+          "answer": "Juckreiz führt zum Kratzen, das Kratzen schädigt die Haut, die Entzündung nimmt zu und der Juckreiz wird noch stärker. Um diesen Kreislauf zu unterbrechen, kühle ich die juckenden Stellen, zum Beispiel mit kühlen feuchten Umschlägen oder gekühlten Pflegeprodukten. Ich creme die Haut regelmäßig ein, denn trockene Haut juckt stärker. Die Fingernägel werden kurz und glatt gehalten, nachts können Baumwollhandschuhe getragen werden. Ich leite den Patienten an, die Haut zu klopfen, zu drücken oder zu streicheln statt zu kratzen, und sorge für Ablenkung und ein kühles Schlafzimmer.",
+          "points": [
+            "Kreislauf erklären",
+            "Kühlen",
+            "Regelmäßig eincremen",
+            "Kurze Fingernägel",
+            "Baumwollhandschuhe nachts",
+            "Klopfen statt kratzen"
+          ],
+          "es": "El Juckreiz-Kratz-Kreislauf (círculo vicioso de comezón y rascado) es el tema de enfermería más importante de esta enfermedad: rascarse lastima la piel, aumenta la inflamación y da más comezón. Tus medidas: enfriar, encremar, uñas cortas, guantes de algodón en la noche y alternativas al rascado como dar golpecitos. Es al mismo tiempo una Prophylaxe (prevención) de heridas e infecciones por rascado."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Hautreinigung und die Basispflege bei Neurodermitis durch?",
+          "answer": "Der Patient soll nur kurz und lauwarm duschen, nicht heiß und nicht lange baden. Zur Reinigung verwende ich pH-hautneutrale, rückfettende Waschprodukte ohne Duftstoffe, zum Beispiel ein Duschöl, und keine alkalische Seife. Danach wird die Haut mit einem weichen Handtuch vorsichtig trocken getupft, nicht gerubbelt. Direkt anschließend creme ich die Haut mit rückfettenden Pflegeprodukten ein, mindestens zweimal täglich. Die Produkte entnehme ich mit einem Spatel und trage sie mit Handschuhen auf.",
+          "points": [
+            "Kurz und lauwarm duschen",
+            "pH-hautneutral, rückfettend",
+            "Trocken tupfen",
+            "Sofort eincremen",
+            "Mindestens zweimal täglich"
+          ],
+          "es": "En la Körperpflege (higiene corporal) todo busca no resecar la piel: baño corto con agua tibia, productos con el pH de la piel (pH-hautneutral, ligeramente ácido) y rückfettend (que reponen grasa), sin jabón ni perfume. La piel se seca a toquecitos, sin tallar, y se encrema enseguida, cuando todavía retiene humedad. La crema se pone al menos dos veces al día, con o sin brote."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "koerperpflege",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum entnimmt man Salbe aus einem Tiegel mit einem Spatel und nicht mit den Fingern?",
+              "options": [
+                "Damit die Salbe kühler bleibt",
+                "Damit keine Keime in den Tiegel gelangen und später auf die geschädigte Haut übertragen werden",
+                "Damit die Salbe schneller einzieht",
+                "Weil die Salbe sonst ihre Farbe verändert"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Pflegefachperson trägt Kortisonsalbe mit bloßen Händen auf, damit sie die Haut besser spürt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Wirkstoffhaltige Salben trägt die Pflegefachperson mit ___ auf, um sich selbst vor dem Wirkstoff zu schützen und keine Keime zu übertragen.",
+              "options": [
+                "Handschuhen",
+                "einem Waschlappen",
+                "einer Bürste",
+                "einem Handtuch"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Las pomadas en Tiegel (tarro) se sacan con un Spatel (espátula) limpio para no contaminar el contenido con gérmenes. Y se aplican con Handschuhe (guantes): así no pasas gérmenes a la piel dañada y tampoco absorbes tú el medicamento, por ejemplo la cortisona. Además se anota la fecha de apertura en el envase."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.5",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Maßnahmen zur Infektionsprophylaxe der Haut führen Sie bei Neurodermitis durch und warum?",
+          "answer": "Die Hautbarriere ist gestört und durch das Kratzen entstehen kleine Wunden, deshalb können Keime wie Staphylococcus aureus leicht eindringen. Ich führe vor und nach jedem Hautkontakt eine hygienische Händedesinfektion durch und trage beim Eincremen Handschuhe. Salben entnehme ich mit einem sauberen Spatel. Der Patient bekommt eigene Handtücher und Waschlappen, die häufig gewechselt werden, ebenso Kleidung und Bettwäsche. Ich halte die Fingernägel kurz und sauber und beobachte die Haut täglich auf Infektionszeichen. Personen mit Lippenherpes sollen keinen engen Kontakt zum Patienten haben.",
+          "points": [
+            "Gestörte Hautbarriere begründen",
+            "Händedesinfektion",
+            "Handschuhe und Spatel",
+            "Eigene Handtücher, Wäschewechsel",
+            "Kurze, saubere Fingernägel",
+            "Infektionszeichen beobachten"
+          ],
+          "es": "La Infektionsprophylaxe (prevención de infecciones) de la piel es necesaria porque la barrera dañada y las heridas por rascado dejan entrar bacterias y virus. Medidas clave: Händedesinfektion (desinfección de manos), guantes y espátula, toallas propias, ropa limpia, uñas cortas y observación diaria. Menciona el herpes labial: así muestras que conoces el riesgo de Eczema herpeticatum."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.6",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist bei Neurodermitis eine Intertrigoprophylaxe wichtig?",
+              "options": [
+                "Weil in Hautfalten Wärme, Feuchtigkeit und Reibung entstehen und die vorgeschädigte Haut dort schnell wund wird und sich infiziert",
+                "Weil die Haut in den Hautfalten besonders dick ist",
+                "Weil die Patienten immer bettlägerig sind",
+                "Weil Hautfalten nicht eingecremt werden dürfen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Intertrigoprophylaxe?",
+              "options": [
+                "Hautfalten sorgfältig, aber vorsichtig trocken tupfen",
+                "Hautfalten täglich auf Rötung und Mazeration beobachten",
+                "Hautfalten dick mit Puder und Salbe gleichzeitig einreiben",
+                "Luftdurchlässige Baumwollkleidung tragen, Schwitzen vermeiden",
+                "Hautfalten mit Folie abdecken"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Intertrigo entsteht in Hautfalten durch Feuchtigkeit, Wärme und Reibung.",
+              "correct": true
+            }
+          ],
+          "es": "Intertrigo es la piel irritada y macerada en los Hautfalten (pliegues: axilas, ingles, debajo del pecho, y en bebés el cuello). Con calor, humedad y roce la piel ya dañada se abre y se infecta fácil con hongos o bacterias. La Intertrigoprophylaxe consiste en secar bien a toquecitos, observar los pliegues a diario y usar ropa de algodón que deje pasar el aire."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Was empfehlen Sie einem Patienten mit Neurodermitis zur Kleidung und zur Bettwäsche?",
+          "answer": "Ich empfehle weiche, luftdurchlässige Kleidung aus Baumwolle, die locker sitzt. Wolle und Synthetik soll der Patient nicht direkt auf der Haut tragen, denn Wolle kratzt und in Synthetik staut sich die Wärme und man schwitzt. Sinnvoll ist das Zwiebelprinzip, damit er bei Wärme eine Schicht ausziehen kann. Neue Kleidung wird vor dem ersten Tragen gewaschen, das Waschmittel wird gut ausgespült und auf Weichspüler wird verzichtet. Kratzende Nähte und Etiketten werden entfernt. Auch die Bettwäsche soll aus Baumwolle sein und die Bettdecke nicht zu warm.",
+          "points": [
+            "Baumwolle, locker, luftdurchlässig",
+            "Keine Wolle oder Synthetik",
+            "Wärmestau vermeiden",
+            "Neue Kleidung waschen",
+            "Kein Weichspüler",
+            "Etiketten entfernen"
+          ],
+          "es": "La ropa toca la piel todo el día, por eso importa tanto. Baumwolle (algodón) suave y holgada es lo ideal; Wolle (lana) raspa y Synthetik (telas sintéticas) guarda calor y hace sudar, y el sudor da comezón. Detalles prácticos que suman puntos: lavar la ropa nueva, no usar Weichspüler (suavizante), quitar etiquetas y vestirse en capas."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Worüber beraten Sie einen Patienten mit Neurodermitis oder die Eltern eines betroffenen Kindes?",
+          "answer": "Ich erkläre zuerst die Erkrankung: Sie ist chronisch, verläuft in Schüben und ist nicht ansteckend. Ich leite zur täglichen Basispflege und zum richtigen Auftragen der Salben an und nehme die Angst vor Kortison, indem ich die korrekte Anwendung erkläre. Ich zeige Möglichkeiten, mit dem Juckreiz umzugehen, ohne zu kratzen. Gemeinsam besprechen wir die persönlichen Triggerfaktoren, dabei hilft ein Symptomtagebuch. Außerdem empfehle ich eine Neurodermitisschulung für Betroffene und Eltern, Entspannungsverfahren und den Kontakt zu einer Selbsthilfegruppe.",
+          "points": [
+            "Erkrankung erklären",
+            "Anleitung zur Basispflege",
+            "Umgang mit Juckreiz",
+            "Trigger erkennen und meiden",
+            "Neurodermitisschulung",
+            "Selbsthilfegruppe"
+          ],
+          "es": "La asesoría busca que el paciente o los papás manejen solos la enfermedad en casa. Temas: qué es la enfermedad, cómo se cuida la piel, cómo se aplica la cortisona sin miedo, qué hacer con la comezón y cómo encontrar los desencadenantes con un Symptomtagebuch (diario de síntomas). La Neurodermitisschulung (curso estructurado para pacientes y padres) es una palabra clave que debes nombrar."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Was beachten Sie bei der Ernährung eines Patienten mit Neurodermitis?",
+          "answer": "Es gibt keine allgemeine Neurodermitis-Diät. Der Patient soll sich ausgewogen ernähren und ausreichend trinken. Nahrungsmittel werden nur dann weggelassen, wenn eine Nahrungsmittelallergie ärztlich nachgewiesen ist, und dann mit Ernährungsberatung. Das ist besonders bei Kindern wichtig, weil pauschale Diäten zu einer Mangelernährung führen können. Mit einem Ernährungs- und Symptomtagebuch kann der Patient erkennen, ob bestimmte Nahrungsmittel die Haut verschlechtern. Auf der Station achte ich darauf, dass bekannte Allergien dokumentiert sind und die Küche informiert ist.",
+          "points": [
+            "Keine pauschale Diät",
+            "Ausgewogen essen, ausreichend trinken",
+            "Nur nachgewiesene Allergene meiden",
+            "Gefahr der Mangelernährung",
+            "Ernährungstagebuch",
+            "Allergien dokumentieren"
+          ],
+          "es": "Un error frecuente es pensar que todos los pacientes necesitan dieta. No existe una dieta general: solo se quitan alimentos cuando la alergia está comprobada por el médico, y con Ernährungsberatung (asesoría nutricional). En niños, las dietas sin control pueden causar Mangelernährung (desnutrición). El diario de alimentación y síntomas ayuda a encontrar relaciones."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Was raten Sie einem Patienten mit Neurodermitis zu Bewegung und Sport?",
+          "answer": "Bewegung und Sport sind erlaubt und sinnvoll, denn sie bauen Stress ab und verbessern das Wohlbefinden. Schweiß kann aber den Juckreiz verstärken. Deshalb empfehle ich atmungsaktive Baumwollkleidung und Sportarten, bei denen man nicht extrem schwitzt. Nach dem Sport soll der Patient kurz lauwarm duschen und die Haut danach eincremen. Beim Schwimmen reizt das Chlorwasser die Haut, deshalb cremt er sich vorher ein, duscht danach gründlich ab und cremt sich erneut ein. Im akuten Schub mit nässenden oder infizierten Ekzemen sollte er auf das Schwimmbad verzichten.",
+          "points": [
+            "Sport ist erwünscht",
+            "Stressabbau",
+            "Schweiß verstärkt Juckreiz",
+            "Nach dem Sport duschen",
+            "Danach eincremen",
+            "Schwimmen: vorher und nachher eincremen"
+          ],
+          "es": "La Neurodermitis no es motivo para dejar de moverse: el ejercicio baja el estrés, que es un desencadenante. El problema es el Schweiß (sudor), que da comezón; la solución es ropa de algodón, bañarse con agua tibia después y volver a encremarse. En la alberca el cloro reseca, por eso se encrema antes y después."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen helfen gegen den nächtlichen Juckreiz?",
+              "options": [
+                "Kühles, gut gelüftetes Schlafzimmer",
+                "Dicke Federbettdecke und Wollschlafanzug",
+                "Haut vor dem Schlafen eincremen",
+                "Baumwollhandschuhe oder bei Kleinkindern ein Neurodermitis-Overall",
+                "Heißes Bad direkt vor dem Schlafen"
+              ],
+              "correct": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was empfiehlt die Pflegefachperson einem Patienten, wenn es plötzlich stark juckt?",
+              "options": [
+                "Kräftig mit den Fingernägeln kratzen, bis der Juckreiz aufhört",
+                "Die Stelle mit heißem Wasser abduschen",
+                "Die Stelle kühlen und die Haut klopfen oder drücken statt kratzen",
+                "Die Stelle mit Alkohol abreiben"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Wärme im Bett verstärkt den Juckreiz, deshalb soll das Schlafzimmer kühl sein.",
+              "correct": true
+            }
+          ],
+          "es": "En la noche el calor de la cama aumenta la comezón. Ayuda un cuarto fresco y ventilado, cobija ligera, encremar antes de dormir y Baumwollhandschuhe (guantes de algodón); para niños pequeños hay un Neurodermitis-Overall (mameluco especial con las manos cubiertas). Si la comezón llega de golpe: enfriar y dar golpecitos o presionar, nunca rascar con las uñas."
+        },
+        {
+          "id": "neurodermitis.pflegemassnahmen.12",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie unterstützen Sie einen Patienten mit Neurodermitis psychosozial?",
+          "answer": "Viele Betroffene schämen sich für ihre Haut und ziehen sich zurück. Ich begegne dem Patienten ohne Berührungsangst und zeige ihm, dass ich weiß, dass die Erkrankung nicht ansteckend ist. Ich nehme mir Zeit für Gespräche, höre aktiv zu und nehme seine Belastung ernst. Weil Stress Schübe auslösen kann, informiere ich über Entspannungsverfahren wie progressive Muskelentspannung oder autogenes Training. Ich empfehle eine Selbsthilfegruppe und die Neurodermitisschulung und vermittle bei Bedarf psychologische Unterstützung. Bei Kindern beziehe ich die Eltern mit ein, denn auch sie sind stark belastet.",
+          "points": [
+            "Keine Berührungsangst zeigen",
+            "Aktiv zuhören",
+            "Entspannungsverfahren",
+            "Selbsthilfegruppe",
+            "Psychologische Unterstützung",
+            "Eltern einbeziehen"
+          ],
+          "es": "La parte psicosocial cuenta mucho en esta enfermedad porque la piel se ve y el estrés la empeora. Tu actitud es la primera medida: tocar al paciente con naturalidad y escucharlo. Luego ofreces herramientas: Entspannungsverfahren (técnicas de relajación), Selbsthilfegruppe (grupo de autoayuda) y, si hace falta, apoyo psicológico. En niños, los papás también necesitan apoyo."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "neurodermitis.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Neurodermitis und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient leidet unter starkem Juckreiz und kratzt sich, dadurch besteht die Gefahr von Hautschäden und Infektionen. Ziel: Der Patient gibt innerhalb von sieben Tagen an, dass der Juckreiz auf einer Skala von 0 bis 10 höchstens bei 3 liegt, und die Haut zeigt keine neuen Kratzspuren. Maßnahmen: Ich erfasse den Juckreiz täglich mit der Skala. Ich kühle juckende Hautstellen und creme die Haut mindestens zweimal täglich rückfettend ein. Ich halte die Fingernägel kurz und biete nachts Baumwollhandschuhe an. Ich leite den Patienten an, zu klopfen statt zu kratzen.",
+          "points": [
+            "Problem: Juckreiz und Kratzen",
+            "Ziel: Juckreiz höchstens 3",
+            "Juckreiz mit Skala erfassen",
+            "Kühlen und eincremen",
+            "Kurze Nägel, Baumwollhandschuhe",
+            "Klopfen statt kratzen"
+          ],
+          "es": "Este es el problema de enfermería número uno de la Neurodermitis. La respuesta siempre lleva tres partes: Problem, Ziel y Maßnahmen. La meta es medible porque usa una escala del 0 al 10 y un plazo de siete días. Las medidas son las que ya conoces para romper el círculo de comezón y rascado."
+        },
+        {
+          "id": "neurodermitis.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein weiteres Pflegeproblem bei Neurodermitis, das die Haut betrifft, und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat eine sehr trockene Haut mit gestörter Hautbarriere und Kratzwunden, deshalb besteht ein erhöhtes Risiko für eine Hautinfektion. Ziel: Die Haut des Patienten zeigt während des gesamten Aufenthalts keine Infektionszeichen, und der Patient führt die Basispflege innerhalb von fünf Tagen selbstständig zweimal täglich durch. Maßnahmen: Ich beobachte die Haut täglich auf Infektionszeichen und dokumentiere den Zustand. Ich führe die hygienische Händedesinfektion durch und trage Salben mit Handschuhen und Spatel auf. Ich leite den Patienten zur schonenden Hautreinigung und zur rückfettenden Basispflege an.",
+          "points": [
+            "Problem: Infektionsgefahr der Haut",
+            "Ziel: keine Infektionszeichen",
+            "Ziel: selbstständige Basispflege",
+            "Tägliche Hautbeobachtung",
+            "Händedesinfektion, Handschuhe, Spatel",
+            "Anleitung zur Basispflege"
+          ],
+          "es": "Este segundo problema es un Risiko (riesgo): la piel seca y lastimada puede infectarse. La meta tiene dos partes medibles: piel sin signos de infección durante toda la estancia y un paciente que hace solo su Basispflege dos veces al día en cinco días. Las medidas combinan observación, higiene y enseñanza."
+        },
+        {
+          "id": "neurodermitis.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei Neurodermitis, das den Schlaf betrifft, und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient kann wegen des nächtlichen Juckreizes nicht durchschlafen und ist am Tag müde. Ziel: Der Patient gibt innerhalb einer Woche an, dass er nachts mindestens sechs Stunden schläft und sich morgens ausgeruht fühlt. Maßnahmen: Ich creme die Haut am Abend vor dem Schlafen rückfettend ein. Ich sorge für ein kühles, gut gelüftetes Zimmer, eine leichte Bettdecke und Nachtwäsche aus Baumwolle. Ich biete Baumwollhandschuhe für die Nacht an. Ein ärztlich angeordnetes Antihistaminikum gebe ich am Abend und beobachte die Wirkung. Ich frage jeden Morgen nach der Schlafqualität und dokumentiere sie.",
+          "points": [
+            "Problem: Schlafstörung durch Juckreiz",
+            "Ziel: sechs Stunden Schlaf",
+            "Abends eincremen",
+            "Kühles Zimmer, Baumwolle",
+            "Baumwollhandschuhe nachts",
+            "Schlafqualität erfragen"
+          ],
+          "es": "La falta de sueño por la comezón nocturna es otro problema típico. La meta es medible (al menos seis horas de sueño) y tiene plazo (una semana). Las medidas atacan la causa: encremar en la noche, cuarto fresco, algodón, guantes y, si el médico lo indicó, el antihistamínico en la noche. Preguntar cada mañana cómo durmió sirve para evaluar la meta."
+        },
+        {
+          "id": "neurodermitis.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART und wie formulieren Sie ein Pflegeziel? Geben Sie ein Beispiel für einen Patienten mit Neurodermitis.",
+          "answer": "SMART ist eine Regel für die Formulierung von Pflegezielen. Die Buchstaben bedeuten spezifisch, messbar, akzeptiert oder attraktiv, realistisch und terminiert. Ein Pflegeziel beschreibt also einen konkreten Zustand, den der Patient bis zu einem bestimmten Zeitpunkt erreichen soll, und es wird positiv und aus der Sicht des Patienten formuliert. Ein Beispiel bei Neurodermitis ist: Der Patient gibt innerhalb von sieben Tagen an, dass sein Juckreiz auf einer Skala von 0 bis 10 höchstens bei 3 liegt. Dieses Ziel ist spezifisch und messbar durch die Skala, realistisch und durch die sieben Tage terminiert. Am festgelegten Termin überprüfe ich, ob das Ziel erreicht ist.",
+          "points": [
+            "Spezifisch",
+            "Messbar",
+            "Akzeptiert",
+            "Realistisch",
+            "Terminiert",
+            "Beispiel: Juckreiz höchstens 3"
+          ],
+          "es": "SMART es la regla para formular un Pflegeziel (meta de enfermería): spezifisch (específico), messbar (medible), akzeptiert (aceptado por el paciente), realistisch (realista) y terminiert (con fecha límite). Una buena meta describe un estado concreto del paciente, no una acción de la enfermera. El ejemplo de la comezón con escala y plazo te sirve para cualquier paciente con Neurodermitis."
+        }
+      ]
+    }
+  ]
+}

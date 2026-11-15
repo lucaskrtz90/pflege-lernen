@@ -1,0 +1,1765 @@
+{
+  "id": "niereninsuffizienz",
+  "name": "Chronische Niereninsuffizienz",
+  "blocks": [
+    {
+      "id": "definition",
+      "items": [
+        {
+          "id": "niereninsuffizienz.definition.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine chronische Niereninsuffizienz?",
+              "options": [
+                "Eine plötzliche Entzündung der Harnblase",
+                "Eine langsam fortschreitende, nicht rückgängig zu machende Abnahme der Nierenfunktion",
+                "Ein vorübergehender Harnverhalt nach einer Operation",
+                "Eine angeborene Fehlbildung der Harnröhre"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die chronische Niereninsuffizienz ist in der Regel vollständig heilbar, wenn sie früh behandelt wird.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Bei der chronischen Niereninsuffizienz nimmt die Nierenfunktion langsam ab und der Schaden ist ___.",
+              "options": [
+                "reversibel",
+                "harmlos",
+                "irreversibel",
+                "nur einseitig"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "La chronische Niereninsuffizienz (insuficiencia renal crónica) es la pérdida lenta y progresiva de la función de los riñones. El daño es irreversibel (irreversible): el tejido renal destruido no se recupera. Por eso el tratamiento no cura, sino que busca frenar el avance."
+        },
+        {
+          "id": "niereninsuffizienz.definition.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Ab welcher Dauer spricht man von einer chronischen Nierenerkrankung?",
+              "options": [
+                "Wenn die Nierenfunktion länger als 3 Tage eingeschränkt ist",
+                "Wenn die Nierenfunktion länger als 3 Wochen eingeschränkt ist",
+                "Wenn die Nierenfunktion länger als 3 Jahre eingeschränkt ist",
+                "Wenn die Nierenfunktion länger als 3 Monate eingeschränkt ist"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Von einer chronischen Nierenerkrankung spricht man, wenn die Nierenfunktion länger als 3 Monate eingeschränkt ist oder die Niere so lange geschädigt ist.",
+              "correct": true
+            }
+          ],
+          "es": "Se habla de enfermedad crónica cuando la función renal está disminuida o hay daño renal por más de 3 meses. Ese límite de tiempo la distingue de la forma aguda, que aparece en horas o días."
+        },
+        {
+          "id": "niereninsuffizienz.definition.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Form der Niereninsuffizienz dem passenden Merkmal zu.",
+              "pairs": [
+                [
+                  "Akutes Nierenversagen",
+                  "entsteht plötzlich, innerhalb von Stunden bis Tagen, und ist oft rückbildungsfähig"
+                ],
+                [
+                  "Chronische Niereninsuffizienz",
+                  "entwickelt sich über Monate bis Jahre und ist nicht rückbildungsfähig"
+                ],
+                [
+                  "Terminale Niereninsuffizienz",
+                  "Endstadium, in dem eine Nierenersatztherapie nötig ist"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Das akute Nierenversagen entwickelt sich langsam über viele Jahre.",
+              "correct": false
+            }
+          ],
+          "es": "El akutes Nierenversagen (falla renal aguda) aparece de golpe y muchas veces se recupera. La forma crónica avanza durante meses o años y no se revierte. La terminale Niereninsuffizienz (insuficiencia renal terminal) es la etapa final, cuando ya se necesita diálisis o trasplante."
+        },
+        {
+          "id": "niereninsuffizienz.definition.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wonach werden die Stadien der chronischen Niereninsuffizienz eingeteilt?",
+              "options": [
+                "Nach der glomerulären Filtrationsrate (GFR)",
+                "Nach der Körpertemperatur",
+                "Nach der Größe der Harnblase",
+                "Nach dem Blutzuckerwert"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Im Stadium 5 liegt die GFR unter ___ ml/min; man spricht von terminaler Niereninsuffizienz.",
+              "options": [
+                "90",
+                "60",
+                "30",
+                "15"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "match",
+              "q": "Ordne das Stadium der GFR zu (in ml/min).",
+              "pairs": [
+                [
+                  "Stadium 1",
+                  "90 oder höher"
+                ],
+                [
+                  "Stadium 3",
+                  "30 bis 59"
+                ],
+                [
+                  "Stadium 4",
+                  "15 bis 29"
+                ],
+                [
+                  "Stadium 5",
+                  "unter 15"
+                ]
+              ]
+            }
+          ],
+          "es": "Las etapas se definen con la GFR, glomeruläre Filtrationsrate (tasa de filtración glomerular). Hay 5 etapas: entre más baja la GFR, peor funciona el riñón. En la etapa 5 la GFR está por debajo de 15 ml/min y el paciente necesita terapia de reemplazo renal."
+        },
+        {
+          "id": "niereninsuffizienz.definition.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was bedeutet der Begriff „Urämie“?",
+              "options": [
+                "Blut im Urin",
+                "Entzündung des Nierenbeckens",
+                "Vergiftung des Körpers durch harnpflichtige Substanzen, die nicht mehr ausgeschieden werden",
+                "Vermehrte Urinausscheidung in der Nacht"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Urämie sammeln sich harnpflichtige Substanzen wie Harnstoff und Kreatinin im Blut an.",
+              "correct": true
+            }
+          ],
+          "es": "Urämie (uremia) significa “orina en la sangre”: las harnpflichtige Substanzen (sustancias que deben eliminarse por la orina), como urea y creatinina, se quedan en la sangre e intoxican al cuerpo. Es el cuadro típico de la etapa final de la insuficiencia renal."
+        },
+        {
+          "id": "niereninsuffizienz.definition.6",
+          "type": "sprech",
+          "q": "Was versteht man unter einer chronischen Niereninsuffizienz? Erklären Sie die Erkrankung in eigenen Worten.",
+          "answer": "Die chronische Niereninsuffizienz ist eine langsam fortschreitende und irreversible Abnahme der Nierenfunktion über mehr als drei Monate. Die Nieren können harnpflichtige Substanzen, Wasser und Elektrolyte nicht mehr ausreichend ausscheiden. Die Erkrankung wird nach der glomerulären Filtrationsrate, der GFR, in fünf Stadien eingeteilt. Im Endstadium, der terminalen Niereninsuffizienz, kommt es zur Urämie und der Patient braucht eine Nierenersatztherapie, also Dialyse oder Transplantation.",
+          "points": [
+            "langsam fortschreitend",
+            "irreversibel",
+            "länger als drei Monate",
+            "fünf Stadien nach GFR",
+            "Urämie im Endstadium",
+            "Dialyse oder Transplantation"
+          ],
+          "es": "Es la pregunta de entrada típica. Empieza con la definición (lenta, progresiva, irreversible, más de 3 meses), luego di qué ya no puede hacer el riñón y menciona las 5 etapas según la GFR. Termina con la etapa final: uremia y necesidad de diálisis o trasplante."
+        }
+      ]
+    },
+    {
+      "id": "anatomie",
+      "items": [
+        {
+          "id": "niereninsuffizienz.anatomie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Aufgaben hat die Niere?",
+              "options": [
+                "Ausscheidung harnpflichtiger Substanzen",
+                "Bildung von Insulin",
+                "Regulation des Wasser- und Elektrolythaushalts",
+                "Bildung von Gallenflüssigkeit",
+                "Bildung von Hormonen wie Erythropoetin"
+              ],
+              "correct": [
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die Niere reguliert auch den Säure-Basen-Haushalt und den Blutdruck.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Welche Aufgabe gehört NICHT zur Niere?",
+              "options": [
+                "Ausscheidung von Harnstoff und Kreatinin",
+                "Regulation des Blutdrucks",
+                "Bildung von Verdauungsenzymen",
+                "Regulation des Säure-Basen-Haushalts"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El riñón elimina desechos, regula agua, electrolitos, el equilibrio ácido-base y la presión arterial, y además produce hormonas. Si conoces estas funciones, puedes deducir casi todos los síntomas de la insuficiencia renal: cada función que falla da un síntoma."
+        },
+        {
+          "id": "niereninsuffizienz.anatomie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Hormon bzw. den Stoff der Niere seiner Wirkung zu.",
+              "pairs": [
+                [
+                  "Erythropoetin",
+                  "regt die Bildung der roten Blutkörperchen im Knochenmark an"
+                ],
+                [
+                  "Renin",
+                  "erhöht über das Renin-Angiotensin-Aldosteron-System den Blutdruck"
+                ],
+                [
+                  "Aktives Vitamin D (Calcitriol)",
+                  "fördert die Aufnahme von Calcium und damit den Knochenaufbau"
+                ]
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Die Niere bildet das Hormon ___, das die Bildung der Erythrozyten anregt.",
+              "options": [
+                "Insulin",
+                "Erythropoetin",
+                "Thyroxin",
+                "Adrenalin"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El riñón produce Erythropoetin (eritropoyetina, para formar glóbulos rojos) y Renin (renina, para subir la presión), y activa la vitamina D. Por eso en la insuficiencia renal hay anemia, hipertensión y problemas de los huesos."
+        },
+        {
+          "id": "niereninsuffizienz.anatomie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie heißt die kleinste Funktionseinheit der Niere?",
+              "options": [
+                "Alveole",
+                "Neuron",
+                "Nephron",
+                "Leberläppchen"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "multi",
+              "q": "Aus welchen zwei Teilen besteht ein Nephron?",
+              "options": [
+                "Nierenkörperchen (Glomerulus mit Bowman-Kapsel)",
+                "Harnleiter",
+                "Tubulussystem (Nierenkanälchen)",
+                "Harnblase",
+                "Nierenbecken"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Jede Niere enthält etwa eine Million Nephrone.",
+              "correct": true
+            }
+          ],
+          "es": "El Nephron (nefrona) es la unidad funcional del riñón; cada riñón tiene cerca de un millón. Está formado por el Nierenkörperchen (corpúsculo renal, con el glomérulo), donde se filtra la sangre, y el Tubulussystem (sistema de túbulos), donde se reabsorbe agua y sustancias útiles."
+        },
+        {
+          "id": "niereninsuffizienz.anatomie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was gibt die glomeruläre Filtrationsrate (GFR) an?",
+              "options": [
+                "Die Menge Urin, die die Harnblase fassen kann",
+                "Die Menge Blut, die das Herz pro Minute pumpt",
+                "Die Menge Eiweiß im Urin pro Tag",
+                "Die Menge Primärharn, die beide Nieren pro Minute filtern"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Die normale GFR eines gesunden jungen Erwachsenen liegt bei etwa 15 ml/min.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Die Nieren filtern pro Tag etwa 180 Liter Primärharn, daraus entstehen etwa ___ Liter Endharn.",
+              "options": [
+                "1,5",
+                "10",
+                "25",
+                "50"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "La GFR indica cuánto Primärharn (orina primaria) filtran los dos riñones por minuto; lo normal es más o menos 90 a 120 ml/min. De unos 180 litros de orina primaria al día, casi todo se reabsorbe y solo quedan alrededor de 1.5 litros de Endharn (orina final). La GFR es el mejor valor para medir la función renal."
+        },
+        {
+          "id": "niereninsuffizienz.anatomie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wo liegen die Nieren?",
+              "options": [
+                "Im kleinen Becken hinter der Harnblase",
+                "Im Retroperitonealraum, rechts und links der Wirbelsäule",
+                "Im Brustkorb unter den Lungen",
+                "Im Oberbauch vor dem Magen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Die Nieren liegen innerhalb der Bauchhöhle direkt vor dem Darm.",
+              "correct": false
+            }
+          ],
+          "es": "Los riñones son un órgano par y están en el Retroperitonealraum (espacio retroperitoneal), es decir, detrás del peritoneo, a los lados de la columna, más o menos a la altura de las últimas costillas. No están dentro de la cavidad abdominal."
+        },
+        {
+          "id": "niereninsuffizienz.anatomie.6",
+          "type": "sprech",
+          "q": "Welche Aufgaben hat die gesunde Niere?",
+          "answer": "Die Niere scheidet harnpflichtige Substanzen wie Harnstoff und Kreatinin aus. Sie reguliert den Wasser- und Elektrolythaushalt und den Säure-Basen-Haushalt. Außerdem reguliert sie über das Renin den Blutdruck. Sie bildet das Hormon Erythropoetin für die Blutbildung und aktiviert Vitamin D für den Knochenstoffwechsel.",
+          "points": [
+            "Ausscheidung harnpflichtiger Substanzen",
+            "Wasser- und Elektrolythaushalt",
+            "Säure-Basen-Haushalt",
+            "Blutdruckregulation",
+            "Erythropoetin",
+            "Vitamin-D-Aktivierung"
+          ],
+          "es": "Con esta respuesta preparas todo lo demás: cada función perdida explica un síntoma (desechos → uremia, agua → edemas, potasio → arritmias, eritropoyetina → anemia, vitamina D → huesos). Nombra las funciones en orden y con calma."
+        }
+      ]
+    },
+    {
+      "id": "ursachen",
+      "items": [
+        {
+          "id": "niereninsuffizienz.ursachen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Erkrankungen sind die häufigsten Ursachen der chronischen Niereninsuffizienz?",
+              "options": [
+                "Diabetes mellitus",
+                "Asthma bronchiale",
+                "Arterielle Hypertonie",
+                "Gastritis",
+                "Arthrose"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Diabetes mellitus und arterielle Hypertonie sind die häufigsten Ursachen einer chronischen Niereninsuffizienz.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die häufigste Ursache der chronischen Niereninsuffizienz ist die ___ Nephropathie.",
+              "options": [
+                "allergische",
+                "diabetische",
+                "traumatische",
+                "infektiöse"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Las dos causas principales son Diabetes mellitus y arterielle Hypertonie (hipertensión arterial). La glucosa alta y la presión alta dañan durante años los vasos pequeños del riñón. Esto debes decirlo siempre primero cuando te pregunten por las causas."
+        },
+        {
+          "id": "niereninsuffizienz.ursachen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie schädigt ein langjähriger Diabetes mellitus die Niere?",
+              "options": [
+                "Der hohe Blutzucker schädigt die kleinen Blutgefäße der Nierenkörperchen",
+                "Der Zucker verstopft den Harnleiter",
+                "Das Insulin zerstört das Nierenbecken",
+                "Der Zucker bildet Nierensteine"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Bei der diabetischen Nephropathie werden vor allem die großen Venen der Beine geschädigt.",
+              "correct": false
+            }
+          ],
+          "es": "En la diabetische Nephropathie (nefropatía diabética) la glucosa alta daña los capilares del glomérulo; es una microangiopatía. El primer signo es albúmina en la orina. Por eso un buen control de la glucosa protege al riñón."
+        },
+        {
+          "id": "niereninsuffizienz.ursachen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist eine Glomerulonephritis?",
+              "options": [
+                "Eine bakterielle Entzündung der Harnblase",
+                "Eine Verengung der Nierenarterie",
+                "Eine meist immunologisch bedingte Entzündung der Nierenkörperchen",
+                "Ein Tumor der Nebenniere"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "cloze",
+              "q": "Die Glomerulonephritis ist eine Entzündung der ___.",
+              "options": [
+                "Harnröhre",
+                "Nierenkörperchen",
+                "Harnblase",
+                "Prostata"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Glomerulonephritis (glomerulonefritis) es una inflamación de los glomérulos de ambos riñones, casi siempre por una reacción del sistema inmunológico y no por bacterias en el riñón. Es otra causa importante de insuficiencia renal crónica."
+        },
+        {
+          "id": "niereninsuffizienz.ursachen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne die Ursache der passenden Beschreibung zu.",
+              "pairs": [
+                [
+                  "Zystennieren",
+                  "erbliche Erkrankung mit vielen flüssigkeitsgefüllten Hohlräumen in beiden Nieren"
+                ],
+                [
+                  "Chronische Pyelonephritis",
+                  "wiederholte bakterielle Entzündungen von Nierenbecken und Nierengewebe"
+                ],
+                [
+                  "Analgetikanephropathie",
+                  "Nierenschaden durch jahrelange Einnahme von Schmerzmitteln"
+                ]
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Zystennieren sind eine erbliche Erkrankung und können zur chronischen Niereninsuffizienz führen.",
+              "correct": true
+            }
+          ],
+          "es": "Otras causas son los Zystennieren (riñones poliquísticos, hereditarios), la chronische Pyelonephritis (pielonefritis crónica, por infecciones repetidas) y la Analgetikanephropathie (daño renal por tomar analgésicos durante años)."
+        },
+        {
+          "id": "niereninsuffizienz.ursachen.5",
+          "type": "sprech",
+          "q": "Welche Ursachen kann eine chronische Niereninsuffizienz haben?",
+          "answer": "Die häufigsten Ursachen sind der Diabetes mellitus mit der diabetischen Nephropathie und die arterielle Hypertonie. Beide schädigen über Jahre die kleinen Gefäße der Niere. Weitere Ursachen sind die Glomerulonephritis, also eine Entzündung der Nierenkörperchen, und erbliche Zystennieren. Auch wiederholte Nierenbeckenentzündungen und die langjährige Einnahme von Schmerzmitteln können die Nieren dauerhaft schädigen.",
+          "points": [
+            "Diabetes mellitus",
+            "arterielle Hypertonie",
+            "Glomerulonephritis",
+            "Zystennieren",
+            "Nierenbeckenentzündungen",
+            "Schmerzmittel"
+          ],
+          "es": "Ordena tu respuesta por frecuencia: primero diabetes e hipertensión, después glomerulonefritis y riñones poliquísticos, y al final infecciones repetidas y analgésicos. Así muestras que sabes qué es lo más importante."
+        }
+      ]
+    },
+    {
+      "id": "risikofaktoren",
+      "items": [
+        {
+          "id": "niereninsuffizienz.risikofaktoren.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Faktoren beschleunigen das Fortschreiten einer chronischen Niereninsuffizienz?",
+              "options": [
+                "Schlecht eingestellter Blutdruck",
+                "Schlecht eingestellter Blutzucker",
+                "Regelmäßige Bewegung",
+                "Rauchen",
+                "Salzarme Ernährung"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Eine gute Blutdruck- und Blutzuckereinstellung kann das Fortschreiten der Niereninsuffizienz verlangsamen.",
+              "correct": true
+            }
+          ],
+          "es": "La enfermedad avanza más rápido si la presión y la glucosa están mal controladas y si el paciente fuma. Estos son factores que sí se pueden cambiar, por eso son el centro de la Beratung (asesoría) al paciente."
+        },
+        {
+          "id": "niereninsuffizienz.risikofaktoren.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Medikamentengruppe kann die Niere schädigen und soll bei Niereninsuffizienz gemieden werden?",
+              "options": [
+                "Nichtsteroidale Antirheumatika (NSAR) wie Ibuprofen und Diclofenac",
+                "Vitamin-C-Präparate",
+                "Abführmittel auf pflanzlicher Basis",
+                "Augentropfen gegen trockene Augen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Stoffe sind nephrotoxisch, also schädlich für die Niere?",
+              "options": [
+                "Jodhaltiges Röntgenkontrastmittel",
+                "Physiologische Kochsalzlösung",
+                "Schmerzmittel wie Diclofenac",
+                "Kamillentee",
+                "Sauerstoff"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Schmerzmittel wie Ibuprofen sind bei Niereninsuffizienz unbedenklich, weil sie nur über die Leber abgebaut werden.",
+              "correct": false
+            }
+          ],
+          "es": "Nephrotoxisch (nefrotóxico) significa dañino para el riñón. Los NSAR (AINE), como ibuprofeno y diclofenaco, y el Röntgenkontrastmittel (medio de contraste) pueden empeorar la función renal. Por eso el paciente no debe tomar analgésicos por su cuenta."
+        },
+        {
+          "id": "niereninsuffizienz.risikofaktoren.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist der Bluthochdruck bei der Niereninsuffizienz ein „Teufelskreis“?",
+              "options": [
+                "Weil hoher Blutdruck die Niere schädigt und die kranke Niere den Blutdruck weiter erhöht",
+                "Weil Blutdruckmedikamente immer Nierensteine verursachen",
+                "Weil der Blutdruck bei Nierenkranken nicht gemessen werden kann",
+                "Weil hoher Blutdruck die Urinmenge verdoppelt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die arterielle Hypertonie ist sowohl Ursache als auch Folge einer chronischen Niereninsuffizienz.",
+              "correct": true
+            }
+          ],
+          "es": "La hipertensión daña al riñón, y el riñón enfermo retiene agua y sal y libera más renina, lo que sube todavía más la presión. A eso se le llama Teufelskreis (círculo vicioso). Por eso controlar la presión es la medida más importante."
+        },
+        {
+          "id": "niereninsuffizienz.risikofaktoren.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei allgemeinen Risikofaktoren erhöhen das Risiko für eine chronische Nierenerkrankung?",
+              "options": [
+                "Höheres Lebensalter",
+                "Übergewicht",
+                "Nierenerkrankungen in der Familie",
+                "Niedriger Blutdruck",
+                "Vegetarische Ernährung"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Übergewicht und Rauchen haben keinen Einfluss auf die Nierenfunktion.",
+              "correct": false
+            }
+          ],
+          "es": "Además de diabetes e hipertensión, aumentan el riesgo la edad avanzada, el Übergewicht (sobrepeso), el tabaquismo y los antecedentes familiares de enfermedad renal. Algunos se pueden cambiar con el estilo de vida y otros no."
+        },
+        {
+          "id": "niereninsuffizienz.risikofaktoren.5",
+          "type": "sprech",
+          "q": "Welche Risikofaktoren begünstigen eine chronische Niereninsuffizienz oder ihr Fortschreiten?",
+          "answer": "Die wichtigsten Risikofaktoren sind ein schlecht eingestellter Diabetes mellitus und ein schlecht eingestellter Bluthochdruck. Auch Rauchen und Übergewicht schädigen die Gefäße und damit die Niere. Nephrotoxische Medikamente wie NSAR und Röntgenkontrastmittel können die Nierenfunktion weiter verschlechtern. Nicht beeinflussbar sind ein höheres Lebensalter und eine familiäre Belastung.",
+          "points": [
+            "Diabetes schlecht eingestellt",
+            "Bluthochdruck schlecht eingestellt",
+            "Rauchen und Übergewicht",
+            "nephrotoxische Medikamente",
+            "Alter und familiäre Belastung"
+          ],
+          "es": "Separa en tu respuesta los factores que se pueden modificar (glucosa, presión, tabaco, peso, medicamentos) de los que no (edad, familia). Esa división les gusta mucho a los examinadores y te ayuda a no olvidar ninguno."
+        }
+      ]
+    },
+    {
+      "id": "symptome",
+      "items": [
+        {
+          "id": "niereninsuffizienz.symptome.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "tf",
+              "q": "Im Frühstadium verursacht die chronische Niereninsuffizienz oft keine Beschwerden.",
+              "correct": true
+            },
+            {
+              "form": "mc",
+              "q": "Warum wird eine chronische Niereninsuffizienz oft erst spät entdeckt?",
+              "options": [
+                "Weil sie von Anfang an starke Schmerzen verursacht",
+                "Weil sie lange Zeit keine oder nur unspezifische Beschwerden macht",
+                "Weil die Blutwerte immer normal bleiben",
+                "Weil sie nur bei Kindern vorkommt"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Al principio la enfermedad casi no da síntomas, porque las nefronas sanas compensan el trabajo. Muchas veces se descubre por casualidad en un examen de sangre u orina. Los síntomas claros aparecen hasta las etapas avanzadas."
+        },
+        {
+          "id": "niereninsuffizienz.symptome.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome entstehen durch die Überwässerung des Körpers?",
+              "options": [
+                "Ödeme an Beinen und Augenlidern",
+                "Bluthochdruck",
+                "Atemnot",
+                "Gewichtsabnahme",
+                "Fieber"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Überwässerung nimmt das Körpergewicht des Patienten schnell ab.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Wassereinlagerungen im Gewebe, zum Beispiel an den Beinen und Augenlidern, nennt man ___.",
+              "options": [
+                "Hämatome",
+                "Ödeme",
+                "Ulzera",
+                "Varizen"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "Si el riñón ya no elimina suficiente agua y sal, el líquido se queda en el cuerpo: aparecen Ödeme (edemas) en piernas y párpados, sube la presión, el peso aumenta rápido y, si hay líquido en los pulmones, hay Atemnot (falta de aire)."
+        },
+        {
+          "id": "niereninsuffizienz.symptome.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Symptome sind typisch für eine Urämie?",
+              "options": [
+                "Übelkeit und Erbrechen",
+                "Juckreiz",
+                "Urinartiger Mundgeruch",
+                "Heißhunger",
+                "Gerötete, feuchte Haut"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "cloze",
+              "q": "Den urinartigen Mundgeruch bei einer Urämie nennt man Foetor ___.",
+              "options": [
+                "hepaticus",
+                "uraemicus",
+                "diabeticus",
+                "alcoholicus"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Quälender Juckreiz (Pruritus) ist ein typisches Symptom der fortgeschrittenen Niereninsuffizienz.",
+              "correct": true
+            }
+          ],
+          "es": "En la uremia los desechos afectan todo el cuerpo: Übelkeit (náusea), vómito, falta de apetito, Juckreiz (comezón), cansancio, problemas de concentración y el Foetor uraemicus (aliento con olor a orina). La comezón se debe a las sustancias que se depositan en la piel y a la piel muy seca."
+        },
+        {
+          "id": "niereninsuffizienz.symptome.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten mit chronischer Niereninsuffizienz häufig eine Anämie?",
+              "options": [
+                "Weil die kranke Niere zu wenig Erythropoetin bildet",
+                "Weil sie zu viel Eisen mit dem Urin verlieren",
+                "Weil die Milz zu viele Blutzellen bildet",
+                "Weil sie zu viel Vitamin D bilden"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Zeichen passen zur renalen Anämie?",
+              "options": [
+                "Blässe",
+                "Müdigkeit und Leistungsschwäche",
+                "Gesichtsrötung",
+                "Fieber",
+                "Vermehrter Speichelfluss"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Die renale Anämie entsteht, weil die kranke Niere zu viel Erythropoetin bildet.",
+              "correct": false
+            }
+          ],
+          "es": "La renale Anämie (anemia renal) aparece porque el riñón enfermo produce muy poca eritropoyetina y la médula ósea forma menos glóbulos rojos. El paciente está pálido, cansado y aguanta poco esfuerzo. Esto es importante para planear la movilización."
+        },
+        {
+          "id": "niereninsuffizienz.symptome.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne den Fachbegriff der Urinmenge pro 24 Stunden zu.",
+              "pairs": [
+                [
+                  "Anurie",
+                  "weniger als 100 ml"
+                ],
+                [
+                  "Oligurie",
+                  "100 bis 500 ml"
+                ],
+                [
+                  "Polyurie",
+                  "mehr als 3 Liter"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Was bedeutet Oligurie?",
+              "options": [
+                "Schmerzen beim Wasserlassen",
+                "Blut im Urin",
+                "Urinausscheidung unter 500 ml in 24 Stunden",
+                "Häufiges nächtliches Wasserlassen"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Estos términos los debes dominar: Anurie (anuria) es menos de 100 ml de orina en 24 horas, Oligurie (oliguria) menos de 500 ml (entre 100 y 500 ml) y Polyurie (poliuria) más de 3 litros. En la etapa terminal la orina disminuye hasta la oliguria o la anuria."
+        },
+        {
+          "id": "niereninsuffizienz.symptome.6",
+          "type": "sprech",
+          "q": "Welche Symptome zeigt ein Patient mit fortgeschrittener chronischer Niereninsuffizienz?",
+          "answer": "Am Anfang hat der Patient oft keine Beschwerden. Später kommt es durch die Überwässerung zu Ödemen, Bluthochdruck und Atemnot, und die Urinmenge nimmt ab. Durch die Urämie leidet der Patient unter Übelkeit, Erbrechen, Appetitlosigkeit, Juckreiz und einem urinartigen Mundgeruch, dem Foetor uraemicus. Wegen der renalen Anämie ist er blass, müde und wenig belastbar. Die Haut ist trocken und blass-gelblich.",
+          "points": [
+            "anfangs symptomlos",
+            "Ödeme und Bluthochdruck",
+            "Übelkeit und Erbrechen",
+            "Juckreiz",
+            "Foetor uraemicus",
+            "Anämie mit Müdigkeit"
+          ],
+          "es": "Ordena los síntomas por su causa: exceso de líquido (edemas, hipertensión, falta de aire), uremia (náusea, comezón, aliento a orina) y anemia (palidez, cansancio). Así tu respuesta suena estructurada y demuestras que entiendes por qué aparece cada síntoma."
+        }
+      ]
+    },
+    {
+      "id": "diagnostik",
+      "items": [
+        {
+          "id": "niereninsuffizienz.diagnostik.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Blutwerte sind bei einer Niereninsuffizienz typischerweise erhöht (Retentionswerte)?",
+              "options": [
+                "Kreatinin",
+                "Hämoglobin",
+                "Harnstoff",
+                "Calcium",
+                "Thrombozyten"
+              ],
+              "correct": [
+                0,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Bei einer Niereninsuffizienz sind Kreatinin und Harnstoff im Blut erniedrigt.",
+              "correct": false
+            },
+            {
+              "form": "cloze",
+              "q": "Kreatinin und Harnstoff nennt man auch ___, weil sie bei kranker Niere im Blut zurückbleiben.",
+              "options": [
+                "Gerinnungswerte",
+                "Leberwerte",
+                "Retentionswerte",
+                "Entzündungswerte"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "Kreatinin (creatinina) y Harnstoff (urea) son los Retentionswerte (valores de retención): el riñón sano los elimina, y si el riñón falla, suben en la sangre. Junto con la GFR, son los valores de laboratorio más importantes."
+        },
+        {
+          "id": "niereninsuffizienz.diagnostik.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welcher Wert zeigt am besten, wie gut die Niere noch arbeitet?",
+              "options": [
+                "Die Blutsenkungsgeschwindigkeit",
+                "Die glomeruläre Filtrationsrate (GFR)",
+                "Der Blutzucker",
+                "Die Leukozytenzahl"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Je niedriger die GFR ist, desto schlechter ist die Nierenfunktion.",
+              "correct": true
+            }
+          ],
+          "es": "La GFR se calcula a partir de la creatinina en sangre y es la mejor medida de la función renal. Entre más baja, peor funciona el riñón, y con ella se define la etapa de la enfermedad."
+        },
+        {
+          "id": "niereninsuffizienz.diagnostik.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was zeigt die Urinuntersuchung bei einer Nierenschädigung häufig?",
+              "options": [
+                "Eiweiß im Urin (Proteinurie bzw. Albuminurie)",
+                "Gallenfarbstoffe im Urin",
+                "Einen völlig unauffälligen Befund",
+                "Vermehrt Vitamin C im Urin"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Eiweiß im Urin (Albuminurie) ist ein frühes Zeichen einer Nierenschädigung.",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "Die Ausscheidung von Eiweiß mit dem Urin nennt man ___.",
+              "options": [
+                "Hämaturie",
+                "Glukosurie",
+                "Proteinurie",
+                "Dysurie"
+              ],
+              "correct": 2
+            }
+          ],
+          "es": "El filtro renal sano casi no deja pasar proteínas. Si está dañado, aparece Eiweiß (proteína) en la orina: Proteinurie o Albuminurie. Es un signo temprano de daño renal, sobre todo en personas con diabetes, y se busca con tira reactiva o en orina de laboratorio."
+        },
+        {
+          "id": "niereninsuffizienz.diagnostik.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie sammeln Sie einen 24-Stunden-Sammelurin korrekt?",
+              "options": [
+                "Der erste Morgenurin wird verworfen, danach wird 24 Stunden lang jeder Urin gesammelt, auch der Morgenurin am nächsten Tag",
+                "Es wird nur der Urin während der Nacht gesammelt",
+                "Der Patient sammelt nur den Mittelstrahlurin jeder Portion",
+                "Der erste Morgenurin wird gesammelt und der Morgenurin am nächsten Tag verworfen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Beim 24-Stunden-Sammelurin wird der erste Morgenurin zu Beginn der Sammelzeit mitgesammelt.",
+              "correct": false
+            }
+          ],
+          "es": "En el 24-Stunden-Sammelurin (orina de 24 horas) la primera orina de la mañana se desecha, porque es de la noche anterior. Después se junta toda la orina durante 24 horas, incluida la primera de la mañana siguiente. Es una tarea típica de enfermería y hay que explicársela bien al paciente."
+        },
+        {
+          "id": "niereninsuffizienz.diagnostik.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Untersuchung zeigt Größe und Form der Nieren ohne Strahlenbelastung?",
+              "options": [
+                "Röntgen-Thorax",
+                "Sonografie",
+                "EKG",
+                "Lungenfunktionsprüfung"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der chronischen Niereninsuffizienz sind die Nieren in der Sonografie häufig verkleinert (Schrumpfnieren).",
+              "correct": true
+            },
+            {
+              "form": "cloze",
+              "q": "In der Sonografie sind die Nieren bei chronischer Niereninsuffizienz oft ___.",
+              "options": [
+                "stark vergrößert und glatt",
+                "verkleinert",
+                "nicht sichtbar",
+                "mit Luft gefüllt"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "La Sonografie (ultrasonido) no duele ni usa radiación y muestra el tamaño y la forma de los riñones. En la enfermedad crónica suelen verse pequeños, las llamadas Schrumpfnieren (riñones atróficos); en los riñones poliquísticos se ven los quistes."
+        },
+        {
+          "id": "niereninsuffizienz.diagnostik.6",
+          "type": "sprech",
+          "q": "Wie wird eine chronische Niereninsuffizienz diagnostiziert?",
+          "answer": "Am Anfang stehen die Anamnese und die körperliche Untersuchung, zum Beispiel mit Blutdruckmessung und Kontrolle auf Ödeme. Im Blut sind die Retentionswerte Kreatinin und Harnstoff erhöht und die GFR ist erniedrigt. Außerdem kontrolliert man die Elektrolyte, vor allem Kalium, und das Blutbild wegen der Anämie. Im Urin findet man häufig Eiweiß, dafür nutzt man den Urinstatus oder den 24-Stunden-Sammelurin. Die Sonografie zeigt Größe und Form der Nieren.",
+          "points": [
+            "Anamnese und Untersuchung",
+            "Kreatinin und Harnstoff erhöht",
+            "GFR erniedrigt",
+            "Kalium kontrollieren",
+            "Eiweiß im Urin",
+            "Sonografie"
+          ],
+          "es": "Sigue el orden clásico: Anamnese (historia clínica) y exploración, luego sangre (creatinina, urea, GFR, potasio, biometría), luego orina (proteínas) y al final imagen (ultrasonido). Con ese esquema no se te olvida nada."
+        }
+      ]
+    },
+    {
+      "id": "therapie",
+      "items": [
+        {
+          "id": "niereninsuffizienz.therapie.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur konservativen Therapie, um das Fortschreiten der Niereninsuffizienz zu verlangsamen?",
+              "options": [
+                "Gute Blutdruckeinstellung",
+                "Gute Blutzuckereinstellung",
+                "Regelmäßige Einnahme von NSAR",
+                "Meiden nephrotoxischer Medikamente",
+                "Salzreiche Ernährung"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Ziel der konservativen Therapie ist es, das Fortschreiten der Erkrankung zu verlangsamen und die Dialyse hinauszuzögern.",
+              "correct": true
+            }
+          ],
+          "es": "La konservative Therapie (tratamiento conservador) no cura, pero frena el avance: controlar muy bien la presión y la glucosa, evitar medicamentos nefrotóxicos y adaptar la dieta. La meta es retrasar la diálisis lo más posible."
+        },
+        {
+          "id": "niereninsuffizienz.therapie.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "match",
+              "q": "Ordne das Medikament seinem Zweck bei Niereninsuffizienz zu.",
+              "pairs": [
+                [
+                  "Schleifendiuretika",
+                  "fördern die Wasserausscheidung bei Ödemen"
+                ],
+                [
+                  "Phosphatbinder",
+                  "binden Phosphat aus der Nahrung im Darm"
+                ],
+                [
+                  "Erythropoetin",
+                  "behandelt die renale Anämie"
+                ],
+                [
+                  "ACE-Hemmer",
+                  "senken den Blutdruck und schützen die Niere"
+                ]
+              ]
+            },
+            {
+              "form": "mc",
+              "q": "Wann müssen Phosphatbinder eingenommen werden?",
+              "options": [
+                "Morgens nüchtern",
+                "Nur an Dialysetagen nach der Dialyse",
+                "Abends vor dem Schlafen",
+                "Zu den Mahlzeiten"
+              ],
+              "correct": 3
+            },
+            {
+              "form": "tf",
+              "q": "Phosphatbinder wirken am besten, wenn sie nüchtern zwei Stunden vor dem Essen eingenommen werden.",
+              "correct": false
+            }
+          ],
+          "es": "Los Phosphatbinder (quelantes de fosfato) atrapan el fosfato de la comida en el intestino, por eso solo sirven si se toman con los alimentos. Las Schleifendiuretika (diuréticos de asa) ayudan a eliminar agua, la eritropoyetina trata la anemia y los ACE-Hemmer (IECA) bajan la presión y protegen el riñón. Tu tarea: dar los medicamentos a la hora correcta y observar efectos y efectos secundarios."
+        },
+        {
+          "id": "niereninsuffizienz.therapie.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was geschieht bei der Hämodialyse?",
+              "options": [
+                "Das Blut wird außerhalb des Körpers in einem Dialysator gereinigt und zurückgeleitet",
+                "Die kranke Niere wird operativ entfernt",
+                "Der Urin wird über einen Katheter aus der Blase abgeleitet",
+                "Das Bauchfell wird als Filter benutzt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Die Hämodialyse wird in der Regel ___ pro Woche für jeweils etwa 4 bis 5 Stunden durchgeführt.",
+              "options": [
+                "einmal",
+                "dreimal",
+                "siebenmal",
+                "zehnmal"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Bei der Hämodialyse dient das Bauchfell des Patienten als Filtermembran.",
+              "correct": false
+            }
+          ],
+          "es": "En la Hämodialyse (hemodiálisis) la sangre sale del cuerpo, pasa por el Dialysator (filtro o “riñón artificial”), donde se quitan desechos y exceso de agua, y regresa al paciente. Normalmente se hace tres veces por semana, unas 4 a 5 horas, en un centro de diálisis."
+        },
+        {
+          "id": "niereninsuffizienz.therapie.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist ein Dialyseshunt?",
+              "options": [
+                "Ein Katheter in der Harnblase",
+                "Eine operativ angelegte Verbindung zwischen einer Arterie und einer Vene, meist am Unterarm",
+                "Ein Schlauch in der Bauchhöhle",
+                "Eine künstliche Verbindung zwischen Niere und Harnblase"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen sind am Shuntarm verboten?",
+              "options": [
+                "Blutdruck messen",
+                "Blut abnehmen (außer zur Dialyse)",
+                "Venenzugang legen",
+                "Das Schwirren tasten",
+                "Den Arm mit Wasser und Seife waschen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Am Shuntarm darf der Blutdruck gemessen werden, wenn die Manschette nur kurz aufgepumpt wird.",
+              "correct": false
+            }
+          ],
+          "es": "El Shunt (fístula arteriovenosa) une una arteria con una vena, casi siempre en el antebrazo, para tener un vaso grueso con mucho flujo para la diálisis. Regla de oro: en el Shuntarm (brazo de la fístula) nunca se toma la presión, no se saca sangre y no se canaliza, porque la fístula puede taparse o infectarse."
+        },
+        {
+          "id": "niereninsuffizienz.therapie.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Was ist typisch für die Peritonealdialyse?",
+              "options": [
+                "Sie findet nur auf der Intensivstation statt",
+                "Das Blut wird über einen Shunt in eine Maschine geleitet",
+                "Die Dialyselösung wird über einen Katheter in die Bauchhöhle geleitet, das Bauchfell dient als Filter",
+                "Sie wird nur einmal im Monat durchgeführt"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "mc",
+              "q": "Welche Komplikation ist bei der Peritonealdialyse besonders gefürchtet?",
+              "options": [
+                "Peritonitis (Bauchfellentzündung)",
+                "Schlaganfall",
+                "Thrombose des Shunts",
+                "Harnwegsinfekt"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "tf",
+              "q": "Die Peritonealdialyse kann der Patient nach einer Schulung selbstständig zu Hause durchführen.",
+              "correct": true
+            }
+          ],
+          "es": "En la Peritonealdialyse (diálisis peritoneal) el Bauchfell (peritoneo) funciona como filtro: la solución entra a la cavidad abdominal por un catéter y se cambia varias veces al día. El paciente la hace en casa. El riesgo principal es la Peritonitis, por eso se trabaja de forma estrictamente aséptica."
+        },
+        {
+          "id": "niereninsuffizienz.therapie.6",
+          "type": "sprech",
+          "q": "Welche Nierenersatzverfahren kennen Sie und welche Aufgaben hat die Pflege dabei?",
+          "answer": "Es gibt drei Verfahren: die Hämodialyse, die Peritonealdialyse und die Nierentransplantation. Bei der Hämodialyse wird das Blut dreimal pro Woche über einen Shunt in einem Dialysator gereinigt. Bei der Peritonealdialyse dient das Bauchfell als Filter, die Dialyselösung fließt über einen Katheter in die Bauchhöhle. Nach einer Transplantation muss der Patient lebenslang Immunsuppressiva einnehmen. Die Pflege kontrolliert Vitalzeichen und Gewicht, schützt den Shunt, arbeitet am Katheter aseptisch und beobachtet auf Infektionszeichen.",
+          "points": [
+            "Hämodialyse über Shunt",
+            "Peritonealdialyse über Bauchfell",
+            "Nierentransplantation",
+            "Immunsuppressiva lebenslang",
+            "Vitalzeichen und Gewicht",
+            "Shunt schützen"
+          ],
+          "es": "Nombra primero los tres procedimientos y explica cada uno en una frase. Después di qué hace enfermería: signos vitales y peso, cuidar la fístula, trabajo aséptico en el catéter y vigilar signos de infección. Después del trasplante el paciente toma Immunsuppressiva (inmunosupresores) de por vida."
+        }
+      ]
+    },
+    {
+      "id": "komplikationen",
+      "items": [
+        {
+          "id": "niereninsuffizienz.komplikationen.1",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist eine Hyperkaliämie lebensgefährlich?",
+              "options": [
+                "Sie führt zu Herzrhythmusstörungen bis zum Herzstillstand",
+                "Sie führt zu einer Unterzuckerung",
+                "Sie führt zu einem Darmverschluss",
+                "Sie führt zu einer Thrombose der Beinvenen"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Ein zu hoher Kaliumspiegel im Blut kann lebensbedrohliche ___ auslösen.",
+              "options": [
+                "Hautausschläge",
+                "Herzrhythmusstörungen",
+                "Gelenkschmerzen",
+                "Sehstörungen"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine Hyperkaliämie ist bei Niereninsuffizienz harmlos, weil das Kalium über den Darm ausgeschieden wird.",
+              "correct": false
+            }
+          ],
+          "es": "La Hyperkaliämie (hiperpotasemia) es la complicación aguda más peligrosa: el riñón ya no elimina el potasio, y el potasio alto altera el ritmo del corazón hasta el paro cardíaco. Por eso se vigila el pulso, se hace un EKG (electrocardiograma) y el paciente lleva dieta baja en potasio."
+        },
+        {
+          "id": "niereninsuffizienz.komplikationen.2",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche akute Komplikation droht bei einer starken Überwässerung?",
+              "options": [
+                "Lungenödem mit schwerer Atemnot",
+                "Austrocknung der Schleimhäute",
+                "Niedriger Blutdruck mit Kollaps",
+                "Gewichtsverlust"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Zeichen sprechen für ein Lungenödem?",
+              "options": [
+                "Schwere Atemnot, besonders im Liegen",
+                "Brodelnde, rasselnde Atemgeräusche",
+                "Langsamer, ruhiger Atem",
+                "Trockene, warme Haut ohne Beschwerden",
+                "Vermehrter Durst"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            }
+          ],
+          "es": "Si el paciente retiene demasiado líquido, el agua pasa a los pulmones: Lungenödem (edema pulmonar). Lo reconoces por la falta de aire intensa, sobre todo acostado, y los ruidos respiratorios burbujeantes. Es una urgencia: Oberkörper hochlagern (elevar el tronco), avisar al médico y dar oxígeno según indicación."
+        },
+        {
+          "id": "niereninsuffizienz.komplikationen.3",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie entsteht die renale Osteopathie?",
+              "options": [
+                "Durch zu viel Bewegung",
+                "Durch eine Infektion der Knochen mit Bakterien",
+                "Durch den Mangel an aktivem Vitamin D und den gestörten Calcium-Phosphat-Haushalt",
+                "Durch zu viel Erythropoetin"
+              ],
+              "correct": 2
+            },
+            {
+              "form": "tf",
+              "q": "Patienten mit chronischer Niereninsuffizienz haben ein erhöhtes Risiko für Knochenschmerzen und Knochenbrüche.",
+              "correct": true
+            }
+          ],
+          "es": "La renale Osteopathie (osteopatía renal) aparece porque el riñón enfermo ya no activa la vitamina D y retiene fosfato; el calcio baja y el hueso se debilita. El paciente tiene dolor de huesos y más riesgo de fracturas, por eso la Sturzprophylaxe (prevención de caídas) es tan importante."
+        },
+        {
+          "id": "niereninsuffizienz.komplikationen.4",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Welche Atmung ist typisch für die metabolische Azidose bei Urämie?",
+              "options": [
+                "Kussmaul-Atmung: tiefe, regelmäßige Atemzüge",
+                "Schnappatmung",
+                "Sehr flache, langsame Atmung",
+                "Atmung mit langen Pausen wie bei der Cheyne-Stokes-Atmung"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "cloze",
+              "q": "Weil die kranke Niere zu wenig Säuren ausscheidet, entsteht eine metabolische ___.",
+              "options": [
+                "Alkalose",
+                "Azidose",
+                "Hypoglykämie",
+                "Hypothermie"
+              ],
+              "correct": 1
+            }
+          ],
+          "es": "El riñón enfermo no elimina suficientes ácidos, y la sangre se vuelve ácida: metabolische Azidose (acidosis metabólica). El cuerpo trata de compensar eliminando CO2 con respiraciones profundas y regulares, la Kussmaul-Atmung (respiración de Kussmaul)."
+        },
+        {
+          "id": "niereninsuffizienz.komplikationen.5",
+          "type": "wissen",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche zwei Komplikationen können durch die Urämie im Endstadium entstehen?",
+              "options": [
+                "Perikarditis (Herzbeutelentzündung)",
+                "Bewusstseinsstörungen bis zum urämischen Koma",
+                "Schilddrüsenüberfunktion",
+                "Blinddarmentzündung",
+                "Grauer Star"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Herz-Kreislauf-Erkrankungen wie Herzinfarkt und Herzinsuffizienz sind bei Dialysepatienten selten.",
+              "correct": false
+            }
+          ],
+          "es": "Sin tratamiento, la uremia daña el corazón y el cerebro: puede haber Perikarditis (pericarditis) y alteraciones de la conciencia hasta el urämisches Koma (coma urémico). Además, los pacientes renales mueren con mucha frecuencia de enfermedades cardiovasculares, por la hipertensión y el daño de los vasos."
+        },
+        {
+          "id": "niereninsuffizienz.komplikationen.6",
+          "type": "sprech",
+          "q": "Welche Komplikationen können bei einer chronischen Niereninsuffizienz auftreten?",
+          "answer": "Die gefährlichste akute Komplikation ist die Hyperkaliämie, weil sie Herzrhythmusstörungen bis zum Herzstillstand auslösen kann. Durch die Überwässerung drohen ein Lungenödem und eine Herzinsuffizienz. Außerdem entstehen eine renale Anämie, eine metabolische Azidose und eine renale Osteopathie mit erhöhtem Frakturrisiko. Im Endstadium kann die Urämie zu einer Perikarditis und zum urämischen Koma führen. Dialysepatienten sind zusätzlich durch Infektionen und Shuntverschluss gefährdet.",
+          "points": [
+            "Hyperkaliämie mit Herzrhythmusstörungen",
+            "Lungenödem",
+            "renale Anämie",
+            "renale Osteopathie",
+            "urämisches Koma",
+            "Infektionen und Shuntverschluss"
+          ],
+          "es": "Empieza con lo que pone en peligro la vida: potasio alto y edema pulmonar. Luego nombra las complicaciones crónicas (anemia, acidosis, huesos) y al final las de la etapa terminal y de la diálisis. Explica cada una con una palabra de causa, eso da puntos."
+        }
+      ]
+    },
+    {
+      "id": "pflegemassnahmen",
+      "items": [
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.1",
+          "type": "sprech",
+          "sub": "beobachten",
+          "q": "Was beobachten Sie bei einem Patienten mit chronischer Niereninsuffizienz?",
+          "answer": "Ich kontrolliere regelmäßig die Vitalzeichen, also Blutdruck, Puls und Atmung, weil Bluthochdruck, Herzrhythmusstörungen und Atemnot auftreten können. Ich führe eine Flüssigkeitsbilanz und wiege den Patienten täglich, um eine Überwässerung früh zu erkennen. Ich beobachte Ödeme, die Urinmenge und das Aussehen des Urins. Außerdem achte ich auf die Haut, zum Beispiel auf Kratzspuren, und auf das Bewusstsein. Bei Dialysepatienten kontrolliere ich das Schwirren am Shunt. Auffälligkeiten dokumentiere ich und melde sie dem Arzt.",
+          "points": [
+            "Vitalzeichen kontrollieren",
+            "Flüssigkeitsbilanz",
+            "tägliches Wiegen",
+            "Ödeme und Urin",
+            "Haut und Bewusstsein",
+            "Shunt kontrollieren"
+          ],
+          "es": "La Krankenbeobachtung (observación del paciente) aquí gira alrededor del líquido y del potasio: signos vitales, balance, peso diario, edemas y orina. Suma piel y estado de conciencia por la uremia, y el Schwirren (frémito, la vibración de la fístula) en pacientes con diálisis. No olvides decir que documentas y avisas al médico."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.2",
+          "type": "wissen",
+          "sub": "beobachten",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wiegen Sie einen Patienten mit Niereninsuffizienz korrekt?",
+              "options": [
+                "Einmal pro Woche zu einer beliebigen Tageszeit",
+                "Täglich zur gleichen Zeit, mit der gleichen Waage und in gleicher Kleidung",
+                "Immer direkt nach dem Mittagessen",
+                "Nur wenn der Patient es wünscht"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "tf",
+              "q": "Eine schnelle Gewichtszunahme innerhalb weniger Tage spricht bei Niereninsuffizienz für eine Wassereinlagerung.",
+              "correct": true
+            },
+            {
+              "form": "multi",
+              "q": "Welche zwei Angaben gehören in eine Flüssigkeitsbilanz?",
+              "options": [
+                "Einfuhr: Getränke, Suppen und Infusionen",
+                "Ausfuhr: Urin, Erbrochenes und Drainagen",
+                "Die Körpergröße des Patienten",
+                "Die Schlafdauer in der Nacht",
+                "Die Zahl der Besucher"
+              ],
+              "correct": [
+                0,
+                1
+              ]
+            }
+          ],
+          "es": "El peso diario es la forma más sencilla de ver si el paciente retiene líquido: siempre a la misma hora, con la misma báscula y la misma ropa, de preferencia en la mañana después de orinar. En la Flüssigkeitsbilanz (balance de líquidos) comparas Einfuhr (ingresos) y Ausfuhr (egresos) de 24 horas."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.3",
+          "type": "sprech",
+          "sub": "ernaehrung",
+          "q": "Worauf achten Sie bei der Ernährung eines Patienten mit chronischer Niereninsuffizienz?",
+          "answer": "Die Ernährung richtet sich nach dem Stadium und der ärztlichen Anordnung, deshalb arbeite ich mit der Ernährungsberatung zusammen. Die Kost ist kaliumarm, phosphatarm und natriumarm, also salzarm. Vor der Dialyse ist die Eiweißzufuhr kontrolliert und nicht zu hoch, Dialysepatienten brauchen dagegen eiweißreiche Kost, weil sie bei der Dialyse Eiweiß verlieren. Die Trinkmenge ist bei geringer Ausscheidung beschränkt, deshalb verteile ich sie über den Tag und dokumentiere sie. Ich achte außerdem auf eine ausreichende Kalorienzufuhr, weil viele Patienten appetitlos sind.",
+          "points": [
+            "kaliumarm",
+            "phosphatarm",
+            "salzarm",
+            "Eiweiß nach Stadium",
+            "Trinkmenge beschränken",
+            "Ernährungsberatung"
+          ],
+          "es": "La dieta renal es baja en potasio (por las arritmias), baja en fosfato (por los huesos) y baja en sodio (por edemas e hipertensión). Ojo con las proteínas: antes de la diálisis se controlan y no se dan de más; con diálisis la dieta es eiweißreich (rica en proteínas), porque en la diálisis se pierden. Di siempre que depende de la etapa y de la indicación médica."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.4",
+          "type": "wissen",
+          "sub": "ernaehrung",
+          "variants": [
+            {
+              "form": "multi",
+              "q": "Welche drei Lebensmittel sind kaliumreich und sollen bei Hyperkaliämie-Gefahr gemieden werden?",
+              "options": [
+                "Bananen",
+                "Trockenobst",
+                "Nüsse",
+                "Weißbrot",
+                "Reis"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Diätsalz (Kochsalzersatz) ist für Patienten mit Niereninsuffizienz gut geeignet, weil es kein Natrium enthält.",
+              "correct": false
+            },
+            {
+              "form": "mc",
+              "q": "Wie kann der Kaliumgehalt von Kartoffeln und Gemüse gesenkt werden?",
+              "options": [
+                "Klein schneiden, in viel Wasser kochen und das Kochwasser wegschütten",
+                "Im eigenen Saft dünsten und den Saft mittrinken",
+                "Roh essen",
+                "Mit Diätsalz würzen"
+              ],
+              "correct": 0
+            }
+          ],
+          "es": "Tienen mucho potasio: plátano, Trockenobst (fruta seca), nueces, jugos de fruta y verdura, papas y jitomate. El potasio se disuelve en el agua, por eso las papas y verduras se cuecen en mucha agua y esa agua se tira. El Diätsalz (sustituto de sal) está prohibido, porque en lugar de sodio contiene potasio."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.5",
+          "type": "wissen",
+          "sub": "ernaehrung",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Wie wird die erlaubte tägliche Trinkmenge bei Dialysepatienten in der Regel berechnet?",
+              "options": [
+                "Urinmenge des Vortags plus etwa 500 ml",
+                "Immer mindestens 3 Liter",
+                "Körpergewicht in Kilogramm mal 100 ml",
+                "So viel, wie der Patient möchte"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Tipps helfen gegen Durst bei Trinkmengenbeschränkung?",
+              "options": [
+                "Eiswürfel oder gefrorene Zitronenstückchen lutschen",
+                "Zuckerfreien Kaugummi kauen",
+                "Stark gesalzene Speisen essen",
+                "Kleine Gläser benutzen und die Trinkmenge über den Tag verteilen",
+                "Süße Limonaden trinken"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Suppen, Soßen und Joghurt müssen bei einer Trinkmengenbeschränkung zur Flüssigkeitsmenge dazugerechnet werden.",
+              "correct": true
+            }
+          ],
+          "es": "La regla general para pacientes con diálisis es: orina del día anterior más unos 500 ml; la cantidad exacta la indica el médico. Los alimentos líquidos (sopas, salsas, yogur) cuentan como líquido. Contra la sed ayudan los cubitos de hielo, el chicle sin azúcar, vasos pequeños y comer con poca sal."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.6",
+          "type": "sprech",
+          "sub": "mobilisation",
+          "q": "Was beachten Sie bei der Mobilisation eines Patienten mit chronischer Niereninsuffizienz?",
+          "answer": "Viele Patienten sind durch die renale Anämie müde und wenig belastbar. Deshalb passe ich die Mobilisation an die Belastbarkeit an und plane Pausen ein. Vor und während der Mobilisation kontrolliere ich Puls, Blutdruck und Atmung, besonders nach der Dialyse, weil der Blutdruck dann niedrig sein kann. Wegen Schwindel und der brüchigen Knochen besteht Sturzgefahr, also achte ich auf festes Schuhwerk und begleite den Patienten. Trotzdem fördere ich regelmäßige Bewegung, um Kraft und Selbstständigkeit zu erhalten. Den Shuntarm belaste ich beim Transfer nicht.",
+          "points": [
+            "Belastbarkeit beachten",
+            "Pausen einplanen",
+            "Vitalzeichen kontrollieren",
+            "Sturzgefahr",
+            "Bewegung fördern",
+            "Shuntarm nicht belasten"
+          ],
+          "es": "La movilización se adapta a la fuerza del paciente: por la anemia se cansa rápido y después de la diálisis puede tener la presión baja y mareo. Combina dos ideas: proteger (pausas, signos vitales, prevenir caídas, no cargar el brazo de la fístula) y fomentar el movimiento para conservar la independencia."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.7",
+          "type": "sprech",
+          "sub": "koerperpflege",
+          "q": "Wie führen Sie die Körperpflege bei einem Patienten mit urämischem Juckreiz durch?",
+          "answer": "Die Haut ist bei diesen Patienten trocken und juckt stark. Ich wasche mit lauwarmem Wasser und pH-neutralen, rückfettenden Waschzusätzen und tupfe die Haut trocken, ohne zu reiben. Danach creme ich die Haut mit einer rückfettenden Lotion ein. Die Fingernägel halte ich kurz, damit keine Kratzwunden und Infektionen entstehen. Kühle Umschläge können den Juckreiz lindern. Ich beobachte die Haut täglich und führe eine sorgfältige Mundpflege durch, weil der Mund trocken ist und unangenehm riecht.",
+          "points": [
+            "lauwarmes Wasser",
+            "rückfettende Hautpflege",
+            "trocken tupfen",
+            "Fingernägel kurz",
+            "kühle Umschläge",
+            "Mundpflege"
+          ],
+          "es": "La comezón urémica empeora con el agua caliente y con jabones que resecan. Por eso: agua tibia, productos rückfettend (que devuelven grasa a la piel), secar con toquecitos y poner loción. Las uñas cortas evitan heridas por rascado, que se infectan fácil. Menciona también la Mundpflege (cuidado de la boca) por la boca seca y el aliento urémico."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.8",
+          "type": "sprech",
+          "sub": "bekleidung",
+          "q": "Worauf achten Sie bei der Kleidung eines Patienten mit Niereninsuffizienz und Dialyseshunt?",
+          "answer": "Ich empfehle lockere, luftdurchlässige Kleidung aus Baumwolle, weil Wolle und Synthetik den Juckreiz verstärken. Die Kleidung darf nicht einschnüren, zum Beispiel keine engen Strümpfe oder Bündchen bei Ödemen. Am Shuntarm trägt der Patient keine engen Ärmel, keine Armbanduhr und keinen Schmuck, damit der Shunt nicht abgedrückt wird. Wegen der Sturzgefahr achte ich auf feste, geschlossene Schuhe. Viele Patienten frieren durch die Anämie leicht, deshalb achte ich auf warme Kleidung.",
+          "points": [
+            "Baumwolle",
+            "nicht einschnürend",
+            "Shuntarm frei",
+            "keine Uhr am Shuntarm",
+            "feste Schuhe",
+            "warme Kleidung"
+          ],
+          "es": "Piensa en tres problemas: comezón (algodón, ropa suelta), edemas (nada que apriete) y fístula (nada apretado en ese brazo, ni reloj ni pulseras, para que no se tape). Agrega zapatos firmes por el riesgo de caídas y ropa abrigadora, porque con anemia el paciente siente frío."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.9",
+          "type": "sprech",
+          "sub": "beraten",
+          "q": "Wie beraten Sie einen Patienten zum Umgang mit seinem Dialyseshunt?",
+          "answer": "Ich erkläre dem Patienten, dass der Shunt seine Lebensader für die Dialyse ist. Am Shuntarm dürfen kein Blutdruck gemessen, kein Blut abgenommen und keine Venenzugänge gelegt werden, darauf soll er auch selbst hinweisen. Er soll keine schweren Lasten mit diesem Arm tragen, nicht auf dem Arm schlafen und keine enge Kleidung oder Uhr tragen. Er kontrolliert täglich das Schwirren, indem er den Shunt tastet. Den Arm hält er sauber und schützt ihn vor Verletzungen. Wenn das Schwirren fehlt oder der Arm gerötet, geschwollen oder schmerzhaft ist, meldet er sich sofort im Dialysezentrum.",
+          "points": [
+            "kein Blutdruckmessen",
+            "keine Blutentnahme",
+            "keine schweren Lasten",
+            "Schwirren täglich tasten",
+            "Hygiene und Verletzungsschutz",
+            "Veränderungen sofort melden"
+          ],
+          "es": "Este tema casi siempre lo preguntan. El paciente debe conocer las prohibiciones (presión, tomas de sangre, cargar, dormir sobre el brazo, ropa apretada) y saber revisar su fístula: si ya no siente el Schwirren, puede estar tapada y debe avisar de inmediato al Dialysezentrum (centro de diálisis)."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.10",
+          "type": "sprech",
+          "sub": "prophylaxen",
+          "q": "Welche Prophylaxen sind bei einem Patienten mit chronischer Niereninsuffizienz besonders wichtig? Begründen Sie.",
+          "answer": "Wichtig ist die Infektionsprophylaxe, weil die Abwehr durch die Urämie geschwächt ist und Shunt oder Katheter Eintrittspforten sind. Die Dekubitusprophylaxe ist nötig, weil die Haut trocken, ödematös und schlecht durchblutet ist. Wegen Schwäche, Schwindel und brüchigen Knochen führe ich eine Sturzprophylaxe durch. Die Pneumonieprophylaxe ist wichtig, weil die Patienten bei Überwässerung und Müdigkeit flach atmen und wenig mobil sind. Bei Trinkmengenbeschränkung ist der Mund trocken, deshalb führe ich eine Soor- und Parotitisprophylaxe mit sorgfältiger Mundpflege durch.",
+          "points": [
+            "Infektionsprophylaxe",
+            "Dekubitusprophylaxe",
+            "Sturzprophylaxe",
+            "Pneumonieprophylaxe",
+            "Soor- und Parotitisprophylaxe"
+          ],
+          "es": "No basta con enumerar: di el porqué de cada una. Infektionsprophylaxe (prevención de infecciones) por las defensas bajas y los accesos; Dekubitusprophylaxe por la piel con edemas; Sturzprophylaxe por debilidad y huesos frágiles; Pneumonieprophylaxe (prevención de neumonía) por la respiración superficial; Soor- und Parotitisprophylaxe (prevención de candidiasis oral y parotiditis) por la boca seca."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.11",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum ist bei Trinkmengenbeschränkung eine Soor- und Parotitisprophylaxe nötig?",
+              "options": [
+                "Weil der Patient zu viel Speichel bildet",
+                "Weil die Mundschleimhaut austrocknet und der Speichelfluss vermindert ist",
+                "Weil die Zähne durch die Dialyse ausfallen",
+                "Weil der Patient nicht mehr schlucken kann"
+              ],
+              "correct": 1
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Soor- und Parotitisprophylaxe?",
+              "options": [
+                "Regelmäßige Mundpflege und Inspektion der Mundhöhle",
+                "Speichelfluss anregen, zum Beispiel durch zuckerfreien Kaugummi",
+                "Mund ausspülen, ohne die Flüssigkeit zu schlucken",
+                "Mundschleimhaut mit Alkohol abreiben",
+                "Zahnprothese Tag und Nacht im Mund lassen"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Kauen regt den Speichelfluss an und beugt so einer Entzündung der Ohrspeicheldrüse vor.",
+              "correct": true
+            }
+          ],
+          "es": "Si el paciente toma poco líquido, la boca se seca y hay menos saliva. Entonces crecen más fácil los hongos (Soor, candidiasis oral) y puede inflamarse la Ohrspeicheldrüse (glándula parótida), es decir, Parotitis. Se previene con buena higiene bucal, revisando la boca y estimulando la saliva al masticar."
+        },
+        {
+          "id": "niereninsuffizienz.pflegemassnahmen.12",
+          "type": "wissen",
+          "sub": "prophylaxen",
+          "variants": [
+            {
+              "form": "mc",
+              "q": "Warum haben Patienten mit Niereninsuffizienz ein erhöhtes Infektionsrisiko?",
+              "options": [
+                "Weil die Urämie die Immunabwehr schwächt und Shunt oder Katheter Eintrittspforten für Keime sind",
+                "Weil sie zu viele weiße Blutkörperchen haben",
+                "Weil sie zu viel trinken",
+                "Weil Diuretika Bakterien enthalten"
+              ],
+              "correct": 0
+            },
+            {
+              "form": "multi",
+              "q": "Welche drei Maßnahmen gehören zur Infektionsprophylaxe bei Dialysepatienten?",
+              "options": [
+                "Hygienische Händedesinfektion vor jedem Kontakt mit Shunt oder Katheter",
+                "Aseptischer Verbandwechsel an der Katheteraustrittsstelle",
+                "Beobachtung auf Rötung, Schwellung, Schmerz und Fieber",
+                "Shuntpunktionsstellen mit den Fingern abtasten, ohne die Hände zu desinfizieren",
+                "Verband nur einmal im Monat wechseln"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "form": "tf",
+              "q": "Am Dialysekatheter und an der Katheteraustrittsstelle wird immer aseptisch gearbeitet.",
+              "correct": true
+            }
+          ],
+          "es": "La uremia debilita las defensas, y la fístula o el catéter son puertas de entrada para los gérmenes. Por eso la Händedesinfektion (desinfección de manos) y el trabajo aseptisch (aséptico) son obligatorios, y se vigilan los signos de infección: enrojecimiento, hinchazón, dolor y fiebre."
+        }
+      ]
+    },
+    {
+      "id": "pflegeplanung",
+      "items": [
+        {
+          "id": "niereninsuffizienz.pflegeplanung.1",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei chronischer Niereninsuffizienz zum Thema Flüssigkeitshaushalt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat wegen der verminderten Urinausscheidung Ödeme und es besteht die Gefahr einer Überwässerung mit Atemnot. Ziel: Der Patient hält in den nächsten sieben Tagen jeden Tag die verordnete Trinkmenge ein und sein Gewicht bleibt in dieser Zeit im ärztlich festgelegten Bereich. Maßnahmen: Ich führe täglich eine Flüssigkeitsbilanz und wiege den Patienten jeden Morgen unter gleichen Bedingungen. Ich teile die Trinkmenge mit dem Patienten über den Tag ein und lindere den Durst zum Beispiel mit Eiswürfeln. Ich kontrolliere Ödeme, Blutdruck und Atmung und informiere bei Auffälligkeiten den Arzt.",
+          "points": [
+            "Gefahr der Überwässerung",
+            "Trinkmenge wird eingehalten",
+            "Flüssigkeitsbilanz",
+            "tägliches Wiegen",
+            "Trinkmenge einteilen",
+            "Ödeme und Atmung kontrollieren"
+          ],
+          "es": "Es el problema de enfermería más típico de esta enfermedad. Fíjate en la estructura Problem – Ziel – Maßnahmen (problema, meta, medidas). La meta es medible (cantidad de líquido indicada, peso) y tiene plazo (7 días). Las medidas centrales son balance, peso diario y repartir los líquidos."
+        },
+        {
+          "id": "niereninsuffizienz.pflegeplanung.2",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei chronischer Niereninsuffizienz zum Thema Haut und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient leidet wegen der Urämie unter starkem Juckreiz und trockener Haut, dadurch besteht die Gefahr von Kratzwunden und Hautinfektionen. Ziel: Die Haut des Patienten ist in den nächsten 14 Tagen intakt und ohne neue Kratzspuren, und der Patient gibt innerhalb einer Woche an, dass der Juckreiz geringer ist. Maßnahmen: Ich wasche die Haut mit lauwarmem Wasser und pH-neutralen Produkten und creme sie zweimal täglich mit einer rückfettenden Lotion ein. Ich halte die Fingernägel kurz und empfehle lockere Baumwollkleidung. Ich inspiziere die Haut täglich und dokumentiere den Hautzustand.",
+          "points": [
+            "Juckreiz und trockene Haut",
+            "Haut intakt",
+            "rückfettende Hautpflege",
+            "Fingernägel kurz",
+            "Baumwollkleidung",
+            "tägliche Hautinspektion"
+          ],
+          "es": "Aquí el problema tiene causa (uremia) y riesgo (heridas por rascado e infección). La meta se puede comprobar: piel íntegra sin nuevas marcas en 14 días y menos comezón según el paciente. Las medidas son las del cuidado de la piel que ya conoces."
+        },
+        {
+          "id": "niereninsuffizienz.pflegeplanung.3",
+          "type": "sprech",
+          "q": "Nennen Sie ein typisches Pflegeproblem bei einem Dialysepatienten mit Shunt und formulieren Sie dazu ein Ziel und Maßnahmen.",
+          "answer": "Problem: Der Patient hat einen Dialyseshunt, dadurch besteht die Gefahr einer Infektion und eines Shuntverschlusses, und er kennt die Verhaltensregeln noch nicht ausreichend. Ziel: Der Shunt ist während des gesamten Aufenthalts funktionsfähig und reizlos, und der Patient nennt innerhalb von drei Tagen mindestens vier Verhaltensregeln für den Shuntarm. Maßnahmen: Ich kontrolliere einmal pro Schicht das Schwirren und beobachte den Shuntarm auf Rötung, Schwellung und Schmerzen. Am Shuntarm messe ich keinen Blutdruck und nehme kein Blut ab, der Arm wird im Zimmer gekennzeichnet. Ich berate den Patienten zum Umgang mit dem Shunt und lasse ihn die Selbstkontrolle zeigen.",
+          "points": [
+            "Gefahr von Infektion und Shuntverschluss",
+            "Shunt funktionsfähig und reizlos",
+            "Schwirren kontrollieren",
+            "kein Blutdruck am Shuntarm",
+            "Patienten beraten"
+          ],
+          "es": "Este problema une observación y Beratung (asesoría). La meta tiene dos partes medibles: la fístula funciona y no está irritada durante toda la estancia, y el paciente puede decir al menos cuatro reglas en tres días. Recuerda las medidas clave: revisar el Schwirren, proteger el brazo y enseñar al paciente."
+        },
+        {
+          "id": "niereninsuffizienz.pflegeplanung.4",
+          "type": "sprech",
+          "q": "Was bedeutet SMART bei der Formulierung von Pflegezielen? Erklären Sie es an einem Beispiel bei chronischer Niereninsuffizienz.",
+          "answer": "SMART bedeutet, dass ein Pflegeziel spezifisch, messbar, akzeptiert, realistisch und terminiert ist. Das Ziel beschreibt also genau, was der Patient erreichen soll, es ist überprüfbar und hat einen Zeitpunkt. Es wird aus der Sicht des Patienten und als erreichter Zustand formuliert. Ein Beispiel bei Niereninsuffizienz ist: Der Patient hält in den nächsten sieben Tagen täglich die verordnete Trinkmenge ein. Dieses Ziel ist konkret, ich kann es mit der Flüssigkeitsbilanz messen, es ist erreichbar und hat einen klaren Zeitrahmen. Am festgelegten Termin überprüfe ich in der Evaluation, ob das Ziel erreicht wurde.",
+          "points": [
+            "spezifisch",
+            "messbar",
+            "akzeptiert",
+            "realistisch",
+            "terminiert",
+            "Beispiel Trinkmenge"
+          ],
+          "es": "SMART es una regla para escribir metas: spezifisch (específica), messbar (medible), akzeptiert (aceptada por el paciente), realistisch (realista) y terminiert (con fecha). Explica cada letra y da un ejemplo de esta enfermedad, como la meta de la cantidad de líquido, y di cómo la mides: con el balance de líquidos."
+        }
+      ]
+    }
+  ]
+}
